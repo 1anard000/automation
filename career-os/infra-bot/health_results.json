@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-07T21:49:38.722960",
+  "checks": [
+    {
+      "name": "GitHub Pages",
+      "status": "error",
+      "details": "'ascii' codec can't encode characters in position 27-32: ordinal not in range(128)",
+      "auto_fixable": false
+    },
+    {
+      "name": "Cron Jobs",
+      "status": "healthy",
+      "details": "11 jobs active",
+      "auto_fixable": false,
+      "issues": []
+    },
+    {
+      "name": "Database",
+      "status": "error",
+      "details": "jobs-all.json not found",
+      "auto_fixable": true
+    },
+    {
+      "name": "CRM",
+      "status": "warning",
+      "details": "API not responding (may not be running)",
+      "auto_fixable": false
+    },
+    {
+      "name": "Cover Letters",
+      "status": "warning",
+      "details": "Cover letters directory not found",
+      "auto_fixable": true
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "healthy": 1,
+    "warnings": 2,
+    "errors": 2,
+    "auto_fixable": 2
+  }
+}

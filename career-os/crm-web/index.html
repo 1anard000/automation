@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal CRM - Career OS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            900: '#0f0f0f',
+                            800: '#1a1a1a',
+                            700: '#2a2a2a',
+                            600: '#3a3a3a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+            min-height: 100vh;
+        }
+        .health-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .health-excellent { background-color: #22c55e; }
+        .health-good { background-color: #84cc16; }
+        .health-fair { background-color: #f59e0b; }
+        .health-poor { background-color: #ef4444; }
+        .card-hover:hover {
+            transform: translateY(-2px);
+            transition: all 0.2s ease;
+        }
+    </style>
+</head>
+<body class="text-gray-100">
+    <!-- Header -->
+    <header class="bg-dark-800 border-b border-dark-600 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-4">
+                    <h1 class="text-2xl font-bold text-white">🤝 Personal CRM</h1>
+                    <nav class="hidden md:flex space-x-4">
+                        <a href="index.html" class="text-white hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Dashboard</a>
+                        <a href="search.html" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Search</a>
+                    </nav>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <button onclick="showAddContactModal()" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition">
+                        + Add Contact
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- Search Bar -->
+        <div class="mb-8">
+            <div class="relative">
+                <input 
+                    type="text" 
+                    id="quickSearch"
+                    placeholder="Search contacts... (try: 'who at NVIDIA?' or 'engineers')"
+                    class="w-full bg-dark-800 border border-dark-600 rounded-lg py-3 px-4 pl-12 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    oninput="handleQuickSearch(this.value)"
+                />
+                <svg class="absolute left-4 top-3.5 h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                </svg>
+            </div>
+            <div id="searchResults" class="hidden mt-2 bg-dark-800 border border-dark-600 rounded-lg shadow-lg"></div>
+        </div>
+
+        <!-- Dashboard Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+            <!-- Relationship Health Chart -->
+            <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+                <h2 class="text-lg font-semibold mb-4">Relationship Health</h2>
+                <div class="flex justify-center mb-4">
+                    <canvas id="healthChart" width="200" height="200"></canvas>
+                </div>
+                <div class="grid grid-cols-2 gap-2 text-sm">
+                    <div class="flex items-center"><span class="health-dot health-excellent mr-2"></span>Excellent: <span id="countExcellent" class="ml-1 font-medium">0</span></div>
+                    <div class="flex items-center"><span class="health-dot health-good mr-2"></span>Good: <span id="countGood" class="ml-1 font-medium">0</span></div>
+                    <div class="flex items-center"><span class="health-dot health-fair mr-2"></span>Fair: <span id="countFair" class="ml-1 font-medium">0</span></div>
+                    <div class="flex items-center"><span class="health-dot health-poor mr-2"></span>Poor: <span id="countPoor" class="ml-1 font-medium">0</span></div>
+                </div>
+            </div>
+
+            <!-- Stale Relationships -->
+            <div class="bg-dark-800 rounded-xl p-6 border border-dark-600 lg:col-span-2">
+                <h2 class="text-lg font-semibold mb-4">⚠️ Stale Relationships</h2>
+                <div id="staleRelationships" class="space-y-3">
+                    <div class="text-gray-400 text-sm">Loading...</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+            <!-- Upcoming Follow-ups -->
+            <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+                <h2 class="text-lg font-semibold mb-4">📅 Upcoming Follow-ups</h2>
+                <div id="upcomingFollowups" class="space-y-3">
+                    <div class="text-gray-400 text-sm">Loading...</div>
+                </div>
+            </div>
+
+            <!-- Recent Interactions -->
+            <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+                <h2 class="text-lg font-semibold mb-4">💬 Recent Interactions</h2>
+                <div id="recentInteractions" class="space-y-3">
+                    <div class="text-gray-400 text-sm">Loading...</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Add Contact Modal -->
+    <div id="addContactModal" class="hidden fixed inset-0 bg-black bg-opacity-75 z-50 flex items-center justify-center p-4">
+        <div class="bg-dark-800 rounded-xl p-6 w-full max-w-md border border-dark-600">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="text-xl font-semibold">Add New Contact</h3>
+                <button onclick="hideAddContactModal()" class="text-gray-400 hover:text-white">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+            <form id="addContactForm" onsubmit="handleAddContact(event)">
+                <div class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-1">Name *</label>
+                        <input type="text" name="name" required class="w-full bg-dark-700 border border-dark-600 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-2 focus:ring-green-500">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-1">Email</label>
+                        <input type="email" name="email" class="w-full bg-dark-700 border border-dark-600 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-2 focus:ring-green-500">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-1">Company</label>
+                        <input type="text" name="company" class="w-full bg-dark-700 border border-dark-600 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-2 focus:ring-green-500">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-1">Title</label>
+                        <input type="text" name="title" class="w-full bg-dark-700 border border-dark-600 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-2 focus:ring-green-500">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-1">How We Met</label>
+                        <textarea name="how_we_met" rows="2" class="w-full bg-dark-700 border border-dark-600 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+                    </div>
+                    <div class="flex space-x-3 pt-4">
+                        <button type="submit" class="flex-1 bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg font-medium transition">Add Contact</button>
+                        <button type="button" onclick="hideAddContactModal()" class="flex-1 bg-dark-700 hover:bg-dark-600 text-white py-2 px-4 rounded-lg font-medium transition">Cancel</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:5000';
+
+        // Initialize dashboard
+        document.addEventListener('DOMContentLoaded', () => {
+            loadDashboard();
+        });
+
+        async function loadDashboard() {
+            await loadHealthStats();
+            await loadStaleRelationships();
+            await loadUpcomingFollowups();
+            await loadRecentInteractions();
+        }
+
+        async function loadHealthStats() {
+            try {
+                const response = await fetch(`${API_BASE}/api/contacts`);
+                const contacts = await response.json();
+                
+                const healthCounts = { excellent: 0, good: 0, fair: 0, poor: 0 };
+                
+                contacts.forEach(contact => {
+                    const score = contact.relationship_health_score || 50;
+                    if (score >= 80) healthCounts.excellent++;
+                    else if (score >= 60) healthCounts.good++;
+                    else if (score >= 40) healthCounts.fair++;
+                    else healthCounts.poor++;
+                });
+
+                document.getElementById('countExcellent').textContent = healthCounts.excellent;
+                document.getElementById('countGood').textContent = healthCounts.good;
+                document.getElementById('countFair').textContent = healthCounts.fair;
+                document.getElementById('countPoor').textContent = healthCounts.poor;
+
+                drawHealthChart(healthCounts);
+            } catch (error) {
+                console.error('Error loading health stats:', error);
+            }
+        }
+
+        function drawHealthChart(counts) {
+            const canvas = document.getElementById('healthChart');
+            const ctx = canvas.getContext('2d');
+            const total = counts.excellent + counts.good + counts.fair + counts.poor || 1;
+            
+            const colors = ['#22c55e', '#84cc16', '#f59e0b', '#ef4444'];
+            const data = [counts.excellent, counts.good, counts.fair, counts.poor];
+            
+            let startAngle = 0;
+            const centerX = canvas.width / 2;
+            const centerY = canvas.height / 2;
+            const radius = Math.min(centerX, centerY) - 10;
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            data.forEach((value, index) => {
+                const sliceAngle = (value / total) * 2 * Math.PI;
+                
+                ctx.beginPath();
+                ctx.moveTo(centerX, centerY);
+                ctx.arc(centerX, centerY, radius, startAngle, startAngle + sliceAngle);
+                ctx.closePath();
+                ctx.fillStyle = colors[index];
+                ctx.fill();
+                
+                startAngle += sliceAngle;
+            });
+
+            // Draw center circle for donut effect
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, radius * 0.6, 0, 2 * Math.PI);
+            ctx.fillStyle = '#1a1a1a';
+            ctx.fill();
+        }
+
+        async function loadStaleRelationships() {
+            try {
+                const response = await fetch(`${API_BASE}/api/contacts/stale`);
+                const contacts = await response.json();
+                
+                const container = document.getElementById('staleRelationships');
+                
+                if (contacts.length === 0) {
+                    container.innerHTML = '<div class="text-gray-400 text-sm">No stale relationships!</div>';
+                    return;
+                }
+
+                container.innerHTML = contacts.slice(0, 5).map(contact => `
+                    <div class="flex items-center justify-between p-3 bg-dark-700 rounded-lg card-hover cursor-pointer" onclick="window.location.href='contact.html?id=${contact.id}'">
+                        <div class="flex items-center space-x-3">
+                            <span class="health-dot health-${getHealthClass(contact.relationship_health_score)}"></span>
+                            <div>
+                                <div class="font-medium">${contact.name}</div>
+                                <div class="text-sm text-gray-400">${contact.company || 'No company'} • Last: ${formatDate(contact.last_contact_date)}</div>
+                            </div>
+                        </div>
+                        <div class="text-sm text-gray-400">${getDaysSince(contact.last_contact_date)}d ago</div>
+                    </div>
+                `).join('');
+            } catch (error) {
+                console.error('Error loading stale relationships:', error);
+                document.getElementById('staleRelationships').innerHTML = '<div class="text-red-400 text-sm">Error loading data</div>';
+            }
+        }
+
+        async function loadUpcomingFollowups() {
+            try {
+                const response = await fetch(`${API_BASE}/api/reminders/upcoming`);
+                const reminders = await response.json();
+                
+                const container = document.getElementById('upcomingFollowups');
+                
+                if (reminders.length === 0) {
+                    container.innerHTML = '<div class="text-gray-400 text-sm">No upcoming follow-ups</div>';
+                    return;
+                }
+
+                container.innerHTML = reminders.slice(0, 5).map(reminder => `
+                    <div class="flex items-center justify-between p-3 bg-dark-700 rounded-lg">
+                        <div>
+                            <div class="font-medium">${reminder.contact_name || 'Contact'}</div>
+                            <div class="text-sm text-gray-400">${reminder.note || 'Follow up'}</div>
+                        </div>
+                        <div class="text-sm ${isOverdue(reminder.due_date) ? 'text-red-400' : 'text-yellow-400'}">
+                            ${formatReminderDate(reminder.due_date)}
+                        </div>
+                    </div>
+                `).join('');
+            } catch (error) {
+                console.error('Error loading follow-ups:', error);
+                document.getElementById('upcomingFollowups').innerHTML = '<div class="text-red-400 text-sm">Error loading data</div>';
+            }
+        }
+
+        async function loadRecentInteractions() {
+            try {
+                const response = await fetch(`${API_BASE}/api/interactions/recent?limit=10`);
+                const interactions = await response.json();
+                
+                const container = document.getElementById('recentInteractions');
+                
+                if (interactions.length === 0) {
+                    container.innerHTML = '<div class="text-gray-400 text-sm">No recent interactions</div>';
+                    return;
+                }
+
+                container.innerHTML = interactions.map(interaction => `
+                    <div class="p-3 bg-dark-700 rounded-lg">
+                        <div class="flex items-center justify-between mb-1">
+                            <span class="font-medium">${interaction.contact_name || 'Contact'}</span>
+                            <span class="text-xs text-gray-400">${formatDate(interaction.date)}</span>
+                        </div>
+                        <div class="text-sm text-gray-300">${interaction.notes || 'No notes'}</div>
+                        <div class="text-xs text-gray-500 mt-1">${interaction.interaction_type}</div>
+                    </div>
+                `).join('');
+            } catch (error) {
+                console.error('Error loading interactions:', error);
+                document.getElementById('recentInteractions').innerHTML = '<div class="text-red-400 text-sm">Error loading data</div>';
+            }
+        }
+
+        async function handleQuickSearch(query) {
+            const resultsDiv = document.getElementById('searchResults');
+            
+            if (!query || query.length < 2) {
+                resultsDiv.classList.add('hidden');
+                return;
+            }
+
+            try {
+                const response = await fetch(`${API_BASE}/api/contacts/search?q=${encodeURIComponent(query)}`);
+                const contacts = await response.json();
+                
+                if (contacts.length === 0) {
+                    resultsDiv.innerHTML = '<div class="p-3 text-gray-400 text-sm">No matches found</div>';
+                    resultsDiv.classList.remove('hidden');
+                    return;
+                }
+
+                resultsDiv.innerHTML = contacts.slice(0, 8).map(contact => `
+                    <div class="p-3 hover:bg-dark-700 cursor-pointer border-b border-dark-600 last:border-0" onclick="window.location.href='contact.html?id=${contact.id}'">
+                        <div class="font-medium">${contact.name}</div>
+                        <div class="text-sm text-gray-400">${contact.company || 'No company'} • ${contact.title || 'No title'}</div>
+                    </div>
+                `).join('');
+                resultsDiv.classList.remove('hidden');
+            } catch (error) {
+                console.error('Search error:', error);
+            }
+        }
+
+        function showAddContactModal() {
+            document.getElementById('addContactModal').classList.remove('hidden');
+        }
+
+        function hideAddContactModal() {
+            document.getElementById('addContactModal').classList.add('hidden');
+            document.getElementById('addContactForm').reset();
+        }
+
+        async function handleAddContact(event) {
+            event.preventDefault();
+            const form = event.target;
+            const formData = new FormData(form);
+            
+            const contact = {
+                name: formData.get('name'),
+                email: formData.get('email'),
+                company: formData.get('company'),
+                title: formData.get('title'),
+                how_we_met: formData.get('how_we_met')
+            };
+
+            try {
+                const response = await fetch(`${API_BASE}/api/contacts`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(contact)
+                });
+
+                if (response.ok) {
+                    hideAddContactModal();
+                    loadDashboard();
+                } else {
+                    alert('Error adding contact');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Error adding contact');
+            }
+        }
+
+        // Utility functions
+        function getHealthClass(score) {
+            if (score >= 80) return 'excellent';
+            if (score >= 60) return 'good';
+            if (score >= 40) return 'fair';
+            return 'poor';
+        }
+
+        function formatDate(dateString) {
+            if (!dateString) return 'Never';
+            const date = new Date(dateString);
+            return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+        }
+
+        function getDaysSince(dateString) {
+            if (!dateString) return 999;
+            const days = Math.floor((new Date() - new Date(dateString)) / (1000 * 60 * 60 * 24));
+            return days;
+        }
+
+        function isOverdue(dateString) {
+            return new Date(dateString) < new Date();
+        }
+
+        function formatReminderDate(dateString) {
+            const date = new Date(dateString);
+            const now = new Date();
+            const diff = date - now;
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            
+            if (days < 0) return 'Overdue';
+            if (days === 0) return 'Today';
+            if (days === 1) return 'Tomorrow';
+            return `${days} days`;
+        }
+
+        // Close search results when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('#quickSearch') && !e.target.closest('#searchResults')) {
+                document.getElementById('searchResults').classList.add('hidden');
+            }
+        });
+    </script>
+</body>
+</html>

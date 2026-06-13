@@ -1,0 +1,23 @@
+# Gmail + Calendar + LinkedIn Importer Dependencies
+# Install with: pip3 install -r requirements.txt
+
+# Google APIs
+google-auth==2.23.4
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.1.1
+google-api-python-client==2.108.0
+
+# Email parsing
+email-validator==2.1.0
+
+# Progress bars
+tqdm==4.66.1
+
+# Database (SQLite built-in, but including for completeness)
+# sqlite3 is part of Python standard library
+
+# Utilities
+python-dateutil==2.8.2
+
+# Optional: For LinkedIn JSON parsing
+# json is part of Python standard library

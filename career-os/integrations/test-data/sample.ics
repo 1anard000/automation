@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Test//Test//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART:20240601T100000Z
+DTEND:20240601T110000Z
+SUMMARY:Coffee with John
+DESCRIPTION:Catch up on job search opportunities and discuss potential roles at his company.
+ATTENDEE;CN=John Doe:mailto:john.doe@example.com
+LOCATION:Blue Bottle Coffee
+UID:test-event-1@example.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240605T140000Z
+DTEND:20240605T150000Z
+SUMMARY:Technical Interview - Jane Smith
+DESCRIPTION:First round technical interview for Senior Engineer position.
+ATTENDEE;CN=Jane Smith:mailto:jane.smith@techcorp.com
+LOCATION:Zoom
+UID:test-event-2@example.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240610T090000Z
+DTEND:20240610T170000Z
+SUMMARY:TechConf 2024
+DESCRIPTION:Annual technology conference. Networking event in the evening.
+LOCATION:Moscone Center
+UID:test-event-3@example.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240615T160000Z
+DTEND:20240615T170000Z
+SUMMARY:Weekly Team Sync
+DESCRIPTION:Regular team standup and planning session.
+ATTENDEE;CN=Mike Johnson:mailto:mike.j@startup.io
+ATTENDEE;CN=Sarah Lee:mailto:sarah.l@startup.io
+ATTENDEE;CN=Alex Chen:mailto:alex.c@startup.io
+LOCATION:Google Meet
+UID:test-event-4@example.com
+END:VEVENT
+END:VCALENDAR

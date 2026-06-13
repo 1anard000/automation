@@ -1,0 +1,76 @@
+{
+  "connections": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "emailAddress": "john.doe@example.com",
+      "position": "Senior Software Engineer",
+      "companyName": "Example Corp",
+      "profileUrl": "https://www.linkedin.com/in/johndoe",
+      "connectedAt": "2023-03-15"
+    },
+    {
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "emailAddress": "jane.smith@techcorp.com",
+      "position": "Engineering Manager",
+      "companyName": "TechCorp",
+      "profileUrl": "https://www.linkedin.com/in/janesmith",
+      "connectedAt": "2023-06-20"
+    },
+    {
+      "firstName": "Mike",
+      "lastName": "Johnson",
+      "emailAddress": "mike.j@startup.io",
+      "position": "CTO",
+      "companyName": "Startup.io",
+      "profileUrl": "https://www.linkedin.com/in/mikejohnson",
+      "connectedAt": "2024-01-10"
+    },
+    {
+      "firstName": "Sarah",
+      "lastName": "Lee",
+      "emailAddress": "sarah.l@startup.io",
+      "position": "Product Manager",
+      "companyName": "Startup.io",
+      "profileUrl": "https://www.linkedin.com/in/sarahlee",
+      "connectedAt": "2024-01-10"
+    },
+    {
+      "firstName": "Alex",
+      "lastName": "Chen",
+      "emailAddress": "alex.c@startup.io",
+      "position": "Senior Developer",
+      "companyName": "Startup.io",
+      "profileUrl": "https://www.linkedin.com/in/alexchen",
+      "connectedAt": "2024-02-05"
+    },
+    {
+      "firstName": "Emily",
+      "lastName": "Williams",
+      "emailAddress": "emily.w@designstudio.com",
+      "position": "UX Designer",
+      "companyName": "Design Studio",
+      "profileUrl": "https://www.linkedin.com/in/emilywilliams",
+      "connectedAt": "2023-09-12"
+    },
+    {
+      "firstName": "David",
+      "lastName": "Brown",
+      "emailAddress": "david.brown@recruiter.com",
+      "position": "Technical Recruiter",
+      "companyName": "Tech Recruiting Partners",
+      "profileUrl": "https://www.linkedin.com/in/davidbrown",
+      "connectedAt": "2024-04-01"
+    },
+    {
+      "firstName": "Lisa",
+      "lastName": "Garcia",
+      "emailAddress": "lisa.g@consulting.com",
+      "position": "Partner",
+      "companyName": "Garcia Consulting",
+      "profileUrl": "https://www.linkedin.com/in/lisagarcia",
+      "connectedAt": "2022-11-30"
+    }
+  ]
+}

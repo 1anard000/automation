@@ -1,0 +1,244 @@
+{
+  "jobs": [
+    {
+      "job": "CASETiFY - Senior Product Manager",
+      "url": "https://job-boards.greenhouse.io/casetify/jobs/5913808004",
+      "platform": "Greenhouse",
+      "fields": {
+        "linkedin": {
+          "selector": "input[name='linkedin_profile_url']",
+          "type": "text",
+          "fill": "auto",
+          "label": "LinkedIn Profile"
+        },
+        "website": {
+          "selector": "input[name='portfolio_url']",
+          "type": "text",
+          "fill": "auto",
+          "label": "Your Personal Website / Portfolio"
+        },
+        "source": {
+          "selector": "select[name='source']",
+          "type": "dropdown",
+          "fill": "manual",
+          "label": "Where do you find this position opening?",
+          "options": ["CASETiFY Careers", "LinkedIn", "Job Board", "Career Fair", "Social Media", "Referral", "Others"]
+        },
+        "source_other": {
+          "selector": "input[name='source_other']",
+          "type": "text",
+          "fill": "conditional",
+          "label": "If you selected 'Others', please specify",
+          "condition": "source == 'Others'"
+        },
+        "current_salary": {
+          "selector": "textarea[name='current_salary']",
+          "type": "textarea",
+          "fill": "manual",
+          "label": "What is your current salary package?"
+        },
+        "expected_salary": {
+          "selector": "input[name='expected_salary_cny']",
+          "type": "text",
+          "fill": "manual",
+          "label": "What is your monthly salary expectation in CNY?"
+        },
+        "notice_period": {
+          "selector": "input[name='notice_period_months']",
+          "type": "text",
+          "fill": "manual",
+          "label": "What is your notice period (in months)?"
+        },
+        "previous_application": {
+          "selector": "select[name='previous_application']",
+          "type": "dropdown",
+          "fill": "manual",
+          "label": "Have you applied for any roles in CASETiFY in the past 12 months?",
+          "options": ["Yes", "No"]
+        },
+        "employee_relation": {
+          "selector": "select[name='employee_relation']",
+          "type": "dropdown",
+          "fill": "manual",
+          "label": "Are you a family member, relative or friend of any CASETiFY employee?",
+          "options": ["Yes", "No"]
+        },
+        "employee_name": {
+          "selector": "input[name='employee_name']",
+          "type": "text",
+          "fill": "conditional",
+          "label": "If yes, please tell us the name of that employee",
+          "condition": "employee_relation == 'Yes'"
+        },
+        "location": {
+          "selector": "select[name='location']",
+          "type": "dropdown",
+          "fill": "manual",
+          "label": "Please specify your current location"
+        },
+        "resume": {
+          "selector": "input[type='file'][name='resume']",
+          "type": "file",
+          "fill": "auto",
+          "label": "Resume/CV",
+          "accept": ".pdf,.doc,.docx"
+        },
+        "cover_letter": {
+          "selector": "textarea[name='cover_letter']",
+          "type": "textarea",
+          "fill": "auto",
+          "label": "Cover Letter"
+        },
+        "consent": {
+          "selector": "input[type='checkbox'][name='consent']",
+          "type": "checkbox",
+          "fill": "auto",
+          "label": "Privacy & Consent",
+          "required": true
+        }
+      },
+      "autoFillStrategy": {
+        "linkedin": "$PROFILE.linkedin",
+        "website": "$PROFILE.website",
+        "resume": "$FILES.resume_latest.pdf",
+        "cover_letter": "$TEMPLATES.cover_letter_casetify.md",
+        "consent": true
+      },
+      "manualFields": ["source", "current_salary", "expected_salary", "notice_period", "previous_application", "employee_relation", "location"]
+    },
+    {
+      "job": "Airwallex - Senior Product Manager",
+      "url": "https://careers.airwallex.com/",
+      "platform": "Greenhouse (assumed)",
+      "fields": {
+        "linkedin": {
+          "selector": "input[name='linkedin_profile_url']",
+          "type": "text",
+          "fill": "auto",
+          "label": "LinkedIn Profile"
+        },
+        "website": {
+          "selector": "input[name='website']",
+          "type": "text",
+          "fill": "auto",
+          "label": "Personal Website"
+        },
+        "source": {
+          "selector": "select[name='source']",
+          "type": "dropdown",
+          "fill": "manual",
+          "label": "Where did you hear about this job?",
+          "options": ["LinkedIn", "Company Website", "Job Board", "Referral", "Social Media", "Career Fair", "Other"]
+        },
+        "resume": {
+          "selector": "input[type='file'][name='resume']",
+          "type": "file",
+          "fill": "auto",
+          "label": "Resume",
+          "accept": ".pdf,.doc,.docx"
+        },
+        "cover_letter": {
+          "selector": "textarea[name='cover_letter']",
+          "type": "textarea",
+          "fill": "auto",
+          "label": "Cover Letter"
+        },
+        "consent": {
+          "selector": "input[type='checkbox'][name='consent']",
+          "type": "checkbox",
+          "fill": "auto",
+          "label": "I agree to the terms",
+          "required": true
+        }
+      },
+      "autoFillStrategy": {
+        "linkedin": "$PROFILE.linkedin",
+        "website": "$PROFILE.website",
+        "resume": "$FILES.resume_latest.pdf",
+        "cover_letter": "$TEMPLATES.cover_letter_airwallex.md",
+        "consent": true
+      },
+      "manualFields": ["source"],
+      "note": "Specific job URL not found. Field mappings based on typical Greenhouse form structure. Verify selectors when actual job posting is located."
+    },
+    {
+      "job": "Qnity - Senior Product Manager",
+      "url": "https://jobs.ashbyhq.com/qnity",
+      "platform": "Ashby",
+      "fields": {
+        "email": {
+          "selector": "input[type='email'][name='emailAddress']",
+          "type": "email",
+          "fill": "auto",
+          "label": "Email Address"
+        },
+        "phone": {
+          "selector": "input[type='tel'][name='phoneNumber']",
+          "type": "text",
+          "fill": "auto",
+          "label": "Phone Number"
+        },
+        "linkedin": {
+          "selector": "input[name='linkedInUrl']",
+          "type": "text",
+          "fill": "auto",
+          "label": "LinkedIn URL"
+        },
+        "website": {
+          "selector": "input[name='websiteUrl']",
+          "type": "text",
+          "fill": "auto",
+          "label": "Website/Portfolio"
+        },
+        "resume": {
+          "selector": "input[type='file'][name='resumeFile']",
+          "type": "file",
+          "fill": "auto",
+          "label": "Resume",
+          "accept": ".pdf,.doc,.docx"
+        },
+        "cover_letter": {
+          "selector": "textarea[name='coverLetter']",
+          "type": "textarea",
+          "fill": "auto",
+          "label": "Cover Letter"
+        },
+        "source": {
+          "selector": "select[name='sourceId']",
+          "type": "dropdown",
+          "fill": "manual",
+          "label": "How did you hear about us?",
+          "options": ["LinkedIn", "Company Website", "Job Board", "Referral", "Social Media", "Other"]
+        },
+        "consent": {
+          "selector": "input[type='checkbox'][name='consentAgreement']",
+          "type": "checkbox",
+          "fill": "auto",
+          "label": "I agree to the privacy policy",
+          "required": true
+        }
+      },
+      "autoFillStrategy": {
+        "email": "$PROFILE.email",
+        "phone": "$PROFILE.phone",
+        "linkedin": "$PROFILE.linkedin",
+        "website": "$PROFILE.website",
+        "resume": "$FILES.resume_latest.pdf",
+        "cover_letter": "$TEMPLATES.cover_letter_qnity.md",
+        "consent": true
+      },
+      "manualFields": ["source"],
+      "note": "Specific job posting URL not found. Field mappings based on typical Ashby form structure. Verify selectors when actual job posting is located."
+    }
+  ],
+  "metadata": {
+    "generatedAt": "2026-06-07T02:51:00+08:00",
+    "version": "1.0",
+    "notes": [
+      "CASETiFY form verified via live fetch",
+      "Airwallex and Qnity mappings are estimated based on platform conventions",
+      "Selectors may need adjustment based on actual form rendering",
+      "Auto-fill variables ($PROFILE.*, $FILES.*, $TEMPLATES.*) should be configured in user profile"
+    ]
+  }
+}

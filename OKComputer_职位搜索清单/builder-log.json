@@ -1,0 +1,70 @@
+{
+  "runs": [
+    {
+      "timestamp": "2026-06-13T18:45:00+08:00",
+      "dimension": "data_quality",
+      "task": "URL enrichment — searching for actual job posting URLs for 93 jobs missing links",
+      "status": "completed",
+      "score_before": 5,
+      "score_after": 5,
+      "subagent": "builder-data-quality-url-enrichment"
+    },
+    {
+      "timestamp": "2026-06-13T19:00:00+08:00",
+      "dimension": "python_scripts",
+      "task": "Create core pipeline scripts: merge-jobs.py, build-dashboard.py, dedup-jobs.py, stats.py",
+      "status": "completed",
+      "score_before": 2,
+      "score_after": 6,
+      "subagent": "builder-python-scripts-pipeline"
+    },
+    {
+      "timestamp": "2026-06-13T19:30:00+08:00",
+      "dimension": "career_strategy",
+      "task": "Create comprehensive career strategy document in private/strategy/",
+      "status": "completed",
+      "score_before": 3,
+      "score_after": 6,
+      "subagent": "builder-career-strategy-20260613"
+    },
+    {
+      "timestamp": "2026-06-13T20:00:00+08:00",
+      "dimension": "crm",
+      "task": "Contact discovery — extract real contacts from jobs + email/calendar data",
+      "status": "completed",
+      "score_before": 4,
+      "score_after": 7,
+      "subagent": "builder-crm-contact-discovery"
+    },
+    {
+      "timestamp": "2026-06-13T20:30:00+08:00",
+      "dimension": "data_quality",
+      "task": "URL enrichment v2 — web search actual posting URLs for A-1 jobs, improve specificity from 33% to 50%+",
+      "status": "completed",
+      "score_before": 5,
+      "score_after": 6,
+      "subagent": "builder-data-quality-url-enrichment-v2"
+    },
+    {
+      "timestamp": "2026-06-13T21:00:00+08:00",
+      "dimension": "coverage",
+      "task": "Add 5+ new job source scrapers: Built In, Wellfound, Greenhouse, Jobsdb, Indeed, company career pages",
+      "status": "spawned",
+      "score_before": 5,
+      "score_after": null,
+      "subagent": "builder-coverage-new-sources"
+    }
+  ],
+  "current_scores": {
+    "data_quality": 6,
+    "dashboard": 7,
+    "career_strategy": 6,
+    "python_scripts": 6,
+    "crm": 7,
+    "automation": 7,
+    "coverage": 5
+  },
+  "last_run": "2026-06-13T21:00:00+08:00",
+  "last_dimension": "coverage",
+  "last_task": "Add 5+ new job source scrapers: Built In, Wellfound, Greenhouse, Jobsdb, Indeed, company career pages"
+}

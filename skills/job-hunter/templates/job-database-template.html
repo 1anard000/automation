@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[REDACTED] - Job Search Database</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; background: #f5f5f7; }
+        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 12px; margin-bottom: 30px; }
+        .header h1 { margin: 0 0 10px 0; }
+        .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 20px; }
+        .stat-card { background: rgba(255,255,255,0.2); padding: 15px; border-radius: 8px; text-align: center; }
+        .stat-number { font-size: 2em; font-weight: bold; }
+        .stat-label { font-size: 0.9em; opacity: 0.9; }
+        .section { background: white; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        .section h2 { color: #667eea; margin-top: 0; border-bottom: 2px solid #667eea; padding-bottom: 10px; }
+        .job-card { border: 1px solid #e1e4e8; border-radius: 8px; padding: 15px; margin: 15px 0; background: #fafbfc; transition: transform 0.2s; }
+        .job-card:hover { transform: translateX(5px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .job-card.new { border-left: 4px solid #28a745; background: #f0fff4; }
+        .job-card.expired { opacity: 0.6; text-decoration: line-through; border-left: 4px solid #dc3545; }
+        .job-title { font-size: 1.2em; font-weight: 600; color: #24292e; margin: 0 0 8px 0; }
+        .job-title a { color: #667eea; text-decoration: none; }
+        .job-title a:hover { text-decoration: underline; }
+        .job-company { color: #586069; font-weight: 500; }
+        .job-location { color: #6a737d; font-size: 0.9em; }
+        .job-grade { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 600; margin-left: 10px; }
+        .grade-A { background: #d4edda; color: #155724; }
+        .grade-B { background: #cce5ff; color: #004085; }
+        .grade-C { background: #fff3cd; color: #856404; }
+        .grade-D { background: #f8d7da; color: #721c24; }
+        .mandarin-warning { background: #fff3cd; color: #856404; padding: 3px 8px; border-radius: 4px; font-size: 0.8em; margin-left: 8px; }
+        .new-badge { background: #28a745; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.75em; margin-left: 8px; }
+        .summary { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 25px; border-radius: 12px; margin-top: 30px; }
+        .summary h3 { margin-top: 0; }
+        .top-picks { background: white; border-radius: 8px; padding: 15px; margin-top: 15px; }
+        .top-pick { padding: 10px; border-bottom: 1px solid #e1e4e8; }
+        .top-pick:last-child { border-bottom: none; }
+        .last-updated { text-align: center; color: #6a737d; font-size: 0.9em; margin-top: 30px; padding-top: 20px; border-top: 1px solid #e1e4e8; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🚀 [REDACTED] - Job Search Database</h1>
+        <p>Senior Program Manager | Product Strategy & Operations | Cross-Border Expertise</p>
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="total-roles">0</div>
+                <div class="stat-label">Total Roles</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="new-roles">0</div>
+                <div class="stat-label">New This Week</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="a-grades">0</div>
+                <div class="stat-label">A-Grade Matches</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="b-grades">0</div>
+                <div class="stat-label">B-Grade Matches</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="summary">
+        <h3>📊 This Week's Summary</h3>
+        <div id="summary-content">
+            <p><em>Run the job hunter to generate this week's summary.</em></p>
+        </div>
+        <div class="top-picks">
+            <h4>🎯 Top 3 Recommendations</h4>
+            <div id="top-picks-content">
+                <p><em>Top picks will appear here after scanning.</em></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="job-sections">
+        <!-- Job sections will be populated here -->
+    </div>
+
+    <div class="last-updated">
+        Last updated: <span id="last-update">Never</span>
+    </div>
+
+    <script>
+        // Auto-count stats on load
+        document.addEventListener('DOMContentLoaded', function() {
+            const jobCards = document.querySelectorAll('.job-card:not(.expired)');
+            const newCards = document.querySelectorAll('.job-card.new:not(.expired)');
+            const aGrades = document.querySelectorAll('.job-grade.grade-A');
+            const bGrades = document.querySelectorAll('.job-grade.grade-B');
+            
+            document.getElementById('total-roles').textContent = jobCards.length;
+            document.getElementById('new-roles').textContent = newCards.length;
+            document.getElementById('a-grades').textContent = aGrades.length;
+            document.getElementById('b-grades').textContent = bGrades.length;
+        });
+    </script>
+</body>
+</html>

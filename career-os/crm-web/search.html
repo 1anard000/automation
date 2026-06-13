@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search - Personal CRM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            900: '#0f0f0f',
+                            800: '#1a1a1a',
+                            700: '#2a2a2a',
+                            600: '#3a3a3a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+            min-height: 100vh;
+        }
+        .health-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .health-excellent { background-color: #22c55e; }
+        .health-good { background-color: #84cc16; }
+        .health-fair { background-color: #f59e0b; }
+        .health-poor { background-color: #ef4444; }
+        .card-hover:hover {
+            transform: translateY(-2px);
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body class="text-gray-100">
+    <!-- Header -->
+    <header class="bg-dark-800 border-b border-dark-600 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-4">
+                    <a href="index.html" class="text-gray-300 hover:text-white">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                        </svg>
+                    </a>
+                    <h1 class="text-2xl font-bold text-white">Search Contacts</h1>
+                </div>
+                <nav class="flex space-x-4">
+                    <a href="index.html" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Dashboard</a>
+                    <a href="search.html" class="text-white px-3 py-2 rounded-md text-sm font-medium">Search</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- Search Bar -->
+        <div class="mb-8">
+            <div class="relative">
+                <input 
+                    type="text" 
+                    id="searchInput"
+                    placeholder="Search by name, company, title, or tags... (try: 'engineers at NVIDIA' or 'product managers')"
+                    class="w-full bg-dark-800 border border-dark-600 rounded-lg py-4 px-4 pl-12 text-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    oninput="handleSearch(this.value)"
+                    autofocus
+                />
+                <svg class="absolute left-4 top-4 h-6 w-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                </svg>
+            </div>
+            
+            <!-- Search Filters -->
+            <div class="mt-4 flex flex-wrap gap-2">
+                <button onclick="filterByHealth('all')" class="px-4 py-2 bg-dark-700 hover:bg-dark-600 rounded-lg text-sm transition">All</button>
+                <button onclick="filterByHealth('excellent')" class="px-4 py-2 bg-dark-700 hover:bg-green-700 rounded-lg text-sm transition flex items-center">
+                    <span class="health-dot health-excellent mr-2"></span>Excellent
+                </button>
+                <button onclick="filterByHealth('good')" class="px-4 py-2 bg-dark-700 hover:bg-lime-700 rounded-lg text-sm transition flex items-center">
+                    <span class="health-dot health-good mr-2"></span>Good
+                </button>
+                <button onclick="filterByHealth('fair')" class="px-4 py-2 bg-dark-700 hover:bg-yellow-700 rounded-lg text-sm transition flex items-center">
+                    <span class="health-dot health-fair mr-2"></span>Fair
+                </button>
+                <button onclick="filterByHealth('poor')" class="px-4 py-2 bg-dark-700 hover:bg-red-700 rounded-lg text-sm transition flex items-center">
+                    <span class="health-dot health-poor mr-2"></span>Poor
+                </button>
+            </div>
+        </div>
+
+        <!-- Results Info -->
+        <div class="mb-6 flex justify-between items-center">
+            <div id="resultsCount" class="text-gray-400">
+                Enter a search term to find contacts
+            </div>
+            <div class="flex items-center space-x-2">
+                <select id="sortSelect" onchange="sortResults(this.value)" class="bg-dark-700 border border-dark-600 rounded-lg py-2 px-3 text-sm text-white focus:outline-none focus:ring-2 focus:ring-green-500">
+                    <option value="relevance">Sort by: Relevance</option>
+                    <option value="name">Sort by: Name (A-Z)</option>
+                    <option value="company">Sort by: Company</option>
+                    <option value="last_contact">Sort by: Last Contact</option>
+                    <option value="health">Sort by: Health Score</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Results Grid -->
+        <div id="searchResults" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="col-span-full text-center py-12">
+                <svg class="mx-auto h-16 w-16 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                </svg>
+                <p class="mt-4 text-gray-400">Start typing to search your contacts</p>
+                <p class="mt-2 text-sm text-gray-500">Try searching by name, company, or role</p>
+            </div>
+        </div>
+
+        <!-- Load More -->
+        <div id="loadMoreContainer" class="mt-8 text-center hidden">
+            <button onclick="loadMore()" class="bg-dark-700 hover:bg-dark-600 text-white px-6 py-3 rounded-lg font-medium transition">
+                Load More
+            </button>
+        </div>
+    </main>
+
+    <script>
+        const API_BASE = 'http://localhost:5000';
+        let allResults = [];
+        let filteredResults = [];
+        let currentFilter = 'all';
+        let currentSort = 'relevance';
+        let displayedCount = 0;
+        const RESULTS_PER_PAGE = 12;
+
+        // Initialize search from URL query param
+        const urlParams = new URLSearchParams(window.location.search);
+        const initialQuery = urlParams.get('q');
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            if (initialQuery) {
+                document.getElementById('searchInput').value = initialQuery;
+                handleSearch(initialQuery);
+            }
+        });
+
+        async function handleSearch(query) {
+            if (!query || query.length < 2) {
+                allResults = [];
+                filteredResults = [];
+                renderResults();
+                return;
+            }
+
+            try {
+                const response = await fetch(`${API_BASE}/api/contacts/search?q=${encodeURIComponent(query)}`);
+                allResults = await response.json();
+                filteredResults = [...allResults];
+                displayedCount = 0;
+                
+                applyFilter();
+                applySort();
+                renderResults();
+            } catch (error) {
+                console.error('Search error:', error);
+                document.getElementById('searchResults').innerHTML = `
+                    <div class="col-span-full text-center py-12">
+                        <p class="text-red-400">Error searching contacts</p>
+                    </div>
+                `;
+            }
+        }
+
+        function filterByHealth(health) {
+            currentFilter = health;
+            applyFilter();
+            applySort();
+            displayedCount = 0;
+            renderResults();
+        }
+
+        function applyFilter() {
+            if (currentFilter === 'all') {
+                filteredResults = [...allResults];
+                return;
+            }
+
+            filteredResults = allResults.filter(contact => {
+                const score = contact.relationship_health_score || 50;
+                if (currentFilter === 'excellent') return score >= 80;
+                if (currentFilter === 'good') return score >= 60 && score < 80;
+                if (currentFilter === 'fair') return score >= 40 && score < 60;
+                if (currentFilter === 'poor') return score < 40;
+                return true;
+            });
+        }
+
+        function sortResults(sortType) {
+            currentSort = sortType;
+            applySort();
+            displayedCount = 0;
+            renderResults();
+        }
+
+        function applySort() {
+            switch (currentSort) {
+                case 'name':
+                    filteredResults.sort((a, b) => a.name.localeCompare(b.name));
+                    break;
+                case 'company':
+                    filteredResults.sort((a, b) => (a.company || '').localeCompare(b.company || ''));
+                    break;
+                case 'last_contact':
+                    filteredResults.sort((a, b) => new Date(b.last_contact_date || 0) - new Date(a.last_contact_date || 0));
+                    break;
+                case 'health':
+                    filteredResults.sort((a, b) => (b.relationship_health_score || 0) - (a.relationship_health_score || 0));
+                    break;
+                default:
+                    // Relevance - keep API order
+                    break;
+            }
+        }
+
+        function loadMore() {
+            displayedCount += RESULTS_PER_PAGE;
+            renderResults();
+        }
+
+        function renderResults() {
+            const container = document.getElementById('searchResults');
+            const countEl = document.getElementById('resultsCount');
+            const loadMoreEl = document.getElementById('loadMoreContainer');
+
+            if (allResults.length === 0 && document.getElementById('searchInput').value.length < 2) {
+                container.innerHTML = `
+                    <div class="col-span-full text-center py-12">
+                        <svg class="mx-auto h-16 w-16 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                        <p class="mt-4 text-gray-400">Start typing to search your contacts</p>
+                        <p class="mt-2 text-sm text-gray-500">Try searching by name, company, or role</p>
+                    </div>
+                `;
+                countEl.textContent = 'Enter a search term to find contacts';
+                loadMoreEl.classList.add('hidden');
+                return;
+            }
+
+            if (filteredResults.length === 0) {
+                container.innerHTML = `
+                    <div class="col-span-full text-center py-12">
+                        <svg class="mx-auto h-16 w-16 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <p class="mt-4 text-gray-400">No contacts match your search</p>
+                        <p class="mt-2 text-sm text-gray-500">Try different keywords or filters</p>
+                    </div>
+                `;
+                countEl.textContent = `0 results`;
+                loadMoreEl.classList.add('hidden');
+                return;
+            }
+
+            const toDisplay = filteredResults.slice(0, displayedCount + RESULTS_PER_PAGE);
+            
+            container.innerHTML = toDisplay.map(contact => `
+                <div class="bg-dark-800 rounded-xl p-5 border border-dark-600 card-hover cursor-pointer" onclick="window.location.href='contact.html?id=${contact.id}'">
+                    <div class="flex items-start justify-between mb-3">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-blue-600 rounded-full flex items-center justify-center text-lg font-bold">
+                                ${getInitials(contact.name)}
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-lg">${contact.name}</h3>
+                                <p class="text-sm text-gray-400">${contact.company || 'No company'}</p>
+                            </div>
+                        </div>
+                        <span class="health-dot health-${getHealthClass(contact.relationship_health_score)}" title="Health: ${contact.relationship_health_score}"></span>
+                    </div>
+                    
+                    <div class="space-y-2 text-sm">
+                        <div class="flex items-center text-gray-300">
+                            <svg class="h-4 w-4 mr-2 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                            </svg>
+                            ${contact.title || 'No title'}
+                        </div>
+                        ${contact.email ? `
+                            <div class="flex items-center text-gray-300">
+                                <svg class="h-4 w-4 mr-2 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                </svg>
+                                ${contact.email}
+                            </div>
+                        ` : ''}
+                    </div>
+                    
+                    <div class="mt-4 pt-4 border-t border-dark-600 flex justify-between items-center text-xs text-gray-400">
+                        <span>Last contact: ${formatDate(contact.last_contact_date)}</span>
+                        <span>${getDaysSince(contact.last_contact_date)}d ago</span>
+                    </div>
+                </div>
+            `).join('');
+
+            countEl.textContent = `${filteredResults.length} result${filteredResults.length !== 1 ? 's' : ''}`;
+            
+            if (toDisplay.length < filteredResults.length) {
+                loadMoreEl.classList.remove('hidden');
+            } else {
+                loadMoreEl.classList.add('hidden');
+            }
+        }
+
+        // Utility functions
+        function getInitials(name) {
+            return name.split(' ').map(n => n[0]).join('').toUpperCase().slice(0, 2);
+        }
+
+        function getHealthClass(score) {
+            if (score >= 80) return 'excellent';
+            if (score >= 60) return 'good';
+            if (score >= 40) return 'fair';
+            return 'poor';
+        }
+
+        function formatDate(dateString) {
+            if (!dateString) return 'Never';
+            const date = new Date(dateString);
+            return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+        }
+
+        function getDaysSince(dateString) {
+            if (!dateString) return 999;
+            const days = Math.floor((new Date() - new Date(dateString)) / (1000 * 60 * 60 * 24));
+            return days;
+        }
+    </script>
+</body>
+</html>

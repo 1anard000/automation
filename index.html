@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Career OS</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0d1117; color: #e6edf3; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+.container { max-width: 420px; width: 100%; padding: 2rem; }
+h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
+.sub { color: #8b949e; margin-bottom: 2rem; font-size: 0.9rem; }
+.section { margin-bottom: 1.5rem; }
+.section-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: #8b949e; margin-bottom: 0.5rem; padding-left: 0.25rem; }
+.links { display: flex; flex-direction: column; gap: 0.5rem; }
+a { display: flex; align-items: center; gap: 0.75rem; padding: 0.85rem 1rem; background: #161b22; border: 1px solid #30363d; border-radius: 10px; color: #e6edf3; text-decoration: none; transition: all 0.15s; }
+a:hover { background: #1c2128; border-color: #58a6ff; }
+a:active { transform: scale(0.98); }
+a .icon { font-size: 1.3rem; width: 2rem; text-align: center; }
+a .text .label { font-weight: 600; font-size: 0.95rem; }
+a .text .desc { color: #8b949e; font-size: 0.8rem; margin-top: 0.1rem; }
+.footer { margin-top: 2rem; text-align: center; font-size: 0.75rem; color: #484f58; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>🎯 Career OS</h1>
+  <p class="sub">Job search command center</p>
+
+  <div class="section">
+    <div class="section-label">Jobs & Applications</div>
+    <div class="links">
+      <a href="dashboard.html">
+        <span class="icon">📊</span>
+        <span class="text"><div class="label">Job Dashboard</div><div class="desc">All roles, filters, grades, sources</div></span>
+      </a>
+      <a href="https://docs.google.com/spreadsheets/d/1P1-rtJDInkiIqv6dBvaphfzjD2fpQcP80I8RBRgaqsU/edit?usp=sharing">
+        <span class="icon">📋</span>
+        <span class="text"><div class="label">Application Tracker</div><div class="desc">Sheets — statuses, notes, follow-ups</div></span>
+      </a>
+      <a href="https://drive.google.com/drive/folders/FOLDER_ID?usp=sharing">
+        <span class="icon">📁</span>
+        <span class="text"><div class="label">Cover Letters & Docs</div><div class="desc">Google Drive</div></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-label">Career Development</div>
+    <div class="links">
+      <a href="career-strategy.md">
+        <span class="icon">📈</span>
+        <span class="text"><div class="label">Strategy & Market Intel</div><div class="desc">Trends, salary benchmarks, company targets</div></span>
+      </a>
+      <a href="https://www.eventbrite.com/d/singapore/tech-events/?page=1">
+        <span class="icon">🎤</span>
+        <span class="text"><div class="label">Tech Events — Singapore</div><div class="desc">Eventbrite — meetups, conferences</div></span>
+      </a>
+      <a href="https://www.meetup.com/find/?keywords=product+management&location=hong-kong">
+        <span class="icon">🤝</span>
+        <span class="text"><div class="label">PM Meetups — HK</div><div class="desc">Meetup.com — networking events</div></span>
+      </a>
+      <a href="https://www.eventbrite.com/d/china--shenzhen/tech-events/">
+        <span class="icon">🌏</span>
+        <span class="text"><div class="label">Tech Events — Shenzhen</div><div class="desc">Eventbrite — local tech scene</div></span>
+      </a>
+      <a href="https://www.linkedin.com/learning/">
+        <span class="icon">🎓</span>
+        <span class="text"><div class="label">LinkedIn Learning</div><div class="desc">Courses — skills development</div></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="footer">Auto-updated · <span id="updated"></span></div>
+</div>
+<script>
+document.getElementById('updated').textContent = new Date().toLocaleDateString('en-US',{month:'short',day:'numeric'});
+</script>
+</body>
+</html>
