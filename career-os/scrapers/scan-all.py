@@ -19,6 +19,11 @@ SCRAPERS = [
     ("company_careers", "company_careers.py"),
 ]
 
+# Additional result files to merge (no runner script, just pre-existing JSON)
+EXTRA_RESULTS = [
+    "diversified",
+]
+
 def load_existing_jobs():
     """Load existing jobs from jobs-all.json."""
     if not os.path.exists(JOBS_FILE):
@@ -119,6 +124,14 @@ def main():
         results = run_scraper(name, script)
         scraper_stats[name] = len(results)
         all_new_jobs.extend(results)
+    
+    # Load extra result files (no runner script)
+    for name in EXTRA_RESULTS:
+        results = load_scraper_results(name)
+        if results:
+            scraper_stats[name] = len(results)
+            all_new_jobs.extend(results)
+            print(f"\nLoaded {len(results)} results from {name}-results.json")
     
     print(f"\n{'='*60}")
     print(f"Total raw results from all scrapers: {len(all_new_jobs)}")

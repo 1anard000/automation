@@ -168,11 +168,29 @@ function renderTable(data) {{
     const gc = j.grade === 'A-1' ? 'badge-a1' : j.grade === 'A-2' ? 'badge-a2' : j.grade === 'B' ? 'badge-b' : 'badge-c';
     const rc = roleClasses[j.role_type] || 'role-gm';
     const link = j.url ? `<a href="${{j.url}}" target="_blank" rel="noopener">Apply →</a>` : '<span style="color:#64748b">—</span>';
-    const searchQuery = encodeURIComponent(j.title + ' ' + j.company + ' ' + j.location);
-    const searchLink = `<a href="https://www.google.com/search?q=${{searchQuery}}" target="_blank" rel="noopener" style="color:#8b949e;font-size:0.75rem">🔍 Google</a>`;
+    // Build site-specific Google search as backup
+    let searchLink = '';
+    if (j.url) {{
+      try {{
+        const domain = new URL(j.url).hostname.replace('www.','');
+        const siteQuery = encodeURIComponent(`site:${{domain}} "${{j.title}}"`);
+        searchLink = `<a href="https://www.google.com/search?q=${{siteQuery}}" target="_blank" rel="noopener" style="color:#8b949e;font-size:0.75rem">🔍 Backup</a>`;
+      }} catch(e) {{
+        const fallback = encodeURIComponent(j.title + ' ' + j.company);
+        searchLink = `<a href="https://www.google.com/search?q=${{fallback}}" target="_blank" rel="noopener" style="color:#8b949e;font-size:0.75rem">🔍 Google</a>`;
+      }}
+    }}
+    // Fit indicator: warn if experience req > candidate's 9 years
+    let fitBadge = '';
+    const expMatch = (j.description || '').match(/(\d+)[\+\-]?\s*(?:years?|yrs?)\s*(?:of)?\s*experience/i);
+    if (expMatch) {{
+      const reqYears = parseInt(expMatch[1]);
+      if (reqYears > 12) fitBadge = '<span style="color:#f87171;font-size:0.65rem;margin-left:4px">⚠️ Stretch</span>';
+      else if (reqYears > 9) fitBadge = '<span style="color:#fbbf24;font-size:0.65rem;margin-left:4px">⚡ Near fit</span>';
+    }}
     return `<tr>
       <td><span class="badge ${{gc}}">${{j.grade}}</span></td>
-      <td><strong>${{j.title}}</strong></td>
+      <td><strong>${{j.title}}</strong>${{fitBadge}}</td>
       <td>${{j.company}}</td>
       <td><span class="city-tag">${{j.location}}</span></td>
       <td class="hide-mobile"><span class="role-tag ${{rc}}">${{j.role_type}}</span></td>
