@@ -145,6 +145,7 @@ a:hover{{text-decoration:underline}}
   <th onclick="sortTable(4)" class="hide-mobile">Role Type <span class="arrow"></span></th>
   <th onclick="sortTable(5)" class="hide-mobile">Salary <span class="arrow"></span></th>
   <th>Link</th>
+  <th>Search</th>
 </tr>
 </thead>
 <tbody id="tableBody"></tbody>
@@ -167,6 +168,8 @@ function renderTable(data) {{
     const gc = j.grade === 'A-1' ? 'badge-a1' : j.grade === 'A-2' ? 'badge-a2' : j.grade === 'B' ? 'badge-b' : 'badge-c';
     const rc = roleClasses[j.role_type] || 'role-gm';
     const link = j.url ? `<a href="${{j.url}}" target="_blank" rel="noopener">Apply →</a>` : '<span style="color:#64748b">—</span>';
+    const searchQuery = encodeURIComponent(j.title + ' ' + j.company + ' ' + j.location);
+    const searchLink = `<a href="https://www.google.com/search?q=${{searchQuery}}" target="_blank" rel="noopener" style="color:#8b949e;font-size:0.75rem">🔍 Google</a>`;
     return `<tr>
       <td><span class="badge ${{gc}}">${{j.grade}}</span></td>
       <td><strong>${{j.title}}</strong></td>
@@ -175,6 +178,7 @@ function renderTable(data) {{
       <td class="hide-mobile"><span class="role-tag ${{rc}}">${{j.role_type}}</span></td>
       <td class="hide-mobile" style="color:#94a3b8;font-size:0.75rem">${{j.salary||'—'}}</td>
       <td>${{link}}</td>
+      <td>${{searchLink}}</td>
     </tr>`;
   }}).join('');
   document.getElementById('showCount').textContent = `Showing ${{data.length}} of ${{jobs.length}} roles`;
