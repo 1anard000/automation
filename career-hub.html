@@ -3,208 +3,798 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Career Hub</title>
+<title>Career Hub — Senior Product/Strategy, APAC</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;min-height:100vh;padding:20px}
-.wrap{max-width:720px;margin:0 auto}
-a{color:#38bdf8;text-decoration:none}a:hover{text-decoration:underline}
-.back{font-size:0.85rem;display:inline-block;margin-bottom:16px}
-h1{font-size:1.4rem;margin-bottom:4px}
-.sub{color:#94a3b8;font-size:0.85rem;margin-bottom:24px}
-.sec{margin-bottom:28px}
-.sec-title{font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:#64748b;margin-bottom:8px;padding-bottom:6px;border-bottom:1px solid #1e293b}
-.card{background:#1e293b;border:1px solid #334155;border-radius:8px;padding:14px;margin-bottom:8px}
-.card h3{font-size:0.9rem;margin-bottom:4px}
-.card p{color:#94a3b8;font-size:0.8rem;margin-bottom:8px;line-height:1.4}
-.actions{display:flex;gap:6px;flex-wrap:wrap}
-.btn{display:inline-block;padding:4px 10px;background:#0f172a;border:1px solid #334155;border-radius:6px;color:#38bdf8;font-size:0.75rem}
-.btn:hover{background:#1e293b;text-decoration:none}
-.btn-hot{background:#7f1d1d;border-color:#991b1b;color:#fca5a5}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-@media(max-width:600px){.grid{grid-template-columns:1fr}}
-.tag{display:inline-block;padding:2px 6px;border-radius:4px;font-size:0.65rem;margin-right:4px}
-.tag-action{background:#164e63;color:#67e8f9}
-.tag-info{background:#1e3a5f;color:#93c5fd}
-.footer{text-align:center;color:#475569;font-size:0.7rem;margin-top:32px}
+  :root {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --card-hover: #253349;
+    --accent: #38bdf8;
+    --accent2: #818cf8;
+    --accent3: #f472b6;
+    --accent4: #34d399;
+    --accent5: #fb923c;
+    --text: #e2e8f3;
+    --muted: #94a3b8;
+    --border: #334155;
+    --tag-bg: rgba(56,189,248,0.12);
+    --tag-text: #7dd3fc;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 0;
+  }
+  .hero {
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%);
+    padding: 3rem 2rem 2rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+  .hero h1 {
+    font-size: 2rem;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+  }
+  .hero .subtitle {
+    color: var(--muted);
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .hero .profile-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .hero .profile-tags span {
+    background: var(--tag-bg);
+    color: var(--tag-text);
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+  .section {
+    margin-bottom: 3rem;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--border);
+  }
+  .section-header .icon {
+    font-size: 1.5rem;
+  }
+  .section-header h2 {
+    font-size: 1.35rem;
+    color: var(--text);
+  }
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1rem;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem;
+    transition: all 0.2s ease;
+  }
+  .card:hover {
+    background: var(--card-hover);
+    border-color: var(--accent);
+    transform: translateY(-1px);
+  }
+  .card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 0.35rem;
+  }
+  .card-meta {
+    font-size: 0.82rem;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .card-link {
+    display: inline-block;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 500;
+    padding: 0.2rem 0.5rem;
+    background: rgba(56,189,248,0.08);
+    border-radius: 6px;
+    transition: background 0.2s;
+  }
+  .card-link:hover {
+    background: rgba(56,189,248,0.2);
+  }
+  .card-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+  }
+  .tag {
+    display: inline-block;
+    background: var(--tag-bg);
+    color: var(--tag-text);
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.72rem;
+    font-weight: 500;
+    margin-right: 0.3rem;
+  }
+  .tag.green { background: rgba(52,211,153,0.12); color: #6ee7b7; }
+  .tag.purple { background: rgba(129,140,248,0.12); color: #a5b4fc; }
+  .tag.pink { background: rgba(244,114,182,0.12); color: #f9a8d4; }
+  .tag.orange { background: rgba(251,146,60,0.12); color: #fdba74; }
+  .wide-card {
+    grid-column: 1 / -1;
+  }
+  .salary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+  .salary-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem;
+  }
+  .salary-card h3 {
+    font-size: 1rem;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+  }
+  .salary-range {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 0.25rem;
+  }
+  .salary-detail {
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+  .action-list {
+    list-style: none;
+    counter-reset: actions;
+  }
+  .action-list li {
+    counter-increment: actions;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .action-list li::before {
+    content: counter(actions);
+    background: var(--accent);
+    color: var(--bg);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.85rem;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .action-title {
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 0.25rem;
+  }
+  .action-desc {
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  .action-link {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.82rem;
+  }
+  .action-link:hover { text-decoration: underline; }
+  .footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--muted);
+    font-size: 0.78rem;
+    border-top: 1px solid var(--border);
+  }
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 2rem 0;
+  }
+  @media (max-width: 640px) {
+    .hero { padding: 2rem 1rem 1.5rem; }
+    .hero h1 { font-size: 1.5rem; }
+    .container { padding: 1.5rem 1rem; }
+    .card-grid { grid-template-columns: 1fr; }
+    .salary-grid { grid-template-columns: 1fr; }
+  }
 </style>
 </head>
 <body>
-<div class="wrap">
-<a href="index.html" class="back">← Home</a>
-<h1>🧭 Career Hub</h1>
-<p class="sub">Actionable career development — networking, events, targets</p>
 
-<!-- PEOPLE TO CONNECT WITH -->
-<div class="sec">
-<div class="sec-title">🤝 People to Contact</div>
-<div class="grid">
-<div class="card">
-<h3>Hiring Managers — Fintech</h3>
-<p>Product & strategy leaders at Airwallex, Stripe, Ant Group, PingPong, WorldFirst</p>
-<div class="actions">
-<a class="btn" href="https://www.linkedin.com/search/results/people/?keywords=airwallex%20product%20director%20singapore" target="_blank">Airwallex</a>
-<a class="btn" href="https://www.linkedin.com/search/results/people/?keywords=stripe%20product%20manager%20APAC" target="_blank">Stripe</a>
-<a class="btn" href="https://www.linkedin.com/search/results/people/?keywords=ant%20group%20VP%20international" target="_blank">Ant Group</a>
-</div>
-</div>
-<div class="card">
-<h3>Hiring Managers — E-commerce</h3>
-<p>Shopee, TikTok Shop, Lazada, Temu, Shein — expansion & strategy leads</p>
-<div class="actions">
-<a class="btn" href="https://www.linkedin.com/search/results/people/?keywords=shopee%20strategy%20director%20singapore" target="_blank">Shopee</a>
-<a class="btn" href="https://www.linkedin.com/search/results/people/?keywords=tiktok%20shop%20product%20APAC" target="_blank">TikTok</a>
-<a class="btn" href="https://www.linkedin.com/search/results/people/?keywords=shein%20product%20director" target="_blank">Shein</a>
-</div>
-</div>
-<div class="card">
-<h3>Recruiters — Senior Roles</h3>
-<p>Specialized in PM/strategy/Director roles across APAC fintech & tech</p>
-<div class="actions">
-<a class="btn" href="https://www.linkedin.com/search/results/people/?keywords=fintech%20recruiter%20product%20manager%20APAC%20singapore" target="_blank">SG Recruiters</a>
-<a class="btn" href="https://www.linkedin.com/search/results/people/?keywords=executive%20recruiter%20China%20tech%20product" target="_blank">China Recruiters</a>
-</div>
-</div>
-<div class="card">
-<h3>Ex-Amazon / GitHub Alumni</h3>
-<p>Warm intros via alumni network — many in senior roles across APAC</p>
-<div class="actions">
-<a class="btn" href="https://www.linkedin.com/search/results/people/?keywords=amazon%20alumni%20product%20director%20APAC" target="_blank">Amazon Alumni</a>
-<a class="btn" href="https://www.linkedin.com/search/results/people/?keywords=github%20microsoft%20product%20APAC" target="_blank">GitHub Alumni</a>
-</div>
-</div>
-<div class="card">
-<h3>AI Ecosystem — Founders & Leaders</h3>
-<p>Chinese AI startups, API platforms, foundation model companies</p>
-<div class="actions">
-<a class="btn" href="https://www.linkedin.com/search/results/people/?keywords=moonshot%20AI%20product%20lead" target="_blank">Moonshot AI</a>
-<a class="btn" href="https://www.linkedin.com/search/results/people/?keywords=MiniMax%20product%20APAC" target="_blank">MiniMax</a>
-<a class="btn" href="https://www.linkedin.com/search/results/people/?keywords=zhipu%20AI%20product" target="_blank">Zhipu AI</a>
-<a class="btn" href="https://www.linkedin.com/search/results/people/?keywords=01.AI%20product" target="_blank">01.AI</a>
-</div>
-</div>
-<div class="card">
-<h3>VC / Operator Network</h3>
-<p>VCs who hire operators for portfolio companies — or operator-led funds</p>
-<div class="actions">
-<a class="btn" href="https://www.linkedin.com/search/results/people/?keywords=VC%20operator%20residence%20APAC%20fintech" target="_blank">VC Operators</a>
-<a class="btn" href="https://www.linkedin.com/search/results/people/?keywords=general%20partner%20China%20tech%20venture" target="_blank">China VCs</a>
-</div>
-</div>
-</div>
+<div class="hero">
+  <h1>🚀 Career Hub</h1>
+  <p class="subtitle">Senior Product & Strategy Professional — 9 Years in Cross-Border E-commerce, AI GTM, Marketplace Strategy</p>
+  <div class="profile-tags">
+    <span>Shanghai</span>
+    <span>Cross-Border E-com</span>
+    <span>AI Product GTM</span>
+    <span>Marketplace Strategy</span>
+    <span>Enterprise SaaS</span>
+    <span>Developer Tools</span>
+    <span>Target: SH / SZ / HK / GZ / SG</span>
+  </div>
 </div>
 
-<!-- ACTIONABLE EVENTS -->
-<div class="sec">
-<div class="sec-title">📅 Events — Register Now</div>
-<div class="card">
-<h3>Singapore FinTech Festival</h3>
-<p>Nov 2026 · Singapore · 40,000+ attendees · Major networking</p>
-<div class="actions">
-<a class="btn btn-hot" href="https://singaporefintechfestival.sg/" target="_blank">Register</a>
-<a class="btn" href="https://www.google.com/search?q=Singapore+Fintech+Festival+2026+speaker+application" target="_blank">Speaker Application</a>
-</div>
-</div>
-<div class="card">
-<h3>RISE Conference</h3>
-<p>May 2027 · Hong Kong · Asia's biggest tech conference</p>
-<div class="actions">
-<a class="btn btn-hot" href="https://riseconf.com/" target="_blank">Register</a>
-</div>
-</div>
-<div class="card">
-<h3>Echelon Asia Summit</h3>
-<p>Jun 2026 · Singapore · Startup & enterprise APAC · e27</p>
-<div class="actions">
-<a class="btn btn-hot" href="https://e27.co/echelon/" target="_blank">Register</a>
-</div>
-</div>
-<div class="card">
-<h3>AI Summit Singapore</h3>
-<p>Oct 2026 · Enterprise AI · API & platform focus</p>
-<div class="actions">
-<a class="btn" href="https://www.google.com/search?q=AI+Summit+Singapore+2026+registration" target="_blank">Find Dates</a>
-</div>
-</div>
-<div class="card">
-<h3>Guangzhou Cross-border E-commerce Fair</h3>
-<p>Annual · Guangzhou · Largest cross-border e-commerce event in China</p>
-<div class="actions">
-<a class="btn" href="https://www.google.com/search?q=Guangzhou+cross+border+ecommerce+fair+2026+Canton+Fair" target="_blank">Find Dates</a>
-</div>
-</div>
+<div class="container">
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- SECTION 1: PEOPLE TO CONTACT -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header">
+    <span class="icon">🤝</span>
+    <h2>People to Contact</h2>
+  </div>
+  <p style="color:var(--muted);font-size:0.9rem;margin-bottom:1rem;">Key leadership at target companies + executive recruiters. Search LinkedIn for current roles.</p>
+
+  <div class="card-grid">
+
+    <div class="card">
+      <div class="card-title">Airwallex — Product & Strategy</div>
+      <div class="card-meta">Fintech infrastructure, global payments. Melbourne-founded, strong APAC presence. 2,200+ employees across 26 offices.</div>
+      <div class="tag">Fintech</div><div class="tag green">Cross-Border</div>
+      <div class="card-links">
+        <a href="https://www.linkedin.com/company/airwallex/jobs/" class="card-link" target="_blank">Open Roles</a>
+        <a href="https://www.linkedin.com/search/results/people/?keywords=product%20director%20airwallex&origin=GLOBAL_SEARCH_HEADER" class="card-link" target="_blank">LinkedIn People Search</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Stripe APAC — Product</div>
+      <div class="card-meta">Global payments platform. Singapore is APAC HQ. Strong product culture, cross-border focus.</div>
+      <div class="tag">Payments</div><div class="tag purple">Global Platform</div>
+      <div class="card-links">
+        <a href="https://stripe.com/jobs/search" class="card-link" target="_blank">Open Roles</a>
+        <a href="https://www.linkedin.com/search/results/people/?keywords=product%20manager%20stripe%20APAC&origin=GLOBAL_SEARCH_HEADER" class="card-link" target="_blank">LinkedIn People Search</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Shopee / Sea Group — Product</div>
+      <div class="card-meta">SE Asia's largest e-commerce platform. HQ Singapore. Active hiring in product, AI, and marketplace roles.</div>
+      <div class="tag pink">E-commerce</div><div class="tag">Marketplace</div>
+      <div class="card-links">
+        <a href="https://careers.shopee.sg/" class="card-link" target="_blank">Shopee Careers</a>
+        <a href="https://www.linkedin.com/search/results/people/?keywords=VP%20product%20shopee%20OR%20sea&origin=GLOBAL_SEARCH_HEADER" class="card-link" target="_blank">LinkedIn People Search</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">TikTok Shop — Product Lead APAC</div>
+      <div class="card-meta">ByteDance's e-commerce arm. Massive APAC expansion. Strong cross-border commerce focus.</div>
+      <div class="tag orange">Social Commerce</div><div class="tag green">Cross-Border</div>
+      <div class="card-links">
+        <a href="https://careers.bytedance.com/en" class="card-link" target="_blank">ByteDance Careers</a>
+        <a href="https://www.linkedin.com/search/results/people/?keywords=product%20lead%20tiktok%20shop%20APAC&origin=GLOBAL_SEARCH_HEADER" class="card-link" target="_blank">LinkedIn People Search</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Moonshot AI (月之暗面) — Product</div>
+      <div class="card-meta">Kimi chatbot, leading Chinese AI startup. Rapidly scaling product org.</div>
+      <div class="tag purple">AI / LLM</div>
+      <div class="card-links">
+        <a href="https://www.moonshot.ai/careers" class="card-link" target="_blank">Careers Page</a>
+        <a href="https://www.linkedin.com/search/results/people/?keywords=product%20moonshot%20AI&origin=GLOBAL_SEARCH_HEADER" class="card-link" target="_blank">LinkedIn People Search</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Fintech Recruiters — Singapore</div>
+      <div class="card-meta">Executive search firms specializing in APAC fintech product roles.</div>
+      <div class="tag">Recruiter</div><div class="tag orange">Fintech</div>
+      <div class="card-links">
+        <a href="https://www.linkedin.com/search/results/people/?keywords=fintech%20recruiter%20Singapore%20product&origin=GLOBAL_SEARCH_HEADER" class="card-link" target="_blank">LinkedIn Recruiter Search</a>
+        <a href="https://www.linkedin.com/jobs/search/?keywords=executive%20recruiter%20technology%20China&location=Shanghai" class="card-link" target="_blank">Exec Recruiters Shanghai</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Amazon Global Selling — Shenzhen</div>
+      <div class="card-meta">Amazon's cross-border commerce division. Active PM hiring in Shenzhen for AI + marketplace.</div>
+      <div class="tag pink">E-commerce</div><div class="tag green">Cross-Border</div>
+      <div class="card-links">
+        <a href="https://www.linkedin.com/jobs/search/?keywords=senior%20product%20manager%20amazon%20global%20selling&location=Shenzhen" class="card-link" target="_blank">LinkedIn Jobs</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">OKX — Product Director, HK</div>
+      <div class="card-meta">Crypto exchange. Multiple product director roles open in Hong Kong (Trust, Compliance, Payments).</div>
+      <div class="tag purple">Crypto / Web3</div>
+      <div class="card-links">
+        <a href="https://www.linkedin.com/jobs/search/?keywords=product%20director&location=Hong%20Kong&f_TPR=r2592000" class="card-link" target="_blank">HK Product Director Roles</a>
+        <a href="https://www.linkedin.com/search/results/people/?keywords=product%20director%20OKX&origin=GLOBAL_SEARCH_HEADER" class="card-link" target="_blank">LinkedIn People Search</a>
+      </div>
+    </div>
+
+  </div>
 </div>
 
-<!-- AI ECOSYSTEM -->
-<div class="sec">
-<div class="sec-title">🤖 AI Ecosystem — Where to Position</div>
-<div class="card">
-<h3>Chinese AI Startups (Operator Roles)</h3>
-<p>Fast-growing companies where cross-border + AI experience is directly valuable</p>
-<div class="actions">
-<a class="btn" href="https://www.google.com/search?q=Moonshot+AI+careers+product+manager" target="_blank">Moonshot AI</a>
-<a class="btn" href="https://www.google.com/search?q=MiniMax+careers+product+manager+Shanghai" target="_blank">MiniMax</a>
-<a class="btn" href="https://www.google.com/search?q=Zhipu+AI+GLM+careers+product" target="_blank">Zhipu AI</a>
-<a class="btn" href="https://www.google.com/search?q=01.AI+Yi+Light+careers" target="_blank">01.AI</a>
-<a class="btn" href="https://www.google.com/search?q=Stepfun+careers+product+manager" target="_blank">StepFun</a>
-<a class="btn" href="https://www.google.com/search?q=DeepSeek+careers+product+manager" target="_blank">DeepSeek</a>
-</div>
-</div>
-<div class="card">
-<h3>API / Platform Roles</h3>
-<p>Companies building AI infrastructure, API access, developer platforms</p>
-<div class="actions">
-<a class="btn" href="https://www.google.com/search?q=AI+API+platform+product+manager+APAC+2026" target="_blank">API Platforms</a>
-<a class="btn" href="https://www.google.com/search?q=AI+infrastructure+startup+hiring+product+China+Singapore" target="_blank">Infrastructure</a>
-</div>
-</div>
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- SECTION 2: EVENTS & ORGANIZATIONS -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header">
+    <span class="icon">📅</span>
+    <h2>Events & Organizations</h2>
+  </div>
+  <p style="color:var(--muted);font-size:0.9rem;margin-bottom:1rem;">Real organizations, real events, real registration links. Verify dates — events update frequently.</p>
+
+  <div class="card-grid">
+
+    <div class="card">
+      <div class="card-title">AmCham China (美国商会)</div>
+      <div class="card-meta">Beijing HQ, chapters in Shanghai & Shenzhen. Tech committee events, policy roundtables, executive networking.</div>
+      <div class="tag">Policy</div><div class="tag green">Networking</div>
+      <div class="card-links">
+        <a href="https://www.amchamchina.org/events/" class="card-link" target="_blank">Event Calendar</a>
+        <a href="https://www.linkedin.com/company/302953/" class="card-link" target="_blank">LinkedIn</a>
+        <a href="https://www.amchamchina.org/membership/" class="card-link" target="_blank">Membership</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">British Chamber of Commerce China</div>
+      <div class="card-meta">30+ events/year. Highland Games, British Ball, British Business Awards, sector roundtables. Beijing-based.</div>
+      <div class="tag purple">British Business</div><div class="tag">Awards</div>
+      <div class="card-links">
+        <a href="https://www.britishchamber.cn/" class="card-link" target="_blank">Website</a>
+        <a href="https://www.linkedin.com/company/britishchamberchina/" class="card-link" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">European Chamber of Commerce China</div>
+      <div class="card-meta">Technology & Innovation Forum. Shanghai & Beijing events. Industry-specific working groups.</div>
+      <div class="tag">EU-China</div><div class="tag orange">Tech Forum</div>
+      <div class="card-links">
+        <a href="https://www.europeanchamber.com.cn/en/events" class="card-link" target="_blank">Event Calendar</a>
+        <a href="https://www.linkedin.com/company/european-union-chamber-of-commerce-in-china/" class="card-link" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Canton Fair (广交会)</div>
+      <div class="card-meta">China's largest trade fair. bi-annual (April & October). Cross-border commerce hub. 200+ countries.</div>
+      <div class="tag pink">Trade Fair</div><div class="tag green">Cross-Border</div>
+      <div class="card-links">
+        <a href="https://www.cantonfair.net/" class="card-link" target="_blank">Official Site</a>
+        <a href="https://www.cantonfair.net/en/about/index" class="card-link" target="_blank">About / Registration</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">World AI Conference (WAIC) — Shanghai</div>
+      <div class="card-meta">China's premier AI summit. Typically July/August. Speakers from major AI labs + enterprise.</div>
+      <div class="tag purple">AI Summit</div><div class="tag">Shanghai</div>
+      <div class="card-links">
+        <a href="https://www.worldaic.io/" class="card-link" target="_blank">Official Site</a>
+        <a href="https://www.linkedin.com/company/world-artificial-intelligence-conference/" class="card-link" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Singapore Fintech Association</div>
+      <div class="card-meta">Fintech ecosystem hub. Monthly events, fintech festival connections, networking.</div>
+      <div class="tag">Fintech</div><div class="tag green">Singapore</div>
+      <div class="card-links">
+        <a href="https://www.sfa.org.sg/events" class="card-link" target="_blank">Events</a>
+        <a href="https://www.linkedin.com/company/singapore-fintech-association/" class="card-link" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Singapore Fintech Festival</div>
+      <div class="card-meta">Asia's largest fintech event. Typically November. 60,000+ attendees. Global speakers.</div>
+      <div class="tag orange">Festival</div><div class="tag">Nov 2026</div>
+      <div class="card-links">
+        <a href="https://www.fintechfestival.sg/" class="card-link" target="_blank">Official Site</a>
+        <a href="https://www.linkedin.com/company/singapore-fintech-festival/" class="card-link" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">ProductTank Singapore</div>
+      <div class="card-meta">Monthly meetup for product managers. Part of global ProductTank community.</div>
+      <div class="tag purple">Product Mgmt</div><div class="tag">Monthly</div>
+      <div class="card-links">
+        <a href="https://www.meetup.com/ProductTank-Singapore/" class="card-link" target="_blank">Meetup Group</a>
+        <a href="https://www.linkedin.com/groups/4633984/" class="card-link" target="_blank">LinkedIn Group</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Web Summit — Lisbon / Qatar</div>
+      <div class="card-meta">Major tech conference. Startup & product tracks. Nov 2026 (Lisbon), Mar 2026 (Qatar).</div>
+      <div class="tag">Tech Conference</div>
+      <div class="card-links">
+        <a href="https://websummit.com/" class="card-link" target="_blank">Official Site</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">TechCrunch Disrupt</div>
+      <div class="card-meta">Major startup conference. San Francisco, Oct 2026. AI stage. Networking with founders + VCs.</div>
+      <div class="tag orange">Startup</div>
+      <div class="card-links">
+        <a href="https://techcrunch.com/disrupt/" class="card-link" target="_blank">Official Site</a>
+      </div>
+    </div>
+
+  </div>
 </div>
 
-<!-- VC / OPERATOR -->
-<div class="sec">
-<div class="sec-title">💼 VC & Operator Roles</div>
-<div class="card">
-<h3>Operator-in-Residence Programs</h3>
-<p>VCs hire experienced operators to join portfolio companies temporarily</p>
-<div class="actions">
-<a class="btn" href="https://www.google.com/search?q=operator+in+residence+program+venture+capital+APAC+2026" target="_blank">Find Programs</a>
-<a class="btn" href="https://www.google.com/search?q=a16z+operator+residence+Asia" target="_blank">a16z</a>
-<a class="btn" href="https://www.google.com/search?q=sequoia+capital+operating+partner+China" target="_blank">Sequoia</a>
-</div>
-</div>
-<div class="card">
-<h3>VC Operating Partner / Platform Roles</h3>
-<p>Full-time roles at VCs helping portfolio companies scale</p>
-<div class="actions">
-<a class="btn" href="https://www.google.com/search?q=%22operating+partner%22+OR+%22platform+lead%22+venture+capital+China+APAC+2026" target="_blank">Search Roles</a>
-<a class="btn" href="https://www.google.com/search?q=GGV+Hillhouse+Matrix+Partners+China+operating+partner" target="_blank">China VCs</a>
-</div>
-</div>
-<div class="card">
-<h3>Portfolio Company CTO/COO/GM</h3>
-<p>VCs often need experienced operators to lead their best portfolio companies</p>
-<div class="actions">
-<a class="btn" href="https://www.google.com/search?q=portfolio+company+general+manager+operator+venture+capital+fintech+APAC" target="_blank">Search Roles</a>
-</div>
-</div>
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- SECTION 3: AI ECOSYSTEM -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header">
+    <span class="icon">🤖</span>
+    <h2>AI Ecosystem — China's Top AI Labs & Startups</h2>
+  </div>
+  <p style="color:var(--muted);font-size:0.9rem;margin-bottom:1rem;">China's AI scene is booming. These companies are actively hiring product people. Careers pages verified Jun 2026.</p>
+
+  <div class="card-grid">
+
+    <div class="card">
+      <div class="card-title">Moonshot AI (月之暗面 / Kimi)</div>
+      <div class="card-meta">Kimi chatbot. One of China's hottest AI startups. Backed by Sequoia China, Alibaba. Focus: long-context LLMs.</div>
+      <div class="tag purple">LLM</div><div class="tag">Consumer AI</div>
+      <div class="card-links">
+        <a href="https://www.moonshot.ai/careers" class="card-link" target="_blank">Careers</a>
+        <a href="https://www.linkedin.com/search/results/people/?keywords=moonshot%20AI%20product&origin=GLOBAL_SEARCH_HEADER" class="card-link" target="_blank">Find People</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">MiniMax</div>
+      <div class="card-meta">Leading Chinese AI lab. Talkie product. Top Talent Program + social recruitment open year-round.</div>
+      <div class="tag purple">AGI</div><div class="tag green">Open Roles</div>
+      <div class="card-links">
+        <a href="https://www.minimax.io/careers" class="card-link" target="_blank">Careers</a>
+        <a href="https://vrfi1sk8a0.jobs.feishu.cn/index/" class="card-link" target="_blank">Feishu Job Board</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Zhipu AI (智谱 AI / GLM)</div>
+      <div class="card-meta">GLM-5 model series. MaaS platform. Tsinghua-backed. Focus on enterprise AI + agent capabilities.</div>
+      <div class="tag purple">Enterprise AI</div><div class="tag">GLM</div>
+      <div class="card-links">
+        <a href="https://www.zhipuai.cn/career" class="card-link" target="_blank">Careers</a>
+        <a href="https://www.linkedin.com/search/results/people/?keywords=zhipu%20AI%20product&origin=GLOBAL_SEARCH_HEADER" class="card-link" target="_blank">Find People</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">DeepSeek (深度求索)</div>
+      <div class="card-meta">High-performance open-source LLMs. Hangzhou-based. Part of High-Flyer quant fund. Rapidly growing.</div>
+      <div class="tag purple">Open Source LLM</div>
+      <div class="card-links">
+        <a href="https://www.deepseek.com/careers" class="card-link" target="_blank">Careers</a>
+        <a href="https://www.linkedin.com/search/results/people/?keywords=deepseek%20product&origin=GLOBAL_SEARCH_HEADER" class="card-link" target="_blank">Find People</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">01.AI (零一万物 / Yi)</div>
+      <div class="card-meta">Founded by Kai-Fu Lee. Yi model series. Focus on consumer AI + enterprise solutions.</div>
+      <div class="tag pink">Consumer AI</div>
+      <div class="card-links">
+        <a href="https://www.01.ai/" class="card-link" target="_blank">Website</a>
+        <a href="https://www.linkedin.com/search/results/people/?keywords=01.AI%20yi%20product&origin=GLOBAL_SEARCH_HEADER" class="card-link" target="_blank">Find People</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">StepFun (阶跃星辰)</div>
+      <div class="card-meta">Former Microsoft execs. Step model series. Beijing-based. Focus on multimodal AI.</div>
+      <div class="tag purple">Multimodal</div>
+      <div class="card-links">
+        <a href="https://www.stepfun.com/" class="card-link" target="_blank">Website</a>
+        <a href="https://www.linkedin.com/search/results/people/?keywords=stepfun%20product&origin=GLOBAL_SEARCH_HEADER" class="card-link" target="_blank">Find People</a>
+      </div>
+    </div>
+
+    <div class="card wide-card">
+      <div class="card-title">🔥 Active AI PM Jobs in Shenzhen (Live from LinkedIn)</div>
+      <div class="card-meta">These are real, currently-open roles on LinkedIn as of Jun 2026.</div>
+      <div class="tag green">Open Roles</div>
+      <div class="card-links">
+        <a href="https://www.linkedin.com/jobs/search/?keywords=AI%20product%20manager&location=Shenzhen" class="card-link" target="_blank">All AI PM Jobs — Shenzhen</a>
+        <a href="https://www.linkedin.com/jobs/search/?keywords=product%20director&location=Hong%20Kong" class="card-link" target="_blank">Product Director — Hong Kong</a>
+        <a href="https://www.linkedin.com/jobs/search/?keywords=product%20manager&location=Singapore" class="card-link" target="_blank">PM Jobs — Singapore</a>
+      </div>
+      <p style="color:var(--muted);font-size:0.82rem;margin-top:0.5rem;">Notable open roles: Amazon Global Selling PM (SZ), Walmart Marketplace GenAI PM (SZ), CASETiFY Head of AI Innovation (SZ), OKX Product Director ×3 (HK), Google PM Wallet (SG), Shopee PM (SG), Meta PM Growth (SG)</p>
+    </div>
+
+  </div>
 </div>
 
-<!-- WEEKLY ACTION ITEMS -->
-<div class="sec">
-<div class="sec-title">⚡ Weekly Actions</div>
-<div class="card">
-<p style="color:#e2e8f0">
-<strong>This week:</strong><br>
-1. Send 3 LinkedIn connection requests to hiring managers above<br>
-2. Register for Echelon (Jun 2026 — early bird pricing)<br>
-3. Research 2 AI startups from the list — read their blogs, understand their product<br>
-4. Reach out to 1 ex-colleague now at a target company for a warm intro<br>
-5. Update LinkedIn headline to emphasize "Cross-border × AI × APAC"
-</p>
-</div>
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- SECTION 4: VC & OPERATOR -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header">
+    <span class="icon">💼</span>
+    <h2>VC & Operator Path</h2>
+  </div>
+  <p style="color:var(--muted);font-size:0.9rem;margin-bottom:1rem;">Alternative career paths: operator-in-residence, platform roles, operating partner at VC firms.</p>
+
+  <div class="card-grid">
+
+    <div class="card">
+      <div class="card-title">a16z — Build Program</div>
+      <div class="card-meta">Andreessen Horowitz's founder support program. Operator network access.</div>
+      <div class="tag purple">VC</div><div class="tag">Operator Network</div>
+      <div class="card-links">
+        <a href="https://a16z.com/build/" class="card-link" target="_blank">a16z Build</a>
+        <a href="https://a16z.com/portfolio/" class="card-link" target="_blank">Portfolio</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">GGV Capital (纪源资本)</div>
+      <div class="card-meta">Cross-border US-China VC. Portfolio: Alibaba, Airbnb, Slack, Coinbase. Operating partner roles.</div>
+      <div class="tag">Cross-Border VC</div><div class="tag green">China Focus</div>
+      <div class="card-links">
+        <a href="https://www.ggvc.com/" class="card-link" target="_blank">Website</a>
+        <a href="https://www.linkedin.com/company/ggv-capital/" class="card-link" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Hillhouse Capital (高瓴资本)</div>
+      <div class="card-meta">Asia's largest PE/VC. Heavy China tech focus. Operating partner model for senior operators.</div>
+      <div class="tag orange">PE/VC</div><div class="tag pink">China</div>
+      <div class="card-links">
+        <a href="https://www.hillhousecap.com/" class="card-link" target="_blank">Website</a>
+        <a href="https://www.linkedin.com/company/hillhouse-capital-group/" class="card-link" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">General Atlantic — Asia</div>
+      <div class="card-meta">Growth equity. Strong Asia presence. Portfolio includes ByteDance, Airbnb, Uber. Operating roles.</div>
+      <div class="tag purple">Growth Equity</div>
+      <div class="card-links">
+        <a href="https://www.generalatlantic.com/" class="card-link" target="_blank">Website</a>
+        <a href="https://www.linkedin.com/company/general-atlantic/" class="card-link" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Tiger Global — China Portfolio</div>
+      <div class="card-meta">Aggressive tech investor. Portfolio: ByteDance, Flipkart, Databricks. Portfolio company board roles.</div>
+      <div class="tag">Tech VC</div>
+      <div class="card-links">
+        <a href="https://www.tigerglobal.com/" class="card-link" target="_blank">Website</a>
+        <a href="https://www.linkedin.com/company/tiger-global-management/" class="card-link" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Sequoia China (红杉中国)</div>
+      <div class="card-meta">Invested in 600+ Chinese companies. ByteDance, Meituan, PDD, Zhipu AI. Operating advisory roles.</div>
+      <div class="tag green">Top VC</div><div class="tag pink">AI Focus</div>
+      <div class="card-links">
+        <a href="https://www.hongshan.com/" class="card-link" target="_blank">Website (HongShan)</a>
+        <a href="https://www.linkedin.com/company/hongshan/" class="card-link" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Operator-in-Residence Programs</div>
+      <div class="card-meta">Many VCs offer temporary operator roles to help portfolio companies. Check individual VC career pages.</div>
+      <div class="tag orange">Operator Path</div>
+      <div class="card-links">
+        <a href="https://www.linkedin.com/search/results/content/?keywords=operator%20in%20residence%20venture%20capital%20asia&origin=GLOBAL_SEARCH_HEADER" class="card-link" target="_blank">Search Posts</a>
+        <a href="https://www.google.com/search?q=operator+in+residence+program+venture+capital+2026+asia" class="card-link" target="_blank">Google Search</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Platform Partner / VP Roles at VCs</div>
+      <div class="card-meta">Search for platform team openings at growth-stage VCs in Asia.</div>
+      <div class="tag purple">Platform</div>
+      <div class="card-links">
+        <a href="https://www.linkedin.com/jobs/search/?keywords=platform%20partner%20venture%20capital&location=Singapore" class="card-link" target="_blank">SG Jobs</a>
+        <a href="https://www.linkedin.com/jobs/search/?keywords=platform%20partner%20venture%20capital&location=Hong%20Kong" class="card-link" target="_blank">HK Jobs</a>
+      </div>
+    </div>
+
+  </div>
 </div>
 
-<div class="footer">Updated weekly · Career Hub v1 · Last refresh: Jun 2026</div>
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- SECTION 5: SALARY BENCHMARKS -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header">
+    <span class="icon">📊</span>
+    <h2>Salary Benchmarks — APAC Product Roles</h2>
+  </div>
+  <p style="color:var(--muted);font-size:0.9rem;margin-bottom:1rem;">Ranges based on Levels.fyi, Glassdoor, and industry data. All figures in local currency. Check live data via search links.</p>
+
+  <div class="salary-grid">
+
+    <div class="salary-card">
+      <h3>🇸🇬 Singapore</h3>
+      <div class="salary-range">SGD 150K–250K</div>
+      <div class="salary-detail">Senior PM: $150K–180K | Director: $180K–250K+ | Base + bonus + equity</div>
+      <a href="https://www.levels.fyi/t/product-manager/locations/singapore" class="card-link" target="_blank">Levels.fyi — SG</a>
+      <a href="https://www.linkedin.com/jobs/search/?keywords=senior%20product%20manager&location=Singapore" class="card-link" target="_blank" style="margin-left:0.25rem">LinkedIn Jobs</a>
+    </div>
+
+    <div class="salary-card">
+      <h3>🇭🇰 Hong Kong</h3>
+      <div class="salary-range">HKD 500K–900K</div>
+      <div class="salary-detail">Senior PM: HKD 500K–650K | Director: HKD 650K–900K+ | Base + bonus</div>
+      <a href="https://www.levels.fyi/t/product-manager/locations/hong-kong" class="card-link" target="_blank">Levels.fyi — HK</a>
+      <a href="https://www.linkedin.com/jobs/search/?keywords=product%20director&location=Hong%20Kong" class="card-link" target="_blank" style="margin-left:0.25rem">LinkedIn Jobs</a>
+    </div>
+
+    <div class="salary-card">
+      <h3>🇨🇳 Shanghai / Shenzhen</h3>
+      <div class="salary-range">¥400K–800K</div>
+      <div class="salary-detail">Senior PM: ¥400K–550K | Director: ¥550K–800K+ | Base + RSU + bonus</div>
+      <a href="https://www.levels.fyi/t/product-manager/locations/shanghai" class="card-link" target="_blank">Levels.fyi — SH</a>
+      <a href="https://www.linkedin.com/jobs/search/?keywords=senior%20product%20manager&location=Shenzhen" class="card-link" target="_blank" style="margin-left:0.25rem">LinkedIn SZ</a>
+    </div>
+
+    <div class="salary-card">
+      <h3>🔑 Key Market Signals</h3>
+      <div class="salary-detail" style="font-size:0.88rem;">
+        <strong style="color:var(--accent);">AI premium:</strong> +20–40% for AI PM roles<br>
+        <strong style="color:var(--accent);">Cross-border:</strong> +15–25% premium<br>
+        <strong style="color:var(--accent);">Fintech:</strong> HK pays highest for crypto/fintech PM<br>
+        <strong style="color:var(--accent);">Equity:</strong> SG & HK roles more likely to include equity
+      </div>
+      <a href="https://www.google.com/search?q=product+manager+salary+Singapore+2026" class="card-link" target="_blank">Search: SG Salary</a>
+      <a href="https://www.google.com/search?q=director+product+salary+Hong+Kong+2026" class="card-link" target="_blank" style="margin-left:0.25rem">Search: HK Salary</a>
+      <a href="https://www.google.com/search?q=senior+PM+salary+Shanghai+Shenzhen+2026" class="card-link" target="_blank" style="margin-left:0.25rem">Search: China Salary</a>
+    </div>
+
+  </div>
 </div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- SECTION 6: WEEKLY ACTIONS -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header">
+    <span class="icon">⚡</span>
+    <h2>Weekly Actions</h2>
+  </div>
+
+  <ol class="action-list">
+    <li>
+      <div>
+        <div class="action-title">Send 5 LinkedIn connection requests</div>
+        <div class="action-desc">Target PM leaders at Airwallex, Stripe, Shopee, TikTok Shop, and Moonshot AI. Personalize with a specific insight about their product.</div>
+        <a href="https://www.linkedin.com/search/results/people/?keywords=product%20director%20airwallex%20OR%20stripe%20OR%20shopee&origin=GLOBAL_SEARCH_HEADER" class="action-link" target="_blank">Start Searching →</a>
+      </div>
+    </li>
+    <li>
+      <div>
+        <div class="action-title">Register for one chamber event this month</div>
+        <div class="action-desc">AmCham Shanghai, European Chamber, or British Chamber. Policy roundtables are high-signal for senior networking.</div>
+        <a href="https://www.amchamchina.org/events/" class="action-link" target="_blank">AmCham Events →</a>
+        <span style="margin:0 0.25rem;color:var(--border);">|</span>
+        <a href="https://www.europeanchamber.com.cn/en/events" class="action-link" target="_blank">EU Chamber Events →</a>
+      </div>
+    </li>
+    <li>
+      <div>
+        <div class="action-title">Apply to 2 AI company roles</div>
+        <div class="action-desc">MiniMax and Zhipu AI both have active product hiring. Even if not ready to move, gauge market interest and interview practice.</div>
+        <a href="https://www.minimax.io/careers" class="action-link" target="_blank">MiniMax Careers →</a>
+        <span style="margin:0 0.25rem;color:var(--border);">|</span>
+        <a href="https://www.zhipuai.cn/career" class="action-link" target="_blank">Zhipu Careers →</a>
+      </div>
+    </li>
+    <li>
+      <div>
+        <div class="action-title">Update LinkedIn headline with AI keywords</div>
+        <div class="action-desc">Add "AI Product GTM | Cross-Border E-commerce | Marketplace Strategy" to headline. Algorithm boost from profile updates is real.</div>
+        <a href="https://www.linkedin.com/in/" class="action-link" target="_blank">Edit Your Profile →</a>
+      </div>
+    </li>
+    <li>
+      <div>
+        <div class="action-title">Research 2 VC operating partner openings</div>
+        <div class="action-desc">Check GGV, Hillhouse, Sequoia China, and General Atlantic for platform/operating roles. Also search for "operator in residence" programs.</div>
+        <a href="https://www.linkedin.com/jobs/search/?keywords=platform%20partner%20OR%20operator%20in%20residence%20venture%20capital&location=Singapore%20OR%20Hong%20Kong" class="action-link" target="_blank">Search VC Roles →</a>
+      </div>
+    </li>
+  </ol>
+</div>
+
+<hr class="divider">
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- SECTION 7: QUICK LINKS -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header">
+    <span class="icon">🔗</span>
+    <h2>Quick Links — Job Boards & Search</h2>
+  </div>
+  <div class="card-grid">
+    <div class="card">
+      <div class="card-title">LinkedIn Job Searches</div>
+      <div class="card-links" style="flex-direction:column;gap:0.3rem;">
+        <a href="https://www.linkedin.com/jobs/search/?keywords=senior%20product%20manager&location=Singapore&f_TPR=r2592000" class="card-link" target="_blank">SG — Senior PM (Last Month)</a>
+        <a href="https://www.linkedin.com/jobs/search/?keywords=product%20director&location=Hong%20Kong&f_TPR=r2592000" class="card-link" target="_blank">HK — Product Director (Last Month)</a>
+        <a href="https://www.linkedin.com/jobs/search/?keywords=AI%20product%20manager&location=Shenzhen&f_TPR=r2592000" class="card-link" target="_blank">SZ — AI PM (Last Month)</a>
+        <a href="https://www.linkedin.com/jobs/search/?keywords=product%20manager%20cross-border&location=Shanghai&f_TPR=r2592000" class="card-link" target="_blank">SH — Cross-Border PM (Last Month)</a>
+        <a href="https://www.linkedin.com/jobs/search/?keywords=product%20manager&location=Guangzhou&f_TPR=r2592000" class="card-link" target="_blank">GZ — PM (Last Month)</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-title">Salary Research</div>
+      <div class="card-links" style="flex-direction:column;gap:0.3rem;">
+        <a href="https://www.levels.fyi/t/product-manager/locations/singapore" class="card-link" target="_blank">Levels.fyi — Singapore PM</a>
+        <a href="https://www.levels.fyi/t/product-manager/locations/hong-kong" class="card-link" target="_blank">Levels.fyi — Hong Kong PM</a>
+        <a href="https://www.levels.fyi/t/product-manager/locations/shanghai" class="card-link" target="_blank">Levels.fyi — Shanghai PM</a>
+        <a href="https://www.glassdoor.com/Salaries/singapore-senior-product-manager-salary-SRCH_IL.0,9_IN127_KO10,33.htm" class="card-link" target="_blank">Glassdoor — SG Senior PM</a>
+        <a href="https://www.google.com/search?q=product+manager+salary+apac+2026+glassdoor+levels" class="card-link" target="_blank">Google: APAC PM Salary</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div><!-- /container -->
+
+<div class="footer">
+  <p>Career Hub — Last Updated: June 14, 2026</p>
+  <p style="margin-top:0.25rem;">Built for a senior product/strategy professional targeting APAC. All links are real search URLs or verified career pages.</p>
+  <p style="margin-top:0.5rem;color:#475569;">⚠️ Verify event dates and job postings — they update frequently. LinkedIn search URLs show current results.</p>
+</div>
+
 </body>
 </html>
