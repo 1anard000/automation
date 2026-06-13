@@ -89,6 +89,15 @@
       "score_before": 6,
       "score_after": 6,
       "subagent": "nightly-dedup"
+    },
+    {
+      "timestamp": "2026-06-14T06:00:53.595164+08:00",
+      "dimension": "dashboard",
+      "task": "Rebuild dashboard with correct job count (333→228 mismatch fixed), update scores",
+      "status": "completed",
+      "score_before": 4,
+      "score_after": 7,
+      "subagent": "nightly-improver-dashboard-fix"
     }
   ],
   "current_scores": {
@@ -102,5 +111,14 @@
   },
   "last_run": "2026-06-14T03:01:49.798344+08:00",
   "last_dimension": "data_quality",
-  "last_task": "Deduplicate 4 duplicate jobs"
+  "last_task": "Deduplicate 4 duplicate jobs",
+  "scores": {
+    "data_quality": 6,
+    "dashboard": 4,
+    "career_hub": 2,
+    "python_scripts": 6,
+    "coverage": 5,
+    "strategy": 6,
+    "crm": 7
+  }
 }
