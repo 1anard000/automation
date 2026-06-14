@@ -100,13 +100,13 @@
       "subagent": "nightly-improver"
     },
     {
-      "timestamp": "2026-06-14T19:00:56.916704+00:00",
-      "dimension": "career_strategy",
-      "task": "Created career-strategy.md — market landscape, target companies, application tiers, networking plan. Sub-agent spawned.",
-      "status": "in_progress",
-      "score_before": 6,
-      "score_after": null,
-      "subagent": "builder-career-strategy"
+      "timestamp": "2026-06-15T03:10:00+08:00",
+      "dimension": "automation",
+      "task": "Audit automation state: no scheduled automation found; confirm setup for weekly/monthly refresh",
+      "status": "completed",
+      "score_before": 7,
+      "score_after": 6,
+      "subagent": "system-scorekeeper"
     }
   ],
   "current_scores": {
@@ -115,19 +115,10 @@
     "career_strategy": 6,
     "python_scripts": 6,
     "crm": 7,
-    "automation": 7,
-    "coverage": 6
+    "automation": 6,
+    "coverage": 7
   },
-  "last_run": "2026-06-14T19:00:56.917574+00:00",
-  "last_dimension": "career_strategy",
-  "last_task": "Create career-strategy.md",
-  "scores": {
-    "data_quality": 6,
-    "dashboard": 4,
-    "career_hub": 4,
-    "python_scripts": 6,
-    "coverage": 5,
-    "strategy": 6,
-    "crm": 7
-  }
+  "last_run": "2026-06-15T03:10:00+08:00",
+  "last_dimension": "automation",
+  "last_task": "Audit automation state; weakest area is data_quality/python_scripts/career_strategy at 6"
 }
