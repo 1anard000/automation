@@ -1127,14 +1127,16 @@
 
 <script>
 // ═══════════════════════════════════════════════════════
-// DATA (parsed from jobs-all.json)
+// DATA (parsed from jobs-all.json — 575 jobs, 2026-06-15)
 // ═══════════════════════════════════════════════════════
 
 const CITY_DATA = [
-  { name: 'Singapore',   count: 167, x: '58%', y: '72%', color: '#34d399' },
-  { name: 'Hong Kong',   count: 89,  x: '62%', y: '52%', color: '#f472b6' },
+  { name: 'Singapore',   count: 176, x: '58%', y: '72%', color: '#34d399' },
+  { name: 'Hong Kong',   count: 97,  x: '62%', y: '52%', color: '#f472b6' },
   { name: 'Shenzhen',    count: 64,  x: '60%', y: '48%', color: '#38bdf8' },
+  { name: 'Remote',      count: 55,  x: '40%', y: '60%', color: '#a78bfa' },
   { name: 'Shanghai',    count: 47,  x: '64%', y: '44%', color: '#818cf8' },
+  { name: 'Hangzhou',    count: 8,   x: '65%', y: '43%', color: '#fb923c' },
   { name: 'Guangzhou',   count: 4,   x: '58%', y: '50%', color: '#fb923c' },
 ];
 
@@ -1146,27 +1148,32 @@ const CATEGORY_DATA = [
   { label: 'Growth',            count: 38,  color: '#fb923c' },
   { label: 'Operations',        count: 19,  color: '#a78bfa' },
   { label: 'Platform',          count: 16,  color: '#38bdf8' },
-  { label: 'Fintech',           count: 7,   color: '#34d399' },
+  { label: 'VC / PE',           count: 14,  color: '#34d399' },
+  { label: 'Fintech',           count: 7,   color: '#f472b6' },
 ];
 
 const SOURCE_DATA = [
-  { label: 'LinkedIn',           count: 136, color: '#38bdf8' },
+  { label: 'LinkedIn',           count: 158, color: '#38bdf8' },
   { label: 'Greenhouse',         count: 119, color: '#34d399' },
   { label: 'Company Sites',      count: 76,  color: '#818cf8' },
   { label: 'Boss直聘',            count: 60,  color: '#f472b6' },
   { label: 'LinkedIn Search',    count: 39,  color: '#fb923c' },
   { label: 'JobsDB',             count: 32,  color: '#a78bfa' },
   { label: 'Indeed',             count: 22,  color: '#38bdf8' },
-  { label: 'Glassdoor',          count: 9,   color: '#34d399' },
-  { label: 'Ashby',              count: 7,   color: '#f472b6' },
+  { label: 'Web Search',         count: 14,  color: '#34d399' },
+  { label: 'Glassdoor',          count: 9,   color: '#f472b6' },
+  { label: 'Ashby',              count: 7,   color: '#fb923c' },
 ];
 
 const ROLETYPE_DATA = [
-  { label: 'Product Mgmt',    count: 212, color: '#38bdf8' },
-  { label: 'Strategy/Ops',    count: 97,  color: '#818cf8' },
+  { label: 'Product Mgmt',    count: 226, color: '#38bdf8' },
+  { label: 'Strategy/Ops',    count: 98,  color: '#818cf8' },
   { label: 'BD / Partners',   count: 46,  color: '#34d399' },
-  { label: 'Cross-border',    count: 21,  color: '#f472b6' },
+  { label: 'Cross-border',    count: 28,  color: '#f472b6' },
   { label: 'Program Mgmt',    count: 19,  color: '#fb923c' },
+  { label: 'Growth',          count: 14,  color: '#a78bfa' },
+  { label: 'GM / Country',    count: 12,  color: '#38bdf8' },
+];
   { label: 'Growth',          count: 14,  color: '#a78bfa' },
   { label: 'GM / Country',    count: 12,  color: '#38bdf8' },
 ];
@@ -1187,9 +1194,9 @@ const COMPANY_SECTORS = [
     companies: [
       { name: 'OKX', count: 59 },
       { name: 'Stripe', count: 36 },
-      { name: 'Airwallex', count: 7 },
       { name: 'Coinbase', count: 9 },
-      { name: 'Binance', count: 4 },
+      { name: 'Airwallex', count: 7 },
+      { name: 'Binance', count: 6 },
     ]
   },
   {
@@ -1203,13 +1210,13 @@ const COMPANY_SECTORS = [
     ]
   },
   {
-    icon: '🏦', name: 'Enterprise & Consulting',
+    icon: '🏦', name: 'Enterprise & Finance',
     companies: [
+      { name: 'Blackstone', count: 4 },
       { name: 'Mastercard', count: 4 },
-      { name: 'Visa', count: 4 },
-      { name: 'GE HealthCare', count: 3 },
+      { name: 'Citi', count: 4 },
       { name: 'Gusto', count: 4 },
-      { name: 'AbbVie', count: 2 },
+      { name: 'Visa', count: 3 },
     ]
   },
 ];
@@ -1408,7 +1415,7 @@ window.addEventListener('scroll', () => {
 
 window.addEventListener('DOMContentLoaded', () => {
   // Hero counters
-  animateCounter(document.getElementById('stat-jobs'), 539, 1500);
+  animateCounter(document.getElementById('stat-jobs'), 575, 1500);
   animateCounter(document.getElementById('stat-companies'), 120, 1500);
   animateCounter(document.getElementById('stat-cities'), 10, 1200);
   animateCounter(document.getElementById('stat-sources'), 10, 1200);
