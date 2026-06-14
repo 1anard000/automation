@@ -21,7 +21,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Director, Market Intelligence",
@@ -45,7 +48,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Director, Product Strategy",
@@ -69,7 +75,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, Growth",
@@ -93,7 +102,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager",
@@ -117,7 +129,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Head of Product, Global Payments Network Infrastructure",
@@ -141,7 +156,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Director, Strategic Partnerships APAC",
@@ -165,7 +183,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "ashby",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Manager - AI",
@@ -189,7 +210,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "amazon",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Payment Strategy Director",
@@ -213,7 +237,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Binance Pay Business Lead",
@@ -237,7 +264,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Director, Regional Strategy and Business Development, APAC",
@@ -261,7 +291,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager - Supply Chain Management",
@@ -285,7 +318,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Director GTM Strategy & Transformation APJC",
@@ -309,7 +345,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Director - Corporate Strategy Execution - APAC",
@@ -333,7 +372,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Director (Payment, CAAS, Card Payments)",
@@ -357,7 +399,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Sr Director, Go-To-Market (APAC)",
@@ -381,7 +426,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Director, Business Strategy & Development – IMG",
@@ -405,7 +453,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Director, East Asia Strategy and Growth Initiatives",
@@ -429,7 +480,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "China Supply Chain Strategy Director",
@@ -453,7 +507,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Global Head of Business Operations and Chief of Staff, AppDev, RSO",
@@ -477,7 +534,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "google",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Head of International Growth Team, AppDev APAC",
@@ -501,7 +561,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "google",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Head of Measurement, APAC Product Go-To-Market",
@@ -525,7 +588,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "google",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Manager of Frontline Incentive and Strategy",
@@ -549,7 +615,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Sr Director Business Dev",
@@ -573,7 +642,10 @@
       "domain_match": 0,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Head of Strategic Growth, APAC",
@@ -597,7 +669,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "workday",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Fintech Strategy & Investments, APAC Lead - Executive Director",
@@ -621,7 +696,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Business Development & Innovation Manager",
@@ -645,7 +723,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Chief Marketplace Officer (CMO) / Marketplace Growth Director",
@@ -669,7 +750,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of eCommerce & Omni – East Asia Pacific",
@@ -693,7 +777,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "workday",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Vice President, Strategic Government Partnerships",
@@ -717,7 +804,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "workday",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Regional General Manager- Southeast Asia",
@@ -741,7 +831,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "VP, Go to Market Strategy",
@@ -765,7 +858,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Principal, Store Development & Operations, NSO",
@@ -789,7 +885,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Country Manager, Singapore",
@@ -813,7 +912,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Product Director, Trust & Experience",
@@ -837,7 +939,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager / Director, Global Payment Partnerships",
@@ -861,7 +966,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Vice President, Channel and Strategic Alliances APJ",
@@ -885,7 +993,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Head of Digital Product Management, China",
@@ -909,7 +1020,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Head of Commercial Strategy and Excellence",
@@ -933,7 +1047,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Account Director, Government",
@@ -957,7 +1074,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "APAC Sales Development Leader",
@@ -981,7 +1101,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Partner Director - AWS Alliance Partnership, APAC",
@@ -1005,7 +1128,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Head of APAC Growth Markets, Global Affairs",
@@ -1029,7 +1155,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "APAC Strategic Initiatives Lead, Global Affairs",
@@ -1053,7 +1182,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "ashby",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Director of Business Development (NeoCloud/GPU Cluster)",
@@ -1077,7 +1209,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Global Partnership, Head of APAC",
@@ -1101,7 +1236,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Strategy & Innovation Director-SH",
@@ -1125,7 +1263,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "workday",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Strategy & BD Manager",
@@ -1149,7 +1290,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager",
@@ -1173,7 +1317,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Head of Strategy & Business Development, APAC",
@@ -1197,7 +1344,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "General Manager, South East Asia",
@@ -1221,7 +1371,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Growth Director of Operations / Strategy",
@@ -1245,7 +1398,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "ashby",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Sales Director/VP",
@@ -1269,7 +1425,10 @@
       "domain_match": -20,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Deputy Vice President, Cross Border & Commercial Enablement",
@@ -1293,7 +1452,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "General Manager of International Consumer Business",
@@ -1317,7 +1479,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": 8
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Manager, Merchandising & Commercial Strategy",
@@ -1341,7 +1506,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Director, Merchandising & Commercial Strategy",
@@ -1365,7 +1533,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Regional Head of Corporate Development (APAC)",
@@ -1389,7 +1560,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "workday",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "VP, Business Development",
@@ -1413,7 +1587,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Product - Core & Growth",
@@ -1437,7 +1614,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Agency Partnerships, APAC",
@@ -1461,7 +1641,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Director of Strategic Partnerships, APAC",
@@ -1485,7 +1668,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "ashby",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Head of Expansion (APAC)",
@@ -1509,7 +1695,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Consultant / Consultant - AI Strategy",
@@ -1533,7 +1722,10 @@
       "domain_match": 20,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Director, Corporate Strategy, Asia Pacific",
@@ -1557,7 +1749,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Director, Stablecoin Partnerships & Go-to-Market Strategy, Greater China",
@@ -1581,7 +1776,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Vice President and General Manager - APAC",
@@ -1605,7 +1803,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Director of Business Development - Expansion",
@@ -1629,7 +1830,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Director, Go-To-Market",
@@ -1653,7 +1857,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Commercial Director - Marketplaces",
@@ -1677,7 +1884,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "HEAD OF APAC Customer Success",
@@ -1701,7 +1911,10 @@
       "domain_match": 0,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "VP, Business Planning & Operations",
@@ -1725,7 +1938,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "workday",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Regional Commercial Development Manager (Strategy/Planning)",
@@ -1749,7 +1965,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Regional Head of Strategy, Insights and Data APAC",
@@ -1773,7 +1992,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of E-commerce Strategy & Performance (Regional)",
@@ -1797,7 +2019,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Growth Marketing, Asia",
@@ -1821,7 +2046,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Associate Director, Strategy & Operations - CEO Office",
@@ -1845,7 +2073,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "ashby",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Head of Channel APAC",
@@ -1869,7 +2100,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director/Managing Director - Singapore & SEA COO",
@@ -1893,7 +2127,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Distribution Development Director, APAC",
@@ -1917,7 +2154,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "International Development Director - APAC",
@@ -1941,7 +2181,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "General Manager, Hong Kong & Macau",
@@ -1965,7 +2208,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Client Strategy, Asia Pacific",
@@ -1989,7 +2235,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Director, Payment Business Development, APAC",
@@ -2013,7 +2262,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "SEA TikTok Live Operations Lead",
@@ -2037,7 +2289,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "google",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Product Director, Banking Engagement",
@@ -2061,7 +2316,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Commercial Director APAC - Partnership",
@@ -2085,7 +2343,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "google",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Strategy Partner to APAC CEO",
@@ -2109,7 +2370,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Chief of Staff to SVP Operations, APAC",
@@ -2133,7 +2397,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Go To Market Lead, APAC",
@@ -2157,7 +2424,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Strategy Consultant/Senior Manager (Healthcare)",
@@ -2181,7 +2451,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "google",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Commercial & Strategic Growth VP (Crypto Payments / Stablecoin Acquiring / Card & CaaS)",
@@ -2205,7 +2478,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Director, Marketing & Analytics, APAC",
@@ -2229,7 +2505,10 @@
       "domain_match": -20,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "核心战略和运营负责人，市场推广",
@@ -2254,7 +2533,10 @@
       "domain_match": 0,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Director",
@@ -2278,7 +2560,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "GTM Director（出海）",
@@ -2303,7 +2588,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of dx CPG APAC",
@@ -2327,7 +2615,10 @@
       "domain_match": 0,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Market Strategy ACM APAC",
@@ -2351,7 +2642,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director/Vice President, Head – PCM Product Management, APAC",
@@ -2375,7 +2669,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director, Platform Success – APAC",
@@ -2399,7 +2696,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director of Sales – APAC",
@@ -2423,7 +2723,10 @@
       "domain_match": -20,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Strategic Capability & Strategy, Surgical Vision APAC",
@@ -2447,7 +2750,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of E-Commerce Acceleration (New Brands) - SEA",
@@ -2471,7 +2777,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of International Store Development",
@@ -2495,7 +2804,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Managing Director, Global Accounts, APAC",
@@ -2519,7 +2831,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Global Online Sales",
@@ -2543,7 +2858,10 @@
       "domain_match": -20,
       "location_match": 8,
       "english_match": 8
-    }
+    },
+    "app_platform": "google",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Country Manager",
@@ -2567,7 +2885,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Strategy & Operations Lead",
@@ -2591,7 +2912,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Partner Strategy & Operations Lead",
@@ -2615,7 +2939,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "ashby",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Head of Wholesale, NEA (VIP)",
@@ -2639,7 +2966,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director, Marketing Technology & Gen-AI Solutions (APAC)",
@@ -2663,7 +2993,10 @@
       "domain_match": -20,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Regional Manager, Ads Solutions (APAC)",
@@ -2687,7 +3020,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Brand Management, APAC",
@@ -2711,7 +3047,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Associate Director, Strategy & Business Development, Greater China",
@@ -2735,7 +3074,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Commercial Excellence",
@@ -2759,7 +3101,10 @@
       "domain_match": 0,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Advisory Director, APAC",
@@ -2783,7 +3128,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "ashby",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Director of Operations/Strategy",
@@ -2807,7 +3155,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of New Business - ShopBack Pay",
@@ -2831,7 +3182,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director, Corporate Development & M&A - Asia Pacific",
@@ -2855,7 +3209,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Partnerships and Distribution, Asia Pacific",
@@ -2879,7 +3236,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Marketing & Strategy, Asia",
@@ -2903,7 +3263,10 @@
       "domain_match": -20,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Director, Business Development | Shenzhen",
@@ -2927,7 +3290,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Director, APAC Consumer Insights & Strategy",
@@ -2951,7 +3317,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director, TISC Digital and Productivity",
@@ -2975,7 +3344,10 @@
       "domain_match": 0,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director Strategy and Business Development",
@@ -2999,7 +3371,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director, Digital Strategy & Business Development",
@@ -3023,7 +3398,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director, Business Development, SEA",
@@ -3047,7 +3425,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Strategic Initiatives – CEO Office",
@@ -3071,7 +3452,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of B2B Branded Channels",
@@ -3095,7 +3479,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Global Legal - AI Industry",
@@ -3119,7 +3506,10 @@
       "domain_match": 0,
       "location_match": 8,
       "english_match": 8
-    }
+    },
+    "app_platform": "google",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Head of Business Development",
@@ -3143,7 +3533,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Product, Travel Tech",
@@ -3167,7 +3560,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Marketing Communications - FMCG",
@@ -3191,7 +3587,10 @@
       "domain_match": -20,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "google",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Head of Data Monetization & Partnerships, FMCG Retail",
@@ -3215,7 +3614,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Regional Marketing Director, APAC",
@@ -3239,7 +3641,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Offline Branded Retail (LEGO Certified Store Channel)",
@@ -3263,7 +3668,10 @@
       "domain_match": 0,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director Product Management, APJ (AI/Cloud)",
@@ -3287,7 +3695,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Growth (China)",
@@ -3311,7 +3722,10 @@
       "domain_match": 25,
       "location_match": 0,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Country Manager",
@@ -3335,7 +3749,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Managing Director, Head of Regional Sales, Global Payments Solutions",
@@ -3359,7 +3776,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Director, Enterprise Business Development, APAC",
@@ -3383,7 +3803,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director, Commercial Strategy & Revenue Operations",
@@ -3407,7 +3830,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Global Payments Business",
@@ -3431,7 +3857,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": 8
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director, Product Strategy & Growth",
@@ -3455,7 +3884,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Sales, Web3 Partnerships (Cross-Border Payments)",
@@ -3479,7 +3911,10 @@
       "domain_match": -20,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Sales & Market Development - China",
@@ -3503,7 +3938,10 @@
       "domain_match": -20,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Lead / Product Director (Corporate Card / Crypto Payment)",
@@ -3527,7 +3965,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Product [Fintech | Growth | Multi-Market Platform]",
@@ -3551,7 +3992,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "SVP, Supply Chain & Operations, Consumer Audio",
@@ -3575,7 +4019,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Business Development Director",
@@ -3599,7 +4046,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "GTM Director (出海)",
@@ -3624,7 +4074,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "VP, Head of Partnerships",
@@ -3648,7 +4101,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director of Category - Joybuy",
@@ -3672,7 +4128,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "BNPL Product & Operations Lead (Europe Business)",
@@ -3696,7 +4155,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager, Payments & Fraud Tech",
@@ -3720,7 +4182,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Vice President of Product Management",
@@ -3744,7 +4209,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director, AI Center of Excellence",
@@ -3768,7 +4236,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Vice President, Transfer Solutions",
@@ -3792,7 +4263,10 @@
       "domain_match": 0,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director, Product Management - APAC Products",
@@ -3816,7 +4290,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "APAC Strategic PMO Lead",
@@ -3840,7 +4317,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Strategy Manager",
@@ -3864,7 +4344,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Vice President of Product, AI and Agent",
@@ -3888,7 +4371,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Commercial Strategy and Excellence",
@@ -3912,7 +4398,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Product (Wealth & Trading)",
@@ -3936,7 +4425,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director of Operations/Strategy",
@@ -3960,7 +4452,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "General Manager of International Consumer Business",
@@ -3984,7 +4479,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": 8
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Account Executive, Cross Border China",
@@ -4008,7 +4506,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Director, Sales - China",
@@ -4032,7 +4533,10 @@
       "domain_match": -20,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Product, AI",
@@ -4056,7 +4560,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director, Treasury, APAC",
@@ -4080,7 +4587,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director, Sales Strategy & Enablement",
@@ -4104,7 +4614,10 @@
       "domain_match": -20,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Lead - APAC Growth & Expansion",
@@ -4128,7 +4641,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager, AI Gateway",
@@ -4152,7 +4668,10 @@
       "domain_match": 25,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, AI Transformation",
@@ -4176,7 +4695,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager - AI, Amazon Global Selling",
@@ -4201,7 +4723,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": 8
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "(Senior) Product Manager (Product Sales), Transaction Banking",
@@ -4226,7 +4751,10 @@
       "domain_match": -20,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Card Product Manager",
@@ -4251,7 +4779,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager",
@@ -4276,7 +4807,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Web3 Growth & Business Operations Lead - GTM / Product Operations",
@@ -4301,7 +4835,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director, Policy and Regulatory Strategy, APAC",
@@ -4326,7 +4863,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Managing Director",
@@ -4351,7 +4891,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director, Deal Strategy & Enablement - APAC",
@@ -4376,7 +4919,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager, Agentic AI — Finance District",
@@ -4401,7 +4947,10 @@
       "domain_match": -20,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "VP, Risk Analytics Product Manager",
@@ -4426,7 +4975,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Lead - Marketplace",
@@ -4451,7 +5003,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Strategic Partner Manager, Innovation, Partnerships",
@@ -4476,7 +5031,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Commercial Product Manager (B2B)",
@@ -4501,7 +5059,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Technical Product Manager - Commercial Banking Technology",
@@ -4526,7 +5087,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Sales Director Mena/UK/APAC - Digital Assets",
@@ -4551,7 +5115,10 @@
       "domain_match": -20,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Lead Product Manager, Client Digital Experience (Wealth Management)",
@@ -4576,7 +5143,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager / Director – Card Issuance",
@@ -4601,7 +5171,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Business Strategy Lead - App & Card Products",
@@ -4626,7 +5199,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Director, Enterprise Business Development, APAC",
@@ -4651,7 +5227,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Cross Border Payment Product Manager, Group Transaction Banking (AVP)",
@@ -4676,7 +5255,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "(Senior) Data Infra Product Manager, On Chain (Algorithm and Search)",
@@ -4701,7 +5283,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "(Senior) Product Manager, Tokenized Stocks/Equity Trading (DEX)",
@@ -4726,7 +5311,10 @@
       "domain_match": -20,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Principal / Senior Product Manager, Institution Onboarding (KYB)",
@@ -4751,7 +5339,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "(Senior) Product Manager, DEX Institution Trading",
@@ -4776,7 +5367,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product and Strategy Innovation Lead",
@@ -4801,7 +5395,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior / Product Manager, SME Business Banking",
@@ -4826,7 +5423,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "APAC Franchise and Expansion Director",
@@ -4851,7 +5451,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Lead, AI-Native (Special Projects)",
@@ -4876,7 +5479,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "AI Product Lead",
@@ -4901,7 +5507,10 @@
       "domain_match": 20,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior VP, Product Manager - Digital Currency and Payments",
@@ -4926,7 +5535,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "VP, Channel Product Owner, Group Transaction Banking",
@@ -4951,7 +5563,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Data Product Owner – AI Products",
@@ -4976,7 +5591,10 @@
       "domain_match": 20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Manager, APAC Commercial Strategy & Partnerships (6-month contract)",
@@ -5001,7 +5619,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager, WeChat Pay",
@@ -5026,7 +5647,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, Cloud & Smart Industries",
@@ -5051,7 +5675,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Director of Product Strategy, International",
@@ -5076,7 +5703,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": 8
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, TikTok E-commerce",
@@ -5101,7 +5731,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, CapCut",
@@ -5126,7 +5759,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, TikTok Shop HK",
@@ -5151,7 +5787,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Head of Product Strategy, Global Markets",
@@ -5176,7 +5815,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, Lazada",
@@ -5201,7 +5843,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Director, International Product Strategy",
@@ -5226,7 +5871,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": 8
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, Alibaba Cloud",
@@ -5251,7 +5899,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Head of Strategy, Ant Group International",
@@ -5276,7 +5927,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, Meituan Waimai",
@@ -5301,7 +5955,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "zhaopin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager, Meituan Maps & Navigation",
@@ -5326,7 +5983,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "zhaopin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager, Huawei Cloud",
@@ -5351,7 +6011,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Director, Intelligent Automotive Solution",
@@ -5376,7 +6039,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, HarmonyOS Ecosystem",
@@ -5401,7 +6067,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, Shopee Cross-border",
@@ -5426,7 +6095,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Head of Product, ShopeePay",
@@ -5451,7 +6123,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, Digital Banking",
@@ -5476,7 +6151,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "VP, Product Strategy & Innovation",
@@ -5501,7 +6179,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, HSBC Digital",
@@ -5526,7 +6207,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "workday",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Head of Product, Wealth & Personal Banking",
@@ -5551,7 +6235,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "workday",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, SC Digital Ventures",
@@ -5576,7 +6263,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "workday",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, AIA Digital",
@@ -5601,7 +6291,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Director, Digital Health & Wellness Strategy",
@@ -5626,7 +6319,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Fraud Risk Strategy Expert",
@@ -5650,7 +6346,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Growth & AI Initiatives Manager",
@@ -5674,7 +6373,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Principal/Senior Product Manager, AI and Agent",
@@ -5698,7 +6400,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Principal / Senior Product Manager, Institution Onboarding Experience (KYB)",
@@ -5722,7 +6427,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Principal / Senior Product Manager, Local Market & Growth (Latin America)",
@@ -5746,7 +6454,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Product Director, Compliance",
@@ -5770,7 +6481,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Product Director, Compliance (Transaction Monitoring & Case Management)",
@@ -5794,7 +6508,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Product Director (Pay & Card)",
@@ -5818,7 +6535,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Product Manager / Director, AI Trading",
@@ -5842,7 +6562,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Product Manager / Director, Fiat",
@@ -5866,7 +6589,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Product Manager / Director, Institutional Growth",
@@ -5890,7 +6616,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Product Manager / Director, Institutional Product",
@@ -5914,7 +6643,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Product Manager / Director, Trading Infrastructure",
@@ -5938,7 +6670,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Product Manager / Director, User Growth",
@@ -5962,7 +6697,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Product Manager / Director, VIP Growth & Operations",
@@ -5986,7 +6724,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Product Manager / Product Director, Copy Trading / Trading Bot",
@@ -6010,7 +6751,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "(Senior) Data Infra Product Manager, On Chain (Web3)",
@@ -6034,7 +6778,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Data Scientist, Product & Growth Analytics",
@@ -6058,7 +6805,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Data Scientist, Risk (Risk Strategy)",
@@ -6082,7 +6832,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Growth Manager, SEA",
@@ -6106,7 +6859,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Manager, DeFi Lending Growth",
@@ -6130,7 +6886,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Manager / Director, Growth Operation",
@@ -6154,7 +6913,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Manager, Web3 Growth",
@@ -6178,7 +6940,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Manager, Web3 Growth (Ecosystem)",
@@ -6202,7 +6967,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Manager, Web3 Growth (Protocols)",
@@ -6226,7 +6994,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior/Principal Product Manager, DEX Trading",
@@ -6250,7 +7021,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Designer",
@@ -6274,7 +7048,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Designer, Cefi ",
@@ -6298,7 +7075,10 @@
       "domain_match": -20,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Designer, Chat Experience",
@@ -6322,7 +7102,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Designer, Defi",
@@ -6346,7 +7129,10 @@
       "domain_match": -20,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Designer, Pay",
@@ -6370,7 +7156,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Designer, Trading",
@@ -6394,7 +7183,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Designer, User Growth",
@@ -6418,7 +7210,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Designer, Wallets",
@@ -6442,7 +7237,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Designer, Web3",
@@ -6466,7 +7264,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Designer, Web3 Growth",
@@ -6490,7 +7291,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Manager, Conversational AI Chatbot & Agent Quality",
@@ -6514,7 +7318,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Manager, DevOps and AI",
@@ -6538,7 +7345,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Manager, Risk Intelligence Product",
@@ -6562,7 +7372,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Manager - Risk Platform",
@@ -6586,7 +7399,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Operations Manager, OKX SG",
@@ -6610,7 +7426,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Program Manager, Executive Support",
@@ -6634,7 +7453,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior/Staff Engineer, Liquidity Platform, Strategy Service",
@@ -6658,7 +7480,10 @@
       "domain_match": -20,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior/Staff Product Manager, Token Listing",
@@ -6682,7 +7507,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Strategy PMO / Project Manager  (AI & Org Efficiency) ",
@@ -6706,7 +7534,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Strategy Project Manager, VIP/Institutions",
@@ -6730,7 +7561,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Staff/Senior Staff Frontend Engineer - Growth",
@@ -6754,7 +7588,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Vice President, AI Strategy & Transformation",
@@ -6778,7 +7615,10 @@
       "domain_match": 20,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Manager (SG-based) ",
@@ -6802,7 +7642,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Group Product Manager, Compliance Automation",
@@ -6826,7 +7669,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Group Product Manager, Core Infra and Reliability",
@@ -6850,7 +7696,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Group Product Manager, Financial Engineering ",
@@ -6874,7 +7723,10 @@
       "domain_match": -20,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Group Product Manager, Payments Core",
@@ -6898,7 +7750,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Finance & Strategy Analyst, Consumer",
@@ -6922,7 +7777,10 @@
       "domain_match": -20,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Manager, Finance & Strategy",
@@ -6946,7 +7804,10 @@
       "domain_match": -20,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Manager, CX Automation",
@@ -6970,7 +7831,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Sr. Program Manager, Learning & Development",
@@ -6994,7 +7858,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Staff Product Designer - Advanced Trade",
@@ -7018,7 +7885,10 @@
       "domain_match": -20,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Commercial Solutions Program Manager",
@@ -7042,7 +7912,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Credit Risk Strategy Manager",
@@ -7066,7 +7939,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Data Science Manager, Finance and Strategy",
@@ -7090,7 +7966,10 @@
       "domain_match": -20,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Executive Journey Strategy Manager",
@@ -7114,7 +7993,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Finance & Strategy Partner, Central Engineering",
@@ -7138,7 +8020,10 @@
       "domain_match": -20,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Full Stack Engineer, Growth",
@@ -7162,7 +8047,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Marketing Operations Program Manager, Sold Funnel",
@@ -7186,7 +8074,10 @@
       "domain_match": -20,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Policy Development & Strategy",
@@ -7210,7 +8101,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Product Lead, Connect",
@@ -7234,7 +8128,10 @@
       "domain_match": 0,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Product Manager, Commerce Systems",
@@ -7258,7 +8155,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Product Manager - Compliance, Bridge",
@@ -7282,7 +8182,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Product Manager, Ecosystem Risk",
@@ -7306,7 +8209,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Product Manager, Growth AI Outreach Motion ",
@@ -7330,7 +8236,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Product Manager, Infrastructure",
@@ -7354,7 +8263,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Product Manager, Link - Consumer Product",
@@ -7378,7 +8290,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Product Manager, Payments",
@@ -7402,7 +8317,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Product Marketing Manager, Growth",
@@ -7426,7 +8344,10 @@
       "domain_match": -20,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Program Manager, GTM Planning",
@@ -7450,7 +8371,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Program Manager, Risk Ops Enablement",
@@ -7474,7 +8398,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Program Manager, Security Business Enablement",
@@ -7498,7 +8425,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Program Manager, Solutions Architecture (GTM Transformation)",
@@ -7522,7 +8452,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Risk Strategist, User Risk Strategy",
@@ -7546,7 +8479,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Staff Product Designer, Risk",
@@ -7570,7 +8506,10 @@
       "domain_match": -20,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Staff Product Designer, Agentic Commerce",
@@ -7594,7 +8533,10 @@
       "domain_match": -20,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Staff Product Designer, Payments",
@@ -7618,7 +8560,10 @@
       "domain_match": -20,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Staff Product Manager, Cards Monetization",
@@ -7642,7 +8587,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Staff Product Manager, Dashboard",
@@ -7666,7 +8614,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Staff Product Manager, Enterprise (Industries) ",
@@ -7690,7 +8641,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Staff Product Manager, Payments",
@@ -7714,7 +8668,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Technical Program Manager",
@@ -7738,7 +8695,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Technical Program Manager, Core Infrastructure",
@@ -7762,7 +8722,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Technical Program Manager,  Extensibility Programs",
@@ -7786,7 +8749,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Technical Program Manager,  Identity and Access Management Programs",
@@ -7810,7 +8776,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Technical Program Manager, Service Infrastructure",
@@ -7834,7 +8803,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "User Risk Strategist, Ecosystem Risk Strategy",
@@ -7858,7 +8830,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Outbound Product Manager, AI Operations",
@@ -7882,7 +8857,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Technical Program Manager",
@@ -7906,7 +8884,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Growth Engineer (Data Systems)",
@@ -7930,7 +8911,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Growth Specialist",
@@ -7954,7 +8938,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Bilingual Staff Technical Program Manager, Global Enterprise Fulfillment Platform",
@@ -7978,7 +8965,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Director, International Strategy & Planning",
@@ -8002,7 +8992,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Director of Product, Agentic Commerce",
@@ -8026,7 +9019,10 @@
       "domain_match": 0,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "People Experience Program Manager - San Francisco",
@@ -8050,7 +9046,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Program Manager II",
@@ -8074,7 +9073,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Director, Enterprise Delivery and Growth",
@@ -8098,7 +9100,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Director, Media Analytics, Commercial Strategy & Acceleration",
@@ -8122,7 +9127,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Machine Learning Engineer II, Growth Modeling",
@@ -8146,7 +9154,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Manager, Agentic Foundations",
@@ -8170,7 +9181,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Manager, Fraud & Trust",
@@ -8194,7 +9208,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Manager, In-Store Integrations",
@@ -8218,7 +9235,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Manager, In-Store Tasks",
@@ -8242,7 +9262,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Manager, Shopping Experience",
@@ -8266,7 +9289,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Program Manager, Quality Assurance",
@@ -8290,7 +9316,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Strategic Financial Analyst – Growth",
@@ -8314,7 +9343,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Strategy & Planning Manager",
@@ -8338,7 +9370,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Technical Program Manager, Ads",
@@ -8362,7 +9397,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Staff Product Designer - Shopping Experiences",
@@ -8386,7 +9424,10 @@
       "domain_match": -20,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Growth Marketing Lead",
@@ -8410,7 +9451,10 @@
       "domain_match": -20,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Principal Product Manager, Tax Platform",
@@ -8434,7 +9478,10 @@
       "domain_match": 25,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Staff Product Designer, Finance",
@@ -8458,7 +9505,10 @@
       "domain_match": -20,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Staff Product Designer, Contractors",
@@ -8482,7 +9532,10 @@
       "domain_match": -20,
       "location_match": 5,
       "english_match": 0
-    }
+    },
+    "app_platform": "greenhouse",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Manager",
@@ -8504,7 +9557,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager - CEX / Crypto Wallet / Institutional Finance",
@@ -8526,7 +9582,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager (eSIM)",
@@ -8548,7 +9607,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Lead - Pricing",
@@ -8570,7 +9632,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager, Robotics Operations",
@@ -8592,7 +9657,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Product [Fintech | Growth | Multi-Market Platform]",
@@ -8614,7 +9682,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Director, Financial Markets & Financial Platform",
@@ -8636,7 +9707,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Bureau Product Head",
@@ -8658,7 +9732,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "VP, Product Manager - Digital Currency and Payments",
@@ -8680,7 +9757,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "VP, Product Manager, DBS Digital Exchange",
@@ -8702,7 +9782,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Design Director, Orbit",
@@ -8724,7 +9807,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Operations Manager / Director, Institutional Product",
@@ -8746,7 +9832,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Earn Structured Product & Operations Manager/Senior Manager",
@@ -8768,7 +9857,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "P2P Product Manager",
@@ -8790,7 +9882,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Crypto Card Product Manager",
@@ -8812,7 +9907,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Payment Product Manager (Fiat & Cross-Border)",
@@ -8834,7 +9932,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "SG Business Product Manager",
@@ -8856,7 +9957,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Business Product Manager - SG BPM",
@@ -8878,7 +9982,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior SG Business Product Manager - SPX",
@@ -8900,7 +10007,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Growth Strategy Product Manager - Global Payment",
@@ -8922,7 +10032,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Card Growth & Loyalty Product Manager - Global Payment",
@@ -8944,7 +10057,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Global Retail Product Owner",
@@ -8966,7 +10082,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Owner - Marketplace",
@@ -8988,7 +10107,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Agile Product Owner, Global Transaction Banking",
@@ -9010,7 +10132,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "VP Wealth Product Manager (Platform)",
@@ -9032,7 +10157,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Director, Wealth Management",
@@ -9054,7 +10182,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Product",
@@ -9076,7 +10207,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "CPO (Series B - B2B SaaS)",
@@ -9098,7 +10232,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director of Product Development",
@@ -9120,7 +10257,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "KYC Product Head - Remote",
@@ -9142,7 +10282,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Lead",
@@ -9164,7 +10307,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "AI Chatbot Product Manager",
@@ -9186,7 +10332,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager (Digital Payment)",
@@ -9208,7 +10357,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager(Fiat)",
@@ -9230,7 +10382,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Compliance Product Manager",
@@ -9252,7 +10407,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager, Payments - VP",
@@ -9274,7 +10432,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "VP, Product Specialist, Custody Product Management",
@@ -9296,7 +10457,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager / Product Engineer (AI Native, Hyper growth startup)",
@@ -9318,7 +10482,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Lead / Senior Product Manager - Exchange (Institutional)",
@@ -9340,7 +10507,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "lever",
+    "app_difficulty": "easy",
+    "app_time_est": "3-5 min"
   },
   {
     "title": "Senior Product Manager Stablecoin & Crypto",
@@ -9362,7 +10532,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "other",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Product Manager - FMCG",
@@ -9384,7 +10557,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Buy Now, Pay Later (BNPL) Product & Operations Lead",
@@ -9406,7 +10582,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Web3 Growth & Business Operations Lead - GTM / Product Operations (Crypto)",
@@ -9428,7 +10607,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Senior",
@@ -9450,7 +10632,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "linkedin",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "资深产品经理（美股交易方向）招聘 - 某小型计算机软件公司",
@@ -9475,7 +10660,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "资深产品经理招聘 - 腾讯",
@@ -9500,7 +10688,10 @@
       "domain_match": 0,
       "location_match": 0,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "资深产品经理（机器人本体方向）",
@@ -9525,7 +10716,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "资深产品经理（信贷中台）- 货拉拉科技",
@@ -9550,7 +10744,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "资深产品经理 - 诺禾致源",
@@ -9575,7 +10772,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "海外产品总监招聘",
@@ -9600,7 +10800,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "腾讯产品总监招聘",
@@ -9625,7 +10828,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "深圳供应链产品总监招聘",
@@ -9650,7 +10856,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "产品总监/资深产品经理 - 迅雷网络",
@@ -9675,7 +10884,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "产品总监（穿戴类）- 广和通",
@@ -9700,7 +10912,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "产品总监 - 创新工场",
@@ -9725,7 +10940,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "产品负责人(AI项目) - 广州小迈",
@@ -9750,7 +10968,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "AI产品负责人（AI社交/AI游戏方向）- 易娱网络",
@@ -9775,7 +10996,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "海外工具类产品负责人（IAP) 2C - 幂动科技",
@@ -9800,7 +11024,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "海外产品负责人（语音/直播）- 百度",
@@ -9825,7 +11052,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "上海高级产品经理招聘",
@@ -9850,7 +11080,10 @@
       "domain_match": 0,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "上海小程序高级产品经理招聘",
@@ -9875,7 +11108,10 @@
       "domain_match": 0,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "大数据平台高级产品经理招聘",
@@ -9900,7 +11136,10 @@
       "domain_match": 0,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "上海企业端产品经理招聘",
@@ -9925,7 +11164,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "1688-策略产品负责人-杭州 - 阿里巴巴集团",
@@ -9950,7 +11192,10 @@
       "domain_match": 0,
       "location_match": 0,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "产品负责人（客户体验）- 杭州促聚科技",
@@ -9975,7 +11220,10 @@
       "domain_match": 0,
       "location_match": 0,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "产品负责人（支付、sdk）- 杭州某大型游戏及IP生态平台",
@@ -10000,7 +11248,10 @@
       "domain_match": 0,
       "location_match": 0,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "上海AI数据产品经理招聘",
@@ -10025,7 +11276,10 @@
       "domain_match": 0,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "上海AI平台产品经理招聘",
@@ -10050,7 +11304,10 @@
       "domain_match": 0,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "AI产品经理招聘",
@@ -10075,7 +11332,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "AI产品经理（大模型/视觉/NLP/转运）- 顺丰科技",
@@ -10100,7 +11360,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "元宝-大模型评测产品经理(北京/深圳) - 腾讯",
@@ -10125,7 +11388,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "AI/大模型产品经理 - 百度",
@@ -10150,7 +11416,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "医疗大模型/医疗智能体产品经理 - 有米科技",
@@ -10175,7 +11444,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "大模型策略产品经理 - 腾讯",
@@ -10200,7 +11472,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "QQ浏览器-高级增长产品经理(深圳) - 腾讯",
@@ -10225,7 +11500,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "AI增长产品经理（线索挖掘方向）",
@@ -10250,7 +11528,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "新加坡产品经理招聘",
@@ -10275,7 +11556,10 @@
       "domain_match": 0,
       "location_match": 0,
       "english_match": 0
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "WEB产品经理招聘",
@@ -10300,7 +11584,10 @@
       "domain_match": 0,
       "location_match": 0,
       "english_match": 0
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "国际业务拓展与商业策略经理/总监 - 深圳市途龄科技",
@@ -10325,7 +11612,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "深圳GTM经理招聘",
@@ -10350,7 +11640,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "深圳GTM助理招聘",
@@ -10375,7 +11668,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "GTM产品经理招聘",
@@ -10400,7 +11696,10 @@
       "domain_match": 25,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "商业化产品经理招聘",
@@ -10425,7 +11724,10 @@
       "domain_match": 0,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "商业化产品经理（通用）- 小红书",
@@ -10450,7 +11752,10 @@
       "domain_match": 0,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "商业化产品经理 - 麦糖",
@@ -10475,7 +11780,10 @@
       "domain_match": 0,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "集团产品线总监（P02/P03）- 中明科技",
@@ -10500,7 +11808,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "深圳总监招聘信息",
@@ -10525,7 +11836,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "跨境电商产品总监/VP - 河南江舸云科技",
@@ -10550,7 +11864,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "健康险产品总监/经理 - 深圳",
@@ -10575,7 +11892,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "资深产品经理（蛋白质组学）- 上海",
@@ -10600,7 +11920,10 @@
       "domain_match": 0,
       "location_match": 8,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "账号资深产品经理 - 美团",
@@ -10625,7 +11948,10 @@
       "domain_match": 0,
       "location_match": 0,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "AI产品经理 - 杭州星核引力人工智能科技",
@@ -10650,7 +11976,10 @@
       "domain_match": 0,
       "location_match": 0,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "杭州模型工作室招聘信息",
@@ -10675,7 +12004,10 @@
       "domain_match": 0,
       "location_match": 0,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "大模型评测产品经理 - 美团",
@@ -10700,7 +12032,10 @@
       "domain_match": 0,
       "location_match": 0,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "建材产品经理 - 香港尚居綠色室内設計有限公司",
@@ -10725,7 +12060,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "ai产品经理（外企直签）",
@@ -10750,7 +12088,10 @@
       "domain_match": 0,
       "location_match": 0,
       "english_match": 0
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "vivo产品经理 - 应用分发广告流量变现",
@@ -10775,7 +12116,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "产品经理 - 中澳通",
@@ -10800,7 +12144,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "资深产品经理 - 迅雷网络",
@@ -10825,7 +12172,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "概率游戏产品负责人 - 迅雷网络",
@@ -10850,7 +12200,10 @@
       "domain_match": 0,
       "location_match": 15,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "产品VP/产品总监招聘",
@@ -10875,7 +12228,10 @@
       "domain_match": 0,
       "location_match": 0,
       "english_match": 0
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "产品总监（女性向陪伴类海外产品）- 作业帮",
@@ -10900,7 +12256,10 @@
       "domain_match": 0,
       "location_match": 0,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "AI产品总监/医疗AI产品负责人 - 同花顺",
@@ -10925,7 +12284,10 @@
       "domain_match": 0,
       "location_match": 0,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "高级产品经理 - 杭州",
@@ -10950,7 +12312,10 @@
       "domain_match": 0,
       "location_match": 0,
       "english_match": -10
-    }
+    },
+    "app_platform": "boss",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager (Global Networking)",
@@ -10973,7 +12338,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Lead, Online Brokerage",
@@ -10996,7 +12364,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager (Digital Payment / Card Issuing)",
@@ -11019,7 +12390,10 @@
       "domain_match": -20,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager (AI for Science)",
@@ -11042,7 +12416,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager (Financial Markets)",
@@ -11065,7 +12442,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager",
@@ -11088,7 +12468,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager (AI/ Data/ API-based Products)",
@@ -11111,7 +12494,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager (Fintech)",
@@ -11134,7 +12520,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Lead Product Manager, Client Digital Experience",
@@ -11157,7 +12546,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Vice President / Head of Product",
@@ -11180,7 +12572,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Associate Director/Senior Manager, Product Proposition and Solutions",
@@ -11203,7 +12598,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Development, Senior Principal/Principal",
@@ -11226,7 +12624,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager (Fintech App)",
@@ -11249,7 +12650,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Lead - Furmomo",
@@ -11272,7 +12676,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager, IT Department (Cross-border Transaction)",
@@ -11295,7 +12702,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager",
@@ -11318,7 +12728,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager",
@@ -11341,7 +12754,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager (AI/Tech)",
@@ -11364,7 +12780,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Software Product Manager",
@@ -11387,7 +12806,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager (Cybersecurity)",
@@ -11410,7 +12832,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director, Regional Head of Structured Trade Product",
@@ -11433,7 +12858,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Investment Product Specialist - Executive Director / Vice President",
@@ -11456,7 +12884,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Program Director, Product Development (Head of Product Technology)",
@@ -11479,7 +12910,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Assistant Product Director (Business Video)",
@@ -11502,7 +12936,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director, Product Strategy, APAC",
@@ -11525,7 +12962,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Digital Product Strategy Director",
@@ -11548,7 +12988,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "APAC Product Director, Digital Assets",
@@ -11571,7 +13014,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Director of Cloud and Cross-border Network Product R&D",
@@ -11594,7 +13040,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Director, Asia Product Risk Management",
@@ -11617,7 +13066,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager",
@@ -11640,7 +13092,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager",
@@ -11663,7 +13118,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager",
@@ -11686,7 +13144,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager",
@@ -11709,7 +13170,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager",
@@ -11732,7 +13196,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Head of Strategy, APAC",
@@ -11755,7 +13222,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Regional Head of Strategy, Insights and Data APAC",
@@ -11778,7 +13248,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager, R&D Efficiency",
@@ -11801,7 +13274,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "glassdoor",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager (Leadership)",
@@ -11824,7 +13300,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "glassdoor",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager - Cards (Assistant VP)",
@@ -11847,7 +13326,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "glassdoor",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "AI Product Manager (Evaluation) - Flow",
@@ -11870,7 +13352,10 @@
       "domain_match": 20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "glassdoor",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Manager, AI & Data Strategy - RAI TPM",
@@ -11893,7 +13378,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "glassdoor",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager (Robotics)",
@@ -11916,7 +13404,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "glassdoor",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Associate PM - Wider Asia",
@@ -11939,7 +13430,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "glassdoor",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager, Affordability",
@@ -11962,7 +13456,10 @@
       "domain_match": 25,
       "location_match": 0,
       "english_match": 0
-    }
+    },
+    "app_platform": "apple",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, Platform & AI Systems (LMS)",
@@ -11985,7 +13482,10 @@
       "domain_match": 25,
       "location_match": 0,
       "english_match": 0
-    }
+    },
+    "app_platform": "apple",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Product/Senior Product Manager, AppleCare",
@@ -12008,7 +13508,10 @@
       "domain_match": 25,
       "location_match": 0,
       "english_match": 0
-    }
+    },
+    "app_platform": "apple",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, Personalization Strategy",
@@ -12031,7 +13534,10 @@
       "domain_match": 25,
       "location_match": 0,
       "english_match": 0
-    }
+    },
+    "app_platform": "apple",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, Employee Experience & Productivity",
@@ -12054,7 +13560,10 @@
       "domain_match": 25,
       "location_match": 0,
       "english_match": 0
-    }
+    },
+    "app_platform": "apple",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Product Manager II, Wear OS",
@@ -12077,7 +13586,10 @@
       "domain_match": 25,
       "location_match": 0,
       "english_match": 0
-    }
+    },
+    "app_platform": "google",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, Google Distributed Cloud",
@@ -12100,7 +13612,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "google",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Product Manager II, Android Automotive",
@@ -12123,7 +13638,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "google",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Product Manager, Workspace Search",
@@ -12146,7 +13664,10 @@
       "domain_match": 25,
       "location_match": 0,
       "english_match": 0
-    }
+    },
+    "app_platform": "google",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Product Manager II, Infrastructure, Google Cloud",
@@ -12169,7 +13690,10 @@
       "domain_match": 25,
       "location_match": 0,
       "english_match": 0
-    }
+    },
+    "app_platform": "google",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, AWS Server Supply Chain",
@@ -12192,7 +13716,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "amazon",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager - Technical, Seller Fees Science & Tech",
@@ -12215,7 +13742,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "amazon",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Unified Global Black Belt Sales Specialist",
@@ -12238,7 +13768,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "microsoft",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Solution Engineer - AI Workforce",
@@ -12261,7 +13794,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "microsoft",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Product Manager - Growth & Monetization",
@@ -12284,7 +13820,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "meta",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Product Manager, Manus",
@@ -12307,7 +13846,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "meta",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Business Marketing Director, APAC",
@@ -12330,7 +13872,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "meta",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Director, Head of Creative Shop, APAC",
@@ -12353,7 +13898,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "meta",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Product Manager (Fintech App - CFD Direction)",
@@ -12376,7 +13924,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager (Salesforce)",
@@ -12399,7 +13950,10 @@
       "domain_match": -20,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager",
@@ -12422,7 +13976,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager (Networking)",
@@ -12445,7 +14002,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Specialist, Product Manager, Provider Management",
@@ -12468,7 +14028,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager",
@@ -12491,7 +14054,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Technical Product Manager / Senior Technical Product Manager",
@@ -12514,7 +14080,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager (General Insurance)",
@@ -12537,7 +14106,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager, Consumer Healthcare",
@@ -12560,7 +14132,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Corporate Banking Product Manager",
@@ -12583,7 +14158,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Manager - IT Product & Customer Success",
@@ -12606,7 +14184,10 @@
       "domain_match": 0,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "AVP, Chief of Staff & Head of Strategy - Emerging Markets",
@@ -12629,7 +14210,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Director, Stablecoin Partnerships & Go-to-Market Strategy",
@@ -12652,7 +14236,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "VP/Director, Product Development - ETF",
@@ -12675,7 +14262,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "indeed",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager",
@@ -12698,7 +14288,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "glassdoor",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager (Leadership)",
@@ -12721,7 +14314,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "glassdoor",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Senior Product Manager",
@@ -12744,7 +14340,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager",
@@ -12767,7 +14366,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager",
@@ -12790,7 +14392,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager (Gaming)",
@@ -12813,7 +14418,10 @@
       "domain_match": 25,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "jobsdb",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Regional Product Lead, Foundational Measurement",
@@ -12836,7 +14444,10 @@
       "domain_match": 0,
       "location_match": 10,
       "english_match": 0
-    }
+    },
+    "app_platform": "glassdoor",
+    "app_difficulty": "medium",
+    "app_time_est": "10-15 min"
   },
   {
     "title": "Product Manager - Hong Kong",
@@ -12859,7 +14470,10 @@
       "domain_match": 25,
       "location_match": 12,
       "english_match": 0
-    }
+    },
+    "app_platform": "microsoft",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   },
   {
     "title": "Senior Product Manager, Apple TV App",
@@ -12882,6 +14496,9 @@
       "domain_match": 25,
       "location_match": 0,
       "english_match": 0
-    }
+    },
+    "app_platform": "apple",
+    "app_difficulty": "hard",
+    "app_time_est": "20-30 min"
   }
 ]
