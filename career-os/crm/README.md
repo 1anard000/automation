@@ -271,4 +271,4 @@ This CRM is designed to integrate with the broader Career OS:
 
 ## License
 
-MIT License - Part of Ian's Career OS
+MIT License - Part of Career OS

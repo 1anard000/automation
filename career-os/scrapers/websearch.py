@@ -166,7 +166,7 @@ def extract_location(title, snippet):
     return ""
 
 def is_relevant(title, snippet):
-    """Check if job result is relevant to Ian's profile."""
+    """Check if job result is relevant to [CANDIDATE]'s profile."""
     text = f"{title} {snippet}".lower()
     has_title = any(kw in text for kw in TITLE_KEYWORDS)
     has_senior = any(kw in text for kw in ["senior", "director", "head", "vp", "principal", "lead", "manager"])

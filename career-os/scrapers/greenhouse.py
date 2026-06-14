@@ -8,7 +8,7 @@ from urllib.request import urlopen, Request
 from urllib.error import URLError
 from datetime import datetime
 
-# Companies with Greenhouse boards relevant to Ian's profile
+# Companies with Greenhouse boards relevant to [CANDIDATE]'s profile
 COMPANIES = [
     "okx", "agoda", "coinbase", "stripe", "databricks", "figma",
     "postman", "anthropic", "bitmex", "brex", "flexport", "lyft",
@@ -18,7 +18,7 @@ COMPANIES = [
 # Location filters
 LOCATIONS = ["hong kong", "singapore", "shenzhen", "guangzhou", "remote"]
 
-# Title keywords that match Ian's profile
+# Title keywords that match [CANDIDATE]'s profile
 TITLE_KEYWORDS = [
     "product manager", "program manager", "strategy",
     "head of product", "director of product", "vp product",

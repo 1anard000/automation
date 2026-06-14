@@ -2,7 +2,7 @@
 
 ## Where Things Live
 
-### 🌐 Public GitHub Pages (https://1anard000.github.io/automation/)
+### 🌐 Public GitHub Pages (https://[GITHUB_USER].github.io/automation/)
 **Purpose:** Things useful to pull up on your phone or any browser.
 
 | Item | Why Public |

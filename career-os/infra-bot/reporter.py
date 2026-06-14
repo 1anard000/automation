@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Reporter for Career OS Infrastructure Bot
-Sends summary reports to Ian
+Sends summary reports to [CANDIDATE]
 """
 
 import json
@@ -195,7 +195,7 @@ def generate_report(health_results: dict = None, fix_results: dict = None) -> st
 
 
 def send_report(report: str):
-    """Send report to Ian (via WeCom or other configured channel)"""
+    """Send report to [CANDIDATE] (via WeCom or other configured channel)"""
     
     # Save report to file for now
     report_file = INFRA_BOT_DIR / f"report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md"
@@ -210,7 +210,7 @@ def send_report(report: str):
     try:
         import subprocess
         
-        # Get WeCom user ID (Ian's)
+        # Get WeCom user ID ([CANDIDATE]'s)
         # This would need to be configured
         user_id = os.environ.get("WECOM_USER_ID", "")
         

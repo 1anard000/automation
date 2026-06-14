@@ -18,7 +18,7 @@ CAREER_OS = WORKSPACE / "career-os"
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 # Configuration
-GITHUB_API_BASE = "https://api.github.com/repos/1anard000/automation"
+GITHUB_API_BASE = "https://api.github.com/repos/[GITHUB_USER]/automation"
 GITHUB_PAGES_SOURCE_BRANCH = "career-networking"
 GITHUB_PAGES_SOURCE_PATH = "/OKComputer_职位搜索清单"
 DASHBOARD_HTML = CAREER_OS / "OKComputer_职位搜索清单" / "job-database-senior.html"

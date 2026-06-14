@@ -1,0 +1,105 @@
+{
+  "report_date": "2026-06-14",
+  "total_jobs": 232,
+  "unique_companies": 166,
+  "source_breakdown": {
+    "linkedin": 94,
+    "company_site": 76,
+    "linkedin_search": 39,
+    "ashby": 7,
+    "linkedin_posting": 7,
+    "other": 6,
+    "direct": 1,
+    "jobs-radar": 1,
+    "cryptojobslist": 1
+  },
+  "top_companies": [
+    [
+      "OKX",
+      9
+    ],
+    [
+      "Airwallex",
+      6
+    ],
+    [
+      "OpenAI",
+      6
+    ],
+    [
+      "Google",
+      5
+    ],
+    [
+      "ByteDance",
+      4
+    ],
+    [
+      "Alibaba",
+      4
+    ],
+    [
+      "GE HealthCare",
+      3
+    ],
+    [
+      "Mastercard",
+      3
+    ],
+    [
+      "Walmart",
+      3
+    ],
+    [
+      "the LEGO Group",
+      3
+    ],
+    [
+      "Circle",
+      3
+    ],
+    [
+      "Tencent",
+      3
+    ],
+    [
+      "Huawei",
+      3
+    ],
+    [
+      "Amazon",
+      2
+    ],
+    [
+      "Binance",
+      2
+    ]
+  ],
+  "location_breakdown": {
+    "Singapore": 100,
+    "Hong Kong": 46,
+    "Shanghai": 38,
+    "Shenzhen": 31,
+    "Hong Kong, SAR": 9,
+    "Shenzhen, China": 4,
+    "Singapore / Hong Kong / China (Remote)": 1,
+    "Singapore / US": 1,
+    "Beijing": 1,
+    "Kowloon, Hong Kong SAR": 1
+  },
+  "role_breakdown": {
+    "strategy/ops": 78,
+    "product management": 75,
+    "bd/partnerships": 46,
+    "cross-border/expansion": 21,
+    "gm/country manager": 12
+  },
+  "grade_breakdown": {
+    "A-1": 131,
+    "A-2": 89,
+    "B": 12
+  },
+  "concentration_in_top_companies": 0.2543103448275862,
+  "new_source_count": 7,
+  "coverage_score": 6
+}

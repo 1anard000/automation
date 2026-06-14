@@ -19,7 +19,7 @@ This repo is **public**. No personal info (names, emails, employers, education) 
 | `improvement-engine.py` | Continuous improvement agent |
 
 ### Live Dashboard
-**URL:** https://1ancol000.github.io/automation/job-database.html
+**URL:** https://[GITHUB_USER].github.io/automation/job-database.html
 
 ### Automation
 Runs every 15 minutes via cron — searches, merges, and deploys.

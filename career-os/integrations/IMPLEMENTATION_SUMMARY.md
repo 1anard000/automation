@@ -231,7 +231,7 @@ Not in v1.0.0 but planned:
 - [ ] Email thread grouping
 - [ ] Meeting attendee role detection
 
-## 📝 Next Steps for Ian
+## 📝 Next Steps for [CANDIDATE]
 
 1. **Export your data** from Google Takeout and LinkedIn
 2. **Run import** with your actual data

@@ -204,8 +204,8 @@ description: "Senior-level job search monitor for the candidate: parallel sub-ag
 | `OKComputer_职位搜索清单/jobs/*.html` | Individual job pages |
 
 ## GitHub
-- **Repo:** https://github.com/1anard000/automation (HTTPS)
-- **Live:** https://1ancol000.github.io/automation/job-database.html
+- **Repo:** https://github.com/[GITHUB_USER]/automation (HTTPS)
+- **Live:** https://[GITHUB_USER].github.io/automation/job-database.html
 - **Anonymized:** No personal name on public pages
 
 ---
@@ -231,7 +231,7 @@ description: "Senior-level job search monitor for the candidate: parallel sub-ag
 4. [Title] — [Company] ([Location])
 5. [Title] — [Company] ([Location])
 
-📋 Full database: https://1ancol000.github.io/automation/
+📋 Full database: https://[GITHUB_USER].github.io/automation/
 ```
 
 ---

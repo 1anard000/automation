@@ -19,8 +19,8 @@ CAREER_OS = WORKSPACE / "career-os"
 RESULTS_FILE = CAREER_OS / "infra-bot" / "health_results.json"
 
 # Configuration
-GITHUB_DASHBOARD_URL = "https://1ancol000.github.io/automation/OKComputer_职位搜索清单/job-database-senior.html"
-GITHUB_API_BASE = "https://api.github.com/repos/1anard000/automation"
+GITHUB_DASHBOARD_URL = "https://[GITHUB_USER].github.io/automation/OKComputer_职位搜索清单/job-database-senior.html"
+GITHUB_API_BASE = "https://api.github.com/repos/[GITHUB_USER]/automation"
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 JOBS_DB_FILE = CAREER_OS / "jobs-all.json"
 CRM_DB_FILE = CAREER_OS / "crm" / "crm.db"

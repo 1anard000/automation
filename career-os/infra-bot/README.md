@@ -7,7 +7,7 @@ Automated health monitoring and self-healing for Career OS infrastructure.
 This bot runs every 15 minutes to:
 - Monitor system health across 5 key areas
 - Automatically fix common issues
-- Report status to Ian
+- Report status to [CANDIDATE]
 
 ## Components
 
