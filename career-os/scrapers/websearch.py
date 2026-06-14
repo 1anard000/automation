@@ -9,25 +9,42 @@ from datetime import datetime
 
 # Search queries to run
 QUERIES = [
-    # Indeed
+    # Indeed / global aggregators
     'site:indeed.com "senior product manager" Singapore OR "Hong Kong" 2026',
     'site:indeed.com "product director" Singapore OR "Hong Kong"',
     'site:indeed.com "head of product" Singapore OR Shenzhen',
-    # Glassdoor
     'site:glassdoor.com "senior product manager" Singapore OR "Hong Kong"',
     'site:glassdoor.com "product director" Singapore',
-    # JobsDB
+    'site:glassdoor.com "program manager" Singapore fintech',
     'site:jobsdb.com "senior product manager" "Hong Kong" OR Singapore',
     'site:jobsdb.com "product manager" "Hong Kong" fintech OR ecommerce',
-    # General web - company career pages
+    'site:jobsdb.com "product director" Singapore',
+    'site:wellfound.com "senior product manager" ecommerce',
+    'site:builtin.com "product manager" Singapore',
+    'site:builtin.com "director of product" Singapore',
     'site:careers.bytedance.com "product manager" Singapore OR Shenzhen',
+    'site:careers.bytedance.com "product director" ecommerce',
     'site:careers.shopee.com "product manager" Singapore OR Shenzhen',
+    'site:careers.shopee.com "product director" ecommerce',
     'site:grab.careers "product manager" Singapore',
+    'site:grab.careers "program manager" Singapore',
+    # Strategic channels for Monday leads (not viral apps)
+    'site:terraform.io/careers "senior product" ecommerce',
+    'site:shopify.com/careers "product manager" singapore OR remote',
+    'site:stripe.com/jobs "product" singapore',
+    'site:airwallex.com/careers "product director" singapore',
+    'site:coinbase.com/careers "senior product" singapore',
+    'site:nium.com/careers "product manager" singapore',
+    'site:xendit.com/careers "product" singapore',
+    'site:career001.com "product manager" singapore',
+    'site:recruit.com.hk "product manager" hong kong',
+    # Executive / board-led roles
+    'site:refind.com "product director" singapore',
+    'site:efinancialcareers.com "product manager" Singapore OR "Hong Kong"',
     # LinkedIn (supplement existing)
     'site:linkedin.com/jobs "senior product manager" "Hong Kong" cross-border',
     'site:linkedin.com/jobs "product director" Singapore ecommerce',
-    # eFinancialCareers
-    'site:efinancialcareers.com "product manager" Singapore OR "Hong Kong"',
+    'site:linkedin.com/jobs "head of product" singapore',
 ]
 
 # Keywords to filter relevant results
