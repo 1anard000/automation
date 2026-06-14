@@ -89,6 +89,15 @@
       "score_before": 4,
       "score_after": 7,
       "subagent": "nightly-improver-dashboard-fix"
+    },
+    {
+      "timestamp": "2026-06-15T00:00:42.527692",
+      "dimension": "coverage",
+      "task": "Nightly update: refreshed coverage report — 553 jobs, 22 sources, 278 companies (was stale at 232 jobs)",
+      "status": "completed",
+      "score_before": 6,
+      "score_after": 7,
+      "subagent": "nightly-improver"
     }
   ],
   "current_scores": {
