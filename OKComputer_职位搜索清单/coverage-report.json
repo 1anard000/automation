@@ -1,105 +1,111 @@
 {
-  "report_date": "2026-06-14",
-  "total_jobs": 232,
-  "unique_companies": 166,
+  "report_date": "2026-06-15",
+  "total_jobs": 553,
+  "unique_companies": 278,
   "source_breakdown": {
-    "linkedin": 94,
+    "linkedin": 136,
+    "greenhouse": 119,
     "company_site": 76,
+    "boss-zhilian-websearch": 60,
     "linkedin_search": 39,
+    "jobsdb": 32,
+    "indeed": 22,
+    "web_search": 14,
+    "glassdoor": 9,
     "ashby": 7,
     "linkedin_posting": 7,
     "other": 6,
+    "apple_careers": 6,
+    "google_careers": 6,
+    "meta_careers": 4,
+    "microsoft_careers": 3,
+    "amazon_jobs": 2,
     "direct": 1,
     "jobs-radar": 1,
-    "cryptojobslist": 1
+    "cryptojobslist": 1,
+    "company": 1,
+    "web": 1
   },
   "top_companies": [
     [
       "OKX",
+      59
+    ],
+    [
+      "Stripe",
+      36
+    ],
+    [
+      "Instacart",
+      18
+    ],
+    [
+      "Google",
+      12
+    ],
+    [
+      "Coinbase",
       9
     ],
     [
       "Airwallex",
-      6
+      7
+    ],
+    [
+      "ByteDance",
+      7
     ],
     [
       "OpenAI",
       6
     ],
     [
-      "Google",
-      5
+      "Meta",
+      6
     ],
     [
-      "ByteDance",
-      4
+      "Shopee",
+      6
     ],
     [
-      "Alibaba",
-      4
-    ],
-    [
-      "GE HealthCare",
-      3
-    ],
-    [
-      "Mastercard",
-      3
-    ],
-    [
-      "Walmart",
-      3
-    ],
-    [
-      "the LEGO Group",
-      3
-    ],
-    [
-      "Circle",
-      3
-    ],
-    [
-      "Tencent",
-      3
-    ],
-    [
-      "Huawei",
-      3
+      "Apple",
+      6
     ],
     [
       "Amazon",
-      2
+      4
     ],
     [
       "Binance",
-      2
+      4
+    ],
+    [
+      "Mastercard",
+      4
+    ],
+    [
+      "Visa",
+      4
     ]
   ],
   "location_breakdown": {
-    "Singapore": 100,
-    "Hong Kong": 46,
-    "Shanghai": 38,
-    "Shenzhen": 31,
+    "Singapore": 176,
+    "Hong Kong": 85,
+    "Shenzhen": 60,
+    "Shanghai": 47,
+    "Singapore, Singapore": 34,
+    "Hong Kong, Hong Kong SAR": 11,
     "Hong Kong, SAR": 9,
-    "Shenzhen, China": 4,
-    "Singapore / Hong Kong / China (Remote)": 1,
-    "Singapore / US": 1,
-    "Beijing": 1,
-    "Kowloon, Hong Kong SAR": 1
-  },
-  "role_breakdown": {
-    "strategy/ops": 78,
-    "product management": 75,
-    "bd/partnerships": 46,
-    "cross-border/expansion": 21,
-    "gm/country manager": 12
+    "Remote - USA": 9,
+    "United States - Remote": 8,
+    "Canada - Remote (ON, AB, BC, or NS Only)": 8
   },
   "grade_breakdown": {
-    "A-1": 131,
-    "A-2": 89,
+    "A-2": 279,
+    "A-1": 208,
+    "S-1": 54,
     "B": 12
   },
-  "concentration_in_top_companies": 0.2543103448275862,
-  "new_source_count": 7,
-  "coverage_score": 6
+  "new_source_count": 22,
+  "coverage_score": 7
 }
