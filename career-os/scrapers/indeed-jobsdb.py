@@ -1,38 +1,34 @@
 #!/usr/bin/env python3
 """
-Indeed & JobsDB job scraper via DuckDuckGo site: queries.
-Targets PM/program/strategy roles in APAC cities.
+Indeed & JobsDB job scraper via web_search.
+
+This script processes pre-fetched web_search results into structured job listings.
+
+Usage (agent-driven):
+  1. Run web_search queries via Hermes Agent (defined in QUERIES below)
+  2. Feed results into process_results() or save to indeed-jobsdb-websearch.json
+  3. Run this script to generate indeed-jobsdb-results.json
 """
-import json, sys, os, re, time, urllib.request, urllib.parse
+import json, os, re, sys
 from datetime import datetime
 
+OUTPUT = os.path.join(os.path.dirname(__file__), "indeed-jobsdb-results.json")
+
 QUERIES = [
-    # Indeed - Singapore
     'site:indeed.com "senior product manager" Singapore',
     'site:indeed.com "product director" Singapore',
     'site:indeed.com "head of product" Singapore',
-    'site:indeed.com "program manager" Singapore fintech',
-    # Indeed - Hong Kong
     'site:indeed.com "senior product manager" "Hong Kong"',
     'site:indeed.com "product director" "Hong Kong"',
-    'site:indeed.com "head of strategy" "Hong Kong"',
-    # Indeed - China cities
     'site:indeed.com "product manager" Shenzhen cross-border',
-    'site:indeed.com "product manager" Guangzhou',
-    'site:indeed.com "product manager" Shanghai ecommerce',
-    'site:indeed.com "program manager" Shenzhen OR Guangzhou',
-    # JobsDB - Hong Kong
+    'site:indeed.com "program manager" Singapore fintech',
     'site:jobsdb.com "senior product manager" "Hong Kong"',
     'site:jobsdb.com "product director" "Hong Kong"',
     'site:jobsdb.com "head of product" "Hong Kong"',
-    'site:jobsdb.com "program manager" "Hong Kong" fintech',
-    # JobsDB - Singapore
     'site:jobsdb.com "senior product manager" Singapore',
     'site:jobsdb.com "product director" Singapore',
-    'site:jobsdb.com "head of product" Singapore ecommerce',
-    # JobsDB - broader
-    'site:jobsdb.com "product manager" Shenzhen OR Guangzhou cross-border',
     'site:jobsdb.com "strategy director" Singapore OR "Hong Kong"',
+    'site:jobsdb.com "product manager" Shenzhen OR Guangzhou cross-border',
 ]
 
 TITLE_KEYWORDS = [
@@ -47,37 +43,7 @@ SENIORITY_KEYWORDS = [
     "lead", "principal", "staff", "manager", "chief",
 ]
 
-def run_ddg_search(query, max_results=10):
-    """Run a DuckDuckGo HTML search and parse results."""
-    try:
-        encoded = urllib.parse.quote_plus(query)
-        url = f"https://html.duckduckgo.com/html/?q={encoded}"
-        req = urllib.request.Request(url, headers={
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
-        })
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            html = resp.read().decode("utf-8", errors="replace")
-
-        results = []
-        pattern = re.compile(
-            r'<a[^>]+class="result__a"[^>]+href="([^"]+)"[^>]*>(.*?)</a>.*?'
-            r'<a[^>]+class="result__snippet"[^>]*>(.*?)</a>',
-            re.DOTALL,
-        )
-        for m in pattern.finditer(html):
-            rurl = m.group(1)
-            title = re.sub(r'<[^>]+>', '', m.group(2)).strip()
-            snippet = re.sub(r'<[^>]+>', '', m.group(3)).strip()
-            if "uddg=" in rurl:
-                um = re.search(r'uddg=([^&]+)', rurl)
-                if um:
-                    rurl = urllib.parse.unquote(um.group(1))
-            if title and rurl.startswith("http"):
-                results.append({"title": title, "url": rurl, "snippet": snippet})
-        return results[:max_results]
-    except Exception as e:
-        print(f"  [WARN] Search failed: {e}", file=sys.stderr)
-        return []
+WEB_SEARCH_RESULTS = []
 
 def extract_source(url):
     u = url.lower()
@@ -87,15 +53,21 @@ def extract_source(url):
         return "jobsdb"
     return "web_search"
 
-def extract_company(title, url):
-    at_match = re.search(r'\s+(?:at|@)\s+([^-|–]+?)(?:\s*[-|–]|\s*$)', title, re.IGNORECASE)
+def extract_company(title, url, snippet=""):
+    # Try "at Company" pattern
+    at_match = re.search(r'\s+(?:at|@)\s+([^|–\-]+?)(?:\s*[-|–]|\s*$)', title, re.IGNORECASE)
     if at_match:
         return at_match.group(1).strip()
+    # Try "Title - Company" pattern
     dash_match = re.search(r'[-|–]\s*([^-|–]+?)$', title)
     if dash_match:
         c = dash_match.group(1).strip()
         if len(c) < 50 and not any(kw in c.lower() for kw in ["singapore", "hong kong", "remote", "shenzhen", "guangzhou", "shanghai"]):
             return c
+    # Try from snippet "Company is hiring"
+    hiring_match = re.search(r'^(.+?)\s+is\s+hiring', snippet, re.IGNORECASE)
+    if hiring_match:
+        return hiring_match.group(1).strip()
     return ""
 
 def extract_location(title, snippet):
@@ -143,35 +115,35 @@ def classify_grade(title):
         return "A-2"
     return "A-2"
 
-def main():
-    print(f"Indeed/JobsDB scraper: running {len(QUERIES)} queries...")
-    all_results = []
-    for i, query in enumerate(QUERIES):
-        print(f"  [{i+1}/{len(QUERIES)}] {query[:60]}...")
-        results = run_ddg_search(query, max_results=8)
-        all_results.extend(results)
-        time.sleep(1.5)
-
-    print(f"\nRaw results: {len(all_results)}")
-
+def process_results(results):
+    """Process web_search results into structured job listings."""
     seen_urls = set()
     formatted = []
-    for r in all_results:
+    
+    for r in results:
         url = r.get("url", "")
         title = r.get("title", "")
-        snippet = r.get("snippet", "")
+        snippet = r.get("description", r.get("snippet", ""))
+        
         if not url or not title:
             continue
         if url in seen_urls:
             continue
+        
+        # Filter: must be indeed.com or jobsdb.com
+        source = extract_source(url)
+        if source == "web_search":
+            continue
+        
         if not is_relevant(title, snippet):
             continue
+        
         seen_urls.add(url)
         location = extract_location(title, snippet)
-        company = extract_company(title, url)
-        source = extract_source(url)
+        company = extract_company(title, url, snippet)
         clean_title = re.sub(r'\s*(?:at|@)\s+[^-|–]+$', '', title).strip()
         clean_title = re.sub(r'\s*[-|–]\s*[^-|–]+$', '', clean_title).strip()
+        
         formatted.append({
             "title": clean_title,
             "company": company,
@@ -183,14 +155,35 @@ def main():
             "scanned_date": datetime.now().strftime("%Y-%m-%d"),
             "source": source,
         })
-
-    print(f"Filtered & formatted: {len(formatted)} jobs")
-
-    output_path = os.path.join(os.path.dirname(__file__), "indeed-jobsdb-results.json")
-    with open(output_path, "w") as f:
-        json.dump(formatted, f, indent=2, ensure_ascii=False)
-    print(f"Saved to {output_path}")
+    
     return formatted
+
+def main():
+    standalone_path = os.path.join(os.path.dirname(__file__), "indeed-jobsdb-websearch.json")
+    results = []
+    
+    if os.path.exists(standalone_path):
+        with open(standalone_path) as f:
+            results = json.load(f)
+        print(f"Loaded {len(results)} results from {standalone_path}")
+    elif WEB_SEARCH_RESULTS:
+        results = WEB_SEARCH_RESULTS
+        print(f"Using {len(results)} embedded results")
+    else:
+        print("No web_search results found. Run web_search queries first.")
+        print("Queries to run:")
+        for q in QUERIES:
+            print(f"  - {q}")
+        print(f"\nSave results to {standalone_path} and re-run.")
+        return []
+    
+    jobs = process_results(results)
+    print(f"\nIndeed/JobsDB: {len(jobs)} jobs extracted")
+    
+    with open(OUTPUT, 'w') as f:
+        json.dump(jobs, f, indent=2, ensure_ascii=False)
+    print(f"Saved to {OUTPUT}")
+    return jobs
 
 if __name__ == "__main__":
     main()

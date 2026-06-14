@@ -1,15 +1,20 @@
 #!/usr/bin/env python3
 """
-Wellfound (AngelList) job scraper.
-Scrapes startup PM roles in Asia-Pacific.
-Uses web search as Wellfound blocks direct scraping.
+Wellfound (AngelList) job scraper via web_search.
+
+This script processes pre-fetched web_search results into structured job listings.
+
+Usage (agent-driven):
+  1. Run web_search queries via Hermes Agent (defined in QUERIES below)
+  2. Feed results into process_results() or save to wellfound-websearch.json
+  3. Run this script to generate wellfound-results.json
 """
-import json, sys, os, re, time
-from urllib.request import urlopen, Request
-from urllib.parse import quote_plus
+import json, os, re, sys
 from datetime import datetime
 
-SEARCH_QUERIES = [
+OUTPUT = os.path.join(os.path.dirname(__file__), "wellfound-results.json")
+
+QUERIES = [
     'site:wellfound.com "product manager" Singapore OR "Hong Kong"',
     'site:wellfound.com "senior product manager" Asia',
     'site:wellfound.com "director of product" Singapore',
@@ -24,43 +29,7 @@ TITLE_KEYWORDS = [
     "cross-border", "e-commerce", "ecommerce", "growth",
 ]
 
-def search_ddg(query, max_results=8):
-    """Search DuckDuckGo HTML version."""
-    try:
-        url = f"https://html.duckduckgo.com/html/?q={quote_plus(query)}"
-        req = Request(url, headers={
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
-        })
-        with urlopen(req, timeout=15) as resp:
-            html = resp.read().decode("utf-8", errors="replace")
-        
-        results = []
-        # DuckDuckGo result pattern
-        pattern = re.compile(
-            r'<a[^>]+class="result__a"[^>]+href="([^"]+)"[^>]*>(.*?)</a>.*?'
-            r'(?:<a[^>]+class="result__snippet"[^>]*>(.*?)</a>)?',
-            re.DOTALL
-        )
-        
-        for m in pattern.finditer(html):
-            raw_url = m.group(1)
-            title = re.sub(r'<[^>]+>', '', m.group(2)).strip()
-            snippet = re.sub(r'<[^>]+>', '', m.group(3)).strip() if m.group(3) else ""
-            
-            # Clean DuckDuckGo redirect
-            if "uddg=" in raw_url:
-                url_match = re.search(r'uddg=([^&]+)', raw_url)
-                if url_match:
-                    from urllib.parse import unquote
-                    raw_url = unquote(url_match.group(1))
-            
-            if title and raw_url.startswith("http"):
-                results.append({"title": title, "url": raw_url, "snippet": snippet})
-        
-        return results[:max_results]
-    except Exception as e:
-        print(f"  [WARN] Search failed: {e}", file=sys.stderr)
-        return []
+WEB_SEARCH_RESULTS = []
 
 def is_relevant(title, snippet):
     text = f"{title} {snippet}".lower()
@@ -88,33 +57,31 @@ def classify_role_type(title):
         return "Program Management"
     return "Product Management"
 
-def main():
-    print("Wellfound scraper: searching for startup PM roles...")
-    all_results = []
-    
-    for i, query in enumerate(SEARCH_QUERIES):
-        print(f"  [{i+1}/{len(SEARCH_QUERIES)}] {query[:60]}...")
-        results = search_ddg(query)
-        all_results.extend(results)
-        time.sleep(1.5)
-    
-    print(f"\nRaw results: {len(all_results)}")
-    
+def process_results(results):
+    """Process web_search results into structured job listings."""
     seen_urls = set()
     formatted = []
-    for r in all_results:
-        url = r["url"]
-        title = r["title"]
-        snippet = r.get("snippet", "")
+    
+    for r in results:
+        url = r.get("url", "")
+        title = r.get("title", "")
+        snippet = r.get("description", r.get("snippet", ""))
         
-        if url in seen_urls or not is_relevant(title, snippet):
+        if not url or not title:
             continue
+        if "wellfound.com" not in url.lower():
+            continue
+        if url in seen_urls:
+            continue
+        if not is_relevant(title, snippet):
+            continue
+        
         seen_urls.add(url)
         
         # Clean title
         clean_title = re.sub(r'\s*(?:at|@)\s+[^-|–]+$', '', title).strip()
         
-        # Extract company from URL pattern: wellfound.com/company/name or wellfound.com/jobs/id
+        # Extract company from URL pattern: wellfound.com/company/name
         company = ""
         company_match = re.search(r'wellfound\.com/company/([^/]+)', url)
         if company_match:
@@ -132,13 +99,34 @@ def main():
             "source": "wellfound",
         })
     
-    print(f"Filtered: {len(formatted)} jobs")
-    
-    output_path = os.path.join(os.path.dirname(__file__), "wellfound-results.json")
-    with open(output_path, "w") as f:
-        json.dump(formatted, f, indent=2, ensure_ascii=False)
-    print(f"Saved to {output_path}")
     return formatted
+
+def main():
+    standalone_path = os.path.join(os.path.dirname(__file__), "wellfound-websearch.json")
+    results = []
+    
+    if os.path.exists(standalone_path):
+        with open(standalone_path) as f:
+            results = json.load(f)
+        print(f"Loaded {len(results)} results from {standalone_path}")
+    elif WEB_SEARCH_RESULTS:
+        results = WEB_SEARCH_RESULTS
+        print(f"Using {len(results)} embedded results")
+    else:
+        print("No web_search results found. Run web_search queries first.")
+        print("Queries to run:")
+        for q in QUERIES:
+            print(f"  - {q}")
+        print(f"\nSave results to {standalone_path} and re-run.")
+        return []
+    
+    jobs = process_results(results)
+    print(f"\nWellfound: {len(jobs)} jobs extracted")
+    
+    with open(OUTPUT, 'w') as f:
+        json.dump(jobs, f, indent=2, ensure_ascii=False)
+    print(f"Saved to {OUTPUT}")
+    return jobs
 
 if __name__ == "__main__":
     main()

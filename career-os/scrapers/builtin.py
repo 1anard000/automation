@@ -1,23 +1,25 @@
 #!/usr/bin/env python3
 """
-Built In job scraper.
-Scrapes builtin.com for Senior PM roles in Hong Kong, Singapore, and Remote.
-"""
-import json, sys, os, re
-from urllib.request import urlopen, Request
-from urllib.error import URLError
-from datetime import datetime
-from html.parser import HTMLParser
+Built In job scraper via web_search.
 
-SEARCH_URLS = [
-    "https://builtin.com/jobs/senior-product-manager/hong-kong",
-    "https://builtin.com/jobs/senior-product-manager/singapore",
-    "https://builtin.com/jobs/product-manager/hong-kong",
-    "https://builtin.com/jobs/product-manager/singapore",
-    "https://builtin.com/jobs/director-product/hong-kong",
-    "https://builtin.com/jobs/director-product/singapore",
-    "https://builtin.com/jobs/head-product/singapore",
-    "https://builtin.com/jobs/head-product/hong-kong",
+This script processes pre-fetched web_search results into structured job listings.
+
+Usage (agent-driven):
+  1. Run web_search queries via Hermes Agent (defined in QUERIES below)
+  2. Feed results into process_results() or save to builtin-websearch.json
+  3. Run this script to generate builtin-results.json
+"""
+import json, os, re, sys
+from datetime import datetime
+
+OUTPUT = os.path.join(os.path.dirname(__file__), "builtin-results.json")
+
+QUERIES = [
+    'site:builtin.com "senior product manager" "Hong Kong"',
+    'site:builtin.com "senior product manager" Singapore',
+    'site:builtin.com "product director" "Hong Kong" OR Singapore',
+    'site:builtin.com "head of product" Singapore OR "Hong Kong"',
+    'site:builtin.com "product manager" remote Asia',
 ]
 
 TITLE_KEYWORDS = [
@@ -27,105 +29,26 @@ TITLE_KEYWORDS = [
     "cross-border", "e-commerce", "ecommerce", "growth",
 ]
 
-def fetch_page(url, timeout=15):
-    """Fetch HTML page."""
-    try:
-        req = Request(url, headers={
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        })
-        with urlopen(req, timeout=timeout) as resp:
-            return resp.read().decode("utf-8", errors="replace")
-    except (URLError, OSError) as e:
-        print(f"  [WARN] Failed to fetch {url}: {e}", file=sys.stderr)
-        return ""
+WEB_SEARCH_RESULTS = []
 
-def parse_builtin_jobs(html, location_hint):
-    """Parse Built In HTML to extract job listings."""
-    jobs = []
-    
-    # Extract job cards using regex patterns from the HTML
-    # Built In uses data attributes and structured HTML
-    # Pattern: job title links with company names
-    
-    # Find job card sections
-    job_pattern = re.compile(
-        r'href="(/job/[^"]+)"[^>]*>.*?<(?:h2|span|div)[^>]*class="[^"]*job[^"]*"[^>]*>(.*?)</(?:h2|span|div)>',
-        re.DOTALL | re.IGNORECASE
-    )
-    
-    # Simpler pattern: find /job/ links
-    link_pattern = re.compile(r'href="(/job/[^"]+/(\d+))"')
-    title_pattern = re.compile(r'<(?:h2|h3|a)[^>]*>([^<]*(?:product|manager|director|head|strategy|program)[^<]*)</(?:h2|h3|a)>', re.IGNORECASE)
-    company_pattern = re.compile(r'class="[^"]*company[^"]*"[^>]*>([^<]+)<', re.IGNORECASE)
-    
-    # Try JSON-LD structured data first
-    jsonld_pattern = re.compile(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', re.DOTALL)
-    for match in jsonld_pattern.finditer(html):
-        try:
-            ld = json.loads(match.group(1))
-            if isinstance(ld, dict) and ld.get("@type") == "JobPosting":
-                jobs.append({
-                    "title": ld.get("title", ""),
-                    "company": ld.get("hiringOrganization", {}).get("name", ""),
-                    "location": ld.get("jobLocation", {}).get("address", {}).get("addressLocality", location_hint),
-                    "url": ld.get("url", ""),
-                    "salary": ld.get("baseSalary", {}).get("value", {}).get("value", "") if isinstance(ld.get("baseSalary"), dict) else "",
-                })
-            elif isinstance(ld, list):
-                for item in ld:
-                    if isinstance(item, dict) and item.get("@type") == "JobPosting":
-                        jobs.append({
-                            "title": item.get("title", ""),
-                            "company": item.get("hiringOrganization", {}).get("name", ""),
-                            "location": item.get("jobLocation", {}).get("address", {}).get("addressLocality", location_hint),
-                            "url": item.get("url", ""),
-                            "salary": "",
-                        })
-        except (json.JSONDecodeError, AttributeError):
-            pass
-    
-    # Fallback: extract from job links
-    if not jobs:
-        seen_urls = set()
-        for match in link_pattern.finditer(html):
-            path = match.group(1)
-            job_id = match.group(2)
-            if path in seen_urls:
-                continue
-            seen_urls.add(path)
-            
-            # Try to find title near the link
-            start = max(0, match.start() - 500)
-            end = min(len(html), match.end() + 500)
-            context = html[start:end]
-            
-            # Clean title from context
-            title_match = re.search(r'>([^<]{10,80})<', context)
-            title = title_match.group(1).strip() if title_match else ""
-            
-            # Skip navigation/footer links
-            if not title or len(title) < 5:
-                continue
-                
-            # Check if it looks like a job title
-            title_lower = title.lower()
-            if not any(kw in title_lower for kw in TITLE_KEYWORDS):
-                continue
-            
-            jobs.append({
-                "title": title,
-                "company": "",
-                "location": location_hint,
-                "url": f"https://builtin.com{path}",
-                "salary": "",
-            })
-    
-    return jobs
+def is_relevant(title, snippet):
+    text = f"{title} {snippet}".lower()
+    has_role = any(kw in text for kw in TITLE_KEYWORDS)
+    return has_role
+
+def extract_location(title, snippet):
+    text = f"{title} {snippet}".lower()
+    if "hong kong" in text:
+        return "Hong Kong"
+    if "singapore" in text:
+        return "Singapore"
+    if "remote" in text:
+        return "Remote"
+    return ""
 
 def classify_role_type(title):
     t = title.lower()
-    if "strategy" in t or "strategic" in t:
+    if "strategy" in t:
         return "Strategy/Ops"
     if "program" in t:
         return "Program Management"
@@ -133,53 +56,84 @@ def classify_role_type(title):
         return "Product Management"
     return "Product Management"
 
-def main():
-    print("Built In scraper: scanning for PM roles...")
-    all_jobs = []
-    
-    for url in SEARCH_URLS:
-        loc_hint = "Hong Kong" if "hong-kong" in url else "Singapore"
-        print(f"  Fetching {url.split('.com')[1]}...")
-        html = fetch_page(url)
-        if not html:
-            continue
-        jobs = parse_builtin_jobs(html, loc_hint)
-        all_jobs.extend(jobs)
-        print(f"    Found {len(jobs)} jobs")
-    
-    # Deduplicate by URL
-    seen = set()
-    unique_jobs = []
-    for j in all_jobs:
-        key = j.get("url", "")
-        if key and key not in seen:
-            seen.add(key)
-            unique_jobs.append(j)
-    
-    # Format output
+def process_results(results):
+    """Process web_search results into structured job listings."""
+    seen_urls = set()
     formatted = []
-    for j in unique_jobs:
-        title = j.get("title", "").strip()
-        if not title:
+    
+    for r in results:
+        url = r.get("url", "")
+        title = r.get("title", "")
+        snippet = r.get("description", r.get("snippet", ""))
+        
+        if not url or not title:
             continue
+        if "builtin.com" not in url.lower():
+            continue
+        if url in seen_urls:
+            continue
+        if not is_relevant(title, snippet):
+            continue
+        
+        seen_urls.add(url)
+        
+        # Clean title
+        clean_title = title.strip()
+        # Remove " | Built In" suffix
+        clean_title = re.sub(r'\s*\|\s*Built\s*In.*$', '', clean_title)
+        clean_title = re.sub(r'\s*-\s*Built\s*In.*$', '', clean_title)
+        
+        # Extract company from title (often "Company - Title | Built In")
+        company = ""
+        if " - " in clean_title:
+            parts = clean_title.split(" - ", 1)
+            if len(parts) == 2 and len(parts[0]) < 60:
+                # Check if first part looks like a company
+                candidate = parts[0].strip()
+                if not any(kw in candidate.lower() for kw in ["senior", "junior", "lead", "director", "head", "vp"]):
+                    company = candidate
+                    clean_title = parts[1].strip()
+        
         formatted.append({
-            "title": title,
-            "company": j.get("company", ""),
-            "location": j.get("location", ""),
-            "grade": "A-1" if any(k in title.lower() for k in ["director", "vp", "head"]) else "A-2",
-            "url": j.get("url", ""),
-            "role_type": classify_role_type(title),
-            "salary": j.get("salary", ""),
+            "title": clean_title,
+            "company": company,
+            "location": extract_location(title, snippet),
+            "grade": "A-1" if any(k in clean_title.lower() for k in ["director", "vp", "head"]) else "A-2",
+            "url": url,
+            "role_type": classify_role_type(clean_title),
+            "salary": "",
             "scanned_date": datetime.now().strftime("%Y-%m-%d"),
             "source": "builtin",
         })
     
-    print(f"\nBuilt In total: {len(formatted)} jobs")
-    output_path = os.path.join(os.path.dirname(__file__), "builtin-results.json")
-    with open(output_path, "w") as f:
-        json.dump(formatted, f, indent=2, ensure_ascii=False)
-    print(f"Saved to {output_path}")
     return formatted
+
+def main():
+    standalone_path = os.path.join(os.path.dirname(__file__), "builtin-websearch.json")
+    results = []
+    
+    if os.path.exists(standalone_path):
+        with open(standalone_path) as f:
+            results = json.load(f)
+        print(f"Loaded {len(results)} results from {standalone_path}")
+    elif WEB_SEARCH_RESULTS:
+        results = WEB_SEARCH_RESULTS
+        print(f"Using {len(results)} embedded results")
+    else:
+        print("No web_search results found. Run web_search queries first.")
+        print("Queries to run:")
+        for q in QUERIES:
+            print(f"  - {q}")
+        print(f"\nSave results to {standalone_path} and re-run.")
+        return []
+    
+    jobs = process_results(results)
+    print(f"\nBuilt In: {len(jobs)} jobs extracted")
+    
+    with open(OUTPUT, 'w') as f:
+        json.dump(jobs, f, indent=2, ensure_ascii=False)
+    print(f"Saved to {OUTPUT}")
+    return jobs
 
 if __name__ == "__main__":
     main()
