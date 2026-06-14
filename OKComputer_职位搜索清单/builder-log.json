@@ -107,6 +107,15 @@
       "score_before": 7,
       "score_after": 6,
       "subagent": "system-scorekeeper"
+    },
+    {
+      "timestamp": "2026-06-15T06:00:00+08:00",
+      "dimension": "dashboard",
+      "task": "Fix index.html stale stats — updated from 333 to 595 jobs, refreshed grade/location counts",
+      "status": "completed",
+      "score_before": 7,
+      "score_after": 8,
+      "subagent": "nightly-improver-20260615"
     }
   ],
   "current_scores": {
