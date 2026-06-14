@@ -138,6 +138,13 @@ a:hover{{text-decoration:underline}}
 .cat-platform{{background:#1e3a5f;color:#93c5fd}}
 .cat-general{{background:#334155;color:#cbd5e1}}
 .en-title{{color:#94a3b8;font-size:0.75rem;font-style:italic}}
+.diff-easy{{background:#064e3b;color:#4ade80;border:1px solid #065f46;padding:2px 6px;border-radius:4px;font-size:0.6rem}}
+.diff-medium{{background:#422006;color:#fbbf24;border:1px solid #854d0e;padding:2px 6px;border-radius:4px;font-size:0.6rem}}
+.diff-hard{{background:#450a0a;color:#fca5a5;border:1px solid #991b1b;padding:2px 6px;border-radius:4px;font-size:0.6rem}}
+.tier-a{{color:#4ade80;font-weight:700}}
+.tier-b{{color:#60a5fa}}
+.tier-c{{color:#fbbf24}}
+.tier-d{{color:#f87171}}
 .url-quality{{margin:12px 0;padding:10px 16px;background:#1e293b;border-radius:8px;border:1px solid #334155;font-size:0.8rem;color:#94a3b8}}
 .url-quality .good{{color:#4ade80}}
 .url-quality .bad{{color:#f87171}}
@@ -163,6 +170,7 @@ a:hover{{text-decoration:underline}}
   <select id="filterGrade"><option value="">All Grades</option>{grade_opts}</select>
   <select id="filterCity"><option value="">All Cities</option>{city_opts}</select>
   <select id="filterCategory"><option value="">All Categories</option>{cat_opts}</select>
+  <select id="filterDifficulty"><option value="">All Platforms</option><option value="easy">⚡ Easy Apply</option><option value="medium">📋 Medium</option><option value="hard">⏳ Hard</option></select>
   <select id="filterEnglish"><option value="">All</option><option value="true">English Friendly</option></select>
 </div>
 <div class="count" id="showCount"></div>
@@ -175,7 +183,8 @@ a:hover{{text-decoration:underline}}
   <th onclick="sortTable(2)">Company <span class="arrow"></span></th>
   <th onclick="sortTable(3)">Location <span class="arrow"></span></th>
   <th onclick="sortTable(4)" class="hide-mobile">Category <span class="arrow"></span></th>
-  <th onclick="sortTable(5)" class="hide-mobile">Salary <span class="arrow"></span></th>
+  <th onclick="sortTable(5)" class="hide-mobile">Apply <span class="arrow"></span></th>
+  <th onclick="sortTable(6)" class="hide-mobile">Salary <span class="arrow"></span></th>
   <th>Link</th>
   <th>Search</th>
 </tr>
@@ -202,6 +211,11 @@ function renderTable(data) {{
     const catLabel = (j.category || '').replace(/_/g, ' ');
     const engBadge = j.english_friendly ? '<span class="badge badge-en">EN</span>' : '';
     const enTitle = j.en_title ? `<div class="en-title">${{j.en_title}}</div>` : '';
+    const diffClass = j.app_difficulty === 'easy' ? 'diff-easy' : j.app_difficulty === 'medium' ? 'diff-medium' : 'diff-hard';
+    const diffLabel = j.app_difficulty === 'easy' ? '⚡ Quick' : j.app_difficulty === 'medium' ? '📋 Medium' : '⏳ Hard';
+    const qualityTier = j.quality_tier || '';
+    const qualityClass = qualityTier === 'A' ? 'tier-a' : qualityTier === 'B' ? 'tier-b' : qualityTier === 'C' ? 'tier-c' : 'tier-d';
+    const qualityHtml = qualityTier ? `<span class="${{qualityClass}}">Q${{qualityTier}}</span>` : '';
     const link = j.url ? `<a href="${{j.url}}" target="_blank" rel="noopener">Apply →</a>` : '<span style="color:#64748b">—</span>';
     let searchLink = '';
     if (j.url) {{
@@ -215,11 +229,12 @@ function renderTable(data) {{
       }}
     }}
     return `<tr>
-      <td><span class="badge ${{gc}}">${{j.grade}}</span></td>
+      <td><span class="badge ${{gc}}">${{j.grade}}</span> ${{qualityHtml}}</td>
       <td><strong>${{j.title}}</strong>${{engBadge}}${{enTitle}}</td>
       <td>${{j.company}}</td>
       <td><span class="city-tag">${{j.location}}</span></td>
       <td class="hide-mobile"><span class="cat-tag ${{cc}}">${{catLabel}}</span></td>
+      <td class="hide-mobile"><span class="${{diffClass}}">${{diffLabel}}</span></td>
       <td class="hide-mobile" style="color:#94a3b8;font-size:0.7rem">${{j.salary||'—'}}</td>
       <td>${{link}}</td>
       <td>${{searchLink}}</td>
@@ -233,12 +248,14 @@ function filterData() {{
   const g = document.getElementById('filterGrade').value;
   const c = document.getElementById('filterCity').value;
   const cat = document.getElementById('filterCategory').value;
+  const diff = document.getElementById('filterDifficulty').value;
   const eng = document.getElementById('filterEnglish').value;
   let d = jobs.filter(j => {{
     if (q && !j.title.toLowerCase().includes(q) && !j.company.toLowerCase().includes(q) && !(j.en_title||'').toLowerCase().includes(q)) return false;
     if (g && j.grade !== g) return false;
     if (c && j.location !== c) return false;
     if (cat && j.category !== cat) return false;
+    if (diff && j.app_difficulty !== diff) return false;
     if (eng === 'true' && !j.english_friendly) return false;
     return true;
   }});
@@ -260,7 +277,7 @@ function sortTable(col) {{
   filterData();
 }}
 
-['search','filterGrade','filterCity','filterCategory','filterEnglish'].forEach(id => document.getElementById(id).addEventListener('input', filterData));
+['search','filterGrade','filterCity','filterCategory','filterDifficulty','filterEnglish'].forEach(id => document.getElementById(id).addEventListener('input', filterData));
 renderTable(jobs);
 </script>
 </body>
