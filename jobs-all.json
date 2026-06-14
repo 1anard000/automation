@@ -9,7 +9,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Director, Market Intelligence",
@@ -21,7 +23,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Director, Product Strategy",
@@ -33,7 +37,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Product Manager, Growth",
@@ -45,7 +51,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Senior Product Manager",
@@ -57,7 +65,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Head of Product, Global Payments Network Infrastructure",
@@ -69,7 +79,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "platform"
   },
   {
     "title": "Director, Strategic Partnerships APAC",
@@ -81,7 +93,9 @@
     "role_type": "BD/Partnerships",
     "grade": "A-1",
     "scanned_date": "2026-06-13",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Senior Product Manager - AI",
@@ -93,7 +107,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Payment Strategy Director",
@@ -105,7 +121,9 @@
     "role_type": "Strategy/Ops",
     "scan_date": "2026-06-13",
     "grade": "A-1",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Binance Pay Business Lead",
@@ -117,7 +135,9 @@
     "salary": "HKD 80k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Director, Regional Strategy and Business Development, APAC",
@@ -129,7 +149,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Senior Product Manager - Supply Chain Management",
@@ -141,7 +163,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Director GTM Strategy & Transformation APJC",
@@ -153,7 +177,9 @@
     "salary": "SGD 18k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Director - Corporate Strategy Execution - APAC",
@@ -165,7 +191,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_posting",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Product Director (Payment, CAAS, Card Payments)",
@@ -177,7 +205,9 @@
     "role_type": "Product Management",
     "scan_date": "2026-06-13",
     "grade": "A-1",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Sr Director, Go-To-Market (APAC)",
@@ -189,7 +219,9 @@
     "salary": "SGD 20k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Director, Business Strategy & Development – IMG",
@@ -201,7 +233,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Director, East Asia Strategy and Growth Initiatives",
@@ -213,7 +247,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "China Supply Chain Strategy Director",
@@ -225,7 +261,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Global Head of Business Operations and Chief of Staff, AppDev, RSO",
@@ -237,7 +275,9 @@
     "salary": "SGD 25k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Head of International Growth Team, AppDev APAC",
@@ -249,7 +289,9 @@
     "salary": "SGD 22k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of Measurement, APAC Product Go-To-Market",
@@ -261,7 +303,9 @@
     "salary": "SGD 22k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Senior Manager of Frontline Incentive and Strategy",
@@ -273,7 +317,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Sr Director Business Dev",
@@ -285,7 +331,9 @@
     "salary": "RMB 100k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of Strategic Growth, APAC",
@@ -297,7 +345,9 @@
     "salary": "SGD 18k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Fintech Strategy & Investments, APAC Lead - Executive Director",
@@ -309,7 +359,9 @@
     "salary": "SGD 20k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "linkedin_posting",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Senior Business Development & Innovation Manager",
@@ -321,7 +373,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Chief Marketplace Officer (CMO) / Marketplace Growth Director",
@@ -333,7 +387,9 @@
     "role_type": "GM/Country Manager",
     "scan_date": "2026-06-13",
     "grade": "A-1",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Head of eCommerce & Omni – East Asia Pacific",
@@ -345,7 +401,9 @@
     "salary": "SGD 18k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Vice President, Strategic Government Partnerships",
@@ -357,7 +415,9 @@
     "salary": "SGD 20k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Regional General Manager- Southeast Asia",
@@ -369,7 +429,9 @@
     "salary": "HKD 100k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "VP, Go to Market Strategy",
@@ -381,7 +443,9 @@
     "role_type": "Strategy/Ops",
     "scan_date": "2026-06-13",
     "grade": "A-1",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Principal, Store Development & Operations, NSO",
@@ -393,7 +457,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Country Manager, Singapore",
@@ -405,7 +471,9 @@
     "salary": "SGD 25k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Director, Trust & Experience",
@@ -417,7 +485,9 @@
     "role_type": "Product Management",
     "scan_date": "2026-06-13",
     "grade": "A-1",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Manager / Director, Global Payment Partnerships",
@@ -429,7 +499,9 @@
     "role_type": "Product Management",
     "scan_date": "2026-06-13",
     "grade": "A-1",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Vice President, Channel and Strategic Alliances APJ",
@@ -441,7 +513,9 @@
     "salary": "SGD 22k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Head of Digital Product Management, China",
@@ -453,7 +527,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Head of Commercial Strategy and Excellence",
@@ -465,7 +541,9 @@
     "salary": "RMB 90k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Account Director, Government",
@@ -477,7 +555,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "APAC Sales Development Leader",
@@ -489,7 +569,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Partner Director - AWS Alliance Partnership, APAC",
@@ -501,7 +583,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of APAC Growth Markets, Global Affairs",
@@ -513,7 +597,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "APAC Strategic Initiatives Lead, Global Affairs",
@@ -525,7 +611,9 @@
     "role_type": "Strategy/Ops",
     "grade": "A-1",
     "scanned_date": "2026-06-13",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Director of Business Development (NeoCloud/GPU Cluster)",
@@ -537,7 +625,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Global Partnership, Head of APAC",
@@ -549,7 +639,9 @@
     "salary": "SGD 15k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Strategy & Innovation Director-SH",
@@ -561,7 +653,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Strategy & BD Manager",
@@ -573,7 +667,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Product Manager",
@@ -585,7 +681,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Head of Strategy & Business Development, APAC",
@@ -597,7 +695,9 @@
     "salary": "HKD 80k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "General Manager, South East Asia",
@@ -609,7 +709,9 @@
     "salary": "SGD 25k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Growth Director of Operations / Strategy",
@@ -621,7 +723,9 @@
     "role_type": "Strategy/Ops",
     "grade": "A-1",
     "scanned_date": "2026-06-13",
-    "location_norm": "Singapore / Hong Kong / China (Remote)"
+    "location_norm": "Singapore / Hong Kong / China (Remote)",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Sales Director/VP",
@@ -633,7 +737,9 @@
     "role_type": "BD/Partnerships",
     "scan_date": "2026-06-13",
     "grade": "A-1",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Deputy Vice President, Cross Border & Commercial Enablement",
@@ -645,7 +751,9 @@
     "role_type": "Cross-border/Expansion",
     "scan_date": "2026-06-13",
     "grade": "A-1",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "General Manager of International Consumer Business",
@@ -657,7 +765,9 @@
     "role_type": "GM/Country Manager",
     "scan_date": "2026-06-13",
     "grade": "A-1",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Senior Manager, Merchandising & Commercial Strategy",
@@ -669,7 +779,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Director, Merchandising & Commercial Strategy",
@@ -681,7 +793,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Regional Head of Corporate Development (APAC)",
@@ -693,7 +807,9 @@
     "salary": "SGD 18k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "VP, Business Development",
@@ -705,7 +821,9 @@
     "role_type": "BD/Partnerships",
     "scan_date": "2026-06-13",
     "grade": "A-1",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of Product - Core & Growth",
@@ -717,7 +835,9 @@
     "role_type": "Product Management",
     "scan_date": "2026-06-13",
     "grade": "A-1",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Head of Agency Partnerships, APAC",
@@ -729,7 +849,9 @@
     "salary": "SGD 18k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Director of Strategic Partnerships, APAC",
@@ -741,7 +863,9 @@
     "role_type": "BD/Partnerships",
     "grade": "A-1",
     "scanned_date": "2026-06-13",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of Expansion (APAC)",
@@ -753,7 +877,9 @@
     "salary": "HKD 80k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "linkedin_posting",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Senior Consultant / Consultant - AI Strategy",
@@ -765,7 +891,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Senior Director, Corporate Strategy, Asia Pacific",
@@ -777,7 +905,9 @@
     "salary": "SGD 20k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "linkedin_posting",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Director, Stablecoin Partnerships & Go-to-Market Strategy, Greater China",
@@ -789,7 +919,9 @@
     "salary": "HKD 100k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Vice President and General Manager - APAC",
@@ -801,7 +933,9 @@
     "salary": "SGD 22k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Director of Business Development - Expansion",
@@ -813,7 +947,9 @@
     "role_type": "BD/Partnerships",
     "scan_date": "2026-06-13",
     "grade": "A-1",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Senior Director, Go-To-Market",
@@ -825,7 +961,9 @@
     "role_type": "Cross-border/Expansion",
     "scan_date": "2026-06-13",
     "grade": "A-1",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Commercial Director - Marketplaces",
@@ -837,7 +975,9 @@
     "role_type": "BD/Partnerships",
     "scan_date": "2026-06-13",
     "grade": "A-1",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "platform"
   },
   {
     "title": "HEAD OF APAC Customer Success",
@@ -849,7 +989,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "VP, Business Planning & Operations",
@@ -861,7 +1003,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Regional Commercial Development Manager (Strategy/Planning)",
@@ -873,7 +1017,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "company_site",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Regional Head of Strategy, Insights and Data APAC",
@@ -885,7 +1031,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of E-commerce Strategy & Performance (Regional)",
@@ -897,7 +1045,9 @@
     "salary": "SGD 15k-20k/mo",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of Growth Marketing, Asia",
@@ -909,7 +1059,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Associate Director, Strategy & Operations - CEO Office",
@@ -921,7 +1073,9 @@
     "role_type": "Strategy/Ops",
     "grade": "A-2",
     "scanned_date": "2026-06-13",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Head of Channel APAC",
@@ -933,7 +1087,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Director/Managing Director - Singapore & SEA COO",
@@ -945,7 +1101,9 @@
     "salary": "SGD 25k+/mo est",
     "scanned_date": "2026-06-13",
     "source": "linkedin_posting",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Distribution Development Director, APAC",
@@ -957,7 +1115,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "International Development Director - APAC",
@@ -969,7 +1129,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "General Manager, Hong Kong & Macau",
@@ -981,7 +1143,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Head of Client Strategy, Asia Pacific",
@@ -993,7 +1157,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Director, Payment Business Development, APAC",
@@ -1005,7 +1171,9 @@
     "role_type": "BD/Partnerships",
     "scan_date": "2026-06-13",
     "grade": "A-2",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "SEA TikTok Live Operations Lead",
@@ -1017,7 +1185,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "other",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Product Director, Banking Engagement",
@@ -1029,7 +1199,9 @@
     "role_type": "Product Management",
     "scan_date": "2026-06-13",
     "grade": "A-2",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Commercial Director APAC - Partnership",
@@ -1041,7 +1213,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "other",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Strategy Partner to APAC CEO",
@@ -1053,7 +1227,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Chief of Staff to SVP Operations, APAC",
@@ -1065,7 +1241,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Go To Market Lead, APAC",
@@ -1077,7 +1255,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Strategy Consultant/Senior Manager (Healthcare)",
@@ -1089,7 +1269,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "other",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Commercial & Strategic Growth VP (Crypto Payments / Stablecoin Acquiring / Card & CaaS)",
@@ -1101,7 +1283,9 @@
     "role_type": "BD/Partnerships",
     "scan_date": "2026-06-13",
     "grade": "A-2",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Director, Marketing & Analytics, APAC",
@@ -1113,7 +1297,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "核心战略和运营负责人，市场推广",
@@ -1125,7 +1311,10 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "en_title": "Head of Core Strategy & Operations, Marketing",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Product Director",
@@ -1137,7 +1326,9 @@
     "role_type": "Product Management",
     "scan_date": "2026-06-13",
     "grade": "A-2",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "GTM Director（出海）",
@@ -1149,7 +1340,10 @@
     "role_type": "Cross-border/Expansion",
     "scan_date": "2026-06-13",
     "grade": "A-2",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "GTM Director (Overseas/Global Expansion)",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of dx CPG APAC",
@@ -1161,7 +1355,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_posting",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of Market Strategy ACM APAC",
@@ -1173,7 +1369,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Director/Vice President, Head – PCM Product Management, APAC",
@@ -1185,7 +1383,9 @@
     "role_type": "Product Management",
     "scan_date": "2026-06-13",
     "grade": "A-2",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Director, Platform Success – APAC",
@@ -1197,7 +1397,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Director of Sales – APAC",
@@ -1209,7 +1411,9 @@
     "role_type": "BD/Partnerships",
     "scan_date": "2026-06-13",
     "grade": "A-2",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of Strategic Capability & Strategy, Surgical Vision APAC",
@@ -1221,7 +1425,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of E-Commerce Acceleration (New Brands) - SEA",
@@ -1233,7 +1439,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of International Store Development",
@@ -1245,7 +1453,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Managing Director, Global Accounts, APAC",
@@ -1257,7 +1467,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of Global Online Sales",
@@ -1269,7 +1481,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "other",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Country Manager",
@@ -1281,7 +1495,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Strategy & Operations Lead",
@@ -1293,7 +1509,9 @@
     "role_type": "Strategy/Ops",
     "scan_date": "2026-06-13",
     "grade": "A-2",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Partner Strategy & Operations Lead",
@@ -1305,7 +1523,9 @@
     "role_type": "Strategy/Ops",
     "grade": "A-2",
     "scanned_date": "2026-06-13",
-    "location_norm": "Singapore / US"
+    "location_norm": "Singapore / US",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Head of Wholesale, NEA (VIP)",
@@ -1317,7 +1537,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Director, Marketing Technology & Gen-AI Solutions (APAC)",
@@ -1329,7 +1551,9 @@
     "role_type": "Product Management",
     "scan_date": "2026-06-13",
     "grade": "A-2",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Regional Manager, Ads Solutions (APAC)",
@@ -1341,7 +1565,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of Brand Management, APAC",
@@ -1353,7 +1579,9 @@
     "role_type": "Strategy/Ops",
     "scan_date": "2026-06-13",
     "grade": "A-2",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Associate Director, Strategy & Business Development, Greater China",
@@ -1365,7 +1593,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Head of Commercial Excellence",
@@ -1377,7 +1607,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Advisory Director, APAC",
@@ -1389,7 +1621,9 @@
     "role_type": "BD/Partnerships",
     "grade": "A-2",
     "scanned_date": "2026-06-13",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Director of Operations/Strategy",
@@ -1401,7 +1635,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Head of New Business - ShopBack Pay",
@@ -1413,7 +1649,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Director, Corporate Development & M&A - Asia Pacific",
@@ -1425,7 +1663,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Head of Partnerships and Distribution, Asia Pacific",
@@ -1437,7 +1677,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of Marketing & Strategy, Asia",
@@ -1449,7 +1691,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Director, Business Development | Shenzhen",
@@ -1461,7 +1705,9 @@
     "role_type": "BD/Partnerships",
     "scan_date": "2026-06-13",
     "grade": "A-2",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Senior Director, APAC Consumer Insights & Strategy",
@@ -1473,7 +1719,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_posting",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Director, TISC Digital and Productivity",
@@ -1485,7 +1733,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Director Strategy and Business Development",
@@ -1497,7 +1747,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Director, Digital Strategy & Business Development",
@@ -1509,7 +1761,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Director, Business Development, SEA",
@@ -1521,7 +1775,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of Strategic Initiatives – CEO Office",
@@ -1533,7 +1789,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Head of B2B Branded Channels",
@@ -1545,7 +1803,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of Global Legal - AI Industry",
@@ -1557,7 +1817,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "other",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Head of Business Development",
@@ -1569,7 +1831,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of Product, Travel Tech",
@@ -1581,7 +1845,9 @@
     "role_type": "Product Management",
     "scan_date": "2026-06-13",
     "grade": "B",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Head of Marketing Communications - FMCG",
@@ -1593,7 +1859,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "other",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Head of Data Monetization & Partnerships, FMCG Retail",
@@ -1605,7 +1873,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Regional Marketing Director, APAC",
@@ -1617,7 +1887,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of Offline Branded Retail (LEGO Certified Store Channel)",
@@ -1629,7 +1901,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "linkedin_search",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Director Product Management, APJ (AI/Cloud)",
@@ -1641,7 +1915,9 @@
     "role_type": "Product Management",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Head of Growth (China)",
@@ -1653,7 +1929,9 @@
     "role_type": "Cross-border/Expansion",
     "grade": "B",
     "scanned_date": "2026-06-14",
-    "location_norm": "Beijing"
+    "location_norm": "Beijing",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Country Manager",
@@ -1665,7 +1943,9 @@
     "role_type": "GM/Country Manager",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Managing Director, Head of Regional Sales, Global Payments Solutions",
@@ -1677,7 +1957,9 @@
     "role_type": "GM/Country Manager",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Director, Enterprise Business Development, APAC",
@@ -1689,7 +1971,9 @@
     "role_type": "BD/Partnerships",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Director, Commercial Strategy & Revenue Operations",
@@ -1701,7 +1985,9 @@
     "role_type": "Strategy/Ops",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Head of Global Payments Business",
@@ -1713,7 +1999,9 @@
     "role_type": "BD/Partnerships",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Director, Product Strategy & Growth",
@@ -1725,7 +2013,9 @@
     "role_type": "Product Management",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Head of Sales, Web3 Partnerships (Cross-Border Payments)",
@@ -1737,7 +2027,9 @@
     "role_type": "BD/Partnerships",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of Sales & Market Development - China",
@@ -1749,7 +2041,9 @@
     "role_type": "BD/Partnerships",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Product Lead / Product Director (Corporate Card / Crypto Payment)",
@@ -1761,7 +2055,9 @@
     "role_type": "Product Management",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Head of Product [Fintech | Growth | Multi-Market Platform]",
@@ -1773,7 +2069,9 @@
     "role_type": "Product Management",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "SVP, Supply Chain & Operations, Consumer Audio",
@@ -1785,7 +2083,9 @@
     "role_type": "Strategy/Ops",
     "grade": "B",
     "scanned_date": "2026-06-14",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Business Development Director",
@@ -1797,7 +2097,9 @@
     "role_type": "BD/Partnerships",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "GTM Director (出海)",
@@ -1809,7 +2111,10 @@
     "role_type": "Cross-border/Expansion",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "GTM Director (Overseas/Global Expansion)",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "VP, Head of Partnerships",
@@ -1821,7 +2126,9 @@
     "role_type": "BD/Partnerships",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Director of Category - Joybuy",
@@ -1833,7 +2140,9 @@
     "role_type": "Product Management",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "BNPL Product & Operations Lead (Europe Business)",
@@ -1845,7 +2154,9 @@
     "role_type": "Product Management",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "operations"
   },
   {
     "title": "Senior Product Manager, Payments & Fraud Tech",
@@ -1857,7 +2168,9 @@
     "role_type": "Product Management",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Vice President of Product Management",
@@ -1869,7 +2182,9 @@
     "role_type": "Product Management",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Director, AI Center of Excellence",
@@ -1881,7 +2196,9 @@
     "role_type": "Strategy/Ops",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Vice President, Transfer Solutions",
@@ -1893,7 +2210,9 @@
     "role_type": "Product Management",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Director, Product Management - APAC Products",
@@ -1905,7 +2224,9 @@
     "role_type": "Product Management",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "APAC Strategic PMO Lead",
@@ -1917,7 +2238,9 @@
     "role_type": "Strategy/Ops",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Senior Strategy Manager",
@@ -1929,7 +2252,9 @@
     "role_type": "Strategy/Ops",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Vice President of Product, AI and Agent",
@@ -1941,7 +2266,9 @@
     "role_type": "Product Management",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Head of Commercial Strategy and Excellence",
@@ -1953,7 +2280,9 @@
     "role_type": "Strategy/Ops",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Head of Product (Wealth & Trading)",
@@ -1965,7 +2294,9 @@
     "role_type": "Product Management",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Director of Operations/Strategy",
@@ -1977,7 +2308,9 @@
     "role_type": "Strategy/Ops",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "General Manager of International Consumer Business",
@@ -1989,7 +2322,9 @@
     "role_type": "GM/Country Manager",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Account Executive, Cross Border China",
@@ -2001,7 +2336,9 @@
     "role_type": "BD/Partnerships",
     "grade": "B",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Director, Sales - China",
@@ -2013,7 +2350,9 @@
     "role_type": "BD/Partnerships",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of Product, AI",
@@ -2025,7 +2364,9 @@
     "role_type": "Product Management",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Director, Treasury, APAC",
@@ -2037,7 +2378,9 @@
     "role_type": "Strategy/Ops",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Director, Sales Strategy & Enablement",
@@ -2049,7 +2392,9 @@
     "role_type": "Strategy/Ops",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Product Lead - APAC Growth & Expansion",
@@ -2061,7 +2406,9 @@
     "role_type": "Cross-border/Expansion",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Senior Product Manager, AI Gateway",
@@ -2073,7 +2420,9 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "jobs-radar",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Senior Product Manager, AI Transformation",
@@ -2085,7 +2434,9 @@
     "salary": "HK$105k–115k (reported range)",
     "scanned_date": "2026-06-14",
     "source": "cryptojobslist",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Senior Product Manager - AI, Amazon Global Selling",
@@ -2098,7 +2449,9 @@
     "description": "Senior PM for AI initiatives at Amazon Global Selling. Cross-border e-commerce, AI-powered tools for international sellers. Prime Amazon role in Shenzhen.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "(Senior) Product Manager (Product Sales), Transaction Banking",
@@ -2111,7 +2464,9 @@
     "description": "Product manager role at BOCHK transaction banking. Cross-border payments and trade finance. Major Chinese bank's HK operations.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Card Product Manager",
@@ -2124,7 +2479,9 @@
     "description": "Senior PM for card products at Binance. Crypto-native fintech, Hong Kong operations. Card/payment product experience valued.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager",
@@ -2137,7 +2494,9 @@
     "description": "Senior PM at global DTC brand CASETiFY. Shenzhen HQ, consumer product focus with cross-border commerce angle.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Web3 Growth & Business Operations Lead - GTM / Product Operations",
@@ -2150,7 +2509,9 @@
     "description": "Growth and business ops lead at Ceffu (Binance custody spinoff). Web3 custody, GTM strategy in Singapore.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Director, Policy and Regulatory Strategy, APAC",
@@ -2163,7 +2524,9 @@
     "description": "Director of policy and regulatory strategy for APAC at Circle. Crypto/stablecoin regulatory strategy, Singapore-based.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Managing Director",
@@ -2176,7 +2539,9 @@
     "description": "Managing Director at Empower Partners. Regional strategy and business expansion for Singapore and Southeast Asia.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Director, Deal Strategy & Enablement - APAC",
@@ -2189,7 +2554,9 @@
     "description": "Director of deal strategy and enablement for APAC at Equinix. Data center giant, enterprise sales strategy in Singapore.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Senior Product Manager, Agentic AI — Finance District",
@@ -2202,7 +2569,9 @@
     "description": "Senior PM for agentic AI in fintech at First Digital. Web3/digital asset custody and stablecoin infrastructure in Hong Kong. AI + crypto intersection.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "VP, Risk Analytics Product Manager",
@@ -2215,7 +2584,9 @@
     "description": "VP-level risk analytics PM at GIC (Singapore sovereign wealth fund). Institutional investment, risk analytics products.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Lead - Marketplace",
@@ -2228,7 +2599,9 @@
     "description": "Product lead for marketplace at GoTymeX. Digital bank joint venture (Gokongwei + Tyme), Southeast Asia fintech.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "platform"
   },
   {
     "title": "Strategic Partner Manager, Innovation, Partnerships",
@@ -2241,7 +2614,9 @@
     "description": "Strategic partnerships role at Google focused on innovation. Bilingual English/Mandarin required. Shenzhen-based, cross-border tech partnerships.",
     "grade": "A-2",
     "scan_date": "2026-06-14",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Commercial Product Manager (B2B)",
@@ -2254,7 +2629,9 @@
     "description": "Senior commercial PM (B2B) at GreaterHeat. Singapore-based B2B product role.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Technical Product Manager - Commercial Banking Technology",
@@ -2267,7 +2644,9 @@
     "description": "Senior TPM at Hang Seng Bank for commercial banking tech. Hong Kong-based traditional bank with strong SME/corporate banking.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Sales Director Mena/UK/APAC - Digital Assets",
@@ -2280,7 +2659,9 @@
     "description": "Sales director for digital assets covering MENA/UK/APAC at HSR. Crypto/digital asset recruitment, Hong Kong-based.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Lead Product Manager, Client Digital Experience (Wealth Management)",
@@ -2293,7 +2674,9 @@
     "description": "Lead PM for digital wealth management experience at KGI (凱基). Hong Kong-based securities and wealth management platform.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager / Director – Card Issuance",
@@ -2306,7 +2689,9 @@
     "description": "Senior PM/Director for card issuance at MetaComp. Crypto-fintech card product in Singapore. Payments infrastructure.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Business Strategy Lead - App & Card Products",
@@ -2319,7 +2704,9 @@
     "description": "Business strategy lead for app and card products at MetaComp. Crypto-fintech strategy role in Singapore.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Director, Enterprise Business Development, APAC",
@@ -2332,7 +2719,9 @@
     "description": "Senior director of enterprise BD for APAC. Financial services, fintech, payments ecosystem relationships required.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Cross Border Payment Product Manager, Group Transaction Banking (AVP)",
@@ -2345,7 +2734,9 @@
     "description": "Cross-border payment PM at OCBC Transaction Banking. AVP level, Singapore-based. Core cross-border fintech role.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "(Senior) Data Infra Product Manager, On Chain (Algorithm and Search)",
@@ -2358,7 +2749,9 @@
     "description": "Product manager for on-chain data infrastructure at OKX. Algorithm and search focus, crypto exchange platform. Hong Kong-based.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "(Senior) Product Manager, Tokenized Stocks/Equity Trading (DEX)",
@@ -2371,7 +2764,9 @@
     "description": "Product manager for tokenized equities trading at OKX. DEX and tokenized securities, emerging crypto-fintech product in Hong Kong.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Principal / Senior Product Manager, Institution Onboarding (KYB)",
@@ -2384,7 +2779,9 @@
     "description": "Principal/Senior PM for institutional onboarding and KYB at OKX. Crypto exchange, Singapore hub. Compliance-driven product role.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "(Senior) Product Manager, DEX Institution Trading",
@@ -2397,7 +2794,9 @@
     "description": "Product manager for DEX institutional trading at OKX. Crypto-native, institutional DeFi products in Singapore.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product and Strategy Innovation Lead",
@@ -2410,7 +2809,9 @@
     "description": "Product and strategy innovation lead at PSYKHE. AI-powered fashion recommendation platform, Singapore-based.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior / Product Manager, SME Business Banking",
@@ -2423,7 +2824,9 @@
     "description": "Senior PM for SME business banking at Ping An Digital Bank (PAOB). Hong Kong digital banking license, cross-border fintech focus. Strong APAC expansion play.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "APAC Franchise and Expansion Director",
@@ -2436,7 +2839,9 @@
     "description": "Franchise and expansion director for APAC. Premium consumer brand, market entry and JV strategy in Singapore.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Product Lead, AI-Native (Special Projects)",
@@ -2449,7 +2854,9 @@
     "description": "AI-native product lead at ShopBack, Southeast Asia's leading rewards平台. Special projects role, Shenzhen-based. Strong AI + commerce intersection.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "AI Product Lead",
@@ -2462,7 +2869,9 @@
     "description": "AI product lead at TENTEN Partners, digital transformation consultancy. AI product strategy in Hong Kong.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Senior VP, Product Manager - Digital Currency and Payments",
@@ -2475,7 +2884,9 @@
     "description": "SVP Product Manager for digital currency and payments at UOB Group Transaction Banking. Major Singapore bank, digital currency initiative.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "VP, Channel Product Owner, Group Transaction Banking",
@@ -2488,7 +2899,9 @@
     "description": "VP Channel Product Owner at UOB Transaction Banking. API/platform product leadership at major Singapore bank.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Data Product Owner – AI Products",
@@ -2501,7 +2914,9 @@
     "description": "Data product owner for AI products at VF Corporation (Vans, Timberland). Retail/fashion AI product in Singapore.",
     "grade": "A-1",
     "scan_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Manager, APAC Commercial Strategy & Partnerships (6-month contract)",
@@ -2514,7 +2929,9 @@
     "description": "Commercial strategy and partnerships for APAC at Warner Bros. Discovery. Media/entertainment, Singapore. Fixed-term contract.",
     "grade": "A-2",
     "scan_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Senior Product Manager, WeChat Pay",
@@ -2527,7 +2944,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Senior PM role for WeChat Pay at Tencent Shenzhen. Search for fintech/payments PM roles on Tencent careers.",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager, Cloud & Smart Industries",
@@ -2540,7 +2959,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Product manager for Tencent Cloud & Smart Industries division. B2B cloud platform product management.",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Director of Product Strategy, International",
@@ -2553,7 +2974,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Director-level product strategy role for Tencent international business. Overseas expansion and market strategy.",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Senior Product Manager, TikTok E-commerce",
@@ -2566,7 +2989,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Senior PM for TikTok e-commerce. Shenzhen-based role focusing on cross-border commerce and seller experience.",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager, CapCut",
@@ -2579,7 +3004,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Product manager for CapCut (Jianying) creative tools. Video editing and creative AI product development.",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager, TikTok Shop HK",
@@ -2592,7 +3019,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Product manager for TikTok Shop in Hong Kong. E-commerce marketplace and logistics product development.",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Head of Product Strategy, Global Markets",
@@ -2605,7 +3034,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Head of product strategy for ByteDance global markets. Hong Kong-based strategic planning and market expansion.",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Product Manager, Lazada",
@@ -2618,7 +3049,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Senior PM for Lazada cross-border commerce. Southeast Asian e-commerce product development.",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Director, International Product Strategy",
@@ -2631,7 +3064,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Director-level product strategy role at Alibaba international division. Cross-border commerce and global expansion.",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Senior Product Manager, Alibaba Cloud",
@@ -2644,7 +3079,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Senior PM for Alibaba Cloud in Hong Kong. Cloud infrastructure and enterprise solutions product management.",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Head of Strategy, Ant Group International",
@@ -2657,7 +3094,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Strategy head for Ant Group international operations. Hong Kong-based fintech strategy and partnerships.",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Senior Product Manager, Meituan Waimai",
@@ -2670,7 +3109,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Senior PM for Meituan food delivery (Waimai). Local commerce and O2O product development in Shenzhen.",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Product Manager, Meituan Maps & Navigation",
@@ -2683,7 +3124,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Product manager for Meituan maps and navigation. Location-based services and LBS product development.",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager, Huawei Cloud",
@@ -2696,7 +3139,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Senior PM for Huawei Cloud. Enterprise cloud services and digital transformation product management.",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Director, Intelligent Automotive Solution",
@@ -2709,7 +3154,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Director-level role for Huawei intelligent automotive solutions. Connected car and autonomous driving product strategy.",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager, HarmonyOS Ecosystem",
@@ -2722,7 +3169,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Senior PM for HarmonyOS ecosystem development. Cross-device OS platform and developer ecosystem product management.",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "platform"
   },
   {
     "title": "Senior Product Manager, Shopee Cross-border",
@@ -2735,7 +3184,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Senior PM for Shopee cross-border commerce. Southeast Asian e-commerce marketplace product development.",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Head of Product, ShopeePay",
@@ -2748,7 +3199,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Head of product for ShopeePay. Digital payments and fintech product strategy in Hong Kong.",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager, Digital Banking",
@@ -2761,7 +3214,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Senior PM for DBS digital banking. Digital-first banking product innovation and customer experience.",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "VP, Product Strategy & Innovation",
@@ -2774,7 +3229,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "VP-level product strategy and innovation role at DBS Hong Kong. Strategic planning and fintech innovation.",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Product Manager, HSBC Digital",
@@ -2787,7 +3244,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Senior PM for HSBC digital transformation. Banking platform and digital customer experience product management.",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Head of Product, Wealth & Personal Banking",
@@ -2800,7 +3259,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Head of product for HSBC wealth and personal banking technology. Hong Kong-based digital wealth management products.",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager, SC Digital Ventures",
@@ -2813,7 +3274,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Senior PM at Standard Chartered digital ventures. Fintech innovation and digital banking product development.",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager, AIA Digital",
@@ -2826,7 +3289,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Senior PM for AIA digital transformation. Insurance technology and digital health product management.",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Director, Digital Health & Wellness Strategy",
@@ -2839,7 +3304,9 @@
     "scanned_date": "2026-06-14",
     "source": "company_site",
     "summary": "Director-level strategy role for AIA digital health and wellness. Insurance tech and health ecosystem strategy.",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Fraud Risk Strategy Expert",
@@ -2851,7 +3318,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Growth & AI Initiatives Manager",
@@ -2863,7 +3332,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Principal/Senior Product Manager, AI and Agent",
@@ -2875,7 +3346,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Principal / Senior Product Manager, Institution Onboarding Experience (KYB)",
@@ -2887,7 +3360,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Principal / Senior Product Manager, Local Market & Growth (Latin America)",
@@ -2899,7 +3374,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Product Director, Compliance",
@@ -2911,7 +3388,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Director, Compliance (Transaction Monitoring & Case Management)",
@@ -2923,7 +3402,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Director (Pay & Card)",
@@ -2935,7 +3416,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Manager / Director, AI Trading",
@@ -2947,7 +3430,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Product Manager / Director, Fiat",
@@ -2959,7 +3444,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Manager / Director, Institutional Growth",
@@ -2971,7 +3458,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Product Manager / Director, Institutional Product",
@@ -2983,7 +3472,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Manager / Director, Trading Infrastructure",
@@ -2995,7 +3486,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "platform"
   },
   {
     "title": "Product Manager / Director, User Growth",
@@ -3007,7 +3500,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Product Manager / Director, VIP Growth & Operations",
@@ -3019,7 +3514,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Product Manager / Product Director, Copy Trading / Trading Bot",
@@ -3031,7 +3528,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "(Senior) Data Infra Product Manager, On Chain (Web3)",
@@ -3043,7 +3542,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Senior Data Scientist, Product & Growth Analytics",
@@ -3055,7 +3556,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Senior Data Scientist, Risk (Risk Strategy)",
@@ -3067,7 +3570,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Growth Manager, SEA",
@@ -3079,7 +3584,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Senior Manager, DeFi Lending Growth",
@@ -3091,7 +3598,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Senior Manager / Director, Growth Operation",
@@ -3103,7 +3612,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Senior Manager, Web3 Growth",
@@ -3115,7 +3626,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Senior Manager, Web3 Growth (Ecosystem)",
@@ -3127,7 +3640,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Senior Manager, Web3 Growth (Protocols)",
@@ -3139,7 +3654,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Senior/Principal Product Manager, DEX Trading",
@@ -3151,7 +3668,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Designer",
@@ -3163,7 +3682,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Designer, Cefi ",
@@ -3175,7 +3696,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Designer, Chat Experience",
@@ -3187,7 +3710,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Designer, Defi",
@@ -3199,7 +3724,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Designer, Pay",
@@ -3211,7 +3738,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Designer, Trading",
@@ -3223,7 +3752,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Designer, User Growth",
@@ -3235,7 +3766,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Senior Product Designer, Wallets",
@@ -3247,7 +3780,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Designer, Web3",
@@ -3259,7 +3794,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Designer, Web3 Growth",
@@ -3271,7 +3808,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Senior Product Manager, Conversational AI Chatbot & Agent Quality",
@@ -3283,7 +3822,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Senior Product Manager, DevOps and AI",
@@ -3295,7 +3836,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Senior Product Manager, Risk Intelligence Product",
@@ -3307,7 +3850,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager - Risk Platform",
@@ -3319,7 +3864,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "platform"
   },
   {
     "title": "Senior Product Operations Manager, OKX SG",
@@ -3331,7 +3878,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "operations"
   },
   {
     "title": "Senior Program Manager, Executive Support",
@@ -3343,7 +3892,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "operations"
   },
   {
     "title": "Senior/Staff Engineer, Liquidity Platform, Strategy Service",
@@ -3355,7 +3906,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior/Staff Product Manager, Token Listing",
@@ -3367,7 +3920,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Strategy PMO / Project Manager  (AI & Org Efficiency) ",
@@ -3379,7 +3934,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Senior Strategy Project Manager, VIP/Institutions",
@@ -3391,7 +3948,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Staff/Senior Staff Frontend Engineer - Growth",
@@ -3403,7 +3962,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Vice President, AI Strategy & Transformation",
@@ -3415,7 +3976,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Senior Product Manager (SG-based) ",
@@ -3427,7 +3990,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Group Product Manager, Compliance Automation",
@@ -3439,7 +4004,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Group Product Manager, Core Infra and Reliability",
@@ -3451,7 +4018,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Group Product Manager, Financial Engineering ",
@@ -3463,7 +4032,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Group Product Manager, Payments Core",
@@ -3475,7 +4046,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Finance & Strategy Analyst, Consumer",
@@ -3487,7 +4060,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Manager, Finance & Strategy",
@@ -3499,7 +4074,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Product Manager, CX Automation",
@@ -3511,7 +4088,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Sr. Program Manager, Learning & Development",
@@ -3523,7 +4102,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "operations"
   },
   {
     "title": "Staff Product Designer - Advanced Trade",
@@ -3535,7 +4116,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Commercial Solutions Program Manager",
@@ -3547,7 +4130,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "operations"
   },
   {
     "title": "Credit Risk Strategy Manager",
@@ -3559,7 +4144,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Data Science Manager, Finance and Strategy",
@@ -3571,7 +4158,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "New York"
+    "location_norm": "New York",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Executive Journey Strategy Manager",
@@ -3583,7 +4172,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Finance & Strategy Partner, Central Engineering",
@@ -3595,7 +4186,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Full Stack Engineer, Growth",
@@ -3607,7 +4200,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Marketing Operations Program Manager, Sold Funnel",
@@ -3619,7 +4214,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Policy Development & Strategy",
@@ -3631,7 +4228,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Product Lead, Connect",
@@ -3643,7 +4242,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "New York"
+    "location_norm": "New York",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Manager, Commerce Systems",
@@ -3655,7 +4256,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Manager - Compliance, Bridge",
@@ -3667,7 +4270,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "New York"
+    "location_norm": "New York",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Manager, Ecosystem Risk",
@@ -3679,7 +4284,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "platform"
   },
   {
     "title": "Product Manager, Growth AI Outreach Motion ",
@@ -3691,7 +4298,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Product Manager, Infrastructure",
@@ -3703,7 +4312,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "platform"
   },
   {
     "title": "Product Manager, Link - Consumer Product",
@@ -3715,7 +4326,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Manager, Payments",
@@ -3727,7 +4340,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Marketing Manager, Growth",
@@ -3739,7 +4354,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Program Manager, GTM Planning",
@@ -3751,7 +4368,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Program Manager, Risk Ops Enablement",
@@ -3763,7 +4382,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "operations"
   },
   {
     "title": "Program Manager, Security Business Enablement",
@@ -3775,7 +4396,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "operations"
   },
   {
     "title": "Program Manager, Solutions Architecture (GTM Transformation)",
@@ -3787,7 +4410,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Risk Strategist, User Risk Strategy",
@@ -3799,7 +4424,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Staff Product Designer, Risk",
@@ -3811,7 +4438,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Staff Product Designer, Agentic Commerce",
@@ -3823,7 +4452,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "New York"
+    "location_norm": "New York",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Staff Product Designer, Payments",
@@ -3835,7 +4466,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Staff Product Manager, Cards Monetization",
@@ -3847,7 +4480,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "New York"
+    "location_norm": "New York",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Staff Product Manager, Dashboard",
@@ -3859,7 +4494,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Staff Product Manager, Enterprise (Industries) ",
@@ -3871,7 +4508,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "New York"
+    "location_norm": "New York",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Staff Product Manager, Payments",
@@ -3883,7 +4522,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Technical Program Manager",
@@ -3895,7 +4536,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "operations"
   },
   {
     "title": "Technical Program Manager, Core Infrastructure",
@@ -3907,7 +4550,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "platform"
   },
   {
     "title": "Technical Program Manager,  Extensibility Programs",
@@ -3919,7 +4564,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "operations"
   },
   {
     "title": "Technical Program Manager,  Identity and Access Management Programs",
@@ -3931,7 +4578,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "operations"
   },
   {
     "title": "Technical Program Manager, Service Infrastructure",
@@ -3943,7 +4592,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "platform"
   },
   {
     "title": "User Risk Strategist, Ecosystem Risk Strategy",
@@ -3955,7 +4606,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Outbound Product Manager, AI Operations",
@@ -3967,7 +4620,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Technical Program Manager",
@@ -3979,7 +4634,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "operations"
   },
   {
     "title": "Growth Engineer (Data Systems)",
@@ -3991,7 +4648,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Growth Specialist",
@@ -4003,7 +4662,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Bilingual Staff Technical Program Manager, Global Enterprise Fulfillment Platform",
@@ -4015,7 +4676,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Director, International Strategy & Planning",
@@ -4027,7 +4690,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "Director of Product, Agentic Commerce",
@@ -4039,7 +4704,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "People Experience Program Manager - San Francisco",
@@ -4051,7 +4718,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "operations"
   },
   {
     "title": "Program Manager II",
@@ -4063,7 +4732,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "operations"
   },
   {
     "title": "Senior Director, Enterprise Delivery and Growth",
@@ -4075,7 +4746,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Senior Director, Media Analytics, Commercial Strategy & Acceleration",
@@ -4087,7 +4760,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Machine Learning Engineer II, Growth Modeling",
@@ -4099,7 +4774,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Senior Product Manager, Agentic Foundations",
@@ -4111,7 +4788,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager, Fraud & Trust",
@@ -4123,7 +4802,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager, In-Store Integrations",
@@ -4135,7 +4816,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager, In-Store Tasks",
@@ -4147,7 +4830,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager, Shopping Experience",
@@ -4159,7 +4844,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Program Manager, Quality Assurance",
@@ -4171,7 +4858,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "operations"
   },
   {
     "title": "Senior Strategic Financial Analyst – Growth",
@@ -4183,7 +4872,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Strategy & Planning Manager",
@@ -4195,7 +4886,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Senior Technical Program Manager, Ads",
@@ -4207,7 +4900,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "operations"
   },
   {
     "title": "Staff Product Designer - Shopping Experiences",
@@ -4219,7 +4914,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "Remote"
+    "location_norm": "Remote",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Growth Marketing Lead",
@@ -4231,7 +4928,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "New York"
+    "location_norm": "New York",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Principal Product Manager, Tax Platform",
@@ -4243,7 +4942,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "New York"
+    "location_norm": "New York",
+    "english_friendly": true,
+    "category": "platform"
   },
   {
     "title": "Senior Staff Product Designer, Finance",
@@ -4255,7 +4956,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "New York"
+    "location_norm": "New York",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Staff Product Designer, Contractors",
@@ -4267,7 +4970,9 @@
     "salary": "",
     "scanned_date": "2026-06-13",
     "source": "greenhouse",
-    "location_norm": "New York"
+    "location_norm": "New York",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager",
@@ -4277,7 +4982,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager - CEX / Crypto Wallet / Institutional Finance",
@@ -4287,7 +4994,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager (eSIM)",
@@ -4297,7 +5006,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Lead - Pricing",
@@ -4307,7 +5018,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager, Robotics Operations",
@@ -4317,7 +5030,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Head of Product [Fintech | Growth | Multi-Market Platform]",
@@ -4327,7 +5042,9 @@
     "source": "linkedin",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Product Director, Financial Markets & Financial Platform",
@@ -4337,7 +5054,9 @@
     "source": "linkedin",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "platform"
   },
   {
     "title": "Bureau Product Head",
@@ -4347,7 +5066,9 @@
     "source": "linkedin",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "VP, Product Manager - Digital Currency and Payments",
@@ -4357,7 +5078,9 @@
     "source": "linkedin",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "VP, Product Manager, DBS Digital Exchange",
@@ -4367,7 +5090,9 @@
     "source": "linkedin",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Design Director, Orbit",
@@ -4377,7 +5102,9 @@
     "source": "linkedin",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Operations Manager / Director, Institutional Product",
@@ -4387,7 +5114,9 @@
     "source": "linkedin",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "operations"
   },
   {
     "title": "Earn Structured Product & Operations Manager/Senior Manager",
@@ -4397,7 +5126,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "operations"
   },
   {
     "title": "P2P Product Manager",
@@ -4407,7 +5138,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Crypto Card Product Manager",
@@ -4417,7 +5150,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Payment Product Manager (Fiat & Cross-Border)",
@@ -4427,7 +5162,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "SG Business Product Manager",
@@ -4437,7 +5174,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Business Product Manager - SG BPM",
@@ -4447,7 +5186,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior SG Business Product Manager - SPX",
@@ -4457,7 +5198,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Growth Strategy Product Manager - Global Payment",
@@ -4467,7 +5210,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "strategy"
   },
   {
     "title": "Card Growth & Loyalty Product Manager - Global Payment",
@@ -4477,7 +5222,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Global Retail Product Owner",
@@ -4487,7 +5234,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Product Owner - Marketplace",
@@ -4497,7 +5246,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "platform"
   },
   {
     "title": "Agile Product Owner, Global Transaction Banking",
@@ -4507,7 +5258,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "VP Wealth Product Manager (Platform)",
@@ -4517,7 +5270,9 @@
     "source": "linkedin",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "platform"
   },
   {
     "title": "Product Director, Wealth Management",
@@ -4527,7 +5282,9 @@
     "source": "linkedin",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Head of Product",
@@ -4537,7 +5294,9 @@
     "source": "linkedin",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "CPO (Series B - B2B SaaS)",
@@ -4547,7 +5306,9 @@
     "source": "linkedin",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Director of Product Development",
@@ -4557,7 +5318,9 @@
     "source": "linkedin",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "KYC Product Head - Remote",
@@ -4567,7 +5330,9 @@
     "source": "linkedin",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Lead",
@@ -4577,7 +5342,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "AI Chatbot Product Manager",
@@ -4587,7 +5354,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Product Manager (Digital Payment)",
@@ -4597,7 +5366,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Manager(Fiat)",
@@ -4607,7 +5378,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Compliance Product Manager",
@@ -4617,7 +5390,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Manager, Payments - VP",
@@ -4627,7 +5402,9 @@
     "source": "linkedin",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "VP, Product Specialist, Custody Product Management",
@@ -4637,7 +5414,9 @@
     "source": "linkedin",
     "grade": "A-1",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Manager / Product Engineer (AI Native, Hyper growth startup)",
@@ -4647,7 +5426,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "Lead / Senior Product Manager - Exchange (Institutional)",
@@ -4657,7 +5438,9 @@
     "source": "company",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager Stablecoin & Crypto",
@@ -4667,7 +5450,9 @@
     "source": "web",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Singapore"
+    "location_norm": "Singapore",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Product Manager - FMCG",
@@ -4677,7 +5462,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "Buy Now, Pay Later (BNPL) Product & Operations Lead",
@@ -4687,7 +5474,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "operations"
   },
   {
     "title": "Web3 Growth & Business Operations Lead - GTM / Product Operations (Crypto)",
@@ -4697,7 +5486,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "english_friendly": true,
+    "category": "growth"
   },
   {
     "title": "Product Senior",
@@ -4707,7 +5498,9 @@
     "source": "linkedin",
     "grade": "A-2",
     "scanned_date": "2026-06-14",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "资深产品经理（美股交易方向）招聘 - 某小型计算机软件公司",
@@ -4719,7 +5512,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "en_title": "Senior Product Manager (US Stock Trading) - Small Software Company",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "资深产品经理招聘 - 腾讯",
@@ -4731,7 +5527,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Beijing"
+    "location_norm": "Beijing",
+    "en_title": "Senior Product Manager - Tencent",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "资深产品经理（机器人本体方向）",
@@ -4743,7 +5542,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "Senior Product Manager (Robotics/Hardware)",
+    "english_friendly": false,
+    "category": "ai_product"
   },
   {
     "title": "资深产品经理（信贷中台）- 货拉拉科技",
@@ -4755,7 +5557,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "Senior Product Manager (Credit Middle Platform) - Lalamove",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "资深产品经理 - 诺禾致源",
@@ -4767,7 +5572,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "en_title": "Senior Product Manager - Novogene",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "海外产品总监招聘",
@@ -4779,7 +5587,10 @@
     "salary": "100-200K·16薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "Director of Overseas Products",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "腾讯产品总监招聘",
@@ -4791,7 +5602,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "Tencent Product Director",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "深圳供应链产品总监招聘",
@@ -4803,7 +5617,10 @@
     "salary": "11-22K",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "Shenzhen Supply Chain Product Director",
+    "english_friendly": false,
+    "category": "operations"
   },
   {
     "title": "产品总监/资深产品经理 - 迅雷网络",
@@ -4815,7 +5632,10 @@
     "salary": "30-55K·15薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "Product Director / Senior Product Manager - Xunlei",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "产品总监（穿戴类）- 广和通",
@@ -4827,7 +5647,10 @@
     "salary": "35-60K·14薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "Product Director (Wearable Devices) - Fibocom",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "产品总监 - 创新工场",
@@ -4839,7 +5662,10 @@
     "salary": "35-40K·14薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "Product Director - Sinovation Ventures",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "产品负责人(AI项目) - 广州小迈",
@@ -4851,7 +5677,10 @@
     "salary": "30-50K·13薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Guangzhou"
+    "location_norm": "Guangzhou",
+    "en_title": "Head of Product (AI Project) - Guangzhou Xiaomai",
+    "english_friendly": false,
+    "category": "ai_product"
   },
   {
     "title": "AI产品负责人（AI社交/AI游戏方向）- 易娱网络",
@@ -4863,7 +5692,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Guangzhou"
+    "location_norm": "Guangzhou",
+    "en_title": "Head of AI Product (AI Social/AI Gaming) - Yiyu Network",
+    "english_friendly": false,
+    "category": "ai_product"
   },
   {
     "title": "海外工具类产品负责人（IAP) 2C - 幂动科技",
@@ -4875,7 +5707,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Guangzhou"
+    "location_norm": "Guangzhou",
+    "en_title": "Head of Overseas Utility Products (IAP) 2C - Midong Tech",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "海外产品负责人（语音/直播）- 百度",
@@ -4887,7 +5722,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Guangzhou"
+    "location_norm": "Guangzhou",
+    "en_title": "Head of Overseas Products (Voice/Live Streaming) - Baidu",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "上海高级产品经理招聘",
@@ -4899,7 +5737,10 @@
     "salary": "30-60K·15薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "en_title": "Shanghai Senior Product Manager",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "上海小程序高级产品经理招聘",
@@ -4911,7 +5752,10 @@
     "salary": "25-50K·15薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "en_title": "Shanghai Mini-Program Senior Product Manager",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "大数据平台高级产品经理招聘",
@@ -4923,7 +5767,10 @@
     "salary": "30-50K·15薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "en_title": "Big Data Platform Senior Product Manager",
+    "english_friendly": false,
+    "category": "platform"
   },
   {
     "title": "上海企业端产品经理招聘",
@@ -4935,7 +5782,10 @@
     "salary": "45-75K·15薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "Shanghai Enterprise Product Manager",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "1688-策略产品负责人-杭州 - 阿里巴巴集团",
@@ -4947,7 +5797,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Hangzhou"
+    "location_norm": "Hangzhou",
+    "en_title": "1688 Strategy Product Lead - Hangzhou - Alibaba Group",
+    "english_friendly": false,
+    "category": "strategy"
   },
   {
     "title": "产品负责人（客户体验）- 杭州促聚科技",
@@ -4959,7 +5812,10 @@
     "salary": "30-60K",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Hangzhou"
+    "location_norm": "Hangzhou",
+    "en_title": "Head of Product (Customer Experience) - Hangzhou Cuju Tech",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "产品负责人（支付、sdk）- 杭州某大型游戏及IP生态平台",
@@ -4971,7 +5827,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Hangzhou"
+    "location_norm": "Hangzhou",
+    "en_title": "Head of Product (Payment/SDK) - Hangzhou Gaming & IP Platform",
+    "english_friendly": false,
+    "category": "platform"
   },
   {
     "title": "上海AI数据产品经理招聘",
@@ -4983,7 +5842,10 @@
     "salary": "30-50K·16薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "en_title": "Shanghai AI Data Product Manager",
+    "english_friendly": false,
+    "category": "ai_product"
   },
   {
     "title": "上海AI平台产品经理招聘",
@@ -4995,7 +5857,10 @@
     "salary": "40-50K·15薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "en_title": "Shanghai AI Platform Product Manager",
+    "english_friendly": false,
+    "category": "ai_product"
   },
   {
     "title": "AI产品经理招聘",
@@ -5007,7 +5872,10 @@
     "salary": "12-24K",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "AI Product Manager",
+    "english_friendly": false,
+    "category": "ai_product"
   },
   {
     "title": "AI产品经理（大模型/视觉/NLP/转运）- 顺丰科技",
@@ -5019,7 +5887,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "AI Product Manager (LLM/Vision/NLP/Logistics) - SF Tech",
+    "english_friendly": false,
+    "category": "ai_product"
   },
   {
     "title": "元宝-大模型评测产品经理(北京/深圳) - 腾讯",
@@ -5031,7 +5902,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "Yuanbao - LLM Evaluation Product Manager (Beijing/Shenzhen) - Tencent",
+    "english_friendly": false,
+    "category": "ai_product"
   },
   {
     "title": "AI/大模型产品经理 - 百度",
@@ -5043,7 +5917,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "AI/LLM Product Manager - Baidu",
+    "english_friendly": false,
+    "category": "ai_product"
   },
   {
     "title": "医疗大模型/医疗智能体产品经理 - 有米科技",
@@ -5055,7 +5932,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "Medical LLM/Medical AI Agent Product Manager - Youmi Tech",
+    "english_friendly": false,
+    "category": "ai_product"
   },
   {
     "title": "大模型策略产品经理 - 腾讯",
@@ -5067,7 +5947,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "LLM Strategy Product Manager - Tencent",
+    "english_friendly": false,
+    "category": "ai_product"
   },
   {
     "title": "QQ浏览器-高级增长产品经理(深圳) - 腾讯",
@@ -5079,7 +5962,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "QQ Browser - Senior Growth Product Manager (Shenzhen) - Tencent",
+    "english_friendly": false,
+    "category": "growth"
   },
   {
     "title": "AI增长产品经理（线索挖掘方向）",
@@ -5091,7 +5977,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "en_title": "AI Growth Product Manager (Lead Mining)",
+    "english_friendly": true,
+    "category": "ai_product"
   },
   {
     "title": "新加坡产品经理招聘",
@@ -5103,7 +5992,10 @@
     "salary": "40-50K·15薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": ""
+    "location_norm": "",
+    "en_title": "Singapore Product Manager",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "WEB产品经理招聘",
@@ -5115,7 +6007,10 @@
     "salary": "40-70K·15薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": ""
+    "location_norm": "",
+    "en_title": "Web Product Manager",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "国际业务拓展与商业策略经理/总监 - 深圳市途龄科技",
@@ -5127,7 +6022,10 @@
     "salary": "15-30K",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "International BD & Business Strategy Manager/Director - Shenzhen Tuling Tech",
+    "english_friendly": false,
+    "category": "strategy"
   },
   {
     "title": "深圳GTM经理招聘",
@@ -5139,7 +6037,10 @@
     "salary": "14-28K·14薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "Shenzhen GTM Manager",
+    "english_friendly": false,
+    "category": "growth"
   },
   {
     "title": "深圳GTM助理招聘",
@@ -5151,7 +6052,10 @@
     "salary": "25-50K·15薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "Shenzhen GTM Assistant",
+    "english_friendly": false,
+    "category": "growth"
   },
   {
     "title": "GTM产品经理招聘",
@@ -5163,7 +6067,10 @@
     "salary": "15-16K",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "GTM Product Manager",
+    "english_friendly": false,
+    "category": "growth"
   },
   {
     "title": "商业化产品经理招聘",
@@ -5175,7 +6082,10 @@
     "salary": "25-45K·13薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "en_title": "Monetization Product Manager",
+    "english_friendly": false,
+    "category": "growth"
   },
   {
     "title": "商业化产品经理（通用）- 小红书",
@@ -5187,7 +6097,10 @@
     "salary": "30-50K",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "en_title": "Monetization Product Manager (General) - Xiaohongshu",
+    "english_friendly": false,
+    "category": "growth"
   },
   {
     "title": "商业化产品经理 - 麦糖",
@@ -5199,7 +6112,10 @@
     "salary": "20-25K·13薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "en_title": "Monetization Product Manager - Mitang",
+    "english_friendly": false,
+    "category": "growth"
   },
   {
     "title": "集团产品线总监（P02/P03）- 中明科技",
@@ -5211,7 +6127,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "Group Product Line Director (P02/P03) - Zhongming Tech",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "深圳总监招聘信息",
@@ -5223,7 +6142,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "Shenzhen Director",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "跨境电商产品总监/VP - 河南江舸云科技",
@@ -5235,7 +6157,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "Cross-border E-commerce Product Director/VP - Henan Jiangge Cloud Tech",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "健康险产品总监/经理 - 深圳",
@@ -5247,7 +6172,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "Health Insurance Product Director/Manager - Shenzhen",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "资深产品经理（蛋白质组学）- 上海",
@@ -5259,7 +6187,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shanghai"
+    "location_norm": "Shanghai",
+    "en_title": "Senior Product Manager (Proteomics) - Shanghai",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "账号资深产品经理 - 美团",
@@ -5271,7 +6202,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Beijing"
+    "location_norm": "Beijing",
+    "en_title": "Senior Account Product Manager - Meituan",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "AI产品经理 - 杭州星核引力人工智能科技",
@@ -5283,7 +6217,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Hangzhou"
+    "location_norm": "Hangzhou",
+    "en_title": "AIProduct Manager - Hangzhou Xinghe Gravity AI Tech",
+    "english_friendly": false,
+    "category": "ai_product"
   },
   {
     "title": "杭州模型工作室招聘信息",
@@ -5295,7 +6232,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Hangzhou"
+    "location_norm": "Hangzhou",
+    "en_title": "Hangzhou Model Studio",
+    "english_friendly": false,
+    "category": "ai_product"
   },
   {
     "title": "大模型评测产品经理 - 美团",
@@ -5307,7 +6247,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Hangzhou"
+    "location_norm": "Hangzhou",
+    "en_title": "LLM Evaluation Product Manager - Meituan",
+    "english_friendly": false,
+    "category": "ai_product"
   },
   {
     "title": "建材产品经理 - 香港尚居綠色室内設計有限公司",
@@ -5319,7 +6262,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "Building Materials Product Manager - Hong Kong Shangju Green Interior Design",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "ai产品经理（外企直签）",
@@ -5331,7 +6277,10 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": ""
+    "location_norm": "",
+    "en_title": "AI Product Manager (Direct-hire at Foreign Company)",
+    "english_friendly": false,
+    "category": "ai_product"
   },
   {
     "title": "vivo产品经理 - 应用分发广告流量变现",
@@ -5343,7 +6292,10 @@
     "salary": "50-70K",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "vivo Product Manager - App Distribution Ad Monetization",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "产品经理 - 中澳通",
@@ -5355,7 +6307,10 @@
     "salary": "50-70K·15薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Hong Kong"
+    "location_norm": "Hong Kong",
+    "en_title": "Product Manager - Zhongao Tong",
+    "english_friendly": true,
+    "category": "general_pm"
   },
   {
     "title": "资深产品经理 - 迅雷网络",
@@ -5367,7 +6322,10 @@
     "salary": "50-70K·16薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "Senior Product Manager - Xunlei",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "概率游戏产品负责人 - 迅雷网络",
@@ -5379,7 +6337,10 @@
     "salary": "50-70K·15薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Shenzhen"
+    "location_norm": "Shenzhen",
+    "en_title": "Head of Probability Gaming Products - Xunlei",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "产品VP/产品总监招聘",
@@ -5391,7 +6352,10 @@
     "salary": "80-110K·15薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": ""
+    "location_norm": "",
+    "en_title": "VP of Product / Product Director",
+    "english_friendly": false,
+    "category": "general_pm"
   },
   {
     "title": "产品总监（女性向陪伴类海外产品）- 作业帮",
@@ -5403,7 +6367,10 @@
     "salary": "60-90K·15薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Beijing"
+    "location_norm": "Beijing",
+    "en_title": "Product Director (Female-oriented Overseas Companion Products) - Zuoyebang",
+    "english_friendly": true,
+    "category": "cross_border"
   },
   {
     "title": "AI产品总监/医疗AI产品负责人 - 同花顺",
@@ -5415,7 +6382,10 @@
     "salary": "80-110K·15薪",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Hangzhou"
+    "location_norm": "Hangzhou",
+    "en_title": "AI Product Director / Medical AI Product Lead - Tonghuashun",
+    "english_friendly": false,
+    "category": "ai_product"
   },
   {
     "title": "高级产品经理 - 杭州",
@@ -5427,6 +6397,9 @@
     "salary": "",
     "scanned_date": "2026-06-14",
     "source": "boss-zhilian-websearch",
-    "location_norm": "Hangzhou"
+    "location_norm": "Hangzhou",
+    "en_title": "Senior Product Manager - Hangzhou",
+    "english_friendly": false,
+    "category": "general_pm"
   }
 ]
