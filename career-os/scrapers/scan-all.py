@@ -4,7 +4,7 @@ Master job scanner.
 Runs all scrapers, merges results, deduplicates against existing jobs,
 and appends new jobs to jobs-all.json.
 """
-import json, sys, os, subprocess, importlib.util
+import json, re, sys, os, subprocess, importlib.util
 from datetime import datetime
 
 WORKSPACE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -14,15 +14,40 @@ SCRAPERS_DIR = os.path.dirname(os.path.abspath(__file__))
 SCRAPERS = [
     ("greenhouse", "greenhouse.py"),
     ("builtin", "builtin.py"),
+    ("indeed-jobsdb", "indeed-jobsdb.py"),
+    ("liepin", "liepin.py"),
+    ("boss-zhilian-discovery", "boss-zhilian-discovery.py"),
+    ("boss-zhilian-import", "boss-zhilian-import.py"),
     ("wellfound", "wellfound.py"),
     ("websearch", "websearch.py"),
     ("company_careers", "company_careers.py"),
 ]
 
-# Additional result files to merge (no runner script, just pre-existing JSON)
+# Additional JSON result files to merge (no runner script)
 EXTRA_RESULTS = [
     "diversified",
 ]
+
+# YoE profile
+_USER_MIN_YOE = 8
+_USER_MAX_YOE = 15
+
+
+def _parse_yoe(title, notes=''):
+    text = f"{title} {notes}".lower()
+    m = re.search(r"(\d+)\s*[-–—]\s*(\d+)\s*(?:年|years?|yoe)", text)
+    if m:
+        return int(m.group(1)), int(m.group(2))
+    m = re.search(r"(\d+)\s*\+\s*(?:年|years?|yoe)", text)
+    if m:
+        return int(m.group(1)), int(m.group(1)) + 5
+    if any(k in text for k in ["senior", "sr.", "sr "]):
+        return (5, 12)
+    if any(k in text for k in ["staff", "principal"]):
+        return (8, 15)
+    if "lead" in text:
+        return (7, 12)
+    return None
 
 def load_existing_jobs():
     """Load existing jobs from jobs-all.json."""
@@ -48,9 +73,84 @@ def dedup_key(job):
     company = " ".join(company.split())
     return f"{title}||{company}"
 
+
 def url_key(job):
     """Use URL as secondary dedup key."""
     return job.get("url", "").strip().rstrip("/").lower()
+
+
+def text_for_job(job):
+    """Concatenate common job fields for pattern matching."""
+    return " ".join([
+        str(job.get("title", "")),
+        str(job.get("company", "")),
+        str(job.get("location", "")),
+        str(job.get("role_type", "")),
+        str(job.get("notes", "")),
+        str(job.get("category", "")),
+        str(job.get("source", "")),
+    ]).lower()
+
+
+# --- Quality bar ---
+_NEGATIVE = [
+    "sales", "marketing", "hr", "human resources", "finance", "accounting",
+    "software engineer", "swe ", "frontend", "backend", "design", "ux", "ui",
+    "graphic", "data scientist", "data engineer", "recruiter",
+]
+_SALARY_FLOOR = {
+    "hong kong": 60000,
+    "hong kong sar": 60000,
+    "hk": 60000,
+    "singapore": 10000,
+    "sg": 10000,
+    "shenzhen": 90000,
+    "guangzhou": 90000,
+    "shanghai": 90000,
+}
+_PURE_CRYPTO_PATTERNS = [
+    "bitcoin", "btc", "ethereum", "eth", "solana", "defi", "dex",
+    "token economics", "tokenomics", "crypto exchange", "on-chain", "layer2",
+    "layer 2", "web3 trading", "crypto trading", "trading bot", "market maker crypto",
+    "airdrop", "ico", "ido", "nft", "wallet product", "blockchain protocol",
+]
+_FINTECH_KEEP_PATTERNS = [
+    "payments", "payment", "neobank", "banking", "cards", "treasury", "kyc", "aml",
+    "capital markets", "equities", "lending", "remittance", "fx", "forex",
+    "cross-border payments", "billing", "merchant", "issuing", "stablecoin payments",
+    "digital asset custody", "digital payments", "ledger", "settlement", "compliance",
+]
+
+
+def _salary_value(job):
+    try:
+        salary = job.get("salary")
+        if not salary:
+            return None
+        m = re.search(r"([\d,]+)", str(salary).replace(",", ""))
+        return int(m.group(1)) if m else None
+    except Exception:
+        return None
+
+
+def _quality_block_reason(job):
+    """Return a reason string if job should be rejected, else None."""
+    text = text_for_job(job)
+    for kw in _NEGATIVE:
+        if kw in text:
+            return f"wrong-domain:{kw}"
+    salary = _salary_value(job)
+    if salary is not None:
+        loc = (job.get("location", "") or "").lower()
+        floor = next((v for k, v in _SALARY_FLOOR.items() if k in loc), None)
+        if floor is not None and salary < floor:
+            return f"below-floor:{salary}<{floor}"
+    has_crypto = any(p in text for p in _PURE_CRYPTO_PATTERNS)
+    has_keep = any(p in text for p in _FINTECH_KEEP_PATTERNS)
+    if has_crypto and not has_keep:
+        return "purely-crypto"
+    return None
+
 
 def classify_grade(title):
     """Assign grade based on seniority signals."""
@@ -160,12 +260,36 @@ def main():
         if u and u in seen_urls:
             continue
         
+        # Quality gate
+        quality_reason = _quality_block_reason(job)
+        if quality_reason:
+            job["quality_block_reason"] = quality_reason
+            continue
+        
         seen_title_company.add(tc_key)
         if u:
             seen_urls.add(u)
+        rng = _parse_yoe(job.get("title", ""), job.get("notes", ""))
+        if rng is not None:
+            lo, hi = rng
+            if lo > _USER_MAX_YOE:
+                job["quality_block_reason"] = f"yoe-mismatch:{lo}-{hi}vs{_USER_MIN_YOE}-{_USER_MAX_YOE}"
+                continue
+            if hi >= _USER_MIN_YOE:
+                job["yoe_note"] = f"yoe-soft:{lo}-{hi}"
+        else:
+            job["yoe_note"] = "yoe-unspecified"
         truly_new.append(job)
     
     print(f"New unique jobs after dedup: {len(truly_new)}")
+    
+    # Remove legacy rows already in DB that now fail the quality bar
+    legacy_cleaned = 0
+    if existing_jobs:
+        clean_existing = [j for j in existing_jobs if not _quality_block_reason(j)]
+        legacy_cleaned = len(existing_jobs) - len(clean_existing)
+        existing_jobs = clean_existing
+        print(f"Legacy jobs removed by quality gate: {legacy_cleaned}")
     
     # Append to jobs-all.json
     if truly_new:
