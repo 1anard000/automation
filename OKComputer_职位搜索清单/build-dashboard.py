@@ -216,7 +216,7 @@ function renderTable(data) {{
     const qualityTier = j.quality_tier || '';
     const qualityClass = qualityTier === 'A' ? 'tier-a' : qualityTier === 'B' ? 'tier-b' : qualityTier === 'C' ? 'tier-c' : 'tier-d';
     const qualityHtml = qualityTier ? `<span class="${{qualityClass}}">Q${{qualityTier}}</span>` : '';
-    const link = j.url ? `<a href="${{j.url}}" target="_blank" rel="noopener">Apply →</a>` : '<span style="color:#64748b">—</span>';
+    const link = j.login_required ? `<span style="color:#fbbf24;font-size:0.7rem" title="Requires login">🔒 Login needed</span>` : j.url ? `<a href="${{j.url}}" target="_blank" rel="noopener">Apply →</a>` : '<span style="color:#64748b">—</span>';
     let searchLink = '';
     if (j.url) {{
       try {{
