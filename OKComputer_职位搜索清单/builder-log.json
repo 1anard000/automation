@@ -116,18 +116,27 @@
       "score_before": 7,
       "score_after": 8,
       "subagent": "nightly-improver-20260615"
+    },
+    {
+      "timestamp": "2026-06-16T00:00:53.390010+08:00",
+      "dimension": "python_scripts",
+      "task": "Create data-quality-report.py — automated quality scorecard with field completeness, freshness, grade distribution, and issue detection",
+      "status": "completed",
+      "score_before": 6,
+      "score_after": 7,
+      "subagent": "nightly-improver-scripts"
     }
   ],
   "current_scores": {
     "data_quality": 6,
     "dashboard": 7,
     "career_strategy": 6,
-    "python_scripts": 6,
+    "python_scripts": 7,
     "crm": 7,
     "automation": 6,
     "coverage": 7
   },
-  "last_run": "2026-06-15T03:10:00+08:00",
-  "last_dimension": "automation",
-  "last_task": "Audit automation state; weakest area is data_quality/python_scripts/career_strategy at 6"
+  "last_run": "2026-06-16T00:00:53.390010+08:00",
+  "last_dimension": "python_scripts",
+  "last_task": "Created data-quality-report.py; python_scripts score 6→7"
 }
