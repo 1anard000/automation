@@ -211,8 +211,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -234,8 +234,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Director, Digital Health & Wellness Strategy",
@@ -364,8 +366,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -387,8 +389,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Director, Product Strategy",
@@ -403,8 +407,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -426,8 +430,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Manager, Growth",
@@ -442,8 +448,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "growth",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -465,8 +471,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Manager",
@@ -481,8 +489,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -504,8 +512,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Head of Product, Global Payments Network Infrastructure",
@@ -520,8 +530,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "platform",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -543,8 +553,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Director, Strategic Partnerships APAC",
@@ -559,8 +571,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 65,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -582,8 +594,10 @@
     "lifecycle_notes": [],
     "platform": "Ashby",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Product Director, Financial Markets & Financial Platform",
@@ -596,8 +610,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "platform",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -619,8 +633,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Manager, Lazada",
@@ -945,8 +961,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -968,8 +984,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product/Senior Product Manager, AppleCare",
@@ -1292,8 +1310,8 @@
     "category": "vc_pe",
     "grade": "A-1",
     "description": "Investment operations analyst at Blackstone Life Sciences in Singapore. Operations role within PE's life sciences vertical.",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 50,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -1315,8 +1333,10 @@
     "lifecycle_notes": [],
     "platform": "Web Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Product Manager, TikTok E-commerce",
@@ -1486,8 +1506,8 @@
     "source": "glassdoor",
     "english_friendly": true,
     "category": "ai/ml",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -1509,8 +1529,10 @@
     "lifecycle_notes": [],
     "platform": "Glassdoor",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Manager - Supply Chain Management",
@@ -1603,8 +1625,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -1626,8 +1648,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Director, Enterprise Business Development, APAC",
@@ -1642,8 +1666,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -1665,8 +1689,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Director, Policy and Regulatory Strategy, APAC",
@@ -1682,8 +1708,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -1705,8 +1731,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Director GTM Strategy & Transformation APJC",
@@ -1721,8 +1749,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 90,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -1744,8 +1772,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Product Manager, Payments - VP",
@@ -1832,8 +1862,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -1855,8 +1885,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Cross-border Payments Senior Product Manager",
@@ -1972,8 +2004,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -1995,8 +2027,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Director - Corporate Strategy Execution - APAC",
@@ -2011,8 +2045,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -2034,8 +2068,10 @@
     "lifecycle_notes": [],
     "platform": "Linkedin_Posting",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Director (Payment, CAAS, Card Payments)",
@@ -2050,8 +2086,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -2073,8 +2109,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Head of International Expansion",
@@ -2098,8 +2136,8 @@
     "login_required": false,
     "quality_bar_reject": true,
     "quality_bar_reason": "Salary: Intern/Entry-level salary",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -2109,7 +2147,9 @@
       "english_match": 0,
       "company_fit": 0,
       "reject_reason": "Salary: Intern/Entry-level salary"
-    }
+    },
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Lead - Furmomo",
@@ -2162,8 +2202,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -2185,8 +2225,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Director, Deal Strategy & Enablement - APAC",
@@ -2202,8 +2244,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -2225,8 +2267,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Product Manager, Agentic AI — Finance District",
@@ -2280,8 +2324,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 65,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -2303,8 +2347,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Director, Business Strategy & Development – IMG",
@@ -2434,8 +2480,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -2457,8 +2503,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Associate/AVP, Total Portfolio Sustainability Investment Research & Strategy",
@@ -2474,8 +2522,8 @@
     "category": "vc_pe",
     "grade": "A-1",
     "description": "Investment research and strategy role at GIC focused on sustainability across the total portfolio. Research/strategy role at Singapore's sovereign wealth fund.",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -2497,8 +2545,10 @@
     "lifecycle_notes": [],
     "platform": "Web Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Head of Product [Fintech | Growth | Multi-Market Platform]",
@@ -2511,8 +2561,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "growth",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -2535,7 +2585,9 @@
     "platform": "LinkedIn",
     "login_required": false,
     "quality_bar_reject": true,
-    "quality_bar_reason": "Domain: HR/Recruiting role"
+    "quality_bar_reason": "Domain: HR/Recruiting role",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "GA Actis Associate, SPV Management",
@@ -2551,7 +2603,7 @@
     "category": "vc_pe",
     "grade": "A-1",
     "description": "Legal/structuring role at General Atlantic's Singapore office managing SPV structures for the Actis fund integration. Growth equity PE firm with strong APAC presence.",
-    "quality_score": 0,
+    "quality_score": 35,
     "quality_tier": "D",
     "low_quality": true,
     "score_breakdown": {
@@ -2574,8 +2626,10 @@
     "lifecycle_notes": [],
     "platform": "Web Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Lead - Marketplace",
@@ -2591,8 +2645,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "platform",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -2614,8 +2668,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Global Head of Business Operations and Chief of Staff, AppDev, RSO",
@@ -2630,8 +2686,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 90,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -2653,8 +2709,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Head of International Growth Team, AppDev APAC",
@@ -2669,8 +2727,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 90,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -2693,7 +2751,9 @@
     "platform": "Company Career Site",
     "login_required": false,
     "quality_bar_reject": true,
-    "quality_bar_reason": "Salary: Intern/Entry-level salary"
+    "quality_bar_reason": "Salary: Intern/Entry-level salary",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Head of Measurement, APAC Product Go-To-Market",
@@ -2708,8 +2768,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 90,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -2731,8 +2791,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Software Product Manager",
@@ -2746,8 +2808,8 @@
     "source": "jobsdb",
     "english_friendly": true,
     "category": "technology",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -2769,8 +2831,10 @@
     "lifecycle_notes": [],
     "platform": "JobsDB",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Product Manager, Workspace Search",
@@ -2822,8 +2886,8 @@
     "source": "google_careers",
     "english_friendly": true,
     "category": "product_management",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -2845,8 +2909,10 @@
     "lifecycle_notes": [],
     "platform": "Google_Careers",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Commercial Product Manager (B2B)",
@@ -2862,8 +2928,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -2885,8 +2951,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Principal Product Manager, Tax Platform",
@@ -2975,8 +3043,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "platform",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -2998,8 +3066,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Venture Investment Associate",
@@ -3327,8 +3397,8 @@
     "category": "vc_pe",
     "grade": "A-1",
     "description": "Growth equity associate role in Singapore via Hunter Bond recruitment. Finance, Product Management, and Strategy function. Growth equity investing in high-growth companies.",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 50,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -3350,8 +3420,10 @@
     "lifecycle_notes": [],
     "platform": "Web Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "CPO (Series B - B2B SaaS)",
@@ -3403,8 +3475,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -3426,8 +3498,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Corporate Banking Product Manager",
@@ -3670,8 +3744,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 90,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -3693,8 +3767,10 @@
     "lifecycle_notes": [],
     "platform": "Linkedin_Posting",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Lead Product Manager, Client Digital Experience (Wealth Management)",
@@ -3860,8 +3936,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 65,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -3883,8 +3959,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Vice President, Strategic Government Partnerships",
@@ -3899,8 +3977,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -3922,8 +4000,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Vice President, Transfer Solutions",
@@ -3975,8 +4055,8 @@
     "source": "glassdoor",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -3998,8 +4078,10 @@
     "lifecycle_notes": [],
     "platform": "Glassdoor",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Director, Product Management - APAC Products",
@@ -4014,8 +4096,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -4037,8 +4119,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Product Manager - Growth & Monetization",
@@ -4052,8 +4136,8 @@
     "source": "meta_careers",
     "english_friendly": true,
     "category": "product_management",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -4075,8 +4159,10 @@
     "lifecycle_notes": [],
     "platform": "Meta_Careers",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Manager / Director – Card Issuance",
@@ -4092,8 +4178,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -4115,8 +4201,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Product Director, Wealth Management",
@@ -4242,8 +4330,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 50,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -4265,8 +4353,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Principal, Store Development & Operations, NSO",
@@ -4320,8 +4410,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -4343,8 +4433,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Country Manager, Singapore",
@@ -4359,8 +4451,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -4382,8 +4474,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Cross Border Payment Product Manager, Group Transaction Banking (AVP)",
@@ -4399,8 +4493,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -4422,8 +4516,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Director, Trust & Experience",
@@ -4554,8 +4650,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -4577,8 +4673,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Principal/Senior Product Manager, AI and Agent",
@@ -4593,8 +4691,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -4616,8 +4714,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Principal / Senior Product Manager, Institution Onboarding Experience (KYB)",
@@ -4632,8 +4732,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -4655,8 +4755,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Principal / Senior Product Manager, Local Market & Growth (Latin America)",
@@ -4747,8 +4849,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -4770,8 +4872,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Product Director (Pay & Card)",
@@ -4786,8 +4890,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -4809,8 +4913,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Product Manager / Director, AI Trading",
@@ -4825,8 +4931,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -4848,8 +4954,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Product Manager / Director, Fiat",
@@ -4864,8 +4972,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -4887,8 +4995,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Product Manager / Director, Institutional Growth",
@@ -4903,8 +5013,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "growth",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -4926,8 +5036,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Product Manager / Director, Institutional Product",
@@ -4980,8 +5092,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "platform",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -5003,8 +5115,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Product Manager / Director, User Growth",
@@ -5057,8 +5171,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "growth",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -5080,8 +5194,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Product Manager / Product Director, Copy Trading / Trading Bot",
@@ -5096,8 +5212,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -5119,8 +5235,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Manager / Director, Growth Operation",
@@ -5173,8 +5291,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -5196,8 +5314,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Product Design Director, Orbit",
@@ -5210,8 +5330,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -5233,8 +5353,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Product Operations Manager / Director, Institutional Product",
@@ -5247,8 +5369,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "operations",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -5270,8 +5392,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior / Lead Product Manager – B2B Cross-Border Crypto Payments",
@@ -5320,8 +5444,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 45,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -5343,8 +5467,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Head of Digital Product Management, China",
@@ -5435,8 +5561,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 65,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -5458,8 +5584,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "APAC Sales Development Leader",
@@ -5474,8 +5602,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 65,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -5497,8 +5625,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Partner Director - AWS Alliance Partnership, APAC",
@@ -5513,8 +5643,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 65,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -5536,8 +5666,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Head of APAC Growth Markets, Global Affairs",
@@ -5552,8 +5684,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -5575,8 +5707,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "APAC Strategic Initiatives Lead, Global Affairs",
@@ -5591,8 +5725,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 75,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -5614,8 +5748,10 @@
     "lifecycle_notes": [],
     "platform": "Ashby",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Product and Strategy Innovation Lead",
@@ -5631,8 +5767,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -5654,8 +5790,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Director of Business Development (NeoCloud/GPU Cluster)",
@@ -5670,8 +5808,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -5693,8 +5831,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Global Partnership, Head of APAC",
@@ -5709,8 +5849,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 65,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -5732,8 +5872,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Strategy & Innovation Director-SH",
@@ -5864,8 +6006,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -5887,8 +6029,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Product Manager",
@@ -5941,8 +6085,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -5964,8 +6108,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Head of Strategy & Business Development, APAC",
@@ -6018,8 +6164,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -6041,8 +6187,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Growth Director of Operations / Strategy",
@@ -6057,8 +6205,8 @@
     "location_norm": "Singapore / Hong Kong / China (Remote)",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -6080,8 +6228,10 @@
     "lifecycle_notes": [],
     "platform": "Ashby",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Lead, AI-Native (Special Projects)",
@@ -6251,7 +6401,7 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
+    "quality_score": 35,
     "quality_tier": "D",
     "low_quality": true,
     "score_breakdown": {
@@ -6274,8 +6424,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "General Manager of International Consumer Business",
@@ -6407,8 +6559,8 @@
     "category": "vc_pe",
     "grade": "A-1",
     "description": "Investment role within Temasek's Technology & Consumer sector team covering Asia Pacific ex-China and India. Direct investment at one of the world's largest sovereign wealth funds.",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 45,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -6430,8 +6582,10 @@
     "lifecycle_notes": [],
     "platform": "Web Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Manager, WeChat Pay",
@@ -6564,8 +6718,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 65,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -6587,8 +6741,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "VP, Business Development",
@@ -6603,7 +6759,7 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
+    "quality_score": 35,
     "quality_tier": "D",
     "low_quality": true,
     "score_breakdown": {
@@ -6626,8 +6782,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Head of Product - Core & Growth",
@@ -6642,8 +6800,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "growth",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -6665,8 +6823,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Head of Agency Partnerships, APAC",
@@ -6681,8 +6841,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 75,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -6704,8 +6864,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Director of Strategic Partnerships, APAC",
@@ -6720,8 +6882,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -6743,8 +6905,10 @@
     "lifecycle_notes": [],
     "platform": "Ashby",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior VP, Product Manager - Digital Currency and Payments",
@@ -6760,8 +6924,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -6783,8 +6947,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "VP, Channel Product Owner, Group Transaction Banking",
@@ -6800,8 +6966,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -6823,8 +6989,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "VP, Product Manager - Digital Currency and Payments",
@@ -6837,8 +7005,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -6860,8 +7028,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Head of Expansion (APAC)",
@@ -6915,8 +7085,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -6938,8 +7108,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Consultant / Consultant - AI Strategy",
@@ -6992,8 +7164,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 90,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -7015,8 +7187,10 @@
     "lifecycle_notes": [],
     "platform": "Linkedin_Posting",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Director, Stablecoin Partnerships & Go-to-Market Strategy, Greater China",
@@ -7069,8 +7243,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -7092,8 +7266,10 @@
     "lifecycle_notes": [],
     "platform": "Company Career Site",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Director of Business Development - Expansion",
@@ -7222,8 +7398,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "platform",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 65,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -7245,8 +7421,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Lead - APAC Growth & Expansion",
@@ -7261,8 +7439,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -7284,8 +7462,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "HEAD OF APAC Customer Success",
@@ -8769,8 +8949,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -8792,8 +8972,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Head of E-commerce Strategy & Performance (Regional)",
@@ -8808,8 +8990,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -8831,8 +9013,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Product Manager (SG-based) ",
@@ -8847,8 +9031,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -8870,8 +9054,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Head of Growth Marketing, Asia",
@@ -8886,8 +9072,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -8909,8 +9095,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Associate Director, Strategy & Operations - CEO Office",
@@ -8925,8 +9113,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -8948,8 +9136,10 @@
     "lifecycle_notes": [],
     "platform": "Ashby",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Director Product Management, APJ (AI/Cloud)",
@@ -8964,8 +9154,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -8987,8 +9177,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Lead",
@@ -9039,8 +9231,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -9062,8 +9254,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Associate PM - Wider Asia",
@@ -9077,8 +9271,8 @@
     "source": "glassdoor",
     "english_friendly": true,
     "category": "energy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -9100,8 +9294,10 @@
     "lifecycle_notes": [],
     "platform": "Glassdoor",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Managing Director, Head of Regional Sales, Global Payments Solutions",
@@ -9116,8 +9312,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -9139,8 +9335,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Manager",
@@ -9154,8 +9352,8 @@
     "source": "jobsdb",
     "english_friendly": true,
     "category": "healthcare",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -9177,8 +9375,10 @@
     "lifecycle_notes": [],
     "platform": "JobsDB",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Earn Structured Product & Operations Manager/Senior Manager",
@@ -9191,8 +9391,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "operations",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -9214,8 +9414,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "AI Chatbot Product Manager",
@@ -9410,8 +9612,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 65,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -9433,8 +9635,10 @@
     "lifecycle_notes": [],
     "platform": "Linkedin_Posting",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Manager (General Insurance)",
@@ -9484,8 +9688,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -9507,8 +9711,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Card Growth & Loyalty Product Manager - Global Payment",
@@ -9521,8 +9727,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "growth",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -9544,8 +9750,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Distribution Development Director, APAC",
@@ -9560,8 +9768,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -9583,8 +9791,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "International Development Director - APAC",
@@ -9599,8 +9809,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -9623,7 +9833,9 @@
     "platform": "LinkedIn Search",
     "login_required": false,
     "quality_bar_reject": true,
-    "quality_bar_reason": "Salary: Intern/Entry-level salary"
+    "quality_bar_reason": "Salary: Intern/Entry-level salary",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Product Manager - CEX / Crypto Wallet / Institutional Finance",
@@ -9636,8 +9848,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -9659,8 +9871,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Web3 Growth & Business Operations Lead - GTM / Product Operations (Crypto)",
@@ -9901,8 +10115,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -9924,8 +10138,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Payments - Banking as a Service / Payer ID - Product Management Senior Specialist",
@@ -9947,10 +10163,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -9960,7 +10176,9 @@
       "english_match": 0,
       "company_fit": 0,
       "reject_reason": "Location: Singapore (no work authorization)"
-    }
+    },
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Group Product Manager, Compliance Automation",
@@ -10355,8 +10573,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -10378,8 +10596,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Head of Sales, Web3 Partnerships (Cross-Border Payments)",
@@ -10544,8 +10764,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -10567,8 +10787,10 @@
     "lifecycle_notes": [],
     "platform": "Company",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Manager, Trading (Crypto.com App)",
@@ -10624,10 +10846,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -10637,7 +10859,9 @@
       "english_match": 0,
       "company_fit": 0,
       "reject_reason": "Location: Singapore (no work authorization)"
-    }
+    },
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Manager, Digital Banking",
@@ -10768,8 +10992,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -10791,8 +11015,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Technical Program Manager",
@@ -10807,8 +11033,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "operations",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 45,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -10830,8 +11056,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Lead / Product Director (Corporate Card / Crypto Payment)",
@@ -10846,8 +11074,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -10869,8 +11097,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Global Retail Product Owner",
@@ -10883,8 +11113,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -10906,8 +11136,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Strategy Partner to APAC CEO",
@@ -10922,8 +11154,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 50,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -10945,8 +11177,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Chief of Staff to SVP Operations, APAC",
@@ -10961,8 +11195,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -10984,8 +11218,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Manager (Gaming)",
@@ -10999,8 +11235,8 @@
     "source": "jobsdb",
     "english_friendly": true,
     "category": "gaming",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -11022,8 +11258,10 @@
     "lifecycle_notes": [],
     "platform": "JobsDB",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Manager",
@@ -11037,8 +11275,8 @@
     "source": "jobsdb",
     "english_friendly": true,
     "category": "cybersecurity",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -11060,8 +11298,10 @@
     "lifecycle_notes": [],
     "platform": "JobsDB",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Manager (AI/Tech)",
@@ -11075,8 +11315,8 @@
     "source": "jobsdb",
     "english_friendly": true,
     "category": "ai/ml",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -11098,8 +11338,10 @@
     "lifecycle_notes": [],
     "platform": "JobsDB",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Head of Product [Fintech | Growth | Multi-Market Platform]",
@@ -11114,8 +11356,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "growth",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -11137,8 +11379,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "P2P Product Manager",
@@ -11151,8 +11395,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -11174,8 +11418,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Crypto Card Product Manager",
@@ -11188,8 +11434,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -11211,8 +11457,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Payment Product Manager (Fiat & Cross-Border)",
@@ -11225,8 +11473,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -11248,8 +11496,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Product Manager",
@@ -11262,8 +11512,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -11285,8 +11535,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Go To Market Lead, APAC",
@@ -11301,8 +11553,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -11324,8 +11576,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Strategy Consultant/Senior Manager (Healthcare)",
@@ -11378,8 +11632,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 50,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -11401,8 +11655,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Owner - Marketplace",
@@ -11415,8 +11671,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "platform",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -11438,8 +11694,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Director, Marketing & Analytics, APAC",
@@ -11681,8 +11939,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -11704,8 +11962,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Growth Marketing Lead",
@@ -11833,8 +12093,8 @@
     "source": "jobsdb",
     "english_friendly": true,
     "category": "fintech",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -11856,8 +12116,10 @@
     "lifecycle_notes": [],
     "platform": "JobsDB",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Product Manager, HSBC Digital",
@@ -12064,8 +12326,8 @@
     "source": "jobsdb",
     "english_friendly": true,
     "category": "cybersecurity",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -12088,7 +12350,9 @@
     "platform": "JobsDB",
     "login_required": false,
     "quality_bar_reject": true,
-    "quality_bar_reason": "Domain: HR/Recruiting role"
+    "quality_bar_reason": "Domain: HR/Recruiting role",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Head of dx CPG APAC",
@@ -12141,8 +12405,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -12164,8 +12428,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "VP, Head of Partnerships",
@@ -12218,8 +12484,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -12241,8 +12507,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Director, Platform Success – APAC",
@@ -12257,8 +12525,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 65,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -12280,8 +12548,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Director of Sales – APAC",
@@ -12950,8 +13220,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -12973,8 +13243,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Product Manager, Payments & Fraud Tech",
@@ -13027,8 +13299,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -13050,8 +13322,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Vice President of Product Management",
@@ -13066,8 +13340,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -13089,8 +13363,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Product Manager (eSIM)",
@@ -13103,8 +13379,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -13126,8 +13402,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Head of International Store Development",
@@ -13181,8 +13459,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 75,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -13204,8 +13482,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Manager, Meituan Waimai",
@@ -13459,10 +13739,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -13472,7 +13752,9 @@
       "english_match": 0,
       "company_fit": 0,
       "reject_reason": "Location: Singapore (no work authorization)"
-    }
+    },
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Strategy Manager",
@@ -13563,8 +13845,8 @@
     "location_norm": "Singapore / US",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -13586,8 +13868,10 @@
     "lifecycle_notes": [],
     "platform": "Ashby",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Agile Product Owner, Global Transaction Banking",
@@ -13600,8 +13884,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -13623,8 +13907,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Head of Wholesale, NEA (VIP)",
@@ -13677,8 +13963,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -13700,8 +13986,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Fraud Risk Strategy Expert",
@@ -13716,8 +14004,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -13739,8 +14027,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Growth & AI Initiatives Manager",
@@ -13755,8 +14045,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -13778,8 +14068,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "(Senior) Data Infra Product Manager, On Chain (Web3)",
@@ -13794,8 +14086,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -13817,8 +14109,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Data Scientist, Product & Growth Analytics",
@@ -13833,8 +14127,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "growth",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -13856,8 +14150,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Data Scientist, Risk (Risk Strategy)",
@@ -13872,8 +14168,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -13895,8 +14191,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Growth Manager, SEA",
@@ -13949,8 +14247,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "growth",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -13972,8 +14270,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Manager, Web3 Growth",
@@ -13988,8 +14288,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "growth",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -14011,8 +14311,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Manager, Web3 Growth (Ecosystem)",
@@ -14105,8 +14407,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -14128,8 +14430,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Designer, Cefi ",
@@ -14182,8 +14486,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -14205,8 +14509,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Designer, Defi",
@@ -14260,8 +14566,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -14283,8 +14589,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Designer, Trading",
@@ -14299,8 +14607,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -14322,8 +14630,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Designer, User Growth",
@@ -14338,8 +14648,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "growth",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -14361,8 +14671,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Designer, Wallets",
@@ -14377,8 +14689,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -14400,8 +14712,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Designer, Web3",
@@ -14416,8 +14730,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -14439,8 +14753,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Designer, Web3 Growth",
@@ -14455,8 +14771,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "growth",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -14478,8 +14794,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Manager, Conversational AI Chatbot & Agent Quality",
@@ -14494,8 +14812,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -14517,8 +14835,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Manager, DevOps and AI",
@@ -14533,8 +14853,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -14556,8 +14876,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Manager, Risk Intelligence Product",
@@ -14572,8 +14894,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -14595,8 +14917,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Manager - Risk Platform",
@@ -14611,8 +14935,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "platform",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -14634,8 +14958,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Operations Manager, OKX SG",
@@ -14650,8 +14976,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "operations",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -14673,8 +14999,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Program Manager, Executive Support",
@@ -14689,8 +15017,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "operations",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 65,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -14712,8 +15040,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior/Staff Engineer, Liquidity Platform, Strategy Service",
@@ -14766,8 +15096,8 @@
     "location_norm": "Hong Kong; Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -14789,8 +15119,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Strategy PMO / Project Manager  (AI & Org Efficiency) ",
@@ -14805,8 +15137,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -14828,8 +15160,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Strategy Project Manager, VIP/Institutions",
@@ -14882,8 +15216,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "growth",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -14906,7 +15240,9 @@
     "platform": "Greenhouse",
     "login_required": false,
     "quality_bar_reject": true,
-    "quality_bar_reason": "Domain: Software Engineering role"
+    "quality_bar_reason": "Domain: Software Engineering role",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Vice President, AI Strategy & Transformation",
@@ -14995,8 +15331,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -15018,8 +15354,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Head of Commercial Strategy and Excellence",
@@ -15072,8 +15410,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -15095,8 +15433,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Product Manager (Global Networking)",
@@ -15260,8 +15600,8 @@
     "source": "jobsdb",
     "english_friendly": true,
     "category": "technology",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -15283,8 +15623,10 @@
     "lifecycle_notes": [],
     "platform": "JobsDB",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Manager (Digital Payment / Card Issuing)",
@@ -15482,8 +15824,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -15505,8 +15847,10 @@
     "lifecycle_notes": [],
     "platform": "Ashby",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Manager (Networking)",
@@ -15520,8 +15864,8 @@
     "source": "jobsdb",
     "english_friendly": true,
     "category": "technology",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 65,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -15544,7 +15888,9 @@
     "platform": "JobsDB",
     "login_required": false,
     "quality_bar_reject": true,
-    "quality_bar_reason": "Salary: SGD 4,006/mo below SG floor"
+    "quality_bar_reason": "Salary: SGD 4,006/mo below SG floor",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Manager - FMCG",
@@ -15706,8 +16052,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -15729,8 +16075,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Business Product Manager - SG BPM",
@@ -15743,8 +16091,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -15766,8 +16114,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior SG Business Product Manager - SPX",
@@ -15780,8 +16130,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -15803,8 +16153,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Product Manager, R&D Efficiency",
@@ -15818,8 +16170,8 @@
     "source": "glassdoor",
     "english_friendly": true,
     "category": "e-commerce",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -15841,8 +16193,10 @@
     "lifecycle_notes": [],
     "platform": "Glassdoor",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Product Manager",
@@ -15856,8 +16210,8 @@
     "source": "jobsdb",
     "english_friendly": true,
     "category": "telecommunications",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -15879,8 +16233,10 @@
     "lifecycle_notes": [],
     "platform": "JobsDB",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Product Manager (Robotics)",
@@ -15894,8 +16250,8 @@
     "source": "glassdoor",
     "english_friendly": true,
     "category": "telecommunications",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -15917,8 +16273,10 @@
     "lifecycle_notes": [],
     "platform": "Glassdoor",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "General Manager of International Consumer Business",
@@ -15972,8 +16330,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -15995,8 +16353,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Head of Partnerships and Distribution, Asia Pacific",
@@ -16164,8 +16524,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -16187,8 +16547,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Data Science Manager, Finance and Strategy",
@@ -16318,8 +16680,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "growth",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -16342,7 +16704,9 @@
     "platform": "Greenhouse",
     "login_required": false,
     "quality_bar_reject": true,
-    "quality_bar_reason": "Domain: Software Engineering role"
+    "quality_bar_reason": "Domain: Software Engineering role",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Marketing Operations Program Manager, Sold Funnel",
@@ -17247,8 +17611,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "operations",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -17270,8 +17634,10 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Technical Program Manager, Core Infrastructure",
@@ -17518,8 +17884,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -17541,8 +17907,10 @@
     "lifecycle_notes": [],
     "platform": "Linkedin_Posting",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Director, TISC Digital and Productivity",
@@ -17595,8 +17963,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -17618,8 +17986,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Director, Sales - China",
@@ -17670,8 +18040,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -17693,8 +18063,10 @@
     "lifecycle_notes": [],
     "platform": "Web",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Manager",
@@ -17708,8 +18080,8 @@
     "source": "jobsdb",
     "english_friendly": true,
     "category": "cleantech/energy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -17732,7 +18104,9 @@
     "platform": "JobsDB",
     "login_required": false,
     "quality_bar_reject": true,
-    "quality_bar_reason": "Salary: SGD 3,504/mo below SG floor"
+    "quality_bar_reason": "Salary: SGD 3,504/mo below SG floor",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Head of Product, AI",
@@ -17747,8 +18121,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -17770,8 +18144,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Director, Treasury, APAC",
@@ -17786,8 +18162,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -17809,8 +18185,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Manager, APAC Commercial Strategy & Partnerships (6-month contract)",
@@ -17826,8 +18204,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 60,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -17849,8 +18227,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Director, Digital Strategy & Business Development",
@@ -17941,8 +18321,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -17964,8 +18344,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Head of Strategic Initiatives – CEO Office",
@@ -17980,8 +18362,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -18003,8 +18385,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Head of B2B Branded Channels",
@@ -18019,8 +18403,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -18042,8 +18426,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "资深产品经理（蛋白质组学）- 上海",
@@ -19266,10 +19652,10 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -19279,7 +19665,9 @@
       "english_match": 0,
       "company_fit": 0,
       "reject_reason": "Location: Singapore (no work authorization)"
-    }
+    },
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Head of Data Monetization & Partnerships, FMCG Retail",
@@ -19404,8 +19792,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -19428,7 +19816,9 @@
     "platform": "LinkedIn Search",
     "login_required": false,
     "quality_bar_reject": true,
-    "quality_bar_reason": "Domain: Pure marketing role"
+    "quality_bar_reason": "Domain: Pure marketing role",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Account Executive, Cross Border China",
@@ -19443,8 +19833,8 @@
     "location_norm": "Singapore",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 45,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -19466,8 +19856,10 @@
     "lifecycle_notes": [],
     "platform": "Direct",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Head of Offline Branded Retail (LEGO Certified Store Channel)",
@@ -19563,8 +19955,8 @@
     "login_required": false,
     "quality_bar_reject": true,
     "quality_bar_reason": "Salary: Intern/Entry-level salary",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -19574,7 +19966,9 @@
       "english_match": 0,
       "company_fit": 0,
       "reject_reason": "Salary: Intern/Entry-level salary"
-    }
+    },
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Director, Franchising, APAC",
@@ -19598,8 +19992,8 @@
     "login_required": false,
     "quality_bar_reject": true,
     "quality_bar_reason": "Salary: Intern/Entry-level salary",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -19609,7 +20003,9 @@
       "english_match": 0,
       "company_fit": 0,
       "reject_reason": "Salary: Intern/Entry-level salary"
-    }
+    },
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Development, Senior Principal/Principal",
@@ -19661,8 +20057,8 @@
     "source": "indeed",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -19684,8 +20080,10 @@
     "lifecycle_notes": [],
     "platform": "Indeed",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Product Manager, AWS Server Supply Chain",
@@ -19699,8 +20097,8 @@
     "source": "amazon_jobs",
     "english_friendly": true,
     "category": "cloud",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -19722,8 +20120,10 @@
     "lifecycle_notes": [],
     "platform": "Amazon_Jobs",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Manager - Technical, Seller Fees Science & Tech",
@@ -19737,8 +20137,8 @@
     "source": "amazon_jobs",
     "english_friendly": true,
     "category": "e-commerce",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -19760,8 +20160,10 @@
     "lifecycle_notes": [],
     "platform": "Amazon_Jobs",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Specialist, Product Manager, Provider Management",
@@ -19775,8 +20177,8 @@
     "source": "indeed",
     "english_friendly": true,
     "category": "healthcare",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -19798,8 +20200,10 @@
     "lifecycle_notes": [],
     "platform": "Indeed",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Product Manager, Affordability",
@@ -20003,8 +20407,8 @@
     "source": "indeed",
     "english_friendly": true,
     "category": "technology",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -20026,8 +20430,10 @@
     "lifecycle_notes": [],
     "platform": "Indeed",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Product Manager",
@@ -20041,8 +20447,8 @@
     "source": "glassdoor",
     "english_friendly": true,
     "category": "technology",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -20064,8 +20470,10 @@
     "lifecycle_notes": [],
     "platform": "Glassdoor",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Product Manager (Financial Markets)",
@@ -20118,8 +20526,8 @@
     "category": "vc_pe",
     "grade": "S-1",
     "description": "Principal-level product specialist for Blackstone's Private Wealth BXHF (hedge fund) product in Singapore/Hong Kong/Tokyo. Strategy, portfolio positioning, performance drivers.",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -20141,8 +20549,10 @@
     "lifecycle_notes": [],
     "platform": "Web Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Executive Operating Partner",
@@ -20232,8 +20642,8 @@
     "source": "glassdoor",
     "english_friendly": true,
     "category": "financial_services",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -20255,8 +20665,10 @@
     "lifecycle_notes": [],
     "platform": "Glassdoor",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Assistant Product Director (Business Video)",
@@ -20345,8 +20757,8 @@
     "source": "indeed",
     "english_friendly": true,
     "category": "e-commerce",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -20368,8 +20780,10 @@
     "lifecycle_notes": [],
     "platform": "Indeed",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Product Manager",
@@ -20383,8 +20797,8 @@
     "source": "indeed",
     "english_friendly": true,
     "category": "logistics",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -20406,8 +20820,10 @@
     "lifecycle_notes": [],
     "platform": "Indeed",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "VP/Director, Product Development - ETF",
@@ -20495,8 +20911,8 @@
     "source": "google_careers",
     "english_friendly": true,
     "category": "cloud",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -20518,8 +20934,10 @@
     "lifecycle_notes": [],
     "platform": "Google_Careers",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Manager (AI/ Data/ API-based Products)",
@@ -20869,8 +21287,8 @@
     "source": "glassdoor",
     "english_friendly": true,
     "category": "technology",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -20892,8 +21310,10 @@
     "lifecycle_notes": [],
     "platform": "Glassdoor",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Unified Global Black Belt Sales Specialist",
@@ -20907,8 +21327,8 @@
     "source": "microsoft_careers",
     "english_friendly": true,
     "category": "sales",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 45,
+    "quality_tier": "C",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -20931,7 +21351,9 @@
     "platform": "Microsoft_Careers",
     "login_required": false,
     "quality_bar_reject": true,
-    "quality_bar_reason": "Domain: Pure sales role"
+    "quality_bar_reason": "Domain: Pure sales role",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Manager",
@@ -20945,8 +21367,8 @@
     "source": "indeed",
     "english_friendly": true,
     "category": "technology",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -20968,8 +21390,10 @@
     "lifecycle_notes": [],
     "platform": "Indeed",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Manager (Leadership)",
@@ -20983,8 +21407,8 @@
     "source": "glassdoor",
     "english_friendly": true,
     "category": "fintech",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -21006,8 +21430,10 @@
     "lifecycle_notes": [],
     "platform": "Glassdoor",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Manager",
@@ -21021,8 +21447,8 @@
     "source": "indeed",
     "english_friendly": true,
     "category": "fintech",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -21045,7 +21471,9 @@
     "platform": "Indeed",
     "login_required": false,
     "quality_bar_reject": true,
-    "quality_bar_reason": "Salary: SGD 3,508/mo below SG floor"
+    "quality_bar_reason": "Salary: SGD 3,508/mo below SG floor",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Product Manager",
@@ -21059,8 +21487,8 @@
     "source": "indeed",
     "english_friendly": true,
     "category": "technology",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -21082,8 +21510,10 @@
     "lifecycle_notes": [],
     "platform": "Indeed",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "AVP/VP, Portfolio Development",
@@ -21099,8 +21529,8 @@
     "category": "vc_pe",
     "grade": "S-1",
     "description": "Lead strategic and operational analyses to drive value creation across Temasek's portfolio. Strategy transformation, operational improvements, balance sheet optimization. 5-8 years in consulting/IB/PE/corporate finance.",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 55,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -21122,8 +21552,10 @@
     "lifecycle_notes": [],
     "platform": "Web Search",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Product Manager",
@@ -21137,8 +21569,8 @@
     "source": "jobsdb",
     "english_friendly": true,
     "category": "product_management",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -21160,8 +21592,10 @@
     "lifecycle_notes": [],
     "platform": "JobsDB",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "AVP, Chief of Staff & Head of Strategy - Emerging Markets",
@@ -21249,8 +21683,8 @@
     "source": "indeed",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -21272,8 +21706,10 @@
     "lifecycle_notes": [],
     "platform": "Indeed",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Product Manager",
@@ -21287,8 +21723,8 @@
     "source": "indeed",
     "english_friendly": true,
     "category": "food_delivery",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -21310,8 +21746,10 @@
     "lifecycle_notes": [],
     "platform": "Indeed",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)"
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "跨境电商产品总监/VP - 河南江舸云科技",
@@ -22744,10 +23182,10 @@
     "scanned_date": "2026-06-15",
     "source": "indeed",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -22757,7 +23195,9 @@
       "english_match": 0,
       "company_fit": 0,
       "reject_reason": "Location: Singapore (no work authorization)"
-    }
+    },
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Product Manager - DSV",
@@ -22770,10 +23210,10 @@
     "scanned_date": "2026-06-15",
     "source": "indeed",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -22783,7 +23223,9 @@
       "english_match": 0,
       "company_fit": 0,
       "reject_reason": "Location: Singapore (no work authorization)"
-    }
+    },
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Director, Banking Engagement - Singapore",
@@ -22796,10 +23238,10 @@
     "scanned_date": "2026-06-15",
     "source": "indeed",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -22809,7 +23251,9 @@
       "english_match": 0,
       "company_fit": 0,
       "reject_reason": "Location: Singapore (no work authorization)"
-    }
+    },
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Head of Product / Product Director (AI) - CONSTRUCTOR TECHNOLOGY PTE. LTD.",
@@ -22822,10 +23266,10 @@
     "scanned_date": "2026-06-15",
     "source": "indeed",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -22835,7 +23279,9 @@
       "english_match": 0,
       "company_fit": 0,
       "reject_reason": "Location: Singapore (no work authorization)"
-    }
+    },
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Product Manager (Food Discovery)",
@@ -22848,10 +23294,10 @@
     "scanned_date": "2026-06-15",
     "source": "indeed",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -22861,7 +23307,9 @@
       "english_match": 0,
       "company_fit": 0,
       "reject_reason": "Location: Singapore (no work authorization)"
-    }
+    },
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Product Manager, AI Transformation - Singapore",
@@ -22874,10 +23322,10 @@
     "scanned_date": "2026-06-15",
     "source": "indeed",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -22887,7 +23335,9 @@
       "english_match": 0,
       "company_fit": 0,
       "reject_reason": "Location: Singapore (no work authorization)"
-    }
+    },
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Senior Technical Program Manager, Solutions Strategy & Programs - Airwallex",
@@ -22900,10 +23350,10 @@
     "scanned_date": "2026-06-15",
     "source": "indeed",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -22913,7 +23363,9 @@
       "english_match": 0,
       "company_fit": 0,
       "reject_reason": "Location: Singapore (no work authorization)"
-    }
+    },
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Senior Technical / Product Director (Digital) - IC - Hong Kong",
@@ -23126,10 +23578,10 @@
     "scanned_date": "2026-06-15",
     "source": "jobsdb",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "quality_score": 80,
+    "quality_tier": "A",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -23139,7 +23591,9 @@
       "english_match": 0,
       "company_fit": 0,
       "reject_reason": "Location: Singapore (no work authorization)"
-    }
+    },
+    "sg_visa_likely": true,
+    "sg_note": "Large company, visa sponsorship likely"
   },
   {
     "title": "Product Manager / Product Director, Copy Trading / Trading Bot - P2P",
@@ -23152,10 +23606,10 @@
     "scanned_date": "2026-06-15",
     "source": "jobsdb",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -23165,7 +23619,9 @@
       "english_match": 0,
       "company_fit": 0,
       "reject_reason": "Location: Singapore (no work authorization)"
-    }
+    },
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "Product Director, Payments (Liquidity / Cross-Border) - Ethos BeathChapman",
@@ -23178,10 +23634,10 @@
     "scanned_date": "2026-06-15",
     "source": "jobsdb",
     "login_required": false,
-    "quality_bar_reject": true,
-    "quality_bar_reason": "Location: Singapore (no work authorization)",
-    "quality_score": 0,
-    "quality_tier": "D",
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "quality_score": 70,
+    "quality_tier": "B",
     "low_quality": true,
     "score_breakdown": {
       "yoe_match": 0,
@@ -23191,7 +23647,9 @@
       "english_match": 0,
       "company_fit": 0,
       "reject_reason": "Location: Singapore (no work authorization)"
-    }
+    },
+    "sg_visa_likely": false,
+    "sg_note": "Smaller company, visa uncertain"
   },
   {
     "title": "资深产品经理(MJ001401) - 基克纳科技",
