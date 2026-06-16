@@ -37,7 +37,7 @@
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 18,
@@ -74,7 +74,8 @@
     "us_firm_apac": false,
     "location_norm": "Hong Kong",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Senior Corporate Strategy Manager",
@@ -160,7 +161,7 @@
     "quality_bar_reason": "",
     "sg_visa_likely": true,
     "sg_note": "Large company, visa sponsorship likely",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 13,
@@ -207,7 +208,7 @@
     "quality_bar_reason": "",
     "sg_visa_likely": true,
     "sg_note": "Large company, visa sponsorship likely",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 13,
@@ -254,7 +255,7 @@
     "quality_bar_reason": "",
     "sg_visa_likely": true,
     "sg_note": "Large company, visa sponsorship likely",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 13,
@@ -301,7 +302,7 @@
     "quality_bar_reason": "",
     "sg_visa_likely": true,
     "sg_note": "Large company, visa sponsorship likely",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 13,
@@ -442,7 +443,9 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "direct"
+    "url_type": "direct",
+    "scanned_date": "2026-06-13",
+    "stale": false
   },
   {
     "title": "(Senior) Product Manager (Product Sales), Transaction Banking",
@@ -480,13 +483,15 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
+    "quality_bar_reject": true,
+    "quality_bar_reason": "Title contains sales",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
-    "url_type": "unknown"
+    "url_type": "unknown",
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Product Lead, Online Brokerage",
@@ -569,7 +574,7 @@
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 21,
@@ -618,7 +623,9 @@
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 21,
-    "us_firm_apac": true
+    "us_firm_apac": true,
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Director, Regional Strategy and Business Development, APAC",
@@ -885,14 +892,14 @@
     "top20": false,
     "geo_score": 20,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
     "title": "Senior Product Manager",
     "company": "CASETiFY",
     "location": "Shenzhen",
-    "salary": "Not listed",
+    "salary": "(est) 60-120K RMB/yr",
     "url": "https://www.linkedin.com/jobs/search/?keywords=senior%20product%20manager%20AI&location=Shenzhen&f_TPR=r604800",
     "source": "linkedin",
     "role_type": "Product Management",
@@ -930,7 +937,9 @@
     "top20": false,
     "geo_score": 20,
     "us_firm_apac": false,
-    "url_type": "unknown"
+    "url_type": "search",
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Head of Product / Product Director (AI) - CONSTRUCTOR TECHNOLOGY PTE. LTD.",
@@ -965,20 +974,37 @@
     "us_firm_apac": false,
     "location_norm": "Singapore",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Senior Product Manager, CEX / Crypto Wallet / Institutional Finance",
     "company": "Ceffu",
     "location": "Singapore",
-    "salary": "",
+    "salary": "(est) 12-20K SGD/mo",
     "url": "https://www.linkedin.com/jobs/search/?keywords=Ceffu+senior+product+manager+CEX+crypto+wallet&location=Singapore",
     "source": "linkedin",
     "role_type": "Product Management",
     "description": "Senior PM for CEX/crypto wallet/institutional finance at Ceffu. Crypto custody and institutional finance platform.",
     "grade": "A-1",
     "grade_reason": "Senior PM, Singapore, crypto custody + institutional finance — strong platform role in crypto infrastructure",
-    "scanned_date": "2026-06-15"
+    "scanned_date": "2026-06-15",
+    "location_norm": "Singapore",
+    "quality_bar_reject": true,
+    "quality_bar_reason": "Pure crypto role",
+    "quality_score": 0,
+    "quality_tier": "D",
+    "score_breakdown": {
+      "yoe_match": 30,
+      "domain_match": 25,
+      "location_match": 10,
+      "english_match": 5,
+      "salary_match": 0,
+      "company_fit": 5
+    },
+    "low_quality": true,
+    "english_friendly": true,
+    "stale": false
   },
   {
     "title": "Director, Policy and Regulatory Strategy, APAC",
@@ -1025,7 +1051,9 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "direct"
+    "url_type": "direct",
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Director GTM Strategy & Transformation APJC",
@@ -1104,7 +1132,8 @@
     "us_firm_apac": false,
     "location_norm": "Hong Kong",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Director, Commercial Strategy & Revenue Operations",
@@ -1150,7 +1179,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -1192,7 +1221,8 @@
     "us_firm_apac": false,
     "location_norm": "Hong Kong",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "高级跨境支付产品经理 (Confidential)",
@@ -1233,7 +1263,8 @@
     "us_firm_apac": false,
     "location_norm": "Shanghai",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": false
   },
   {
     "title": "Product Director, Banking Engagement - Singapore",
@@ -1268,7 +1299,8 @@
     "us_firm_apac": true,
     "location_norm": "Singapore",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Product Director, Banking Engagement - Crypto.com",
@@ -1300,7 +1332,8 @@
     "us_firm_apac": false,
     "location_norm": "Hong Kong",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Senior Director - Corporate Strategy Execution - APAC",
@@ -1393,7 +1426,9 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "direct"
+    "url_type": "direct",
+    "scanned_date": "2026-06-13",
+    "stale": false
   },
   {
     "title": "Director, Deal Strategy & Enablement - APAC",
@@ -1440,7 +1475,9 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown"
+    "url_type": "search",
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Product Director, Payments (Liquidity / Cross-Border) - Ethos BeathChapman",
@@ -1475,13 +1512,14 @@
     "us_firm_apac": false,
     "location_norm": "Singapore",
     "url_type": "unknown",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Senior Product Manager, Agentic AI — Finance District",
     "company": "First Digital",
     "location": "Hong Kong",
-    "salary": "Not listed",
+    "salary": "(est) 60-100K HKD/mo",
     "url": "https://www.linkedin.com/jobs/search/?keywords=senior%20product%20manager%20AI&location=Shenzhen&f_TPR=r604800",
     "source": "linkedin",
     "role_type": "Product Management",
@@ -1519,7 +1557,9 @@
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
-    "url_type": "unknown"
+    "url_type": "search",
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Sr Director, Go-To-Market (APAC)",
@@ -1565,7 +1605,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -1745,7 +1785,9 @@
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 13,
-    "us_firm_apac": true
+    "us_firm_apac": true,
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Associate/AVP, Total Portfolio Sustainability Investment Research & Strategy",
@@ -1799,7 +1841,7 @@
     "title": "Product Lead - Marketplace",
     "company": "GoTymeX",
     "location": "Singapore",
-    "salary": "Not listed",
+    "salary": "(est) 12-20K SGD/mo",
     "url": "https://www.linkedin.com/jobs/search/?keywords=senior%20product%20manager%20fintech&location=Singapore&f_TPR=r604800",
     "source": "linkedin",
     "role_type": "Product Management",
@@ -1840,7 +1882,9 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown"
+    "url_type": "search",
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Global Head of Business Operations and Chief of Staff, AppDev, RSO",
@@ -1882,7 +1926,7 @@
     "quality_bar_reason": "",
     "sg_visa_likely": true,
     "sg_note": "Large company, visa sponsorship likely",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": true,
     "geo_score": 13,
@@ -1929,7 +1973,7 @@
     "quality_bar_reason": "",
     "sg_visa_likely": true,
     "sg_note": "Large company, visa sponsorship likely",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": true,
     "geo_score": 13,
@@ -2028,7 +2072,9 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown"
+    "url_type": "search",
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Senior Manager of Frontline Incentive and Strategy",
@@ -2067,7 +2113,7 @@
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 15,
@@ -2116,7 +2162,9 @@
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
-    "url_type": "unknown"
+    "url_type": "search",
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "GTM Director (出海)",
@@ -2160,7 +2208,7 @@
     "top20": false,
     "geo_score": 20,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -2193,7 +2241,8 @@
     "us_firm_apac": false,
     "location_norm": "Hong Kong",
     "url_type": "login_required",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Senior Product Manager, Huawei Cloud",
@@ -2362,7 +2411,8 @@
     "us_firm_apac": false,
     "location_norm": "Hong Kong",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Director of Category - Joybuy",
@@ -2488,7 +2538,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "location_norm": "Singapore",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Lead Product Manager, Client Digital Experience (Wealth Management)",
@@ -2532,7 +2583,9 @@
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
-    "url_type": "unknown"
+    "url_type": "search",
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Chief Marketplace Officer (CMO) / Marketplace Growth Director",
@@ -2575,7 +2628,9 @@
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
-    "url_type": "direct"
+    "url_type": "direct",
+    "scanned_date": "2026-06-13",
+    "stale": false
   },
   {
     "title": "Head of eCommerce & Omni – East Asia Pacific",
@@ -2769,7 +2824,7 @@
     "title": "Senior Product Manager / Director – Card Issuance",
     "company": "MetaComp",
     "location": "Singapore",
-    "salary": "Not listed",
+    "salary": "(est) 12-20K SGD/mo",
     "url": "https://www.metacareers.com/jobs/",
     "source": "linkedin",
     "role_type": "Product Management",
@@ -2810,7 +2865,9 @@
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 10,
-    "us_firm_apac": false
+    "us_firm_apac": false,
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Product Manager - Hong Kong",
@@ -2945,7 +3002,9 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown"
+    "url_type": "search",
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Product Director, Trust & Experience",
@@ -2988,7 +3047,9 @@
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 21,
-    "us_firm_apac": true
+    "us_firm_apac": true,
+    "scanned_date": "2026-06-13",
+    "stale": false
   },
   {
     "title": "Product Manager / Director, Global Payment Partnerships",
@@ -3031,7 +3092,9 @@
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 21,
-    "us_firm_apac": true
+    "us_firm_apac": true,
+    "scanned_date": "2026-06-13",
+    "stale": false
   },
   {
     "title": "(Senior) Data Infra Product Manager, On Chain (Algorithm and Search)",
@@ -3075,7 +3138,9 @@
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 21,
-    "us_firm_apac": true
+    "us_firm_apac": true,
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Product Director, Compliance",
@@ -3213,7 +3278,7 @@
     "title": "Principal / Senior Product Manager, Institution Onboarding (KYB)",
     "company": "OKX",
     "location": "Singapore",
-    "salary": "Not listed",
+    "salary": "(est) 12-20K SGD/mo",
     "url": "https://jobs.okx.com/",
     "source": "linkedin",
     "role_type": "Product Management",
@@ -3254,7 +3319,9 @@
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 13,
-    "us_firm_apac": true
+    "us_firm_apac": true,
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Principal/Senior Product Manager, AI and Agent",
@@ -3821,14 +3888,31 @@
     "title": "Principal / Senior Product Manager, KYB Onboarding",
     "company": "OKX",
     "location": "Singapore",
-    "salary": "",
+    "salary": "(est) 12-20K SGD/mo",
     "url": "https://www.linkedin.com/jobs/search/?keywords=OKX+principal+senior+product+manager+KYB&location=Singapore",
     "source": "linkedin",
     "role_type": "Product Management",
     "description": "Principal/Senior PM for Institution Onboarding Experience (KYB) at OKX. Crypto exchange institutional onboarding platform.",
     "grade": "A-1",
     "grade_reason": "Senior/Principal PM, Singapore, crypto exchange platform — strong alignment with target profile, crypto/fintech focus, platform role",
-    "scanned_date": "2026-06-15"
+    "scanned_date": "2026-06-15",
+    "location_norm": "Singapore",
+    "quality_score": 75,
+    "quality_tier": "B",
+    "score_breakdown": {
+      "yoe_match": 30,
+      "domain_match": 25,
+      "location_match": 10,
+      "english_match": 5,
+      "salary_match": 0,
+      "company_fit": 5
+    },
+    "low_quality": false,
+    "url_type": "search",
+    "english_friendly": true,
+    "stale": false,
+    "quality_bar_reject": false,
+    "quality_bar_reason": ""
   },
   {
     "title": "Senior / Lead Product Manager – B2B Cross-Border Crypto Payments",
@@ -3869,7 +3953,8 @@
     "geo_score": 23,
     "us_firm_apac": true,
     "location_norm": "Shenzhen",
-    "stale": false
+    "stale": false,
+    "english_friendly": false
   },
   {
     "title": "Head of Commercial Strategy and Excellence",
@@ -3912,7 +3997,7 @@
     "top20": false,
     "geo_score": 12,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -4042,7 +4127,8 @@
     "us_firm_apac": false,
     "location_norm": "Singapore",
     "url_type": "unknown",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Product and Strategy Innovation Lead",
@@ -4089,7 +4175,9 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown"
+    "url_type": "search",
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Strategy & Innovation Director-SH",
@@ -4221,7 +4309,9 @@
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 18,
-    "us_firm_apac": false
+    "us_firm_apac": false,
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Senior Product Manager",
@@ -4264,7 +4354,7 @@
     "top20": false,
     "geo_score": 20,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -4311,7 +4401,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -4355,7 +4445,7 @@
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -4409,7 +4499,7 @@
     "title": "Product Lead, AI-Native (Special Projects)",
     "company": "ShopBack",
     "location": "Shenzhen",
-    "salary": "Not listed",
+    "salary": "(est) 50-100K RMB/yr",
     "url": "https://careers.shopback.com/",
     "source": "linkedin",
     "role_type": "Product Management",
@@ -4447,7 +4537,9 @@
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 20,
-    "us_firm_apac": false
+    "us_firm_apac": false,
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Senior Product Manager, Shopee Cross-border",
@@ -4487,7 +4579,7 @@
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 21,
@@ -4532,7 +4624,7 @@
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 21,
@@ -4580,14 +4672,14 @@
     "top20": false,
     "geo_score": 12,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
     "title": "AI Product Lead",
     "company": "TENTEN Partners",
     "location": "Hong Kong",
-    "salary": "Not listed",
+    "salary": "(est) 55-80K HKD/mo",
     "url": "https://www.linkedin.com/jobs/search/?keywords=senior%20product%20manager%20AI&location=Shenzhen&f_TPR=r604800",
     "source": "linkedin",
     "role_type": "Product Management",
@@ -4625,7 +4717,9 @@
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
-    "url_type": "unknown"
+    "url_type": "search",
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Senior Product Manager, WeChat Pay",
@@ -4808,7 +4902,9 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "direct"
+    "url_type": "direct",
+    "scanned_date": "2026-06-13",
+    "stale": false
   },
   {
     "title": "Senior VP, Product Manager - Digital Currency and Payments",
@@ -4855,7 +4951,9 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown"
+    "url_type": "search",
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "VP, Channel Product Owner, Group Transaction Banking",
@@ -4902,20 +5000,39 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown"
+    "url_type": "search",
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Senior Product Manager, Digital Currency and Payments",
     "company": "UOB",
     "location": "Singapore",
-    "salary": "",
+    "salary": "(est) 12-20K SGD/mo",
     "url": "https://www.linkedin.com/jobs/search/?keywords=UOB+senior+VP+product+manager+digital+currency+payments+Singapore",
     "source": "linkedin",
     "role_type": "Product Management",
     "description": "Senior VP, Product Manager for Digital Currency and Payments at UOB. Banking digital currency product.",
     "grade": "A-1",
     "grade_reason": "SVP title, Singapore, digital currency/payments — excellent alignment with target profile, banking + crypto adjacent",
-    "scanned_date": "2026-06-15"
+    "scanned_date": "2026-06-15",
+    "location_norm": "Singapore",
+    "quality_score": 78,
+    "quality_tier": "B",
+    "score_breakdown": {
+      "yoe_match": 30,
+      "domain_match": 25,
+      "location_match": 10,
+      "english_match": 5,
+      "salary_match": 0,
+      "company_fit": 8
+    },
+    "low_quality": false,
+    "url_type": "search",
+    "english_friendly": true,
+    "stale": false,
+    "quality_bar_reject": false,
+    "quality_bar_reason": ""
   },
   {
     "title": "Data Product Owner – AI Products",
@@ -4962,7 +5079,9 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown"
+    "url_type": "search",
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Senior Consultant / Consultant - AI Strategy",
@@ -5005,7 +5124,7 @@
     "top20": false,
     "geo_score": 12,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -5090,8 +5209,8 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
+    "quality_bar_reject": true,
+    "quality_bar_reason": "Title contains sales",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 20,
@@ -5140,7 +5259,9 @@
     "top20": false,
     "geo_score": 20,
     "us_firm_apac": false,
-    "url_type": "direct"
+    "url_type": "direct",
+    "scanned_date": "2026-06-13",
+    "stale": false
   },
   {
     "title": "Product Lead - APAC Growth & Expansion",
@@ -5186,21 +5307,38 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
     "title": "Senior Product Manager, AI Automation",
     "company": "dtcpay",
     "location": "Singapore",
-    "salary": "",
+    "salary": "(est) 12-20K SGD/mo",
     "url": "https://www.linkedin.com/jobs/search/?keywords=dtcpay+senior+product+manager+AI+automation&location=Singapore",
     "source": "linkedin",
     "role_type": "Product Management",
     "description": "Senior PM for Internal/External Systems/AI Automation at dtcpay. Digital payment platform with AI focus.",
     "grade": "A-1",
     "grade_reason": "Senior PM, Singapore, AI + fintech/payments — excellent alignment with AI startup and fintech focus areas",
-    "scanned_date": "2026-06-15"
+    "scanned_date": "2026-06-15",
+    "location_norm": "Singapore",
+    "quality_score": 75,
+    "quality_tier": "B",
+    "score_breakdown": {
+      "yoe_match": 30,
+      "domain_match": 25,
+      "location_match": 10,
+      "english_match": 5,
+      "salary_match": 0,
+      "company_fit": 5
+    },
+    "low_quality": false,
+    "url_type": "search",
+    "english_friendly": true,
+    "stale": false,
+    "quality_bar_reject": false,
+    "quality_bar_reason": ""
   },
   {
     "title": "Senior Regional Commercial Development Manager (Strategy/Planning)",
@@ -5243,7 +5381,7 @@
     "top20": false,
     "geo_score": 12,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -5276,7 +5414,8 @@
     "us_firm_apac": false,
     "location_norm": "Shanghai",
     "url_type": "login_required",
-    "stale": false
+    "stale": false,
+    "english_friendly": false
   },
   {
     "title": "BD & Strategy Director/Senior Director - 核舟医药",
@@ -5308,7 +5447,8 @@
     "us_firm_apac": false,
     "location_norm": "Shanghai",
     "url_type": "login_required",
-    "stale": false
+    "stale": false,
+    "english_friendly": false
   },
   {
     "title": "集团产品线总监（P02/P03）- 中明科技",
@@ -5655,7 +5795,8 @@
     "us_firm_apac": false,
     "location_norm": "Shenzhen",
     "url_type": "login_required",
-    "stale": false
+    "stale": false,
+    "english_friendly": false
   },
   {
     "title": "Director - 上海",
@@ -5687,7 +5828,8 @@
     "us_firm_apac": false,
     "location_norm": "Shanghai",
     "url_type": "login_required",
-    "stale": false
+    "stale": false,
+    "english_friendly": false
   },
   {
     "title": "海外产品负责人（语音/直播）- 百度",
@@ -5907,7 +6049,7 @@
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 18,
@@ -5958,7 +6100,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -6005,7 +6147,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -6091,8 +6233,8 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn Search",
     "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
+    "quality_bar_reject": true,
+    "quality_bar_reason": "Title contains marketing",
     "sg_visa_likely": true,
     "sg_note": "Large company, visa sponsorship likely",
     "has_direct_apply": false,
@@ -6182,7 +6324,8 @@
     "us_firm_apac": false,
     "location_norm": "Singapore",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Director Product Management, APJ (AI/Cloud)",
@@ -6228,7 +6371,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -6270,7 +6413,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "location_norm": "Hong Kong",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Senior Product Manager (Marketplace)",
@@ -6311,7 +6455,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "location_norm": "Hong Kong",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Director/Managing Director - Singapore & SEA COO",
@@ -6364,14 +6509,31 @@
     "title": "AI产品经理 - 飞书多维表格",
     "company": "ByteDance",
     "location": "Shenzhen",
-    "salary": "",
+    "salary": "(est) 50-100K RMB/yr",
     "url": "https://www.linkedin.com/jobs/search/?keywords=ByteDance+AI+product+manager+Feishu+Shenzhen",
     "source": "linkedin",
     "role_type": "Product Management",
     "description": "AI Product Manager for Feishu Multidimensional Tables at ByteDance. AI-powered enterprise product.",
     "grade": "A-2",
     "grade_reason": "AI PM, Shenzhen, ByteDance enterprise AI — strong AI focus but may require Chinese fluency",
-    "scanned_date": "2026-06-15"
+    "scanned_date": "2026-06-15",
+    "location_norm": "Shenzhen",
+    "quality_score": 68,
+    "quality_tier": "C",
+    "score_breakdown": {
+      "yoe_match": 15,
+      "domain_match": 25,
+      "location_match": 15,
+      "english_match": 3,
+      "salary_match": 0,
+      "company_fit": 10
+    },
+    "low_quality": false,
+    "url_type": "search",
+    "english_friendly": false,
+    "stale": false,
+    "quality_bar_reject": false,
+    "quality_bar_reason": ""
   },
   {
     "title": "Payments - Banking as a Service / Payer ID - Product Management Senior Specialist",
@@ -6415,7 +6577,8 @@
     "us_firm_apac": true,
     "location_norm": "Hong Kong",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Director, Product Strategy & Growth",
@@ -6461,7 +6624,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -6550,7 +6713,8 @@
     "us_firm_apac": true,
     "location_norm": "Singapore",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Senior Product Manager, AI Transformation - Singapore",
@@ -6585,7 +6749,8 @@
     "us_firm_apac": true,
     "location_norm": "Singapore",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Product Director, Banking Engagement",
@@ -6628,7 +6793,9 @@
     "top20": false,
     "geo_score": 21,
     "us_firm_apac": true,
-    "url_type": "direct"
+    "url_type": "direct",
+    "scanned_date": "2026-06-13",
+    "stale": false
   },
   {
     "title": "Senior Product Manager, Trading (Crypto.com App)",
@@ -6669,7 +6836,8 @@
     "us_firm_apac": true,
     "location_norm": "Hong Kong",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Senior Product Manager, Digital Banking",
@@ -6709,7 +6877,7 @@
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 21,
@@ -6749,7 +6917,8 @@
     "us_firm_apac": false,
     "location_norm": "Singapore",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Outbound Product Manager, AI Operations",
@@ -6842,7 +7011,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -6889,7 +7058,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -6936,21 +7105,38 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
     "title": "Senior Product Manager, Fintech/Trading/Brokerage Platform",
     "company": "GRIT (Agency)",
     "location": "Singapore",
-    "salary": "",
+    "salary": "(est) 12-20K SGD/mo",
     "url": "https://www.linkedin.com/jobs/search/?keywords=GRIT+senior+product+manager+fintech+trading+Singapore",
     "source": "linkedin",
     "role_type": "Product Management",
     "description": "Senior PM for Fintech/Trading/Brokerage Platform. Agency search — actual company TBD.",
     "grade": "A-2",
     "grade_reason": "Senior PM, Singapore, fintech/trading — good match but agency-sourced so company unclear",
-    "scanned_date": "2026-06-15"
+    "scanned_date": "2026-06-15",
+    "location_norm": "Singapore",
+    "quality_score": 75,
+    "quality_tier": "B",
+    "score_breakdown": {
+      "yoe_match": 30,
+      "domain_match": 25,
+      "location_match": 10,
+      "english_match": 5,
+      "salary_match": 0,
+      "company_fit": 5
+    },
+    "low_quality": false,
+    "url_type": "search",
+    "english_friendly": true,
+    "stale": false,
+    "quality_bar_reject": false,
+    "quality_bar_reason": ""
   },
   {
     "title": "Senior Fiat Product Manager (GatePay)",
@@ -6963,20 +7149,53 @@
     "description": "Senior PM for GatePay fiat products at Gate.io. Crypto/fiat payment infrastructure.",
     "grade": "A-2",
     "grade_reason": "Senior PM, Singapore, crypto fiat payments — good fit but Gate is mid-tier exchange",
-    "scanned_date": "2026-06-15"
+    "scanned_date": "2026-06-15",
+    "location_norm": "Singapore",
+    "quality_bar_reject": true,
+    "quality_bar_reason": "Pure crypto role",
+    "quality_score": 0,
+    "quality_tier": "D",
+    "score_breakdown": {
+      "yoe_match": 30,
+      "domain_match": 25,
+      "location_match": 10,
+      "english_match": 5,
+      "salary_match": 0,
+      "company_fit": 5
+    },
+    "low_quality": true,
+    "english_friendly": true,
+    "stale": false
   },
   {
     "title": "Senior Product Manager, Trading",
     "company": "Gemini",
     "location": "Singapore",
-    "salary": "",
+    "salary": "(est) 12-20K SGD/mo",
     "url": "https://www.linkedin.com/jobs/search/?keywords=Gemini+senior+product+manager+Singapore",
     "source": "linkedin",
     "role_type": "Product Management",
     "description": "Senior PM at Gemini crypto exchange. Trading platform product management in Singapore.",
     "grade": "A-2",
     "grade_reason": "Senior PM, Singapore, crypto exchange — good alignment but trading-specific scope",
-    "scanned_date": "2026-06-15"
+    "scanned_date": "2026-06-15",
+    "location_norm": "Singapore",
+    "quality_score": 75,
+    "quality_tier": "B",
+    "score_breakdown": {
+      "yoe_match": 30,
+      "domain_match": 25,
+      "location_match": 10,
+      "english_match": 5,
+      "salary_match": 0,
+      "company_fit": 5
+    },
+    "low_quality": false,
+    "url_type": "search",
+    "english_friendly": true,
+    "stale": false,
+    "quality_bar_reject": false,
+    "quality_bar_reason": ""
   },
   {
     "title": "Strategy Consultant/Senior Manager (Healthcare)",
@@ -7057,8 +7276,8 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn Search",
     "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
+    "quality_bar_reject": true,
+    "quality_bar_reason": "Title contains marketing",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 12,
@@ -7149,7 +7368,7 @@
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 21,
@@ -7197,7 +7416,9 @@
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
-    "url_type": "direct"
+    "url_type": "direct",
+    "scanned_date": "2026-06-13",
+    "stale": false
   },
   {
     "title": "GTM Director（出海）",
@@ -7241,7 +7462,9 @@
     "top20": false,
     "geo_score": 20,
     "us_firm_apac": false,
-    "url_type": "direct"
+    "url_type": "direct",
+    "scanned_date": "2026-06-13",
+    "stale": false
   },
   {
     "title": "Head of Market Strategy ACM APAC",
@@ -7287,7 +7510,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -7334,7 +7557,9 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "direct"
+    "url_type": "direct",
+    "scanned_date": "2026-06-13",
+    "stale": false
   },
   {
     "title": "Senior Product Manager, Global Corporate Banking - Bank of China (Hong Kong)",
@@ -7366,7 +7591,8 @@
     "us_firm_apac": false,
     "location_norm": "Hong Kong",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Senior Product Manager",
@@ -7401,7 +7627,8 @@
     "us_firm_apac": false,
     "location_norm": "Singapore",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Senior Product Manager (Food Discovery)",
@@ -7436,7 +7663,8 @@
     "us_firm_apac": false,
     "location_norm": "Singapore",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "BNPL Product & Operations Lead (Europe Business)",
@@ -7512,7 +7740,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "location_norm": "Hong Kong",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Head of Strategic Capability & Strategy, Surgical Vision APAC",
@@ -7558,7 +7787,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -7602,21 +7831,38 @@
     "top20": false,
     "geo_score": 20,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
     "title": "Senior Product Manager, Platform & Internal Systems",
     "company": "Klook",
     "location": "Singapore",
-    "salary": "",
+    "salary": "(est) 12-20K SGD/mo",
     "url": "https://www.linkedin.com/jobs/search/?keywords=Klook+principal+product+manager+Singapore",
     "source": "linkedin",
     "role_type": "Product Management",
     "description": "Principal Product Manager at Klook, Southeast Asia's leading travel platform. Platform-level product leadership.",
     "grade": "A-2",
     "grade_reason": "Principal PM, Singapore, travel platform — strong seniority but travel-focused rather than fintech/crypto",
-    "scanned_date": "2026-06-15"
+    "scanned_date": "2026-06-15",
+    "location_norm": "Singapore",
+    "quality_score": 78,
+    "quality_tier": "B",
+    "score_breakdown": {
+      "yoe_match": 30,
+      "domain_match": 25,
+      "location_match": 10,
+      "english_match": 5,
+      "salary_match": 0,
+      "company_fit": 8
+    },
+    "low_quality": false,
+    "url_type": "search",
+    "english_friendly": true,
+    "stale": false,
+    "quality_bar_reject": false,
+    "quality_bar_reason": ""
   },
   {
     "title": "Vice President of Product Management",
@@ -7662,7 +7908,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -7709,7 +7955,7 @@
     "top20": false,
     "geo_score": 13,
     "us_firm_apac": true,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -7843,21 +8089,38 @@
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
     "title": "Product Director, Wealth Management",
     "company": "MetaComp",
     "location": "Hong Kong",
-    "salary": "",
+    "salary": "(est) 80-150K HKD/mo",
     "url": "https://www.linkedin.com/jobs/search/?keywords=MetaComp+product+director+wealth+management+Hong+Kong",
     "source": "linkedin",
     "role_type": "Product Management",
     "description": "Product Director for Wealth Management at MetaComp. Digital asset wealth management platform in HK.",
     "grade": "A-2",
     "grade_reason": "Director, HK, digital asset wealth management — good fit but wealth management specific",
-    "scanned_date": "2026-06-15"
+    "scanned_date": "2026-06-15",
+    "location_norm": "Hong Kong",
+    "quality_score": 82,
+    "quality_tier": "B",
+    "score_breakdown": {
+      "yoe_match": 30,
+      "domain_match": 25,
+      "location_match": 12,
+      "english_match": 5,
+      "salary_match": 0,
+      "company_fit": 10
+    },
+    "low_quality": false,
+    "url_type": "search",
+    "english_friendly": true,
+    "stale": false,
+    "quality_bar_reject": false,
+    "quality_bar_reason": ""
   },
   {
     "title": "APAC Strategic PMO Lead",
@@ -7900,7 +8163,7 @@
     "top20": false,
     "geo_score": 12,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -7944,7 +8207,7 @@
     "top20": false,
     "geo_score": 12,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -7988,7 +8251,9 @@
     "top20": false,
     "geo_score": 20,
     "us_firm_apac": false,
-    "url_type": "direct"
+    "url_type": "direct",
+    "scanned_date": "2026-06-13",
+    "stale": false
   },
   {
     "title": "Partner Strategy & Operations Lead",
@@ -9047,8 +9312,8 @@
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
+    "quality_bar_reject": true,
+    "quality_bar_reason": "Not in target cities: southeast asia (remote)",
     "url_type": "unknown",
     "has_direct_apply": false,
     "top20": false,
@@ -9153,27 +9418,61 @@
     "title": "Senior Product Manager, Risk Platform",
     "company": "OKX",
     "location": "Singapore",
-    "salary": "",
+    "salary": "(est) 12-20K SGD/mo",
     "url": "https://www.linkedin.com/jobs/search/?keywords=OKX+senior+product+manager+risk+platform+Singapore",
     "source": "linkedin",
     "role_type": "Product Management",
     "description": "Senior PM for Risk Platform at OKX. Crypto exchange risk management and platform infrastructure.",
     "grade": "A-2",
     "grade_reason": "Senior PM, Singapore, crypto risk platform — strong platform role but risk/compliance focused",
-    "scanned_date": "2026-06-15"
+    "scanned_date": "2026-06-15",
+    "location_norm": "Singapore",
+    "quality_score": 75,
+    "quality_tier": "B",
+    "score_breakdown": {
+      "yoe_match": 30,
+      "domain_match": 25,
+      "location_match": 10,
+      "english_match": 5,
+      "salary_match": 0,
+      "company_fit": 5
+    },
+    "low_quality": false,
+    "url_type": "search",
+    "english_friendly": true,
+    "stale": false,
+    "quality_bar_reject": false,
+    "quality_bar_reason": ""
   },
   {
     "title": "Product Operations Manager / Director, Institutional Product",
     "company": "OKX",
     "location": "Singapore",
-    "salary": "",
+    "salary": "(est) 10-18K SGD/mo",
     "url": "https://www.linkedin.com/jobs/search/?keywords=OKX+product+operations+director+institutional+Singapore",
     "source": "linkedin",
     "role_type": "Product Management",
     "description": "Product Operations Manager/Director for Institutional Product at OKX. Crypto institutional product leadership.",
     "grade": "A-2",
     "grade_reason": "Director-level, Singapore, crypto institutional — strong fit but title range is wide (Manager to Director)",
-    "scanned_date": "2026-06-15"
+    "scanned_date": "2026-06-15",
+    "location_norm": "Singapore",
+    "quality_score": 75,
+    "quality_tier": "B",
+    "score_breakdown": {
+      "yoe_match": 30,
+      "domain_match": 25,
+      "location_match": 10,
+      "english_match": 5,
+      "salary_match": 0,
+      "company_fit": 5
+    },
+    "low_quality": false,
+    "url_type": "search",
+    "english_friendly": true,
+    "stale": false,
+    "quality_bar_reject": false,
+    "quality_bar_reason": ""
   },
   {
     "title": "Director, Marketing Technology & Gen-AI Solutions (APAC)",
@@ -9210,26 +9509,45 @@
     "lifecycle_notes": [],
     "platform": "LinkedIn",
     "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
+    "quality_bar_reject": true,
+    "quality_bar_reason": "Title contains marketing",
     "has_direct_apply": true,
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
-    "url_type": "direct"
+    "url_type": "direct",
+    "scanned_date": "2026-06-13",
+    "stale": false
   },
   {
     "title": "Product Lead - Pricing",
     "company": "OSL",
     "location": "Singapore",
-    "salary": "",
+    "salary": "(est) 12-20K SGD/mo",
     "url": "https://www.linkedin.com/jobs/search/?keywords=OSL+product+lead+pricing+Singapore",
     "source": "linkedin",
     "role_type": "Product Management",
     "description": "Product Lead for Pricing at OSL (OKX). Crypto exchange pricing and institutional product.",
     "grade": "A-2",
     "grade_reason": "Product Lead, Singapore, crypto exchange pricing — senior role in crypto but pricing-specific scope",
-    "scanned_date": "2026-06-15"
+    "scanned_date": "2026-06-15",
+    "location_norm": "Singapore",
+    "quality_score": 75,
+    "quality_tier": "B",
+    "score_breakdown": {
+      "yoe_match": 30,
+      "domain_match": 25,
+      "location_match": 10,
+      "english_match": 5,
+      "salary_match": 0,
+      "company_fit": 5
+    },
+    "low_quality": false,
+    "url_type": "search",
+    "english_friendly": true,
+    "stale": false,
+    "quality_bar_reject": false,
+    "quality_bar_reason": ""
   },
   {
     "title": "Product Manager (Global Networking)",
@@ -9316,7 +9634,7 @@
     "top20": false,
     "geo_score": 12,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -9404,7 +9722,7 @@
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -9445,7 +9763,7 @@
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 21,
@@ -9587,7 +9905,7 @@
     "top20": false,
     "geo_score": 12,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -9634,7 +9952,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -9681,7 +9999,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -9729,7 +10047,9 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown"
+    "url_type": "search",
+    "scanned_date": "2026-06-14",
+    "stale": false
   },
   {
     "title": "Director, Digital Strategy & Business Development",
@@ -9772,7 +10092,7 @@
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false
   },
   {
@@ -9914,14 +10234,31 @@
     "title": "AI产品负责人 - AI智能体与低代码平台",
     "company": "沃尔玛(中国)",
     "location": "Shenzhen",
-    "salary": "",
+    "salary": "(est) 80-150K RMB/yr",
     "url": "https://www.linkedin.com/jobs/search/?keywords=Walmart+China+AI+product+leader+Shenzhen",
     "source": "linkedin",
     "role_type": "Product Management",
     "description": "AI Product Leader for AI agents and low-code platform at Walmart China. AI platform product leadership.",
     "grade": "A-2",
     "grade_reason": "Product Lead, Shenzhen, AI platform — strong AI focus but Chinese-language likely required",
-    "scanned_date": "2026-06-15"
+    "scanned_date": "2026-06-15",
+    "location_norm": "Shenzhen",
+    "quality_score": 63,
+    "quality_tier": "C",
+    "score_breakdown": {
+      "yoe_match": 15,
+      "domain_match": 25,
+      "location_match": 15,
+      "english_match": 3,
+      "salary_match": 0,
+      "company_fit": 5
+    },
+    "low_quality": false,
+    "url_type": "search",
+    "english_friendly": false,
+    "stale": false,
+    "quality_bar_reject": false,
+    "quality_bar_reason": ""
   },
   {
     "title": "资深产品经理(MJ001401) - 基克纳科技",
@@ -9953,7 +10290,8 @@
     "us_firm_apac": false,
     "location_norm": "Shenzhen",
     "url_type": "login_required",
-    "stale": false
+    "stale": false,
+    "english_friendly": false
   },
   {
     "title": "资深产品经理(MJ001401) - 基克纳科技 - 深圳",
@@ -9985,7 +10323,8 @@
     "us_firm_apac": false,
     "location_norm": "Shenzhen",
     "url_type": "login_required",
-    "stale": false
+    "stale": false,
+    "english_friendly": false
   },
   {
     "title": "产品经理（ehr、腾讯项目+线下面试） - 智联招聘",
@@ -10516,7 +10855,9 @@
     "top20": false,
     "geo_score": 20,
     "us_firm_apac": false,
-    "url_type": "direct"
+    "url_type": "direct",
+    "scanned_date": "2026-06-13",
+    "stale": false
   },
   {
     "title": "(Senior) Product Manager",
@@ -10557,7 +10898,8 @@
     "us_firm_apac": false,
     "location_norm": "Hong Kong",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Senior Product Manager (Trading)",
@@ -10598,7 +10940,8 @@
     "us_firm_apac": false,
     "location_norm": "Hong Kong",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Senior Product Manager, HK Business",
@@ -10639,7 +10982,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "location_norm": "Hong Kong",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Director, Loyalty Operations & Performance, APAC",
@@ -10656,8 +11000,12 @@
     "quality_score": 70,
     "quality_tier": "B",
     "location_norm": "Hong Kong",
-    "url_type": "unknown",
-    "stale": false
+    "url_type": "search",
+    "stale": false,
+    "english_friendly": true,
+    "low_quality": false,
+    "quality_bar_reject": false,
+    "quality_bar_reason": ""
   },
   {
     "title": "Director, Market & Growth (Academy)",
@@ -10701,7 +11049,8 @@
     "us_firm_apac": false,
     "location_norm": "Singapore",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "APAC Payments - Strategy - Executive Director",
@@ -10718,8 +11067,12 @@
     "quality_score": 70,
     "quality_tier": "B",
     "location_norm": "Hong Kong",
-    "url_type": "unknown",
-    "stale": false
+    "url_type": "search",
+    "stale": false,
+    "english_friendly": true,
+    "low_quality": false,
+    "quality_bar_reject": false,
+    "quality_bar_reason": ""
   },
   {
     "title": "Senior Product Manager, AI Gateway",
@@ -10780,8 +11133,12 @@
     "quality_score": 70,
     "quality_tier": "B",
     "location_norm": "Singapore",
-    "url_type": "unknown",
-    "stale": false
+    "url_type": "search",
+    "stale": false,
+    "english_friendly": true,
+    "low_quality": false,
+    "quality_bar_reject": false,
+    "quality_bar_reason": ""
   },
   {
     "title": "Senior Business Product Manager - SPX",
@@ -10798,8 +11155,12 @@
     "quality_score": 70,
     "quality_tier": "B",
     "location_norm": "Singapore",
-    "url_type": "unknown",
-    "stale": false
+    "url_type": "search",
+    "stale": false,
+    "english_friendly": true,
+    "low_quality": false,
+    "quality_bar_reject": false,
+    "quality_bar_reason": ""
   },
   {
     "title": "(Senior) Segment Manager (Cross Border Business)",
@@ -10840,7 +11201,8 @@
     "us_firm_apac": false,
     "location_norm": "Hong Kong",
     "url_type": "direct",
-    "stale": false
+    "stale": false,
+    "english_friendly": true
   },
   {
     "title": "Regional Head of Strategy, Insights and Data APAC",
@@ -10885,7 +11247,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "location_norm": "Hong Kong",
+    "location_norm": "Singapore",
     "url_type": "unknown",
     "stale": false
   },
@@ -12043,8 +12405,8 @@
     "app_platform": "other",
     "app_difficulty": "medium",
     "app_time_est": "10-15 min",
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
+    "quality_bar_reject": true,
+    "quality_bar_reason": "Not in target cities: remote",
     "url_type": "direct",
     "top20": false,
     "geo_score": 5,
