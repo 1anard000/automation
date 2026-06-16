@@ -61,6 +61,13 @@ a:hover{text-decoration:underline}
 .tier-b{color:#60a5fa}
 .tier-c{color:#fbbf24}
 .tier-d{color:#f87171}
+.source-breakdown{margin:20px 0;padding:16px;background:#1e293b;border-radius:12px;border:1px solid #334155}
+.source-breakdown h3{font-size:0.85rem;color:#94a3b8;margin-bottom:12px;text-transform:uppercase;letter-spacing:1px}
+.source-bars{display:flex;flex-wrap:wrap;gap:8px}
+.source-bar{display:flex;align-items:center;gap:6px;font-size:0.75rem}
+.source-bar .bar{height:20px;border-radius:4px;min-width:4px;transition:width 0.3s}
+.source-bar .count{color:#e2e8f0;font-weight:600;min-width:20px}
+.source-bar .name{color:#94a3b8;white-space:nowrap}
 .url-quality{margin:12px 0;padding:10px 16px;background:#1e293b;border-radius:8px;border:1px solid #334155;font-size:0.8rem;color:#94a3b8}
 .url-quality .good{color:#4ade80}
 .url-quality .bad{color:#f87171}
@@ -90,6 +97,11 @@ a:hover{text-decoration:underline}
 <div class="stat-card"><div class="num" id="aiCount">36</div><div class="label">Ai Product</div></div>
 <div class="stat-card"><div class="num" id="cbCount">34</div><div class="label">Cross Border</div></div>
 <div class="stat-card"><div class="num" id="stratCount">46</div><div class="label">Strategy</div></div>
+</div>
+
+<div class="source-breakdown">
+<h3>📊 Jobs by Source</h3>
+<div class="source-bars" id="sourceBars"></div>
 </div>
 
 <div class="filters">
@@ -205,6 +217,23 @@ function sortTable(col) {
 }
 
 ['search','filterGrade','filterCity','filterCategory','filterDifficulty','filterEnglish'].forEach(id => document.getElementById(id).addEventListener('input', filterData));
+
+// Source breakdown visualization
+const sourceColors = ['#38bdf8','#818cf8','#4ade80','#fb923c','#f472b6','#a78bfa','#2dd4bf','#fbbf24','#f87171','#67e8f9'];
+const sourceCounts = {};
+jobs.forEach(j => { const s = j.source || 'other'; sourceCounts[s] = (sourceCounts[s]||0) + 1; });
+const sorted = Object.entries(sourceCounts).sort((a,b) => b[1]-a[1]);
+const maxCount = sorted[0]?.[1] || 1;
+const barsEl = document.getElementById('sourceBars');
+if (barsEl) {
+  barsEl.innerHTML = sorted.slice(0,12).map(([name, count], i) => {
+    const pct = Math.round((count / maxCount) * 100);
+    const color = sourceColors[i % sourceColors.length];
+    const displayName = name.replace(/_/g, ' ');
+    return `<div class="source-bar"><div class="bar" style="width:${pct}px;background:${color}"></div><span class="count">${count}</span><span class="name">${displayName}</span></div>`;
+  }).join('');
+}
+
 renderTable(jobs);
 </script>
 </body>
