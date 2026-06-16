@@ -176,6 +176,24 @@
         "automation": 6,
         "coverage": 7
       }
+    },
+    {
+      "timestamp": "2026-06-17T03:00:43.916763",
+      "dimension": "career_strategy",
+      "task": "Refresh career-strategy.md for June 17-23 week — updated market intel, sector heat map, salary benchmarks, priority targets",
+      "status": "in_progress",
+      "score_before": 6,
+      "score_after": "pending",
+      "subagent": "builder-strategy-refresh-20260617"
+    },
+    {
+      "timestamp": "2026-06-17T03:00:00+08:00",
+      "dimension": "career_hub",
+      "task": "Create career-hub.html — curated resources for APAC senior tech roles: job boards, interview prep, salary research, networking, negotiation tactics",
+      "status": "completed",
+      "score_before": 0,
+      "score_after": 7,
+      "subagent": "nightly-improver-career-hub"
     }
   ],
   "current_scores": {
@@ -187,12 +205,12 @@
     "automation": 6,
     "coverage": 7
   },
-  "last_run": "2026-06-17T00:03:47.633296",
-  "last_dimension": "data_quality + dashboard",
+  "last_run": "2026-06-17T03:00:43.916766",
+  "last_dimension": "career_strategy",
   "last_task": "quality-improver alignment + dashboard rebuild",
   "scores": {
     "dashboard": 7,
-    "career_hub": 0,
+    "career_hub": 7,
     "data_quality": 5,
     "python_scripts": 6,
     "strategy": 6

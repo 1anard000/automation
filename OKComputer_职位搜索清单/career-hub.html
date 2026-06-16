@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Career Hub — Job Search Resources</title>
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --card: #12121a;
+    --border: #1e1e2e;
+    --accent: #6c5ce7;
+    --accent2: #00b894;
+    --accent3: #fdcb6e;
+    --text: #e0e0e0;
+    --muted: #888;
+    --link: #74b9ff;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 2rem;
+  }
+  .header {
+    text-align: center;
+    padding: 2rem 0 3rem;
+  }
+  .header h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+  }
+  .header p {
+    color: var(--muted);
+    font-size: 1rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: border-color 0.2s;
+  }
+  .card:hover { border-color: var(--accent); }
+  .card h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .card h2 .emoji { font-size: 1.3rem; }
+  .card ul { list-style: none; }
+  .card li {
+    padding: 0.4rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+  .card li:last-child { border: none; }
+  .card a {
+    color: var(--link);
+    text-decoration: none;
+    font-size: 0.92rem;
+  }
+  .card a:hover { text-decoration: underline; }
+  .card .desc {
+    color: var(--muted);
+    font-size: 0.82rem;
+    margin-top: 0.15rem;
+  }
+  .tag {
+    display: inline-block;
+    background: rgba(108, 92, 231, 0.15);
+    color: var(--accent);
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    margin-right: 0.3rem;
+  }
+  .tag.green { background: rgba(0,184,148,0.15); color: var(--accent2); }
+  .tag.gold { background: rgba(253,203,110,0.15); color: var(--accent3); }
+  .section-title {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    margin: 2rem 0 0.75rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .stat-row {
+    display: flex;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto 2rem;
+    flex-wrap: wrap;
+  }
+  .stat {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    flex: 1;
+    min-width: 140px;
+    text-align: center;
+  }
+  .stat .num {
+    font-size: 1.8rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .stat .label { color: var(--muted); font-size: 0.8rem; margin-top: 0.2rem; }
+  .updated {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.78rem;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  @media (max-width: 600px) {
+    body { padding: 1rem; }
+    .grid { grid-template-columns: 1fr; }
+    .header h1 { font-size: 1.8rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🎯 Career Hub</h1>
+  <p>Resources for Senior Tech Roles — APAC Focus (SG / HK / SZ / SH)</p>
+</div>
+
+<div class="stat-row">
+  <div class="stat"><div class="num">288</div><div class="label">Jobs Tracked</div></div>
+  <div class="stat"><div class="num">24</div><div class="label">Sources</div></div>
+  <div class="stat"><div class="num">6</div><div class="label">Locations</div></div>
+  <div class="stat"><div class="num">135</div><div class="label">A-1 Grade</div></div>
+</div>
+
+<!-- Job Search Tools -->
+<div class="section-title">🔍 Job Search Platforms</div>
+<div class="grid">
+  <div class="card">
+    <h2><span class="emoji">💼</span> Primary Boards</h2>
+    <ul>
+      <li><a href="https://www.linkedin.com/jobs/search/?keywords=&location=Singapore&f_TPR=r604800" target="_blank">LinkedIn Jobs — Singapore</a><div class="desc">92 jobs sourced. Best for fintech/crypto roles.</div></li>
+      <li><a href="https://www.linkedin.com/jobs/search/?keywords=&location=Hong+Kong&f_TPR=r604800" target="_blank">LinkedIn Jobs — Hong Kong</a><div class="desc">75 HK roles tracked.</div></li>
+      <li><a href="https://hk.indeed.com/" target="_blank">Indeed HK</a><div class="desc">15 jobs sourced. Good for local postings.</div></li>
+      <li><a href="https://hk.jobsdb.com/" target="_blank">JobsDB Hong Kong</a><div class="desc">7 sourced. Strong for APAC companies.</div></li>
+      <li><a href="https://www.liepin.com/" target="_blank">猎聘 (Liepin)</a><div class="desc">6 sourced. China-based senior roles.</div></li>
+      <li><a href="https://www.zhipin.com/" target="_blank">BOSS直聘</a><div class="desc">25 sourced. Direct hiring manager contact.</div></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2><span class="emoji">🚀</span> Niche & Crypto</h2>
+    <ul>
+      <li><a href="https://crypto.jobs/" target="_blank">Crypto Jobs List</a><div class="desc">Web3 and blockchain roles.</div></li>
+      <li><a href="https://www.himalayas.app/jobs" target="_blank">Himalayas</a><div class="desc">Remote-friendly, transparent companies.</div></li>
+      <li><a href="https://efinancialcareers.com" target="_blank">eFinancialCareers</a><div class="desc">Finance + tech crossover roles.</div></li>
+      <li><a href="https://www.glassdoor.com/Job/" target="_blank">Glassdoor</a><div class="desc">Salary intel + company reviews.</div></li>
+      <li><a href="https://ai-jobs.net/" target="_blank">AI-Jobs.net</a><div class="desc">ML/AI focused positions.</div></li>
+      <li><a href="https://www.workatastartup.com/jobs" target="_blank">YC Work at a Startup</a><div class="desc">Startup roles from YC companies.</div></li>
+    </ul>
+  </div>
+</div>
+
+<!-- Career Strategy -->
+<div class="section-title">🧠 Strategy & Market Intel</div>
+<div class="grid">
+  <div class="card">
+    <h2><span class="emoji">📊</span> APAC Tech Market</h2>
+    <ul>
+      <li><a href="https://www.levels.fyi/t/software-engineer/locations/asia-pacific" target="_blank">Levels.fyi — APAC Compensation</a><div class="desc">Benchmark your comp across SG, HK, CN.</div></li>
+      <li><a href="https://www.techinasia.com/jobs" target="_blank">Tech in Asia — Jobs & News</a><div class="desc">APAC startup ecosystem intel.</div></li>
+      <li><a href="https://www.bloomberg.com/asia" target="_blank">Bloomberg Asia</a><div class="desc">Market moves, hiring trends.</div></li>
+      <li><a href="https://www.mpkj.gov.my/mdec/digital-economy" target="_blank">MDEC Digital Economy</a><div class="desc">Malaysia tech scene overview.</div></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2><span class="emoji">🏢</span> Company Research</h2>
+    <ul>
+      <li><a href="https://www.glassdoor.com/Reviews/" target="_blank">Glassdoor Reviews</a><div class="desc">Interview experiences + culture intel.</div></li>
+      <li><a href="https://www.teamblind.com/" target="_blank">Blind (Teamblind)</a><div class="desc">Anonymous insider discussions.</div></li>
+      <li><a href="https://www.comparably.com/" target="_blank">Comparably</a><div class="desc">CEO ratings, culture scores.</div></li>
+      <li><a href="https://pitchbook.com/" target="_blank">PitchBook</a><div class="desc">Startup funding data. Know who's raising.</div></li>
+    </ul>
+  </div>
+</div>
+
+<!-- Interview Prep -->
+<div class="section-title">🎯 Interview Preparation</div>
+<div class="grid">
+  <div class="card">
+    <h2><span class="emoji">💻</span> Technical Prep</h2>
+    <ul>
+      <li><a href="https://leetcode.com/" target="_blank">LeetCode</a><div class="desc">Coding challenges. Focus on system design at senior level.</div></li>
+      <li><a href="https://www.tryexponent.com/" target="_blank">Exponent</a><div class="desc">PM & tech interview prep. Case studies.</div></li>
+      <li><a href="https://interviewing.io/" target="_blank">interviewing.io</a><div class="desc">Anonymous mock interviews with engineers.</div></li>
+      <li><a href="https://www.educative.io/courses/grokking-the-system-design-interview" target="_blank">Grokking System Design</a><div class="desc">System design interview bible.</div></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2><span class="emoji">🗣️</span> Behavioral & Leadership</h2>
+    <ul>
+      <li><a href="https://www.manager-tools.com/" target="_blank">Manager Tools</a><div class="desc">Management interview frameworks.</div></li>
+      <li><a href="https://star-method.com/" target="_blank">STAR Method Guide</a><div class="desc">Structure behavioral answers.</div></li>
+      <li><a href="https://hbr.org/topic/subject/self-management" target="_blank">HBR — Self-Management</a><div class="desc">Leadership topics for exec-level questions.</div></li>
+    </ul>
+  </div>
+</div>
+
+<!-- Networking -->
+<div class="section-title">🤝 Networking & Community</div>
+<div class="grid">
+  <div class="card">
+    <h2><span class="emoji">🌐</span> APAC Tech Communities</h2>
+    <ul>
+      <li><a href="https://www.meetup.com/topics/technology/hk/" target="_blank">Meetup — HK Tech</a><div class="desc">Local tech meetups and events.</div></li>
+      <li><a href="https://www.meetup.com/topics/technology/sg/" target="_blank">Meetup — SG Tech</a><div class="desc">Singapore tech community.</div></li>
+      <li><a href="https://sg.slack.com/" target="_blank">SG Tech Slack</a><div class="desc">Singapore tech Slack workspace.</div></li>
+      <li><a href="https://www.producthunt.com/" target="_blank">Product Hunt</a><div class="desc">Find founders, launch products, network.</div></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2><span class="emoji">✍️</span> Personal Brand</h2>
+    <ul>
+      <li><a href="https://twitter.com/" target="_blank">X / Twitter</a><div class="desc">Share insights, build public presence.</div></li>
+      <li><a href="https://www.linkedin.com/in/" target="_blank">LinkedIn Profile</a><div class="desc">Optimize headline, open to work, activity.</div></li>
+      <li><a href="https://github.com/" target="_blank">GitHub</a><div class="desc">Side projects demonstrate capability.</div></li>
+      <li><a href="https://substack.com/" target="_blank">Substack</a><div class="desc">Write about your domain expertise.</div></li>
+    </ul>
+  </div>
+</div>
+
+<!-- Salary & Negotiation -->
+<div class="section-title">💰 Compensation & Negotiation</div>
+<div class="grid">
+  <div class="card">
+    <h2><span class="emoji">📈</span> Salary Research</h2>
+    <ul>
+      <li><a href="https://www.levels.fyi/" target="_blank">Levels.fyi</a><div class="desc">Crowdsourced comp data by level.</div></li>
+      <li><a href="https://www.payscale.com/" target="_blank">Payscale</a><div class="desc">Market salary data + negotiation tips.</div></li>
+      <li><a href="https://www.comparisonwise.com/" target="_blank">ComparisonWise</a><div class="desc">Compare offers side-by-side.</div></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2><span class="emoji">📋</span> Negotiation Tactics</h2>
+    <ul>
+      <li><a href="https://hbr.org/2014/04/10-rules-for-negotiating-a-job-offer" target="_blank">HBR — 10 Rules for Negotiating</a><div class="desc">Harvard-backed negotiation framework.</div></li>
+      <li><a href="https://www.kalzumeus.com/2012/01/23/salary-negotiation/" target="_blank">Kalzumeus — Salary Negotiation</a><div class="desc">The definitive tech salary negotiation guide.</div></li>
+      <li><a href="https://www.shrm.org/topics-tools/news/talent-acquisition/does-pay-transparency-help-candidates" target="_blank">SHRM — Pay Transparency</a><div class="desc">Understand your market position.</div></li>
+    </ul>
+  </div>
+</div>
+
+<!-- Quick Actions -->
+<div class="section-title">⚡ Quick Actions</div>
+<div class="grid">
+  <div class="card">
+    <h2><span class="emoji">📅</span> This Week's Focus</h2>
+    <ul>
+      <li><span class="tag gold">Priority</span> Apply to top 5 A-1 graded jobs <a href="job-database-senior.html">→ View</a></li>
+      <li><span class="tag green">Research</span> Deep-dive OKX, Airwallex, Crypto.com cultures</li>
+      <li><span class="tag">Prep</span> 2 mock system design sessions</li>
+      <li><span class="tag">Network</span> Reach out to 3 contacts at target companies</li>
+      <li><span class="tag green">Update</span> Refresh LinkedIn with recent project wins</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2><span class="emoji">🔗</span> Your Dashboard</h2>
+    <ul>
+      <li><a href="dashboard.html">📊 Job Dashboard</a><div class="desc">Full job listing with filters and grades.</div></li>
+      <li><a href="job-database-senior.html">🎯 Senior Roles View</a><div class="desc">Curated senior-level positions.</div></li>
+      <li><a href="index.html">📋 Full Database</a><div class="desc">All 288 tracked positions.</div></li>
+    </ul>
+  </div>
+</div>
+
+<div class="updated">
+  Last updated: June 17, 2026 · Auto-generated by Career OS Nightly Improver
+</div>
+
+</body>
+</html>
