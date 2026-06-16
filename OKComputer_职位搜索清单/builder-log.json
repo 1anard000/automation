@@ -161,6 +161,21 @@
       "score_before": 6,
       "score_after": 7,
       "subagent": "nightly-improver-data-cleanup"
+    },
+    {
+      "timestamp": "2026-06-17T00:03:47.633292",
+      "dimension": "data_quality + dashboard",
+      "task": "quality-improver.py: align 632->260 jobs, fix companies/salary/URLs, rebuild dashboard",
+      "result": "260 aligned jobs, 47 Tier A, 179 Tier B, 45 direct URLs, 180 salary estimates, 4 company fixes",
+      "scores_after": {
+        "data_quality": 7,
+        "dashboard": 7,
+        "career_strategy": 6,
+        "python_scripts": 7,
+        "crm": 7,
+        "automation": 6,
+        "coverage": 7
+      }
     }
   ],
   "current_scores": {
@@ -172,9 +187,9 @@
     "automation": 6,
     "coverage": 7
   },
-  "last_run": "2026-06-17T00:01:14.858438",
-  "last_dimension": "data_quality",
-  "last_task": "Cleaned 19 search-result junk entries + fixed 4 zero-score jobs; data_quality 6→7",
+  "last_run": "2026-06-17T00:03:47.633296",
+  "last_dimension": "data_quality + dashboard",
+  "last_task": "quality-improver alignment + dashboard rebuild",
   "scores": {
     "dashboard": 7,
     "career_hub": 0,

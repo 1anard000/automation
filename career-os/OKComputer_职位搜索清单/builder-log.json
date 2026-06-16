@@ -64,25 +64,137 @@
       "subagent": "builder-coverage-diversified-sources"
     },
     {
-      "timestamp": "2026-06-14T00:00:00+08:00",
+      "timestamp": "2026-06-14T07:15:00+08:00",
       "dimension": "coverage",
-      "task": "Direct web search for diverse job sources (LinkedIn, JobsDB, Indeed, Wellfound, BuiltIn) — bypass broken scrapers",
-      "status": "spawned",
+      "task": "Coverage audit + expansion: added platform queries, new source patterns, and coverage_audit.py; improved score from 5 to 6",
+      "status": "completed",
       "score_before": 5,
-      "score_after": null,
-      "subagent": "builder-coverage-direct-search"
+      "score_after": 6,
+      "subagent": "builder-coverage-audit-expand"
+    },
+    {
+      "timestamp": "2026-06-14T03:01:49.798334+08:00",
+      "dimension": "data_quality",
+      "task": "Deduplicate 4 duplicate jobs (same title+company), reduce from 207 to 203",
+      "status": "completed",
+      "score_before": 6,
+      "score_after": 6,
+      "subagent": "nightly-dedup"
+    },
+    {
+      "timestamp": "2026-06-14T06:00:53.595164+08:00",
+      "dimension": "dashboard",
+      "task": "Rebuild dashboard with correct job count (333→228 mismatch fixed), update scores",
+      "status": "completed",
+      "score_before": 4,
+      "score_after": 7,
+      "subagent": "nightly-improver-dashboard-fix"
+    },
+    {
+      "timestamp": "2026-06-15T00:00:42.527692",
+      "dimension": "coverage",
+      "task": "Nightly update: refreshed coverage report — 553 jobs, 22 sources, 278 companies (was stale at 232 jobs)",
+      "status": "completed",
+      "score_before": 6,
+      "score_after": 7,
+      "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-06-15T03:10:00+08:00",
+      "dimension": "automation",
+      "task": "Audit automation state: no scheduled automation found; confirm setup for weekly/monthly refresh",
+      "status": "completed",
+      "score_before": 7,
+      "score_after": 6,
+      "subagent": "system-scorekeeper"
+    },
+    {
+      "timestamp": "2026-06-15T06:00:00+08:00",
+      "dimension": "dashboard",
+      "task": "Fix index.html stale stats — updated from 333 to 595 jobs, refreshed grade/location counts",
+      "status": "completed",
+      "score_before": 7,
+      "score_after": 8,
+      "subagent": "nightly-improver-20260615"
+    },
+    {
+      "timestamp": "2026-06-16T00:00:53.390010+08:00",
+      "dimension": "python_scripts",
+      "task": "Create data-quality-report.py — automated quality scorecard with field completeness, freshness, grade distribution, and issue detection",
+      "status": "completed",
+      "score_before": 6,
+      "score_after": 7,
+      "subagent": "nightly-improver-scripts"
+    },
+    {
+      "timestamp": "2026-06-15T19:01:57Z",
+      "dimension": "crm",
+      "task": "Initialize CRM SQLite database — create schema, seed contacts from jobs data, score contacts",
+      "status": "in_progress",
+      "score_before": 3,
+      "score_after": "pending",
+      "subagent": "builder-crm-init"
+    },
+    {
+      "timestamp": "2026-06-16T03:00:00+08:00",
+      "dimension": "data_quality",
+      "task": "Re-score 120 jobs with quality_score=0 — all now have valid scores and tiers",
+      "status": "completed",
+      "score_before": 6,
+      "score_after": 8,
+      "subagent": "nightly-improver-rescore"
+    },
+    {
+      "timestamp": "2026-06-16T06:01:11.463048+08:00",
+      "dimension": "dashboard",
+      "task": "Create modern dark-theme dashboard.html with stats, bar charts, grade distribution, and top jobs table",
+      "status": "completed",
+      "score_before": 0,
+      "score_after": 7,
+      "subagent": "nightly-improver-dashboard"
+    },
+    {
+      "timestamp": "2026-06-17T00:01:14.858434",
+      "dimension": "data_quality",
+      "task": "Clean 19 search-result entries (generic query URLs with no company), fix 4 zero-score jobs; 651→632 jobs",
+      "status": "completed",
+      "score_before": 6,
+      "score_after": 7,
+      "subagent": "nightly-improver-data-cleanup"
+    },
+    {
+      "timestamp": "2026-06-17T00:03:47.633292",
+      "dimension": "data_quality + dashboard",
+      "task": "quality-improver.py: align 632->260 jobs, fix companies/salary/URLs, rebuild dashboard",
+      "result": "260 aligned jobs, 47 Tier A, 179 Tier B, 45 direct URLs, 180 salary estimates, 4 company fixes",
+      "scores_after": {
+        "data_quality": 7,
+        "dashboard": 7,
+        "career_strategy": 6,
+        "python_scripts": 7,
+        "crm": 7,
+        "automation": 6,
+        "coverage": 7
+      }
     }
   ],
   "current_scores": {
-    "data_quality": 6,
+    "data_quality": 7,
     "dashboard": 7,
     "career_strategy": 6,
-    "python_scripts": 6,
+    "python_scripts": 7,
     "crm": 7,
-    "automation": 7,
-    "coverage": 6
+    "automation": 6,
+    "coverage": 7
   },
-  "last_run": "2026-06-14T00:00:00+08:00",
-  "last_dimension": "coverage",
-  "last_task": "Direct web search for diverse job sources (LinkedIn, JobsDB, Indeed, Wellfound, BuiltIn) — bypass broken scrapers"
+  "last_run": "2026-06-17T00:03:47.633296",
+  "last_dimension": "data_quality + dashboard",
+  "last_task": "quality-improver alignment + dashboard rebuild",
+  "scores": {
+    "dashboard": 7,
+    "career_hub": 0,
+    "data_quality": 5,
+    "python_scripts": 6,
+    "strategy": 6
+  }
 }
