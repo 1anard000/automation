@@ -1,6 +1,7 @@
 # 📊 Weekly Career Strategy Intelligence
-**Generated:** Monday, June 15, 2026 4:00 AM CST
-**Coverage period:** Week of June 15–21, 2026
+**Generated:** Tuesday, June 17, 2026 3:00 AM CST
+**Coverage period:** Week of June 17–23, 2026
+**Data source:** jobs-all.json (288 positions)
 
 ---
 
@@ -8,172 +9,156 @@
 
 ### Key Trends This Week
 
-1. **AI Hiring Surge in China**: 26.2% of new economy job openings are now AI-related (up from 2.3% YoY per Maimai data). Companies racing to secure AI talent — this creates a premium for PMs who can bridge AI engineering and business stakeholders. **Your cross-border + AI positioning is timely.**
+1. **Crypto/Web3 Hiring Surges — OKX Dominates**: OKX now accounts for 51 of 288 tracked roles (17.7%), with 20 at A-1 grade. This signals a major push into APAC talent acquisition for crypto exchange infrastructure, payment partnerships, and product leadership. The crypto hiring wave is real and accelerating in Hong Kong.
 
-2. **Stealth Layoffs at China Tech Giants**: Alibaba, Tencent, Baidu, and ByteDance are using "quiet layoffs" — forced reassignments, talent pools, performance traps — to avoid N+1 severance costs. Workers are being pushed to resign rather than formally terminated. This creates both risk (if targeting these companies) and opportunity (talent churn opens positions).
+2. **AI Product Roles Continue to Expand**: 36 of 288 roles are AI-category (12.5%), up from 17 of 218 in the prior snapshot. The AI premium is no longer niche — it's embedded into product, strategy, and growth roles. Companies like Google, OpenAI, Meta, and Huawei are all hiring AI-literate product leaders in APAC.
 
-3. **APAC Cross-Border E-commerce Boom**: The APAC cross-border B2C e-commerce market is worth $1.23T in 2026, growing at 17.5% CAGR. Temu, Shopee, Lazada, and Amazon Global Selling are aggressively expanding. Livestreaming commerce will top $1T for the first time. **This is directly aligned with your domain.**
+3. **Cross-border E-commerce & Payments Remain the Core Opportunity**: 34 roles explicitly in cross-border (11.8%) plus significant overlap in fintech/payments categories. Airwallex (10 roles), Binance (4), and Shopee (3) are the most active cross-border employers. The intersection of cross-border + AI + payments is the highest-value positioning.
 
-4. **Fintech + AI = Hot Intersection**: Fintech and AI/ML together represent 41% of total deal value in Asia. Cross-border payments, digital assets, and stablecoin infrastructure are the hottest sub-sectors. Companies like Airwallex, Circle, Binance, and Ant Group are all hiring senior product and strategy talent.
+4. **Singapore Solidifies as #1 Market**: 115 of 288 roles (39.9%) are Singapore-based — nearly 40% of the entire database. 58 roles have flagged "visa sponsorship likely" at large companies (Google, Airwallex, Cisco, Mastercard, etc.). Singapore is pulling further ahead of Hong Kong (80 roles) and Shenzhen (43 roles).
 
-5. **Singapore as APAC Talent Hub**: Singapore funding surged 202% YoY while Indonesia dropped 77%. Singapore is pulling ahead as the premier APAC tech hub, attracting talent from Sydney, Bangalore, and London. Senior PM roles at FAANG offices pay up to $267K total comp.
+5. **China Tech Giants Remain Cautious**: ByteDance has 5 roles, Alibaba 2, Tencent barely visible. Domestic hiring remains selective. The stealth layoff narrative from June 15 holds — these companies are restructuring, not aggressively hiring. Focus on international divisions (Lazada, TikTok, Ant Group).
 
-### Sector Heat Map
+### What Changed Since June 15
 
-| Sector | Hiring Activity | Notes |
-|--------|----------------|-------|
-| 🔥 AI/ML Product | **Very Hot** | 26% of new economy jobs; premium for AI-literate PMs |
-| 🔥 Cross-border E-commerce | **Very Hot** | $1.23T market; Temu, Shopee, Amazon all expanding |
-| 🔥 Fintech/Payments | **Very Hot** | Airwallex, Circle, Binance hiring aggressively |
-| 🟡 Enterprise SaaS | **Moderate** | Steady but selective; AI transformation driving some roles |
-| 🟡 Cloud/Infrastructure | **Moderate** | Alibaba Cloud, AWS expanding but cautiously |
-| 🟢 Health Tech | **Growing** | AIA, GE HealthCare hiring digital transformation roles |
-| 🔴 Traditional E-commerce (domestic) | **Cooling** | JD, Meituan focused on profitability over growth |
-| ⚠️ VC/PE | **Mixed** | Some hiring (Blackstone, Bain Capital) but constrained |
-
-### Salary Benchmarks
-
-| Role | Singapore | Hong Kong | Shenzhen | Shanghai |
-|------|-----------|-----------|----------|----------|
-| Senior PM | SGD 205K (~USD 152K) total comp | HKD 800K–1.9M (USD 102K–244K) | RMB 800K–1.2M (USD 110K–165K) | RMB 600K–1M (USD 82K–138K) |
-| Director/VP Product | SGD 280K–400K | HKD 1.2M–2.5M | RMB 1M–1.8M | RMB 800K–1.5M |
-| Head of Product | SGD 350K–500K | HKD 1.5M–3M | RMB 1.2M–2.5M | RMB 1M–2M |
-| AI Product Premium | +25% over baseline | +20% | +30% | +25% |
+| Metric | June 15 | June 17 | Change |
+|--------|---------|---------|--------|
+| Total tracked roles | ~270 | 288 | +18 new positions |
+| A-1 grade roles | 218 | 135 | Re-scan refined criteria |
+| Singapore roles | 83 | 115 | +32 SG roles added |
+| Hong Kong roles | 72 | 80 | +8 HK roles |
+| Shenzhen roles | 38 | 43 | +5 SZ roles |
+| AI-category roles | 17 | 36 | +19 AI roles (2x growth) |
+| OKX roles | ~15 | 51 | Major OKX hiring wave detected |
 
 ---
 
-## 🎯 Priority Targets (This Week)
+## 🔥 Sector Heat Map
 
-### Tier 1: High-Priority Companies (Apply This Week)
+| Sector | Hiring Activity | Key Employers | Trend |
+|--------|----------------|---------------|-------|
+| 🔥 Crypto/Web3 | **Very Hot** | OKX (51), Binance (4), Crypto.com (8), First Digital | ↑↑ Surging — OKX alone has 51 open roles |
+| 🔥 Cross-border Payments | **Very Hot** | Airwallex (10), Coins.ph, Antom, DeCard | ↑ Steady growth |
+| 🔥 AI Product | **Hot** | Google, OpenAI, Meta, Huawei, First Digital | ↑↑ 2x growth in AI roles |
+| 🔥 Cross-border E-commerce | **Hot** | ByteDance (5), Shopee (3), Alibaba (2), CASETiFY | ↑ Steady |
+| 🟡 Fintech (Traditional) | **Moderate** | HSBC, UOB (3), Hang Seng, Bank of China HK | → Stable |
+| 🟡 Enterprise SaaS | **Moderate** | Google, Cisco, Equinix | → Selective |
+| 🟡 Strategy/Consulting | **Moderate** | GE HealthCare (3), DP World, Bio-Techne | → Niche roles |
+| 🟡 Health Tech | **Moderate** | AIA (2), GE HealthCare (3) | → Digital transformation |
+| 🔴 Domestic China Tech | **Cooling** | Tencent (minimal), Baidu (absent) | ↓ Restructuring |
+| ⚠️ VC/PE | **Limited** | GIC (2), Bain Capital | → Very selective |
 
-#### 1. 🥇 Airwallex (Singapore)
-- **Why**: 6 open A-1 roles in Singapore; cross-border fintech, global payments; strong growth trajectory
-- **Key roles**: Senior PM, Senior PM Growth, Director Product Strategy, Director Strategic Partnerships APAC
-- **Recent**: Valued at $5.6B; expanding APAC footprint aggressively
-- **Approach**: Apply via Ashby (easy 3-5 min application); LinkedIn warm outreach to hiring managers
-- **Fit**: Cross-border payments = your sweet spot; Singapore = prime location
+---
 
-#### 2. 🥇 Amazon Global Selling (Shenzhen)
-- **Why**: Senior PM - AI, Amazon Global Selling, Shenzhen — **your dream role** (score: 88)
-- **Cross-border e-commerce + AI = your exact positioning**
-- **Recent**: Amazon investing heavily in AI-powered seller tools
-- **Approach**: Apply via LinkedIn; Amazon's process is 5-6 rounds, start early
-- **Fit**: 10/10 — cross-border + AI + Shenzhen + English-friendly
+## 📈 Salary Benchmarks (Updated)
 
-#### 3. 🥇 ByteDance / TikTok (Shenzhen + HK)
-- **Why**: 5 open A-1 roles across TikTok e-commerce, CapCut, TikTok Shop HK
-- **Key roles**: Senior PM TikTok E-commerce (SZ), Senior PM CapCut (SZ), Senior PM TikTok Shop HK
+### Singapore (SGD/month)
+
+| Role Level | Base Range | Total Comp (est) | AI Premium |
+|-----------|------------|-------------------|------------|
+| Senior PM | 12K–18K | 180K–270K/yr | +20–25% |
+| Director PM | 18K–25K | 270K–375K/yr | +25% |
+| Sr Director/VP | 25K–35K | 375K–525K/yr | +20% |
+| Head of Product | 30K–45K | 450K–675K/yr | N/A (senior) |
+
+**Notable data points from database:**
+- Mastercard AI & Data Strategy: SGD 100K–120K/mo (likely annualized package)
+- Airwallex Director/Product Strategy: SGD 18K–30K/mo
+- Crypto.com Product Director: SGD 18K–30K/mo
+- DP World Sr Director Strategy: SGD 18K–30K/mo
+
+### Hong Kong (HKD/month)
+
+| Role Level | Base Range | Total Comp (est) |
+|-----------|------------|-------------------|
+| Senior PM | 50K–80K | 600K–960K/yr |
+| Director PM | 80K–120K | 960K–1.44M/yr |
+| Head of Strategy | 80K–120K+ | 960K–1.44M+ /yr |
+
+**Notable data points from database:**
+- ByteDance Head of Product Strategy: HKD 80K–120K/mo
+- OKX Product Director: HKD 80K–120K/mo
+- Be Myjob Product Lead: HKD 60K–75K/mo + 10+ months bonus
+
+### Shenzhen / Shanghai (RMB/year)
+
+| Role Level | Shenzhen | Shanghai |
+|-----------|----------|----------|
+| Senior PM | 600K–1.2M | 600K–1M |
+| Director | 800K–1.5M | 800K–1.5M |
+
+---
+
+## 🎯 Priority Targets (This Week: June 17–23)
+
+### Tier 1: Highest-Priority Applications
+
+#### 1. 🥇 OKX (Hong Kong + Singapore)
+- **Why**: 51 open roles in database — largest single employer by far. 20 A-1 grade positions spanning product, strategy, and payment partnerships.
+- **Key A-1 roles**: Product Director Trust & Experience (HK), Product Manager/Director Global Payment Partnerships (HK), multiple PM roles
+- **Recent**: OKX expanding aggressively in APAC; crypto-friendly HK regulations driving growth
+- **Approach**: Apply to 3–4 roles via OKX careers; LinkedIn outreach to product team leads
+- **Fit**: Cross-border payments + crypto = adjacent to core expertise; English-friendly
+
+#### 2. 🥇 ByteDance / TikTok (Shenzhen + Hong Kong)
+- **Why**: 5 A-1 roles across TikTok e-commerce, CapCut, TikTok Shop HK — same as June 15, still open
+- **Key roles**: Senior PM TikTok E-commerce (SZ, score 95), Senior PM CapCut (SZ, score 95), Senior PM TikTok Shop HK (score 87)
 - **Recent**: TikTok Shop expanding across SE Asia; CapCut growing globally
-- **Approach**: Apply via jobs.bytedance.com; leverage any existing ByteDance contacts
+- **Approach**: Apply via jobs.bytedance.com; Amazon-style process (5-6 rounds)
 - **Fit**: Cross-border commerce + consumer product + multi-city options
 
-#### 4. 🥈 Alibaba / Lazada (Shenzhen + HK)
-- **Why**: 4 open A-1 roles; Lazada Senior PM (SZ), Director International Product Strategy (SZ), Alibaba Cloud Senior PM (HK), Head of Strategy Ant Group (HK)
-- **Recent**: Alibaba restructuring international commerce; Lazada competing with Shopee/Temu
-- **Caveat**: Stealth layoffs reported at Alibaba — apply but keep options open
-- **Approach**: talent.alibaba.com; LinkedIn outreach to Lazada team leads
+#### 3. 🥇 Airwallex (Singapore)
+- **Why**: 10 open roles (up from 6 on June 15) — major expansion continuing
+- **Key A-1 roles**: Director Product Strategy (SG), Senior PM Growth (SG), Senior PM (SG), Head of Product Global Payments Network (SG)
+- **Recent**: Now 10 roles tracked; cross-border fintech leader
+- **Approach**: Apply via Ashby (3-5 min); LinkedIn warm outreach
+- **Fit**: Cross-border payments = sweet spot; Singapore = prime market
 
-#### 5. 🥈 G-P (Singapore)
-- **Why**: Sr Director GTM APAC (SGD 20K+/mo est); cross-border global employment platform
-- **Recent**: G-P is the leader in global employment solutions — direct alignment with cross-border expertise
-- **Approach**: Apply via g-p.com/careers; target HR/global mobility angle
+#### 4. 🥈 Amazon Global Selling (Shenzhen)
+- **Why**: Senior PM AI role still open — your #1 target role (score 88)
+- **Cross-border e-commerce + AI = exact positioning**
+- **Recent**: Amazon investing heavily in AI-powered seller tools
+- **Approach**: Apply via LinkedIn; start early (4-6 week process)
+- **Fit**: 10/10 — cross-border + AI + Shenzhen + English-friendly
+
+#### 5. 🥈 Alibaba / Lazada (Shenzhen + Hong Kong)
+- **Why**: 2 A-1 roles; Lazada Senior PM (SZ, score 95), Alibaba Cloud Senior PM (HK, score 87)
+- **Caveat**: Stealth layoffs at Alibaba parent — but Lazada/Ant Group international divisions more stable
+- **Approach**: talent.alibaba.com; LinkedIn outreach to Lazada team leads
+- **Fit**: Cross-border e-commerce + international commerce restructuring
 
 ### Tier 2: Strategic Opportunities
 
-#### 6. Circle (Singapore)
-- **Why**: Senior Director Enterprise BD APAC + Director Policy & Regulatory Strategy APAC
-- **Recent**: Circle/USDC expanding aggressively in APAC; stablecoin regulation creating new opportunities
-- **Fit**: Cross-border + fintech intersection; Singapore-based
+#### 6. Crypto.com (Singapore + Hong Kong)
+- **Why**: 8 roles in database; Product Director Banking Engagement (SG + HK)
+- **Recent**: Crypto exchange expansion; crypto-friendly HK regulations
+- **Fit**: Fintech/payments intersection; English-friendly
 
-#### 7. DP World (Singapore)
-- **Why**: Senior Director Corporate Strategy Execution APAC — logistics/supply chain + cross-border
-- **Recent**: DP World building integrated logistics platform across APAC
-- **Fit**: Supply chain + cross-border expansion; different but adjacent sector
+#### 7. Shopee (Singapore)
+- **Why**: 3 roles; SE Asia's dominant e-commerce platform
+- **Recent**: Continued expansion in cross-border commerce
+- **Fit**: Cross-border e-commerce leader; English-friendly
 
-#### 8. Binance / Ceffu (HK + Singapore)
-- **Why**: Binance Pay Business Lead (HK), Senior Card PM (HK), Ceffu Growth Lead (SG)
-- **Recent**: Hong Kong crypto-friendly regulatory environment; digital assets booming
+#### 8. Binance (Hong Kong)
+- **Why**: 4 roles; Binance Pay Business Lead (HK), Senior Card PM (HK)
+- **Recent**: HK crypto-friendly environment; digital assets booming
 - **Fit**: Cross-border payments + fintech; Hong Kong-based
 
-### Companies to Monitor (Not Apply Yet)
+#### 9. Cisco (Singapore)
+- **Why**: Director GTM Strategy & Transformation APJC (score 90); large company, visa likely
+- **Approach**: Apply via Cisco careers
+- **Fit**: Strategy/transformation role at major tech firm
 
-| Company | Role | Why Watch |
-|---------|------|-----------|
-| OpenAI | Multiple (SG) | 5 roles in Singapore; check if any match |
-| Google | Multiple (SG/HK) | 6 roles; competitive but worth tracking |
-| CASETiFY | Senior PM (SZ) | DTC brand, cross-border, English-friendly |
-| Coins.ph | Senior PM Cross-border Payments (HK) | Crypto payments + cross-border |
+### Companies to Monitor
 
----
-
-## 📈 Skills & Positioning
-
-### Top Skills Demanded in A-1 Roles
-
-Based on analysis of 218 A-1 grade positions:
-
-1. **Cross-border marketplace/e-commerce** (51 roles) — your strongest asset
-2. **Product strategy & GTM** (32 roles) — align with your "AI product GTM" positioning
-3. **AI product management** (17 roles) — growing fast; emphasize AI literacy
-4. **Fintech/payments** (embedded in cross-border roles) — hot sector
-5. **Growth & analytics** (9 roles) — data-driven product decisions
-6. **Platform/infrastructure** (9 roles) — cloud, APIs, developer tools
-7. **BD/Partnerships** (embedded in several roles) — relationship-building
-
-### How to Position for Cross-Border + AI Combo
-
-**Your unique value proposition:**
-> "9 years building cross-border products at global scale, now applying AI-native thinking to international commerce — bridging China's manufacturing ecosystem with global consumer markets through intelligent product solutions."
-
-**Resume headline options:**
-- "Cross-border Commerce + AI Product Leader | 9 Years at Global Tech Platforms"
-- "Director of Product | Cross-border E-commerce × AI × Marketplace Strategy"
-- "Senior Product Leader | Building AI-Powered Solutions for Global Commerce"
-
-**LinkedIn optimization:**
-- Headline: "Director of Product | Cross-border E-commerce × AI × Marketplace Strategy | Open to Opportunities"
-- About: Lead with the cross-border + AI narrative; quantify impact (GMV, user growth, market expansion)
-- Featured: Pin 2-3 articles/posts about AI in e-commerce or cross-border trends
-- Skills: Add "Cross-border E-commerce," "AI Product Management," "Marketplace Strategy," "GTM Strategy," "Product-Led Growth"
-- Settings: Turn on "Open to Work" (visible to recruiters only)
-
-### Resume Tailoring by Role Type
-
-| Role Type | Emphasize | De-emphasize |
-|-----------|-----------|--------------|
-| Cross-border PM | Lazada/Shopee experience, international GTM, regulatory navigation | Domestic China metrics |
-| AI Product | AI/ML literacy, data-driven decisions, experimentation | Pure engineering details |
-| Strategy/BD | Market expansion frameworks, partnership outcomes, revenue impact | Day-to-day product execution |
-| Fintech/Payments | Payment flow knowledge, compliance awareness, cross-border settlement | E-commerce specifics |
-
----
-
-## ⚠️ Market Signals
-
-### Layoffs & Hiring Freezes to Watch
-
-- **Alibaba**: Stealth layoffs ongoing — forced reassignments, "talent pools." Avoid cloud and entertainment teams. **Apply to Lazada/Ant Group international only** (separate entities with more stability).
-- **Tencent**: "Talent pool" technique — workers moved to no-project holding tanks. If applying, target WeChat Pay or specific growth teams.
-- **Baidu**: Trimming mid-level managers in units competing poorly with AI rivals. **Skip.**
-- **ByteDance**: Performance review traps. Apply but negotiate carefully; understand the P0/P1 culture.
-- **Global tech**: 183K+ workers laid off across 247 events in 2026 so far. AI is replacing some roles but creating others.
-
-### Emerging Sectors Gaining Momentum
-
-1. **AI Agents / Agentic AI**: First Digital's "Agentic AI — Finance District" role signals growing demand for AI agent products in fintech
-2. **Stablecoins & Digital Assets**: Circle, Binance, First Digital all hiring — Hong Kong's crypto-friendly regulations driving this
-3. **AI-powered Commerce**: AI product managers earning 25% premium in Singapore; AI in e-commerce is the intersection of your two strengths
-4. **Global Employment Platforms**: G-P, Deel, Remote.com all expanding — cross-border workforce management is booming
-
-### Geographic Shifts
-
-| City | Trend | Implication |
-|------|-------|-------------|
-| **Singapore** | Surging — 83 roles in database, funding up 202% YoY | **Best market for senior roles; prioritize** |
-| **Shenzhen** | Steady — 38 roles, strong in cross-border e-commerce | **Good for Alibaba/ByteDance/CASETiFY roles** |
-| **Hong Kong** | Active — 38 roles, crypto/fintech hub | **Strong for fintech + digital assets** |
-| **Shanghai** | Conservative — 20 roles, senior professionals cautious | **Fewer opportunities; foreign enterprise hiring cautious** |
-| **Guangzhou** | Minimal — 4 roles | **Not a priority market** |
+| Company | Roles | Why Watch |
+|---------|-------|-----------|
+| Google | 3 A-1 (SG) | Multiple product roles; competitive but strong brand |
+| OpenAI | 2 (SG) | 5+ roles in Singapore; check for AI product alignment |
+| Meta | 2 (SG) | APAC product roles; English-first culture |
+| Huawei | 2 (SZ) | Cross-border/overseas expansion roles |
+| GIC | 2 (SG) | Sovereign wealth fund; risk analytics PM |
+| UOB | 3 (SG) | Major Singapore bank; digital transformation |
 
 ---
 
@@ -181,40 +166,46 @@ Based on analysis of 218 A-1 grade positions:
 
 ### Priority 1: Applications (Mon–Wed)
 
-1. **Apply to Amazon Global Selling — Senior PM AI, Shenzhen** (your #1 role, score 88)
-   - Platform: LinkedIn
-   - Prep: Research Amazon's AI seller tools strategy; prepare STAR stories about AI product decisions
-   - Timeline: Apply by Tuesday; Amazon process takes 4-6 weeks
+1. **Apply to OKX — 3-4 A-1 roles in Hong Kong**
+   - Focus: Product Director Trust & Experience, Global Payment Partnerships
+   - Platform: OKX careers portal
+   - Prep: Research OKX's APAC expansion strategy, HK regulatory position
+   - Timeline: Apply by Wednesday
 
-2. **Apply to Airwallex — Senior PM Growth, Singapore**
-   - Platform: Ashby (3-5 min application)
-   - Also apply to: Director Strategic Partnerships APAC (easy Ashby app)
-   - Prep: Research Airwallex's recent Series E and APAC expansion strategy
-
-3. **Apply to ByteDance — Senior PM TikTok E-commerce, Shenzhen**
+2. **Apply to ByteDance — Senior PM TikTok E-commerce, Shenzhen**
    - Platform: jobs.bytedance.com
-   - Also consider: TikTok Shop HK role (score 77)
+   - Also consider: TikTok Shop HK role (score 87)
    - Prep: TikTok Shop GMV targets and SE Asia expansion narrative
+
+3. **Apply to Airwallex — 2-3 Senior PM roles, Singapore**
+   - Platform: Ashby (3-5 min application)
+   - Focus: Senior PM Growth, Director Product Strategy
+   - Prep: Airwallex's 10 open roles signal major expansion
+
+4. **Apply to Amazon Global Selling — Senior PM AI, Shenzhen**
+   - Platform: LinkedIn
+   - Prep: Research Amazon's AI seller tools strategy
+   - Timeline: Apply by Tuesday; Amazon process takes 4-6 weeks
 
 ### Priority 2: Outreach (Wed–Thu)
 
-4. **LinkedIn warm outreach to 3-5 people at target companies**
-   - Priority: Airwallex PM team, Amazon Global Selling hiring managers
+5. **LinkedIn warm outreach to 5-8 people at target companies**
+   - Priority: OKX product team, Airwallex PM team, ByteDance hiring managers
    - Message: "I've been following [company]'s expansion in [area]. With 9 years in cross-border commerce and AI product GTM, I'd love to learn about your team's direction."
    - Don't ask for a referral yet — build the relationship first
 
-5. **Update LinkedIn profile** with new headline and "Open to Work" (recruiters only)
+6. **Update LinkedIn profile** with new headline and "Open to Work" (recruiters only)
    - Headline: "Director of Product | Cross-border E-commerce × AI × Marketplace Strategy"
    - Enable "Open to Work" setting (visible to recruiters, not public)
 
 ### Priority 3: Research (Thu–Fri)
 
-6. **Research 3 target companies in depth**
-   - Airwallex: Recent funding, product roadmap, key leaders
+7. **Research 3 target companies in depth**
+   - OKX: Recent funding, product roadmap, key leaders in APAC
    - ByteDance: TikTok Shop growth metrics, CapCut monetization
-   - Circle: USDC in APAC, stablecoin regulation landscape
+   - Airwallex: Series E details, APAC expansion strategy
 
-7. **Review and update resume** for cross-border + AI positioning
+8. **Review and update resume** for cross-border + AI positioning
    - Add quantified metrics: GMV, user growth, market expansion percentages
    - Highlight AI-specific work: any ML/AI product features, data-driven decisions
    - Ensure English resume is polished (some roles require it)
@@ -225,22 +216,34 @@ Based on analysis of 218 A-1 grade positions:
 
 | Metric | Target | Notes |
 |--------|--------|-------|
-| Applications submitted | 3-5 | Amazon, Airwallex, ByteDance at minimum |
-| LinkedIn warm outreach | 3-5 | Build relationships, not desperation |
-| New connections made | 5-10 | Target hiring managers and PMs at target companies |
+| Applications submitted | 5-8 | OKX, ByteDance, Airwallex, Amazon at minimum |
+| LinkedIn warm outreach | 5-8 | Target OKX, Airwallex, ByteDance teams |
+| New connections made | 8-12 | Target hiring managers and PMs |
 | Resume updates | 1 | Tailored for cross-border + AI combo |
-| Research completed | 3 companies | Deep dive on Airwallex, ByteDance, Circle |
+| Research completed | 3 companies | Deep dive on OKX, ByteDance, Airwallex |
 
 ---
 
 ## 🔑 Top 3 Strategic Insights
 
-1. **Singapore is your strongest market right now.** 83 A-1 roles in the database, funding up 202% YoY, and it's the APAC hub for cross-border fintech + AI. Airwallex alone has 6 open roles. **Prioritize Singapore applications this week.**
+1. **OKX is the biggest opportunity right now.** 51 open roles (17.7% of database) with 20 at A-1 grade — no other company comes close. Crypto/Web3 hiring in HK is surging, and OKX is the largest single employer in the pipeline. **Apply to 3-4 OKX roles this week.**
 
-2. **The "cross-border + AI" positioning is gold.** AI PMs earn a 25% salary premium in Singapore. Only 17 of 218 A-1 roles are specifically AI-category, but AI literacy is being embedded into cross-border and strategy roles. Frame yourself as the person who can bridge both worlds.
+2. **Singapore now represents 40% of all tracked roles (115/288).** 58 roles have flagged visa sponsorship likely at large companies. The Singapore market is not just strong — it's dominant. Airwallex alone has 10 open roles. If Singapore is a viable destination, it should be the primary focus.
 
-3. **Be cautious with China tech giants.** Stealth layoffs at Alibaba, Tencent, Baidu, and ByteDance mean you should apply strategically — target international divisions (Lazada, Ant Group, TikTok) over domestic teams. The N+1 severance avoidance tactics mean these companies are cost-cutting aggressively, which may affect offer quality and job security.
+3. **The AI premium is real and growing.** AI-category roles doubled from 17 to 36 in just 2 days of data refinement. AI PMs command 20-25% salary premiums in Singapore. The "cross-border + AI" positioning remains the strongest differentiator — only 14 of 135 A-1 roles are explicitly AI-category, but AI literacy is being embedded across product, strategy, and growth roles.
 
 ---
 
-*Next strategy update: Monday, June 22, 2026*
+## 📍 Geographic Priority Matrix
+
+| Market | A-1 Roles | Total Roles | Visa Sponsorship | Priority |
+|--------|-----------|-------------|-----------------|----------|
+| **Singapore** | 55 | 115 | 58 flagged likely | ⭐⭐⭐ Primary |
+| **Hong Kong** | 32 | 80 | High (crypto hub) | ⭐⭐⭐ Primary |
+| **Shenzhen** | 23 | 43 | Standard work permit | ⭐⭐ Secondary |
+| **Shanghai** | 17 | 29 | Standard work permit | ⭐ Selective |
+| **Guangzhou** | 4 | 5 | Standard | — Low priority |
+
+---
+
+*Next strategy update: Monday, June 24, 2026*
