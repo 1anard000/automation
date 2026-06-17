@@ -1,15 +1,58 @@
-import json
+#!/usr/bin/env python3
+"""Rebuild apply-today.html from the latest recommendations JSON.
+
+Auto-finds the most recent recommendations file in job_recommender/daily_reports/.
+If run with an argument, uses that specific file instead.
+
+Usage:
+    python3 rebuild_apply_today.py                    # auto-find latest
+    python3 rebuild_apply_today.py recommendations-2026-06-18.json  # explicit file
+"""
+import json, os, sys, glob
 from datetime import datetime
 
-with open('job_recommender/daily_reports/recommendations-2026-06-17.json') as f:
+# Find recommendations file
+rec_dir = "job_recommender/daily_reports"
+if len(sys.argv) > 1:
+    rec_file = os.path.join(rec_dir, sys.argv[1]) if not os.path.isabs(sys.argv[1]) else sys.argv[1]
+else:
+    pattern = os.path.join(rec_dir, "recommendations-*.json")
+    files = sorted(glob.glob(pattern))
+    if not files:
+        print("ERROR: No recommendations files found in", rec_dir)
+        sys.exit(1)
+    rec_file = files[-1]  # latest by filename (date-sorted)
+
+print(f"Reading: {rec_file}")
+with open(rec_file) as f:
     recs = json.load(f)
 
-weekday = datetime.now().strftime('%A')
+# Extract date from filename or use today
+basename = os.path.basename(rec_file)
+if "recommendations-" in basename:
+    date_str = basename.replace("recommendations-", "").replace(".json", "")
+    try:
+        dt = datetime.strptime(date_str, "%Y-%m-%d")
+        date_display = dt.strftime("%A, %B %d").replace(" 0", " ")
+    except ValueError:
+        dt = datetime.now()
+        date_display = datetime.now().strftime("%A, %B %d").replace(" 0", " ")
+else:
+    dt = datetime.now()
+    date_display = datetime.now().strftime("%A, %B %d").replace(" 0", " ")
+
+weekday = dt.strftime("%A")
+
+# Sort by quality_score descending
+recs.sort(key=lambda j: j.get("quality_score", 0), reverse=True)
+
+# Take top 20
+recs = recs[:20]
 
 jobs_html = ''
 for i, job in enumerate(recs, 1):
     title = job.get('title', 'Unknown')
-    company = job.get('company_raw', 'Unknown')
+    company = job.get('company_raw', job.get('company', 'Unknown'))
     location = job.get('location', 'TBD')
     score = job.get('quality_score', 0)
     url = job.get('url', '#')
@@ -22,7 +65,7 @@ for i, job in enumerate(recs, 1):
     # Extract country code from location
     loc_code = 'XX'
     if location:
-        for code in ['SG', 'HK', 'CN', 'US', 'JP', 'KR', 'TW', 'MY', 'TH', 'ID', 'PH', 'AU', 'NZ', 'UK', 'DE', 'SG']:
+        for code in ['SG', 'HK', 'CN', 'US', 'JP', 'KR', 'TW', 'MY', 'TH', 'ID', 'PH', 'AU', 'NZ', 'UK', 'DE']:
             if code in location.upper():
                 loc_code = code
                 break
@@ -54,7 +97,7 @@ html = '''<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Apply Today — June 17</title>
+<title>Apply Today — ''' + date_display + '''</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0f172a;color:#e2e8f0;padding:16px;max-width:700px;margin:0 auto}
@@ -79,8 +122,8 @@ h1{font-size:1.4rem;text-align:center;padding:16px 0;color:#4ade80}
 </style>
 </head>
 <body>
-<h1>🎯 Apply Today — ''' + weekday + ''', June 17</h1>
-<p class="sub">Top 20 recommended roles for today</p>
+<h1>🎯 Apply Today — ''' + weekday + ''', ''' + date_display.split(", ")[-1] + '''</h1>
+<p class="sub">Top ''' + str(len(recs)) + ''' recommended roles for today</p>
 
 ''' + jobs_html + '''
 <div class="footer">
@@ -93,6 +136,6 @@ h1{font-size:1.4rem;text-align:center;padding:16px 0;color:#4ade80}
 with open('apply-today.html', 'w') as f:
     f.write(html)
 
-print('Rebuilt apply-today.html with ' + str(len(recs)) + ' jobs')
-for r in recs[:3]:
-    print('  ' + str(r.get('quality_score', 0)) + ' - ' + r.get('title', '') + ' @ ' + r.get('company_raw', ''))
+print('Rebuilt apply-today.html with ' + str(len(recs)) + ' jobs from ' + basename)
+for r in recs[:5]:
+    print('  ' + str(r.get('quality_score', 0)) + ' - ' + r.get('title', '') + ' @ ' + r.get('company_raw', r.get('company', '?')))
