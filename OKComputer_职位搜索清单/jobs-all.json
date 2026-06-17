@@ -79,7 +79,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "Indeed"
   },
   {
     "title": "Senior Corporate Strategy Manager",
@@ -954,7 +955,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "Indeed"
   },
   {
     "title": "Director, Policy and Regulatory Strategy, APAC",
@@ -1088,7 +1090,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "Indeed"
   },
   {
     "title": "Director, Commercial Strategy & Revenue Operations",
@@ -1181,7 +1184,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Senior Product Manager (Card Issuing)",
@@ -1194,7 +1198,14 @@
     "description": "Senior PM for Card Issuing at Coins.ph. Crypto card product, cross-border payments infrastructure.",
     "grade": "A-1",
     "grade_reason": "Senior PM, HK, crypto card issuing — strong fintech product fit",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Hong Kong",
+    "quality_score": 83,
+    "quality_tier": "A-1",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "高级跨境支付产品经理 (Confidential)",
@@ -1239,7 +1250,8 @@
     "english_friendly": false,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Product Director, Banking Engagement - Singapore",
@@ -1278,7 +1290,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "Indeed"
   },
   {
     "title": "Product Director, Banking Engagement - Crypto.com",
@@ -1314,7 +1327,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "Indeed"
   },
   {
     "title": "Principal Product Manager - Discovery & Onboarding (Exchange)",
@@ -1327,7 +1341,14 @@
     "description": "Principal PM for Exchange Discovery & Onboarding at Crypto.com. User acquisition and onboarding platform.",
     "grade": "A-1",
     "grade_reason": "Principal PM, HK, Crypto.com — top crypto product role, user growth focus",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Hong Kong",
+    "quality_score": 83,
+    "quality_tier": "A-1",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Senior Director - Corporate Strategy Execution - APAC",
@@ -1513,7 +1534,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "JobsDB"
   },
   {
     "title": "Senior Product Manager, Agentic AI — Finance District",
@@ -2191,7 +2213,14 @@
     "description": "Payment Director at HashKey Group (digital asset exchange). Cross-border payment infrastructure for crypto.",
     "grade": "A-1",
     "grade_reason": "Director, HK, HashKey — crypto exchange payment infrastructure, strong fit",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Hong Kong",
+    "quality_score": 78,
+    "quality_tier": "A-1",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "GTM Director (出海)",
@@ -2273,7 +2302,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "medium",
-    "app_time_est": "10-15 min"
+    "app_time_est": "10-15 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "Senior Product Manager, Huawei Cloud",
@@ -2378,7 +2408,14 @@
     "description": "Commercial leader to own Emerging Markets business across Asia — P&L, growth, strategy. Reports to CEO Singapore & Emerging Markets.",
     "grade": "A-1",
     "grade_reason": "Head of Emerging Markets Asia, Singapore, P&L ownership — excellent GM/Country Manager fit",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Singapore",
+    "quality_score": 76,
+    "quality_tier": "A-1",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Head of Strategic Growth, APAC",
@@ -2462,7 +2499,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "Indeed"
   },
   {
     "title": "Director of Category - Joybuy",
@@ -2594,7 +2632,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "JobsDB"
   },
   {
     "title": "Lead Product Manager, Client Digital Experience (Wealth Management)",
@@ -2700,7 +2739,14 @@
     "description": "Head of Product at Lalamove (logistics/delivery platform). Product leadership for cross-border logistics tech.",
     "grade": "A-1",
     "grade_reason": "Head of Product, HK, Lalamove — strong product leadership, logistics tech, cross-border",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Hong Kong",
+    "quality_score": 78,
+    "quality_tier": "A-1",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Head of eCommerce & Omni – East Asia Pacific",
@@ -3968,7 +4014,8 @@
     "has_direct_apply": false,
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Senior Manager / Director, Growth Operation",
@@ -4026,7 +4073,14 @@
     "description": "Principal/Senior PM for Institution Onboarding Experience (KYB) at OKX. Crypto exchange institutional onboarding platform.",
     "grade": "A-1",
     "grade_reason": "Senior/Principal PM, HK, OKX crypto exchange — excellent platform role",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Hong Kong",
+    "quality_score": 83,
+    "quality_tier": "A-1",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Senior / Lead Product Manager – B2B Cross-Border Crypto Payments",
@@ -4071,7 +4125,8 @@
     "english_friendly": false,
     "stale_days": 0,
     "app_difficulty": "medium",
-    "app_time_est": "10-15 min"
+    "app_time_est": "10-15 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Head of Commercial Strategy and Excellence",
@@ -4251,7 +4306,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "JobsDB"
   },
   {
     "title": "Product and Strategy Innovation Lead",
@@ -5078,7 +5134,8 @@
     "has_direct_apply": false,
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Senior VP, Product Manager - Digital Currency and Payments",
@@ -5191,7 +5248,14 @@
     "description": "Head of Expansion for APAC at Unlimit (payments/fintech). Deep understanding of APAC market dynamics, regulatory frameworks, cross-border payment flows.",
     "grade": "A-1",
     "grade_reason": "Head of Expansion, Singapore, cross-border payments fintech — perfect alignment",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Singapore",
+    "quality_score": 76,
+    "quality_tier": "A-1",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Data Product Owner – AI Products",
@@ -5347,7 +5411,14 @@
     "description": "Director for Client Consulting at Visa — Stablecoin, AI & Fintech Innovation. Strategic advisory on new payment technologies.",
     "grade": "A-1",
     "grade_reason": "Director, HK, Visa — stablecoin + AI + fintech innovation, perfect intersection of interests",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Hong Kong",
+    "quality_score": 78,
+    "quality_tier": "A-1",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Senior Director, Go-To-Market",
@@ -5475,7 +5546,8 @@
     "has_direct_apply": false,
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Senior Regional Commercial Development Manager (Strategy/Planning)",
@@ -5556,7 +5628,8 @@
     "english_friendly": false,
     "stale_days": 0,
     "app_difficulty": "medium",
-    "app_time_est": "10-15 min"
+    "app_time_est": "10-15 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "BD & Strategy Director/Senior Director - 核舟医药",
@@ -5592,7 +5665,8 @@
     "english_friendly": false,
     "stale_days": 0,
     "app_difficulty": "medium",
-    "app_time_est": "10-15 min"
+    "app_time_est": "10-15 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "集团产品线总监（P02/P03）- 中明科技",
@@ -5683,7 +5757,8 @@
     "yoe_requirement": "8年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "手机产品总监（旗舰AI方向）",
@@ -5728,7 +5803,8 @@
     "yoe_requirement": "8年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监 - 创新工场",
@@ -5865,7 +5941,8 @@
     "yoe_requirement": "8年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监（穿戴类）- 广和通",
@@ -6048,7 +6125,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "电子烟产品总监",
@@ -6093,7 +6171,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "IOT软件产品总监",
@@ -6138,7 +6217,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监 统筹存储产品 SSD UFS eMMC企业级",
@@ -6183,7 +6263,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监（存储）",
@@ -6228,7 +6309,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监",
@@ -6273,7 +6355,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监/副总经理",
@@ -6318,7 +6401,8 @@
     "yoe_requirement": "8年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理/产品负责人（海外机器人）",
@@ -6363,7 +6447,8 @@
     "yoe_requirement": "3-5年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深软件产品经理（音视频方向）",
@@ -6408,7 +6493,8 @@
     "yoe_requirement": "8年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "高级产品总监（深度相机方向）",
@@ -6453,7 +6539,8 @@
     "yoe_requirement": "3-5年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监-家居",
@@ -6498,7 +6585,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理/Leader",
@@ -6543,7 +6631,8 @@
     "yoe_requirement": "7年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监（100-150W）",
@@ -6588,7 +6677,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监-婴儿床",
@@ -6633,7 +6723,8 @@
     "yoe_requirement": "经验不限",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理（AI数据）",
@@ -6678,7 +6769,8 @@
     "yoe_requirement": "8年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "ToB机器人产品总监(中高阶)",
@@ -6723,7 +6815,8 @@
     "yoe_requirement": "5年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监（急）",
@@ -6768,7 +6861,8 @@
     "yoe_requirement": "3-5年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理（PM）",
@@ -6813,7 +6907,8 @@
     "yoe_requirement": "10年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监",
@@ -6858,7 +6953,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监（宠物）",
@@ -6903,7 +6999,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "供应链系统产品总监（ERP/SAAS/跨境电商平台等）",
@@ -6948,7 +7045,8 @@
     "yoe_requirement": "3-5年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理/专家（人事方向）",
@@ -6993,7 +7091,8 @@
     "yoe_requirement": "8年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品（PDT-Leader产品总监、产品代表、产品经理）",
@@ -7038,7 +7137,8 @@
     "yoe_requirement": "经验不限",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "健康险产品总监/经理 - 深圳",
@@ -7129,7 +7229,8 @@
     "yoe_requirement": "8年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "高倍率锂电产品总监",
@@ -7174,7 +7275,8 @@
     "yoe_requirement": "8年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "深圳AI商业化产品经理/负责人",
@@ -7210,7 +7312,8 @@
     "english_friendly": false,
     "stale_days": 0,
     "app_difficulty": "medium",
-    "app_time_est": "10-15 min"
+    "app_time_est": "10-15 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "Director - 上海",
@@ -7246,7 +7349,8 @@
     "english_friendly": false,
     "stale_days": 0,
     "app_difficulty": "medium",
-    "app_time_est": "10-15 min"
+    "app_time_est": "10-15 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "海外产品负责人（语音/直播）- 百度",
@@ -7429,7 +7533,8 @@
     "yoe_requirement": "10年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "惠州产品总监（跨境电商/消费电子）",
@@ -7474,7 +7579,8 @@
     "yoe_requirement": "8年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监 双休 电子烟",
@@ -7519,7 +7625,8 @@
     "yoe_requirement": "5年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监（智能手环&手表方向）",
@@ -7564,7 +7671,8 @@
     "yoe_requirement": "3年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "Senior Product Manager, AIA Digital",
@@ -7767,7 +7875,14 @@
     "description": "Senior AI Product Manager for ConvoAI at Agora (real-time engagement platform). AI-powered conversational product.",
     "grade": "A-2",
     "grade_reason": "Senior AI PM, Shanghai, Agora — strong AI product role, real-time tech",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Shanghai",
+    "quality_score": 73,
+    "quality_tier": "A-2",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Associate Director, Strategy & Operations - CEO Office",
@@ -7930,7 +8045,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "Indeed"
   },
   {
     "title": "Director Product Management, APJ (AI/Cloud)",
@@ -7991,7 +8107,14 @@
     "description": "Senior PM for AI at Amazon NBS (New Business Ventures). AI product development in e-commerce/retail.",
     "grade": "A-2",
     "grade_reason": "Senior AI PM, Shanghai, Amazon — strong AI product role but large corp",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Shanghai",
+    "quality_score": 78,
+    "quality_tier": "A-2",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Senior Product Manager - AI, Amazon Global Selling",
@@ -8004,7 +8127,14 @@
     "description": "Senior PM for AI at Amazon Global Selling PMO. Cross-border e-commerce AI product for sellers.",
     "grade": "A-2",
     "grade_reason": "Senior AI PM, Shanghai, Amazon Global Selling — cross-border + AI, strong fit",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Shanghai",
+    "quality_score": 78,
+    "quality_tier": "A-2",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "(Fintech) Senior Product Manager",
@@ -8055,7 +8185,14 @@
     "description": "Senior PM for Fintech at BTSE (crypto exchange). Cross-border payment and trading platform product.",
     "grade": "A-2",
     "grade_reason": "Senior PM, HK, crypto exchange — good fintech product role",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Hong Kong",
+    "quality_score": 78,
+    "quality_tier": "A-2",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Senior Product Manager, KYB",
@@ -8100,7 +8237,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "medium",
-    "app_time_est": "10-15 min"
+    "app_time_est": "10-15 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Senior Product Manager (Marketplace)",
@@ -8145,7 +8283,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "medium",
-    "app_time_est": "10-15 min"
+    "app_time_est": "10-15 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Director/Managing Director - Singapore & SEA COO",
@@ -8227,7 +8366,8 @@
     "has_direct_apply": false,
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Payments - Banking as a Service / Payer ID - Product Management Senior Specialist",
@@ -8275,7 +8415,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Principal Product Manager - Compliance / AML / Risk Platform",
@@ -8288,7 +8429,14 @@
     "description": "Principal PM for Compliance/AML/Risk Platform at Coins.ph. Crypto compliance and risk management infrastructure.",
     "grade": "A-2",
     "grade_reason": "Principal PM, HK, Coins.ph — strong crypto compliance role, platform focus",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Hong Kong",
+    "quality_score": 83,
+    "quality_tier": "A-2",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Director, Product Strategy & Growth",
@@ -8429,7 +8577,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Senior Product Manager, AI Transformation - Singapore",
@@ -8468,7 +8617,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "Indeed"
   },
   {
     "title": "(Senior) Product Manager, Trading (Crypto.com App)",
@@ -8597,7 +8747,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Senior Product Manager, Digital Banking",
@@ -8682,7 +8833,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "Indeed"
   },
   {
     "title": "Outbound Product Manager, AI Operations",
@@ -8791,7 +8943,14 @@
     "description": "GM & Country Head for Singapore at EFICYENT. Full P&L ownership, market entry, team building.",
     "grade": "A-2",
     "grade_reason": "GM, Singapore — country head role, full P&L, but smaller company unknown brand",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Singapore",
+    "quality_score": 76,
+    "quality_tier": "A-2",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Head of International Expansion",
@@ -8804,7 +8963,14 @@
     "description": "Head of International Expansion at EPOS. Identify, launch, and scale into new international markets. Drive GTM strategy, oversee BD.",
     "grade": "A-2",
     "grade_reason": "Head of Expansion, Singapore — strong expansion role, SaaS/tech company",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Singapore",
+    "quality_score": 73,
+    "quality_tier": "A-2",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Chief of Staff to SVP Operations, APAC",
@@ -8934,7 +9100,8 @@
     "has_direct_apply": false,
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Senior Product Manager, Trading",
@@ -8968,7 +9135,8 @@
     "has_direct_apply": false,
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Strategy Consultant/Senior Manager (Healthcare)",
@@ -9072,7 +9240,14 @@
     "description": "Principal Lead for Strategy & Operations in Apps Product GTM at Google Singapore. Cross-functional strategy for product go-to-market.",
     "grade": "A-2",
     "grade_reason": "Principal Lead level, Singapore, Google — strong strategy role but Google may have specific citizenship requirements",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Singapore",
+    "quality_score": 76,
+    "quality_tier": "A-2",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Senior Product Manager - HK Business",
@@ -9085,7 +9260,14 @@
     "description": "Senior PM for HK Business at HSBC. Cross-functional leadership across tech, risk, sales in matrixed org. Banking/fintech.",
     "grade": "A-2",
     "grade_reason": "Senior PM, HK, major bank — strong fit but large bank may have slower pace",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Hong Kong",
+    "quality_score": 83,
+    "quality_tier": "A-2",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Senior Product Manager, HSBC Digital",
@@ -9357,7 +9539,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "Indeed"
   },
   {
     "title": "Senior Product Manager",
@@ -9396,7 +9579,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "Indeed"
   },
   {
     "title": "Senior Product Manager (Food Discovery)",
@@ -9435,7 +9619,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "Indeed"
   },
   {
     "title": "BNPL Product & Operations Lead (Europe Business)",
@@ -9516,7 +9701,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "JobsDB"
   },
   {
     "title": "Head of Strategic Capability & Strategy, Surgical Vision APAC",
@@ -9643,7 +9829,8 @@
     "has_direct_apply": false,
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Vice President of Product Management",
@@ -9910,7 +10097,8 @@
     "has_direct_apply": false,
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "APAC Strategic PMO Lead",
@@ -10107,7 +10295,14 @@
     "description": "Head of Cash Products for Transaction Banking at OCBC. Banking product leadership across HK & Macau.",
     "grade": "A-2",
     "grade_reason": "Head of Products, HK, OCBC — banking product leadership, cross-border HK/Macau",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Hong Kong",
+    "quality_score": 78,
+    "quality_tier": "A-2",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Senior Product Designer, Cefi ",
@@ -11072,7 +11267,8 @@
     "has_direct_apply": false,
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Product Operations Manager / Director, Institutional Product",
@@ -11106,7 +11302,8 @@
     "has_direct_apply": false,
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Vice President of Product, AI and Agent",
@@ -11356,7 +11553,14 @@
     "description": "Senior PM for Data Infrastructure, On Chain Web3 at OKX. Blockchain data platform, crypto exchange infrastructure.",
     "grade": "A-2",
     "grade_reason": "Senior PM, Singapore, OKX Web3 — strong crypto/data product role but more infra-focused",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Singapore",
+    "quality_score": 81,
+    "quality_tier": "A-2",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Head of Wholesale, NEA (VIP)",
@@ -11369,7 +11573,14 @@
     "description": "Head of Wholesale NEA (VIP) at OKX. Institutional sales and partnerships leadership for crypto exchange.",
     "grade": "A-2",
     "grade_reason": "Head of Wholesale, HK, OKX — institutional BD at crypto exchange, strong fit",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Hong Kong",
+    "quality_score": 78,
+    "quality_tier": "A-2",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Product Lead - Pricing",
@@ -11403,7 +11614,8 @@
     "has_direct_apply": false,
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Product Manager (Global Networking)",
@@ -11461,7 +11673,14 @@
     "description": "PM for Perpetuals at Pepperstone (forex/CFD broker). Crypto perpetual futures trading product.",
     "grade": "A-2",
     "grade_reason": "PM, Shanghai, Pepperstone — crypto/fintech product, trading platform",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Shanghai",
+    "quality_score": 73,
+    "quality_tier": "A-2",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Associate Director, Strategy & Business Development, Greater China",
@@ -11551,7 +11770,8 @@
     "yoe_requirement": "3-5年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "深圳腾讯产品经理招聘信息-BOSS直聘",
@@ -11748,7 +11968,14 @@
     "description": "Product Lead for APAC at SymphonyAI (enterprise AI platform). SME focus with product leadership across AI solutions.",
     "grade": "A-2",
     "grade_reason": "Product Lead, Singapore, AI company — strong AI + product leadership fit",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Singapore",
+    "quality_score": 81,
+    "quality_tier": "A-2",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Senior Director, APAC Consumer Insights & Strategy",
@@ -11847,7 +12074,14 @@
     "description": "Senior BD Manager for WeChat Pay at Tencent. Cross-border payment partnerships in HK.",
     "grade": "A-2",
     "grade_reason": "Senior BD, HK, Tencent WeChat Pay — cross-border payments, major platform",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Hong Kong",
+    "quality_score": 78,
+    "quality_tier": "A-2",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Director, TISC Digital and Productivity",
@@ -12212,7 +12446,8 @@
     "yoe_requirement": "5年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理（蛋白质组学）- 上海",
@@ -12303,7 +12538,8 @@
     "yoe_requirement": "3年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品经理 - 中澳通",
@@ -12394,7 +12630,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理（培训AI方向）",
@@ -12439,7 +12676,8 @@
     "yoe_requirement": "5年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI 产品经理/研发工程师（宠物方向）",
@@ -12484,7 +12722,8 @@
     "yoe_requirement": "1-3年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理",
@@ -12529,7 +12768,8 @@
     "yoe_requirement": "3年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理（资源运营平台方向）-火山引擎",
@@ -12574,7 +12814,8 @@
     "yoe_requirement": "2年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理（AI）",
@@ -12619,7 +12860,8 @@
     "yoe_requirement": "2年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理",
@@ -12664,7 +12906,8 @@
     "yoe_requirement": "3-5年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "vivo产品经理 - 应用分发广告流量变现",
@@ -12755,7 +12998,8 @@
     "yoe_requirement": "经验不限",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI 产品经理",
@@ -12800,7 +13044,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理（to c客户端）",
@@ -12845,7 +13090,8 @@
     "yoe_requirement": "3年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "（贸易金融）资深产品经理（熟悉东南亚及中东市场）",
@@ -12890,7 +13136,8 @@
     "yoe_requirement": "5年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理（语言助手方向）",
@@ -12935,7 +13182,8 @@
     "yoe_requirement": "3-5年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理（大模型应用方向）",
@@ -12980,7 +13228,8 @@
     "yoe_requirement": "1-3年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理",
@@ -13025,7 +13274,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "高级/资深产品经理（手机）",
@@ -13070,7 +13320,8 @@
     "yoe_requirement": "6-8年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理 | 六险一金 15薪",
@@ -13115,7 +13366,8 @@
     "yoe_requirement": "1-3年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理-头部",
@@ -13160,7 +13412,8 @@
     "yoe_requirement": "3-5年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理",
@@ -13205,7 +13458,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理",
@@ -13250,7 +13504,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI软件产品经理--APP产品经理 / 高级产品经理（智能硬件生态方向）",
@@ -13295,7 +13550,8 @@
     "yoe_requirement": "10年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理（AI数据）",
@@ -13340,7 +13596,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "售后平台资深产品经理",
@@ -13385,7 +13642,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI资深产品经理（泛娱乐生态，海外C端产品）",
@@ -13430,7 +13688,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "C端AI产品经理 对话机器人",
@@ -13475,7 +13734,8 @@
     "yoe_requirement": "1-3年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理-AI应用方向",
@@ -13520,7 +13780,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理（游戏策划）",
@@ -13565,7 +13826,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理（机器人）",
@@ -13610,7 +13872,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理（to B）",
@@ -13655,7 +13918,8 @@
     "yoe_requirement": "3-5年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理",
@@ -13700,7 +13964,8 @@
     "yoe_requirement": "3-5年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理（赋能）",
@@ -13745,7 +14010,8 @@
     "yoe_requirement": "3-5年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理",
@@ -13790,7 +14056,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理（售后平台）",
@@ -13835,7 +14102,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深软件产品经理",
@@ -13880,7 +14148,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理（工作地点深圳或者北京）",
@@ -13925,7 +14194,8 @@
     "yoe_requirement": "3-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "高级/资深软件产品经理（深圳/北京）",
@@ -13970,7 +14240,8 @@
     "yoe_requirement": "4年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理-C端",
@@ -14015,7 +14286,8 @@
     "yoe_requirement": "3年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理（AI方向）",
@@ -14060,7 +14332,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理（新零售/用工平台）",
@@ -14105,7 +14378,8 @@
     "yoe_requirement": "3年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理(AICRM/Chat方向)",
@@ -14150,7 +14424,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深软件产品经理",
@@ -14195,7 +14470,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理（AI方向）",
@@ -14240,7 +14516,8 @@
     "yoe_requirement": "3-5年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理",
@@ -14285,7 +14562,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理（SaaS）",
@@ -14330,7 +14608,8 @@
     "yoe_requirement": "经验不限",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理",
@@ -14375,7 +14654,8 @@
     "yoe_requirement": "3-5年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理",
@@ -14420,7 +14700,8 @@
     "yoe_requirement": "经验不限",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理-企业应用方向",
@@ -14465,7 +14746,8 @@
     "yoe_requirement": "1-3年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理",
@@ -14510,7 +14792,8 @@
     "yoe_requirement": "3-5年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品高级经理-AI应用体验/AI策略",
@@ -14555,7 +14838,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "远程AI产品经理",
@@ -14600,7 +14884,8 @@
     "yoe_requirement": "3-5年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理（家居 家具 家纺）(跨境)",
@@ -14645,7 +14930,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深软件产品经理（AI，TOB，SAAS）",
@@ -14690,7 +14976,8 @@
     "yoe_requirement": "7年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理（信贷业务）",
@@ -14735,7 +15022,8 @@
     "yoe_requirement": "3-5年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理（独角兽）",
@@ -14780,7 +15068,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理（AI方向）",
@@ -14825,7 +15114,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理",
@@ -14870,7 +15160,8 @@
     "yoe_requirement": "3-5年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品负责人 - AI智能体与低代码平台",
@@ -14904,7 +15195,8 @@
     "has_direct_apply": false,
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "资深产品经理 - AI核心业务",
@@ -14949,7 +15241,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理（研发效能/大模型/Agent落地）",
@@ -14994,7 +15287,8 @@
     "yoe_requirement": "1年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理(MJ001401) - 基克纳科技",
@@ -15030,7 +15324,8 @@
     "english_friendly": false,
     "stale_days": 0,
     "app_difficulty": "medium",
-    "app_time_est": "10-15 min"
+    "app_time_est": "10-15 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理(MJ001401) - 基克纳科技 - 深圳",
@@ -15066,7 +15361,8 @@
     "english_friendly": false,
     "stale_days": 0,
     "app_difficulty": "medium",
-    "app_time_est": "10-15 min"
+    "app_time_est": "10-15 min",
+    "app_platform": "Boss直聘"
   },
   {
     "title": "资深产品经理（金融）",
@@ -15111,7 +15407,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "AI产品经理（AI应用方向）",
@@ -15156,7 +15453,8 @@
     "yoe_requirement": "5-10年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理",
@@ -15201,7 +15499,8 @@
     "yoe_requirement": "5年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品经理（ehr、腾讯项目+线下面试） - 智联招聘",
@@ -15336,7 +15635,8 @@
     "yoe_requirement": "5年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "高级/资深产品经理",
@@ -15381,7 +15681,8 @@
     "yoe_requirement": "1-3年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "海外产品负责人（语音/直播）招聘_百度招聘 - BOSS直聘",
@@ -15471,7 +15772,8 @@
     "yoe_requirement": "2年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "QQ浏览器-高级增长产品经理(深圳) - 腾讯",
@@ -15789,7 +16091,8 @@
     "yoe_requirement": "3-5年",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "资深产品经理 - 迅雷网络",
@@ -15880,7 +16183,8 @@
     "yoe_requirement": "5年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "Vice President Business Development - Hong Kong",
@@ -15893,7 +16197,14 @@
     "description": "VP Business Development at AQR Capital (quant fund). Institutional BD for investment products in APAC.",
     "grade": "B",
     "grade_reason": "VP BD, HK, AQR — quant finance, strong but very specific to asset management",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Hong Kong",
+    "quality_score": 75,
+    "quality_tier": "B",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Senior Product Manager, Transaction Monitoring",
@@ -15982,7 +16293,14 @@
     "description": "Senior PM for Transaction Banking at Bank of China (HK). Product sales and management in banking platform.",
     "grade": "B",
     "grade_reason": "Senior PM, HK, major bank — but traditional banking, less startup/fintech energy",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Hong Kong",
+    "quality_score": 83,
+    "quality_tier": "B",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Senior Product Manager, AI Transformation",
@@ -16118,7 +16436,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Senior Product Manager (Trading)",
@@ -16163,7 +16482,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Senior Product Manager, HK Business",
@@ -16208,7 +16528,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "medium",
-    "app_time_est": "10-15 min"
+    "app_time_est": "10-15 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Director, Loyalty Operations & Performance, APAC",
@@ -16234,7 +16555,8 @@
     "has_direct_apply": false,
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Director, Market & Growth (Academy)",
@@ -16282,7 +16604,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "APAC Payments - Strategy - Executive Director",
@@ -16308,7 +16631,8 @@
     "has_direct_apply": false,
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Agentic Marketing Product Manager, CDMO",
@@ -16321,7 +16645,14 @@
     "description": "Agentic Marketing PM at L'Oréal CDMO. AI-driven marketing automation product in beauty/luxury.",
     "grade": "B",
     "grade_reason": "PM role, Shanghai, L'Oréal — AI + marketing, but beauty industry may not align with target",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Shanghai",
+    "quality_score": 73,
+    "quality_tier": "B",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Senior Manager, Finance & Strategy, Marketing - APAC",
@@ -16334,7 +16665,14 @@
     "description": "Senior Manager for Finance & Strategy in Marketing APAC at Netflix. Data-driven strategy for content marketing across region.",
     "grade": "B",
     "grade_reason": "Senior Manager, Singapore, Netflix — good strategy role but finance-heavy, not pure product",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Singapore",
+    "quality_score": 76,
+    "quality_tier": "B",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Senior Product Manager, AI Gateway",
@@ -16405,7 +16743,8 @@
     "has_direct_apply": false,
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Director, Government Relations, APAC",
@@ -16418,7 +16757,14 @@
     "description": "Director of Government Relations APAC at SHEIN. Cross-border regulatory and market entry strategy for fashion e-commerce giant.",
     "grade": "B",
     "grade_reason": "Director level, Singapore, cross-border — but government relations is niche, not core product/ops",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Singapore",
+    "quality_score": 76,
+    "quality_tier": "B",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Senior Product Manager",
@@ -16482,7 +16828,8 @@
     "has_direct_apply": false,
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Product Lead, Project R.I.S.E",
@@ -16495,7 +16842,14 @@
     "description": "Product Lead for Project R.I.S.E at Supercell. Gaming product leadership, new title/IP development.",
     "grade": "B",
     "grade_reason": "Product Lead, Shanghai, Supercell — gaming industry, not fintech/AI focus",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Shanghai",
+    "quality_score": 78,
+    "quality_tier": "B",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "Director, Sales - China",
@@ -16508,7 +16862,14 @@
     "description": "Director of Sales for China at Tradeweb (electronic trading platform). Institutional sales leadership.",
     "grade": "B",
     "grade_reason": "Director Sales, HK, Tradeweb — trading platform, but more sales than product/strategy",
-    "scanned_date": "2026-06-18"
+    "scanned_date": "2026-06-18",
+    "url_type": "direct",
+    "english_friendly": true,
+    "location_norm": "Hong Kong",
+    "quality_score": 78,
+    "quality_tier": "B",
+    "app_platform": "LinkedIn",
+    "app_difficulty": "medium"
   },
   {
     "title": "(Senior) Segment Manager (Cross Border Business)",
@@ -16553,7 +16914,8 @@
     "english_friendly": true,
     "stale_days": 0,
     "app_difficulty": "easy",
-    "app_time_est": "3-5 min"
+    "app_time_est": "3-5 min",
+    "app_platform": "LinkedIn"
   },
   {
     "title": "Regional Head of Strategy, Insights and Data APAC",
@@ -16696,7 +17058,8 @@
     "applied_date": null,
     "lifecycle_notes": [],
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "grade": "B"
   },
   {
     "title": "Senior Product Manager, AI Products",
@@ -16742,7 +17105,8 @@
     "applied_date": null,
     "lifecycle_notes": [],
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "grade": "A"
   },
   {
     "title": "Director, Product & Program Management",
@@ -16788,7 +17152,8 @@
     "applied_date": null,
     "lifecycle_notes": [],
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "grade": "A"
   },
   {
     "title": "Senior Product Manager, Applied AI",
@@ -16834,7 +17199,8 @@
     "applied_date": null,
     "lifecycle_notes": [],
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "grade": "A"
   },
   {
     "title": "Senior Product Manager, Agentic AI — Finance District",
@@ -16880,7 +17246,8 @@
     "applied_date": null,
     "lifecycle_notes": [],
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "grade": "A"
   },
   {
     "title": "Senior Product Manager, AI Gateway",
@@ -16926,7 +17293,8 @@
     "applied_date": null,
     "lifecycle_notes": [],
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "grade": "A"
   },
   {
     "title": "Senior Product Manager / Product Lead",
@@ -16972,7 +17340,8 @@
     "applied_date": null,
     "lifecycle_notes": [],
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "grade": "A"
   },
   {
     "title": "Director, Product Management - AI Ecosystem",
@@ -17018,7 +17387,8 @@
     "applied_date": null,
     "lifecycle_notes": [],
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "grade": "A"
   },
   {
     "title": "Product Strategy & Development Lead, APAC",
@@ -17064,7 +17434,8 @@
     "applied_date": null,
     "lifecycle_notes": [],
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "grade": "A"
   },
   {
     "title": "Senior Director / VP, AI",
@@ -17110,7 +17481,8 @@
     "applied_date": null,
     "lifecycle_notes": [],
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "grade": "A"
   },
   {
     "title": "Senior Product Manager",
@@ -17296,7 +17668,8 @@
     "yoe_requirement": "10年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "零售电商供应链产品总监",
@@ -17341,7 +17714,8 @@
     "yoe_requirement": "10年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监/负责人",
@@ -17386,7 +17760,8 @@
     "yoe_requirement": "10年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "研发中心负责人（产品经理 产品总监）",
@@ -17431,7 +17806,8 @@
     "yoe_requirement": "10年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监",
@@ -17476,7 +17852,8 @@
     "yoe_requirement": "10年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监（医疗器械）",
@@ -17521,7 +17898,8 @@
     "yoe_requirement": "10年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "数据中心产品线总监",
@@ -17566,7 +17944,8 @@
     "yoe_requirement": "10年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监（TO C）",
@@ -17611,7 +17990,8 @@
     "yoe_requirement": "10年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监",
@@ -17656,7 +18036,8 @@
     "yoe_requirement": "10年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "机器人产品总监/VP",
@@ -17701,7 +18082,8 @@
     "yoe_requirement": "10年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监（等静压设备）",
@@ -17746,7 +18128,8 @@
     "yoe_requirement": "10年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "会员产品总监",
@@ -17791,7 +18174,8 @@
     "yoe_requirement": "10年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "机器人电池产品总监",
@@ -17836,7 +18220,8 @@
     "yoe_requirement": "10年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "产品总监",
@@ -17881,7 +18266,8 @@
     "yoe_requirement": "10年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "智能硬件产品总监",
@@ -17926,7 +18312,8 @@
     "yoe_requirement": "10年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "跨境电商产品总监/VP - 河南江舸云科技",
@@ -18017,7 +18404,8 @@
     "yoe_requirement": "10年以上",
     "stale_days": 0,
     "app_difficulty": "hard",
-    "app_time_est": "20-30 min"
+    "app_time_est": "20-30 min",
+    "app_platform": "Liepin"
   },
   {
     "title": "Principal Product Manager - Verification & Activation(Exchange)",

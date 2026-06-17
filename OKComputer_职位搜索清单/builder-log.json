@@ -203,10 +203,19 @@
       "score_before": 7,
       "score_after": 8,
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-06-18T02:14:29.804513",
+      "dimension": "data_quality",
+      "task": "Fix 40 incomplete jobs: fill url_type, english_friendly, location_norm, quality_score, grade for 30 new LinkedIn jobs + 10 missing grades; rebuild dashboard with 443 jobs (was 203)",
+      "status": "completed",
+      "score_before": 7,
+      "score_after": 8,
+      "subagent": "cron-job-improver"
     }
   ],
   "current_scores": {
-    "data_quality": 7,
+    "data_quality": 8,
     "dashboard": 7,
     "career_strategy": 6,
     "python_scripts": 7,
@@ -214,9 +223,9 @@
     "automation": 6,
     "coverage": 7
   },
-  "last_run": "2026-06-17T03:00:43.916766",
-  "last_dimension": "career_strategy",
-  "last_task": "quality-improver alignment + dashboard rebuild",
+  "last_run": "2026-06-18T02:14:29.804520",
+  "last_dimension": "data_quality",
+  "last_task": "Fix 40 incomplete jobs + rebuild dashboard",
   "scores": {
     "dashboard": 7,
     "career_hub": 7,
@@ -224,5 +233,5 @@
     "python_scripts": 6,
     "strategy": 6
   },
-  "last_improvement": "2026-06-18: Fixed 39 missing platforms and 10 missing grades in jobs-all.json"
+  "last_improvement": "2026-06-18: Fixed 40 incomplete jobs (url_type, english_friendly, location_norm, quality_score, grade) + rebuilt dashboard with 443 jobs"
 }
