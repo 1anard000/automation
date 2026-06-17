@@ -43,7 +43,8 @@
     "geo_score": 18,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Director, Digital Health & Wellness Strategy"
   },
   {
     "title": "Employee Benefits Pricing And Product Director - AXA",
@@ -80,7 +81,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "Indeed"
+    "app_platform": "Indeed",
+    "en_title": "Employee Benefits Pricing And Product Director - AXA"
   },
   {
     "title": "Senior Corporate Strategy Manager",
@@ -125,7 +127,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Corporate Strategy Manager"
   },
   {
     "title": "Director, Product Strategy",
@@ -173,7 +176,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Director, Product Strategy"
   },
   {
     "title": "Senior Product Manager, Growth",
@@ -221,7 +225,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, Growth"
   },
   {
     "title": "Senior Product Manager",
@@ -269,7 +274,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager"
   },
   {
     "title": "Head of Product, Global Payments Network Infrastructure",
@@ -317,7 +323,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Head of Product, Global Payments Network Infrastructure"
   },
   {
     "title": "Senior Product Manager, Lazada",
@@ -363,7 +370,8 @@
     "geo_score": 20,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, Lazada"
   },
   {
     "title": "Senior Product Manager, Alibaba Cloud",
@@ -409,7 +417,8 @@
     "geo_score": 18,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, Alibaba Cloud"
   },
   {
     "title": "Payment Strategy Director",
@@ -458,7 +467,8 @@
     "url_type": "direct",
     "scanned_date": "2026-06-13",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Payment Strategy Director"
   },
   {
     "title": "Product Lead, Online Brokerage",
@@ -503,7 +513,8 @@
     "location_norm": "Hong Kong",
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Lead, Online Brokerage"
   },
   {
     "title": "Binance Pay Business Lead",
@@ -548,7 +559,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Binance Pay Business Lead"
   },
   {
     "title": "Senior Card Product Manager",
@@ -595,7 +607,8 @@
     "us_firm_apac": true,
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Card Product Manager"
   },
   {
     "title": "Director, Regional Strategy and Business Development, APAC",
@@ -640,7 +653,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Director, Regional Strategy and Business Development, APAC"
   },
   {
     "title": "Senior Product Manager, TikTok E-commerce",
@@ -686,7 +700,8 @@
     "geo_score": 23,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, Tik Tok E-commerce"
   },
   {
     "title": "Senior Product Manager, CapCut",
@@ -732,7 +747,8 @@
     "geo_score": 23,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, Cap Cut"
   },
   {
     "title": "Senior Product Manager, TikTok Shop HK",
@@ -778,7 +794,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, Tik Tok Shop HK"
   },
   {
     "title": "Head of Product Strategy, Global Markets",
@@ -824,7 +841,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Head of Product Strategy, Global Markets"
   },
   {
     "title": "Senior Product Manager - Supply Chain Management",
@@ -869,7 +887,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager - Supply Chain Management"
   },
   {
     "title": "Senior Product Manager",
@@ -916,7 +935,8 @@
     "url_type": "search",
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager"
   },
   {
     "title": "Head of Product / Product Director (AI) - CONSTRUCTOR TECHNOLOGY PTE. LTD.",
@@ -956,7 +976,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "Indeed"
+    "app_platform": "Indeed",
+    "en_title": "Head of Product / Product Director (AI) - CONSTRUCTOR TECHNOLOGY PTE. LTD."
   },
   {
     "title": "Director, Policy and Regulatory Strategy, APAC",
@@ -1006,7 +1027,8 @@
     "url_type": "direct",
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Director, Policy and Regulatory Strategy, APAC"
   },
   {
     "title": "Director GTM Strategy & Transformation APJC",
@@ -1054,7 +1076,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Director GTM Strategy & Transformation APJC"
   },
   {
     "title": "Senior Technical / Product Director (Digital) - IC - Hong Kong",
@@ -1091,7 +1114,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "Indeed"
+    "app_platform": "Indeed",
+    "en_title": "Senior Technical / Product Director (Digital) - IC - Hong Kong"
   },
   {
     "title": "Director, Commercial Strategy & Revenue Operations",
@@ -1139,7 +1163,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Director, Commercial Strategy & Revenue Operations"
   },
   {
     "title": "Cross-border Payments Senior Product Manager",
@@ -1185,7 +1210,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Cross-border Payments Senior Product Manager"
   },
   {
     "title": "Senior Product Manager (Card Issuing)",
@@ -1205,7 +1231,8 @@
     "quality_score": 83,
     "quality_tier": "A-1",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Senior Product Manager (Card Issuing)"
   },
   {
     "title": "高级跨境支付产品经理 (Confidential)",
@@ -1251,7 +1278,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Senior Cross-border Payment Product Manager (Confidential)"
   },
   {
     "title": "Product Director, Banking Engagement - Singapore",
@@ -1291,7 +1319,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "Indeed"
+    "app_platform": "Indeed",
+    "en_title": "Product Director, Banking Engagement - Singapore"
   },
   {
     "title": "Product Director, Banking Engagement - Crypto.com",
@@ -1328,7 +1357,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "Indeed"
+    "app_platform": "Indeed",
+    "en_title": "Product Director, Banking Engagement - Crypto.com"
   },
   {
     "title": "Principal Product Manager - Discovery & Onboarding (Exchange)",
@@ -1348,7 +1378,8 @@
     "quality_score": 83,
     "quality_tier": "A-1",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Principal Product Manager - Discovery & Onboarding (Exchange)"
   },
   {
     "title": "Senior Director - Corporate Strategy Execution - APAC",
@@ -1396,7 +1427,8 @@
     "us_firm_apac": false,
     "url_type": "direct",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Director - Corporate Strategy Execution - APAC"
   },
   {
     "title": "Product Director (Payment, CAAS, Card Payments)",
@@ -1445,7 +1477,8 @@
     "url_type": "direct",
     "scanned_date": "2026-06-13",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Director (Payment, CAAS, Card Payments)"
   },
   {
     "title": "Director, Deal Strategy & Enablement - APAC",
@@ -1495,7 +1528,8 @@
     "url_type": "search",
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Director, Deal Strategy & Enablement - APAC"
   },
   {
     "title": "Product Director, Payments (Liquidity / Cross-Border) - Ethos BeathChapman",
@@ -1535,7 +1569,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "JobsDB"
+    "app_platform": "JobsDB",
+    "en_title": "Product Director, Payments (Liquidity / Cross-Border) - Ethos Beath Chapman"
   },
   {
     "title": "Senior Product Manager, Agentic AI — Finance District",
@@ -1582,7 +1617,8 @@
     "url_type": "search",
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, Agentic AI — Finance District"
   },
   {
     "title": "Sr Director, Go-To-Market (APAC)",
@@ -1630,7 +1666,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Sr Director, Go-To-Market (APAC)"
   },
   {
     "title": "Director, Business Strategy & Development – IMG",
@@ -1675,7 +1712,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Director, Business Strategy & Development – IMG"
   },
   {
     "title": "Director, East Asia Strategy and Growth Initiatives",
@@ -1720,7 +1758,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Director, East Asia Strategy and Growth Initiatives"
   },
   {
     "title": "China Supply Chain Strategy Director",
@@ -1765,7 +1804,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "China Supply Chain Strategy Director"
   },
   {
     "title": "VP, Risk Analytics Product Manager",
@@ -1815,7 +1855,8 @@
     "us_firm_apac": true,
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "VP, Risk Analytics Product Manager"
   },
   {
     "title": "Associate/AVP, Total Portfolio Sustainability Investment Research & Strategy",
@@ -1864,7 +1905,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Associate/AVP, Total Portfolio Sustainability Investment Research & Strategy"
   },
   {
     "title": "Product Lead - Marketplace",
@@ -1914,7 +1956,8 @@
     "url_type": "search",
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Lead - Marketplace"
   },
   {
     "title": "Global Head of Business Operations and Chief of Staff, AppDev, RSO",
@@ -1962,7 +2005,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Global Head of Business Operations and Chief of Staff, App Dev, RSO"
   },
   {
     "title": "Head of Measurement, APAC Product Go-To-Market",
@@ -2010,7 +2054,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Head of Measurement, APAC Product Go-To-Market"
   },
   {
     "title": "Regional Product Lead, Foundational Measurement",
@@ -2058,7 +2103,8 @@
     "us_firm_apac": true,
     "location_norm": "Singapore",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Regional Product Lead, Foundational Measurement"
   },
   {
     "title": "Senior Commercial Product Manager (B2B)",
@@ -2108,7 +2154,8 @@
     "url_type": "search",
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Commercial Product Manager (B2B)"
   },
   {
     "title": "Senior Manager of Frontline Incentive and Strategy",
@@ -2153,7 +2200,8 @@
     "geo_score": 15,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Manager of Frontline Incentive and Strategy"
   },
   {
     "title": "Senior Technical Product Manager - Commercial Banking Technology",
@@ -2200,7 +2248,8 @@
     "url_type": "search",
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Technical Product Manager - Commercial Banking Technology"
   },
   {
     "title": "Payment Director",
@@ -2220,7 +2269,8 @@
     "quality_score": 78,
     "quality_tier": "A-1",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Payment Director"
   },
   {
     "title": "GTM Director (出海)",
@@ -2303,7 +2353,8 @@
     "stale_days": 0,
     "app_difficulty": "medium",
     "app_time_est": "10-15 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Associate Actuarial Director, WTW Strategic Risk Consulting"
   },
   {
     "title": "Senior Product Manager, Huawei Cloud",
@@ -2349,7 +2400,8 @@
     "geo_score": 20,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, Huawei Cloud"
   },
   {
     "title": "Senior Product Manager, HarmonyOS Ecosystem",
@@ -2395,7 +2447,8 @@
     "geo_score": 20,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, Harmony OS Ecosystem"
   },
   {
     "title": "Head of Emerging Markets",
@@ -2415,7 +2468,8 @@
     "quality_score": 76,
     "quality_tier": "A-1",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Head of Emerging Markets"
   },
   {
     "title": "Head of Strategic Growth, APAC",
@@ -2463,7 +2517,8 @@
     "us_firm_apac": false,
     "url_type": "direct",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Head of Strategic Growth, APAC"
   },
   {
     "title": "Digital Project Director / Product Director",
@@ -2500,7 +2555,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "Indeed"
+    "app_platform": "Indeed",
+    "en_title": "Digital Project Director / Product Director"
   },
   {
     "title": "Director of Category - Joybuy",
@@ -2545,7 +2601,8 @@
     "geo_score": 20,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Director of Category - Joybuy"
   },
   {
     "title": "Fintech Strategy & Investments, APAC Lead - Executive Director",
@@ -2593,7 +2650,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Fintech Strategy & Investments, APAC Lead - Executive Director"
   },
   {
     "title": "Head Of Product Jobs in Hong Kong",
@@ -2633,7 +2691,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "JobsDB"
+    "app_platform": "JobsDB",
+    "en_title": "Head Of Product Jobs in Hong Kong"
   },
   {
     "title": "Lead Product Manager, Client Digital Experience (Wealth Management)",
@@ -2680,7 +2739,8 @@
     "url_type": "search",
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Lead Product Manager, Client Digital Experience (Wealth Management)"
   },
   {
     "title": "Chief Marketplace Officer (CMO) / Marketplace Growth Director",
@@ -2726,7 +2786,8 @@
     "url_type": "direct",
     "scanned_date": "2026-06-13",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Chief Marketplace Officer (CMO) / Marketplace Growth Director"
   },
   {
     "title": "Head of Product",
@@ -2746,7 +2807,8 @@
     "quality_score": 78,
     "quality_tier": "A-1",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Head of Product"
   },
   {
     "title": "Head of eCommerce & Omni – East Asia Pacific",
@@ -2794,7 +2856,8 @@
     "us_firm_apac": false,
     "url_type": "direct",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Head of e Commerce & Omni – East Asia Pacific"
   },
   {
     "title": "Manager, AI & Data Strategy - RAI TPM",
@@ -2842,7 +2905,8 @@
     "location_norm": "Singapore",
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Manager, AI & Data Strategy - RAI TPM"
   },
   {
     "title": "Director, Product Management - APAC Products",
@@ -2890,7 +2954,8 @@
     "geo_score": 10,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Director, Product Management - APAC Products"
   },
   {
     "title": "Product Manager - Growth & Monetization",
@@ -2938,7 +3003,8 @@
     "us_firm_apac": false,
     "location_norm": "Singapore",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Manager - Growth & Monetization"
   },
   {
     "title": "Senior Product Manager / Director – Card Issuance",
@@ -2988,7 +3054,8 @@
     "us_firm_apac": false,
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager / Director – Card Issuance"
   },
   {
     "title": "Product Manager - Hong Kong",
@@ -3033,7 +3100,8 @@
     "us_firm_apac": false,
     "location_norm": "Hong Kong",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Manager - Hong Kong"
   },
   {
     "title": "Principal, Store Development & Operations, NSO",
@@ -3078,7 +3146,8 @@
     "geo_score": 12,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Principal, Store Development & Operations, NSO"
   },
   {
     "title": "Cross Border Payment Product Manager, Group Transaction Banking (AVP)",
@@ -3128,7 +3197,8 @@
     "url_type": "search",
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Cross Border Payment Product Manager, Group Transaction Banking (AVP)"
   },
   {
     "title": "Product Director, Trust & Experience",
@@ -3174,7 +3244,8 @@
     "us_firm_apac": true,
     "scanned_date": "2026-06-13",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Director, Trust & Experience"
   },
   {
     "title": "Product Manager / Director, Global Payment Partnerships",
@@ -3220,7 +3291,8 @@
     "us_firm_apac": true,
     "scanned_date": "2026-06-13",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Manager / Director, Global Payment Partnerships"
   },
   {
     "title": "(Senior) Data Infra Product Manager, On Chain (Algorithm and Search)",
@@ -3267,7 +3339,8 @@
     "us_firm_apac": true,
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "(Senior) Data Infra Product Manager, On Chain (Algorithm and Search)"
   },
   {
     "title": "Product Director, Compliance",
@@ -3312,7 +3385,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Director, Compliance"
   },
   {
     "title": "Product Manager / Director, Institutional Product",
@@ -3357,7 +3431,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Manager / Director, Institutional Product"
   },
   {
     "title": "Product Manager / Director, User Growth",
@@ -3402,7 +3477,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Manager / Director, User Growth"
   },
   {
     "title": "Principal / Senior Product Manager, Institution Onboarding (KYB)",
@@ -3452,7 +3528,8 @@
     "us_firm_apac": true,
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Principal / Senior Product Manager, Institution Onboarding (KYB)"
   },
   {
     "title": "Principal/Senior Product Manager, AI and Agent",
@@ -3500,7 +3577,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Principal/Senior Product Manager, AI and Agent"
   },
   {
     "title": "Principal / Senior Product Manager, Institution Onboarding Experience (KYB)",
@@ -3548,7 +3626,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Principal / Senior Product Manager, Institution Onboarding Experience (KYB)"
   },
   {
     "title": "Product Director, Compliance (Transaction Monitoring & Case Management)",
@@ -3596,7 +3675,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Director, Compliance (Transaction Monitoring & Case Management)"
   },
   {
     "title": "Product Director (Pay & Card)",
@@ -3644,7 +3724,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Director (Pay & Card)"
   },
   {
     "title": "Product Manager / Director, AI Trading",
@@ -3692,7 +3773,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Manager / Director, AI Trading"
   },
   {
     "title": "Product Manager / Director, Fiat",
@@ -3740,7 +3822,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Manager / Director, Fiat"
   },
   {
     "title": "Product Manager / Director, Institutional Growth",
@@ -3788,7 +3871,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Manager / Director, Institutional Growth"
   },
   {
     "title": "Product Manager / Director, Trading Infrastructure",
@@ -3836,7 +3920,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Manager / Director, Trading Infrastructure"
   },
   {
     "title": "Product Manager / Director, VIP Growth & Operations",
@@ -3884,7 +3969,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Manager / Director, VIP Growth & Operations"
   },
   {
     "title": "Product Manager / Product Director, Copy Trading / Trading Bot",
@@ -3932,7 +4018,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Manager / Product Director, Copy Trading / Trading Bot"
   },
   {
     "title": "Senior/Principal Product Manager, DEX Trading",
@@ -3980,7 +4067,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior/Principal Product Manager, DEX Trading"
   },
   {
     "title": "Principal / Senior Product Manager, KYB Onboarding",
@@ -4015,7 +4103,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Principal / Senior Product Manager, KYB Onboarding"
   },
   {
     "title": "Senior Manager / Director, Growth Operation",
@@ -4060,7 +4149,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Manager / Director, Growth Operation"
   },
   {
     "title": "Principal / Senior Product Manager, Institution Onboarding Experience (KYB)",
@@ -4080,7 +4170,8 @@
     "quality_score": 83,
     "quality_tier": "A-1",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Principal / Senior Product Manager, Institution Onboarding Experience (KYB)"
   },
   {
     "title": "Senior / Lead Product Manager – B2B Cross-Border Crypto Payments",
@@ -4126,7 +4217,8 @@
     "stale_days": 0,
     "app_difficulty": "medium",
     "app_time_est": "10-15 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Senior / Lead Product Manager – B2B Cross-Border Crypto Payments"
   },
   {
     "title": "Head of Commercial Strategy and Excellence",
@@ -4171,7 +4263,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Head of Commercial Strategy and Excellence"
   },
   {
     "title": "Head of APAC Growth Markets, Global Affairs",
@@ -4219,7 +4312,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Head of APAC Growth Markets, Global Affairs"
   },
   {
     "title": "APAC Strategic Initiatives Lead, Global Affairs",
@@ -4267,7 +4361,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "APAC Strategic Initiatives Lead, Global Affairs"
   },
   {
     "title": "Product Manager / Product Director, Copy Trading / Trading Bot - P2P",
@@ -4307,7 +4402,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "JobsDB"
+    "app_platform": "JobsDB",
+    "en_title": "Product Manager / Product Director, Copy Trading / Trading Bot - P2P"
   },
   {
     "title": "Product and Strategy Innovation Lead",
@@ -4357,7 +4453,8 @@
     "url_type": "search",
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product and Strategy Innovation Lead"
   },
   {
     "title": "Strategy & Innovation Director-SH",
@@ -4402,7 +4499,8 @@
     "us_firm_apac": false,
     "url_type": "direct",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Strategy & Innovation Director-SH"
   },
   {
     "title": "Senior Strategy & BD Manager",
@@ -4447,7 +4545,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Strategy & BD Manager"
   },
   {
     "title": "Senior / Product Manager, SME Business Banking",
@@ -4494,7 +4593,8 @@
     "us_firm_apac": false,
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior / Product Manager, SME Business Banking"
   },
   {
     "title": "Senior Product Manager",
@@ -4539,7 +4639,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager"
   },
   {
     "title": "Head of Product (Wealth & Trading)",
@@ -4587,7 +4688,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Head of Product (Wealth & Trading)"
   },
   {
     "title": "Head of Strategy & Business Development, APAC",
@@ -4632,7 +4734,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Head of Strategy & Business Development, APAC"
   },
   {
     "title": "Growth Director of Operations / Strategy",
@@ -4680,7 +4783,8 @@
     "us_firm_apac": false,
     "url_type": "direct",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Growth Director of Operations / Strategy"
   },
   {
     "title": "Product Lead, AI-Native (Special Projects)",
@@ -4727,7 +4831,8 @@
     "us_firm_apac": false,
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Lead, AI-Native (Special Projects)"
   },
   {
     "title": "Senior Product Manager, Shopee Cross-border",
@@ -4773,7 +4878,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, Shopee Cross-border"
   },
   {
     "title": "Head of Product, ShopeePay",
@@ -4819,7 +4925,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Head of Product, Shopee Pay"
   },
   {
     "title": "Senior Manager, Merchandising & Commercial Strategy",
@@ -4864,7 +4971,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Manager, Merchandising & Commercial Strategy"
   },
   {
     "title": "AI Product Lead",
@@ -4911,7 +5019,8 @@
     "url_type": "search",
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "AI Product Lead"
   },
   {
     "title": "Senior Product Manager, WeChat Pay",
@@ -4957,7 +5066,8 @@
     "geo_score": 20,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, We Chat Pay"
   },
   {
     "title": "Senior Product Manager, Cloud & Smart Industries",
@@ -5003,7 +5113,8 @@
     "geo_score": 20,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, Cloud & Smart Industries"
   },
   {
     "title": "Regional Head of Corporate Development (APAC)",
@@ -5051,7 +5162,8 @@
     "us_firm_apac": false,
     "url_type": "direct",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Regional Head of Corporate Development (APAC)"
   },
   {
     "title": "Head of Product - Core & Growth",
@@ -5100,7 +5212,8 @@
     "url_type": "direct",
     "scanned_date": "2026-06-13",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Head of Product - Core & Growth"
   },
   {
     "title": "Senior Product Manager, Digital Currency and Payments",
@@ -5135,7 +5248,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Senior Product Manager, Digital Currency and Payments"
   },
   {
     "title": "Senior VP, Product Manager - Digital Currency and Payments",
@@ -5185,7 +5299,8 @@
     "url_type": "search",
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior VP, Product Manager - Digital Currency and Payments"
   },
   {
     "title": "VP, Channel Product Owner, Group Transaction Banking",
@@ -5235,7 +5350,8 @@
     "url_type": "search",
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "VP, Channel Product Owner, Group Transaction Banking"
   },
   {
     "title": "Head of Expansion (APAC)",
@@ -5255,7 +5371,8 @@
     "quality_score": 76,
     "quality_tier": "A-1",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Head of Expansion (APAC)"
   },
   {
     "title": "Data Product Owner – AI Products",
@@ -5305,7 +5422,8 @@
     "url_type": "search",
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Data Product Owner – AI Products"
   },
   {
     "title": "Senior Consultant / Consultant - AI Strategy",
@@ -5350,7 +5468,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Consultant / Consultant - AI Strategy"
   },
   {
     "title": "Senior Director, Corporate Strategy, Asia Pacific",
@@ -5398,7 +5517,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Director, Corporate Strategy, Asia Pacific"
   },
   {
     "title": "Director, Client Consulting, Stablecoin, AI & Fintech Innovation",
@@ -5418,7 +5538,8 @@
     "quality_score": 78,
     "quality_tier": "A-1",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Director, Client Consulting, Stablecoin, AI & Fintech Innovation"
   },
   {
     "title": "Senior Director, Go-To-Market",
@@ -5464,7 +5585,8 @@
     "url_type": "direct",
     "scanned_date": "2026-06-13",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Director, Go-To-Market"
   },
   {
     "title": "Product Lead - APAC Growth & Expansion",
@@ -5512,7 +5634,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Lead - APAC Growth & Expansion"
   },
   {
     "title": "Senior Product Manager, AI Automation",
@@ -5547,7 +5670,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Senior Product Manager, AI Automation"
   },
   {
     "title": "Senior Regional Commercial Development Manager (Strategy/Planning)",
@@ -5592,7 +5716,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Regional Commercial Development Manager (Strategy/Planning)"
   },
   {
     "title": "Associate Director - 迈茂睿",
@@ -5629,7 +5754,8 @@
     "stale_days": 0,
     "app_difficulty": "medium",
     "app_time_est": "10-15 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Associate Director - 迈茂睿"
   },
   {
     "title": "BD & Strategy Director/Senior Director - 核舟医药",
@@ -5666,7 +5792,8 @@
     "stale_days": 0,
     "app_difficulty": "medium",
     "app_time_est": "10-15 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "BD & Strategy Director/Senior Director - Pharmaceutical"
   },
   {
     "title": "集团产品线总监（P02/P03）- 中明科技",
@@ -5758,7 +5885,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director/Expert（To BRobotics）"
   },
   {
     "title": "手机产品总监（旗舰AI方向）",
@@ -5804,7 +5932,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Mobile Phone Product Director（Flagship AIFocus）"
   },
   {
     "title": "产品总监 - 创新工场",
@@ -5942,7 +6071,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "GTM Director"
   },
   {
     "title": "产品总监（穿戴类）- 广和通",
@@ -6126,7 +6256,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Finance AI Product Manager/Leader"
   },
   {
     "title": "电子烟产品总监",
@@ -6172,7 +6303,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "E-cigarette Product Director"
   },
   {
     "title": "IOT软件产品总监",
@@ -6218,7 +6350,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "IOTProduct Director"
   },
   {
     "title": "产品总监 统筹存储产品 SSD UFS eMMC企业级",
@@ -6264,7 +6397,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director Overseeing 存储产品 SSD UFS e MMCEnterprise"
   },
   {
     "title": "产品总监（存储）",
@@ -6310,7 +6444,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director（）"
   },
   {
     "title": "产品总监",
@@ -6356,7 +6491,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director"
   },
   {
     "title": "产品总监/副总经理",
@@ -6402,7 +6538,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director/Deputy General Manager"
   },
   {
     "title": "资深产品经理/产品负责人（海外机器人）",
@@ -6448,7 +6585,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager/Head of Product（Overseas Robotics）"
   },
   {
     "title": "资深软件产品经理（音视频方向）",
@@ -6494,7 +6632,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Software Product Manager（Audio/Video Focus）"
   },
   {
     "title": "高级产品总监（深度相机方向）",
@@ -6540,7 +6679,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Director（深度相机Focus）"
   },
   {
     "title": "产品总监-家居",
@@ -6586,7 +6726,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director"
   },
   {
     "title": "资深产品经理/Leader",
@@ -6632,7 +6773,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager/Leader"
   },
   {
     "title": "产品总监（100-150W）",
@@ -6678,7 +6820,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director（100-150W）"
   },
   {
     "title": "产品总监-婴儿床",
@@ -6724,7 +6867,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director-婴儿床"
   },
   {
     "title": "资深产品经理（AI数据）",
@@ -6770,7 +6914,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager（AI）"
   },
   {
     "title": "ToB机器人产品总监(中高阶)",
@@ -6816,7 +6961,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "To BRobotics Product Director(中高阶)"
   },
   {
     "title": "产品总监（急）",
@@ -6862,7 +7008,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director（）"
   },
   {
     "title": "资深产品经理（PM）",
@@ -6908,7 +7055,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager（PM）"
   },
   {
     "title": "产品总监",
@@ -6954,7 +7102,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director"
   },
   {
     "title": "产品总监（宠物）",
@@ -7000,7 +7149,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director（）"
   },
   {
     "title": "供应链系统产品总监（ERP/SAAS/跨境电商平台等）",
@@ -7046,7 +7196,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Supply Chain Product Director（ERP/SAAS/Cross-border 电商平台等）"
   },
   {
     "title": "资深产品经理/专家（人事方向）",
@@ -7092,7 +7243,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager/Expert（Focus）"
   },
   {
     "title": "产品（PDT-Leader产品总监、产品代表、产品经理）",
@@ -7138,7 +7290,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "（PDT-Leader Product Director、代表、Product Manager）"
   },
   {
     "title": "健康险产品总监/经理 - 深圳",
@@ -7230,7 +7383,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director(J12106)"
   },
   {
     "title": "高倍率锂电产品总监",
@@ -7276,7 +7430,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "高倍率锂电Product Director"
   },
   {
     "title": "深圳AI商业化产品经理/负责人",
@@ -7313,7 +7468,8 @@
     "stale_days": 0,
     "app_difficulty": "medium",
     "app_time_est": "10-15 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Shenzhen AI 商业化Product Manager/Responsible for"
   },
   {
     "title": "Director - 上海",
@@ -7350,7 +7506,8 @@
     "stale_days": 0,
     "app_difficulty": "medium",
     "app_time_est": "10-15 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Director - Shanghai"
   },
   {
     "title": "海外产品负责人（语音/直播）- 百度",
@@ -7534,7 +7691,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Supply Chain Senior Product Manager"
   },
   {
     "title": "惠州产品总监（跨境电商/消费电子）",
@@ -7580,7 +7738,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director（Cross-border/Consumer Electronics）"
   },
   {
     "title": "产品总监 双休 电子烟",
@@ -7626,7 +7785,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director E-cigarette"
   },
   {
     "title": "产品总监（智能手环&手表方向）",
@@ -7672,7 +7832,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director（智能手环&Focus）"
   },
   {
     "title": "Senior Product Manager, AIA Digital",
@@ -7718,7 +7879,8 @@
     "geo_score": 18,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, AIA Digital"
   },
   {
     "title": "Regional Head of Strategy, Insights and Data APAC",
@@ -7766,7 +7928,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Regional Head of Strategy, Insights and Data APAC"
   },
   {
     "title": "Head of E-commerce Strategy & Performance (Regional)",
@@ -7814,7 +7977,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Head of E-commerce Strategy & Performance (Regional)"
   },
   {
     "title": "Senior Product Manager (SG-based) ",
@@ -7862,7 +8026,8 @@
     "geo_score": 10,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager (SG-based)"
   },
   {
     "title": "Sr. AI Product Manager — ConvoAI",
@@ -7882,7 +8047,8 @@
     "quality_score": 73,
     "quality_tier": "A-2",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Sr. AI Product Manager — Convo AI"
   },
   {
     "title": "Associate Director, Strategy & Operations - CEO Office",
@@ -7930,7 +8096,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Associate Director, Strategy & Operations - CEO Office"
   },
   {
     "title": "Staff Product Manager, Onboarding",
@@ -7968,7 +8135,8 @@
     "geo_score": 12,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Staff Product Manager, Onboarding"
   },
   {
     "title": "Senior Product Manager, Identity & Authentication",
@@ -8006,7 +8174,8 @@
     "geo_score": 12,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, Identity & Authentication"
   },
   {
     "title": "Senior Technical Program Manager, Solutions Strategy & Programs - Airwallex",
@@ -8046,7 +8215,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "Indeed"
+    "app_platform": "Indeed",
+    "en_title": "Senior Technical Program Manager, Solutions Strategy & Programs - Airwallex"
   },
   {
     "title": "Director Product Management, APJ (AI/Cloud)",
@@ -8094,7 +8264,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Director Product Management, APJ (AI/Cloud)"
   },
   {
     "title": "Senior Product Manager - AI, NBS",
@@ -8114,7 +8285,8 @@
     "quality_score": 78,
     "quality_tier": "A-2",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Senior Product Manager - AI, NBS"
   },
   {
     "title": "Senior Product Manager - AI, Amazon Global Selling",
@@ -8134,7 +8306,8 @@
     "quality_score": 78,
     "quality_tier": "A-2",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Senior Product Manager - AI, Amazon Global Selling"
   },
   {
     "title": "(Fintech) Senior Product Manager",
@@ -8172,7 +8345,8 @@
     "geo_score": 18,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "(Fintech) Senior Product Manager"
   },
   {
     "title": "(Sr.) Product Manager, Fintech",
@@ -8192,7 +8366,8 @@
     "quality_score": 78,
     "quality_tier": "A-2",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "(Sr.) Product Manager, Fintech"
   },
   {
     "title": "Senior Product Manager, KYB",
@@ -8238,7 +8413,8 @@
     "stale_days": 0,
     "app_difficulty": "medium",
     "app_time_est": "10-15 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Senior Product Manager, KYB"
   },
   {
     "title": "Senior Product Manager (Marketplace)",
@@ -8284,7 +8460,8 @@
     "stale_days": 0,
     "app_difficulty": "medium",
     "app_time_est": "10-15 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Senior Product Manager (Marketplace)"
   },
   {
     "title": "Director/Managing Director - Singapore & SEA COO",
@@ -8332,7 +8509,8 @@
     "us_firm_apac": false,
     "url_type": "direct",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Director/Managing Director - Singapore & SEA COO"
   },
   {
     "title": "AI产品经理 - 飞书多维表格",
@@ -8367,7 +8545,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "AI Product Manager - 飞书多维表格"
   },
   {
     "title": "Payments - Banking as a Service / Payer ID - Product Management Senior Specialist",
@@ -8416,7 +8595,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Payments - Banking as a Service / Payer ID - Product Management Senior Specialist"
   },
   {
     "title": "Principal Product Manager - Compliance / AML / Risk Platform",
@@ -8436,7 +8616,8 @@
     "quality_score": 83,
     "quality_tier": "A-2",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Principal Product Manager - Compliance / AML / Risk Platform"
   },
   {
     "title": "Director, Product Strategy & Growth",
@@ -8484,7 +8665,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Director, Product Strategy & Growth"
   },
   {
     "title": "SEA TikTok Live Operations Lead",
@@ -8529,7 +8711,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "SEA Tik Tok Live Operations Lead"
   },
   {
     "title": "Principal Product Manager - Verification & Activation (Exchange)",
@@ -8578,7 +8761,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Principal Product Manager - Verification & Activation (Exchange)"
   },
   {
     "title": "Senior Product Manager, AI Transformation - Singapore",
@@ -8618,7 +8802,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "Indeed"
+    "app_platform": "Indeed",
+    "en_title": "Senior Product Manager, AI Transformation - Singapore"
   },
   {
     "title": "(Senior) Product Manager, Trading (Crypto.com App)",
@@ -8656,7 +8841,8 @@
     "geo_score": 18,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "(Senior) Product Manager, Trading (Crypto.com App)"
   },
   {
     "title": "Product Director, Banking Engagement",
@@ -8702,7 +8888,8 @@
     "url_type": "direct",
     "scanned_date": "2026-06-13",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Director, Banking Engagement"
   },
   {
     "title": "Senior Product Manager, Trading (Crypto.com App)",
@@ -8748,7 +8935,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Senior Product Manager, Trading (Crypto.com App)"
   },
   {
     "title": "Senior Product Manager, Digital Banking",
@@ -8794,7 +8982,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, Digital Banking"
   },
   {
     "title": "Senior Product Manager - DSV",
@@ -8834,7 +9023,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "Indeed"
+    "app_platform": "Indeed",
+    "en_title": "Senior Product Manager - DSV"
   },
   {
     "title": "Outbound Product Manager, AI Operations",
@@ -8882,7 +9072,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Outbound Product Manager, AI Operations"
   },
   {
     "title": "Product Lead / Product Director (Corporate Card / Crypto Payment)",
@@ -8930,7 +9121,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Lead / Product Director (Corporate Card / Crypto Payment)"
   },
   {
     "title": "General Manager & Country Head - Singapore",
@@ -8950,7 +9142,8 @@
     "quality_score": 76,
     "quality_tier": "A-2",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "General Manager & Country Head - Singapore"
   },
   {
     "title": "Head of International Expansion",
@@ -8970,7 +9163,8 @@
     "quality_score": 73,
     "quality_tier": "A-2",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Head of International Expansion"
   },
   {
     "title": "Chief of Staff to SVP Operations, APAC",
@@ -9018,7 +9212,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Chief of Staff to SVP Operations, APAC"
   },
   {
     "title": "Head of Product [Fintech | Growth | Multi-Market Platform]",
@@ -9066,7 +9261,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Head of Product [Fintech | Growth | Multi-Market Platform]"
   },
   {
     "title": "Senior Product Manager, Fintech/Trading/Brokerage Platform",
@@ -9101,7 +9297,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Senior Product Manager, Fintech/Trading/Brokerage Platform"
   },
   {
     "title": "Senior Product Manager, Trading",
@@ -9136,7 +9333,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Senior Product Manager, Trading"
   },
   {
     "title": "Strategy Consultant/Senior Manager (Healthcare)",
@@ -9181,7 +9379,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Strategy Consultant/Senior Manager (Healthcare)"
   },
   {
     "title": "核心战略和运营负责人，市场推广",
@@ -9247,7 +9446,8 @@
     "quality_score": 76,
     "quality_tier": "A-2",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Strategy and Operations Principal Lead, Apps, Product GTM"
   },
   {
     "title": "Senior Product Manager - HK Business",
@@ -9267,7 +9467,8 @@
     "quality_score": 83,
     "quality_tier": "A-2",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Senior Product Manager - HK Business"
   },
   {
     "title": "Senior Product Manager, HSBC Digital",
@@ -9313,7 +9514,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, HSBC Digital"
   },
   {
     "title": "Product Director",
@@ -9359,7 +9561,8 @@
     "url_type": "direct",
     "scanned_date": "2026-06-13",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Director"
   },
   {
     "title": "GTM Director（出海）",
@@ -9454,7 +9657,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Head of Market Strategy ACM APAC"
   },
   {
     "title": "Director/Vice President, Head – PCM Product Management, APAC",
@@ -9503,7 +9707,8 @@
     "url_type": "direct",
     "scanned_date": "2026-06-13",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Director/Vice President, Head – PCM Product Management, APAC"
   },
   {
     "title": "Senior Product Manager, Global Corporate Banking - Bank of China (Hong Kong)",
@@ -9540,7 +9745,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "Indeed"
+    "app_platform": "Indeed",
+    "en_title": "Senior Product Manager, Global Corporate Banking - Bank of China (Hong Kong)"
   },
   {
     "title": "Senior Product Manager",
@@ -9580,7 +9786,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "Indeed"
+    "app_platform": "Indeed",
+    "en_title": "Senior Product Manager"
   },
   {
     "title": "Senior Product Manager (Food Discovery)",
@@ -9620,7 +9827,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "Indeed"
+    "app_platform": "Indeed",
+    "en_title": "Senior Product Manager (Food Discovery)"
   },
   {
     "title": "BNPL Product & Operations Lead (Europe Business)",
@@ -9665,7 +9873,8 @@
     "geo_score": 18,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "BNPL Product & Operations Lead (Europe Business)"
   },
   {
     "title": "Senior Product Owner Jobs in Hong Kong",
@@ -9702,7 +9911,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "JobsDB"
+    "app_platform": "JobsDB",
+    "en_title": "Senior Product Owner Jobs in Hong Kong"
   },
   {
     "title": "Head of Strategic Capability & Strategy, Surgical Vision APAC",
@@ -9750,7 +9960,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Head of Strategic Capability & Strategy, Surgical Vision APAC"
   },
   {
     "title": "Senior Product Manager, Payments & Fraud Tech",
@@ -9795,7 +10006,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, Payments & Fraud Tech"
   },
   {
     "title": "Senior Product Manager, Platform & Internal Systems",
@@ -9830,7 +10042,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Senior Product Manager, Platform & Internal Systems"
   },
   {
     "title": "Vice President of Product Management",
@@ -9878,7 +10091,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Vice President of Product Management"
   },
   {
     "title": "Director, AI Center of Excellence",
@@ -9926,7 +10140,8 @@
     "us_firm_apac": true,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Director, AI Center of Excellence"
   },
   {
     "title": "Senior Product Manager, Meituan Waimai",
@@ -9972,7 +10187,8 @@
     "geo_score": 20,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, Meituan Waimai"
   },
   {
     "title": "Product Manager, Meituan Maps & Navigation",
@@ -10018,7 +10234,8 @@
     "geo_score": 20,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Manager, Meituan Maps & Navigation"
   },
   {
     "title": "Managing Director, Global Accounts, APAC",
@@ -10063,7 +10280,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Managing Director, Global Accounts, APAC"
   },
   {
     "title": "Product Director, Wealth Management",
@@ -10098,7 +10316,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Product Director, Wealth Management"
   },
   {
     "title": "APAC Strategic PMO Lead",
@@ -10143,7 +10362,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "APAC Strategic PMO Lead"
   },
   {
     "title": "Senior Strategy Manager",
@@ -10188,7 +10408,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Strategy Manager"
   },
   {
     "title": "Strategy & Operations Lead",
@@ -10234,7 +10455,8 @@
     "url_type": "direct",
     "scanned_date": "2026-06-13",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Strategy & Operations Lead"
   },
   {
     "title": "Partner Strategy & Operations Lead",
@@ -10282,7 +10504,8 @@
     "us_firm_apac": false,
     "url_type": "direct",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Partner Strategy & Operations Lead"
   },
   {
     "title": "Head of Cash Products, Transaction Banking (HK & Macau)",
@@ -10302,7 +10525,8 @@
     "quality_score": 78,
     "quality_tier": "A-2",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Head of Cash Products, Transaction Banking (HK & Macau)"
   },
   {
     "title": "Senior Product Designer, Cefi ",
@@ -10347,7 +10571,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Designer, Cefi"
   },
   {
     "title": "Senior/Staff Engineer, Liquidity Platform, Strategy Service",
@@ -10392,7 +10617,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior/Staff Engineer, Liquidity Platform, Strategy Service"
   },
   {
     "title": "Senior Strategy Project Manager, VIP/Institutions",
@@ -10437,7 +10663,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Strategy Project Manager, VIP/Institutions"
   },
   {
     "title": "(Senior) Product Manager, DEX Institution Trading",
@@ -10475,7 +10702,8 @@
     "geo_score": 18,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "(Senior) Product Manager, DEX Institution Trading"
   },
   {
     "title": "Senior Data Scientist, Product & Growth Analytics",
@@ -10523,7 +10751,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Data Scientist, Product & Growth Analytics"
   },
   {
     "title": "Senior Data Scientist, Risk (Risk Strategy)",
@@ -10571,7 +10800,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Data Scientist, Risk (Risk Strategy)"
   },
   {
     "title": "Senior Product Designer",
@@ -10619,7 +10849,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Designer"
   },
   {
     "title": "Senior Product Designer, Chat Experience",
@@ -10667,7 +10898,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Designer, Chat Experience"
   },
   {
     "title": "Senior Product Designer, Pay",
@@ -10715,7 +10947,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Designer, Pay"
   },
   {
     "title": "Senior Product Designer, Trading",
@@ -10763,7 +10996,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Designer, Trading"
   },
   {
     "title": "Senior Product Designer, User Growth",
@@ -10811,7 +11045,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Designer, User Growth"
   },
   {
     "title": "Senior Product Designer, Wallets",
@@ -10859,7 +11094,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Designer, Wallets"
   },
   {
     "title": "Senior Product Manager, Conversational AI Chatbot & Agent Quality",
@@ -10907,7 +11143,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, Conversational AI Chatbot & Agent Quality"
   },
   {
     "title": "Senior Product Manager, DevOps and AI",
@@ -10955,7 +11192,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, Dev Ops and AI"
   },
   {
     "title": "Senior Product Manager, Risk Intelligence Product",
@@ -11003,7 +11241,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, Risk Intelligence Product"
   },
   {
     "title": "Senior Product Manager - Risk Platform",
@@ -11051,7 +11290,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager - Risk Platform"
   },
   {
     "title": "Senior Product Operations Manager, OKX SG",
@@ -11099,7 +11339,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Operations Manager, OKX SG"
   },
   {
     "title": "Senior/Staff Product Manager, Token Listing",
@@ -11147,7 +11388,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior/Staff Product Manager, Token Listing"
   },
   {
     "title": "Senior Strategy PMO / Project Manager  (AI & Org Efficiency) ",
@@ -11195,7 +11437,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Strategy PMO / Project Manager (AI & Org Efficiency)"
   },
   {
     "title": "Senior Strategy PMO / Project Manager (AI & Org Efficiency)",
@@ -11233,7 +11476,8 @@
     "geo_score": 18,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Strategy PMO / Project Manager (AI & Org Efficiency)"
   },
   {
     "title": "Senior Product Manager, Risk Platform",
@@ -11268,7 +11512,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Senior Product Manager, Risk Platform"
   },
   {
     "title": "Product Operations Manager / Director, Institutional Product",
@@ -11303,7 +11548,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Product Operations Manager / Director, Institutional Product"
   },
   {
     "title": "Vice President of Product, AI and Agent",
@@ -11351,7 +11597,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Vice President of Product, AI and Agent"
   },
   {
     "title": "Growth & AI Initiatives Manager",
@@ -11399,7 +11646,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Growth & AI Initiatives Manager"
   },
   {
     "title": "Vice President, AI Strategy & Transformation",
@@ -11444,7 +11692,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Vice President, AI Strategy & Transformation"
   },
   {
     "title": "Senior Program Manager, Executive Support",
@@ -11492,7 +11741,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Program Manager, Executive Support"
   },
   {
     "title": "Fraud Risk Strategy Expert",
@@ -11540,7 +11790,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Fraud Risk Strategy Expert"
   },
   {
     "title": "(Senior) Data Infra Product Manager, On Chain (Web3)",
@@ -11560,7 +11811,8 @@
     "quality_score": 81,
     "quality_tier": "A-2",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "(Senior) Data Infra Product Manager, On Chain (Web3)"
   },
   {
     "title": "Head of Wholesale, NEA (VIP)",
@@ -11580,7 +11832,8 @@
     "quality_score": 78,
     "quality_tier": "A-2",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Head of Wholesale, NEA (VIP)"
   },
   {
     "title": "Product Lead - Pricing",
@@ -11615,7 +11868,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Product Lead - Pricing"
   },
   {
     "title": "Product Manager (Global Networking)",
@@ -11660,7 +11914,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Manager (Global Networking)"
   },
   {
     "title": "Product Manager, Perpetuals",
@@ -11680,7 +11935,8 @@
     "quality_score": 73,
     "quality_tier": "A-2",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Product Manager, Perpetuals"
   },
   {
     "title": "Associate Director, Strategy & Business Development, Greater China",
@@ -11725,7 +11981,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Associate Director, Strategy & Business Development, Greater China"
   },
   {
     "title": "高级/资深产品经理-营销内容中台",
@@ -11771,7 +12028,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior/Senior Product Manager-营销内容中台"
   },
   {
     "title": "深圳腾讯产品经理招聘信息-BOSS直聘",
@@ -11816,7 +12074,8 @@
     "geo_score": 20,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Shenzhen Product Manager 招聘信息-BOSS"
   },
   {
     "title": "Director of Operations/Strategy",
@@ -11861,7 +12120,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Director of Operations/Strategy"
   },
   {
     "title": "Senior Product Manager, SC Digital Ventures",
@@ -11907,7 +12167,8 @@
     "geo_score": 21,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, SC Digital Ventures"
   },
   {
     "title": "Credit Risk Strategy Manager",
@@ -11955,7 +12216,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Credit Risk Strategy Manager"
   },
   {
     "title": "SME & Product Lead for APAC",
@@ -11975,7 +12237,8 @@
     "quality_score": 81,
     "quality_tier": "A-2",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "SME & Product Lead for APAC"
   },
   {
     "title": "Senior Director, APAC Consumer Insights & Strategy",
@@ -12023,7 +12286,8 @@
     "us_firm_apac": false,
     "url_type": "direct",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Director, APAC Consumer Insights & Strategy"
   },
   {
     "title": "AVP/VP, Technology (Corporate Platform Services - Product Manager)",
@@ -12061,7 +12325,8 @@
     "geo_score": 12,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "AVP/VP, Technology (Corporate Platform Services - Product Manager)"
   },
   {
     "title": "WeChat Pay - Senior Business Development Manager",
@@ -12081,7 +12346,8 @@
     "quality_score": 78,
     "quality_tier": "A-2",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "We Chat Pay - Senior Business Development Manager"
   },
   {
     "title": "Director, TISC Digital and Productivity",
@@ -12126,7 +12392,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Director, TISC Digital and Productivity"
   },
   {
     "title": "Director Strategy and Business Development",
@@ -12174,7 +12441,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Director Strategy and Business Development"
   },
   {
     "title": "资深产品经理（机器人本体方向）",
@@ -12268,7 +12536,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Head of Product, AI"
   },
   {
     "title": "Manager, APAC Commercial Strategy & Partnerships (6-month contract)",
@@ -12318,7 +12587,8 @@
     "url_type": "search",
     "scanned_date": "2026-06-14",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Manager, APAC Commercial Strategy & Partnerships (6-month contract)"
   },
   {
     "title": "Director, Digital Strategy & Business Development",
@@ -12363,7 +12633,8 @@
     "us_firm_apac": false,
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Director, Digital Strategy & Business Development"
   },
   {
     "title": "Senior Product Manager - APAC Growth",
@@ -12401,7 +12672,8 @@
     "geo_score": 12,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager - APAC Growth"
   },
   {
     "title": "资深产品经理",
@@ -12447,7 +12719,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager"
   },
   {
     "title": "资深产品经理（蛋白质组学）- 上海",
@@ -12539,7 +12812,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Ai Product Manager"
   },
   {
     "title": "产品经理 - 中澳通",
@@ -12631,7 +12905,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager(J19661)"
   },
   {
     "title": "AI产品经理（培训AI方向）",
@@ -12677,7 +12952,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager（AIFocus）"
   },
   {
     "title": "AI 产品经理/研发工程师（宠物方向）",
@@ -12723,7 +12999,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager/研发工程师（Focus）"
   },
   {
     "title": "资深产品经理",
@@ -12769,7 +13046,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager"
   },
   {
     "title": "AI产品经理（资源运营平台方向）-火山引擎",
@@ -12815,7 +13093,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager（资源运营平台Focus）-火山引擎"
   },
   {
     "title": "资深产品经理（AI）",
@@ -12861,7 +13140,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager（AI）"
   },
   {
     "title": "AI产品经理",
@@ -12907,7 +13187,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager"
   },
   {
     "title": "vivo产品经理 - 应用分发广告流量变现",
@@ -12999,7 +13280,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager-办公产品"
   },
   {
     "title": "AI 产品经理",
@@ -13045,7 +13327,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager"
   },
   {
     "title": "AI产品经理（to c客户端）",
@@ -13091,7 +13374,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager（to c 客户端）"
   },
   {
     "title": "（贸易金融）资深产品经理（熟悉东南亚及中东市场）",
@@ -13137,7 +13421,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "（Finance）Senior Product Manager（熟悉东南亚及中东市场）"
   },
   {
     "title": "AI产品经理（语言助手方向）",
@@ -13183,7 +13468,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager（语言助手Focus）"
   },
   {
     "title": "AI产品经理（大模型应用方向）",
@@ -13229,7 +13515,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager（大模型应用Focus）"
   },
   {
     "title": "资深产品经理",
@@ -13275,7 +13562,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager"
   },
   {
     "title": "高级/资深产品经理（手机）",
@@ -13321,7 +13609,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior/Senior Product Manager（）"
   },
   {
     "title": "AI产品经理 | 六险一金 15薪",
@@ -13367,7 +13656,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager | 六险一金 15"
   },
   {
     "title": "AI产品经理-头部",
@@ -13413,7 +13703,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager"
   },
   {
     "title": "资深产品经理",
@@ -13459,7 +13750,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager"
   },
   {
     "title": "资深产品经理",
@@ -13505,7 +13797,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager"
   },
   {
     "title": "AI软件产品经理--APP产品经理 / 高级产品经理（智能硬件生态方向）",
@@ -13551,7 +13844,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AISoftware Product Manager--APPProduct Manager / Senior Product Manager（Smart Hardware Focus）"
   },
   {
     "title": "资深产品经理（AI数据）",
@@ -13597,7 +13891,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager（AI）"
   },
   {
     "title": "售后平台资深产品经理",
@@ -13643,7 +13938,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "售后平台Senior Product Manager"
   },
   {
     "title": "AI资深产品经理（泛娱乐生态，海外C端产品）",
@@ -13689,7 +13985,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AISenior Product Manager（泛娱乐生态，Overseas C 端产品）"
   },
   {
     "title": "C端AI产品经理 对话机器人",
@@ -13735,7 +14032,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "CAI Product Manager Robotics"
   },
   {
     "title": "AI产品经理-AI应用方向",
@@ -13781,7 +14079,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager-AIFocus"
   },
   {
     "title": "资深产品经理（游戏策划）",
@@ -13827,7 +14126,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager（Gaming）"
   },
   {
     "title": "资深产品经理（机器人）",
@@ -13873,7 +14173,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager（Robotics）"
   },
   {
     "title": "AI产品经理（to B）",
@@ -13919,7 +14220,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager（to B）"
   },
   {
     "title": "AI产品经理",
@@ -13965,7 +14267,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager"
   },
   {
     "title": "AI产品经理（赋能）",
@@ -14011,7 +14314,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager（）"
   },
   {
     "title": "AI产品经理",
@@ -14057,7 +14361,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager"
   },
   {
     "title": "资深产品经理（售后平台）",
@@ -14103,7 +14408,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager（售后平台）"
   },
   {
     "title": "资深软件产品经理",
@@ -14149,7 +14455,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Software Product Manager"
   },
   {
     "title": "AI产品经理（工作地点深圳或者北京）",
@@ -14195,7 +14502,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager（工作地点Shenzhen Beijing）"
   },
   {
     "title": "高级/资深软件产品经理（深圳/北京）",
@@ -14241,7 +14549,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior/Senior Software Product Manager（Shenzhen/Beijing）"
   },
   {
     "title": "资深产品经理-C端",
@@ -14287,7 +14596,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager-C"
   },
   {
     "title": "资深产品经理（AI方向）",
@@ -14333,7 +14643,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager（AIFocus）"
   },
   {
     "title": "AI产品经理（新零售/用工平台）",
@@ -14379,7 +14690,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager（Retail/用工平台）"
   },
   {
     "title": "AI产品经理(AICRM/Chat方向)",
@@ -14425,7 +14737,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager(AICRM/Chat Focus)"
   },
   {
     "title": "资深软件产品经理",
@@ -14471,7 +14784,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Software Product Manager"
   },
   {
     "title": "资深产品经理（AI方向）",
@@ -14517,7 +14831,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager（AIFocus）"
   },
   {
     "title": "AI产品经理",
@@ -14563,7 +14878,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager"
   },
   {
     "title": "AI产品经理（SaaS）",
@@ -14609,7 +14925,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager（Saa S）"
   },
   {
     "title": "AI产品经理",
@@ -14655,7 +14972,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager"
   },
   {
     "title": "资深产品经理",
@@ -14701,7 +15019,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager"
   },
   {
     "title": "AI产品经理-企业应用方向",
@@ -14747,7 +15066,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager-企业应用Focus"
   },
   {
     "title": "AI产品经理",
@@ -14793,7 +15113,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager"
   },
   {
     "title": "AI产品高级经理-AI应用体验/AI策略",
@@ -14839,7 +15160,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AISenior-AI 应用体验/AI"
   },
   {
     "title": "远程AI产品经理",
@@ -14885,7 +15207,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager"
   },
   {
     "title": "资深产品经理（家居 家具 家纺）(跨境)",
@@ -14931,7 +15254,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager（ ）(Cross-border)"
   },
   {
     "title": "资深软件产品经理（AI，TOB，SAAS）",
@@ -14977,7 +15301,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Software Product Manager（AI，TOB，SAAS）"
   },
   {
     "title": "AI产品经理（信贷业务）",
@@ -15023,7 +15348,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager（信贷业务）"
   },
   {
     "title": "AI产品经理（独角兽）",
@@ -15069,7 +15395,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager（独角兽）"
   },
   {
     "title": "资深产品经理（AI方向）",
@@ -15115,7 +15442,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager（AIFocus）"
   },
   {
     "title": "AI产品经理",
@@ -15161,7 +15489,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager"
   },
   {
     "title": "AI产品负责人 - AI智能体与低代码平台",
@@ -15196,7 +15525,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "AIHead of Product - AI 智能体与低代码平台"
   },
   {
     "title": "资深产品经理 - AI核心业务",
@@ -15242,7 +15572,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager - AI 核心业务"
   },
   {
     "title": "AI产品经理（研发效能/大模型/Agent落地）",
@@ -15288,7 +15619,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager（研发效能/大模型/Agent）"
   },
   {
     "title": "资深产品经理(MJ001401) - 基克纳科技",
@@ -15325,7 +15657,8 @@
     "stale_days": 0,
     "app_difficulty": "medium",
     "app_time_est": "10-15 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager(MJ001401) - 基克纳科技"
   },
   {
     "title": "资深产品经理(MJ001401) - 基克纳科技 - 深圳",
@@ -15362,7 +15695,8 @@
     "stale_days": 0,
     "app_difficulty": "medium",
     "app_time_est": "10-15 min",
-    "app_platform": "Boss直聘"
+    "app_platform": "Boss直聘",
+    "en_title": "Senior Product Manager(MJ001401) - 基克纳科技 - Shenzhen"
   },
   {
     "title": "资深产品经理（金融）",
@@ -15408,7 +15742,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager（Finance）"
   },
   {
     "title": "AI产品经理（AI应用方向）",
@@ -15454,7 +15789,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager（AIFocus）"
   },
   {
     "title": "资深产品经理",
@@ -15500,7 +15836,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager"
   },
   {
     "title": "产品经理（ehr、腾讯项目+线下面试） - 智联招聘",
@@ -15545,7 +15882,8 @@
     "geo_score": 20,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Manager（ehr、腾讯项目+线下面试） - 智联招聘"
   },
   {
     "title": "产品经理（ehr、腾讯项目+线下面试） - 智联招聘",
@@ -15590,7 +15928,8 @@
     "geo_score": 20,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Product Manager（ehr、腾讯项目+线下面试） - 智联招聘"
   },
   {
     "title": "资深产品经理",
@@ -15636,7 +15975,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior Product Manager"
   },
   {
     "title": "高级/资深产品经理",
@@ -15682,7 +16022,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Senior/Senior Product Manager"
   },
   {
     "title": "海外产品负责人（语音/直播）招聘_百度招聘 - BOSS直聘",
@@ -15727,7 +16068,8 @@
     "us_firm_apac": false,
     "url_type": "login_required",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Overseas Head of Product（/）_百度 - BOSS"
   },
   {
     "title": "AI产品经理（双休+五险一金）",
@@ -15773,7 +16115,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager（+五险一金）"
   },
   {
     "title": "QQ浏览器-高级增长产品经理(深圳) - 腾讯",
@@ -15864,7 +16207,8 @@
     "us_firm_apac": false,
     "url_type": "login_required",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "AI Product Manager-ASRFocus(Shenzhen) - BOSS"
   },
   {
     "title": "腾讯云-资深产品经理招聘_腾讯招聘-BOSS直聘",
@@ -15909,7 +16253,8 @@
     "us_firm_apac": false,
     "url_type": "login_required",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "腾讯云-Senior Product Manager_腾讯-BOSS"
   },
   {
     "title": "腾讯云-资深产品经理招聘_腾讯招聘-BOSS直聘",
@@ -15954,7 +16299,8 @@
     "us_firm_apac": false,
     "url_type": "login_required",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "腾讯云-Senior Product Manager_腾讯-BOSS"
   },
   {
     "title": "资深产品经理 - 诺禾致源",
@@ -16092,7 +16438,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager"
   },
   {
     "title": "资深产品经理 - 迅雷网络",
@@ -16184,7 +16531,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "AI Product Manager（Supply Chain Focus）"
   },
   {
     "title": "Vice President Business Development - Hong Kong",
@@ -16204,7 +16552,8 @@
     "quality_score": 75,
     "quality_tier": "B",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Vice President Business Development - Hong Kong"
   },
   {
     "title": "Senior Product Manager, Transaction Monitoring",
@@ -16242,7 +16591,8 @@
     "geo_score": 12,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, Transaction Monitoring"
   },
   {
     "title": "Senior Product Manager, Regulatory Reporting",
@@ -16280,7 +16630,8 @@
     "geo_score": 12,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, Regulatory Reporting"
   },
   {
     "title": "(Senior) Product Manager, Transaction Banking",
@@ -16300,7 +16651,8 @@
     "quality_score": 83,
     "quality_tier": "B",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "(Senior) Product Manager, Transaction Banking"
   },
   {
     "title": "Senior Product Manager, AI Transformation",
@@ -16345,7 +16697,8 @@
     "us_firm_apac": true,
     "url_type": "direct",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, AI Transformation"
   },
   {
     "title": "Head of Product, Travel Tech",
@@ -16391,7 +16744,8 @@
     "url_type": "direct",
     "scanned_date": "2026-06-13",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Head of Product, Travel Tech"
   },
   {
     "title": "(Senior) Product Manager",
@@ -16437,7 +16791,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "(Senior) Product Manager"
   },
   {
     "title": "Senior Product Manager (Trading)",
@@ -16483,7 +16838,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Senior Product Manager (Trading)"
   },
   {
     "title": "Senior Product Manager, HK Business",
@@ -16529,7 +16885,8 @@
     "stale_days": 0,
     "app_difficulty": "medium",
     "app_time_est": "10-15 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Senior Product Manager, HK Business"
   },
   {
     "title": "Director, Loyalty Operations & Performance, APAC",
@@ -16556,7 +16913,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Director, Loyalty Operations & Performance, APAC"
   },
   {
     "title": "Director, Market & Growth (Academy)",
@@ -16605,7 +16963,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Director, Market & Growth (Academy)"
   },
   {
     "title": "APAC Payments - Strategy - Executive Director",
@@ -16632,7 +16991,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "APAC Payments - Strategy - Executive Director"
   },
   {
     "title": "Agentic Marketing Product Manager, CDMO",
@@ -16652,7 +17012,8 @@
     "quality_score": 73,
     "quality_tier": "B",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Agentic Marketing Product Manager, CDMO"
   },
   {
     "title": "Senior Manager, Finance & Strategy, Marketing - APAC",
@@ -16672,7 +17033,8 @@
     "quality_score": 76,
     "quality_tier": "B",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Senior Manager, Finance & Strategy, Marketing - APAC"
   },
   {
     "title": "Senior Product Manager, AI Gateway",
@@ -16717,7 +17079,8 @@
     "geo_score": 15,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager, AI Gateway"
   },
   {
     "title": "Product Director, Internal HR & Finance Systems",
@@ -16744,7 +17107,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Product Director, Internal HR & Finance Systems"
   },
   {
     "title": "Director, Government Relations, APAC",
@@ -16764,7 +17128,8 @@
     "quality_score": 76,
     "quality_tier": "B",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Director, Government Relations, APAC"
   },
   {
     "title": "Senior Product Manager",
@@ -16802,7 +17167,8 @@
     "geo_score": 12,
     "us_firm_apac": false,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager"
   },
   {
     "title": "Senior Business Product Manager - SPX",
@@ -16829,7 +17195,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "Senior Business Product Manager - SPX"
   },
   {
     "title": "Product Lead, Project R.I.S.E",
@@ -16849,7 +17216,8 @@
     "quality_score": 78,
     "quality_tier": "B",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Product Lead, Project R.I.S.E"
   },
   {
     "title": "Director, Sales - China",
@@ -16869,7 +17237,8 @@
     "quality_score": 78,
     "quality_tier": "B",
     "app_platform": "LinkedIn",
-    "app_difficulty": "medium"
+    "app_difficulty": "medium",
+    "en_title": "Director, Sales - China"
   },
   {
     "title": "(Senior) Segment Manager (Cross Border Business)",
@@ -16915,7 +17284,8 @@
     "stale_days": 0,
     "app_difficulty": "easy",
     "app_time_est": "3-5 min",
-    "app_platform": "LinkedIn"
+    "app_platform": "LinkedIn",
+    "en_title": "(Senior) Segment Manager (Cross Border Business)"
   },
   {
     "title": "Regional Head of Strategy, Insights and Data APAC",
@@ -16963,7 +17333,8 @@
     "location_norm": "Hong Kong",
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Regional Head of Strategy, Insights and Data APAC"
   },
   {
     "title": "Private Wealth - Product Specialist (BXHF), Principal",
@@ -17012,7 +17383,8 @@
     "geo_score": 13,
     "us_firm_apac": true,
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Private Wealth - Product Specialist (BXHF), Principal"
   },
   {
     "title": "Product Manager - Trading",
@@ -17530,7 +17902,8 @@
     "location_norm": "Singapore",
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Senior Product Manager"
   },
   {
     "title": "AVP, Chief of Staff & Head of Strategy - Emerging Markets",
@@ -17575,7 +17948,8 @@
     "us_firm_apac": true,
     "location_norm": "Hong Kong",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "AVP, Chief of Staff & Head of Strategy - Emerging Markets"
   },
   {
     "title": "Head of Strategy, APAC",
@@ -17623,7 +17997,8 @@
     "location_norm": "Singapore",
     "url_type": "search",
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "en_title": "Head of Strategy, APAC"
   },
   {
     "title": "产品总监（3C产品）",
@@ -17669,7 +18044,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director（3C）"
   },
   {
     "title": "零售电商供应链产品总监",
@@ -17715,7 +18091,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Retail Supply Chain Product Director"
   },
   {
     "title": "产品总监/负责人",
@@ -17761,7 +18138,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director/Responsible for"
   },
   {
     "title": "研发中心负责人（产品经理 产品总监）",
@@ -17807,7 +18185,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "研发中心Responsible for（Product Manager Product Director）"
   },
   {
     "title": "产品总监",
@@ -17853,7 +18232,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director"
   },
   {
     "title": "产品总监（医疗器械）",
@@ -17899,7 +18279,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director（Healthcare）"
   },
   {
     "title": "数据中心产品线总监",
@@ -17945,7 +18326,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "数据中心Product Line Director"
   },
   {
     "title": "产品总监（TO C）",
@@ -17991,7 +18373,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director（TO C）"
   },
   {
     "title": "产品总监",
@@ -18037,7 +18420,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director"
   },
   {
     "title": "机器人产品总监/VP",
@@ -18083,7 +18467,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Robotics Product Director/VP"
   },
   {
     "title": "产品总监（等静压设备）",
@@ -18129,7 +18514,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director（等静压设备）"
   },
   {
     "title": "会员产品总监",
@@ -18175,7 +18561,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director"
   },
   {
     "title": "机器人电池产品总监",
@@ -18221,7 +18608,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Robotics Product Director"
   },
   {
     "title": "产品总监",
@@ -18267,7 +18655,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Director"
   },
   {
     "title": "智能硬件产品总监",
@@ -18313,7 +18702,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Smart Hardware Product Director"
   },
   {
     "title": "跨境电商产品总监/VP - 河南江舸云科技",
@@ -18405,7 +18795,8 @@
     "stale_days": 0,
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
-    "app_platform": "Liepin"
+    "app_platform": "Liepin",
+    "en_title": "Product Line Director/"
   },
   {
     "title": "Principal Product Manager - Verification & Activation(Exchange)",
@@ -18447,7 +18838,8 @@
     "last_touch_date": "2026-06-18",
     "applied_date": null,
     "lifecycle_notes": [],
-    "salary": ""
+    "salary": "",
+    "en_title": "Principal Product Manager - Verification & Activation(Exchange)"
   },
   {
     "title": "Senior Payment Product Manager - LATAM",
@@ -18489,7 +18881,8 @@
     "last_touch_date": "2026-06-18",
     "applied_date": null,
     "lifecycle_notes": [],
-    "salary": ""
+    "salary": "",
+    "en_title": "Senior Payment Product Manager - LATAM"
   },
   {
     "title": "Senior Fiat Product Manager (GatePay)",
@@ -18531,7 +18924,8 @@
     "last_touch_date": "2026-06-18",
     "applied_date": null,
     "lifecycle_notes": [],
-    "salary": ""
+    "salary": "",
+    "en_title": "Senior Fiat Product Manager (Gate Pay)"
   },
   {
     "title": "Principal Product Manager - Discovery & Onboarding(Exchange)",
@@ -18573,7 +18967,8 @@
     "last_touch_date": "2026-06-18",
     "applied_date": null,
     "lifecycle_notes": [],
-    "salary": ""
+    "salary": "",
+    "en_title": "Principal Product Manager - Discovery & Onboarding(Exchange)"
   },
   {
     "title": "Senior Product Manager(Card Issuing)",
@@ -18615,7 +19010,8 @@
     "last_touch_date": "2026-06-18",
     "applied_date": null,
     "lifecycle_notes": [],
-    "salary": ""
+    "salary": "",
+    "en_title": "Senior Product Manager(Card Issuing)"
   },
   {
     "title": "Senior Product Manager - Derivatives Risk",
@@ -18657,7 +19053,8 @@
     "last_touch_date": "2026-06-18",
     "applied_date": null,
     "lifecycle_notes": [],
-    "salary": ""
+    "salary": "",
+    "en_title": "Senior Product Manager - Derivatives Risk"
   },
   {
     "title": "Buy Now, Pay Later (BNPL) Product & Operations Lead (Europe Business)",
@@ -18699,7 +19096,8 @@
     "last_touch_date": "2026-06-18",
     "applied_date": null,
     "lifecycle_notes": [],
-    "salary": ""
+    "salary": "",
+    "en_title": "Buy Now, Pay Later (BNPL) Product & Operations Lead (Europe Business)"
   },
   {
     "title": "Senior Product Manager - Cloud",
@@ -18741,7 +19139,8 @@
     "last_touch_date": "2026-06-18",
     "applied_date": null,
     "lifecycle_notes": [],
-    "salary": ""
+    "salary": "",
+    "en_title": "Senior Product Manager - Cloud"
   },
   {
     "title": "Principal Product Manager (Singapore Based)",
@@ -18783,7 +19182,8 @@
     "last_touch_date": "2026-06-18",
     "applied_date": null,
     "lifecycle_notes": [],
-    "salary": ""
+    "salary": "",
+    "en_title": "Principal Product Manager (Singapore Based)"
   },
   {
     "title": "Senior Program Manager, Insurance, up to 100k",
@@ -18825,7 +19225,8 @@
     "last_touch_date": "2026-06-18",
     "applied_date": null,
     "lifecycle_notes": [],
-    "salary": ""
+    "salary": "",
+    "en_title": "Senior Program Manager, Insurance, up to 100k"
   },
   {
     "title": "Senior Wealth Management Product Manager (Insurance)",
@@ -18867,7 +19268,8 @@
     "last_touch_date": "2026-06-18",
     "applied_date": null,
     "lifecycle_notes": [],
-    "salary": ""
+    "salary": "",
+    "en_title": "Senior Wealth Management Product Manager (Insurance)"
   },
   {
     "title": "Director, Product Strategy, APAC",
@@ -18909,7 +19311,8 @@
     "last_touch_date": "2026-06-18",
     "applied_date": null,
     "lifecycle_notes": [],
-    "salary": ""
+    "salary": "",
+    "en_title": "Director, Product Strategy, APAC"
   },
   {
     "title": "Director of Product Management",
@@ -18951,7 +19354,8 @@
     "last_touch_date": "2026-06-18",
     "applied_date": null,
     "lifecycle_notes": [],
-    "salary": ""
+    "salary": "",
+    "en_title": "Director of Product Management"
   },
   {
     "title": "Director, Product Strategy Payments",
@@ -18993,7 +19397,8 @@
     "last_touch_date": "2026-06-18",
     "applied_date": null,
     "lifecycle_notes": [],
-    "salary": ""
+    "salary": "",
+    "en_title": "Director, Product Strategy Payments"
   },
   {
     "title": "Director, Commercial Product Manager (Custody Platform)",
@@ -19035,7 +19440,8 @@
     "last_touch_date": "2026-06-18",
     "applied_date": null,
     "lifecycle_notes": [],
-    "salary": ""
+    "salary": "",
+    "en_title": "Director, Commercial Product Manager (Custody Platform)"
   },
   {
     "title": "Product Director, Payment Fraud",
@@ -19077,7 +19483,8 @@
     "last_touch_date": "2026-06-18",
     "applied_date": null,
     "lifecycle_notes": [],
-    "salary": ""
+    "salary": "",
+    "en_title": "Product Director, Payment Fraud"
   },
   {
     "title": "Director, AI & Data Strategy - Technical Product Management for Responsible AI",
@@ -19119,7 +19526,8 @@
     "last_touch_date": "2026-06-18",
     "applied_date": null,
     "lifecycle_notes": [],
-    "salary": ""
+    "salary": "",
+    "en_title": "Director, AI & Data Strategy - Technical Product Management for Responsible AI"
   },
   {
     "title": "Director, Product Pricing",
@@ -19161,7 +19569,8 @@
     "last_touch_date": "2026-06-18",
     "applied_date": null,
     "lifecycle_notes": [],
-    "salary": ""
+    "salary": "",
+    "en_title": "Director, Product Pricing"
   },
   {
     "title": "Product Director, Financial Markets & Financial Platform",
@@ -19203,7 +19612,8 @@
     "last_touch_date": "2026-06-18",
     "applied_date": null,
     "lifecycle_notes": [],
-    "salary": ""
+    "salary": "",
+    "en_title": "Product Director, Financial Markets & Financial Platform"
   },
   {
     "title": "Aladdin Product Solutions Specialist, Director",
@@ -19245,6 +19655,7 @@
     "last_touch_date": "2026-06-18",
     "applied_date": null,
     "lifecycle_notes": [],
-    "salary": ""
+    "salary": "",
+    "en_title": "Aladdin Product Solutions Specialist, Director"
   }
 ]
