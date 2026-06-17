@@ -739,7 +739,8 @@
     "applied_date": null,
     "lifecycle_notes": [],
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "grade": "B"
   },
   {
     "title": "核心战略和运营负责人，市场推广",
@@ -2057,7 +2058,8 @@
     "applied_date": null,
     "lifecycle_notes": [],
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "grade": "B"
   },
   {
     "title": "跨境电商产品总监/VP - 河南江舸云科技",
@@ -2318,7 +2320,8 @@
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "LinkedIn"
   },
   {
     "title": "产品经理（ehr、腾讯项目+线下面试） - 智联招聘",
@@ -2409,7 +2412,8 @@
     "applied_date": null,
     "lifecycle_notes": [],
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "grade": "B"
   },
   {
     "title": "Senior Director / VP, AI",
@@ -2455,7 +2459,8 @@
     "applied_date": null,
     "lifecycle_notes": [],
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "grade": "B"
   },
   {
     "title": "(Senior) Product Manager, DEX Institution Trading",
@@ -2760,7 +2765,8 @@
     "url_type": "direct",
     "stale": false,
     "english_friendly": true,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Indeed"
   },
   {
     "title": "Regional Product Lead, Foundational Measurement",
@@ -2893,7 +2899,8 @@
     "location_norm": "Singapore",
     "stale": false,
     "english_friendly": true,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Unknown"
   },
   {
     "title": "Manager, AI & Data Strategy - RAI TPM",
@@ -3744,7 +3751,8 @@
     "url_type": "login_required",
     "stale": false,
     "english_friendly": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Liepin"
   },
   {
     "title": "海外工具类产品负责人（IAP) 2C - 幂动科技",
@@ -4063,7 +4071,8 @@
     "url_type": "direct",
     "stale": false,
     "english_friendly": true,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Indeed"
   },
   {
     "title": "Senior Data Scientist, Product & Growth Analytics",
@@ -4874,7 +4883,8 @@
     "applied_date": null,
     "lifecycle_notes": [],
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "grade": "B"
   },
   {
     "title": "(Senior) Product Manager, Trading (Crypto.com App)",
@@ -5075,7 +5085,8 @@
     "url_type": "direct",
     "stale": false,
     "english_friendly": true,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Indeed"
   },
   {
     "title": "Cross-border Payments Senior Product Manager",
@@ -5246,7 +5257,8 @@
     "url_type": "login_required",
     "stale": false,
     "english_friendly": true,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Liepin"
   },
   {
     "title": "Lead Product Manager, Client Digital Experience (Wealth Management)",
@@ -5740,7 +5752,8 @@
     "location_norm": "Hong Kong",
     "stale": false,
     "english_friendly": true,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Unknown"
   },
   {
     "title": "Product Manager (Global Networking)",
@@ -6704,7 +6717,8 @@
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "LinkedIn"
   },
   {
     "title": "Senior Consultant / Consultant - AI Strategy",
@@ -6871,7 +6885,8 @@
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "LinkedIn"
   },
   {
     "title": "APAC Strategic PMO Lead",
@@ -7097,7 +7112,8 @@
     "applied_date": null,
     "lifecycle_notes": [],
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "grade": "B"
   },
   {
     "title": "Staff Product Manager, Onboarding",
@@ -7207,7 +7223,8 @@
     "url_type": "direct",
     "stale": false,
     "english_friendly": true,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Indeed"
   },
   {
     "title": "Product Director, Banking Engagement - Crypto.com",
@@ -7241,7 +7258,8 @@
     "url_type": "direct",
     "stale": false,
     "english_friendly": true,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Indeed"
   },
   {
     "title": "Digital Project Director / Product Director",
@@ -7275,7 +7293,8 @@
     "url_type": "direct",
     "stale": false,
     "english_friendly": true,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Indeed"
   },
   {
     "title": "产品总监 - 创新工场",
@@ -7355,7 +7374,8 @@
     "url_type": "login_required",
     "stale": false,
     "english_friendly": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Liepin"
   },
   {
     "title": "Senior Product Manager, Global Corporate Banking - Bank of China (Hong Kong)",
@@ -7389,7 +7409,8 @@
     "url_type": "direct",
     "stale": false,
     "english_friendly": true,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Indeed"
   },
   {
     "title": "高级跨境支付产品经理 (Confidential)",
@@ -7478,7 +7499,8 @@
     "applied_date": null,
     "lifecycle_notes": [],
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "grade": "B"
   },
   {
     "title": "Senior Product Manager, Identity & Authentication",
@@ -7548,7 +7570,8 @@
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "LinkedIn"
   },
   {
     "title": "APAC Strategic Initiatives Lead, Global Affairs",
@@ -7628,7 +7651,8 @@
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "LinkedIn"
   },
   {
     "title": "Senior Product Manager, Fintech/Trading/Brokerage Platform",
@@ -7660,7 +7684,8 @@
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "LinkedIn"
   },
   {
     "title": "Senior Product Manager, Trading",
@@ -7692,7 +7717,8 @@
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "LinkedIn"
   },
   {
     "title": "Director, AI Center of Excellence",
@@ -7772,7 +7798,8 @@
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "LinkedIn"
   },
   {
     "title": "Product Operations Manager / Director, Institutional Product",
@@ -7804,7 +7831,8 @@
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "LinkedIn"
   },
   {
     "title": "Product Lead - Pricing",
@@ -7836,7 +7864,8 @@
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "LinkedIn"
   },
   {
     "title": "深圳腾讯产品经理招聘信息-BOSS直聘",
@@ -7927,7 +7956,8 @@
     "applied_date": null,
     "lifecycle_notes": [],
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "grade": "B"
   },
   {
     "title": "Senior Product Manager, Transaction Monitoring",
@@ -8277,7 +8307,8 @@
     "applied_date": null,
     "lifecycle_notes": [],
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "grade": "B"
   },
   {
     "title": "Senior Product Manager",
@@ -8401,7 +8432,8 @@
     "url_type": "direct",
     "stale": false,
     "english_friendly": true,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Indeed"
   },
   {
     "title": "Director, Policy and Regulatory Strategy, APAC",
@@ -8683,7 +8715,8 @@
     "url_type": "unknown",
     "stale": false,
     "english_friendly": true,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Jobsdb"
   },
   {
     "title": "VP, Risk Analytics Product Manager",
@@ -8964,7 +8997,8 @@
     "url_type": "unknown",
     "stale": false,
     "english_friendly": true,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Jobsdb"
   },
   {
     "title": "Product and Strategy Innovation Lead",
@@ -9337,7 +9371,8 @@
     "url_type": "login_required",
     "stale": false,
     "english_friendly": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Liepin"
   },
   {
     "title": "Regional Head of Strategy, Insights and Data APAC",
@@ -9422,7 +9457,8 @@
     "url_type": "direct",
     "stale": false,
     "english_friendly": true,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Indeed"
   },
   {
     "title": "Director Product Management, APJ (AI/Cloud)",
@@ -9601,7 +9637,8 @@
     "url_type": "direct",
     "stale": false,
     "english_friendly": true,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Indeed"
   },
   {
     "title": "Product Lead / Product Director (Corporate Card / Crypto Payment)",
@@ -9926,7 +9963,8 @@
     "url_type": "direct",
     "stale": false,
     "english_friendly": true,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Indeed"
   },
   {
     "title": "Senior Product Manager (Food Discovery)",
@@ -9963,7 +10001,8 @@
     "url_type": "direct",
     "stale": false,
     "english_friendly": true,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Indeed"
   },
   {
     "title": "Head of Strategic Capability & Strategy, Surgical Vision APAC",
@@ -10381,7 +10420,8 @@
     "url_type": "login_required",
     "stale": false,
     "english_friendly": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Liepin"
   },
   {
     "title": "Director, Loyalty Operations & Performance, APAC",
@@ -10405,7 +10445,8 @@
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "LinkedIn"
   },
   {
     "title": "Director, Market & Growth (Academy)",
@@ -10475,7 +10516,8 @@
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "LinkedIn"
   },
   {
     "title": "Product Director, Internal HR & Finance Systems",
@@ -10499,7 +10541,8 @@
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "LinkedIn"
   },
   {
     "title": "Senior Business Product Manager - SPX",
@@ -10523,7 +10566,8 @@
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "LinkedIn"
   },
   {
     "title": "Regional Head of Strategy, Insights and Data APAC",
@@ -15781,7 +15825,8 @@
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "LinkedIn"
   },
   {
     "title": "Product Manager - Trading",
@@ -15827,7 +15872,8 @@
     "applied_date": null,
     "lifecycle_notes": [],
     "stale": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "grade": "B"
   },
   {
     "title": "Head of Product Strategy, Global Markets",
@@ -16135,7 +16181,8 @@
     "url_type": "login_required",
     "stale": false,
     "english_friendly": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Boss Zhipin"
   },
   {
     "title": "QQ浏览器-高级增长产品经理(深圳) - 腾讯",
@@ -16681,7 +16728,8 @@
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "LinkedIn"
   },
   {
     "title": "AI产品负责人（AI社交/AI游戏方向）- 易娱网络",
@@ -17051,7 +17099,8 @@
     "url_type": "login_required",
     "stale": false,
     "english_friendly": false,
-    "stale_days": 0
+    "stale_days": 0,
+    "platform": "Liepin"
   },
   {
     "title": "Outbound Product Manager, AI Operations",
