@@ -264,6 +264,15 @@
       "score_before": 7,
       "score_after": 7,
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-06-18T06:07:33.391393",
+      "dimension": "data_quality + dashboard",
+      "task": "Fix 4 misclassified URLs (Airwallex/Sea Limited → direct), fill 51 missing salary estimates, fix dashboard direct-count to use url_type field + URL patterns",
+      "status": "completed",
+      "score_before": 9,
+      "score_after": 9,
+      "details": "416 jobs, 130 direct URLs (was 126), 416 with salary (was 365). Dashboard shows 100 direct (was 56) after fixing rebuild-dashboard.py pattern matching."
     }
   ],
   "current_scores": {
@@ -275,9 +284,9 @@
     "automation": 6,
     "coverage": 7
   },
-  "last_run": "2026-06-18 05:02",
-  "last_dimension": "data_quality",
-  "last_task": "Fill missing en_title for all 411 jobs",
+  "last_run": "2026-06-18 06:07",
+  "last_dimension": "data_quality + dashboard",
+  "last_task": "Fix URLs, salaries, and dashboard direct-count",
   "scores": {
     "dashboard": 7,
     "career_hub": 7,

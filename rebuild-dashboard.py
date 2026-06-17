@@ -39,7 +39,7 @@ sources = Counter(j.get('source','unknown') for j in aligned)
 now = datetime.now().strftime('%Y-%m-%d %H:%M')
 jobs_json = json.dumps(aligned, ensure_ascii=False)
 
-direct_count = sum(1 for j in aligned if any(p in j.get('url','') for p in ['viewjob','greenhouse.io/','lever.co/','ashbyhq.com/','linkedin.com/jobs/view/','workday.com/']))
+direct_count = sum(1 for j in aligned if j.get('url_type') == 'direct' or any(p in j.get('url','') for p in ['viewjob','greenhouse.io/','lever.co/','ashbyhq.com/','linkedin.com/jobs/view/','workday.com/','/job/','/position/','/posting/']))
 
 # Count jobs needing URL fixes
 needs_url_fix = sum(1 for j in aligned if j.get('url_type') != 'direct')
@@ -186,7 +186,8 @@ function ok(u) {
   if (!u) return false;
   return u.includes('viewjob') || u.includes('greenhouse.io/') || u.includes('lever.co/') || 
          u.includes('ashbyhq.com/') || u.includes('linkedin.com/jobs/view/') || u.includes('workday.com/') ||
-         u.includes('myworkdayjobs.com/') || (u.includes('/jobs/') && !u.endsWith('/jobs/') && !u.endsWith('/jobs'));
+         u.includes('myworkdayjobs.com/') || u.includes('/job/') && !u.endsWith('/jobs/') && !u.endsWith('/jobs') ||
+         u.includes('/position/') || u.includes('/posting/');
 }
 let currentFilter = 'all';
 let statusFilter = null;
