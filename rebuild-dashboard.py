@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rebuild dashboard.html with Google search fallback for every job."""
+"""Rebuild dashboard.html with Google search fallback and application tracking."""
 import json, os
 from datetime import datetime
 from collections import Counter
@@ -85,6 +85,18 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .url-fix{background:#7f1d1d;color:#fca5a5;border:1px solid #fca5a5;border-radius:4px;padding:2px 6px;font-size:0.65rem;margin-left:8px}
 .en{background:#1e3a5f;color:#93c5fd;border:1px solid #93c5fd;border-radius:4px;padding:2px 6px;font-size:0.65rem;margin-left:6px}
 .salary{color:#4ade80;font-size:0.75rem}
+.status-badge{display:inline-block;border-radius:4px;padding:2px 8px;font-size:0.65rem;font-weight:600;margin-left:6px;cursor:pointer;transition:all 0.2s}
+.status-badge:hover{transform:scale(1.1);filter:brightness(1.2)}
+.st-not_applied{background:#334155;color:#94a3b8;border:1px solid #475569}
+.st-applied{background:#064e3b;color:#34d399;border:1px solid #34d399}
+.st-interviewing{background:#1e3a5f;color:#60a5fa;border:1px solid #60a5fa}
+.st-offer{background:#78350f;color:#fbbf24;border:1px solid #fbbf24}
+.st-rejected{background:#7f1d1d;color:#fca5a5;border:1px solid #fca5a5}
+.st-not_interested{background:#1e1b4b;color:#a5b4fc;border:1px solid #a5b4fc}
+.st-btn{background:#1e293b;color:#94a3b8;border:1px solid #334155;border-radius:6px;padding:4px 10px;cursor:pointer;font-size:0.7rem}
+.st-btn.on{background:#38bdf8;color:#0f172a;border-color:#38bdf8}
+.st-btn:hover{border-color:#38bdf8}
+.st-stats{background:#1e293b;border-radius:6px;padding:4px 10px;font-size:0.7rem;color:#94a3b8;border:1px solid #334155}
 </style>
 </head>
 <body>
@@ -115,6 +127,17 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 <button data-f="english">🌐 English</button>
 <button data-f="needs_url">🔧 Needs URL Fix</button>
 </div>
+<div class="flt" id="status-flt" style="margin-top:4px">
+<span style="color:#94a3b8;font-size:0.7rem;margin-right:4px">Status:</span>
+<button data-f="st_not_applied" class="st-btn">📥 Not Applied</button>
+<button data-f="st_applied" class="st-btn">✅ Applied</button>
+<button data-f="st_interviewing" class="st-btn">🎤 Interviewing</button>
+<button data-f="st_offer" class="st-btn">🎉 Offer</button>
+<button data-f="st_rejected" class="st-btn">❌ Rejected</button>
+<button data-f="st_not_interested" class="st-btn">🙈 Not Interested</button>
+<button data-f="st_all_status" class="st-btn" style="background:#334155;color:#94a3b8">All Status</button>
+</div>
+<div id="status-stats" style="display:flex;gap:8px;margin:8px 0;flex-wrap:wrap"></div>
 <div style="display:flex;gap:8px;margin:12px 0;align-items:center">
 <span style="color:#94a3b8;font-size:0.75rem">Sort:</span>
 <select id="sort" style="background:#1e293b;color:#e2e8f0;border:1px solid #334155;border-radius:6px;padding:4px 8px;font-size:0.75rem">
@@ -123,12 +146,36 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 <option value="company">Company</option>
 <option value="location">Location</option>
 <option value="difficulty">Apply Difficulty</option>
+<option value="status">Application Status</option>
 </select>
 </div>
 <div id="jobs"></div>
 <div class="upt">Last updated: UPDATED_AT</div>
 <script>
 const jobs = JOBS_JSON;
+const STORAGE_KEY = 'career_os_app_status';
+const STATUS_CYCLE = ['not_applied','applied','interviewing','offer','rejected','not_interested'];
+const STATUS_LABELS = {not_applied:'📥 Not Applied',applied:'✅ Applied',interviewing:'🎤 Interviewing',offer:'🎉 Offer',rejected:'❌ Rejected',not_interested:'🙈 Not Interested'};
+
+function loadStatus(){try{return JSON.parse(localStorage.getItem(STORAGE_KEY))||{}}catch(e){return{}}}
+function saveStatus(s){localStorage.setItem(STORAGE_KEY,JSON.stringify(s))}
+function getStatus(j){const s=loadStatus();return s[j.job_id]||j.status||'not_applied'}
+function cycleStatus(j){
+  const s=loadStatus();
+  const cur=s[j.job_id]||j.status||'not_applied';
+  const idx=STATUS_CYCLE.indexOf(cur);
+  s[j.job_id]=STATUS_CYCLE[(idx+1)%STATUS_CYCLE.length];
+  saveStatus(s);
+  render(currentFilter);
+  updateStats();
+}
+function updateStats(){
+  const s=loadStatus();
+  const counts={not_applied:0,applied:0,interviewing:0,offer:0,rejected:0,not_interested:0};
+  jobs.forEach(j=>{const st=s[j.job_id]||j.status||'not_applied';counts[st]=(counts[st]||0)+1});
+  const el=document.getElementById('status-stats');
+  el.innerHTML=Object.entries(counts).map(([k,v])=>v>0?'<span class="st-stats">'+STATUS_LABELS[k]+': <b>'+v+'</b></span>':'').join('');
+}
 function gs(j) {
   const t = j.en_title || j.title || '';
   const c = j.company || '';
@@ -138,13 +185,23 @@ function gs(j) {
 function ok(u) {
   if (!u) return false;
   return u.includes('viewjob') || u.includes('greenhouse.io/') || u.includes('lever.co/') || 
-         u.includes('ashbyhq.com/') || u.includes('linkedin.com/jobs/view/') || u.includes('workday.com/') || 
+         u.includes('ashbyhq.com/') || u.includes('linkedin.com/jobs/view/') || u.includes('workday.com/') ||
          u.includes('myworkdayjobs.com/') || (u.includes('/jobs/') && !u.endsWith('/jobs/') && !u.endsWith('/jobs'));
 }
+let currentFilter = 'all';
+let statusFilter = null;
 function render(f) {
+  currentFilter = f;
+  // Update main filter buttons
+  document.querySelectorAll('.flt button:not(.st-btn)').forEach(b=>b.classList.remove('on'));
+  const mainBtn = document.querySelector('.flt button[data-f="'+f+'"]');
+  if(mainBtn && !mainBtn.classList.contains('st-btn')) mainBtn.classList.add('on');
+  
   const el = document.getElementById('jobs');
   const sortKey = document.getElementById('sort').value;
   let d = jobs;
+  
+  // Apply main filter
   if (f==='hk') d=jobs.filter(j=>(j.location_norm||j.location||'').toLowerCase().includes('hong kong'));
   else if (f==='sh') d=jobs.filter(j=>(j.location_norm||j.location||'').toLowerCase().includes('shanghai'));
   else if (f==='sz') d=jobs.filter(j=>(j.location_norm||j.location||'').toLowerCase().includes('shenzhen'));
@@ -158,6 +215,9 @@ function render(f) {
   else if (f==='english') d=jobs.filter(j=>j.english_friendly===true);
   else if (f==='needs_url') d=jobs.filter(j=>j.url_type!=='direct');
   
+  // Apply status filter
+  if (statusFilter) d=d.filter(j=>getStatus(j)===statusFilter);
+  
   // Sort
   if (sortKey==='score') d.sort((a,b)=>(b.quality_score||0)-(a.quality_score||0));
   else if (sortKey==='date') d.sort((a,b)=>(b.scanned_date||'').localeCompare(a.scanned_date||''));
@@ -167,6 +227,11 @@ function render(f) {
     const order = {easy:0,medium:1,hard:2};
     d.sort((a,b)=>(order[a.app_difficulty]||2)-(order[b.app_difficulty]||2));
   }
+  else if (sortKey==='status') {
+    const order = {not_applied:0,applied:1,interviewing:2,offer:3,rejected:4,not_interested:5};
+    d.sort((a,b)=>(order[getStatus(a)]||0)-(order[getStatus(b)]||0));
+  }
+  
   el.innerHTML = d.map(j=>{
     const s=j.quality_score||0;
     const t=s>=85?'A':s>=70?'B':'C';
@@ -184,20 +249,32 @@ function render(f) {
     const needsFix=j.url_type!=='direct';
     const isEn=j.english_friendly===true;
     const salary=j.salary?'<span class="salary">💰 '+j.salary+'</span>':'';
-    return '<div class="jc"><div class="t">'+ti+'<span class="ut ut-'+(j.url_type||'unknown')+'">'+{direct:'🎯 Direct',search:'🔍 Search',login_required:'🔒 Login'}[j.url_type||'unknown']+'</span>'+(needsFix?'<span class="url-fix">🔧 URL Fix Needed</span>':'')+(isEn?'<span class="en">🌐 EN</span>':'')+'</div><div class="co">'+co+'</div>'+(sm?'<div class="sm">'+sm.substring(0,150)+(sm.length>150?'...':'')+'</div>':'')+'<div class="mt"><span class="lc">'+l+'</span><span class="sc">'+sc+'</span><span class="bg bg-'+t.toLowerCase()+'">'+t+' '+s+'</span>'+salary+(j.app_difficulty?'<span>⚡ '+j.app_difficulty+'</span>':'')+'</div><div class="lk"><a href="'+au+'" target="_blank" class="'+ac+'">'+at+'</a>'+(dk?'<a href="'+g+'" target="_blank" class="gs">🔍 Google</a>':'')+'</div></div>';
+    const st=getStatus(j);
+    const stBadge='<span class="status-badge st-'+st+'" onclick="event.stopPropagation();cycleStatus(jobs.find(x=>x.job_id===\''+j.job_id+'\'))" title="Click to change status">'+STATUS_LABELS[st]+'</span>';
+    return '<div class="jc"><div class="t">'+ti+'<span class="ut ut-'+(j.url_type||'unknown')+'">'+{direct:'🎯 Direct',search:'🔍 Search',login_required:'🔒 Login'}[j.url_type||'unknown']+'</span>'+(needsFix?'<span class="url-fix">🔧 URL Fix Needed</span>':'')+(isEn?'<span class="en">🌐 EN</span>':'')+'</div><div class="co">'+co+' '+stBadge+'</div>'+(sm?'<div class="sm">'+sm.substring(0,150)+(sm.length>150?'...':'')+'</div>':'')+'<div class="mt"><span class="lc">'+l+'</span><span class="sc">'+sc+'</span><span class="bg bg-'+t.toLowerCase()+'">'+t+' '+s+'</span>'+salary+(j.app_difficulty?'<span>⚡ '+j.app_difficulty+'</span>':'')+'</div><div class="lk"><a href="'+au+'" target="_blank" class="'+ac+'">'+at+'</a>'+(dk?'<a href="'+g+'" target="_blank" class="gs">🔍 Google</a>':'')+'</div></div>';
   }).join('');
 }
-document.querySelectorAll('.flt button').forEach(b=>{
+// Status filter buttons
+document.querySelectorAll('#status-flt .st-btn').forEach(b=>{
   b.addEventListener('click',()=>{
-    document.querySelectorAll('.flt button').forEach(x=>x.classList.remove('on'));
+    document.querySelectorAll('#status-flt .st-btn').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on');
+    const f=b.dataset.f;
+    if(f==='st_all_status'){statusFilter=null;render(currentFilter);}
+    else{statusFilter=f.replace('st_','');render(currentFilter);}
+  });
+});
+document.querySelectorAll('.flt button:not(.st-btn)').forEach(b=>{
+  b.addEventListener('click',()=>{
+    document.querySelectorAll('.flt button:not(.st-btn)').forEach(x=>x.classList.remove('on'));
     b.classList.add('on');
     render(b.dataset.f);
   });
 });
 document.getElementById('sort').addEventListener('change',()=>{
-  const active = document.querySelector('.flt button.on');
-  render(active ? active.dataset.f : 'all');
+  render(currentFilter);
 });
+updateStats();
 render('all');
 </script>
 </body>
