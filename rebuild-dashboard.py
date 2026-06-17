@@ -69,6 +69,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .jc .mt .lc::before{content:"📍 "}.jc .mt .sc::before{content:"🔗 "}
 .bg{display:inline-block;border-radius:6px;padding:2px 8px;font-size:0.7rem;font-weight:600}
 .bg-a{background:#064e3b;color:#34d399}.bg-b{background:#1e3a5f;color:#60a5fa}.bg-c{background:#78350f;color:#fbbf24}
+.ut{display:inline-block;border-radius:4px;padding:1px 6px;font-size:0.65rem;font-weight:500;margin-left:6px}
+.ut-direct{background:#065f46;color:#6ee7b7}.ut-search{background:#713f12;color:#fde68a}.ut-login{background:#581c87;color:#d8b4fe}
 .lk{display:flex;gap:10px;margin-top:10px}
 .lk a{text-decoration:none;font-size:0.85rem;font-weight:500;padding:6px 14px;border-radius:8px;display:inline-block}
 .lk .ap{background:#064e3b;color:#34d399;border:1px solid #34d399}
@@ -102,6 +104,17 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 <button data-f="strategy">Strategy</button>
 <button data-f="product">Product</button>
 <button data-f="ai">AI</button>
+<button data-f="direct">🎯 Direct Apply</button>
+<button data-f="easy">⚡ Easy Apply</button>
+</div>
+<div style="display:flex;gap:8px;margin:12px 0;align-items:center">
+<span style="color:#94a3b8;font-size:0.75rem">Sort:</span>
+<select id="sort" style="background:#1e293b;color:#e2e8f0;border:1px solid #334155;border-radius:6px;padding:4px 8px;font-size:0.75rem">
+<option value="score">Quality Score</option>
+<option value="company">Company</option>
+<option value="location">Location</option>
+<option value="difficulty">Apply Difficulty</option>
+</select>
 </div>
 <div id="jobs"></div>
 <div class="upt">Last updated: UPDATED_AT</div>
@@ -122,6 +135,7 @@ function ok(u) {
 }
 function render(f) {
   const el = document.getElementById('jobs');
+  const sortKey = document.getElementById('sort').value;
   let d = jobs;
   if (f==='hk') d=jobs.filter(j=>(j.location_norm||j.location||'').toLowerCase().includes('hong kong'));
   else if (f==='sh') d=jobs.filter(j=>(j.location_norm||j.location||'').toLowerCase().includes('shanghai'));
@@ -131,7 +145,17 @@ function render(f) {
   else if (f==='strategy') d=jobs.filter(j=>(j.role_type||'').toLowerCase().includes('strat'));
   else if (f==='product') d=jobs.filter(j=>(j.role_type||'').toLowerCase().includes('product'));
   else if (f==='ai') d=jobs.filter(j=>(j.title||'').toLowerCase().includes('ai'));
-  d.sort((a,b)=>(b.quality_score||0)-(a.quality_score||0));
+  else if (f==='direct') d=jobs.filter(j=>j.url_type==='direct');
+  else if (f==='easy') d=jobs.filter(j=>j.app_difficulty==='easy');
+  
+  // Sort
+  if (sortKey==='score') d.sort((a,b)=>(b.quality_score||0)-(a.quality_score||0));
+  else if (sortKey==='company') d.sort((a,b)=>(a.company||'').localeCompare(b.company||''));
+  else if (sortKey==='location') d.sort((a,b)=>(a.location_norm||a.location||'').localeCompare(b.location_norm||b.location||''));
+  else if (sortKey==='difficulty') {
+    const order = {easy:0,medium:1,hard:2};
+    d.sort((a,b)=>(order[a.app_difficulty]||2)-(order[b.app_difficulty]||2));
+  }
   el.innerHTML = d.map(j=>{
     const s=j.quality_score||0;
     const t=s>=85?'A':s>=70?'B':'C';
@@ -146,7 +170,7 @@ function render(f) {
     const au=dk?u:g;
     const ac=dk?'ap':'gs';
     const at=dk?'Apply →':'🔍 Search & Apply';
-    return '<div class="jc"><div class="t">'+ti+'</div><div class="co">'+co+'</div>'+(sm?'<div class="sm">'+sm.substring(0,150)+(sm.length>150?'...':'')+'</div>':'')+'<div class="mt"><span class="lc">'+l+'</span><span class="sc">'+sc+'</span><span class="bg bg-'+t.toLowerCase()+'">'+t+' '+s+'</span>'+(j.salary?'<span>💰 '+j.salary+'</span>':'')+'</div><div class="lk"><a href="'+au+'" target="_blank" class="'+ac+'">'+at+'</a>'+(dk?'<a href="'+g+'" target="_blank" class="gs">🔍 Google</a>':'')+'</div></div>';
+    return '<div class="jc"><div class="t">'+ti+'<span class="ut ut-'+(j.url_type||'unknown')+'">'+{direct:'🎯 Direct',search:'🔍 Search',login_required:'🔒 Login'}[j.url_type||'unknown']+'</span></div><div class="co">'+co+'</div>'+(sm?'<div class="sm">'+sm.substring(0,150)+(sm.length>150?'...':'')+'</div>':'')+'<div class="mt"><span class="lc">'+l+'</span><span class="sc">'+sc+'</span><span class="bg bg-'+t.toLowerCase()+'">'+t+' '+s+'</span>'+(j.salary?'<span>💰 '+j.salary+'</span>':'')+(j.app_difficulty?'<span>⚡ '+j.app_difficulty+'</span>':'')+'</div><div class="lk"><a href="'+au+'" target="_blank" class="'+ac+'">'+at+'</a>'+(dk?'<a href="'+g+'" target="_blank" class="gs">🔍 Google</a>':'')+'</div></div>';
   }).join('');
 }
 document.querySelectorAll('.flt button').forEach(b=>{
@@ -155,6 +179,10 @@ document.querySelectorAll('.flt button').forEach(b=>{
     b.classList.add('on');
     render(b.dataset.f);
   });
+});
+document.getElementById('sort').addEventListener('change',()=>{
+  const active = document.querySelector('.flt button.on');
+  render(active ? active.dataset.f : 'all');
 });
 render('all');
 </script>
