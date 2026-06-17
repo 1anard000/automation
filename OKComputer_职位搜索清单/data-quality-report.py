@@ -17,7 +17,7 @@ def main():
     report["total_jobs"] = len(jobs)
 
     # Field completeness
-    fields = ["title", "company", "location", "salary", "url", "source", "date"]
+    fields = ["title", "company", "location", "salary", "url", "source", "scanned_date"]
     field_stats = {}
     for field in fields:
         filled = sum(1 for j in jobs if j.get(field))
@@ -92,8 +92,8 @@ def main():
     issues = []
     if field_stats["salary"]["pct"] < 50:
         issues.append(f"Salary missing for {field_stats['salary']['missing']} jobs ({field_stats['salary']['pct']}% filled)")
-    if field_stats["date"]["pct"] < 50:
-        issues.append(f"Date missing for {field_stats['date']['missing']} jobs ({field_stats['date']['pct']}% filled)")
+    if field_stats["scanned_date"]["pct"] < 50:
+        issues.append(f"Date missing for {field_stats['scanned_date']['missing']} jobs ({field_stats['scanned_date']['pct']}% filled)")
     if field_stats["company"]["pct"] < 90:
         issues.append(f"Company missing for {field_stats['company']['missing']} jobs")
     if report["duplicates"] > 0:
