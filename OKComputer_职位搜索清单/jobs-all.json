@@ -495,7 +495,7 @@
     "quality_bar_reason": "",
     "sg_visa_likely": true,
     "sg_note": "Large company, visa sponsorship likely",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": true,
     "geo_score": 13,
@@ -543,7 +543,7 @@
     "quality_bar_reason": "",
     "sg_visa_likely": true,
     "sg_note": "Large company, visa sponsorship likely",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": true,
     "geo_score": 13,
@@ -591,7 +591,7 @@
     "quality_bar_reason": "",
     "sg_visa_likely": true,
     "sg_note": "Large company, visa sponsorship likely",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": true,
     "geo_score": 13,
@@ -639,7 +639,7 @@
     "quality_bar_reason": "",
     "sg_visa_likely": true,
     "sg_note": "Large company, visa sponsorship likely",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": true,
     "geo_score": 13,
@@ -707,7 +707,7 @@
     "en_title": "Senior Product Manager, Agentic AI",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 90,
+    "quality_score": 95,
     "quality_tier": "A",
     "low_quality": false,
     "score_breakdown": {
@@ -780,7 +780,7 @@
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 15,
@@ -1736,7 +1736,7 @@
     "top20": false,
     "geo_score": 20,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "scanned_date": "2026-06-14",
     "stale": false,
     "stale_days": 0
@@ -1824,7 +1824,7 @@
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 20,
@@ -1874,7 +1874,7 @@
     "top20": false,
     "geo_score": 20,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -2026,7 +2026,7 @@
     "en_title": "Senior Product Manager, Applied AI",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 85,
+    "quality_score": 100,
     "quality_tier": "A",
     "low_quality": false,
     "score_breakdown": {
@@ -2314,14 +2314,15 @@
       "company_fit": 10
     },
     "low_quality": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "english_friendly": true,
     "stale": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
     "stale_days": 0,
-    "platform": "LinkedIn"
+    "platform": "LinkedIn",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "产品经理（ehr、腾讯项目+线下面试） - 智联招聘",
@@ -2380,8 +2381,8 @@
     "en_title": "Director, Product & Program Management",
     "english_friendly": true,
     "category": "cross_border",
-    "quality_score": 82,
-    "quality_tier": "B",
+    "quality_score": 91,
+    "quality_tier": "A",
     "low_quality": false,
     "score_breakdown": {
       "yoe_match": 25,
@@ -2427,8 +2428,8 @@
     "en_title": "Senior Director / VP, AI",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 82,
-    "quality_tier": "B",
+    "quality_score": 90,
+    "quality_tier": "A",
     "low_quality": false,
     "score_breakdown": {
       "yoe_match": 20,
@@ -2442,7 +2443,7 @@
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
     "platform": "Blockchain Association",
-    "url_type": "unknown",
+    "url_type": "direct",
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
@@ -2493,7 +2494,7 @@
     "app_time_est": "10-15 min",
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "direct",
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
@@ -2531,7 +2532,7 @@
     "app_time_est": "10-15 min",
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "direct",
     "top20": false,
     "geo_score": 12,
     "us_firm_apac": true,
@@ -2766,7 +2767,8 @@
     "stale": false,
     "english_friendly": true,
     "stale_days": 0,
-    "platform": "Indeed"
+    "platform": "Indeed",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Regional Product Lead, Foundational Measurement",
@@ -2807,7 +2809,7 @@
     "quality_bar_reason": "",
     "sg_visa_likely": true,
     "sg_note": "Large company, visa sponsorship likely",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 13,
@@ -2860,47 +2862,9 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
-  },
-  {
-    "title": "Head Of Product Jobs in Hong Kong",
-    "company": "Jobsdb",
-    "location": "Singapore",
-    "grade": "A-1",
-    "url": "https://www.dbs.com/careers/",
-    "role_type": "Product Management",
-    "salary": "(est) 18-30K SGD/mo",
-    "scanned_date": "2026-06-15",
-    "source": "jobsdb",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "quality_score": 80,
-    "quality_tier": "B",
-    "low_quality": true,
-    "score_breakdown": {
-      "yoe_match": 0,
-      "salary_match": 0,
-      "domain_match": 0,
-      "location_match": 0,
-      "english_match": 0,
-      "company_fit": 0,
-      "reject_reason": "Location: Singapore (no work authorization)"
-    },
-    "sg_visa_likely": true,
-    "sg_note": "Large company, visa sponsorship likely",
-    "url_type": "unknown",
-    "has_direct_apply": false,
-    "top20": false,
-    "geo_score": 13,
-    "us_firm_apac": true,
-    "location_norm": "Singapore",
-    "stale": false,
-    "english_friendly": true,
-    "stale_days": 0,
-    "platform": "Unknown"
   },
   {
     "title": "Manager, AI & Data Strategy - RAI TPM",
@@ -3752,7 +3716,8 @@
     "stale": false,
     "english_friendly": false,
     "stale_days": 0,
-    "platform": "Liepin"
+    "platform": "Liepin",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "海外工具类产品负责人（IAP) 2C - 幂动科技",
@@ -3890,7 +3855,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -3934,7 +3899,7 @@
     "quality_bar_reason": "",
     "sg_visa_likely": true,
     "sg_note": "Large company, visa sponsorship likely",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 10,
@@ -4072,7 +4037,8 @@
     "stale": false,
     "english_friendly": true,
     "stale_days": 0,
-    "platform": "Indeed"
+    "platform": "Indeed",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Senior Data Scientist, Product & Growth Analytics",
@@ -4851,8 +4817,8 @@
     "en_title": "Senior Product Manager, AI Gateway",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 80,
-    "quality_tier": "B",
+    "quality_score": 91,
+    "quality_tier": "A",
     "low_quality": false,
     "score_breakdown": {
       "yoe_match": 30,
@@ -5000,7 +4966,7 @@
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 18,
@@ -5086,7 +5052,8 @@
     "stale": false,
     "english_friendly": true,
     "stale_days": 0,
-    "platform": "Indeed"
+    "platform": "Indeed",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Cross-border Payments Senior Product Manager",
@@ -5173,7 +5140,7 @@
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "scanned_date": "2026-06-14",
     "stale": false,
     "stale_days": 0
@@ -5220,7 +5187,7 @@
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "scanned_date": "2026-06-14",
     "stale": false,
     "stale_days": 0
@@ -5258,7 +5225,8 @@
     "stale": false,
     "english_friendly": true,
     "stale_days": 0,
-    "platform": "Liepin"
+    "platform": "Liepin",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Lead Product Manager, Client Digital Experience (Wealth Management)",
@@ -5302,7 +5270,7 @@
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "scanned_date": "2026-06-14",
     "stale": false,
     "stale_days": 0
@@ -5442,7 +5410,7 @@
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "scanned_date": "2026-06-14",
     "stale": false,
     "stale_days": 0
@@ -5485,7 +5453,7 @@
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 18,
@@ -5620,7 +5588,7 @@
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 21,
@@ -5666,7 +5634,7 @@
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 21,
@@ -5719,41 +5687,6 @@
     "scanned_date": "2026-06-13",
     "stale": false,
     "stale_days": 0
-  },
-  {
-    "title": "Senior Product Owner Jobs in Hong Kong",
-    "company": "Jobsdb",
-    "location": "Hong Kong",
-    "grade": "A-2",
-    "url": "https://www.dbs.com/careers/",
-    "role_type": "Product Management",
-    "salary": "(est) 50-80K HKD/mo",
-    "scanned_date": "2026-06-15",
-    "source": "jobsdb",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "quality_score": 79,
-    "low_quality": false,
-    "quality_tier": "B",
-    "score_breakdown": {
-      "yoe_match": 30,
-      "domain_match": 25,
-      "location_match": 12,
-      "english_match": 5,
-      "salary_match": 5,
-      "company_fit": 2
-    },
-    "url_type": "unknown",
-    "has_direct_apply": false,
-    "top20": false,
-    "geo_score": 21,
-    "us_firm_apac": true,
-    "location_norm": "Hong Kong",
-    "stale": false,
-    "english_friendly": true,
-    "stale_days": 0,
-    "platform": "Unknown"
   },
   {
     "title": "Product Manager (Global Networking)",
@@ -5841,7 +5774,7 @@
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -5883,7 +5816,7 @@
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 21,
@@ -5932,7 +5865,7 @@
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -6101,7 +6034,7 @@
       "salary_match": 5,
       "company_fit": 2
     },
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 21,
@@ -6230,7 +6163,7 @@
     "app_time_est": "10-15 min",
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "direct",
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
@@ -6499,7 +6432,7 @@
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 15,
@@ -6544,7 +6477,7 @@
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 12,
@@ -6638,7 +6571,7 @@
     "top20": false,
     "geo_score": 12,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -6711,14 +6644,15 @@
       "company_fit": 8
     },
     "low_quality": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "english_friendly": true,
     "stale": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
     "stale_days": 0,
-    "platform": "LinkedIn"
+    "platform": "LinkedIn",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Senior Consultant / Consultant - AI Strategy",
@@ -6806,7 +6740,7 @@
     "top20": false,
     "geo_score": 12,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false,
     "stale_days": 0
   },
@@ -6879,14 +6813,15 @@
       "company_fit": 8
     },
     "low_quality": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "english_friendly": true,
     "stale": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
     "stale_days": 0,
-    "platform": "LinkedIn"
+    "platform": "LinkedIn",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "APAC Strategic PMO Lead",
@@ -6929,7 +6864,7 @@
     "top20": false,
     "geo_score": 12,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -6974,7 +6909,7 @@
     "top20": false,
     "geo_score": 12,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -7019,7 +6954,7 @@
     "top20": false,
     "geo_score": 12,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -7064,7 +6999,7 @@
     "top20": false,
     "geo_score": 12,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -7080,8 +7015,8 @@
     "en_title": "Senior Product Manager, AI Products",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 78,
-    "quality_tier": "B",
+    "quality_score": 85,
+    "quality_tier": "A",
     "low_quality": false,
     "score_breakdown": {
       "yoe_match": 25,
@@ -7095,7 +7030,7 @@
     "app_difficulty": "medium",
     "app_time_est": "15-20 min",
     "platform": "Himalayas",
-    "url_type": "unknown",
+    "url_type": "direct",
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
@@ -7146,7 +7081,7 @@
     "app_time_est": "10-15 min",
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "direct",
     "top20": false,
     "geo_score": 12,
     "us_firm_apac": false,
@@ -7224,7 +7159,8 @@
     "stale": false,
     "english_friendly": true,
     "stale_days": 0,
-    "platform": "Indeed"
+    "platform": "Indeed",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Product Director, Banking Engagement - Crypto.com",
@@ -7259,7 +7195,8 @@
     "stale": false,
     "english_friendly": true,
     "stale_days": 0,
-    "platform": "Indeed"
+    "platform": "Indeed",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Digital Project Director / Product Director",
@@ -7294,7 +7231,8 @@
     "stale": false,
     "english_friendly": true,
     "stale_days": 0,
-    "platform": "Indeed"
+    "platform": "Indeed",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "产品总监 - 创新工场",
@@ -7343,41 +7281,6 @@
     "stale_days": 0
   },
   {
-    "title": "深圳AI商业化产品经理/负责人",
-    "company": "猎聘",
-    "location": "Shenzhen",
-    "grade": "A-1",
-    "url": "https://www.liepin.com/a/74579399.shtml",
-    "role_type": "Product Management",
-    "salary": "20-40k·16薪",
-    "scanned_date": "2026-06-15",
-    "source": "liepin",
-    "login_required": true,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "quality_score": 77,
-    "low_quality": false,
-    "quality_tier": "B",
-    "score_breakdown": {
-      "yoe_match": 30,
-      "domain_match": 25,
-      "location_match": 15,
-      "english_match": -10,
-      "salary_match": 15,
-      "company_fit": 2
-    },
-    "has_direct_apply": false,
-    "top20": false,
-    "geo_score": 20,
-    "us_firm_apac": false,
-    "location_norm": "Shenzhen",
-    "url_type": "login_required",
-    "stale": false,
-    "english_friendly": false,
-    "stale_days": 0,
-    "platform": "Liepin"
-  },
-  {
     "title": "Senior Product Manager, Global Corporate Banking - Bank of China (Hong Kong)",
     "company": "Indeed (company unknown)",
     "location": "Hong Kong",
@@ -7410,7 +7313,8 @@
     "stale": false,
     "english_friendly": true,
     "stale_days": 0,
-    "platform": "Indeed"
+    "platform": "Indeed",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "高级跨境支付产品经理 (Confidential)",
@@ -7467,8 +7371,8 @@
     "en_title": "Product Strategy & Development Lead, APAC",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 76,
-    "quality_tier": "B",
+    "quality_score": 90,
+    "quality_tier": "A",
     "low_quality": false,
     "score_breakdown": {
       "yoe_match": 25,
@@ -7482,7 +7386,7 @@
     "app_difficulty": "hard",
     "app_time_est": "25-35 min",
     "platform": "Workday",
-    "url_type": "unknown",
+    "url_type": "direct",
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
@@ -7533,7 +7437,7 @@
     "app_time_est": "10-15 min",
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "direct",
     "top20": false,
     "geo_score": 12,
     "us_firm_apac": false,
@@ -7564,14 +7468,15 @@
       "company_fit": 5
     },
     "low_quality": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "english_friendly": true,
     "stale": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
     "stale_days": 0,
-    "platform": "LinkedIn"
+    "platform": "LinkedIn",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "APAC Strategic Initiatives Lead, Global Affairs",
@@ -7645,14 +7550,15 @@
       "company_fit": 5
     },
     "low_quality": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "english_friendly": true,
     "stale": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
     "stale_days": 0,
-    "platform": "LinkedIn"
+    "platform": "LinkedIn",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Senior Product Manager, Fintech/Trading/Brokerage Platform",
@@ -7678,14 +7584,15 @@
       "company_fit": 5
     },
     "low_quality": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "english_friendly": true,
     "stale": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
     "stale_days": 0,
-    "platform": "LinkedIn"
+    "platform": "LinkedIn",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Senior Product Manager, Trading",
@@ -7711,14 +7618,15 @@
       "company_fit": 5
     },
     "low_quality": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "english_friendly": true,
     "stale": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
     "stale_days": 0,
-    "platform": "LinkedIn"
+    "platform": "LinkedIn",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Director, AI Center of Excellence",
@@ -7764,7 +7672,7 @@
     "top20": false,
     "geo_score": 13,
     "us_firm_apac": true,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -7792,14 +7700,15 @@
       "company_fit": 5
     },
     "low_quality": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "english_friendly": true,
     "stale": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
     "stale_days": 0,
-    "platform": "LinkedIn"
+    "platform": "LinkedIn",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Product Operations Manager / Director, Institutional Product",
@@ -7825,14 +7734,15 @@
       "company_fit": 5
     },
     "low_quality": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "english_friendly": true,
     "stale": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
     "stale_days": 0,
-    "platform": "LinkedIn"
+    "platform": "LinkedIn",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Product Lead - Pricing",
@@ -7858,14 +7768,15 @@
       "company_fit": 5
     },
     "low_quality": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "english_friendly": true,
     "stale": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
     "stale_days": 0,
-    "platform": "LinkedIn"
+    "platform": "LinkedIn",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "深圳腾讯产品经理招聘信息-BOSS直聘",
@@ -7924,8 +7835,8 @@
     "en_title": "Director, Product Management - AI Ecosystem",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 75,
-    "quality_tier": "B",
+    "quality_score": 85,
+    "quality_tier": "A",
     "low_quality": false,
     "score_breakdown": {
       "yoe_match": 25,
@@ -7939,7 +7850,7 @@
     "app_difficulty": "hard",
     "app_time_est": "20-30 min",
     "platform": "Lenovo Careers",
-    "url_type": "unknown",
+    "url_type": "search",
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
@@ -7990,7 +7901,7 @@
     "app_time_est": "10-15 min",
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "direct",
     "top20": false,
     "geo_score": 12,
     "us_firm_apac": false,
@@ -8038,7 +7949,7 @@
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false,
     "stale_days": 0
   },
@@ -8275,8 +8186,8 @@
     "en_title": "Senior Product Manager / Product Lead",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 72,
-    "quality_tier": "B",
+    "quality_score": 85,
+    "quality_tier": "A",
     "low_quality": false,
     "score_breakdown": {
       "yoe_match": 30,
@@ -8341,7 +8252,7 @@
     "app_time_est": "5-10 min",
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "unknown",
+    "url_type": "direct",
     "top20": false,
     "geo_score": 12,
     "us_firm_apac": false,
@@ -8433,7 +8344,8 @@
     "stale": false,
     "english_friendly": true,
     "stale_days": 0,
-    "platform": "Indeed"
+    "platform": "Indeed",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Director, Policy and Regulatory Strategy, APAC",
@@ -8529,7 +8441,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -8675,7 +8587,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "scanned_date": "2026-06-14",
     "stale": false,
     "stale_days": 0
@@ -8716,7 +8628,8 @@
     "stale": false,
     "english_friendly": true,
     "stale_days": 0,
-    "platform": "Jobsdb"
+    "platform": "Jobsdb",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "VP, Risk Analytics Product Manager",
@@ -8759,7 +8672,7 @@
     "quality_bar_reason": "",
     "sg_visa_likely": true,
     "sg_note": "Large company, visa sponsorship likely",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 13,
@@ -8813,7 +8726,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "scanned_date": "2026-06-14",
     "stale": false,
     "stale_days": 0
@@ -8863,7 +8776,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "scanned_date": "2026-06-14",
     "stale": false,
     "stale_days": 0
@@ -8910,7 +8823,7 @@
     "top20": false,
     "geo_score": 20,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -8998,7 +8911,8 @@
     "stale": false,
     "english_friendly": true,
     "stale_days": 0,
-    "platform": "Jobsdb"
+    "platform": "Jobsdb",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Product and Strategy Innovation Lead",
@@ -9045,7 +8959,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "scanned_date": "2026-06-14",
     "stale": false,
     "stale_days": 0
@@ -9094,7 +9008,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -9240,7 +9154,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "scanned_date": "2026-06-14",
     "stale": false,
     "stale_days": 0
@@ -9335,44 +9249,9 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
-  },
-  {
-    "title": "Director - 上海",
-    "company": "猎聘",
-    "location": "Shanghai",
-    "grade": "A-1",
-    "url": "https://m.liepin.com/job/1957892897.shtml",
-    "role_type": "Product Management",
-    "salary": "30-40k·13薪",
-    "scanned_date": "2026-06-15",
-    "source": "liepin",
-    "login_required": true,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "quality_score": 70,
-    "low_quality": false,
-    "quality_tier": "B",
-    "score_breakdown": {
-      "yoe_match": 30,
-      "domain_match": 25,
-      "location_match": 8,
-      "english_match": -10,
-      "salary_match": 15,
-      "company_fit": 2
-    },
-    "has_direct_apply": false,
-    "top20": false,
-    "geo_score": 12,
-    "us_firm_apac": false,
-    "location_norm": "Shanghai",
-    "url_type": "login_required",
-    "stale": false,
-    "english_friendly": false,
-    "stale_days": 0,
-    "platform": "Liepin"
   },
   {
     "title": "Regional Head of Strategy, Insights and Data APAC",
@@ -9418,7 +9297,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -9458,7 +9337,8 @@
     "stale": false,
     "english_friendly": true,
     "stale_days": 0,
-    "platform": "Indeed"
+    "platform": "Indeed",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Director Product Management, APJ (AI/Cloud)",
@@ -9504,7 +9384,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -9598,7 +9478,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -9638,7 +9518,8 @@
     "stale": false,
     "english_friendly": true,
     "stale_days": 0,
-    "platform": "Indeed"
+    "platform": "Indeed",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Product Lead / Product Director (Corporate Card / Crypto Payment)",
@@ -9684,7 +9565,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -9732,7 +9613,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -9780,7 +9661,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -9875,7 +9756,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -9964,7 +9845,8 @@
     "stale": false,
     "english_friendly": true,
     "stale_days": 0,
-    "platform": "Indeed"
+    "platform": "Indeed",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Senior Product Manager (Food Discovery)",
@@ -10002,7 +9884,8 @@
     "stale": false,
     "english_friendly": true,
     "stale_days": 0,
-    "platform": "Indeed"
+    "platform": "Indeed",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Head of Strategic Capability & Strategy, Surgical Vision APAC",
@@ -10048,7 +9931,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -10236,7 +10119,7 @@
     "quality_bar_reason": "",
     "sg_visa_likely": true,
     "sg_note": "Large company, visa sponsorship likely",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 13,
@@ -10336,7 +10219,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -10384,7 +10267,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -10421,7 +10304,8 @@
     "stale": false,
     "english_friendly": false,
     "stale_days": 0,
-    "platform": "Liepin"
+    "platform": "Liepin",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Director, Loyalty Operations & Performance, APAC",
@@ -10438,7 +10322,7 @@
     "quality_score": 70,
     "quality_tier": "B",
     "location_norm": "Hong Kong",
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "english_friendly": true,
     "low_quality": false,
@@ -10446,7 +10330,8 @@
     "quality_bar_reason": "",
     "has_direct_apply": false,
     "stale_days": 0,
-    "platform": "LinkedIn"
+    "platform": "LinkedIn",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Director, Market & Growth (Academy)",
@@ -10509,7 +10394,7 @@
     "quality_score": 70,
     "quality_tier": "B",
     "location_norm": "Hong Kong",
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "english_friendly": true,
     "low_quality": false,
@@ -10517,7 +10402,8 @@
     "quality_bar_reason": "",
     "has_direct_apply": false,
     "stale_days": 0,
-    "platform": "LinkedIn"
+    "platform": "LinkedIn",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Product Director, Internal HR & Finance Systems",
@@ -10534,7 +10420,7 @@
     "quality_score": 70,
     "quality_tier": "B",
     "location_norm": "Singapore",
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "english_friendly": true,
     "low_quality": false,
@@ -10542,7 +10428,8 @@
     "quality_bar_reason": "",
     "has_direct_apply": false,
     "stale_days": 0,
-    "platform": "LinkedIn"
+    "platform": "LinkedIn",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Senior Business Product Manager - SPX",
@@ -10559,7 +10446,7 @@
     "quality_score": 70,
     "quality_tier": "B",
     "location_norm": "Singapore",
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "english_friendly": true,
     "low_quality": false,
@@ -10567,7 +10454,8 @@
     "quality_bar_reason": "",
     "has_direct_apply": false,
     "stale_days": 0,
-    "platform": "LinkedIn"
+    "platform": "LinkedIn",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Regional Head of Strategy, Insights and Data APAC",
@@ -10658,7 +10546,7 @@
     "quality_bar_reason": "",
     "sg_visa_likely": false,
     "sg_note": "Smaller company, visa uncertain",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 13,
@@ -15819,14 +15707,15 @@
       "company_fit": 10
     },
     "low_quality": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "english_friendly": true,
     "stale": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
     "stale_days": 0,
-    "platform": "LinkedIn"
+    "platform": "LinkedIn",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Product Manager - Trading",
@@ -15840,8 +15729,8 @@
     "en_title": "Product Manager - Trading",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 68,
-    "quality_tier": "C",
+    "quality_score": 80,
+    "quality_tier": "B",
     "low_quality": false,
     "score_breakdown": {
       "yoe_match": 25,
@@ -15855,7 +15744,7 @@
     "app_difficulty": "medium",
     "app_time_est": "15-20 min",
     "platform": "eFinancialCareers",
-    "url_type": "unknown",
+    "url_type": "direct",
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
@@ -16182,7 +16071,8 @@
     "stale": false,
     "english_friendly": false,
     "stale_days": 0,
-    "platform": "Boss Zhipin"
+    "platform": "Boss Zhipin",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "QQ浏览器-高级增长产品经理(深圳) - 腾讯",
@@ -16320,7 +16210,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false,
     "stale_days": 0
   },
@@ -16368,7 +16258,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -16416,7 +16306,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -16694,7 +16584,7 @@
     "top20": false,
     "geo_score": 18,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -16722,14 +16612,15 @@
       "company_fit": 5
     },
     "low_quality": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "english_friendly": false,
     "stale": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
     "has_direct_apply": false,
     "stale_days": 0,
-    "platform": "LinkedIn"
+    "platform": "LinkedIn",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "AI产品负责人（AI社交/AI游戏方向）- 易娱网络",
@@ -16909,7 +16800,7 @@
     "quality_bar_reason": "",
     "sg_visa_likely": true,
     "sg_note": "Large company, visa sponsorship likely",
-    "url_type": "unknown",
+    "url_type": "search",
     "has_direct_apply": false,
     "top20": false,
     "geo_score": 13,
@@ -16962,7 +16853,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "scanned_date": "2026-06-14",
     "stale": false,
     "stale_days": 0
@@ -17012,7 +16903,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "scanned_date": "2026-06-14",
     "stale": false,
     "stale_days": 0
@@ -17062,7 +16953,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "scanned_date": "2026-06-14",
     "stale": false,
     "stale_days": 0
@@ -17100,7 +16991,8 @@
     "stale": false,
     "english_friendly": false,
     "stale_days": 0,
-    "platform": "Liepin"
+    "platform": "Liepin",
+    "last_touch_date": "2026-06-18"
   },
   {
     "title": "Outbound Product Manager, AI Operations",
@@ -17146,7 +17038,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "search",
     "stale": false,
     "stale_days": 0
   },
@@ -17194,7 +17086,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "stale": false,
     "stale_days": 0
   },
@@ -17291,7 +17183,7 @@
     "top20": false,
     "geo_score": 10,
     "us_firm_apac": false,
-    "url_type": "unknown",
+    "url_type": "direct",
     "scanned_date": "2026-06-14",
     "stale": false,
     "stale_days": 0
