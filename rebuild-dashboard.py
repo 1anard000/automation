@@ -187,6 +187,7 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
 <button data-f="hk">HK</button>
 <button data-f="sh">SH</button>
 <button data-f="sz">SZ</button>
+<button data-f="sg">SG</button>
 <button data-f="strategy">Strategy</button>
 <button data-f="product">Product</button>
 <button data-f="ai">AI</button>

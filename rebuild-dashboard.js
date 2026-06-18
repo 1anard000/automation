@@ -27,6 +27,7 @@ function render(f){
   if(f==='hk')d=jobs.filter(j=>(j.location_norm||j.location||'').toLowerCase().includes('hong kong'));
   else if(f==='sh')d=jobs.filter(j=>(j.location_norm||j.location||'').toLowerCase().includes('shanghai'));
   else if(f==='sz')d=jobs.filter(j=>(j.location_norm||j.location||'').toLowerCase().includes('shenzhen'));
+  else if(f==='sg')d=jobs.filter(j=>(j.location_norm||j.location||'').toLowerCase().includes('singapore'));
   else if(f==='A')d=jobs.filter(j=>(j.quality_score||0)>=85);
   else if(f==='B')d=jobs.filter(j=>(j.quality_score||0)>=70&&(j.quality_score||0)<85);
   else if(f==='strategy')d=jobs.filter(j=>(j.role_type||'').toLowerCase().includes('strat'));
