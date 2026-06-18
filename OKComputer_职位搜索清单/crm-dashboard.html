@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRM Dashboard — Career OS</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0a0f;--card:#12121a;--border:#1e1e2e;--text:#e0e0e0;--dim:#666;--accent:#6c5ce7;--green:#00b894;--yellow:#fdcb6e;--red:#e17055;--blue:#74b9ff;--orange:#e17055}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;padding:20px}
+h1{font-size:28px;margin-bottom:4px}
+.subtitle{color:var(--dim);margin-bottom:24px;font-size:14px}
+.stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-bottom:24px}
+.stat-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px;text-align:center}
+.stat-num{font-size:32px;font-weight:700;color:var(--accent)}
+.stat-label{font-size:12px;color:var(--dim);margin-top:4px;text-transform:uppercase;letter-spacing:0.5px}
+.pipeline{display:flex;gap:8px;margin-bottom:24px;flex-wrap:wrap}
+.pipe-stage{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px 16px;text-align:center;min-width:100px;flex:1}
+.pipe-count{font-size:24px;font-weight:700}
+.pipe-label{font-size:11px;color:var(--dim);margin-top:2px}
+.pipe-stage.active{border-color:var(--accent);background:rgba(108,92,231,0.1)}
+.search-box{width:100%;padding:12px 16px;background:var(--card);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:14px;margin-bottom:20px;outline:none}
+.search-box:focus{border-color:var(--accent)}
+.company-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px}
+.company-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px;transition:border-color 0.2s}
+.company-card:hover{border-color:var(--accent)}
+.company-name{font-size:18px;font-weight:600;margin-bottom:4px}
+.company-meta{font-size:12px;color:var(--dim);margin-bottom:8px}
+.grade-badges{display:flex;gap:4px;flex-wrap:wrap;margin-bottom:8px}
+.badge{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600}
+.badge-S{background:rgba(253,203,110,0.2);color:#fdcb6e}
+.badge-A{background:rgba(0,184,148,0.2);color:#00b894}
+.badge-B{background:rgba(116,185,255,0.2);color:#74b9ff}
+.badge-C{background:rgba(99,110,114,0.2);color:#636e72}
+.status-bar{display:flex;height:6px;border-radius:3px;overflow:hidden;margin-bottom:8px}
+.status-bar div{height:100%}
+.job-list{max-height:200px;overflow-y:auto}
+.job-item{padding:6px 0;border-bottom:1px solid var(--border);font-size:13px;display:flex;justify-content:space-between;align-items:center}
+.job-item:last-child{border-bottom:none}
+.job-title{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.job-status{font-size:11px;padding:2px 8px;border-radius:4px;margin-left:8px;white-space:nowrap}
+.status-not_started{background:rgba(99,110,114,0.2);color:#636e72}
+.status-not_applied{background:rgba(253,203,110,0.2);color:#fdcb6e}
+.status-applied{background:rgba(116,185,255,0.2);color:#74b9ff}
+.status-interviewing{background:rgba(108,92,231,0.2);color:#a29bfe}
+.status-offer{background:rgba(0,184,148,0.2);color:#00b894}
+.status-rejected{background:rgba(225,112,85,0.2);color:#e17055}
+.filters{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.filter-btn{padding:6px 14px;border-radius:6px;border:1px solid var(--border);background:var(--card);color:var(--text);cursor:pointer;font-size:12px;transition:all 0.2s}
+.filter-btn:hover,.filter-btn.active{background:var(--accent);border-color:var(--accent);color:#fff}
+.section-title{font-size:16px;font-weight:600;margin:20px 0 12px;color:var(--dim)}
+@media(max-width:600px){.company-grid{grid-template-columns:1fr}.stats-row{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<h1>🎯 CRM Dashboard</h1>
+<p class="subtitle">554 jobs across 357 companies • Last updated: 2026-06-14</p>
+
+<div class="stats-row">
+  <div class="stat-card"><div class="stat-num">554</div><div class="stat-label">Total Jobs</div></div>
+  <div class="stat-card"><div class="stat-num">357</div><div class="stat-label">Companies</div></div>
+  <div class="stat-card"><div class="stat-num">0</div><div class="stat-label">Applied</div></div>
+  <div class="stat-card"><div class="stat-num">0</div><div class="stat-label">Interviewing</div></div>
+  <div class="stat-card"><div class="stat-num">0</div><div class="stat-label">Offers</div></div>
+  <div class="stat-card"><div class="stat-num">103</div><div class="stat-label">Tier A Jobs</div></div>
+</div>
+
+<div class="pipeline">
+<div class="pipe-stage"><div class="pipe-count" style="color:#636e72">80</div><div class="pipe-label">Not Started</div></div>
+<div class="pipe-stage"><div class="pipe-count" style="color:#fdcb6e">474</div><div class="pipe-label">Ready to Apply</div></div>
+<div class="pipe-stage"><div class="pipe-count" style="color:#74b9ff">0</div><div class="pipe-label">Applied</div></div>
+<div class="pipe-stage"><div class="pipe-count" style="color:#a29bfe">0</div><div class="pipe-label">Interviewing</div></div>
+<div class="pipe-stage"><div class="pipe-count" style="color:#00b894">0</div><div class="pipe-label">Offer</div></div>
+<div class="pipe-stage"><div class="pipe-count" style="color:#e17055">0</div><div class="pipe-label">Rejected</div></div>
+</div>
+
+<input type="text" class="search-box" placeholder="🔍 Search companies, job titles..." id="searchBox" oninput="filterCompanies()">
+<div class="filters" id="filters">
+<button class="filter-btn active" onclick="setFilter('all',this)">All Companies</button>
+<button class="filter-btn" onclick="setFilter('has_applied',this)">Has Applications</button>
+<button class="filter-btn" onclick="setFilter('tier_a',this)">Tier A Only</button>
+<button class="filter-btn" onclick="setFilter('multi_job',this)">Multi-Job (3+)</button>
+</div>
+
+<div class="company-grid" id="companyGrid">
+<div class="company-card" data-company="OKX" data-count="42" data-applied="0" data-grades="A-1 A-2 B A">
+  <div class="company-name">OKX</div>
+  <div class="company-meta">42 jobs • Hong Kong, Singapore, Shanghai</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span><span class="badge badge-B">B</span><span class="badge badge-A">A</span></div>
+  <div class="status-bar"><div style="width:16.666666666666664%;background:#636e72" title="Not Started: 7"></div><div style="width:83.33333333333334%;background:#fdcb6e" title="Ready to Apply: 35"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Product Director, Trust & Experience">Product Director, Trust & Experience</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Product Manager / Director, Global Payment Partnerships">Product Manager / Director, Global Payment Partnerships</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="(Senior) Data Infra Product Manager, On Chain (Algorithm and Search)">(Senior) Data Infra Product Manager, On Chain (Algorithm and Search)</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Product Director, Compliance">Product Director, Compliance</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Product Manager / Director, Institutional Product">Product Manager / Director, Institutional Product</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Product Manager / Director, User Growth">Product Manager / Director, User Growth</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Principal / Senior Product Manager, Institution Onboarding (KYB)">Principal / Senior Product Manager, Institution Onboarding (KYB)</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Principal/Senior Product Manager, AI and Agent">Principal/Senior Product Manager, AI and Agent</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="Airwallex" data-count="15" data-applied="0" data-grades="A-1 A-2 B A">
+  <div class="company-name">Airwallex</div>
+  <div class="company-meta">15 jobs • Singapore</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span><span class="badge badge-B">B</span><span class="badge badge-A">A</span></div>
+  <div class="status-bar"><div style="width:6.666666666666667%;background:#636e72" title="Not Started: 1"></div><div style="width:93.33333333333333%;background:#fdcb6e" title="Ready to Apply: 14"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Director, Product Strategy">Director, Product Strategy</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager, Growth">Senior Product Manager, Growth</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager">Senior Product Manager</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Head of Product, Global Payments Network Infrastructure">Head of Product, Global Payments Network Infrastructure</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Director, Product Strategy Payments">Director, Product Strategy Payments</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Product Director, Payment Fraud">Product Director, Payment Fraud</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Product Director, Financial Markets & Financial Platform">Product Director, Financial Markets & Financial Platform</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Associate Director, Strategy & Operations - CEO Office">Associate Director, Strategy & Operations - CEO Office</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="Google" data-count="8" data-applied="0" data-grades="A-1 A-2 A">
+  <div class="company-name">Google</div>
+  <div class="company-meta">8 jobs • Singapore, Shanghai</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span><span class="badge badge-A">A</span></div>
+  <div class="status-bar"><div style="width:37.5%;background:#636e72" title="Not Started: 3"></div><div style="width:62.5%;background:#fdcb6e" title="Ready to Apply: 5"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Global Head of Business Operations and Chief of Staff, App Dev, RSO">Global Head of Business Operations and Chief of Staff, App Dev, RSO</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Head of Measurement, APAC Product Go-To-Market">Head of Measurement, APAC Product Go-To-Market</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Regional Product Lead, Foundational Measurement">Regional Product Lead, Foundational Measurement</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Head of International Growth Team, AppDev APAC">Head of International Growth Team, AppDev APAC</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="Global Head of Business Operations and Chief of Staff, AppDev RSO">Global Head of Business Operations and Chief of Staff, AppDev RSO</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="Head of Core Strategy & Operations, Marketing">Head of Core Strategy & Operations, Marketing</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Strategy and Operations Principal Lead, Apps, Product GTM">Strategy and Operations Principal Lead, Apps, Product GTM</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager, Vulnerability Rewards Program">Senior Product Manager, Vulnerability Rewards Program</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="Binance" data-count="7" data-applied="0" data-grades="A-1 A-2 A">
+  <div class="company-name">Binance</div>
+  <div class="company-meta">7 jobs • Hong Kong</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span><span class="badge badge-A">A</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 7"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Binance Pay Business Lead">Binance Pay Business Lead</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Card Product Manager">Senior Card Product Manager</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Payment Product Manager - LATAM">Senior Payment Product Manager - LATAM</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager, KYB">Senior Product Manager, KYB</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager (Marketplace)">Senior Product Manager (Marketplace)</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Product Manager - AI">Product Manager - AI</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager (E-commerce/Marketplace)">Senior Product Manager (E-commerce/Marketplace)</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="某知名公司" data-count="7" data-applied="0" data-grades="A-1 A-2 S-1">
+  <div class="company-name">某知名公司</div>
+  <div class="company-meta">7 jobs • Shenzhen</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span><span class="badge badge-S">S-1</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 7"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Senior Product Manager/Expert（Focus）">Senior Product Manager/Expert（Focus）</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager（ ）(Cross-border)">Senior Product Manager（ ）(Cross-border)</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Software Product Manager（AI，TOB，SAAS）">Senior Software Product Manager（AI，TOB，SAAS）</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="AI Product Manager（信贷业务）">AI Product Manager（信贷业务）</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Product Director">Product Director</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Smart Hardware Product Director">Smart Hardware Product Director</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="资深软件产品经理">资深软件产品经理</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="ByteDance" data-count="6" data-applied="0" data-grades="A-1 A-2 A">
+  <div class="company-name">ByteDance</div>
+  <div class="company-meta">6 jobs • Shenzhen, Hong Kong</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span><span class="badge badge-A">A</span></div>
+  <div class="status-bar"><div style="width:16.666666666666664%;background:#636e72" title="Not Started: 1"></div><div style="width:83.33333333333334%;background:#fdcb6e" title="Ready to Apply: 5"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Senior Product Manager, Tik Tok E-commerce">Senior Product Manager, Tik Tok E-commerce</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager, Cap Cut">Senior Product Manager, Cap Cut</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager, Tik Tok Shop HK">Senior Product Manager, Tik Tok Shop HK</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Head of Product Strategy, Global Markets">Head of Product Strategy, Global Markets</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="AI Product Manager - 飞书多维表格">AI Product Manager - 飞书多维表格</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="AI产品经理-飞书多维表格（深圳/北京）">AI产品经理-飞书多维表格（深圳/北京）</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="HSBC" data-count="5" data-applied="0" data-grades="A-1 A-2 B">
+  <div class="company-name">HSBC</div>
+  <div class="company-meta">5 jobs • Shanghai, Hong Kong</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span><span class="badge badge-B">B</span></div>
+  <div class="status-bar"><div style="width:20.0%;background:#636e72" title="Not Started: 1"></div><div style="width:80.0%;background:#fdcb6e" title="Ready to Apply: 4"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Senior Manager of Frontline Incentive and Strategy">Senior Manager of Frontline Incentive and Strategy</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager - HK Business">Senior Product Manager - HK Business</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager, HK Business">Senior Product Manager, HK Business</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Liabilities Products Manager">Senior Liabilities Products Manager</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Manager, Product Development and Management">Manager, Product Development and Management</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="某深圳大型智能硬件/消费电子公司" data-count="5" data-applied="0" data-grades="A-1 A-2">
+  <div class="company-name">某深圳大型智能硬件/消费电子公司</div>
+  <div class="company-meta">5 jobs • Shenzhen</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 5"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Senior Software Product Manager（Audio/Video Focus）">Senior Software Product Manager（Audio/Video Focus）</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Director（深度相机Focus）">Senior Product Director（深度相机Focus）</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Product Director">Product Director</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Software Product Manager">Senior Software Product Manager</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="AI Product Manager（工作地点Shenzhen Beijing）">AI Product Manager（工作地点Shenzhen Beijing）</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="某深圳大型电子/半导体/集成电路公司" data-count="5" data-applied="0" data-grades="A-1 S-1 A-2">
+  <div class="company-name">某深圳大型电子/半导体/集成电路公司</div>
+  <div class="company-meta">5 jobs • Shenzhen</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-S">S-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 5"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Product Director（100-150W）">Product Director（100-150W）</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Product Director（TO C）">Product Director（TO C）</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Product Director">Product Director</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="资深产品经理">资深产品经理</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="产品总监（100-150W）-急急急">产品总监（100-150W）-急急急</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="Crypto.com" data-count="5" data-applied="0" data-grades="A-2 A">
+  <div class="company-name">Crypto.com</div>
+  <div class="company-meta">5 jobs • Hong Kong, Singapore</div>
+  <div class="grade-badges"><span class="badge badge-A">A-2</span><span class="badge badge-A">A</span></div>
+  <div class="status-bar"><div style="width:20.0%;background:#636e72" title="Not Started: 1"></div><div style="width:80.0%;background:#fdcb6e" title="Ready to Apply: 4"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Principal Product Manager - Verification & Activation (Exchange)">Principal Product Manager - Verification & Activation (Exchange)</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="Principal Product Manager - Verification & Activation(Exchange)">Principal Product Manager - Verification & Activation(Exchange)</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Principal Product Manager - Discovery & Onboarding(Exchange)">Principal Product Manager - Discovery & Onboarding(Exchange)</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Principal Product Manager - Verification & Activation(Exchange)">Principal Product Manager - Verification & Activation(Exchange)</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Principal Product Manager - Discovery & Onboarding(Exchange)">Principal Product Manager - Discovery & Onboarding(Exchange)</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="GovTech Singapore" data-count="5" data-applied="0" data-grades="B A">
+  <div class="company-name">GovTech Singapore</div>
+  <div class="company-meta">5 jobs • Singapore</div>
+  <div class="grade-badges"><span class="badge badge-B">B</span><span class="badge badge-A">A</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 5"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Senior Product Manager">Senior Product Manager</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Lead Product Manager, Central Product Marketplace">Lead Product Manager, Central Product Marketplace</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager, Science Centre Board">Senior Product Manager, Science Centre Board</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Lead Product Manager. Healthcare Financing (MOH)">Lead Product Manager. Healthcare Financing (MOH)</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager, Teacher Professional Learning Platforms">Senior Product Manager, Teacher Professional Learning Platforms</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="Coins.ph" data-count="4" data-applied="0" data-grades="A-1 A-2">
+  <div class="company-name">Coins.ph</div>
+  <div class="company-meta">4 jobs • Hong Kong</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:50.0%;background:#636e72" title="Not Started: 2"></div><div style="width:50.0%;background:#fdcb6e" title="Ready to Apply: 2"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Cross-border Payments Senior Product Manager">Cross-border Payments Senior Product Manager</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager (Card Issuing)">Senior Product Manager (Card Issuing)</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager(Card Issuing)">Senior Product Manager(Card Issuing)</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Principal Product Manager - Compliance / AML / Risk Platform">Principal Product Manager - Compliance / AML / Risk Platform</span><span class="job-status status-not_started">Not Started</span></div></div>
+</div>
+<div class="company-card" data-company="Gate" data-count="4" data-applied="0" data-grades="A-1 B A">
+  <div class="company-name">Gate</div>
+  <div class="company-meta">4 jobs • Hong Kong</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-B">B</span><span class="badge badge-A">A</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 4"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Senior Fiat Product Manager (Gate Pay)">Senior Fiat Product Manager (Gate Pay)</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager (Trading)">Senior Product Manager (Trading)</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Payment Product Manager (Fiat & Cross-Border)">Payment Product Manager (Fiat & Cross-Border)</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Trading Product Manager (Copy Trading & Quantitative Strategy)">Trading Product Manager (Copy Trading & Quantitative Strategy)</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="Indeed (company unknown)" data-count="4" data-applied="0" data-grades="A-1 A-2">
+  <div class="company-name">Indeed (company unknown)</div>
+  <div class="company-meta">4 jobs • Hong Kong, Singapore</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#636e72" title="Not Started: 4"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Digital Project Director / Product Director">Digital Project Director / Product Director</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager, Global Corporate Banking - Bank of China (Hong Kong)">Senior Product Manager, Global Corporate Banking - Bank of China (Hong Kong)</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager">Senior Product Manager</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager (Food Discovery)">Senior Product Manager (Food Discovery)</span><span class="job-status status-not_started">Not Started</span></div></div>
+</div>
+<div class="company-card" data-company="Shopee" data-count="4" data-applied="0" data-grades="A-1 B A">
+  <div class="company-name">Shopee</div>
+  <div class="company-meta">4 jobs • Hong Kong, Singapore</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-B">B</span><span class="badge badge-A">A</span></div>
+  <div class="status-bar"><div style="width:25.0%;background:#636e72" title="Not Started: 1"></div><div style="width:75.0%;background:#fdcb6e" title="Ready to Apply: 3"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Senior Product Manager, Shopee Cross-border">Senior Product Manager, Shopee Cross-border</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Head of Product, Shopee Pay">Head of Product, Shopee Pay</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Business Product Manager - SPX">Senior Business Product Manager - SPX</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="Senior Data Product Manager - MPID team">Senior Data Product Manager - MPID team</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="UOB" data-count="4" data-applied="0" data-grades="A-1 A">
+  <div class="company-name">UOB</div>
+  <div class="company-meta">4 jobs • Singapore</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A</span></div>
+  <div class="status-bar"><div style="width:25.0%;background:#636e72" title="Not Started: 1"></div><div style="width:75.0%;background:#fdcb6e" title="Ready to Apply: 3"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Senior Product Manager, Digital Currency and Payments">Senior Product Manager, Digital Currency and Payments</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="Senior VP, Product Manager - Digital Currency and Payments">Senior VP, Product Manager - Digital Currency and Payments</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="VP, Channel Product Owner, Group Transaction Banking">VP, Channel Product Owner, Group Transaction Banking</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Vice President / First Vice President, Payments Product Manager, Group Transaction Banking">Senior Vice President / First Vice President, Payments Product Manager, Group Transaction Banking</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="某深圳互联网上市公司" data-count="4" data-applied="0" data-grades="A-1 A-2">
+  <div class="company-name">某深圳互联网上市公司</div>
+  <div class="company-meta">4 jobs • Shenzhen</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 4"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Product Director（）">Product Director（）</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="AISenior Product Manager（泛娱乐生态，Overseas C 端产品）">AISenior Product Manager（泛娱乐生态，Overseas C 端产品）</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="CAI Product Manager Robotics">CAI Product Manager Robotics</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="AI Product Manager-AIFocus">AI Product Manager-AIFocus</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="Bank of China (Hong Kong)" data-count="3" data-applied="0" data-grades="A-1 B C">
+  <div class="company-name">Bank of China (Hong Kong)</div>
+  <div class="company-meta">3 jobs • Hong Kong</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-B">B</span><span class="badge badge-C">C</span></div>
+  <div class="status-bar"><div style="width:33.33333333333333%;background:#636e72" title="Not Started: 1"></div><div style="width:66.66666666666666%;background:#fdcb6e" title="Ready to Apply: 2"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Senior Wealth Management Product Manager (Insurance)">Senior Wealth Management Product Manager (Insurance)</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="(Senior) Product Manager, Transaction Banking">(Senior) Product Manager, Transaction Banking</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="(Senior) Segment Manager (Cross Border Business)">(Senior) Segment Manager (Cross Border Business)</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="CASETiFY" data-count="3" data-applied="0" data-grades="A-1 A">
+  <div class="company-name">CASETiFY</div>
+  <div class="company-meta">3 jobs • Shenzhen</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 3"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Senior Product Manager - Supply Chain Management">Senior Product Manager - Supply Chain Management</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager">Senior Product Manager</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager - Shenzhen">Senior Product Manager - Shenzhen</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="Confidential" data-count="3" data-applied="0" data-grades="A-1 A-2 B">
+  <div class="company-name">Confidential</div>
+  <div class="company-meta">3 jobs • Shanghai, Singapore, Hong Kong</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span><span class="badge badge-B">B</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 3"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Senior Cross-border Payment Product Manager (Confidential)">Senior Cross-border Payment Product Manager (Confidential)</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Director, Product Strategy & Growth">Director, Product Strategy & Growth</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager, Quantitative Copy Trading">Senior Product Manager, Quantitative Copy Trading</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="GE HealthCare" data-count="3" data-applied="0" data-grades="A-1">
+  <div class="company-name">GE HealthCare</div>
+  <div class="company-meta">3 jobs • Shanghai</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 3"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Director, Business Strategy & Development – IMG">Director, Business Strategy & Development – IMG</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Director, East Asia Strategy and Growth Initiatives">Director, East Asia Strategy and Growth Initiatives</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="China Supply Chain Strategy Director">China Supply Chain Strategy Director</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="JD.COM" data-count="3" data-applied="0" data-grades="A-1 A-2">
+  <div class="company-name">JD.COM</div>
+  <div class="company-meta">3 jobs • Shenzhen, Hong Kong</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 3"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Director of Category - Joybuy">Director of Category - Joybuy</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Buy Now, Pay Later (BNPL) Product & Operations Lead (Europe Business)">Buy Now, Pay Later (BNPL) Product & Operations Lead (Europe Business)</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="BNPL Product & Operations Lead (Europe Business)">BNPL Product & Operations Lead (Europe Business)</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="Mastercard" data-count="3" data-applied="0" data-grades="A-1 A-2">
+  <div class="company-name">Mastercard</div>
+  <div class="company-meta">3 jobs • Singapore</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 3"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Manager, AI & Data Strategy - RAI TPM">Manager, AI & Data Strategy - RAI TPM</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Director, AI & Data Strategy - Technical Product Management for Responsible AI">Director, AI & Data Strategy - Technical Product Management for Responsible AI</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Director, AI Center of Excellence">Director, AI Center of Excellence</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="OCBC" data-count="3" data-applied="0" data-grades="A-1 A-2 A">
+  <div class="company-name">OCBC</div>
+  <div class="company-meta">3 jobs • Singapore, Hong Kong</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span><span class="badge badge-A">A</span></div>
+  <div class="status-bar"><div style="width:33.33333333333333%;background:#636e72" title="Not Started: 1"></div><div style="width:66.66666666666666%;background:#fdcb6e" title="Ready to Apply: 2"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Cross Border Payment Product Manager, Group Transaction Banking (AVP)">Cross Border Payment Product Manager, Group Transaction Banking (AVP)</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Head of Cash Products, Transaction Banking (HK & Macau)">Head of Cash Products, Transaction Banking (HK & Macau)</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="Cross Border Payment Product Manager, Group Transaction Banking – Cash Product Management (AVP)">Cross Border Payment Product Manager, Group Transaction Banking – Cash Product Management (AVP)</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="Tencent" data-count="3" data-applied="0" data-grades="A-1 A-2">
+  <div class="company-name">Tencent</div>
+  <div class="company-meta">3 jobs • Shenzhen, Hong Kong</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:33.33333333333333%;background:#636e72" title="Not Started: 1"></div><div style="width:66.66666666666666%;background:#fdcb6e" title="Ready to Apply: 2"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Senior Product Manager, We Chat Pay">Senior Product Manager, We Chat Pay</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager, Cloud & Smart Industries">Senior Product Manager, Cloud & Smart Industries</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="We Chat Pay - Senior Business Development Manager">We Chat Pay - Senior Business Development Manager</span><span class="job-status status-not_started">Not Started</span></div></div>
+</div>
+<div class="company-card" data-company="Visa" data-count="3" data-applied="0" data-grades="A-1 S-1">
+  <div class="company-name">Visa</div>
+  <div class="company-meta">3 jobs • Singapore, Hong Kong</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-S">S-1</span></div>
+  <div class="status-bar"><div style="width:33.33333333333333%;background:#636e72" title="Not Started: 1"></div><div style="width:66.66666666666666%;background:#fdcb6e" title="Ready to Apply: 2"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Senior Director, Corporate Strategy, Asia Pacific">Senior Director, Corporate Strategy, Asia Pacific</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Director, Client Consulting, Stablecoin, AI & Fintech Innovation">Director, Client Consulting, Stablecoin, AI & Fintech Innovation</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="AVP, Chief of Staff & Head of Strategy - Emerging Markets">AVP, Chief of Staff & Head of Strategy - Emerging Markets</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="上海" data-count="3" data-applied="0" data-grades="A-1 A-2">
+  <div class="company-name">上海</div>
+  <div class="company-meta">3 jobs • Shanghai</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:66.66666666666666%;background:#636e72" title="Not Started: 2"></div><div style="width:33.33333333333333%;background:#fdcb6e" title="Ready to Apply: 1"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Associate Director - 迈茂睿">Associate Director - 迈茂睿</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="BD & Strategy Director/Senior Director - Pharmaceutical">BD & Strategy Director/Senior Director - Pharmaceutical</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager (Proteomics) - Shanghai">Senior Product Manager (Proteomics) - Shanghai</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="某深圳人工智能公司" data-count="3" data-applied="0" data-grades="A-1 A-2">
+  <div class="company-name">某深圳人工智能公司</div>
+  <div class="company-meta">3 jobs • Shenzhen</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 3"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Senior Product Manager/Head of Product（Overseas Robotics）">Senior Product Manager/Head of Product（Overseas Robotics）</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager（Gaming）">Senior Product Manager（Gaming）</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager（Robotics）">Senior Product Manager（Robotics）</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="某深圳知名公司" data-count="3" data-applied="0" data-grades="A-1 A-2">
+  <div class="company-name">某深圳知名公司</div>
+  <div class="company-meta">3 jobs • Shenzhen</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 3"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Product Director（）">Product Director（）</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager（AIFocus）">Senior Product Manager（AIFocus）</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="AI 产品经理（大模型对话机器人 / 智能服务 & 营销方向）">AI 产品经理（大模型对话机器人 / 智能服务 & 营销方向）</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="某深圳计算机软件公司" data-count="3" data-applied="0" data-grades="A-1 A-2">
+  <div class="company-name">某深圳计算机软件公司</div>
+  <div class="company-meta">3 jobs • Shenzhen</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 3"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Supply Chain Product Director（ERP/SAAS/Cross-border 电商平台等）">Supply Chain Product Director（ERP/SAAS/Cross-border 电商平台等）</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="AI Product Manager">AI Product Manager</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="AI Product Manager（Saa S）">AI Product Manager（Saa S）</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="深圳" data-count="3" data-applied="0" data-grades="A-1 A-2">
+  <div class="company-name">深圳</div>
+  <div class="company-meta">3 jobs • Shenzhen</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:66.66666666666666%;background:#636e72" title="Not Started: 2"></div><div style="width:33.33333333333333%;background:#fdcb6e" title="Ready to Apply: 1"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Health Insurance Product Director/Manager - Shenzhen">Health Insurance Product Director/Manager - Shenzhen</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager(MJ001401) - 基克纳科技">Senior Product Manager(MJ001401) - 基克纳科技</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager(MJ001401) - 基克纳科技 - Shenzhen">Senior Product Manager(MJ001401) - 基克纳科技 - Shenzhen</span><span class="job-status status-not_started">Not Started</span></div></div>
+</div>
+<div class="company-card" data-company="迅雷网络" data-count="3" data-applied="0" data-grades="A-1 A-2">
+  <div class="company-name">迅雷网络</div>
+  <div class="company-meta">3 jobs • Shenzhen</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 3"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Product Director / Senior Product Manager - Xunlei">Product Director / Senior Product Manager - Xunlei</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Head of Probability Gaming Products - Xunlei">Head of Probability Gaming Products - Xunlei</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager - Xunlei">Senior Product Manager - Xunlei</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="Amazon" data-count="3" data-applied="0" data-grades="A-2 A">
+  <div class="company-name">Amazon</div>
+  <div class="company-meta">3 jobs • Shanghai, Shenzhen</div>
+  <div class="grade-badges"><span class="badge badge-A">A-2</span><span class="badge badge-A">A</span></div>
+  <div class="status-bar"><div style="width:66.66666666666666%;background:#636e72" title="Not Started: 2"></div><div style="width:33.33333333333333%;background:#fdcb6e" title="Ready to Apply: 1"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Senior Product Manager - AI, NBS">Senior Product Manager - AI, NBS</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager - AI, Amazon Global Selling">Senior Product Manager - AI, Amazon Global Selling</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager - AI, Amazon Global Selling - PMO">Senior Product Manager - AI, Amazon Global Selling - PMO</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="Klook" data-count="3" data-applied="0" data-grades="A-2 A">
+  <div class="company-name">Klook</div>
+  <div class="company-meta">3 jobs • Shenzhen, Singapore</div>
+  <div class="grade-badges"><span class="badge badge-A">A-2</span><span class="badge badge-A">A</span></div>
+  <div class="status-bar"><div style="width:33.33333333333333%;background:#636e72" title="Not Started: 1"></div><div style="width:66.66666666666666%;background:#fdcb6e" title="Ready to Apply: 2"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Senior Product Manager, Payments & Fraud Tech">Senior Product Manager, Payments & Fraud Tech</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager, Platform & Internal Systems">Senior Product Manager, Platform & Internal Systems</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="Principal Product Manager">Principal Product Manager</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="某国内电子/半导体/集成电路上市公司" data-count="3" data-applied="0" data-grades="A-2 A-1">
+  <div class="company-name">某国内电子/半导体/集成电路上市公司</div>
+  <div class="company-meta">3 jobs • Shenzhen</div>
+  <div class="grade-badges"><span class="badge badge-A">A-2</span><span class="badge badge-A">A-1</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 3"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Senior Product Manager">Senior Product Manager</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior/Senior Product Manager（）">Senior/Senior Product Manager（）</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="AI 智慧屏产品总监">AI 智慧屏产品总监</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="某深圳大型互联网公司" data-count="3" data-applied="0" data-grades="A-2 S-1">
+  <div class="company-name">某深圳大型互联网公司</div>
+  <div class="company-meta">3 jobs • Shenzhen</div>
+  <div class="grade-badges"><span class="badge badge-A">A-2</span><span class="badge badge-S">S-1</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 3"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="AI Product Manager（to B）">AI Product Manager（to B）</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="AI Product Manager">AI Product Manager</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="数据中心Product Line Director">数据中心Product Line Director</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="某知名互联网上市公司" data-count="3" data-applied="0" data-grades="A-2 S-1">
+  <div class="company-name">某知名互联网上市公司</div>
+  <div class="company-meta">3 jobs • Shenzhen</div>
+  <div class="grade-badges"><span class="badge badge-A">A-2</span><span class="badge badge-S">S-1</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 3"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="AISenior-AI 应用体验/AI">AISenior-AI 应用体验/AI</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Product Director">Product Director</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Robotics Product Director">Robotics Product Director</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="AIA Group" data-count="2" data-applied="0" data-grades="A-1 A-2">
+  <div class="company-name">AIA Group</div>
+  <div class="company-meta">2 jobs • Hong Kong</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 2"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Director, Digital Health & Wellness Strategy">Director, Digital Health & Wellness Strategy</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager, AIA Digital">Senior Product Manager, AIA Digital</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="Agoda" data-count="2" data-applied="0" data-grades="A-1 A-2">
+  <div class="company-name">Agoda</div>
+  <div class="company-meta">2 jobs • Hong Kong, Singapore</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 2"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Principal Product Manager (Singapore Based)">Principal Product Manager (Singapore Based)</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager (SG-based)">Senior Product Manager (SG-based)</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="Alibaba" data-count="2" data-applied="0" data-grades="A-1">
+  <div class="company-name">Alibaba</div>
+  <div class="company-meta">2 jobs • Shenzhen, Hong Kong</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 2"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Senior Product Manager, Lazada">Senior Product Manager, Lazada</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager, Alibaba Cloud">Senior Product Manager, Alibaba Cloud</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="BlackRock" data-count="2" data-applied="0" data-grades="A-1 A-2">
+  <div class="company-name">BlackRock</div>
+  <div class="company-meta">2 jobs • Singapore</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 2"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Aladdin Product Solutions Specialist, Director">Aladdin Product Solutions Specialist, Director</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Director/Managing Director - Singapore & SEA COO">Director/Managing Director - Singapore & SEA COO</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="DeCard" data-count="2" data-applied="0" data-grades="A-1 A-2">
+  <div class="company-name">DeCard</div>
+  <div class="company-meta">2 jobs • Singapore</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 2"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Product Director (Payment, CAAS, Card Payments)">Product Director (Payment, CAAS, Card Payments)</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Product Lead / Product Director (Corporate Card / Crypto Payment)">Product Lead / Product Director (Corporate Card / Crypto Payment)</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="Equinix" data-count="2" data-applied="0" data-grades="A-1 A-2">
+  <div class="company-name">Equinix</div>
+  <div class="company-meta">2 jobs • Singapore</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 2"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Director, Deal Strategy & Enablement - APAC">Director, Deal Strategy & Enablement - APAC</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Chief of Staff to SVP Operations, APAC">Chief of Staff to SVP Operations, APAC</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="GIC" data-count="2" data-applied="0" data-grades="A-1">
+  <div class="company-name">GIC</div>
+  <div class="company-meta">2 jobs • Singapore</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 2"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="VP, Risk Analytics Product Manager">VP, Risk Analytics Product Manager</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Associate/AVP, Total Portfolio Sustainability Investment Research & Strategy">Associate/AVP, Total Portfolio Sustainability Investment Research & Strategy</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="Huawei" data-count="2" data-applied="0" data-grades="A-1">
+  <div class="company-name">Huawei</div>
+  <div class="company-meta">2 jobs • Shenzhen</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 2"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Senior Product Manager, Huawei Cloud">Senior Product Manager, Huawei Cloud</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager, Harmony OS Ecosystem">Senior Product Manager, Harmony OS Ecosystem</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="Jobsdb" data-count="2" data-applied="0" data-grades="A-1 A-2">
+  <div class="company-name">Jobsdb</div>
+  <div class="company-meta">2 jobs • Singapore, Hong Kong</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#636e72" title="Not Started: 2"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Head Of Product Jobs in Hong Kong">Head Of Product Jobs in Hong Kong</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="Senior Product Owner Jobs in Hong Kong">Senior Product Owner Jobs in Hong Kong</span><span class="job-status status-not_started">Not Started</span></div></div>
+</div>
+<div class="company-card" data-company="Lalamove" data-count="2" data-applied="0" data-grades="A-1 A">
+  <div class="company-name">Lalamove</div>
+  <div class="company-meta">2 jobs • Hong Kong</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A</span></div>
+  <div class="status-bar"><div style="width:50.0%;background:#636e72" title="Not Started: 1"></div><div style="width:50.0%;background:#fdcb6e" title="Ready to Apply: 1"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Head of Product">Head of Product</span><span class="job-status status-not_started">Not Started</span></div><div class="job-item"><span class="job-title" title="Senior Product Manager / Product Lead">Senior Product Manager / Product Lead</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="Manulife" data-count="2" data-applied="0" data-grades="A-1">
+  <div class="company-name">Manulife</div>
+  <div class="company-meta">2 jobs • Singapore</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span></div>
+  <div class="status-bar"><div style="width:50.0%;background:#636e72" title="Not Started: 1"></div><div style="width:50.0%;background:#fdcb6e" title="Ready to Apply: 1"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Director, Product Pricing">Director, Product Pricing</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Director, AI Transformation, Agency">Director, AI Transformation, Agency</span><span class="job-status status-not_started">Not Started</span></div></div>
+</div>
+<div class="company-card" data-company="Meta" data-count="2" data-applied="0" data-grades="A-1">
+  <div class="company-name">Meta</div>
+  <div class="company-meta">2 jobs • Singapore</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span></div>
+  <div class="status-bar"><div style="width:100.0%;background:#fdcb6e" title="Ready to Apply: 2"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Director, Product Management - APAC Products">Director, Product Management - APAC Products</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Product Manager - Growth & Monetization">Product Manager - Growth & Monetization</span><span class="job-status status-not_applied">Ready to Apply</span></div></div>
+</div>
+<div class="company-card" data-company="MetaComp" data-count="2" data-applied="0" data-grades="A-1 A-2">
+  <div class="company-name">MetaComp</div>
+  <div class="company-meta">2 jobs • Singapore, Hong Kong</div>
+  <div class="grade-badges"><span class="badge badge-A">A-1</span><span class="badge badge-A">A-2</span></div>
+  <div class="status-bar"><div style="width:50.0%;background:#636e72" title="Not Started: 1"></div><div style="width:50.0%;background:#fdcb6e" title="Ready to Apply: 1"></div></div>
+  <div class="job-list"><div class="job-item"><span class="job-title" title="Senior Product Manager / Director – Card Issuance">Senior Product Manager / Director – Card Issuance</span><span class="job-status status-not_applied">Ready to Apply</span></div><div class="job-item"><span class="job-title" title="Product Director, Wealth Management">Product Director, Wealth Management</span><span class="job-status status-not_started">Not Started</span></div></div>
+</div>
+</div>
+
+<script>
+let currentFilter = 'all';
+function setFilter(f, btn) {
+  currentFilter = f;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  filterCompanies();
+}
+function filterCompanies() {
+  const q = document.getElementById('searchBox').value.toLowerCase();
+  document.querySelectorAll('.company-card').forEach(card => {
+    const name = card.dataset.company.toLowerCase();
+    const titles = card.querySelector('.job-list').textContent.toLowerCase();
+    const matchSearch = !q || name.includes(q) || titles.includes(q);
+    let matchFilter = true;
+    if (currentFilter === 'has_applied') matchFilter = parseInt(card.dataset.applied) > 0;
+    else if (currentFilter === 'tier_a') matchFilter = card.dataset.grades.includes('A');
+    else if (currentFilter === 'multi_job') matchFilter = parseInt(card.dataset.count) >= 3;
+    card.style.display = (matchSearch && matchFilter) ? '' : 'none';
+  });
+}
+</script>
+</body>
+</html>
