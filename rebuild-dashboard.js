@@ -42,6 +42,10 @@ function render(f){
   else if(f==='english')d=jobs.filter(j=>j.english_friendly===true);
   else if(f==='needs_url')d=jobs.filter(j=>j.url_type!=='direct');
   else if(f==='top20')d=jobs.filter(j=>j.top20===true);
+  else if(f==='bigtech')d=jobs.filter(j=>j._company_tier==='bigtech');
+  else if(f==='company_growth')d=jobs.filter(j=>j._company_tier==='growth');
+  else if(f==='enterprise')d=jobs.filter(j=>j._company_tier==='enterprise');
+  else if(f==='startup')d=jobs.filter(j=>j._company_tier==='startup');
   const sb=document.getElementById('search-box');
   if(sb&&sb.value.trim()){const q=sb.value.trim().toLowerCase();d=d.filter(j=>[j.en_title||j.title||'',j.company||'',j.location_norm||j.location||'',j.summary||'',j.role_type||'',j.salary||''].join(' ').toLowerCase().includes(q))}
   if(statusFilter)d=d.filter(j=>getStatus(j)===statusFilter);
@@ -60,7 +64,7 @@ function render(f){
     var stBadge='<span class="status-badge st-'+st+'" data-job-id="'+j.job_id+'" title="Click to change status">'+STATUS_LABELS[st]+'</span>';
     var note=getNote(j.job_id),ni=note?'📝':'💬',nc=note?'has-notes':'';
     var nh='<div class="notes-area"><button class="notes-toggle '+nc+'" data-toggle-notes="'+j.job_id+'">'+ni+' Notes</button><span class="notes-saved" id="saved-'+j.job_id+'">✓ saved</span><div class="notes-content" id="notes-'+j.job_id+'"><textarea class="notes-input" placeholder="Add a note..." data-save-note="'+j.job_id+'">'+note+'</textarea></div></div>';
-    return '<div class="jc"><div class="t">'+ti+'<span class="ut ut-'+(j.url_type||'unknown')+'">'+{direct:'🎯 Direct',search:'🔍 Search',login_required:'🔒 Login'}[j.url_type||'unknown']+'</span>'+(nf?'<span class="url-fix">🔧 URL Fix Needed</span>':'')+(ie?'<span class="en">🌐 EN</span>':'')+'</div><div class="co">'+co+' '+stBadge+'</div>'+(sm?'<div class="sm">'+sm.substring(0,150)+(sm.length>150?'...':'')+'</div>':'')+'<div class="mt"><span class="lc">'+l+'</span><span class="sc">'+sc+'</span><span class="bg bg-'+t.toLowerCase()+'">'+t+' '+s+'</span>'+sal+(j.app_difficulty?'<span>⚡ '+j.app_difficulty+'</span>':'')+'</div><div class="lk"><a href="'+au+'" target="_blank" class="'+ac+'">'+at+'</a>'+(dk?'<a href="'+g+'" target="_blank" class="gs">🔍 Google</a>':'')+'</div>'+nh+'</div>';
+    return '<div class="jc"><div class="t">'+ti+'<span class="ut ut-'+(j.url_type||'unknown')+'">'+{direct:'🎯 Direct',search:'🔍 Search',login_required:'🔒 Login'}[j.url_type||'unknown']+'</span>'+(nf?'<span class="url-fix">🔧 URL Fix Needed</span>':'')+(ie?'<span class="en">🌐 EN</span>':'')+'</div><div class="co">'+co+' <span class="tier tier-'+(j._company_tier||'startup')+'">'+((j._company_tier||'startup').charAt(0).toUpperCase()+(j._company_tier||'startup').slice(1))+'</span> '+stBadge+'</div>'+(sm?'<div class="sm">'+sm.substring(0,150)+(sm.length>150?'...':'')+'</div>':'')+'<div class="mt"><span class="lc">'+l+'</span><span class="sc">'+sc+'</span><span class="bg bg-'+t.toLowerCase()+'">'+t+' '+s+'</span>'+sal+(j.app_difficulty?'<span>⚡ '+j.app_difficulty+'</span>':'')+'</div><div class="lk"><a href="'+au+'" target="_blank" class="'+ac+'">'+at+'</a>'+(dk?'<a href="'+g+'" target="_blank" class="gs">🔍 Google</a>':'')+'</div>'+nh+'</div>';
   }).join('');
   var ce=document.getElementById('result-count');
   if(ce){var hasSb=sb&&sb.value.trim();ce.textContent=d.length+' of '+jobs.length+' jobs'+(hasSb?' matching "'+sb.value.trim()+'"':'')}

@@ -57,6 +57,37 @@ def is_aligned(j):
 aligned = [j for j in jobs if is_aligned(j)]
 total = len(aligned)
 
+# Company tier classification
+BIGTECH = ['google', 'meta', 'microsoft', 'apple', 'amazon', 'bytedance', 'tiktok', 'tencent', 'alibaba',
+           'jd.com', 'baidu', 'bytedance ltd', 'huawei', 'qualcomm', 'cisco', 'mastercard', 'visa',
+           'jpmorgan chase', 'hsbc', 'jpmorgan']
+GROWTH = ['airwallex', 'shopee', 'grab', 'lalamove', 'klook', 'agoda', 'gojek', 'tokopedia',
+          'sea group', ' Lazada', 'sailpoint', 'canva', 'atlassian', 'stripe', 'wise',
+          'ninja van', 'carousell', 'futu', 'xiaomi', 'meituan', 'didi', 'ant group', 'antom',
+          'dtcpay', 'gotymex', 'equinix', 'ge healthcare', 'abbvie', 'bio-techne', 'ingram micro',
+          'dp world', 'codat', 'coda', 'virtuos']
+ENTERPRISE = ['aia group', 'axa', 'uob', 'bank of china', 'hang seng bank', 'bny', 'gic',
+              'govtech', 'indeed', 'jobsdb', 'kgroup', 'ambition', 'be myjob', 'constructor technology',
+              'casetify', 'greaterheat', 'on', 'kgi']
+
+def classify_company(co):
+    co_l = co.lower().strip()
+    for b in BIGTECH:
+        if b in co_l or co_l in b:
+            return 'bigtech'
+    for g in GROWTH:
+        if g.lower() in co_l or co_l in g.lower():
+            return 'growth'
+    for e in ENTERPRISE:
+        if e in co_l or co_l in e:
+            return 'enterprise'
+    return 'startup'
+
+for j in aligned:
+    j['_company_tier'] = classify_company(j.get('company', ''))
+
+tier_counts = Counter(j['_company_tier'] for j in aligned)
+
 locs = Counter(j.get('location_norm', j.get('location','')) for j in aligned)
 hk = sum(v for k,v in locs.items() if 'hong kong' in k.lower())
 sh = sum(v for k,v in locs.items() if 'shanghai' in k.lower())
@@ -159,6 +190,11 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
 .staleness-ok{{background:#713f12;color:#fde68a;border:1px solid #fde68a}}
 .staleness-stale{{background:#7f1d1d;color:#fca5a5;border:1px solid #fca5a5}}
 .staleness-ancient{{background:#4c1d1d;color:#f87171;border:1px solid #f87171}}
+.tier{{display:inline-block;border-radius:4px;padding:1px 6px;font-size:0.65rem;font-weight:600;margin-left:6px}}
+.tier-bigtech{{background:#1e3a5f;color:#60a5fa;border:1px solid #60a5fa}}
+.tier-growth{{background:#064e3b;color:#34d399;border:1px solid #34d399}}
+.tier-enterprise{{background:#78350f;color:#fbbf24;border:1px solid #fbbf24}}
+.tier-startup{{background:#312e81;color:#a5b4fc;border:1px solid #a5b4fc}}
 .st-stats-stale{{background:#1e293b;border-radius:6px;padding:4px 10px;font-size:0.7rem;color:#94a3b8;border:1px solid #334155}}
 .st-stats-stale .n{{font-size:0.85rem;font-weight:700}}
 .st-stats-stale.stale-warn .n{{color:#fbbf24}}
@@ -200,6 +236,10 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
 <button data-f="english">🌐 English</button>
 <button data-f="needs_url">🔧 Needs URL Fix</button>
 <button data-f="top20">🏆 Top 20</button>
+<button data-f="bigtech" style="color:#60a5fa">🏢 Big Tech ({tier_counts.get('bigtech',0)})</button>
+<button data-f="company_growth" style="color:#34d399">🚀 Growth ({tier_counts.get('growth',0)})</button>
+<button data-f="enterprise" style="color:#fbbf24">🏛 Enterprise ({tier_counts.get('enterprise',0)})</button>
+<button data-f="startup" style="color:#a5b4fc">⚡ Startup ({tier_counts.get('startup',0)})</button>
 </div>
 <div style="margin:12px 0">
 <input type="text" id="search-box" placeholder="🔍 Search jobs by title, company, location..." style="width:100%;max-width:600px;background:#1e293b;color:#e2e8f0;border:1px solid #334155;border-radius:8px;padding:10px 14px;font-size:0.9rem;outline:none" oninput="render(currentFilter)">
