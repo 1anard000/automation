@@ -32,6 +32,10 @@ function render(f){
   else if(f==='strategy')d=jobs.filter(j=>(j.role_type||'').toLowerCase().includes('strat'));
   else if(f==='product')d=jobs.filter(j=>(j.role_type||'').toLowerCase().includes('product'));
   else if(f==='ai')d=jobs.filter(j=>(j.title||'').toLowerCase().includes('ai'));
+  else if(f==='fintech')d=jobs.filter(j=>(j.category||'').toLowerCase().includes('fintech'));
+  else if(f==='crossborder')d=jobs.filter(j=>(j.category||'').toLowerCase().includes('cross_border')||(j.role_type||'').toLowerCase().includes('cross-border'));
+  else if(f==='growth')d=jobs.filter(j=>(j.category||'').toLowerCase().includes('growth'));
+  else if(f==='senior')d=jobs.filter(j=>(j.category||'').toLowerCase().includes('senior_pm')||(j.title||'').toLowerCase().includes('principal product')||(j.title||'').toLowerCase().includes('lead product')||(j.title||'').toLowerCase().includes('lead product manager'));
   else if(f==='direct')d=jobs.filter(j=>j.url_type==='direct');
   else if(f==='easy')d=jobs.filter(j=>j.app_difficulty==='easy');
   else if(f==='english')d=jobs.filter(j=>j.english_friendly===true);

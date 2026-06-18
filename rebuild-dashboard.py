@@ -190,6 +190,10 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
 <button data-f="strategy">Strategy</button>
 <button data-f="product">Product</button>
 <button data-f="ai">AI</button>
+<button data-f="fintech">💳 Fintech</button>
+<button data-f="crossborder">🌍 Cross-border</button>
+<button data-f="growth">📈 Growth</button>
+<button data-f="senior">👔 Senior PM</button>
 <button data-f="direct">🎯 Direct Apply</button>
 <button data-f="easy">⚡ Easy Apply</button>
 <button data-f="english">🌐 English</button>
