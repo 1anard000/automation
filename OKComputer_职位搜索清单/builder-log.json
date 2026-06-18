@@ -311,7 +311,15 @@
     "career_hub": 7,
     "data_quality": 8,
     "python_scripts": 6,
-    "strategy": 6
+    "strategy": 6,
+    "coverage": 8
   },
-  "last_improvement": "2026-06-18: Refreshed career-strategy.md — updated from 288 to 443 jobs, added Shenzhen surge analysis, AI roles 3x growth, salary benchmarks"
+  "last_improvement": "2026-06-18: Refreshed career-strategy.md — updated from 288 to 443 jobs, added Shenzhen surge analysis, AI roles 3x growth, salary benchmarks",
+  "entries": [
+    {
+      "date": "2026-06-19",
+      "action": "Updated coverage-report.json to match current jobs-all.json (492 jobs, 304 companies). Added grade/status/location distributions.",
+      "dimension": "data_quality"
+    }
+  ]
 }

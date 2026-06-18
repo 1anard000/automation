@@ -1,111 +1,131 @@
 {
-  "report_date": "2026-06-15",
-  "total_jobs": 553,
-  "unique_companies": 278,
+  "report_date": "2026-06-19",
+  "total_jobs": 492,
+  "unique_companies": 304,
   "source_breakdown": {
-    "linkedin": 136,
-    "greenhouse": 119,
-    "company_site": 76,
-    "boss-zhilian-websearch": 60,
-    "linkedin_search": 39,
-    "jobsdb": 32,
-    "indeed": 22,
-    "web_search": 14,
-    "glassdoor": 9,
-    "ashby": 7,
-    "linkedin_posting": 7,
-    "other": 6,
-    "apple_careers": 6,
-    "google_careers": 6,
-    "meta_careers": 4,
-    "microsoft_careers": 3,
-    "amazon_jobs": 2,
-    "direct": 1,
+    "linkedin": 201,
+    "liepin": 122,
+    "company_site": 56,
+    "greenhouse": 30,
+    "boss-zhilian-websearch": 20,
+    "indeed": 12,
+    "linkedin_search": 12,
+    "jobsdb": 7,
+    "ashby": 6,
+    "linkedin_posting": 5,
+    "boss-zhilian": 5,
+    "efinancialcareers": 3,
+    "web_search": 2,
+    "other": 2,
+    "google_careers": 1,
+    "glassdoor": 1,
+    "meta_careers": 1,
+    "microsoft_careers": 1,
+    "zhaopin": 1,
     "jobs-radar": 1,
-    "cryptojobslist": 1,
-    "company": 1,
-    "web": 1
+    "himalayas": 1,
+    "lever": 1,
+    "blockchain-association": 1
   },
   "top_companies": [
     [
       "OKX",
-      59
-    ],
-    [
-      "Stripe",
-      36
-    ],
-    [
-      "Instacart",
-      18
-    ],
-    [
-      "Google",
-      12
-    ],
-    [
-      "Coinbase",
-      9
+      42
     ],
     [
       "Airwallex",
+      15
+    ],
+    [
+      "Google",
+      8
+    ],
+    [
+      "Binance",
       7
     ],
     [
       "ByteDance",
-      7
-    ],
-    [
-      "OpenAI",
       6
     ],
     [
-      "Meta",
+      "某知名公司",
       6
+    ],
+    [
+      "HSBC",
+      5
+    ],
+    [
+      "某深圳大型智能硬件/消费电子公司",
+      5
+    ],
+    [
+      "Crypto.com",
+      5
+    ],
+    [
+      "GovTech Singapore",
+      5
+    ],
+    [
+      "Coins.ph",
+      4
+    ],
+    [
+      "Gate",
+      4
+    ],
+    [
+      "Indeed (company unknown)",
+      4
     ],
     [
       "Shopee",
-      6
-    ],
-    [
-      "Apple",
-      6
-    ],
-    [
-      "Amazon",
       4
     ],
     [
-      "Binance",
+      "UOB",
       4
     ],
     [
-      "Mastercard",
+      "某深圳互联网上市公司",
       4
     ],
     [
-      "Visa",
-      4
+      "Bank of China (Hong Kong)",
+      3
+    ],
+    [
+      "CASETiFY",
+      3
+    ],
+    [
+      "Confidential",
+      3
+    ],
+    [
+      "GE HealthCare",
+      3
     ]
   ],
-  "location_breakdown": {
-    "Singapore": 176,
-    "Hong Kong": 85,
-    "Shenzhen": 60,
-    "Shanghai": 47,
-    "Singapore, Singapore": 34,
-    "Hong Kong, Hong Kong SAR": 11,
-    "Hong Kong, SAR": 9,
-    "Remote - USA": 9,
-    "United States - Remote": 8,
-    "Canada - Remote (ON, AB, BC, or NS Only)": 8
+  "grade_distribution": {
+    "A-1": 188,
+    "A-2": 187,
+    "A": 50,
+    "B": 42,
+    "S-1": 22,
+    "C": 3
   },
-  "grade_breakdown": {
-    "A-2": 279,
-    "A-1": 208,
-    "S-1": 54,
-    "B": 12
+  "status_distribution": {
+    "not_applied": 412,
+    "unknown": 80
   },
-  "new_source_count": 22,
-  "coverage_score": 7
+  "locations": {
+    "Shenzhen": 167,
+    "Singapore": 165,
+    "Hong Kong": 122,
+    "Shanghai": 33,
+    "Guangzhou": 5
+  }
 }
