@@ -5,6 +5,16 @@ from datetime import datetime
 from collections import Counter
 
 jobs = json.load(open('OKComputer_职位搜索清单/jobs-all.json'))
+# Deduplicate by title+company (case-insensitive), keep higher quality_score
+_deduped = {}
+for _j in jobs:
+    _key = (_j.get('title', '').strip().lower(), _j.get('company', '').strip().lower())
+    if _key in _deduped:
+        if _j.get('quality_score', 0) > _deduped[_key].get('quality_score', 0):
+            _deduped[_key] = _j
+    else:
+        _deduped[_key] = _j
+jobs = list(_deduped.values())
 js_code = open('rebuild-dashboard.js').read()
 
 CRYPTO_COMPANIES = ['binance', 'okx', 'coins.ph', 'bitdeer', 'bullish', 'coinmarketcap',
