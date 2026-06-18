@@ -81,6 +81,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .lk .gs{background:#78350f;color:#fbbf24;border:1px solid #fbbf24}
 .lk .gs:hover{background:#fbbf24;color:#78350f}
 .sm{color:#64748b;font-size:0.8rem;margin-top:6px}
+#search-box:focus{border-color:#38bdf8;box-shadow:0 0 0 2px rgba(56,189,248,0.2)}
 .upt{text-align:center;color:#475569;font-size:0.7rem;margin-top:20px}
 .url-fix{background:#7f1d1d;color:#fca5a5;border:1px solid #fca5a5;border-radius:4px;padding:2px 6px;font-size:0.65rem;margin-left:8px}
 .en{background:#1e3a5f;color:#93c5fd;border:1px solid #93c5fd;border-radius:4px;padding:2px 6px;font-size:0.65rem;margin-left:6px}
@@ -126,6 +127,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 <button data-f="easy">⚡ Easy Apply</button>
 <button data-f="english">🌐 English</button>
 <button data-f="needs_url">🔧 Needs URL Fix</button>
+<button data-f="top20">🏆 Top 20</button>
+</div>
+<div style="margin:12px 0">
+<input type="text" id="search-box" placeholder="🔍 Search jobs by title, company, location..." style="width:100%;max-width:600px;background:#1e293b;color:#e2e8f0;border:1px solid #334155;border-radius:8px;padding:10px 14px;font-size:0.9rem;outline:none" oninput="render(currentFilter)">
 </div>
 <div class="flt" id="status-flt" style="margin-top:4px">
 <span style="color:#94a3b8;font-size:0.7rem;margin-right:4px">Status:</span>
@@ -150,6 +155,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 </select>
 </div>
 <div id="jobs"></div>
+<div id="result-count" style="text-align:center;color:#94a3b8;font-size:0.8rem;margin:8px 0"></div>
 <div class="upt">Last updated: UPDATED_AT</div>
 <script>
 const jobs = JOBS_JSON;
@@ -215,6 +221,24 @@ function render(f) {
   else if (f==='easy') d=jobs.filter(j=>j.app_difficulty==='easy');
   else if (f==='english') d=jobs.filter(j=>j.english_friendly===true);
   else if (f==='needs_url') d=jobs.filter(j=>j.url_type!=='direct');
+  else if (f==='top20') d=jobs.filter(j=>j.top20===true);
+  
+  // Apply text search
+  const searchBox = document.getElementById('search-box');
+  if (searchBox && searchBox.value.trim()) {
+    const q = searchBox.value.trim().toLowerCase();
+    d = d.filter(j => {
+      const searchable = [
+        j.en_title || j.title || '',
+        j.company || '',
+        j.location_norm || j.location || '',
+        j.summary || '',
+        j.role_type || '',
+        j.salary || ''
+      ].join(' ').toLowerCase();
+      return searchable.includes(q);
+    });
+  }
   
   // Apply status filter
   if (statusFilter) d=d.filter(j=>getStatus(j)===statusFilter);
@@ -254,6 +278,13 @@ function render(f) {
     const stBadge='<span class="status-badge st-'+st+'" onclick="event.stopPropagation();cycleStatus(jobs.find(x=>x.job_id===\''+j.job_id+'\'))" title="Click to change status">'+STATUS_LABELS[st]+'</span>';
     return '<div class="jc"><div class="t">'+ti+'<span class="ut ut-'+(j.url_type||'unknown')+'">'+{direct:'🎯 Direct',search:'🔍 Search',login_required:'🔒 Login'}[j.url_type||'unknown']+'</span>'+(needsFix?'<span class="url-fix">🔧 URL Fix Needed</span>':'')+(isEn?'<span class="en">🌐 EN</span>':'')+'</div><div class="co">'+co+' '+stBadge+'</div>'+(sm?'<div class="sm">'+sm.substring(0,150)+(sm.length>150?'...':'')+'</div>':'')+'<div class="mt"><span class="lc">'+l+'</span><span class="sc">'+sc+'</span><span class="bg bg-'+t.toLowerCase()+'">'+t+' '+s+'</span>'+salary+(j.app_difficulty?'<span>⚡ '+j.app_difficulty+'</span>':'')+'</div><div class="lk"><a href="'+au+'" target="_blank" class="'+ac+'">'+at+'</a>'+(dk?'<a href="'+g+'" target="_blank" class="gs">🔍 Google</a>':'')+'</div></div>';
   }).join('');
+  // Update result count
+  const countEl = document.getElementById('result-count');
+  if (countEl) {
+    const searchBox = document.getElementById('search-box');
+    const hasSearch = searchBox && searchBox.value.trim();
+    countEl.textContent = d.length + ' of ' + jobs.length + ' jobs' + (hasSearch ? ' matching "' + searchBox.value.trim() + '"' : '');
+  }
 }
 // Status filter buttons
 document.querySelectorAll('#status-flt .st-btn').forEach(b=>{
