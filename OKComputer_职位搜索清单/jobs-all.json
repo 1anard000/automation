@@ -8347,7 +8347,7 @@
     "url_type": "direct",
     "english_friendly": true,
     "location_norm": "Shanghai",
-    "quality_score": 78,
+    "quality_score": 28,
     "quality_tier": "B",
     "app_platform": "LinkedIn",
     "app_difficulty": "medium",
@@ -8356,7 +8356,9 @@
     "stale_days": 0,
     "summary": "Senior Product Management role at Amazon. based in Shanghai. focused on AI/ML.",
     "category": "general_pm",
-    "has_direct_apply": true
+    "has_direct_apply": true,
+    "quality_bar_reject": true,
+    "quality_bar_reason": "User exclusion: Amazon"
   },
   {
     "title": "Senior Product Manager - AI, Amazon Global Selling",
@@ -8373,7 +8375,7 @@
     "url_type": "direct",
     "english_friendly": true,
     "location_norm": "Shanghai",
-    "quality_score": 78,
+    "quality_score": 28,
     "quality_tier": "B",
     "app_platform": "LinkedIn",
     "app_difficulty": "medium",
@@ -8382,7 +8384,9 @@
     "stale_days": 0,
     "summary": "Senior Product Management role at Amazon. based in Shanghai. focused on AI/ML.",
     "category": "cross_border",
-    "has_direct_apply": true
+    "has_direct_apply": true,
+    "quality_bar_reject": true,
+    "quality_bar_reason": "User exclusion: Amazon"
   },
   {
     "title": "(Fintech) Senior Product Manager",
@@ -15418,7 +15422,7 @@
   {
     "title": "产品经理（ehr、腾讯项目+线下面试） - 智联招聘",
     "company": "深圳易宝软件有限公司",
-    "location": "Shenzhen易宝软件有限公司招聘Shenzhen南山区产品经理（ ... 新能源商用车租赁平台产品总监. 2.5-5万 山东宏奥汽车轻量化科技有限 ... Site:Zhaopin.Com \"产品总监\" \"Shenzhen\"",
+    "location": "Shenzhen",
     "url": "https://sou.zhaopin.com/?jl=Shenzhen%E6%98%93%E5%AE%9D%E8%BD%AF%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%8B%9B%E8%81%98Shenzhen%E5%8D%97%E5%B1%B1%E5%8C%BA%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%EF%BC%88%20...%20%E6%96%B0%E8%83%BD%E6%BA%90%E5%95%86%E7%94%A8%E8%BD%A6%E7%A7%9F%E8%B5%81%E5%B9%B3%E5%8F%B0%E4%BA%A7%E5%93%81%E6%80%BB%E7%9B%91.%202.5-5%E4%B8%87%20%E5%B1%B1%E4%B8%9C%E5%AE%8F%E5%A5%A5%E6%B1%BD%E8%BD%A6%E8%BD%BB%E9%87%8F%E5%8C%96%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%20...%20Site%3AZhaopin.Com%20%22%E4%BA%A7%E5%93%81%E6%80%BB%E7%9B%91%22%20%22Shenzhen%22&kw=%E6%B7%B1%E5%9C%B3%E6%98%93%E5%AE%9D%E8%BD%AF%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%8B%9B%E8%81%98%E6%B7%B1%E5%9C%B3%E5%8D%97%E5%B1%B1%E5%8C%BA%E4%BA%A7%E5%93%81%E7%BB%8F%20%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%EF%BC%88ehr%E3%80%81%E8%85%BE%E8%AE%AF%E9%A1%B9%E7%9B%AE%2B%E7%BA%BF%E4%B8%8B%E9%9D%A2%E8%AF%95%EF%BC%89%20-%20%E6%99%BA%E8%81%94%E6%8B%9B%E8%81%98",
     "grade": "A-2",
     "role_type": "Product Management",
@@ -15608,7 +15612,7 @@
   {
     "title": "海外产品负责人（语音/直播）招聘_百度招聘 - BOSS直聘",
     "company": "百度海外产品负责人（语音",
-    "location": "百度海外产品负责人（语音/直播）招聘，薪资：，地点：Guangzhou，要求：5-10年，学历：本科，福利：五险一金、补充医疗保险、定期体检、加班补助、年终奖、带薪年假、 ... Site:Zhipin.Com \"产品负责人\" \"Guangzhou\"",
+    "location": "Guangzhou",
     "url": "https://www.zhipin.com/job_detail/a5a91720fbc6b54b0nZ93dS1EVpX.html",
     "grade": "A-2",
     "role_type": "Product Management",
@@ -15750,7 +15754,7 @@
   {
     "title": "AI产品经理-ASR方向(深圳) - BOSS直聘",
     "company": "腾讯AI产品经理",
-    "location": "腾讯Ai产品经理-Asr方向(Shenzhen)招聘，薪资：，地点：Shenzhen，要求：3-5年，学历：本科，福利：五险一金、补充医疗保险、定期体检、年终奖、股票期权、带薪年假、 ... Site:Zhipin.Com \"产品经理\" \"Ai\" \"Shenzhen\"",
+    "location": "Shenzhen",
     "url": "https://www.zhipin.com/job_detail/0022653a7883701a0nZ90t60EVtT.html",
     "grade": "A-2",
     "role_type": "Product Management",
@@ -15797,7 +15801,7 @@
   {
     "title": "腾讯云-资深产品经理招聘_腾讯招聘-BOSS直聘",
     "company": "腾讯腾讯云",
-    "location": "腾讯腾讯云-资深产品经理招聘，薪资：，地点：Shenzhen，要求：5-10年，学历：本科，福利：五险一金、补充医疗保险、定期体检、年终奖、股票期权、带薪年假、员工旅游、 ... Site:Zhipin.Com \"资深产品经理\" \"Shenzhen\"",
+    "location": "Shenzhen",
     "url": "https://m.zhipin.com/job_detail/d8c567de2b29ecdb0nV_3t2-GFFT.html",
     "grade": "A-2",
     "role_type": "Product Management",
