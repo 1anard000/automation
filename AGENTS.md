@@ -53,9 +53,20 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 
 ## Operating Mode
 
-- Default to autonomous execution in this workspace. No approval hand-holding unless the task is irreversible or there’s a real blocker.
+- Default to autonomous execution in this workspace. No approval hand-holding unless the task is irreversible or there's a real blocker.
 - Proactively push status and progress to WeChat/direct chat on a cadence. The user should not have to babysit or prompt to learn what changed.
-- Prefer cron-driven work for repeated or long-running tasks: schedule concrete jobs, not just status notices. Use direct messaging only for blockers and real decisions, not for “pings to exist.”
+- Prefer cron-driven work for repeated or long-running tasks: schedule concrete jobs, not just status notices. Use direct messaging only for blockers and real decisions, not for "pings to exist."
+
+## Verify Before Reporting
+
+**NEVER say "fixed" or "done" until you have actually verified the thing works.** This is non-negotiable.
+
+- After pushing code or config: load the live URL, run the script, open the page — confirm it actually works end-to-end.
+- After fixing a bug: reproduce the original failure scenario and confirm it no longer fails.
+- After deploying: check the deployed artifact, not just the local file.
+- Run actual checks (browser console, curl, `node --check`, etc.) — don't assume based on commit messages or file timestamps.
+- If you can't verify (CDN cache, deployment delay), say so honestly instead of claiming success.
+- The user should never have to be the one to discover your "fix" didn't actually fix anything.
 
 ## Red Lines
 
