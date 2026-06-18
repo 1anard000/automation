@@ -6,24 +6,56 @@ from collections import Counter
 
 jobs = json.load(open('OKComputer_职位搜索清单/jobs-all.json'))
 
+CRYPTO_COMPANIES = ['binance', 'okx', 'coins.ph', 'bitdeer', 'bullish', 'coinmarketcap',
+                    'btse', 'decard', 'gate', 'osl', 'bitget', 'huobi', 'kucoin', 'bybit', 'kraken']
+CRYPTO_TITLE = ['crypto', 'bitcoin', 'blockchain', 'web3', 'defi', 'token listing',
+                'dex trading', 'on chain', 'nft']
+
 def is_aligned(j):
     title = (j.get('title','') + ' ' + j.get('en_title','')).lower()
+    summary = j.get('summary', '').lower()
+    desc = j.get('description', '').lower()
+    company = j.get('company', '').lower()
+
+    # --- PM/strategy role gate ---
     pm_signals = ['product manager', 'product director', 'head of product', 'vp product',
                   'strategy', 'program manager', 'general manager', 'bizops', 'chief of staff',
                   'product lead', 'product owner', 'director product', 'director strategy']
     if not any(s in title for s in pm_signals):
         return False
+
+    # --- Domain rejects ---
     reject_domains = ['sales', 'marketing', 'hr', 'recruiting', 'finance', 'design',
-                      'data scientist', 'engineer', 'developer', 'analyst', 'accountant',
-                      'legal', 'admin', 'operations manager', 'supply chain']
+                      'data scientist', 'engineer', 'developer', 'analyst', 'accountant', 'legal',
+                      'admin', 'operations manager', 'supply chain']
     if any(d in title for d in reject_domains):
         return False
+
+    # --- Location gate ---
     loc = j.get('location_norm', j.get('location','')).lower()
     target_locs = ['hong kong', 'shenzhen', 'shanghai', 'guangzhou', 'singapore', 'tokyo', 'taipei']
     if not any(t in loc for t in target_locs):
         return False
-    if j.get('quality_score', 0) < 60:
+
+    # --- Quality floor ---
+    if j.get('quality_score', 0) < 70:
         return False
+
+    # --- Reject pure-crypto companies ---
+    if any(c in company for c in CRYPTO_COMPANIES):
+        return False
+
+    # --- Reject pure-crypto titles/summaries ---
+    if any(c in title or c in summary or c in desc for c in CRYPTO_TITLE):
+        return False
+
+    # --- Reject Chinese-only / bilingual-required ---
+    if j.get('english_friendly') == False:
+        return False
+    bilingual_kw = ['bilingual', '中英', '双语', '中文', 'chinese required', 'mandarin required']
+    if any(b in title or b in summary or b in desc for b in bilingual_kw):
+        return False
+
     return True
 
 aligned = [j for j in jobs if is_aligned(j)]
