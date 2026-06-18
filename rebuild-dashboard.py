@@ -70,6 +70,23 @@ direct_count = sum(1 for j in aligned if j.get('url_type') == 'direct' or
     any(p in j.get('url','') for p in ['viewjob','greenhouse.io/','lever.co/','ashbyhq.com/',
     'linkedin.com/jobs/view/','workday.com/','/job/','/position/','/posting/']))
 
+# Compute staleness stats
+from datetime import datetime as _dt
+_today = _dt.now()
+stale_count = 0
+fresh_count = 0
+for j in aligned:
+    sd = j.get('scanned_date', '')
+    if sd:
+        try:
+            _days = (_today - _dt.strptime(sd[:10], '%Y-%m-%d')).days
+            if _days >= 6:
+                stale_count += 1
+            elif _days <= 2:
+                fresh_count += 1
+        except Exception:
+            pass
+
 html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -137,6 +154,15 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
 .back-to-top:hover{{transform:scale(1.1)}}
 .search-hint{{color:#475569;font-size:0.7rem;margin-top:4px}}
 .search-hint kbd{{background:#1e293b;border:1px solid #334155;border-radius:4px;padding:1px 6px;font-family:inherit;font-size:0.65rem;color:#94a3b8}}
+.staleness{{display:inline-block;border-radius:4px;padding:1px 6px;font-size:0.65rem;font-weight:500;margin-left:6px}}
+.staleness-fresh{{background:#064e3b;color:#34d399;border:1px solid #34d399}}
+.staleness-ok{{background:#713f12;color:#fde68a;border:1px solid #fde68a}}
+.staleness-stale{{background:#7f1d1d;color:#fca5a5;border:1px solid #fca5a5}}
+.staleness-ancient{{background:#4c1d1d;color:#f87171;border:1px solid #f87171}}
+.st-stats-stale{{background:#1e293b;border-radius:6px;padding:4px 10px;font-size:0.7rem;color:#94a3b8;border:1px solid #334155}}
+.st-stats-stale .n{{font-size:0.85rem;font-weight:700}}
+.st-stats-stale.stale-warn .n{{color:#fbbf24}}
+.st-stats-stale.stale-danger .n{{color:#f87171}}
 </style>
 </head>
 <body>
@@ -151,6 +177,8 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
 <div class="st sz"><div class="n">{sz}</div><div class="l">SZ</div></div>
 <div class="st sg"><div class="n">{sg}</div><div class="l">SG</div></div>
 <div class="st"><div class="n">{gz}</div><div class="l">GZ</div></div>
+<div class="st-stats-stale{' stale-danger' if stale_count > 5 else ' stale-warn' if stale_count > 0 else ''}"><div class="n">⏰ {stale_count}</div><div class="l">Stale 6d+</div></div>
+<div class="st-stats-stale"><div class="n">🟢 {fresh_count}</div><div class="l">Fresh 0-2d</div></div>
 </div>
 <div class="flt" id="flt">
 <button class="on" data-f="all">All ({total})</button>
@@ -212,6 +240,39 @@ document.addEventListener('keydown',function(e){{
     if(document.activeElement===s){{s.value='';s.blur();render(currentFilter)}}
   }}
 }});
+/* Staleness badges — compute days since scan and add color-coded badges */
+(function(){{
+  var jobMap={{}};jobs.forEach(function(j){{jobMap[j.job_id]=j}});
+  var today=new Date();
+  function daysSince(d){{if(!d)return-1;var dt=new Date(d);return Math.floor((today-dt)/(864e5))}}
+  function addStaleness(){{
+    document.querySelectorAll('.jc').forEach(function(card){{
+      if(card.querySelector('.staleness'))return;
+      /* find job_id from status-badge data attribute */
+      var badge=card.querySelector('.status-badge[data-job-id]');
+      if(!badge)return;
+      var jid=badge.dataset.jobId;
+      var j=jobMap[jid];
+      if(!j||!j.scanned_date)return;
+      var d=daysSince(j.scanned_date);
+      if(d<0)return;
+      var cls,label;
+      if(d<=2){{cls='staleness-fresh';label='✅ '+d+'d ago'}}
+      else if(d<=4){{cls='staleness-ok';label='📅 '+d+'d ago'}}
+      else if(d<=6){{cls='staleness-stale';label='⏰ '+d+'d old'}}
+      else{{cls='staleness-ancient';label='🔥 '+d+'d old!'}}
+      var span=document.createElement('span');
+      span.className='staleness '+cls;
+      span.textContent=label;
+      span.title='Scanned: '+j.scanned_date;
+      var titleEl=card.querySelector('.t');
+      if(titleEl)titleEl.appendChild(span);
+    }});
+  }}
+  var obs=new MutationObserver(addStaleness);
+  obs.observe(document.getElementById('jobs'),{{childList:true}});
+  addStaleness();
+}})();
 </script>
 </body>
 </html>"""
