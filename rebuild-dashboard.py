@@ -133,6 +133,10 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
 .notes-input:focus{{border-color:#38bdf8;outline:none}}
 .notes-saved{{color:#4ade80;font-size:0.65rem;margin-left:8px;display:none}}
 .notes-saved.show{{display:inline}}
+.back-to-top{{position:fixed;bottom:24px;right:24px;background:#38bdf8;color:#0f172a;width:44px;height:44px;border-radius:50%;border:none;font-size:1.4rem;cursor:pointer;display:none;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(56,189,248,0.4);z-index:999;transition:opacity 0.2s,transform 0.2s}}
+.back-to-top:hover{{transform:scale(1.1)}}
+.search-hint{{color:#475569;font-size:0.7rem;margin-top:4px}}
+.search-hint kbd{{background:#1e293b;border:1px solid #334155;border-radius:4px;padding:1px 6px;font-family:inherit;font-size:0.65rem;color:#94a3b8}}
 </style>
 </head>
 <body>
@@ -166,6 +170,7 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
 </div>
 <div style="margin:12px 0">
 <input type="text" id="search-box" placeholder="🔍 Search jobs by title, company, location..." style="width:100%;max-width:600px;background:#1e293b;color:#e2e8f0;border:1px solid #334155;border-radius:8px;padding:10px 14px;font-size:0.9rem;outline:none" oninput="render(currentFilter)">
+<div class="search-hint">Press <kbd>/</kbd> to search · <kbd>Esc</kbd> to clear</div>
 </div>
 <div class="flt" id="status-flt" style="margin-top:4px">
 <span style="color:#94a3b8;font-size:0.7rem;margin-right:4px">Status:</span>
@@ -191,9 +196,22 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
 <div id="jobs"></div>
 <div id="result-count" style="text-align:center;color:#94a3b8;font-size:0.8rem;margin:8px 0"></div>
 <div class="upt">Last updated: {now}</div>
+<button class="back-to-top" id="btt" title="Back to top">↑</button>
 <script>
 const jobs = {jobs_json};
 {js_code}
+</script>
+<script>
+(function(){{var b=document.getElementById('btt');window.addEventListener('scroll',function(){{b.style.display=window.scrollY>400?'flex':'none'}});b.addEventListener('click',function(){{window.scrollTo({{top:0,behavior:'smooth'}})}})}})();
+document.addEventListener('keydown',function(e){{
+  if(e.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)){{
+    e.preventDefault();document.getElementById('search-box').focus();
+  }}
+  if(e.key==='Escape'){{
+    var s=document.getElementById('search-box');
+    if(document.activeElement===s){{s.value='';s.blur();render(currentFilter)}}
+  }}
+}});
 </script>
 </body>
 </html>"""
