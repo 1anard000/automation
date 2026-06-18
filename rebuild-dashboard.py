@@ -98,6 +98,16 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .st-btn.on{background:#38bdf8;color:#0f172a;border-color:#38bdf8}
 .st-btn:hover{border-color:#38bdf8}
 .st-stats{background:#1e293b;border-radius:6px;padding:4px 10px;font-size:0.7rem;color:#94a3b8;border:1px solid #334155}
+.notes-area{margin-top:8px;padding-top:8px;border-top:1px solid #334155}
+.notes-toggle{background:none;border:none;color:#94a3b8;font-size:0.7rem;cursor:pointer;padding:2px 6px;border-radius:4px}
+.notes-toggle:hover{background:#334155;color:#e2e8f0}
+.notes-toggle.has-notes{color:#4ade80}
+.notes-content{display:none;margin-top:6px}
+.notes-content.show{display:block}
+.notes-input{width:100%;background:#0f172a;color:#e2e8f0;border:1px solid #334155;border-radius:6px;padding:8px;font-size:0.8rem;resize:vertical;min-height:40px;font-family:inherit}
+.notes-input:focus{border-color:#38bdf8;outline:none}
+.notes-saved{color:#4ade80;font-size:0.65rem;margin-left:8px;display:none}
+.notes-saved.show{display:inline}
 </style>
 </head>
 <body>
@@ -160,12 +170,32 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 <script>
 const jobs = JOBS_JSON;
 const STORAGE_KEY = 'career_os_app_status';
+const NOTES_KEY = 'career_os_notes';
 const STATUS_CYCLE = ['not_applied','applied','interviewing','offer','rejected','not_interested'];
 const STATUS_LABELS = {not_applied:'📥 Not Applied',applied:'✅ Applied',interviewing:'🎤 Interviewing',offer:'🎉 Offer',rejected:'❌ Rejected',not_interested:'🙈 Not Interested'};
 
 function loadStatus(){try{return JSON.parse(localStorage.getItem(STORAGE_KEY))||{}}catch(e){return{}}}
 function saveStatus(s){localStorage.setItem(STORAGE_KEY,JSON.stringify(s))}
+function loadNotes(){try{return JSON.parse(localStorage.getItem(NOTES_KEY))||{}}catch(e){return{}}}
+function saveNotes(n){localStorage.setItem(NOTES_KEY,JSON.stringify(n))}
+function getNote(jobId){return loadNotes()[jobId]||''}
+function setNote(jobId,text){
+  const n=loadNotes();
+  if(text.trim())n[jobId]=text;else delete n[jobId];
+  saveNotes(n);
+}
 function getStatus(j){const s=loadStatus();return s[j.job_id]||j.status||'not_applied'}
+function toggleNotes(jobId){
+  const el=document.getElementById('notes-'+jobId);
+  if(el)el.classList.toggle('show');
+}
+function saveNote(jobId,text){
+  setNote(jobId,text);
+  const savedEl=document.getElementById('saved-'+jobId);
+  if(savedEl){savedEl.classList.add('show');setTimeout(()=>savedEl.classList.remove('show'),1500)}
+  const toggleEl=savedEl?.previousElementSibling;
+  if(toggleEl){toggleEl.classList.toggle('has-notes',!!text.trim())}
+}
 function cycleStatus(j){
   const s=loadStatus();
   const cur=s[j.job_id]||j.status||'not_applied';
@@ -276,7 +306,11 @@ function render(f) {
     const salary=j.salary?'<span class="salary">💰 '+j.salary+'</span>':'';
     const st=getStatus(j);
     const stBadge='<span class="status-badge st-'+st+'" onclick="event.stopPropagation();cycleStatus(jobs.find(x=>x.job_id===\''+j.job_id+'\'))" title="Click to change status">'+STATUS_LABELS[st]+'</span>';
-    return '<div class="jc"><div class="t">'+ti+'<span class="ut ut-'+(j.url_type||'unknown')+'">'+{direct:'🎯 Direct',search:'🔍 Search',login_required:'🔒 Login'}[j.url_type||'unknown']+'</span>'+(needsFix?'<span class="url-fix">🔧 URL Fix Needed</span>':'')+(isEn?'<span class="en">🌐 EN</span>':'')+'</div><div class="co">'+co+' '+stBadge+'</div>'+(sm?'<div class="sm">'+sm.substring(0,150)+(sm.length>150?'...':'')+'</div>':'')+'<div class="mt"><span class="lc">'+l+'</span><span class="sc">'+sc+'</span><span class="bg bg-'+t.toLowerCase()+'">'+t+' '+s+'</span>'+salary+(j.app_difficulty?'<span>⚡ '+j.app_difficulty+'</span>':'')+'</div><div class="lk"><a href="'+au+'" target="_blank" class="'+ac+'">'+at+'</a>'+(dk?'<a href="'+g+'" target="_blank" class="gs">🔍 Google</a>':'')+'</div></div>';
+    const note=getNote(j.job_id);
+    const noteIcon=note?'📝':'💬';
+    const noteClass=note?'has-notes':'';
+    const noteHtml='<div class="notes-area"><button class="notes-toggle '+noteClass+'" onclick="toggleNotes(\''+j.job_id+'\')">'+noteIcon+' Notes</button><span class="notes-saved" id="saved-'+j.job_id+'">✓ saved</span><div class="notes-content" id="notes-'+j.job_id+'"><textarea class="notes-input" placeholder="Add a note..." oninput="saveNote(\''+j.job_id+'\',this.value)">'+note+'</textarea></div></div>';
+    return '<div class="jc"><div class="t">'+ti+'<span class="ut ut-'+(j.url_type||'unknown')+'">'+{direct:'🎯 Direct',search:'🔍 Search',login_required:'🔒 Login'}[j.url_type||'unknown']+'</span>'+(needsFix?'<span class="url-fix">🔧 URL Fix Needed</span>':'')+(isEn?'<span class="en">🌐 EN</span>':'')+'</div><div class="co">'+co+' '+stBadge+'</div>'+(sm?'<div class="sm">'+sm.substring(0,150)+(sm.length>150?'...':'')+'</div>':'')+'<div class="mt"><span class="lc">'+l+'</span><span class="sc">'+sc+'</span><span class="bg bg-'+t.toLowerCase()+'">'+t+' '+s+'</span>'+salary+(j.app_difficulty?'<span>⚡ '+j.app_difficulty+'</span>':'')+'</div><div class="lk"><a href="'+au+'" target="_blank" class="'+ac+'">'+at+'</a>'+(dk?'<a href="'+g+'" target="_blank" class="gs">🔍 Google</a>':'')+'</div>'+noteHtml+'</div>';
   }).join('');
   // Update result count
   const countEl = document.getElementById('result-count');
