@@ -83,7 +83,8 @@
     "app_time_est": "3-5 min",
     "app_platform": "Indeed",
     "en_title": "Employee Benefits Pricing And Product Director - AXA",
-    "summary": "Director-level Product Management role at AXA. based in Hong Kong."
+    "summary": "Director-level Product Management role at AXA. based in Hong Kong.",
+    "category": "general_pm"
   },
   {
     "title": "Senior Corporate Strategy Manager",
@@ -991,7 +992,8 @@
     "app_time_est": "3-5 min",
     "app_platform": "Indeed",
     "en_title": "Head of Product / Product Director (AI) - CONSTRUCTOR TECHNOLOGY PTE. LTD.",
-    "summary": "Director-level Product Management role at CONSTRUCTOR TECHNOLOGY PTE. LTD. based in Singapore. focused on AI/ML."
+    "summary": "Director-level Product Management role at CONSTRUCTOR TECHNOLOGY PTE. LTD. based in Singapore. focused on AI/ML.",
+    "category": "general_pm"
   },
   {
     "title": "Director, Policy and Regulatory Strategy, APAC",
@@ -1132,7 +1134,8 @@
     "app_time_est": "3-5 min",
     "app_platform": "Indeed",
     "en_title": "Senior Technical / Product Director (Digital) - IC - Hong Kong",
-    "summary": "Director-level Product Management role at Classy Wheeler. based in Hong Kong."
+    "summary": "Director-level Product Management role at Classy Wheeler. based in Hong Kong.",
+    "category": "general_pm"
   },
   {
     "title": "Director, Commercial Strategy & Revenue Operations",
@@ -1230,7 +1233,8 @@
     "app_time_est": "3-5 min",
     "app_platform": "LinkedIn",
     "en_title": "Cross-border Payments Senior Product Manager",
-    "summary": "Senior Product Management role at Coins.ph. based in Hong Kong. focused on payments, cross-border."
+    "summary": "Senior Product Management role at Coins.ph. based in Hong Kong. focused on payments, cross-border.",
+    "category": "cross_border"
   },
   {
     "title": "Senior Product Manager (Card Issuing)",
@@ -1254,7 +1258,8 @@
     "en_title": "Senior Product Manager (Card Issuing)",
     "stale": false,
     "stale_days": 0,
-    "summary": "Senior Product Management role at Coins.ph. based in Hong Kong."
+    "summary": "Senior Product Management role at Coins.ph. based in Hong Kong.",
+    "category": "fintech"
   },
   {
     "title": "高级跨境支付产品经理 (Confidential)",
@@ -1302,7 +1307,8 @@
     "app_time_est": "3-5 min",
     "app_platform": "LinkedIn",
     "en_title": "Senior Cross-border Payment Product Manager (Confidential)",
-    "summary": "Senior Product Management role at Confidential. based in Shanghai. focused on payments, cross-border."
+    "summary": "Senior Product Management role at Confidential. based in Shanghai. focused on payments, cross-border.",
+    "category": "cross_border"
   },
   {
     "title": "Senior Director - Corporate Strategy Execution - APAC",
@@ -1497,7 +1503,8 @@
     "app_time_est": "20-30 min",
     "app_platform": "JobsDB",
     "en_title": "Product Director, Payments (Liquidity / Cross-Border) - Ethos Beath Chapman",
-    "summary": "Director-level Product Management role at Ethos BeathChapman. based in Singapore. focused on payments, cross-border."
+    "summary": "Director-level Product Management role at Ethos BeathChapman. based in Singapore. focused on payments, cross-border.",
+    "category": "cross_border"
   },
   {
     "title": "Sr Director, Go-To-Market (APAC)",
@@ -2165,7 +2172,8 @@
     "en_title": "Payment Director",
     "stale": false,
     "stale_days": 0,
-    "summary": "Director-level Product Management role at HashKey Group. based in Hong Kong. focused on payments."
+    "summary": "Director-level Product Management role at HashKey Group. based in Hong Kong. focused on payments.",
+    "category": "fintech"
   },
   {
     "title": "GTM Director (出海)",
@@ -2251,7 +2259,8 @@
     "app_time_est": "10-15 min",
     "app_platform": "Liepin",
     "en_title": "Associate Actuarial Director, WTW Strategic Risk Consulting",
-    "summary": "Director-level Product Management role at Hong Kong. based in Hong Kong."
+    "summary": "Director-level Product Management role at Hong Kong. based in Hong Kong.",
+    "category": "strategy"
   },
   {
     "title": "Senior Product Manager, Huawei Cloud",
@@ -2369,7 +2378,8 @@
     "en_title": "Head of Emerging Markets",
     "stale": false,
     "stale_days": 0,
-    "summary": "Director-level GM/Country Manager role at IG Group. based in Singapore."
+    "summary": "Director-level GM/Country Manager role at IG Group. based in Singapore.",
+    "category": "general_pm"
   },
   {
     "title": "Head of Strategic Growth, APAC",
@@ -2458,7 +2468,8 @@
     "app_time_est": "3-5 min",
     "app_platform": "Indeed",
     "en_title": "Digital Project Director / Product Director",
-    "summary": "Director-level Product Management role at Indeed (company unknown). based in Hong Kong."
+    "summary": "Director-level Product Management role at Indeed (company unknown). based in Hong Kong.",
+    "category": "general_pm"
   },
   {
     "title": "Director of Category - Joybuy",
@@ -2597,7 +2608,8 @@
     "app_time_est": "20-30 min",
     "app_platform": "JobsDB",
     "en_title": "Head Of Product Jobs in Hong Kong",
-    "summary": "Director-level Product Management role at Jobsdb. based in Singapore."
+    "summary": "Director-level Product Management role at Jobsdb. based in Singapore.",
+    "category": "general_pm"
   },
   {
     "title": "Lead Product Manager, Client Digital Experience (Wealth Management)",
@@ -2718,7 +2730,8 @@
     "en_title": "Head of Product",
     "stale": false,
     "stale_days": 0,
-    "summary": "Director-level Product Management role at Lalamove. based in Hong Kong."
+    "summary": "Director-level Product Management role at Lalamove. based in Hong Kong.",
+    "category": "general_pm"
   },
   {
     "title": "Head of eCommerce & Omni – East Asia Pacific",
@@ -4041,7 +4054,8 @@
     "app_time_est": "20-30 min",
     "app_platform": "LinkedIn",
     "en_title": "Principal / Senior Product Manager, KYB Onboarding",
-    "summary": "Senior Product Management role at OKX. based in Singapore."
+    "summary": "Senior Product Management role at OKX. based in Singapore.",
+    "category": "general_pm"
   },
   {
     "title": "Senior Manager / Director, Growth Operation",
@@ -4112,7 +4126,8 @@
     "en_title": "Principal / Senior Product Manager, Institution Onboarding Experience (KYB)",
     "stale": false,
     "stale_days": 0,
-    "summary": "Senior Product Management role at OKX. based in Hong Kong."
+    "summary": "Senior Product Management role at OKX. based in Hong Kong.",
+    "category": "general_pm"
   },
   {
     "title": "Senior / Lead Product Manager – B2B Cross-Border Crypto Payments",
@@ -4160,7 +4175,8 @@
     "app_time_est": "10-15 min",
     "app_platform": "LinkedIn",
     "en_title": "Senior / Lead Product Manager – B2B Cross-Border Crypto Payments",
-    "summary": "Senior Product Management role at OSL (OKX). based in Shenzhen. focused on payments, cross-border."
+    "summary": "Senior Product Management role at OSL (OKX). based in Shenzhen. focused on payments, cross-border.",
+    "category": "cross_border"
   },
   {
     "title": "Head of Commercial Strategy and Excellence",
@@ -4349,7 +4365,8 @@
     "app_time_est": "20-30 min",
     "app_platform": "JobsDB",
     "en_title": "Product Manager / Product Director, Copy Trading / Trading Bot - P2P",
-    "summary": "Director-level Product Management role at P2P. based in Singapore."
+    "summary": "Director-level Product Management role at P2P. based in Singapore.",
+    "category": "general_pm"
   },
   {
     "title": "Product and Strategy Innovation Lead",
@@ -5209,7 +5226,8 @@
     "app_time_est": "20-30 min",
     "app_platform": "LinkedIn",
     "en_title": "Senior Product Manager, Digital Currency and Payments",
-    "summary": "Senior Product Management role at UOB. based in Singapore. focused on payments."
+    "summary": "Senior Product Management role at UOB. based in Singapore. focused on payments.",
+    "category": "fintech"
   },
   {
     "title": "Senior VP, Product Manager - Digital Currency and Payments",
@@ -5337,7 +5355,8 @@
     "en_title": "Head of Expansion (APAC)",
     "stale": false,
     "stale_days": 0,
-    "summary": "Director-level Cross-border/Expansion role at Unlimit. based in Singapore."
+    "summary": "Director-level Cross-border/Expansion role at Unlimit. based in Singapore.",
+    "category": "general_pm"
   },
   {
     "title": "Data Product Owner – AI Products",
@@ -5510,7 +5529,8 @@
     "en_title": "Director, Client Consulting, Stablecoin, AI & Fintech Innovation",
     "stale": false,
     "stale_days": 0,
-    "summary": "Director-level Strategy/Ops role at Visa. based in Hong Kong. focused on AI/ML, fintech."
+    "summary": "Director-level Strategy/Ops role at Visa. based in Hong Kong. focused on AI/ML, fintech.",
+    "category": "ai_product"
   },
   {
     "title": "Senior Director, Go-To-Market",
@@ -5645,7 +5665,8 @@
     "app_time_est": "20-30 min",
     "app_platform": "LinkedIn",
     "en_title": "Senior Product Manager, AI Automation",
-    "summary": "Senior Product Management role at dtcpay. based in Singapore. focused on AI/ML."
+    "summary": "Senior Product Management role at dtcpay. based in Singapore. focused on AI/ML.",
+    "category": "ai_product"
   },
   {
     "title": "Senior Regional Commercial Development Manager (Strategy/Planning)",
@@ -5731,7 +5752,8 @@
     "app_time_est": "10-15 min",
     "app_platform": "Liepin",
     "en_title": "Associate Director - 迈茂睿",
-    "summary": "Director-level Product Management role at 上海. based in Shanghai."
+    "summary": "Director-level Product Management role at 上海. based in Shanghai.",
+    "category": "general_pm"
   },
   {
     "title": "BD & Strategy Director/Senior Director - 核舟医药",
@@ -5770,7 +5792,8 @@
     "app_time_est": "10-15 min",
     "app_platform": "Liepin",
     "en_title": "BD & Strategy Director/Senior Director - Pharmaceutical",
-    "summary": "Director-level Strategy/Ops role at 上海. based in Shanghai."
+    "summary": "Director-level Strategy/Ops role at 上海. based in Shanghai.",
+    "category": "strategy"
   },
   {
     "title": "集团产品线总监（P02/P03）- 中明科技",
@@ -7482,7 +7505,8 @@
     "app_time_est": "10-15 min",
     "app_platform": "Liepin",
     "en_title": "Shenzhen AI 商业化Product Manager/Responsible for",
-    "summary": "Mid-level Product Management role at 猎聘. based in Shenzhen. focused on AI/ML."
+    "summary": "Mid-level Product Management role at 猎聘. based in Shenzhen. focused on AI/ML.",
+    "category": "ai_product"
   },
   {
     "title": "Director - 上海",
@@ -7521,7 +7545,8 @@
     "app_time_est": "10-15 min",
     "app_platform": "Liepin",
     "en_title": "Director - Shanghai",
-    "summary": "Director-level Product Management role at 猎聘. based in Shanghai. focused on AI/ML."
+    "summary": "Director-level Product Management role at 猎聘. based in Shanghai. focused on AI/ML.",
+    "category": "ai_product"
   },
   {
     "title": "海外产品负责人（语音/直播）- 百度",
@@ -8075,7 +8100,8 @@
     "en_title": "Sr. AI Product Manager — Convo AI",
     "stale": false,
     "stale_days": 0,
-    "summary": "Senior Product Management role at Agora. based in Shanghai. focused on AI/ML."
+    "summary": "Senior Product Management role at Agora. based in Shanghai. focused on AI/ML.",
+    "category": "ai_product"
   },
   {
     "title": "Associate Director, Strategy & Operations - CEO Office",
@@ -8245,7 +8271,8 @@
     "app_time_est": "3-5 min",
     "app_platform": "Indeed",
     "en_title": "Senior Technical Program Manager, Solutions Strategy & Programs - Airwallex",
-    "summary": "Senior Strategy/Ops role at Airwallex. based in Singapore."
+    "summary": "Senior Strategy/Ops role at Airwallex. based in Singapore.",
+    "category": "strategy"
   },
   {
     "title": "Director Product Management, APJ (AI/Cloud)",
@@ -8319,7 +8346,8 @@
     "en_title": "Senior Product Manager - AI, NBS",
     "stale": false,
     "stale_days": 0,
-    "summary": "Senior Product Management role at Amazon. based in Shanghai. focused on AI/ML."
+    "summary": "Senior Product Management role at Amazon. based in Shanghai. focused on AI/ML.",
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager - AI, Amazon Global Selling",
@@ -8343,7 +8371,8 @@
     "en_title": "Senior Product Manager - AI, Amazon Global Selling",
     "stale": false,
     "stale_days": 0,
-    "summary": "Senior Product Management role at Amazon. based in Shanghai. focused on AI/ML."
+    "summary": "Senior Product Management role at Amazon. based in Shanghai. focused on AI/ML.",
+    "category": "cross_border"
   },
   {
     "title": "(Fintech) Senior Product Manager",
@@ -8406,7 +8435,8 @@
     "en_title": "(Sr.) Product Manager, Fintech",
     "stale": false,
     "stale_days": 0,
-    "summary": "Senior Product Management role at BTSE. based in Hong Kong. focused on fintech."
+    "summary": "Senior Product Management role at BTSE. based in Hong Kong. focused on fintech.",
+    "category": "fintech"
   },
   {
     "title": "Senior Product Manager, KYB",
@@ -8454,7 +8484,8 @@
     "app_time_est": "10-15 min",
     "app_platform": "LinkedIn",
     "en_title": "Senior Product Manager, KYB",
-    "summary": "Senior Product Management role at Binance. based in Hong Kong."
+    "summary": "Senior Product Management role at Binance. based in Hong Kong.",
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager (Marketplace)",
@@ -8502,7 +8533,8 @@
     "app_time_est": "10-15 min",
     "app_platform": "LinkedIn",
     "en_title": "Senior Product Manager (Marketplace)",
-    "summary": "Senior Product Management role at Binance. based in Hong Kong. focused on marketplace."
+    "summary": "Senior Product Management role at Binance. based in Hong Kong. focused on marketplace.",
+    "category": "general_pm"
   },
   {
     "title": "Director/Managing Director - Singapore & SEA COO",
@@ -8589,7 +8621,8 @@
     "app_time_est": "20-30 min",
     "app_platform": "LinkedIn",
     "en_title": "AI Product Manager - 飞书多维表格",
-    "summary": "Mid-level Product Management role at ByteDance. based in Shenzhen. focused on AI/ML."
+    "summary": "Mid-level Product Management role at ByteDance. based in Shenzhen. focused on AI/ML.",
+    "category": "ai_product"
   },
   {
     "title": "Payments - Banking as a Service / Payer ID - Product Management Senior Specialist",
@@ -8640,7 +8673,8 @@
     "app_time_est": "3-5 min",
     "app_platform": "LinkedIn",
     "en_title": "Payments - Banking as a Service / Payer ID - Product Management Senior Specialist",
-    "summary": "Senior Product Management role at Citi. based in Hong Kong. focused on payments, banking."
+    "summary": "Senior Product Management role at Citi. based in Hong Kong. focused on payments, banking.",
+    "category": "fintech"
   },
   {
     "title": "Principal Product Manager - Compliance / AML / Risk Platform",
@@ -8664,7 +8698,8 @@
     "en_title": "Principal Product Manager - Compliance / AML / Risk Platform",
     "stale": false,
     "stale_days": 0,
-    "summary": "Senior Product Management role at Coins.ph. based in Hong Kong. focused on platform."
+    "summary": "Senior Product Management role at Coins.ph. based in Hong Kong. focused on platform.",
+    "category": "ai_product"
   },
   {
     "title": "Director, Product Strategy & Growth",
@@ -8850,7 +8885,8 @@
     "app_time_est": "3-5 min",
     "app_platform": "Indeed",
     "en_title": "Senior Product Manager - DSV",
-    "summary": "Senior Product Management role at DSV. based in Singapore."
+    "summary": "Senior Product Management role at DSV. based in Singapore.",
+    "category": "general_pm"
   },
   {
     "title": "Outbound Product Manager, AI Operations",
@@ -8974,7 +9010,8 @@
     "en_title": "General Manager & Country Head - Singapore",
     "stale": false,
     "stale_days": 0,
-    "summary": "Director-level GM/Country Manager role at EFICYENT. based in Singapore."
+    "summary": "Director-level GM/Country Manager role at EFICYENT. based in Singapore.",
+    "category": "general_pm"
   },
   {
     "title": "Head of International Expansion",
@@ -8998,7 +9035,8 @@
     "en_title": "Head of International Expansion",
     "stale": false,
     "stale_days": 0,
-    "summary": "Director-level Cross-border/Expansion role at EPOS. based in Singapore."
+    "summary": "Director-level Cross-border/Expansion role at EPOS. based in Singapore.",
+    "category": "cross_border"
   },
   {
     "title": "Chief of Staff to SVP Operations, APAC",
@@ -9135,7 +9173,8 @@
     "app_time_est": "20-30 min",
     "app_platform": "LinkedIn",
     "en_title": "Senior Product Manager, Fintech/Trading/Brokerage Platform",
-    "summary": "Senior Product Management role at GRIT (Agency). based in Singapore. focused on fintech, platform."
+    "summary": "Senior Product Management role at GRIT (Agency). based in Singapore. focused on fintech, platform.",
+    "category": "fintech"
   },
   {
     "title": "Senior Product Manager, Trading",
@@ -9172,7 +9211,8 @@
     "app_time_est": "20-30 min",
     "app_platform": "LinkedIn",
     "en_title": "Senior Product Manager, Trading",
-    "summary": "Senior Product Management role at Gemini. based in Singapore."
+    "summary": "Senior Product Management role at Gemini. based in Singapore.",
+    "category": "general_pm"
   },
   {
     "title": "Strategy Consultant/Senior Manager (Healthcare)",
@@ -9290,7 +9330,8 @@
     "en_title": "Strategy and Operations Principal Lead, Apps, Product GTM",
     "stale": false,
     "stale_days": 0,
-    "summary": "Senior Strategy/Ops role at Google. based in Singapore. focused on mobile apps."
+    "summary": "Senior Strategy/Ops role at Google. based in Singapore. focused on mobile apps.",
+    "category": "strategy"
   },
   {
     "title": "Senior Product Manager - HK Business",
@@ -9314,7 +9355,8 @@
     "en_title": "Senior Product Manager - HK Business",
     "stale": false,
     "stale_days": 0,
-    "summary": "Senior Product Management role at HSBC. based in Hong Kong."
+    "summary": "Senior Product Management role at HSBC. based in Hong Kong.",
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager, HSBC Digital",
@@ -9597,7 +9639,8 @@
     "app_time_est": "3-5 min",
     "app_platform": "Indeed",
     "en_title": "Senior Product Manager, Global Corporate Banking - Bank of China (Hong Kong)",
-    "summary": "Senior Product Management role at Indeed (company unknown). based in Hong Kong. focused on banking."
+    "summary": "Senior Product Management role at Indeed (company unknown). based in Hong Kong. focused on banking.",
+    "category": "cross_border"
   },
   {
     "title": "Senior Product Manager",
@@ -9639,7 +9682,8 @@
     "app_time_est": "3-5 min",
     "app_platform": "Indeed",
     "en_title": "Senior Product Manager",
-    "summary": "Senior Product Management role at Indeed (company unknown). based in Singapore."
+    "summary": "Senior Product Management role at Indeed (company unknown). based in Singapore.",
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager (Food Discovery)",
@@ -9681,7 +9725,8 @@
     "app_time_est": "3-5 min",
     "app_platform": "Indeed",
     "en_title": "Senior Product Manager (Food Discovery)",
-    "summary": "Senior Product Management role at Indeed (company unknown). based in Singapore."
+    "summary": "Senior Product Management role at Indeed (company unknown). based in Singapore.",
+    "category": "general_pm"
   },
   {
     "title": "BNPL Product & Operations Lead (Europe Business)",
@@ -9767,7 +9812,8 @@
     "app_time_est": "20-30 min",
     "app_platform": "JobsDB",
     "en_title": "Senior Product Owner Jobs in Hong Kong",
-    "summary": "Senior Product Management role at Jobsdb. based in Hong Kong."
+    "summary": "Senior Product Management role at Jobsdb. based in Hong Kong.",
+    "category": "general_pm"
   },
   {
     "title": "Head of Strategic Capability & Strategy, Surgical Vision APAC",
@@ -9901,7 +9947,8 @@
     "app_time_est": "20-30 min",
     "app_platform": "LinkedIn",
     "en_title": "Senior Product Manager, Platform & Internal Systems",
-    "summary": "Senior Product Management role at Klook. based in Singapore. focused on platform."
+    "summary": "Senior Product Management role at Klook. based in Singapore. focused on platform.",
+    "category": "platform"
   },
   {
     "title": "Vice President of Product Management",
@@ -10179,7 +10226,8 @@
     "app_time_est": "20-30 min",
     "app_platform": "LinkedIn",
     "en_title": "Product Director, Wealth Management",
-    "summary": "Director-level Product Management role at MetaComp. based in Hong Kong."
+    "summary": "Director-level Product Management role at MetaComp. based in Hong Kong.",
+    "category": "general_pm"
   },
   {
     "title": "APAC Strategic PMO Lead",
@@ -10395,7 +10443,8 @@
     "en_title": "Head of Cash Products, Transaction Banking (HK & Macau)",
     "stale": false,
     "stale_days": 0,
-    "summary": "Director-level Product Management role at OCBC. based in Hong Kong. focused on banking."
+    "summary": "Director-level Product Management role at OCBC. based in Hong Kong. focused on banking.",
+    "category": "fintech"
   },
   {
     "title": "Senior Strategy Project Manager, VIP/Institutions",
@@ -10907,7 +10956,8 @@
     "app_time_est": "20-30 min",
     "app_platform": "LinkedIn",
     "en_title": "Senior Product Manager, Risk Platform",
-    "summary": "Senior Product Management role at OKX. based in Singapore. focused on platform."
+    "summary": "Senior Product Management role at OKX. based in Singapore. focused on platform.",
+    "category": "platform"
   },
   {
     "title": "Product Operations Manager / Director, Institutional Product",
@@ -10944,7 +10994,8 @@
     "app_time_est": "20-30 min",
     "app_platform": "LinkedIn",
     "en_title": "Product Operations Manager / Director, Institutional Product",
-    "summary": "Director-level Product Management role at OKX. based in Singapore."
+    "summary": "Director-level Product Management role at OKX. based in Singapore.",
+    "category": "operations"
   },
   {
     "title": "Vice President of Product, AI and Agent",
@@ -11215,7 +11266,8 @@
     "en_title": "(Senior) Data Infra Product Manager, On Chain (Web3)",
     "stale": false,
     "stale_days": 0,
-    "summary": "Senior Product Management role at OKX. based in Singapore. focused on AI/ML, crypto/web3."
+    "summary": "Senior Product Management role at OKX. based in Singapore. focused on AI/ML, crypto/web3.",
+    "category": "fintech"
   },
   {
     "title": "Head of Wholesale, NEA (VIP)",
@@ -11239,7 +11291,8 @@
     "en_title": "Head of Wholesale, NEA (VIP)",
     "stale": false,
     "stale_days": 0,
-    "summary": "Director-level BD/Partnerships role at OKX. based in Hong Kong."
+    "summary": "Director-level BD/Partnerships role at OKX. based in Hong Kong.",
+    "category": "general_pm"
   },
   {
     "title": "Product Lead - Pricing",
@@ -11276,7 +11329,8 @@
     "app_time_est": "20-30 min",
     "app_platform": "LinkedIn",
     "en_title": "Product Lead - Pricing",
-    "summary": "Senior Product Management role at OSL. based in Singapore."
+    "summary": "Senior Product Management role at OSL. based in Singapore.",
+    "category": "general_pm"
   },
   {
     "title": "Product Manager (Global Networking)",
@@ -11347,7 +11401,8 @@
     "en_title": "Product Manager, Perpetuals",
     "stale": false,
     "stale_days": 0,
-    "summary": "Mid-level Product Management role at Pepperstone. based in Shanghai."
+    "summary": "Mid-level Product Management role at Pepperstone. based in Shanghai.",
+    "category": "general_pm"
   },
   {
     "title": "Associate Director, Strategy & Business Development, Greater China",
@@ -11657,7 +11712,8 @@
     "en_title": "SME & Product Lead for APAC",
     "stale": false,
     "stale_days": 0,
-    "summary": "Senior Product Management role at SymphonyAI. based in Singapore."
+    "summary": "Senior Product Management role at SymphonyAI. based in Singapore.",
+    "category": "general_pm"
   },
   {
     "title": "Senior Director, APAC Consumer Insights & Strategy",
@@ -11770,7 +11826,8 @@
     "en_title": "We Chat Pay - Senior Business Development Manager",
     "stale": false,
     "stale_days": 0,
-    "summary": "Senior BD/Partnerships role at Tencent. based in Hong Kong."
+    "summary": "Senior BD/Partnerships role at Tencent. based in Hong Kong.",
+    "category": "fintech"
   },
   {
     "title": "Director, TISC Digital and Productivity",
@@ -15016,7 +15073,8 @@
     "app_time_est": "20-30 min",
     "app_platform": "LinkedIn",
     "en_title": "AIHead of Product - AI 智能体与低代码平台",
-    "summary": "Director-level Product Management role at 沃尔玛(中国). based in Shenzhen. focused on AI/ML."
+    "summary": "Director-level Product Management role at 沃尔玛(中国). based in Shenzhen. focused on AI/ML.",
+    "category": "ai_product"
   },
   {
     "title": "资深产品经理 - AI核心业务",
@@ -15151,7 +15209,8 @@
     "app_time_est": "10-15 min",
     "app_platform": "Liepin",
     "en_title": "Senior Product Manager(MJ001401) - 基克纳科技",
-    "summary": "Senior Product Management role at 深圳. based in Shenzhen."
+    "summary": "Senior Product Management role at 深圳. based in Shenzhen.",
+    "category": "general_pm"
   },
   {
     "title": "资深产品经理(MJ001401) - 基克纳科技 - 深圳",
@@ -15190,7 +15249,8 @@
     "app_time_est": "10-15 min",
     "app_platform": "Boss直聘",
     "en_title": "Senior Product Manager(MJ001401) - 基克纳科技 - Shenzhen",
-    "summary": "Senior Product Management role at 深圳. based in Shenzhen."
+    "summary": "Senior Product Management role at 深圳. based in Shenzhen.",
+    "category": "general_pm"
   },
   {
     "title": "资深产品经理（金融）",
@@ -16068,7 +16128,8 @@
     "en_title": "Vice President Business Development - Hong Kong",
     "stale": false,
     "stale_days": 0,
-    "summary": "Director-level BD/Partnerships role at AQR Capital Management. based in Hong Kong."
+    "summary": "Director-level BD/Partnerships role at AQR Capital Management. based in Hong Kong.",
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager, Transaction Monitoring",
@@ -16170,7 +16231,8 @@
     "en_title": "(Senior) Product Manager, Transaction Banking",
     "stale": false,
     "stale_days": 0,
-    "summary": "Senior Product Management role at Bank of China (Hong Kong). based in Hong Kong. focused on banking."
+    "summary": "Senior Product Management role at Bank of China (Hong Kong). based in Hong Kong. focused on banking.",
+    "category": "fintech"
   },
   {
     "title": "Head of Product, Travel Tech",
@@ -16266,7 +16328,8 @@
     "app_time_est": "3-5 min",
     "app_platform": "LinkedIn",
     "en_title": "(Senior) Product Manager",
-    "summary": "Senior Product Management role at First Digital. based in Hong Kong."
+    "summary": "Senior Product Management role at First Digital. based in Hong Kong.",
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager (Trading)",
@@ -16314,7 +16377,8 @@
     "app_time_est": "3-5 min",
     "app_platform": "LinkedIn",
     "en_title": "Senior Product Manager (Trading)",
-    "summary": "Senior Product Management role at Gate. based in Hong Kong."
+    "summary": "Senior Product Management role at Gate. based in Hong Kong.",
+    "category": "general_pm"
   },
   {
     "title": "Senior Product Manager, HK Business",
@@ -16362,7 +16426,8 @@
     "app_time_est": "10-15 min",
     "app_platform": "LinkedIn",
     "en_title": "Senior Product Manager, HK Business",
-    "summary": "Senior Product Management role at HSBC. based in Hong Kong."
+    "summary": "Senior Product Management role at HSBC. based in Hong Kong.",
+    "category": "general_pm"
   },
   {
     "title": "Director, Loyalty Operations & Performance, APAC",
@@ -16391,7 +16456,8 @@
     "app_time_est": "20-30 min",
     "app_platform": "LinkedIn",
     "en_title": "Director, Loyalty Operations & Performance, APAC",
-    "summary": "Director-level Strategy/Ops role at Hyatt. based in Hong Kong."
+    "summary": "Director-level Strategy/Ops role at Hyatt. based in Hong Kong.",
+    "category": "operations"
   },
   {
     "title": "Director, Market & Growth (Academy)",
@@ -16442,7 +16508,8 @@
     "app_time_est": "3-5 min",
     "app_platform": "LinkedIn",
     "en_title": "Director, Market & Growth (Academy)",
-    "summary": "Director-level Cross-border/Expansion role at ISCA Academy. based in Singapore. focused on growth."
+    "summary": "Director-level Cross-border/Expansion role at ISCA Academy. based in Singapore. focused on growth.",
+    "category": "growth"
   },
   {
     "title": "APAC Payments - Strategy - Executive Director",
@@ -16471,7 +16538,8 @@
     "app_time_est": "20-30 min",
     "app_platform": "LinkedIn",
     "en_title": "APAC Payments - Strategy - Executive Director",
-    "summary": "Director-level Strategy/Ops role at JPMorganChase. based in Hong Kong. focused on payments."
+    "summary": "Director-level Strategy/Ops role at JPMorganChase. based in Hong Kong. focused on payments.",
+    "category": "strategy"
   },
   {
     "title": "Senior Product Manager, AI Gateway",
@@ -16542,7 +16610,8 @@
     "en_title": "Director, Government Relations, APAC",
     "stale": false,
     "stale_days": 0,
-    "summary": "Director-level Strategy/Ops role at SHEIN. based in Singapore."
+    "summary": "Director-level Strategy/Ops role at SHEIN. based in Singapore.",
+    "category": "strategy"
   },
   {
     "title": "Senior Product Manager",
@@ -16610,7 +16679,8 @@
     "app_time_est": "20-30 min",
     "app_platform": "LinkedIn",
     "en_title": "Senior Business Product Manager - SPX",
-    "summary": "Senior Product Management role at Shopee. based in Singapore."
+    "summary": "Senior Product Management role at Shopee. based in Singapore.",
+    "category": "general_pm"
   },
   {
     "title": "Product Lead, Project R.I.S.E",
@@ -16634,7 +16704,8 @@
     "en_title": "Product Lead, Project R.I.S.E",
     "stale": false,
     "stale_days": 0,
-    "summary": "Senior Product Management role at Supercell. based in Shanghai."
+    "summary": "Senior Product Management role at Supercell. based in Shanghai.",
+    "category": "general_pm"
   },
   {
     "title": "(Senior) Segment Manager (Cross Border Business)",
@@ -16682,7 +16753,8 @@
     "app_time_est": "3-5 min",
     "app_platform": "LinkedIn",
     "en_title": "(Senior) Segment Manager (Cross Border Business)",
-    "summary": "Senior Strategy/Ops role at Bank of China (Hong Kong). based in Hong Kong."
+    "summary": "Senior Strategy/Ops role at Bank of China (Hong Kong). based in Hong Kong.",
+    "category": "cross_border"
   },
   {
     "title": "Regional Head of Strategy, Insights and Data APAC",
@@ -18212,7 +18284,8 @@
     "lifecycle_notes": [],
     "salary": "HKD 50,000 - 80,000/mo (est)",
     "en_title": "Senior Payment Product Manager - LATAM",
-    "summary": "Senior Product Management role at Binance. based in Hong Kong. focused on payments."
+    "summary": "Senior Product Management role at Binance. based in Hong Kong. focused on payments.",
+    "category": "fintech"
   },
   {
     "title": "Senior Fiat Product Manager (GatePay)",
@@ -18256,7 +18329,8 @@
     "lifecycle_notes": [],
     "salary": "HKD 50,000 - 80,000/mo (est)",
     "en_title": "Senior Fiat Product Manager (Gate Pay)",
-    "summary": "Senior Product Management role at Gate. based in Hong Kong."
+    "summary": "Senior Product Management role at Gate. based in Hong Kong.",
+    "category": "fintech"
   },
   {
     "title": "Senior Product Manager(Card Issuing)",
@@ -18300,7 +18374,8 @@
     "lifecycle_notes": [],
     "salary": "HKD 50,000 - 80,000/mo (est)",
     "en_title": "Senior Product Manager(Card Issuing)",
-    "summary": "Senior Product Management role at Coins.ph. based in Hong Kong."
+    "summary": "Senior Product Management role at Coins.ph. based in Hong Kong.",
+    "category": "fintech"
   },
   {
     "title": "Senior Product Manager - Derivatives Risk",
@@ -18344,7 +18419,8 @@
     "lifecycle_notes": [],
     "salary": "HKD 50,000 - 80,000/mo (est)",
     "en_title": "Senior Product Manager - Derivatives Risk",
-    "summary": "Senior Product Management role at Futu Holdings Limited. based in Hong Kong."
+    "summary": "Senior Product Management role at Futu Holdings Limited. based in Hong Kong.",
+    "category": "general_pm"
   },
   {
     "title": "Buy Now, Pay Later (BNPL) Product & Operations Lead (Europe Business)",
@@ -18388,7 +18464,8 @@
     "lifecycle_notes": [],
     "salary": "HKD 55,000 - 90,000/mo (est)",
     "en_title": "Buy Now, Pay Later (BNPL) Product & Operations Lead (Europe Business)",
-    "summary": "Senior Product Management role at JD.COM. based in Hong Kong."
+    "summary": "Senior Product Management role at JD.COM. based in Hong Kong.",
+    "category": "fintech"
   },
   {
     "title": "Senior Product Manager - Cloud",
@@ -18432,7 +18509,8 @@
     "lifecycle_notes": [],
     "salary": "HKD 50,000 - 80,000/mo (est)",
     "en_title": "Senior Product Manager - Cloud",
-    "summary": "Senior Product Management role at Ingram Micro. based in Hong Kong. focused on cloud infrastructure."
+    "summary": "Senior Product Management role at Ingram Micro. based in Hong Kong. focused on cloud infrastructure.",
+    "category": "general_pm"
   },
   {
     "title": "Principal Product Manager (Singapore Based)",
@@ -18476,7 +18554,8 @@
     "lifecycle_notes": [],
     "salary": "HKD 65,000 - 100,000/mo (est)",
     "en_title": "Principal Product Manager (Singapore Based)",
-    "summary": "Senior Product Management role at Agoda. based in Hong Kong."
+    "summary": "Senior Product Management role at Agoda. based in Hong Kong.",
+    "category": "general_pm"
   },
   {
     "title": "Senior Program Manager, Insurance, up to 100k",
@@ -18520,7 +18599,8 @@
     "lifecycle_notes": [],
     "salary": "HKD 50,000 - 80,000/mo (est)",
     "en_title": "Senior Program Manager, Insurance, up to 100k",
-    "summary": "Senior Strategy role at Ambition. based in Hong Kong."
+    "summary": "Senior Strategy role at Ambition. based in Hong Kong.",
+    "category": "operations"
   },
   {
     "title": "Senior Wealth Management Product Manager (Insurance)",
@@ -18564,7 +18644,8 @@
     "lifecycle_notes": [],
     "salary": "HKD 50,000 - 80,000/mo (est)",
     "en_title": "Senior Wealth Management Product Manager (Insurance)",
-    "summary": "Senior Product Management role at Bank of China (Hong Kong). based in Hong Kong."
+    "summary": "Senior Product Management role at Bank of China (Hong Kong). based in Hong Kong.",
+    "category": "general_pm"
   },
   {
     "title": "Director, Product Strategy, APAC",
@@ -18608,7 +18689,8 @@
     "lifecycle_notes": [],
     "salary": "SGD 20,000 - 35,000/mo (est)",
     "en_title": "Director, Product Strategy, APAC",
-    "summary": "Director-level Product Management role at Wellington Management. based in Singapore."
+    "summary": "Director-level Product Management role at Wellington Management. based in Singapore.",
+    "category": "strategy"
   },
   {
     "title": "Director of Product Management",
@@ -18652,7 +18734,8 @@
     "lifecycle_notes": [],
     "salary": "SGD 20,000 - 35,000/mo (est)",
     "en_title": "Director of Product Management",
-    "summary": "Director-level Product Management role at Bitdeer (NASDAQ: BTDR). based in Singapore."
+    "summary": "Director-level Product Management role at Bitdeer (NASDAQ: BTDR). based in Singapore.",
+    "category": "general_pm"
   },
   {
     "title": "Director, Product Strategy Payments",
@@ -18696,7 +18779,8 @@
     "lifecycle_notes": [],
     "salary": "SGD 20,000 - 35,000/mo (est)",
     "en_title": "Director, Product Strategy Payments",
-    "summary": "Director-level Product Management role at Airwallex. based in Singapore. focused on payments."
+    "summary": "Director-level Product Management role at Airwallex. based in Singapore. focused on payments.",
+    "category": "strategy"
   },
   {
     "title": "Director, Commercial Product Manager (Custody Platform)",
@@ -18740,7 +18824,8 @@
     "lifecycle_notes": [],
     "salary": "SGD 20,000 - 35,000/mo (est)",
     "en_title": "Director, Commercial Product Manager (Custody Platform)",
-    "summary": "Director-level Product Management role at BNY. based in Singapore. focused on platform."
+    "summary": "Director-level Product Management role at BNY. based in Singapore. focused on platform.",
+    "category": "platform"
   },
   {
     "title": "Product Director, Payment Fraud",
@@ -18784,7 +18869,8 @@
     "lifecycle_notes": [],
     "salary": "SGD 20,000 - 35,000/mo (est)",
     "en_title": "Product Director, Payment Fraud",
-    "summary": "Director-level Product Management role at Airwallex. based in Singapore. focused on payments."
+    "summary": "Director-level Product Management role at Airwallex. based in Singapore. focused on payments.",
+    "category": "fintech"
   },
   {
     "title": "Director, AI & Data Strategy - Technical Product Management for Responsible AI",
@@ -18828,7 +18914,8 @@
     "lifecycle_notes": [],
     "salary": "SGD 20,000 - 35,000/mo (est)",
     "en_title": "Director, AI & Data Strategy - Technical Product Management for Responsible AI",
-    "summary": "Director-level Product Management role at Mastercard. based in Singapore. focused on AI/ML, data/analytics."
+    "summary": "Director-level Product Management role at Mastercard. based in Singapore. focused on AI/ML, data/analytics.",
+    "category": "ai_product"
   },
   {
     "title": "Director, Product Pricing",
@@ -18872,7 +18959,8 @@
     "lifecycle_notes": [],
     "salary": "SGD 20,000 - 35,000/mo (est)",
     "en_title": "Director, Product Pricing",
-    "summary": "Director-level Product Management role at Manulife. based in Singapore."
+    "summary": "Director-level Product Management role at Manulife. based in Singapore.",
+    "category": "general_pm"
   },
   {
     "title": "Product Director, Financial Markets & Financial Platform",
@@ -18916,7 +19004,8 @@
     "lifecycle_notes": [],
     "salary": "SGD 20,000 - 35,000/mo (est)",
     "en_title": "Product Director, Financial Markets & Financial Platform",
-    "summary": "Director-level Product Management role at Airwallex. based in Singapore. focused on platform."
+    "summary": "Director-level Product Management role at Airwallex. based in Singapore. focused on platform.",
+    "category": "platform"
   },
   {
     "title": "Aladdin Product Solutions Specialist, Director",
@@ -18960,6 +19049,7 @@
     "lifecycle_notes": [],
     "salary": "SGD 20,000 - 35,000/mo (est)",
     "en_title": "Aladdin Product Solutions Specialist, Director",
-    "summary": "Director-level Product Management role at BlackRock. based in Singapore."
+    "summary": "Director-level Product Management role at BlackRock. based in Singapore.",
+    "category": "general_pm"
   }
 ]
