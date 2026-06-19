@@ -340,6 +340,8 @@ body.light .lk .gs:hover{{background:#b45309;color:#ffffff}}
 <option value="location">Location</option>
 <option value="difficulty">Apply Difficulty</option>
 <option value="salary">Salary (Highest)</option>
+<option value="tier">Company Tier (Big Tech →)</option>
+<option value="apply_ease">Apply Ease (Direct →)</option>
 </select>
 </div>
 <div id="jobs"></div>

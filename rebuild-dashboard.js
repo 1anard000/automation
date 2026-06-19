@@ -60,6 +60,8 @@ function render(f){
   else if(sk==='location')d.sort((a,b)=>(a.location_norm||a.location||'').localeCompare(b.location_norm||b.location||''));
   else if(sk==='difficulty'){const o={easy:0,medium:1,hard:2};d.sort((a,b)=>(o[a.app_difficulty]||2)-(o[b.app_difficulty]||2))}
   else if(sk==='salary')d.sort((a,b)=>(b._salary_usd||0)-(a._salary_usd||0));
+  else if(sk==='tier'){const o={bigtech:0,growth:1,enterprise:2,startup:3};d.sort((a,b)=>((a._company_tier in o)?o[a._company_tier]:3)-((b._company_tier in o)?o[b._company_tier]:3))}
+  else if(sk==='apply_ease'){const o={direct:0,search:1,login_required:2};d.sort((a,b)=>((a.url_type in o)?o[a.url_type]:2)-((b.url_type in o)?o[b.url_type]:2))}
   el.innerHTML=d.map(j=>{
     var s=j.quality_score||0,t=s>=85?'A':s>=70?'B':'C';
     var ti=j.en_title||j.title||'Untitled',co=j.company||'Unknown',l=j.location_norm||j.location||'',sc=j.source||'',u=j.url||'',sm=j.summary||'';
