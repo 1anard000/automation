@@ -2608,7 +2608,9 @@
     "location_norm": "Singapore",
     "quality_score": 55,
     "quality_tier": "B",
-    "job_id": "j_8675ea8ebc2a"
+    "job_id": "j_8675ea8ebc2a",
+    "english_friendly": true,
+    "url_type": "search"
   },
   {
     "title": "Global Head of Business Operations and Chief of Staff, AppDev RSO",
@@ -2625,7 +2627,9 @@
     "location_norm": "Singapore",
     "quality_score": 55,
     "quality_tier": "B",
-    "job_id": "j_2790834268ba"
+    "job_id": "j_2790834268ba",
+    "english_friendly": true,
+    "url_type": "search"
   },
   {
     "title": "Senior Commercial Product Manager (B2B)",
@@ -3567,7 +3571,9 @@
     "location_norm": "Hong Kong",
     "quality_score": 55,
     "quality_tier": "B",
-    "job_id": "j_2b63a5e6d079"
+    "job_id": "j_2b63a5e6d079",
+    "english_friendly": true,
+    "url_type": "search"
   },
   {
     "title": "Manager, AI & Data Strategy - RAI TPM",
@@ -8883,7 +8889,9 @@
     "location_norm": "Singapore",
     "quality_score": 55,
     "quality_tier": "B",
-    "job_id": "j_ec2dea651ebb"
+    "job_id": "j_ec2dea651ebb",
+    "english_friendly": true,
+    "url_type": "search"
   },
   {
     "title": "Senior Product Manager (SG-based) ",
@@ -9686,7 +9694,9 @@
     "location_norm": "Hong Kong",
     "quality_score": 55,
     "quality_tier": "B",
-    "job_id": "j_96f612ed03de"
+    "job_id": "j_96f612ed03de",
+    "english_friendly": true,
+    "url_type": "search"
   },
   {
     "title": "Senior Product Manager, Digital Banking",
@@ -9750,7 +9760,9 @@
     "location_norm": "Hong Kong",
     "quality_score": 55,
     "quality_tier": "B",
-    "job_id": "j_04e93125d20d"
+    "job_id": "j_04e93125d20d",
+    "english_friendly": true,
+    "url_type": "search"
   },
   {
     "title": "Senior Product Manager - DSV",
@@ -11262,7 +11274,9 @@
     "location_norm": "Singapore",
     "quality_score": 55,
     "quality_tier": "B",
-    "job_id": "j_a072c6a6fd20"
+    "job_id": "j_a072c6a6fd20",
+    "english_friendly": true,
+    "url_type": "search"
   },
   {
     "title": "Strategy & Operations Lead",
@@ -12652,7 +12666,9 @@
     "location_norm": "Hong Kong",
     "quality_score": 55,
     "quality_tier": "B",
-    "job_id": "j_3d8e6d8f981a"
+    "job_id": "j_3d8e6d8f981a",
+    "english_friendly": true,
+    "url_type": "search"
   },
   {
     "title": "Credit Risk Strategy Manager",
@@ -12958,7 +12974,9 @@
     "location_norm": "Hong Kong",
     "quality_score": 55,
     "quality_tier": "B",
-    "job_id": "j_73e90e99bf3d"
+    "job_id": "j_73e90e99bf3d",
+    "english_friendly": true,
+    "url_type": "search"
   },
   {
     "title": "Head of Product, AI",
@@ -17090,7 +17108,9 @@
     "location_norm": "Singapore",
     "quality_score": 70,
     "quality_tier": "B",
-    "job_id": "j_828790554cb7"
+    "job_id": "j_828790554cb7",
+    "english_friendly": true,
+    "url_type": "search"
   },
   {
     "title": "Senior Product Manager, Transaction Monitoring",
@@ -17259,7 +17279,9 @@
     "location_norm": "Hong Kong",
     "quality_score": 70,
     "quality_tier": "B",
-    "job_id": "j_6bd92771a077"
+    "job_id": "j_6bd92771a077",
+    "english_friendly": true,
+    "url_type": "search"
   },
   {
     "title": "Head of Product, Travel Tech",
@@ -17471,7 +17493,9 @@
     "location_norm": "Hong Kong",
     "quality_score": 70,
     "quality_tier": "B",
-    "job_id": "j_a158ebccf20f"
+    "job_id": "j_a158ebccf20f",
+    "english_friendly": true,
+    "url_type": "search"
   },
   {
     "title": "Director, Loyalty Operations & Performance, APAC",
@@ -17602,7 +17626,9 @@
     "location_norm": "Hong Kong",
     "quality_score": 70,
     "quality_tier": "B",
-    "job_id": "j_a37c31d48d03"
+    "job_id": "j_a37c31d48d03",
+    "english_friendly": true,
+    "url_type": "search"
   },
   {
     "title": "Commercial Strategy Director SEA",
@@ -17619,7 +17645,9 @@
     "location_norm": "Singapore",
     "quality_score": 70,
     "quality_tier": "B",
-    "job_id": "j_480e5c39ea96"
+    "job_id": "j_480e5c39ea96",
+    "english_friendly": true,
+    "url_type": "search"
   },
   {
     "title": "Senior Product Manager, AI Gateway",
@@ -17683,7 +17711,9 @@
     "location_norm": "Hong Kong",
     "quality_score": 70,
     "quality_tier": "B",
-    "job_id": "j_c2aecf18ef81"
+    "job_id": "j_c2aecf18ef81",
+    "english_friendly": true,
+    "url_type": "search"
   },
   {
     "title": "Director of Data & AI Transformation",
@@ -17700,7 +17730,9 @@
     "location_norm": "Hong Kong",
     "quality_score": 70,
     "quality_tier": "B",
-    "job_id": "j_ecb738b7ff10"
+    "job_id": "j_ecb738b7ff10",
+    "english_friendly": true,
+    "url_type": "search"
   },
   {
     "title": "Director, Esports Business Development",
@@ -17717,7 +17749,9 @@
     "location_norm": "Singapore",
     "quality_score": 70,
     "quality_tier": "B",
-    "job_id": "j_3b71e2e33648"
+    "job_id": "j_3b71e2e33648",
+    "english_friendly": true,
+    "url_type": "search"
   },
   {
     "title": "Director, Government Relations, APAC",
@@ -17907,7 +17941,9 @@
     "location_norm": "Hong Kong",
     "quality_score": 65,
     "quality_tier": "B",
-    "job_id": "j_1ab6b0c795f9"
+    "job_id": "j_1ab6b0c795f9",
+    "english_friendly": true,
+    "url_type": "search"
   },
   {
     "title": "Head of Commercial (Asia)",
@@ -17924,7 +17960,9 @@
     "location_norm": "Hong Kong",
     "quality_score": 65,
     "quality_tier": "B",
-    "job_id": "j_a2639b197758"
+    "job_id": "j_a2639b197758",
+    "english_friendly": true,
+    "url_type": "search"
   },
   {
     "title": "Regional Head of Strategy, Insights and Data APAC",
@@ -20678,47 +20716,6 @@
     "posted_date": "2026-06-12"
   },
   {
-    "title": "Principal Product Manager - Verification & Activation(Exchange)",
-    "company": "Crypto.com",
-    "location": "Singapore, Singapore",
-    "grade": "A",
-    "url": "https://sg.linkedin.com/jobs/view/principal-product-manager-verification-activation-exchange-at-crypto-com-4408804751",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-19",
-    "source": "linkedin",
-    "location_norm": "Singapore",
-    "english_friendly": true,
-    "category": "senior_pm",
-    "quality_score": 75,
-    "quality_tier": "A",
-    "low_quality": false,
-    "score_breakdown": {},
-    "app_platform": "LinkedIn",
-    "app_difficulty": "medium",
-    "app_time_est": "10-15 min",
-    "job_id": "60b4e14fd441",
-    "status": "not_applied",
-    "status_date": "2026-06-19",
-    "last_touch_date": "2026-06-19",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "LinkedIn",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "has_direct_apply": true,
-    "top20": false,
-    "geo_score": 0,
-    "us_firm_apac": false,
-    "url_type": "direct",
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Principal Product Manager - Verification & Activation(Exchange)",
-    "summary": "Senior PM/Strategy role at Crypto.com. based in Singapore.",
-    "posted_date": "2026-06-17"
-  },
-  {
     "title": "Senior Product Manager",
     "company": "GovTech Singapore",
     "location": "Singapore, Singapore",
@@ -20840,47 +20837,6 @@
     "en_title": "Senior Product Manager",
     "summary": "Senior PM/Strategy role at Sea. based in Singapore.",
     "posted_date": "2026-06-16"
-  },
-  {
-    "title": "Principal Product Manager - Discovery & Onboarding(Exchange)",
-    "company": "Crypto.com",
-    "location": "Singapore, Singapore",
-    "grade": "A",
-    "url": "https://sg.linkedin.com/jobs/view/principal-product-manager-discovery-onboarding-exchange-at-crypto-com-4408497785",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-19",
-    "source": "linkedin",
-    "location_norm": "Singapore",
-    "english_friendly": true,
-    "category": "senior_pm",
-    "quality_score": 75,
-    "quality_tier": "A",
-    "low_quality": false,
-    "score_breakdown": {},
-    "app_platform": "LinkedIn",
-    "app_difficulty": "medium",
-    "app_time_est": "10-15 min",
-    "job_id": "ec8bc8851ce2",
-    "status": "not_applied",
-    "status_date": "2026-06-19",
-    "last_touch_date": "2026-06-19",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "LinkedIn",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "has_direct_apply": true,
-    "top20": false,
-    "geo_score": 0,
-    "us_firm_apac": false,
-    "url_type": "direct",
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Principal Product Manager - Discovery & Onboarding(Exchange)",
-    "summary": "Senior PM/Strategy role at Crypto.com. based in Singapore.",
-    "posted_date": "2026-06-18"
   },
   {
     "title": "Senior Product Manager, Science Centre Board",
