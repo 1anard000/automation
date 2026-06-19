@@ -125,6 +125,69 @@ tier_counts = Counter(j['_company_tier'] for j in aligned)
 # Visa-likely count (SG + bigtech or growth)
 visa_likely_count = sum(1 for j in aligned if 'singapore' in (j.get('location_norm', j.get('location',''))).lower() and j.get('_company_tier') in ('bigtech', 'growth'))
 
+# === RESUME-BASED FIT SCORING ===
+# Ian's profile: strategy/ops leader, 8+ years, Amazon/Microsoft/GitHub/Salesforce
+# Strengths: cross-border, marketplace, e-commerce, AI go-to-market, data strategy, platform ops
+# NOT a traditional PM — strategy/ops/biz ops is the core
+FIT_TITLE_BOOST = {
+    'business operations': 25, 'bizops': 25, 'chief of staff': 25,
+    'strategy': 20, 'go-to-market': 20, 'gtm': 20,
+    'cross-border': 15, 'marketplace': 15, 'expansion': 15,
+    'program manager': 10, 'project manager': 10,
+    'product manager': 5, 'product director': 0, 'head of product': 0,
+}
+FIT_TITLE_PENALTY = {
+    'data scientist': -20, 'software engineer': -20, 'devops': -20,
+    'ux designer': -15, 'frontend': -20, 'backend': -20,
+    'sales manager': -10, 'account executive': -15,
+}
+FIT_COMPANY_BOOST = {
+    'amazon': 15, 'microsoft': 15, 'google': 15, 'github': 15,
+    'salesforce': 10, 'meta': 10, 'apple': 10,
+    'bytedance': 10, 'tiktok': 10, 'alibaba': 10, 'shopee': 10,
+    'airwallex': 8, 'visa': 8, 'mastercard': 8, 'jpmorgan': 8,
+    'ge healthcare': 5, 'abbvie': 5, 'tencent': 8, 'jd.com': 8,
+}
+FIT_DOMAIN_BOOST = {
+    'cross-border': 15, 'marketplace': 15, 'e-commerce': 10,
+    'platform': 10, 'fintech': 8, 'payments': 8,
+    'ai': 8, 'cloud': 8, 'developer': 8, 'growth': 8,
+}
+FIT_LOC_BOOST = {'shenzhen': 12, 'shanghai': 10, 'hong kong': 8, 'guangzhou': 6, 'singapore': 2, 'tokyo': 2, 'taipei': 2}
+FIT_LOC_PENALTY = {'singapore': -5}  # no work authorization
+
+def compute_fit_score(j):
+    title = (j.get('title','') + ' ' + j.get('en_title','')).lower()
+    summary = (j.get('summary','') + ' ' + j.get('description','')).lower()
+    company = j.get('company','').lower()
+    loc = j.get('location_norm', j.get('location','')).lower()
+    score = 30  # base score for passing is_aligned
+    for k, v in FIT_TITLE_BOOST.items():
+        if k in title: score += v; break
+    for k, v in FIT_TITLE_PENALTY.items():
+        if k in title: score += v
+    for k, v in FIT_COMPANY_BOOST.items():
+        if k in company: score += v; break
+    for k, v in FIT_DOMAIN_BOOST.items():
+        if k in title or k in summary: score += v
+    for k, v in FIT_LOC_BOOST.items():
+        if k in loc: score += v; break
+    for k, v in FIT_LOC_PENALTY.items():
+        if k in loc: score += v
+    if j.get('english_friendly'): score += 5
+    return max(0, min(100, score))
+
+for j in aligned:
+    j['_fit_score'] = compute_fit_score(j)
+
+fit_counts = {}
+for j in aligned:
+    fs = j.get('_fit_score', 0)
+    if fs >= 70: fit_counts['excellent'] = fit_counts.get('excellent', 0) + 1
+    elif fs >= 55: fit_counts['strong'] = fit_counts.get('strong', 0) + 1
+    elif fs >= 40: fit_counts['moderate'] = fit_counts.get('moderate', 0) + 1
+    else: fit_counts['weak'] = fit_counts.get('weak', 0) + 1
+
 locs = Counter(j.get('location_norm', j.get('location','')) for j in aligned)
 hk = sum(v for k,v in locs.items() if 'hong kong' in k.lower())
 sh = sum(v for k,v in locs.items() if 'shanghai' in k.lower())
@@ -236,6 +299,11 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
 .st-stats-stale .n{{font-size:0.85rem;font-weight:700}}
 .st-stats-stale.stale-warn .n{{color:#fbbf24}}
 .st-stats-stale.stale-danger .n{{color:#f87171}}
+.fit-badge{{display:inline-block;border-radius:4px;padding:1px 6px;font-size:0.65rem;font-weight:600;margin-left:4px}}
+.fit-excellent{{background:#064e3b;color:#34d399;border:1px solid #34d399}}
+.fit-strong{{background:#1e3a5f;color:#60a5fa;border:1px solid #60a5fa}}
+.fit-moderate{{background:#78350f;color:#fbbf24;border:1px solid #fbbf24}}
+.fit-weak{{background:#334155;color:#94a3b8;border:1px solid #475569}}
 .theme-toggle{{position:fixed;top:16px;right:16px;background:#1e293b;color:#94a3b8;border:1px solid #334155;border-radius:50%;width:36px;height:36px;font-size:1.1rem;cursor:pointer;z-index:1000;display:flex;align-items:center;justify-content:center;transition:all 0.2s;box-shadow:0 2px 8px rgba(0,0,0,0.3)}}
 .theme-toggle:hover{{background:#334155;color:#e2e8f0;border-color:#38bdf8}}
 body.light .theme-toggle{{background:#f1f5f9;color:#475569;border-color:#e2e8f0;box-shadow:0 2px 8px rgba(0,0,0,0.1)}}
@@ -325,6 +393,8 @@ body.light .lk .gs:hover{{background:#b45309;color:#ffffff}}
 <button data-f="visa_likely" style="color:#34d399">🛂 Visa Likely ({visa_likely_count})</button>
 <button data-f="needs_url">🔧 Needs URL Fix</button>
 <button data-f="top20">🏆 Top 20</button>
+<button data-f="best_fit" style="color:#34d399">🎯 Best Fit ({fit_counts.get('excellent',0)})</button>
+<button data-f="strong_fit" style="color:#86efac">👍 Strong Fit ({fit_counts.get('strong',0)})</button>
 <button data-f="bigtech" style="color:#60a5fa">🏢 Big Tech ({tier_counts.get('bigtech',0)})</button>
 <button data-f="company_growth" style="color:#34d399">🚀 Growth ({tier_counts.get('growth',0)})</button>
 <button data-f="enterprise" style="color:#fbbf24">🏛 Enterprise ({tier_counts.get('enterprise',0)})</button>
@@ -359,6 +429,7 @@ body.light .lk .gs:hover{{background:#b45309;color:#ffffff}}
 <option value="location">Location</option>
 <option value="difficulty">Apply Difficulty</option>
 <option value="salary">Salary (Highest)</option>
+<option value="fit">🎯 Resume Fit Score</option>
 <option value="tier">Company Tier (Big Tech →)</option>
 <option value="apply_ease">Apply Ease (Direct →)</option>
 </select>
