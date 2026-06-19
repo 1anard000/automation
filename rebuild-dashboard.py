@@ -86,6 +86,40 @@ def classify_company(co):
 for j in aligned:
     j['_company_tier'] = classify_company(j.get('company', ''))
 
+# Salary tier classification (monthly USD estimate)
+import re as _re
+def _parse_salary_monthly_usd(s):
+    if not s: return None
+    sl = s.lower().replace(',', '').strip()
+    sc = _re.sub(r'\s*-\s*', '-', sl)
+    has_k = bool(_re.search(r'(\d)k(?!d)', sc))
+    m = _re.search(r'(\d+\.?\d*)', sc)
+    if not m: return None
+    try: val = float(m.group(1))
+    except: return None
+    if has_k: val *= 1000
+    if 'hkd' in sl: rate = 0.128
+    elif 'sgd' in sl: rate = 0.75
+    elif 'rmb' in sl or 'cny' in sl: rate = 0.137
+    else: rate = 1.0
+    usd = val * rate
+    is_yearly = '/yr' in sl or 'year' in sl
+    is_monthly = '/mo' in sl or '/month' in sl or '月' in sl
+    if is_yearly: usd /= 12
+    elif not is_monthly and val > 500: usd /= 12
+    return round(usd)
+
+for j in aligned:
+    _usd = _parse_salary_monthly_usd(j.get('salary', ''))
+    j['_salary_usd'] = _usd
+    if _usd is None: j['_salary_tier'] = 'none'
+    elif _usd >= 12000: j['_salary_tier'] = 'high'
+    elif _usd >= 8000: j['_salary_tier'] = 'midhigh'
+    elif _usd >= 5000: j['_salary_tier'] = 'mid'
+    else: j['_salary_tier'] = 'low'
+
+salary_tier_counts = Counter(j['_salary_tier'] for j in aligned)
+
 tier_counts = Counter(j['_company_tier'] for j in aligned)
 
 locs = Counter(j.get('location_norm', j.get('location','')) for j in aligned)
@@ -240,6 +274,11 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
 <button data-f="company_growth" style="color:#34d399">🚀 Growth ({tier_counts.get('growth',0)})</button>
 <button data-f="enterprise" style="color:#fbbf24">🏛 Enterprise ({tier_counts.get('enterprise',0)})</button>
 <button data-f="startup" style="color:#a5b4fc">⚡ Startup ({tier_counts.get('startup',0)})</button>
+<button data-f="sal_high" style="color:#4ade80">💰 $12K+/mo ({salary_tier_counts.get('high',0)})</button>
+<button data-f="sal_midhigh" style="color:#86efac">💰 $8-12K/mo ({salary_tier_counts.get('midhigh',0)})</button>
+<button data-f="sal_mid" style="color:#fde68a">💰 $5-8K/mo ({salary_tier_counts.get('mid',0)})</button>
+<button data-f="sal_low" style="color:#fca5a5">💰 &lt;$5K/mo ({salary_tier_counts.get('low',0)})</button>
+<button data-f="sal_none" style="color:#94a3b8">📋 No salary ({salary_tier_counts.get('none',0)})</button>
 </div>
 <div style="margin:12px 0">
 <input type="text" id="search-box" placeholder="🔍 Search jobs by title, company, location..." style="width:100%;max-width:600px;background:#1e293b;color:#e2e8f0;border:1px solid #334155;border-radius:8px;padding:10px 14px;font-size:0.9rem;outline:none" oninput="render(currentFilter)">
@@ -264,6 +303,7 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
 <option value="company">Company</option>
 <option value="location">Location</option>
 <option value="difficulty">Apply Difficulty</option>
+<option value="salary">Salary (Highest)</option>
 </select>
 </div>
 <div id="jobs"></div>

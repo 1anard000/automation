@@ -46,6 +46,11 @@ function render(f){
   else if(f==='company_growth')d=jobs.filter(j=>j._company_tier==='growth');
   else if(f==='enterprise')d=jobs.filter(j=>j._company_tier==='enterprise');
   else if(f==='startup')d=jobs.filter(j=>j._company_tier==='startup');
+  else if(f==='sal_high')d=jobs.filter(j=>j._salary_tier==='high');
+  else if(f==='sal_midhigh')d=jobs.filter(j=>j._salary_tier==='midhigh');
+  else if(f==='sal_mid')d=jobs.filter(j=>j._salary_tier==='mid');
+  else if(f==='sal_low')d=jobs.filter(j=>j._salary_tier==='low');
+  else if(f==='sal_none')d=jobs.filter(j=>j._salary_tier==='none');
   const sb=document.getElementById('search-box');
   if(sb&&sb.value.trim()){const q=sb.value.trim().toLowerCase();d=d.filter(j=>[j.en_title||j.title||'',j.company||'',j.location_norm||j.location||'',j.summary||'',j.role_type||'',j.salary||''].join(' ').toLowerCase().includes(q))}
   if(statusFilter)d=d.filter(j=>getStatus(j)===statusFilter);
@@ -54,6 +59,7 @@ function render(f){
   else if(sk==='company')d.sort((a,b)=>(a.company||'').localeCompare(b.company||''));
   else if(sk==='location')d.sort((a,b)=>(a.location_norm||a.location||'').localeCompare(b.location_norm||b.location||''));
   else if(sk==='difficulty'){const o={easy:0,medium:1,hard:2};d.sort((a,b)=>(o[a.app_difficulty]||2)-(o[b.app_difficulty]||2))}
+  else if(sk==='salary')d.sort((a,b)=>(b._salary_usd||0)-(a._salary_usd||0));
   el.innerHTML=d.map(j=>{
     var s=j.quality_score||0,t=s>=85?'A':s>=70?'B':'C';
     var ti=j.en_title||j.title||'Untitled',co=j.company||'Unknown',l=j.location_norm||j.location||'',sc=j.source||'',u=j.url||'',sm=j.summary||'';
