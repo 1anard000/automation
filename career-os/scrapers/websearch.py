@@ -1,58 +1,76 @@
 #!/usr/bin/env python3
 """
 Web search-based job scraper.
-Uses DuckDuckGo search to find PM jobs from Indeed, Glassdoor, JobsDB, and general web.
-This is a meta-scraper that parses search results for job listings.
+Uses DuckDuckGo search to find PM, Strategy, BizOps, Chief of Staff,
+Growth, and GM roles from Indeed, Glassdoor, JobsDB, and general web.
+Balanced across role types per Ian's profile: strategy/ops/biz ops core,
+with PM as one of several directions.
 """
 import json, sys, os, re, subprocess, time
 from datetime import datetime
 
 # Search queries to run
 QUERIES = [
-    # Indeed / global aggregators
+    # === PRODUCT MANAGEMENT (8 queries — 22%) ===
     'site:indeed.com "senior product manager" Singapore OR "Hong Kong" 2026',
-    'site:indeed.com "product director" Singapore OR "Hong Kong"',
-    'site:indeed.com "head of product" Singapore OR Shenzhen',
-    'site:glassdoor.com "senior product manager" Singapore OR "Hong Kong"',
-    'site:glassdoor.com "product director" Singapore',
-    'site:glassdoor.com "program manager" Singapore fintech',
-    'site:jobsdb.com "senior product manager" "Hong Kong" OR Singapore',
-    'site:jobsdb.com "product manager" "Hong Kong" fintech OR ecommerce',
-    'site:jobsdb.com "product director" Singapore',
-    'site:wellfound.com "senior product manager" ecommerce',
-    'site:builtin.com "product manager" Singapore',
-    'site:builtin.com "director of product" Singapore',
+    'site:jobsdb.com "product manager" "Hong Kong" OR Singapore',
     'site:careers.bytedance.com "product manager" Singapore OR Shenzhen',
-    'site:careers.bytedance.com "product director" ecommerce',
     'site:careers.shopee.com "product manager" Singapore OR Shenzhen',
-    'site:careers.shopee.com "product director" ecommerce',
-    'site:grab.careers "product manager" Singapore',
-    'site:grab.careers "program manager" Singapore',
-    # Strategic channels for Monday leads (not viral apps)
-    'site:terraform.io/careers "senior product" ecommerce',
-    'site:shopify.com/careers "product manager" singapore OR remote',
-    'site:stripe.com/jobs "product" singapore',
-    'site:airwallex.com/careers "product director" singapore',
-    'site:coinbase.com/careers "senior product" singapore',
-    'site:nium.com/careers "product manager" singapore',
-    'site:xendit.com/careers "product" singapore',
-    'site:career001.com "product manager" singapore',
-    'site:recruit.com.hk "product manager" hong kong',
-    # Executive / board-led roles
-    'site:refind.com "product director" singapore',
-    'site:efinancialcareers.com "product manager" Singapore OR "Hong Kong"',
-    # LinkedIn (supplement existing)
+    'site:glassdoor.com "product director" Singapore OR Shenzhen',
+    'site:builtin.com "director of product" Singapore',
     'site:linkedin.com/jobs "senior product manager" "Hong Kong" cross-border',
-    'site:linkedin.com/jobs "product director" Singapore ecommerce',
-    'site:linkedin.com/jobs "head of product" singapore',
+    'site:grab.careers "product manager" Singapore',
+    # === STRATEGY / BIZ OPS (10 queries — 28%) ===
+    'site:indeed.com "business operations" OR "bizops" Singapore OR "Hong Kong"',
+    'site:indeed.com "strategy manager" OR "head of strategy" Singapore OR Shenzhen',
+    'site:jobsdb.com "business strategy" OR "corporate strategy" "Hong Kong" OR Singapore',
+    'site:linkedin.com/jobs "business operations" manager Singapore OR "Hong Kong"',
+    'site:linkedin.com/jobs "chief of staff" Singapore OR Shenzhen OR "Hong Kong"',
+    'site:glassdoor.com "strategy operations" OR "strategic operations" Singapore',
+    'site:glassdoor.com "business operations" director "Hong Kong"',
+    'site:wellfound.com "bizops" OR "business operations" lead Singapore',
+    'site:builtin.com "business operations" Singapore',
+    'site:efinancialcareers.com "business strategy" OR "bizops" Singapore OR "Hong Kong"',
+    # === GROWTH / EXPANSION / GM (10 queries — 28%) ===
+    'site:indeed.com "head of growth" OR "growth manager" Singapore OR Shenzhen',
+    'site:indeed.com "general manager" OR "country manager" Singapore OR "Hong Kong"',
+    'site:jobsdb.com "general manager" "Hong Kong" OR Singapore fintech OR ecommerce',
+    'site:linkedin.com/jobs "regional manager" OR "expansion lead" APAC Singapore',
+    'site:linkedin.com/jobs "head of growth" "Hong Kong" OR Shenzhen',
+    'site:glassdoor.com "general manager" ecommerce Singapore',
+    'site:glassdoor.com "market expansion" OR "business expansion" APAC',
+    'site:grab.careers "general manager" OR "growth" Singapore',
+    'site:builtin.com "general manager" OR "country manager" Singapore',
+    'site:wellfound.com "head of growth" OR "growth lead" Singapore OR Hong Kong',
+    # === PROGRAM / PROJECT MANAGEMENT (4 queries — 11%) ===
+    'site:indeed.com "program manager" senior Singapore OR "Hong Kong"',
+    'site:glassdoor.com "program manager" fintech Singapore',
+    'site:linkedin.com/jobs "senior program manager" "Hong Kong" OR Shenzhen',
+    'site:jobsdb.com "program manager" "Hong Kong" OR Singapore',
+    # === CROSS-BORDER / MARKETPLACE / PLATFORM (4 queries — 11%) ===
+    'site:indeed.com "cross-border" OR "marketplace" operations manager Singapore OR Shenzhen',
+    'site:linkedin.com/jobs "marketplace operations" OR "platform operations" APAC',
+    'site:jobsdb.com "cross-border" OR "ecommerce" operations "Hong Kong"',
+    'site:glassdoor.com "marketplace" OR "platform" director Singapore OR Shenzhen',
 ]
 
 # Keywords to filter relevant results
 TITLE_KEYWORDS = [
-    "product manager", "program manager", "strategy",
-    "head of product", "director of product", "vp product",
+    # PM
+    "product manager", "product director", "head of product", "vp product",
     "product lead", "principal product", "senior product",
-    "cross-border", "e-commerce", "ecommerce", "growth",
+    # Strategy / BizOps
+    "business operations", "bizops", "strategy", "strategic",
+    "chief of staff", "corporate strategy", "business strategy",
+    # Growth / GM / Expansion
+    "head of growth", "growth manager", "growth lead",
+    "general manager", "country manager", "regional manager",
+    "market expansion", "business expansion", "expansion lead",
+    # Program / Project
+    "program manager", "project manager",
+    # Cross-border / Marketplace / Platform
+    "cross-border", "e-commerce", "ecommerce", "marketplace",
+    "platform operations", "marketplace operations",
 ]
 
 def run_ddg_search(query, max_results=10):
@@ -174,15 +192,28 @@ def is_relevant(title, snippet):
 
 def classify_role_type(title):
     t = title.lower()
+    # Strategy / BizOps
+    if "chief of staff" in t:
+        return "Chief of Staff"
+    if "business operations" in t or "bizops" in t:
+        return "Business Operations"
     if "strategy" in t or "strategic" in t:
         return "Strategy/Ops"
-    if "program" in t:
-        return "Program Management"
+    # Growth / GM / Expansion
+    if "general manager" in t or "country manager" in t or "regional manager" in t:
+        return "General Manager"
+    if "growth" in t or "expansion" in t:
+        return "Growth/Expansion"
+    # PM
     if "product" in t:
         return "Product Management"
-    if "growth" in t:
-        return "Growth"
-    return "Product Management"
+    # Program / Project
+    if "program" in t or "project" in t:
+        return "Program Management"
+    # Cross-border / Marketplace / Platform
+    if "cross-border" in t or "marketplace" in t or "platform" in t:
+        return "Cross-border/Platform"
+    return "Other"
 
 def main():
     print(f"Web search scraper: running {len(QUERIES)} queries...")
