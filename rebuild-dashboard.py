@@ -1,20 +1,61 @@
 #!/usr/bin/env python3
 """Rebuild dashboard.html — reads JS from rebuild-dashboard.js to avoid quoting issues."""
-import json, os
+import json, os, re
 from datetime import datetime
 from collections import Counter
+from difflib import SequenceMatcher
 
 jobs = json.load(open('OKComputer_职位搜索清单/jobs-all.json'))
-# Deduplicate by title+company (case-insensitive), keep higher quality_score
+
+# --- Deduplication (two passes) ---
+def _norm_title(title):
+    """Aggressively normalize title for dedup comparison."""
+    t = title.lower().strip()
+    t = re.sub(r'[/\\]', ' ', t)
+    t = re.sub(r'[,;:]', ' ', t)
+    t = re.sub(r'\s*-\s*', ' ', t)
+    t = re.sub(r'[^\w\s]', '', t)
+    t = re.sub(r'\s+', ' ', t).strip()
+    return t
+
+# Pass 1: exact dedup with normalized title+company
 _deduped = {}
 for _j in jobs:
-    _key = (_j.get('title', '').strip().lower(), _j.get('company', '').strip().lower())
+    _key = (_norm_title(_j.get('title', '')), _j.get('company', '').strip().lower())
     if _key in _deduped:
         if _j.get('quality_score', 0) > _deduped[_key].get('quality_score', 0):
             _deduped[_key] = _j
     else:
         _deduped[_key] = _j
-jobs = list(_deduped.values())
+
+# Pass 2: fuzzy dedup within same company (>=95% title similarity after normalization)
+_dlist = list(_deduped.values())
+_by_co = {}
+for _j in _dlist:
+    _co = _j.get('company', '').strip().lower()
+    _by_co.setdefault(_co, []).append(_j)
+_fuzzy_removed = set()
+for _co, _co_jobs in _by_co.items():
+    if len(_co_jobs) < 2:
+        continue
+    _ntitles = [(_norm_title(j.get('title', '')), j) for j in _co_jobs]
+    for _i in range(len(_ntitles)):
+        if _i in _fuzzy_removed:
+            continue
+        for _k in range(_i + 1, len(_ntitles)):
+            if _k in _fuzzy_removed:
+                continue
+            _t1, _j1 = _ntitles[_i]
+            _t2, _j2 = _ntitles[_k]
+            _ratio = SequenceMatcher(None, _t1, _t2).ratio()
+            if _ratio >= 0.95:
+                if _j1.get('quality_score', 0) >= _j2.get('quality_score', 0):
+                    _fuzzy_removed.add(_k)
+                else:
+                    _fuzzy_removed.add(_i)
+                    break
+
+jobs = [j for _idx, j in enumerate(_dlist) if _idx not in _fuzzy_removed]
 js_code = open('rebuild-dashboard.js').read()
 
 CRYPTO_COMPANIES = ['binance', 'okx', 'coins.ph', 'bitdeer', 'bullish', 'coinmarketcap',
