@@ -271,6 +271,21 @@ body.light .lk .ap{{background:#059669;color:#ffffff;border-color:#059669}}
 body.light .lk .ap:hover{{background:#047857;color:#ffffff}}
 body.light .lk .gs{{background:#d97706;color:#ffffff;border-color:#d97706}}
 body.light .lk .gs:hover{{background:#b45309;color:#ffffff}}
+@media(max-width:640px){{
+  .hdr h1{{font-size:1.3rem}}
+  .hdr .sub{{font-size:0.7rem}}
+  .sts{{grid-template-columns:repeat(auto-fit,minmax(60px,1fr));gap:6px}}
+  .st{{padding:8px 4px}}.st .n{{font-size:1.2rem}}.st .l{{font-size:0.5rem}}
+  .flt{{gap:5px}}.flt button{{padding:4px 8px;font-size:0.7rem}}
+  .jc{{padding:12px 10px}}.jc .t{{font-size:0.9rem}}
+  .jc .mt{{gap:8px;font-size:0.7rem}}
+  .jc .sm{{font-size:0.75rem}}
+  .lk a{{font-size:0.8rem;padding:5px 10px}}
+  #search-box{{padding:8px 10px;font-size:0.85rem}}
+  .st-btn{{padding:3px 7px;font-size:0.65rem}}
+  .back-to-top{{width:38px;height:38px;font-size:1.1rem;bottom:16px;right:16px}}
+  .search-hint{{display:none}}
+}}
 </style>
 </head>
 <body>
