@@ -1,0 +1,33 @@
+{
+  "contacts": [],
+  "outreach_log": [],
+  "notes": "Hiring manager contacts and outreach tracking for Career OS. Updated by cron agent and manual entries.",
+  "schema": {
+    "contact": {
+      "id": "unique_id",
+      "name": "Full Name",
+      "title": "Job Title",
+      "company": "Company",
+      "city": "Location",
+      "linkedin": "LinkedIn URL",
+      "wechat": "WeChat ID if known",
+      "email": "Email if known",
+      "connection": "How we connected (event, referral, cold outreach)",
+      "connection_date": "YYYY-MM-DD",
+      "relationship_strength": "warm|cold|mutual",
+      "notes": "Any notes about this person",
+      "relevance_tags": ["hiring_manager", "referral", "industry_contact", "recruiter"]
+    },
+    "outreach": {
+      "contact_id": "references contact.id",
+      "date": "YYYY-MM-DD",
+      "channel": "linkedin|wechat|email|in_person",
+      "type": "initial|follow_up|thank_you|referral_request|interview_prep",
+      "message_summary": "Brief summary of what was sent",
+      "response": "none|positive|negative|pending",
+      "response_date": "YYYY-MM-DD if responded",
+      "next_action": "What to do next",
+      "next_action_date": "YYYY-MM-DD"
+    }
+  }
+}
