@@ -233,12 +233,48 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
 .st-stats-stale .n{{font-size:0.85rem;font-weight:700}}
 .st-stats-stale.stale-warn .n{{color:#fbbf24}}
 .st-stats-stale.stale-danger .n{{color:#f87171}}
+.theme-toggle{{position:fixed;top:16px;right:16px;background:#1e293b;color:#94a3b8;border:1px solid #334155;border-radius:50%;width:36px;height:36px;font-size:1.1rem;cursor:pointer;z-index:1000;display:flex;align-items:center;justify-content:center;transition:all 0.2s;box-shadow:0 2px 8px rgba(0,0,0,0.3)}}
+.theme-toggle:hover{{background:#334155;color:#e2e8f0;border-color:#38bdf8}}
+body.light .theme-toggle{{background:#f1f5f9;color:#475569;border-color:#e2e8f0;box-shadow:0 2px 8px rgba(0,0,0,0.1)}}
+body.light .theme-toggle:hover{{background:#e2e8f0;color:#1e293b;border-color:#2563eb}}
+body.light{{background:#f8fafc;color:#1e293b}}
+body.light .st{{background:#ffffff;border-color:#e2e8f0}}
+body.light .st .l{{color:#64748b}}
+body.light .flt button{{background:#f1f5f9;color:#475569;border-color:#e2e8f0}}
+body.light .flt button.on{{background:#2563eb;color:#ffffff;border-color:#2563eb}}
+body.light .jc{{background:#ffffff;border-color:#e2e8f0}}
+body.light .jc:hover{{border-color:#2563eb}}
+body.light .jc .t{{color:#0f172a}}
+body.light .jc .co{{color:#2563eb}}
+body.light .jc .mt{{color:#64748b}}
+body.light .jc .sm{{color:#64748b}}
+body.light #search-box{{background:#ffffff;color:#1e293b;border-color:#e2e8f0}}
+body.light #search-box:focus{{border-color:#2563eb}}
+body.light .st-btn{{background:#f1f5f9;color:#475569;border-color:#e2e8f0}}
+body.light .st-btn.on{{background:#2563eb;color:#ffffff;border-color:#2563eb}}
+body.light .st-stats{{background:#ffffff;color:#64748b;border-color:#e2e8f0}}
+body.light .st-stats-stale{{background:#ffffff;color:#64748b;border-color:#e2e8f0}}
+body.light .notes-input{{background:#ffffff;color:#1e293b;border-color:#e2e8f0}}
+body.light .notes-input:focus{{border-color:#2563eb}}
+body.light .notes-toggle{{color:#64748b}}
+body.light .notes-toggle:hover{{background:#e2e8f0;color:#1e293b}}
+body.light .upt{{color:#94a3b8}}
+body.light .url-fix{{background:#fef2f2;color:#dc2626;border-color:#fca5a5}}
+body.light .en{{background:#eff6ff;color:#2563eb;border-color:#93c5fd}}
+body.light .salary{{color:#16a34a}}
+body.light .search-hint kbd{{background:#f1f5f9;border-color:#e2e8f0;color:#64748b}}
+body.light .search-hint{{color:#94a3b8}}
+body.light .lk .ap{{background:#059669;color:#ffffff;border-color:#059669}}
+body.light .lk .ap:hover{{background:#047857;color:#ffffff}}
+body.light .lk .gs{{background:#d97706;color:#ffffff;border-color:#d97706}}
+body.light .lk .gs:hover{{background:#b45309;color:#ffffff}}
 </style>
 </head>
 <body>
+<button class="theme-toggle" id="theme-toggle" title="Toggle dark/light theme">🌙</button>
 <div class="hdr">
 <h1>🎯 APAC Senior Roles</h1>
-<div class="sub">{total} aligned from {len(jobs)} scanned · {direct_count} direct links · {now}</div>
+<div class=\"sub\">{total} aligned from {len(jobs)} scanned · {direct_count} direct links · {now}</div>
 </div>
 <div class="sts">
 <div class="st"><div class="n">{total}</div><div class="l">Total</div></div>
@@ -357,6 +393,23 @@ document.addEventListener('keydown',function(e){{
   var obs=new MutationObserver(addStaleness);
   obs.observe(document.getElementById('jobs'),{{childList:true}});
   addStaleness();
+}})();
+/* Theme toggle — dark/light with localStorage persistence */
+(function(){{
+  var btn=document.getElementById('theme-toggle');
+  var saved=localStorage.getItem('career_os_theme');
+  var prefersLight=window.matchMedia&&window.matchMedia('(prefers-color-scheme:light)').matches;
+  var isLight=saved==='light'||(!saved&&prefersLight);
+  function applyTheme(light){{
+    if(light){{document.body.classList.add('light');btn.textContent='☀️';}}
+    else{{document.body.classList.remove('light');btn.textContent='🌙';}}
+  }}
+  applyTheme(isLight);
+  btn.addEventListener('click',function(){{
+    isLight=!isLight;
+    applyTheme(isLight);
+    localStorage.setItem('career_os_theme',isLight?'light':'dark');
+  }});
 }})();
 </script>
 </body>
