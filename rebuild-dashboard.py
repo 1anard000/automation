@@ -464,6 +464,8 @@ body.light .lk .gs:hover{{background:#b45309;color:#ffffff}}
 <button data-f="sz">SZ</button>
 <button data-f="sg">SG</button>
 <button data-f="strategy">Strategy</button>
+<button data-f="bizops">🔧 BizOps</button>
+<button data-f="gm">👔 GM</button>
 <button data-f="product">Product</button>
 <button data-f="ai">AI</button>
 <button data-f="fintech">💳 Fintech</button>

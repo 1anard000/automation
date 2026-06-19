@@ -32,10 +32,24 @@ function render(f){
   else if(f==='B')d=jobs.filter(j=>(j.quality_score||0)>=70&&(j.quality_score||0)<85);
   else if(f==='strategy')d=jobs.filter(j=>(j.role_type||'').toLowerCase().includes('strat'));
   else if(f==='product')d=jobs.filter(j=>(j.role_type||'').toLowerCase().includes('product'));
+  else if(f==='bizops')d=jobs.filter(j=>{
+    const t=((j.title||'')+' '+(j.role_type||'')+' '+(j.summary||'')).toLowerCase();
+    return t.includes('business operations')||t.includes('bizops')||t.includes('chief of staff');
+  });
+  else if(f==='gm')d=jobs.filter(j=>{
+    const t=((j.role_type||'')+' '+(j.title||'')).toLowerCase();
+    return t.includes('gm')||t.includes('general manager')||t.includes('country manager');
+  });
   else if(f==='ai')d=jobs.filter(j=>(j.title||'').toLowerCase().includes('ai'));
   else if(f==='fintech')d=jobs.filter(j=>(j.category||'').toLowerCase().includes('fintech'));
-  else if(f==='crossborder')d=jobs.filter(j=>(j.category||'').toLowerCase().includes('cross_border')||(j.role_type||'').toLowerCase().includes('cross-border'));
-  else if(f==='growth')d=jobs.filter(j=>(j.category||'').toLowerCase().includes('growth'));
+  else if(f==='crossborder')d=jobs.filter(j=>{
+    const t=((j.category||'')+' '+(j.role_type||'')+' '+(j.title||'')+' '+(j.summary||'')).toLowerCase();
+    return t.includes('cross-border')||t.includes('cross border')||t.includes('marketplace')||t.includes('expansion');
+  });
+  else if(f==='growth')d=jobs.filter(j=>{
+    const t=((j.category||'')+' '+(j.role_type||'')+' '+(j.title||'')).toLowerCase();
+    return t.includes('growth')||t.includes('expansion');
+  });
   else if(f==='senior')d=jobs.filter(j=>(j.category||'').toLowerCase().includes('senior_pm')||(j.title||'').toLowerCase().includes('principal product')||(j.title||'').toLowerCase().includes('lead product')||(j.title||'').toLowerCase().includes('lead product manager'));
   else if(f==='direct')d=jobs.filter(j=>j.url_type==='direct');
   else if(f==='easy')d=jobs.filter(j=>j.app_difficulty==='easy');
