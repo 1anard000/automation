@@ -301,6 +301,9 @@ for j in aligned:
         except Exception:
             pass
 
+# Count broken URLs (from ALL jobs, not just aligned — data quality metric)
+broken_url_count = sum(1 for j in jobs if j.get('url_broken'))
+
 html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -340,6 +343,7 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
 .sm{{color:#64748b;font-size:0.8rem;margin-top:6px}}
 .upt{{text-align:center;color:#475569;font-size:0.7rem;margin-top:20px}}
 .url-fix{{background:#7f1d1d;color:#fca5a5;border:1px solid #fca5a5;border-radius:4px;padding:2px 6px;font-size:0.65rem;margin-left:8px}}
+.url-broken{{display:inline-block;border-radius:4px;padding:2px 6px;font-size:0.65rem;font-weight:600;margin-left:6px;background:#7f1d1d;color:#fca5a5;border:1px solid #fca5a5}}
 .en{{background:#1e3a5f;color:#93c5fd;border:1px solid #93c5fd;border-radius:4px;padding:2px 6px;font-size:0.65rem;margin-left:6px}}
 .salary{{color:#4ade80;font-size:0.75rem}}
 .status-badge{{display:inline-block;border-radius:4px;padding:2px 8px;font-size:0.65rem;font-weight:600;margin-left:6px;cursor:pointer;transition:all 0.2s}}
@@ -414,6 +418,7 @@ body.light .notes-toggle{{color:#64748b}}
 body.light .notes-toggle:hover{{background:#e2e8f0;color:#1e293b}}
 body.light .upt{{color:#94a3b8}}
 body.light .url-fix{{background:#fef2f2;color:#dc2626;border-color:#fca5a5}}
+body.light .url-broken{{background:#fef2f2;color:#dc2626;border-color:#fca5a5}}
 body.light .en{{background:#eff6ff;color:#2563eb;border-color:#93c5fd}}
 body.light .salary{{color:#16a34a}}
 body.light .search-hint kbd{{background:#f1f5f9;border-color:#e2e8f0;color:#64748b}}
@@ -453,6 +458,7 @@ body.light .lk .gs:hover{{background:#b45309;color:#ffffff}}
 <div class="st sg"><div class="n">{sg}</div><div class="l">SG</div></div>
 <div class="st"><div class="n">{gz}</div><div class="l">GZ</div></div>
 <div class="st-stats-stale{' stale-danger' if stale_count > 5 else ' stale-warn' if stale_count > 0 else ''}"><div class="n">⏰ {stale_count}</div><div class="l">Stale 6d+</div></div>
+<div class="st-stats-stale{(' stale-danger' if broken_url_count > 0 else '')}"><div class="n">🔴 {broken_url_count}</div><div class="l">Broken URLs</div></div>
 <div class="st-stats-stale"><div class="n">🟢 {fresh_count}</div><div class="l">Fresh 0-2d</div></div>
 </div>
 <div class="flt" id="flt">
