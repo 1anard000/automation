@@ -40,6 +40,7 @@ function render(f){
   else if(f==='direct')d=jobs.filter(j=>j.url_type==='direct');
   else if(f==='easy')d=jobs.filter(j=>j.app_difficulty==='easy');
   else if(f==='english')d=jobs.filter(j=>j.english_friendly===true);
+  else if(f==='visa_likely')d=jobs.filter(j=>(j.location_norm||j.location||'').toLowerCase().includes('singapore')&&(j._company_tier==='bigtech'||j._company_tier==='growth'));
   else if(f==='needs_url')d=jobs.filter(j=>j.url_type!=='direct');
   else if(f==='top20')d=jobs.filter(j=>j.top20===true);
   else if(f==='bigtech')d=jobs.filter(j=>j._company_tier==='bigtech');

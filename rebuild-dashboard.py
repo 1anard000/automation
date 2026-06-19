@@ -122,6 +122,9 @@ salary_tier_counts = Counter(j['_salary_tier'] for j in aligned)
 
 tier_counts = Counter(j['_company_tier'] for j in aligned)
 
+# Visa-likely count (SG + bigtech or growth)
+visa_likely_count = sum(1 for j in aligned if 'singapore' in (j.get('location_norm', j.get('location',''))).lower() and j.get('_company_tier') in ('bigtech', 'growth'))
+
 locs = Counter(j.get('location_norm', j.get('location','')) for j in aligned)
 hk = sum(v for k,v in locs.items() if 'hong kong' in k.lower())
 sh = sum(v for k,v in locs.items() if 'shanghai' in k.lower())
@@ -304,6 +307,7 @@ body.light .lk .gs:hover{{background:#b45309;color:#ffffff}}
 <button data-f="direct">🎯 Direct Apply</button>
 <button data-f="easy">⚡ Easy Apply</button>
 <button data-f="english">🌐 English</button>
+<button data-f="visa_likely" style="color:#34d399">🛂 Visa Likely ({visa_likely_count})</button>
 <button data-f="needs_url">🔧 Needs URL Fix</button>
 <button data-f="top20">🏆 Top 20</button>
 <button data-f="bigtech" style="color:#60a5fa">🏢 Big Tech ({tier_counts.get('bigtech',0)})</button>
