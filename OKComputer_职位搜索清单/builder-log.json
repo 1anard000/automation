@@ -314,16 +314,15 @@
     }
   ],
   "current_scores": {
-    "data_quality": 9,
-    "dashboard": 8,
-    "career_strategy": 8,
-    "python_scripts": 7,
-    "crm": 8,
-    "automation": 6,
-    "coverage": 7
+    "data_quality": 7,
+    "dashboard": 7,
+    "career_hub": 6,
+    "scripts": 8,
+    "coverage": 7,
+    "strategy": 7
   },
-  "last_run": "2026-06-19T06:01:34.050166",
-  "last_dimension": "crm",
+  "last_run": "2026-06-20T00:00:55.893925",
+  "last_dimension": "Dashboard",
   "last_task": "Build CRM web dashboard (crm-dashboard.html) — company cards, status pipeline, search/filter, dark theme",
   "scores": {
     "dashboard": 7,
@@ -333,7 +332,7 @@
     "strategy": 6,
     "coverage": 8
   },
-  "last_improvement": "2026-06-18: Refreshed career-strategy.md — updated from 288 to 443 jobs, added Shenzhen surge analysis, AI roles 3x growth, salary benchmarks",
+  "last_improvement": "career-hub.html stat correction",
   "entries": [
     {
       "date": "2026-06-19",
@@ -344,16 +343,23 @@
       "date": "2026-06-19",
       "action": "Created crm-dashboard.html — 50 company cards, status pipeline visualization, search + filter, dark theme. 554 jobs, 357 companies.",
       "dimension": "crm"
+    },
+    {
+      "date": "2026-06-20T00:00:55.893925",
+      "round": "nightly-improver",
+      "action": "Updated career-hub.html: corrected stats (552 jobs, 213 A-1), removed broken dashboard.html link, updated focus items, refreshed date",
+      "files_changed": [
+        "OKComputer_职位搜索清单/career-hub.html"
+      ],
+      "dimension": "Dashboard"
     }
   ],
   "latest_scores": {
-    "data_quality": 9,
-    "dashboard": 8,
-    "career_strategy": 8,
-    "python_scripts": 7,
-    "crm": 8,
-    "automation": 8,
+    "data_quality": 7,
+    "dashboard": 7,
+    "career_hub": 6,
+    "scripts": 8,
     "coverage": 7,
-    "timestamp": "2026-06-19T06:01:34.050165"
+    "strategy": 7
   }
 }
