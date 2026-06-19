@@ -56,6 +56,48 @@ for _co, _co_jobs in _by_co.items():
                     break
 
 jobs = [j for _idx, j in enumerate(_dlist) if _idx not in _fuzzy_removed]
+
+# --- Auto-fill missing en_title and category ---
+def _infer_category(title_t):
+    """Infer category from job title when missing."""
+    t = title_t.lower()
+    if any(k in t for k in ['strategy', 'chief of staff', 'bizops', 'business operations',
+                             'strategic', 'commercial strategy']):
+        return 'strategy'
+    if any(k in t for k in ['ai ', ' ai', 'data strategy', 'machine learning',
+                             'artificial intelligence']):
+        return 'ai_product'
+    if any(k in t for k in ['cross-border', 'cross border', 'international',
+                             'global', 'regional', 'apac', 'sea ', 'southeast asia']):
+        return 'cross_border'
+    if any(k in t for k in ['fintech', 'banking', 'financial', 'payments',
+                             'lending', 'credit']):
+        return 'fintech'
+    if any(k in t for k in ['growth', 'expansion', 'marketplace']):
+        return 'growth'
+    if any(k in t for k in ['senior', 'principal', 'director', 'head of',
+                             'vp ', 'vice president']):
+        return 'senior_pm'
+    return 'general_pm'
+
+_filled_en = 0
+_filled_cat = 0
+for _j in jobs:
+    # Auto-fill en_title when title is already in English (no CJK chars)
+    if not _j.get('en_title') and _j.get('title'):
+        _t = _j['title']
+        if not any('\u4e00' <= c <= '\u9fff' for c in _t):
+            _j['en_title'] = _t
+            _filled_en += 1
+    # Auto-fill category when missing
+    if not _j.get('category'):
+        _t = (_j.get('en_title') or _j.get('title', ''))
+        _j['category'] = _infer_category(_t)
+        _filled_cat += 1
+
+if _filled_en or _filled_cat:
+    print(f'Auto-filled: {_filled_en} en_title, {_filled_cat} category')
+
 js_code = open('rebuild-dashboard.js').read()
 
 CRYPTO_COMPANIES = ['binance', 'okx', 'coins.ph', 'bitdeer', 'bullish', 'coinmarketcap',
