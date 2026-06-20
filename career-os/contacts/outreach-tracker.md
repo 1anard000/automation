@@ -25,6 +25,77 @@
 | Sarah Chen | NVIDIA | Follow up on partnership proposal. Ask about NVIDIA APAC strategy team. | 2026-06-23 | LinkedIn/Email | ⏳ PENDING |
 | Thomas Anderson | Meta | Reconnect after 8+ months. Ask about Meta APAC strategy/ops roles. | 2026-06-26 | LinkedIn/Email | ⏳ PENDING |
 
+## ✉️ READY-TO-SEND MESSAGE DRAFTS
+> Copy-paste these. Each is personalized based on relationship history and specific roles.
+
+### 1. 🔴 David Liu — ByteDance (URGENT — Due TODAY Jun 20)
+**Channel:** WeChat | **Relationship:** Weak (6+ months cold)
+**Context:** Engineering Director, Beijing. Met at tech conference Shanghai, Nov 2025. Prefers WeChat.
+
+**WeChat Message:**
+> 你好David！好久没联系了。最近在看一些跨境电商和Product Strategy方面的机会，注意到TikTok Shop在SZ有不少PM岗位，还有HK的Head of Product Strategy。我在Amazon做marketplace ops的经验跟TikTok Shop挺匹配的。方便的话想找你聊聊，看看有没有合适的机会可以推荐？最近怎么样？
+
+**If no response in 3 days, follow up:**
+> David，补充一下——我最近在Amazon marketplace operations和cross-border commerce方面积累了9年经验（Amazon、Microsoft、Salesforce），特别关注TikTok E-commerce的增长策略。如果团队有合适的PM角色，我很愿意深入聊聊。
+
+---
+
+### 2. 🔴 Michael Zhang — OpenAI (OVERDUE — Was due Jun 19)
+**Channel:** LinkedIn or Email | **Relationship:** Warm (last contact May 2)
+**Context:** Senior Research Scientist, SF. Need to send alignment paper + ask about APAC expansion.
+
+**LinkedIn/Email Message:**
+> Hi Michael, sorry for the delay on sending over that alignment paper — I've attached it here. I've been thinking about our conversation and wanted to follow up on something you mentioned: OpenAI's APAC expansion. I noticed OpenAI is opening offices in the region, and I'm curious whether there are product/strategy roles being scoped out. My background in cross-border commerce and AI go-to-market (led GitHub Copilot launch at Microsoft) might be relevant. Would love to hear your thoughts when you have a moment.
+
+**Attachment:** alignment-paper.pdf (or link)
+
+---
+
+### 3. 🟡 Emily Watson — Airwallex (Due TOMORROW Jun 21)
+**Channel:** LinkedIn or Email | **Relationship:** Weak (4 months cold)
+**Context:** Head of Product, Beijing. Met at AWS Summit, Feb 2026. Airwallex has 13 open SG roles, 3 Director-level.
+
+**LinkedIn/Email Message:**
+> Hi Emily, hope you've been well since AWS Summit! I've been following Airwallex's growth in APAC — impressive expansion. I noticed you have some Director-level Product Strategy roles open in Singapore, particularly the Director, Product Strategy Payments position. Given my background in cross-border payments and marketplace operations (Amazon, Microsoft), I think I'd be a strong fit. Would you be open to connecting me with the hiring manager, or is there someone on the SG product team I should reach out to directly?
+
+---
+
+### 4. 🟢 Amanda Foster — Google (Due Jun 25)
+**Channel:** LinkedIn or Email | **Relationship:** Warm (last contact Apr 17)
+**Context:** Staff Software Engineer, Google (Gemini team). Met at Google I/O 2025. Open to referrals.
+
+**LinkedIn/Email Message:**
+> Hi Amanda! Hope things are going well on the Gemini team. I'm exploring some opportunities at Google Singapore — specifically the Global Head of BizOps & Chief of Staff role in the AppDev RSO team. My Microsoft/Salesforce strategy ops background (led go-to-market for AI products, designed incentive structures) feels like a strong match. Would you be able to connect me with the hiring manager, or point me to the right person to reach out to? Happy to send my resume first if helpful.
+
+---
+
+### 5. 🟢 Lisa Wang — Sequoia (Due Jun 30)
+**Channel:** LinkedIn or Email | **Relationship:** Warm (last contact May 17)
+**Context:** Partner, Sequoia Capital, SF. Promised to share Q2 metrics. Could have APAC portfolio company connections.
+
+**LinkedIn/Email Message:**
+> Hi Lisa! As promised, here are my Q2 metrics and updated positioning. [Attach or link to Q2 summary]. I've been actively exploring APAC opportunities — specifically Director-level roles at companies like Airwallex, OKX, and Google Singapore. I wanted to ask: are any of Sequoia's APAC portfolio companies looking for strategy or product leadership? I'd be happy to chat with anyone you think might be a good fit. Thanks for thinking of me!
+
+---
+
+### 6. 🟡 Sarah Chen — NVIDIA (Due Jun 23)
+**Channel:** LinkedIn or Email | **Relationship:** Warm (last contact Jun 1)
+**Context:** VP of AI Research, NVIDIA, SF. Follow up on partnership proposal.
+
+**LinkedIn/Email Message:**
+> Hi Sarah, following up on our conversation about the partnership proposal. I've been thinking about how NVIDIA's APAC strategy team could benefit from someone with cross-border commerce and AI go-to-market experience — especially given the expansion of AI infrastructure in APAC markets. Is there a strategy or ops role being scoped for the APAC team? I'd love to explore how my background (GitHub Copilot launch, Amazon marketplace ops) could contribute. Happy to discuss further.
+
+---
+
+### 7. 🟢 Thomas Anderson — Meta (Due Jun 26)
+**Channel:** LinkedIn or Email | **Relationship:** Weak (8+ months cold)
+**Context:** Research Scientist, Meta, Menlo Park. Last contact Oct 2025. Weak relationship — reconnect gently.
+
+**LinkedIn/Email Message:**
+> Hi Thomas, it's been a while! I hope you've been well. I'm reaching out because I'm exploring strategy and operations roles in APAC — specifically at Meta's Singapore or Hong Kong offices. Given my background in cross-border commerce and business operations (Amazon, Microsoft, Salesforce), I think I could bring a unique perspective to Meta's APAC strategy team. Would you happen to know anyone on the strategy/ops side in Singapore I could connect with? Any pointers would be greatly appreciated.
+
+---
+
 ## Active Outreach
 
 | Contact | Company | Last Touch | Next Action | Due |
@@ -82,7 +153,8 @@
 
 | Week | Outreach Sent | Responses | Response Rate | Meetings Set |
 |------|--------------|-----------|---------------|--------------|
-| Jun 20-26 | 0 (research phase) | - | - | - |
+| Jun 20-26 | 0 (drafts ready) | - | - | - |
+| **ACTION REQUIRED:** 2 messages due TODAY (David Liu, Michael Zhang). 5 more due by Jun 30. All drafts ready in "Message Drafts" section above. | | | | |
 
 ### Monthly Goals
 - Outreach sent: 20+
@@ -97,3 +169,4 @@
 | 2026-06-20 | Contact database populated from CRM | 10 contacts | Various | ✅ Migrated 10 real contacts |
 | 2026-06-20 | Hiring manager playbook created | - | OKX, Airwallex, ByteDance, Google, Binance | ✅ LinkedIn search URLs + templates ready |
 | 2026-06-20 | Immediate follow-ups identified | 7 contacts | Various | ⏳ Pending execution |
+| 2026-06-20 | **Personalized message drafts created** | 7 contacts | ByteDance, OpenAI, Airwallex, Google, Sequoia, NVIDIA, Meta | ✅ Copy-paste ready. 2 URGENT (David Liu, Michael Zhang) |
