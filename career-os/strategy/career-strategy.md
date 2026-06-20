@@ -169,6 +169,44 @@
 ### Application Priority Scoring
 Priority score = Quality Score + Direct Apply (5) + Difficulty Adj (easy +3 / hard -5) + English (2) + Top-20 (3) + Category (cross-border 3 / fintech 2 / strategy 2 / ai 1)
 
+## 🚨 CRITICAL: Application Status (Updated June 20, 2026)
+
+**0% application rate.** 416 roles in database, ZERO applications submitted.
+
+| Metric | Value |
+|--------|-------|
+| Total roles | 416 |
+| Applied | 0 |
+| Not applied | 355 |
+| Unknown status | 61 |
+| Direct-apply available | 55 |
+| High-score (80+) unapplied | 108 |
+| Perfect-score (100) unapplied | 17 |
+
+**Immediate priority: Submit 5-10 applications this week.** Start with the 17 perfect-score direct-apply roles below.
+
+### 🎯 Top 17 Perfect-Score (100) Direct-Apply Roles — Apply NOW
+
+| # | Company | Title | City | Category |
+|---|---------|-------|------|----------|
+| 1 | Airwallex | Director, Product Strategy Payments | SG | strategy |
+| 2 | Airwallex | Product Director, Payment Fraud | SG | fintech |
+| 3 | Airwallex | Product Director, Financial Markets & Financial Platform | SG | platform |
+| 4 | Binance | Senior Payment Product Manager - LATAM | HK | fintech |
+| 5 | Gate | Senior Fiat Product Manager (GatePay) | HK | fintech |
+| 6 | Coins.ph | Senior Product Manager (Card Issuing) | HK | fintech |
+| 7 | Futu Holdings | Senior PM - Derivatives Risk | HK | general_pm |
+| 8 | JD.COM | BNPL Product & Operations Lead | HK | fintech |
+| 9 | Ingram Micro | Senior PM - Cloud | HK | general_pm |
+| 10 | Agoda | Principal Product Manager | SG | general_pm |
+| 11 | Bank of China | Senior Wealth Management PM (Insurance) | HK | general_pm |
+| 12 | Wellington Management | Director, Product Strategy, APAC | SG | strategy |
+| 13 | Bitdeer | Director of Product Management | SG | general_pm |
+| 14 | BNY | Director, Commercial PM (Custody Platform) | SG | platform |
+| 15 | Mastercard | Director, AI & Data Strategy | SG | ai_product |
+| 16 | Manulife | Director, Product Pricing | SG | general_pm |
+| 17 | BlackRock | Aladdin Product Solutions Specialist, Director | SG | general_pm |
+
 ## Market Intelligence Log
 
 ### June 2026 — Key Signals
@@ -177,3 +215,90 @@ Priority score = Quality Score + Direct Apply (5) + Difficulty Adj (easy +3 / ha
 3. **SG as APAC strategy hub:** Visa, Mastercard, Google, Meta all staffing strategy teams in Singapore. JPMorgan fintech investments team based there.
 4. **Cross-border is hot:** 41 cross-border roles found. Payments, e-commerce, and logistics companies all expanding cross-border capabilities.
 5. **Work authorization matters:** 33% of roles are marked low_quality due to visa/authorization requirements. Focus on companies with visa sponsorship history (OKX, Airwallex, Google, Meta, Mastercard, Visa).
+
+### June 20, 2026 — Data Refresh (416-role deep analysis)
+
+#### Application Funnel Reality
+- **0% application rate** — no roles have been applied to yet
+- **55 direct-apply opportunities** available without login barriers
+- **108 high-score (80+) roles** sitting unapplied
+- **151 roles require login** to apply — prioritize the 55 direct-apply first
+
+#### Updated English-Friendly Ratios
+| City | English-Friendly | Total | Ratio | Previous Estimate |
+|------|-----------------|-------|-------|-------------------|
+| Hong Kong | 90 | 90 | **100%** | 80% |
+| Singapore | 128 | 128 | **100%** | 90% |
+| Shanghai | 28 | 33 | **85%** | N/A |
+| Shenzhen | 26 | 160 | **16%** | 30% |
+| Guangzhou | 3 | 5 | **60%** | N/A |
+
+**Insight:** HK and SG are 100% English-friendly — much better than estimated. SZ is worse than expected at 16%.
+
+#### Company Opportunity Density (Unapplied 80+ Score)
+| Company | High-Score Unapplied | Notes |
+|---------|---------------------|-------|
+| OKX | 29 | Dominant opportunity — 42 total roles |
+| Airwallex | 8 | 3 Director-level in SG, all score 100 |
+| Binance | 5 | All HK, fintech-focused |
+| Google | 4 | SG strategy/BizOps roles |
+| ByteDance | 3 | SZ cross-border PM roles |
+| JD.COM | 3 | HK BNPL + SZ roles |
+| 迅雷网络 | 3 | SZ — likely Chinese-language required |
+| Alibaba | 2 | SZ Lazada roles |
+| Huawei | 2 | SZ — high scores but language barrier |
+
+#### Quality Tier Distribution
+| Tier | Count | % of Total |
+|------|-------|-----------|
+| A (highest) | 61 | 15% |
+| B (strong) | 321 | 77% |
+| C (stretch) | 34 | 8% |
+
+#### Application Difficulty
+| Difficulty | Count | Strategy |
+|-----------|-------|----------|
+| Easy | 54 | Apply immediately — low friction |
+| Medium | 169 | Standard applications — batch process |
+| Hard | 193 | Requires tailoring — prioritize top-score |
+
+#### Platform Distribution (Where Jobs Are)
+| Platform | Count | Notes |
+|----------|-------|-------|
+| LinkedIn | 123+12+5 | Primary source — 140 total |
+| Liepin (猎聘) | 122 | Chinese-language heavy |
+| Company Career Sites | 49 | Direct apply possible |
+| Greenhouse | 31 | ATS — standard process |
+| Boss Zhipin | 25 | Chinese-language |
+| Indeed | 12 | Mix of languages |
+
+#### Category Breakdown
+| Category | Count | Notes |
+|----------|-------|-------|
+| General PM | 229 | Volume play — mostly SZ |
+| Strategy | 50 | SG/HK focused |
+| Cross-border | 41 | SZ/HK/SG — your differentiator |
+| AI Product | 41 | Emerging — OKX, Mastercard, CASETiFY |
+| Fintech | 22 | HK crypto/fintech hub |
+| Growth | 10 | SG focused |
+| Platform | 9 | Infrastructure PM roles |
+
+## Updated Application Strategy (June 20, 2026)
+
+### Week of June 20-26: LAUNCH WEEK
+**Goal: Submit 10+ applications. Break the zero.**
+
+| Day | Focus | Target Roles | Rationale |
+|-----|-------|-------------|-----------|
+| Fri Jun 20 | HK Crypto/Fintech (easy apply) | Binance, Gate, Coins.ph, Futu (4 roles) | Perfect scores, direct apply, quick wins |
+| Sat Jun 21 | SG Director roles (batch) | Airwallex x3, Wellington, Bitdeer (5 roles) | Highest leverage — Director-level, score 100 |
+| Sun Jun 22 | SG Strategy/Fintech | BNY, Mastercard, Manulife, BlackRock (4 roles) | Director-level, direct apply |
+| Mon Jun 23 | HK General PM + BNPL | JD.COM, Ingram Micro, Bank of China (3 roles) | Fill HK pipeline |
+| Tue Jun 24 | SZ Cross-border (if Chinese OK) | ByteDance, Alibaba, OSL/OKX (3 roles) | Cross-border differentiator |
+
+### Priority Order for Applications
+1. **Airwallex SG** (3 Director roles, all score 100) — ask Emily Watson for intros
+2. **HK Crypto/Fintech** (Binance, Gate, Coins.ph, Futu) — quick wins, perfect scores
+3. **SG Strategy** (Wellington, Mastercard, BlackRock) — Director-level, high leverage
+4. **Google SG** (BizOps/Chief of Staff) — ask Amanda Foster for intro
+5. **SZ Cross-border** (ByteDance, Alibaba) — differentiator, but language barrier
