@@ -329,6 +329,15 @@
       "score_before": 8,
       "score_after": 8,
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-06-21T00:01:01.254820",
+      "dimension": "data_quality",
+      "task": "Assign grades to 59 ungraded jobs (company_site sources from Jun 20)",
+      "status": "completed",
+      "score_before": 5,
+      "score_after": 7,
+      "subagent": "nightly-improver-grade-assignment"
     }
   ],
   "current_scores": {
