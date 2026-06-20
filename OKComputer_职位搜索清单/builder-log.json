@@ -311,6 +311,24 @@
       "score_before": 7,
       "score_after": 8,
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-06-20T03:00:44.860023",
+      "dimension": "data_quality",
+      "task": "Fill 108 missing summaries + 37 missing en_title + 4 missing grades in jobs-all.json",
+      "status": "in_progress",
+      "score_before": 7,
+      "score_after": "pending",
+      "subagent": "builder-data-quality-fill-gaps"
+    },
+    {
+      "timestamp": "2026-06-20T06:01:18.324708+08:00",
+      "dimension": "dashboard",
+      "task": "Sync dashboard stats with actual data: 641 jobs, 243 A-1 grades (was showing 552/213)",
+      "status": "completed",
+      "score_before": 8,
+      "score_after": 8,
+      "subagent": "nightly-improver"
     }
   ],
   "current_scores": {
@@ -321,8 +339,8 @@
     "coverage": 7,
     "strategy": 7
   },
-  "last_run": "2026-06-20T00:00:55.893925",
-  "last_dimension": "Dashboard",
+  "last_run": "2026-06-20T03:00:44.860032",
+  "last_dimension": "data_quality",
   "last_task": "Build CRM web dashboard (crm-dashboard.html) — company cards, status pipeline, search/filter, dark theme",
   "scores": {
     "dashboard": 7,
