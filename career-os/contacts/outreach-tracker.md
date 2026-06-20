@@ -15,15 +15,24 @@
 
 ## Immediate Follow-ups (This Week)
 
-| Contact | Company | Action | Due | Channel | Status |
-|---------|---------|--------|-----|---------|--------|
-| David Liu | ByteDance | URGENT: Reconnect after 6+ months. Mention TikTok E-commerce PM roles (SZ) and Head of Product Strategy (HK). Ask for intro to hiring managers. | 2026-06-20 | WeChat | ⏳ PENDING |
-| Emily Watson | Airwallex | Follow up on ML hiring. Ask about Director Product Strategy Payments role (SG, score 100). Mention cross-border commerce background. | 2026-06-21 | LinkedIn/Email | ⏳ PENDING |
-| Michael Zhang | OpenAI | OVERDUE: Send alignment paper. Ask about OpenAI APAC expansion and any product/strategy roles. | 2026-06-20 | LinkedIn/Email | ⏳ OVERDUE |
-| Amanda Foster | Google | Reconnect and ask about APAC strategy/ops roles at Google Singapore. Specifically: Global Head of BizOps & Chief of Staff role. | 2026-06-25 | LinkedIn/Email | ⏳ PENDING |
-| Lisa Wang | Sequoia | Share Q2 metrics as promised. Ask about APAC portfolio companies hiring strategy/product leads. | 2026-06-30 | LinkedIn/Email | ⏳ PENDING |
-| Sarah Chen | NVIDIA | Follow up on partnership proposal. Ask about NVIDIA APAC strategy team. | 2026-06-23 | LinkedIn/Email | ⏳ PENDING |
-| Thomas Anderson | Meta | Reconnect after 8+ months. Ask about Meta APAC strategy/ops roles. | 2026-06-26 | LinkedIn/Email | ⏳ PENDING |
+| Contact | Company | Action | Due | Channel | Status | Last Updated |
+|---------|---------|--------|-----|---------|--------|--------------|
+| David Liu | ByteDance | URGENT: Reconnect after 6+ months. Mention TikTok E-commerce PM roles (SZ) and Head of Product Strategy (HK). Ask for intro to hiring managers. | 2026-06-20 | WeChat | 🔴 OVERDUE (1 day) | 2026-06-21 |
+| Emily Watson | Airwallex | Follow up on ML hiring. Ask about Director Product Strategy Payments role (SG, score 100). Mention cross-border commerce background. | 2026-06-21 | LinkedIn/Email | 🟡 DUE TODAY | 2026-06-21 |
+| Michael Zhang | OpenAI | OVERDUE: Send alignment paper. Ask about OpenAI APAC expansion and any product/strategy roles. | 2026-06-19 | LinkedIn/Email | 🔴 OVERDUE (2 days) | 2026-06-21 |
+| Amanda Foster | Google | Reconnect and ask about APAC strategy/ops roles at Google Singapore. Specifically: Global Head of BizOps & Chief of Staff role. | 2026-06-25 | LinkedIn/Email | ⏳ PENDING (4 days) | 2026-06-21 |
+| Lisa Wang | Sequoia | Share Q2 metrics as promised. Ask about APAC portfolio companies hiring strategy/product leads. | 2026-06-30 | LinkedIn/Email | ⏳ PENDING (9 days) | 2026-06-21 |
+| Sarah Chen | NVIDIA | Follow up on partnership proposal. Ask about NVIDIA APAC strategy team. | 2026-06-23 | LinkedIn/Email | ⏳ PENDING (2 days) | 2026-06-21 |
+| Thomas Anderson | Meta | Reconnect after 8+ months. Ask about Meta APAC strategy/ops roles. | 2026-06-26 | LinkedIn/Email | ⏳ PENDING (5 days) | 2026-06-21 |
+
+### 🚨 CRITICAL: 2 Messages OVERDUE, 1 Due TODAY
+
+**Priority order for TODAY (June 21):**
+1. **Michael Zhang (OpenAI)** — OVERDUE by 2 days. Alignment paper + APAC expansion question.
+2. **David Liu (ByteDance)** — OVERDUE by 1 day. WeChat reconnection after 6+ months.
+3. **Emily Watson (Airwallex)** — DUE TODAY. Airwallex SG Director roles.
+
+**If no time for all 3, send Michael Zhang first** — he's the most overdue and the alignment paper was promised.
 
 ## ✉️ READY-TO-SEND MESSAGE DRAFTS
 > Copy-paste these. Each is personalized based on relationship history and specific roles.
@@ -153,8 +162,8 @@
 
 | Week | Outreach Sent | Responses | Response Rate | Meetings Set |
 |------|--------------|-----------|---------------|--------------|
-| Jun 20-26 | 0 (drafts ready) | - | - | - |
-| **ACTION REQUIRED:** 2 messages due TODAY (David Liu, Michael Zhang). 5 more due by Jun 30. All drafts ready in "Message Drafts" section above. | | | | |
+| Jun 21-27 | 0 (drafts ready) | - | - | - |
+| **STATUS (Jun 21):** 2 messages OVERDUE (Michael Zhang, David Liu). 1 due TODAY (Emily Watson). All drafts ready. **ACTION: Send these 3 messages immediately.** | | | | |
 
 ### Monthly Goals
 - Outreach sent: 20+
@@ -170,3 +179,35 @@
 | 2026-06-20 | Hiring manager playbook created | - | OKX, Airwallex, ByteDance, Google, Binance | ✅ LinkedIn search URLs + templates ready |
 | 2026-06-20 | Immediate follow-ups identified | 7 contacts | Various | ⏳ Pending execution |
 | 2026-06-20 | **Personalized message drafts created** | 7 contacts | ByteDance, OpenAI, Airwallex, Google, Sequoia, NVIDIA, Meta | ✅ Copy-paste ready. 2 URGENT (David Liu, Michael Zhang) |
+| 2026-06-21 | **Outreach review — status updated** | 7 contacts | Various | 🚨 2 OVERDUE, 1 DUE TODAY. Priority order set. |
+
+---
+
+## 📊 Application Tracking
+
+**Current status: 0% application rate (416 roles in database, 0 submitted)**
+
+### This Week's Application Targets (Jun 21-27)
+
+| Day | Target Roles | Est. Time | Status |
+|-----|-------------|-----------|--------|
+| Sat Jun 21 | HK Crypto/Fintech (Binance, Gate, Coins.ph, Futu) | 60 min | ⬜ Not started |
+| Sun Jun 22 | SG Director roles (Airwallex x3, Wellington, Bitdeer) | 60 min | ⬜ Not started |
+| Mon Jun 23 | SG Strategy/Fintech (BNY, Mastercard, Manulife, BlackRock) | 60 min | ⬜ Not started |
+| Tue Jun 24 | HK General PM + BNPL (JD.COM, Ingram Micro, Bank of China) | 45 min | ⬜ Not started |
+| Wed Jun 25 | SZ Cross-border (ByteDance, Alibaba, OSL/OKX) | 60 min | ⬜ Not started |
+
+### Application Log
+
+| Date | Company | Role | City | Method | Status | Response |
+|------|---------|------|------|--------|--------|----------|
+| (none yet) | | | | | | |
+
+### Weekly Application Metrics
+
+| Metric | Target | Actual | Status |
+|--------|--------|--------|--------|
+| Applications sent | 15-20 | 0 | 🔴 |
+| Response rate | >15% | - | - |
+| Interviews | 2-3 | 0 | 🔴 |
+| Networking touches | 5-10 | 0 | 🔴 |
