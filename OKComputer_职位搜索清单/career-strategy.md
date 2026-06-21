@@ -1,7 +1,7 @@
 # 📊 Weekly Career Strategy Intelligence
-**Generated:** Saturday, June 20, 2026 3:00 AM CST
-**Coverage period:** Week of June 20–26, 2026
-**Data source:** jobs-all.json (641 positions — up from 443 on June 18)
+**Generated:** Monday, June 22, 2026 12:00 AM CST
+**Coverage period:** Week of June 22–28, 2026
+**Data source:** jobs-all.json (690 positions — up from 641 on June 20)
 
 ---
 
@@ -9,36 +9,34 @@
 
 ### Key Trends This Week
 
-1. **Database Grew 45% — From 443 to 641 Jobs**: The pipeline continues to expand rapidly. LinkedIn now has 227 roles (+92 from June 18), Liepin contributes 184 Chinese-language roles, and company sites add 56 direct postings. The total tracked positions have nearly tripled since June 17 (288 → 641).
+1. **OKX Doubled to 106 Roles — Dominant Employer**: OKX surged from 54 to 106 roles, now representing 15.4% of the entire dataset. They are the single largest hiring force in APAC crypto. Focus on cross-border payment and AI roles.
 
-2. **Singapore Dominates by Volume — 209 Roles (33%)**: Singapore surged from 141 to 209 roles (+48%), overtaking Shenzhen as the #1 location by raw count. Airwallex (15), Google (10), and Shopee (7) lead SG hiring. SG is now the primary market.
+2. **Coinbase Emerges with 13 Roles — New Quality Cluster**: Coinbase appeared in the dataset with 13 roles. This signals renewed US-exchange hiring in APAC. Monitor for high-quality product and engineering roles.
 
-3. **Hong Kong Holds Strong — 146 Roles (23%)**: HK grew from 103 to 146 (+42%). Quality remains high — crypto/fintech cluster continues to be the best quality density. Binance (9), OKX, and Crypto.com anchor the HK pipeline.
+3. **Coupang Enters with 11 Roles — E-commerce Expansion**: Korean e-commerce giant Coupang now has 11 tracked roles, indicating Southeast Asia expansion. Cross-border commerce + logistics fit.
 
-4. **Shenzhen Normalizes — ~232 Roles (36%)**: When combining Shenzhen variants (深圳, 深圳-南山区, etc.), SZ remains the volume leader at ~232 total. But "hard" company portal applications dominate. Focus on international-facing employers (ByteDance, Huawei, Tencent).
+4. **Shenzhen Reclaims #1 — 253 Roles (37%)**: Shenzhen grew to 253 positions, overtaking Singapore again. International-facing employers (ByteDance, Huawei, OKX) remain the priority targets.
 
-5. **OKX Maintains Dominance — 54 Roles (8.4%)**: OKX holds steady at 54 roles (was 53 on June 18). They remain the single largest employer in the dataset. Crypto hiring in APAC shows no signs of slowing.
+5. **Singapore Holds at 202 Roles (29%)**: Singapore dipped slightly from 209 to 202 but remains the #2 market. Director-level roles still concentrated here.
 
-6. **Perfect-Score Jobs Dipped to 17 (from 19)**: Two perfect-score roles were filled or removed. The remaining 17 are still the highest-ROI applications — concentrated in HK crypto (8 roles) and SG fintech/payments (9 roles). Window is closing — apply fast.
+6. **Hong Kong at 138 Roles (20%)**: HK decreased from 146 to 138. Crypto/fintech cluster remains the quality play, but some roles filled or removed.
 
-7. **Airwallex Expanded to 15 Roles (+2)**: Cross-border fintech hiring continues to accelerate. Airwallex is the most active employer in SG and the strongest "easy apply" target (Ashby platform, 3-5 min applications).
+7. **Airwallex Contracted to 10 Roles (from 15)**: Airwallex dropped 5 roles. Still a strong target but window may be narrowing for their cross-border payments positions.
 
-### What Changed Since June 18
+### What Changed Since June 20
 
-| Metric | June 18 | June 20 | Change |
+| Metric | June 20 | June 22 | Change |
 |--------|---------|---------|--------|
-| Total tracked roles | 443 | 641 | +198 new positions (+45%) |
-| Perfect score (100) jobs | 19 | 17 | -2 (filled/removed) |
-| Score ≥85 jobs | — | 61 | New quality tier |
-| Singapore roles | 141 | 209 | +68 SG roles (+48%) |
-| Hong Kong roles | 103 | 146 | +43 HK roles (+42%) |
-| Shenzhen roles | 160 | ~232 | +72 SZ roles (normalized) |
-| Shanghai roles | 34 | 36 | +2 SH roles |
-| OKX roles | 53 | 54 | +1 OKX role |
-| Airwallex roles | 13 | 15 | +2 Airwallex roles |
-| LinkedIn roles | 135 | 227 | +92 LinkedIn roles |
-| Liepin roles | 122 | 184 | +62 Liepin roles |
-| Google roles | 5 | 10 | +5 Google roles |
+| Total tracked roles | 641 | 690 | +49 new positions (+8%) |
+| OKX roles | 54 | 106 | +52 OKX roles (doubled!) |
+| Coinbase roles | 0 | 13 | +13 new entrant |
+| Coupang roles | 0 | 11 | +11 new entrant |
+| Singapore roles | 209 | 202 | -7 SG roles |
+| Hong Kong roles | 146 | 138 | -8 HK roles |
+| Shenzhen roles | ~232 | 253 | +21 SZ roles |
+| Shanghai roles | 36 | 25 | -11 SH roles |
+| Airwallex roles | 15 | 10 | -5 Airwallex roles |
+| Google roles | 10 | 8 | -2 Google roles |
 
 ---
 
@@ -46,16 +44,16 @@
 
 | Sector | Hiring Activity | Key Employers | Roles | Trend |
 |--------|----------------|---------------|-------|-------|
-| 🔥 **Crypto/Web3 Exchanges** | **Very Hot** | OKX (54), Crypto.com (6), Binance (9), Gate, Coins.ph | 75+ | ↑↑ Dominant sector |
-| 🔥 **Cross-border Payments/Fintech** | **Very Hot** | Airwallex (15), Coins.ph (4), Antom, DeCard | 30+ | ↑ Steady growth |
-| 🔥 **Cross-border E-commerce** | **Hot** | ByteDance (8), Shopee (7), Alibaba/Lazada, JD.COM | 20+ | ↑ Strong growth |
-| 🔵 **AI Product** | **Hot** | Google (10), Huawei, First Digital, Mastercard, OpenAI | 40+ | ↑ Embedded across sectors |
-| 🟡 **Traditional Fintech/Banking** | **Moderate** | HSBC (6), UOB, Mastercard, Visa, Bank of China | 25+ | → Stable |
-| 🟡 **Enterprise SaaS/Cloud** | **Moderate** | Google, Cisco, Equinix, Ingram Micro | 12+ | → Selective |
-| 🟡 **Strategy/Consulting** | **Moderate** | GE HealthCare, DP World, Bio-Techne | 10+ | → Niche |
-| 🟡 **Health Tech/Insurance** | **Moderate** | AIA, GE HealthCare, Manulife, Zurich | 8+ | → Digital transformation |
+| 🔥 **Crypto/Web3 Exchanges** | **Very Hot** | OKX (106), Binance (9), Coinbase (13), Gate (5), Crypto.com | 140+ | ↑↑ Explosive growth — OKX doubled |
+| 🔥 **Cross-border Payments/Fintech** | **Hot** | Airwallex (10), Coins.ph, Antom, DeCard | 20+ | → Stable but Airwallex contracting |
+| 🔥 **Cross-border E-commerce** | **Hot** | ByteDance (8), Shopee (7), Coupang (11), Alibaba/Lazada | 30+ | ↑ Coupang is new entrant |
+| 🔵 **AI Product** | **Hot** | Google (8), Huawei, First Digital, Mastercard, OpenAI | 35+ | → Embedded across sectors |
+| 🟡 **Traditional Fintech/Banking** | **Moderate** | HSBC (5), UOB, Mastercard, Visa, Bank of China | 20+ | → Stable |
+| 🟡 **Enterprise SaaS/Cloud** | **Moderate** | Google, Cisco, Equinix, Ingram Micro | 10+ | → Selective |
+| 🟡 **Strategy/Consulting** | **Moderate** | GE HealthCare, DP World, Bio-Techne | 8+ | → Niche |
+| 🟡 **Health Tech/Insurance** | **Moderate** | AIA, GE HealthCare, Manulife, Zurich | 6+ | → Digital transformation |
 | 🔴 **Domestic China Tech** | **Cooling** | Tencent, Meituan, Baidu (absent) | Minimal | ↓ Restructuring |
-| ⚠️ **VC/PE** | **Limited** | GIC, BlackRock, Wellington, Blackstone | 5 | → Very selective |
+| ⚠️ **VC/PE** | **Limited** | GIC, BlackRock, Wellington, Blackstone | 4 | → Very selective |
 
 ---
 
@@ -159,12 +157,12 @@
 - **Key**: Senior Payment PM - LATAM (HK, score 100), Senior Card PM (HK), Binance Pay Business Lead (HK)
 - **Fit**: Cross-border payments + crypto; HK-based
 
-#### 7. OKX Deep Dive (54 roles, focus on top 10)
-- **Why**: 54 roles is enormous, but quality varies. Focus on the 10 with score ≥85:
+#### 7. OKX Deep Dive (106 roles, focus on top 15)
+- **Why**: 106 roles is enormous — doubled from 54. Quality varies. Focus on the 15 with score ≥85:
   - Senior / Lead PM – B2B Cross-Border Crypto Payments (SZ, top20)
   - Senior Director / VP, AI (HK, score 82)
   - Plus additional A-1 roles in HK and SG
-- **Approach**: Apply to 3-4 top OKX roles via their careers portal.
+- **Approach**: Apply to 4-5 top OKX roles via their careers portal.
 
 #### 8. Shopee (7 roles)
 - **Why**: 7 roles — cross-border e-commerce in SG.
@@ -178,16 +176,16 @@
 
 | Company | Roles | Score ≥85 | Why Watch |
 |---------|-------|-----------|-----------|
-| OKX | 54 | 10 | Largest single employer; crypto hiring wave |
-| Airwallex | 15 | 3 | Cross-border fintech leader; SG hub |
-| Google | 10 | 5 | Doubled roles; premium brand |
-| Binance | 9 | 5 | All roles high-quality; HK crypto hub |
+| OKX | 106 | 15+ | Doubled to 106 — dominant crypto employer in APAC |
+| Coinbase | 13 | — | New entrant; US exchange expanding in APAC |
+| Coupang | 11 | — | Korean e-commerce; SE Asia expansion |
+| Airwallex | 10 | 3 | Cross-border fintech leader; SG hub (contracting) |
 | ByteDance | 8 | 3 | Cross-border e-commerce + AI |
+| Google | 8 | 5 | Premium brand; SG-based |
+| Binance | 9 | 5 | All roles high-quality; HK crypto hub |
 | Shopee | 7 | 2 | E-commerce; SG-based |
-| Crypto.com | 6 | 2 | Exchange expansion; HK + SG |
-| HSBC | 6 | 1 | Traditional fintech; stable |
-| JD.COM | 3 | 3 | BNPL + cross-border |
-| Huawei | 2 | 2 | Cloud + ecosystem; SZ |
+| HSBC | 5 | 1 | Traditional fintech; stable |
+| Gate | 5 | 2 | Crypto exchange; HK-based |
 
 ---
 
@@ -195,56 +193,47 @@
 
 | Market | Total Roles | Priority |
 |--------|-------------|----------|
-| **Singapore** | 209 | ⭐⭐⭐ Primary — most roles, most director positions |
-| **Shenzhen** | ~232 | ⭐⭐ Volume play — apply selectively to international companies |
-| **Hong Kong** | 146 | ⭐⭐⭐ Primary — highest quality density in crypto/fintech |
-| **Shanghai** | 36 | ⭐ Selective — strong roles exist |
-| **Guangzhou** | 5 | — Low priority |
+| **Shenzhen** | 253 | ⭐⭐⭐ Primary — volume leader; OKX, ByteDance, Huawei |
+| **Singapore** | 202 | ⭐⭐⭐ Primary — director roles, easy-apply options |
+| **Hong Kong** | 138 | ⭐⭐⭐ Primary — highest quality density in crypto/fintech |
+| **Shanghai** | 25 | ⭐ Selective — fewer roles but strong when found |
+| **Other** | 72 | — Scattered across APAC |
 
-**Key insight**: Singapore is now the #1 market by volume (209 roles). HK remains the quality play. The "easy apply" window is massive — Ashby (Airwallex) and LinkedIn direct-apply roles are the fastest path to submissions.
+**Key insight**: Shenzhen reclaimed #1 by volume (253 roles), driven by OKX's massive expansion. Singapore remains the best for director-level and easy-apply. HK is the quality play for crypto/fintech.
 
 ---
 
-## 🎯 Weekly Action Plan (June 20–26)
+## 🎯 Weekly Action Plan (June 22–28)
 
-### Priority 1: Quick-Win Applications (Sat–Sun)
+### Priority 1: OKX Deep Dive (Mon–Tue)
 
-**Focus: Perfect-score cluster first. 17 roles scored 100 — apply to 8-10 this weekend.**
+**Focus: OKX doubled to 106 roles — mine the best ones.**
 
-1. **Apply to 5 HK perfect-score crypto roles** (Sat, 50-75 min total)
-   - Crypto.com: Principal PM Verification (10-15 min LinkedIn)
-   - Crypto.com: Principal PM Discovery (10-15 min LinkedIn)
-   - Binance: Senior Payment PM LATAM (10-15 min LinkedIn)
-   - Gate: Senior Fiat PM GatePay (10-15 min LinkedIn)
-   - Coins.ph: Senior PM Card Issuing (10-15 min LinkedIn)
-   - **Platform**: LinkedIn direct apply
-
-2. **Apply to 4 SG perfect-score director roles** (Sun, 30-50 min total)
-   - Airwallex: Director Product Strategy Payments (Ashby, 3-5 min)
-   - Airwallex: Product Director Payment Fraud (Ashby, 3-5 min)
-   - Mastercard: Director AI & Data Strategy (company portal, 10-15 min)
-   - BlackRock: Aladdin Product Solutions Director (company portal, 10-15 min)
-   - **Platform**: Ashby (easy) + company portals
-
-### Priority 2: Strategic Applications (Mon–Tue)
-
-3. **Apply to 3-4 OKX A-1 roles** (Mon, 40-60 min)
+1. **Apply to 4-5 top OKX roles** (Mon–Tue, 60-90 min total)
    - Focus: Cross-border crypto payments + AI roles
+   - Filter for score ≥85 and A-1 grades
    - Platform: OKX careers portal
 
-4. **Apply to ByteDance: Senior PM TikTok E-commerce** (Mon, 20-30 min)
-   - Score 95; cross-border commerce + SZ
+2. **Apply to Coinbase roles** (Tue, 30-45 min)
+   - New entrant with 13 roles — early-mover advantage
+   - Focus: product and strategy roles
 
-5. **Apply to Google: Head of Measurement APAC** (Tue, 15-20 min)
-   - Premium brand; SG-based
+### Priority 2: Quick-Win Applications (Wed–Thu)
 
-### Priority 3: Outreach (Wed–Fri)
+3. **Apply to 3-4 SG director roles** (Wed, 30-50 min)
+   - Airwallex: remaining roles via Ashby (3-5 min each)
+   - Mastercard, BlackRock: company portals
 
-6. **LinkedIn warm outreach to 10-12 people at target companies**
-   - Priority: OKX product leads, Airwallex PM team, Binance hiring managers, Crypto.com product org, Google PM team
+4. **Apply to Coupang roles** (Thu, 20-30 min)
+   - New entrant; cross-border e-commerce fit
+
+### Priority 3: Outreach (Fri–Sat)
+
+5. **LinkedIn warm outreach to 8-10 people at target companies**
+   - Priority: OKX product leads, Coinbase hiring managers, Binance, Google PM team
    - Message template: "I've been following [company]'s expansion in [area]. With 9 years in cross-border commerce and product leadership, I'd love to learn about your team's direction."
 
-7. **Update LinkedIn profile**
+6. **Update LinkedIn profile**
    - Headline: "Director of Product | Cross-border E-commerce × AI × Marketplace Strategy"
    - Enable "Open to Work" (recruiters only)
 
@@ -263,13 +252,13 @@
 
 ## 🔑 Top 3 Strategic Insights
 
-1. **Singapore overtook Shenzhen as the #1 market by volume (209 vs ~232 normalized).** This is significant — SG has more director-level roles (SGD 18K-35K/mo), more "easy apply" options (Ashby, LinkedIn), and the strongest cross-border fintech cluster (Airwallex, Google, Shopee). **Shift primary application focus to Singapore this week.**
+1. **OKX is now 106 roles — 15.4% of the entire database.** They doubled in 2 days. This is the single largest employer by far. The crypto exchange hiring wave in APAC is real and accelerating. **Prioritize OKX applications this week — their cross-border payment and AI roles align perfectly.**
 
-2. **The perfect-score window is narrowing — 17 roles remain (down from 19).** Two roles were filled in 2 days. At this rate, the 17 remaining perfect-score roles could be gone within a week. **Apply to 8-10 perfect-score roles this weekend (Sat-Sun) before more disappear.**
+2. **Coinbase and Coupang are new entrants — early-mover advantage exists.** Coinbase (13 roles) and Coupang (11 roles) just entered the dataset. Early applicants to new hiring waves get disproportionate attention. **Apply to Coinbase and Coupang roles before they become oversaturated.**
 
-3. **Airwallex is the #1 "easy apply" target — 15 roles, all via Ashby (3-5 min each).** With 15 roles (up from 13), Airwallex offers the fastest path to applications. Three roles scored perfect 100. **Apply to 3-4 Airwallex roles via Ashby this weekend — it's the highest ROI per minute spent.**
+3. **Shenzhen reclaimed #1 by volume (253 roles) — driven by OKX expansion.** The SZ market shifted from international companies to crypto-heavy hiring. Combined with ByteDance and Huawei, SZ is now the volume play. **Balance SZ applications (OKX, ByteDance) with SG director roles for maximum coverage.**
 
 ---
 
-*Next strategy update: Monday, June 23, 2026*
+*Next strategy update: Monday, June 29, 2026*
 *Data refresh: Nightly scan of 25+ sources across SG, HK, SZ, SH*
