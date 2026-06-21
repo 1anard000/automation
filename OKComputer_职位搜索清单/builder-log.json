@@ -363,7 +363,7 @@
   "scores": {
     "dashboard": 7,
     "career_hub": 8,
-    "data_quality": 8,
+    "data_quality": 9,
     "python_scripts": 7,
     "strategy": 7,
     "coverage": 8
@@ -393,6 +393,15 @@
       "timestamp": "2026-06-22T00:00:00",
       "dimension": "strategy",
       "note": "Updated career-strategy.md: OKX doubled to 106 roles, Coinbase/Coupang new entrants, refreshed geographic priorities and weekly action plan"
+    },
+    {
+      "timestamp": "2026-06-22T03:00:00+08:00",
+      "dimension": "career_hub",
+      "task": "Enhance career-hub.html v2: add search/filter, interview prep, salary research, networking, negotiation sections, quick links to dashboards, weekly action checklist, responsive nav",
+      "status": "in_progress",
+      "score_before": 6,
+      "score_after": "pending",
+      "subagent": "builder-career-hub-v2"
     }
   ],
   "latest_scores": {
@@ -402,5 +411,20 @@
     "scripts": 8,
     "coverage": 7,
     "strategy": 7
-  }
+  },
+  "log": [
+    {
+      "date": "2026-06-22 03:01",
+      "action": "Nightly scan: +34 new jobs from Greenhouse boards (total: 570)",
+      "details": "Ran scan-jobs.py, merged 34 new results into jobs-all.json, rebuilt dashboard",
+      "scores": {
+        "dashboard": 7,
+        "career_hub": 8,
+        "data_quality": 9,
+        "python_scripts": 7,
+        "strategy": 7,
+        "coverage": 8
+      }
+    }
+  ]
 }
