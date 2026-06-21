@@ -58,7 +58,6 @@
 ---
 
 ## Pipeline Overview
-## Pipeline Overview
 || Stage | Count | Notes |
 ||-------|-------|-------|
 || 🎯 Identified | 10 | Hiring managers to research (see playbook) |
@@ -70,7 +69,6 @@
 || 🎤 Interviewing | 0 | In interview process |
 || ✅ Offer | 0 | Offer received |
 
-## Immediate Follow-ups (This Week)
 ## Immediate Follow-ups (Week of June 22-28)
 || Contact | Company | Action | Due | Channel | Status | Priority |
 ||---------|---------|--------|-----|---------|--------|----------||
@@ -235,7 +233,6 @@
 - Meetings set: 5+
 - Referrals gained: 2+
 
-## Log
 ## Log
 || Date | Action | Contact | Company | Result |
 ||------|--------|---------|---------|--------||
