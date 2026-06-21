@@ -241,9 +241,12 @@
 || 2026-06-20 | Immediate follow-ups identified | 7 contacts | Various | ⏳ Pending execution |
 || 2026-06-20 | **Personalized message drafts created** | 7 contacts | ByteDance, OpenAI, Airwallex, Google, Sequoia, NVIDIA, Meta | ✅ Copy-paste ready. 2 URGENT (David Liu, Michael Zhang) |
 || 2026-06-21 | **Outreach review — status updated** | 7 contacts | Various | 🚨 2 OVERDUE, 1 DUE TODAY. Priority order set. |
-|| 2026-06-21 | **Execution tracker added** | - | Career OS | ✅ Added EXECUTION STATUS section + EXECUTION LOG with templates |
-|| 2026-06-21 | **Week 2 Sprint Plan added** | - | Career OS | ✅ Added time-boxed execution plan (4.25 hrs, 7 outreach + 7 apps) |
-|| 2026-06-21 | **Minimum Viable Execution added** | - | Career OS | ✅ Added 15-min "break the zero" plan |
+| 2026-06-21 | **Execution tracker added** | - | Career OS | ✅ Added EXECUTION STATUS section + EXECUTION LOG with templates |
+| 2026-06-21 | **Week 2 Sprint Plan added** | - | Career OS | ✅ Added time-boxed execution plan (4.25 hrs, 7 outreach + 7 apps) |
+| 2026-06-21 | **Minimum Viable Execution added** | - | Career OS | ✅ Added 15-min "break the zero" plan |
+| 2026-06-21 | **Strategy update — 136 unscored jobs rescanned** | - | Career OS | ✅ Found 9 new high-score (80+) roles: OKX Web3 Wallet (89), OKX Local Market (87), ByteDance x2 cross-border (85), UOB (82), DBS (82), Crypto.com x2 (82, 80). Updated strategy doc with revised priority queue. |
+| 2026-06-21 | **Events file updated with real dates** | - | HK, SG, SH, SZ | ✅ Added specific event dates, target contacts, and pre-event checklists |
+| 2026-06-21 | **Contacts research queue expanded** | 8 companies | OKX, Airwallex, ByteDance, Crypto.com, Google, Binance, DBS, UOB | ✅ Added Crypto.com, DBS, UOB to research queue. Updated ByteDance with SG cross-border roles. |
 
 ---
 

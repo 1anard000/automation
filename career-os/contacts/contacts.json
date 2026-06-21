@@ -197,10 +197,10 @@
     {
       "company": "OKX",
       "priority": 1,
-      "roles_to_find": ["Head of Product", "Director of Product", "VP Product", "Head of PM"],
+      "roles_to_find": ["Head of Product", "Director of Product", "VP Product", "Head of PM", "Web3 Wallet PM"],
       "cities": ["Hong Kong", "Singapore"],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20OKX&geoUrn=%5B%22102222072%22%2C%22102222073%22%5D",
-      "notes": "42 open roles. Largest opportunity. Need HK/SG product leaders."
+      "notes": "4 high-score roles found. Web3 Wallet PM (89) and Local Market PM (87) in HK. Ask David Liu for intros."
     },
     {
       "company": "Airwallex",
@@ -208,31 +208,55 @@
       "roles_to_find": ["Head of Product", "Director Product Strategy", "VP Product"],
       "cities": ["Singapore"],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20airwallex&geoUrn=%5B%22102222073%22%5D",
-      "notes": "13 roles, 3 top-20. Emily Watson (existing contact) is Head of Product in Beijing - can ask for SG intros."
+      "notes": "3 score-100 Director roles in SG. Emily Watson (existing contact) is Head of Product in Beijing - can ask for SG intros."
     },
     {
       "company": "ByteDance",
       "priority": 3,
-      "roles_to_find": ["Head of Product Strategy", "Senior Director PM", "VP Product"],
-      "cities": ["Shenzhen", "Hong Kong"],
-      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20bytedance%20tiktok&geoUrn=%5B%22102222072%22%2C%22102447021%22%5D",
-      "notes": "5 roles, 2 top-20. David Liu (existing contact) is Engineering Director - can ask for PM intros."
+      "roles_to_find": ["Growth Strategy PM", "Card Growth PM", "Head of Product Strategy", "Senior Director PM"],
+      "cities": ["Singapore", "Shenzhen", "Hong Kong"],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20bytedance%20global%20payment&geoUrn=%5B%22102222073%22%2C%22102447021%22%5D",
+      "notes": "NEW: 2 cross-border payment PM roles in SG (score 85 each). Growth Strategy PM + Card Growth PM. David Liu can intro. HIGH PRIORITY."
+    },
+    {
+      "company": "Crypto.com",
+      "priority": 4,
+      "roles_to_find": ["Lead PM Exchange", "Senior PM AI Transformation", "Product Director Banking"],
+      "cities": ["Singapore", "Hong Kong"],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20crypto.com&geoUrn=%5B%22102222073%22%2C%22102222072%22%5D",
+      "notes": "NEW: 3 high-score roles found. Lead PM Exchange Institutional (82, SG), Senior PM AI Transformation (80, SG), Product Director Banking Engagement (77, HK)."
     },
     {
       "company": "Google",
-      "priority": 4,
-      "roles_to_find": ["Head of BizOps", "Chief of Staff", "Director Strategy"],
+      "priority": 5,
+      "roles_to_find": ["Head of BizOps", "Chief of Staff", "Director Strategy", "Regional Product Lead"],
       "cities": ["Singapore", "Shanghai"],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=bizops%20director%20google&geoUrn=%5B%22102222073%22%2C%22102065798%22%5D",
-      "notes": "5 roles, 2 top-20. Amanda Foster (existing contact) is at Google US - can ask for APAC intros."
+      "notes": "Regional Product Lead Foundational Measurement (score 80, SG). Amanda Foster can ask for APAC intros."
     },
     {
       "company": "Binance",
-      "priority": 5,
-      "roles_to_find": ["Head of Product", "Director PM", "VP Product Payments"],
-      "cities": ["Hong Kong"],
+      "priority": 6,
+      "roles_to_find": ["AI Chatbot PM", "Head of Product", "Director PM"],
+      "cities": ["Hong Kong", "Singapore"],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20binance&geoUrn=%5B%22102222072%22%5D",
-      "notes": "5 roles, 1 top-20. All HK-based. Crypto/fintech focus."
+      "notes": "NEW: AI Chatbot PM in HK (score 77) + Earn Structured Product in SG (score 70). Crypto/fintech focus."
+    },
+    {
+      "company": "DBS Bank",
+      "priority": 7,
+      "roles_to_find": ["VP Product Manager Digital Exchange", "Head of Digital Products"],
+      "cities": ["Singapore"],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20DBS%20digital&geoUrn=%5B%22102222073%22%5D",
+      "notes": "NEW: VP DBS Digital Exchange (score 82, SG). Largest SG bank. Need contacts."
+    },
+    {
+      "company": "UOB",
+      "priority": 8,
+      "roles_to_find": ["VP Digital Currency", "Head of Digital Products"],
+      "cities": ["Singapore"],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20UOB%20digital&geoUrn=%5B%22102222073%22%5D",
+      "notes": "NEW: VP Digital Currency & Payments (score 82, SG). Banking + crypto intersection."
     }
   ]
 }

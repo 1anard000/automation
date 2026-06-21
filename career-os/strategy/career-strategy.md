@@ -118,19 +118,39 @@
 
 ## Data-Driven Priorities (June 2026 Scan)
 
-### Top Companies by Opportunity Density
-| Company | Total Roles | Top20 Flagged | Avg Score | Key Cities |
-|---------|-------------|---------------|-----------|------------|
-| OKX | 42 | 1 | 83 | HK, SG, SH |
-| Airwallex | 13 | 3 | 83 | SG |
-| ByteDance | 5 | 2 | 82 | SZ, HK |
-| Google | 5 | 2 | 85 | SG, SH |
-| Binance | 5 | 1 | 90 | HK |
-| Tencent | 3 | 2 | 89 | SZ, HK |
-| Huawei | 2 | 2 | 95 | SZ |
-| Alibaba | 2 | 1 | 91 | SZ, HK |
-| JD.COM | 3 | 2 | 93 | SZ, HK |
-| JPMorgan Chase | 1 | 1 | 82 | SG |
+### Top Companies by Opportunity Density (Updated Jun 21)
+| Company | High-Score (80+) | Score-100 | Key Roles | Cities |
+|---------|-----------------|-----------|-----------|--------|
+| OKX | 4 | 0 | Web3 Wallet PM (89), Local Market PM (87), DeFi Lending (unscored), Web3 Growth x3 | HK, SG |
+| Airwallex | 3 | 3 | Director Product Strategy Payments (100), Payment Fraud Director (100), Financial Markets Director (100) | SG |
+| ByteDance | 2 | 0 | Growth Strategy PM - Global Payment (85), Card Growth PM - Global Payment (85) | SG |
+| Crypto.com | 2 | 0 | Lead PM Exchange Institutional (82), Senior PM AI Transformation (80) | SG |
+| Google | 1 | 0 | Regional Product Lead (80) | SG |
+| Binance | 2 | 0 | AI Chatbot PM (77), Earn Structured Product (70) | HK, SG |
+| Shopee | 3 | 0 | SG Business PM x3 (70) | SG |
+| UOB | 1 | 0 | VP Digital Currency & Payments (82) | SG |
+| DBS Bank | 1 | 0 | VP DBS Digital Exchange (82) | SG |
+| Wellington Management | 1 | 1 | Director Product Strategy APAC (100) | SG |
+| Mastercard | 1 | 1 | Director AI & Data Strategy (100) | SG |
+| BlackRock | 1 | 1 | Aladdin Product Solutions Director (100) | SG |
+
+### NEW: Unscored Roles Rescanned (Jun 21)
+136 roles were added to the database without scoring. A quick-scan was run to identify high-value opportunities:
+
+**New high-value roles found (score 80+):**
+| Company | Title | City | Score | Why It Matters |
+|---------|-------|------|-------|----------------|
+| OKX | Principal/Senior PM, Web3 Wallet | HK | 89 | Web3/crypto PM at #1 opportunity density company |
+| OKX | Principal/Senior PM, Local Market & Growth | HK | 87 | Growth-focused, Latin America scope |
+| ByteDance | Growth Strategy PM - Global Payment | SG | 85 | Cross-border payments at ByteDance |
+| ByteDance | Card Growth & Loyalty PM - Global Payment | SG | 85 | Cross-border fintech at ByteDance |
+| UOB | VP, Product Manager - Digital Currency | SG | 82 | Banking + crypto intersection |
+| DBS Bank | VP, Product Manager, DBS Digital Exchange | SG | 82 | Largest SG bank, digital exchange |
+| Crypto.com | Lead/Senior PM - Exchange (Institutional) | SG | 82 | Institutional crypto exchange |
+| Crypto.com | Senior PM, AI Transformation | SG | 80 | AI + crypto, rare combination |
+| HSBC | VP Wealth Product Manager | SG | 80 | Banking, wealth platform |
+
+**Key insight:** ByteDance has 2 cross-border payment PM roles in Singapore that are perfect-fit (score 85). These weren't in the original scan.
 
 ### Category Sweet Spots (by city)
 - **HK:** Fintech (13 roles), AI Product (10), Cross-border (7) — crypto/fintech is the HK story
@@ -315,14 +335,36 @@ Priority score = Quality Score + Direct Apply (5) + Difficulty Adj (easy +3 / ha
 
 ### Week of June 20-26: LAUNCH WEEK
 **Goal: Submit 10+ applications. Break the zero.**
+### Updated Priority Queue (Jun 21)
+**Goal: Submit 10+ applications. Start with these newly discovered roles.**
 
-| Day | Focus | Target Roles | Rationale |
-|-----|-------|-------------|-----------|
-| Fri Jun 20 | HK Crypto/Fintech (easy apply) | Binance, Gate, Coins.ph, Futu (4 roles) | Perfect scores, direct apply, quick wins |
-| Sat Jun 21 | SG Director roles (batch) | Airwallex x3, Wellington, Bitdeer (5 roles) | Highest leverage — Director-level, score 100 |
-| Sun Jun 22 | SG Strategy/Fintech | BNY, Mastercard, Manulife, BlackRock (4 roles) | Director-level, direct apply |
-| Mon Jun 23 | HK General PM + BNPL | JD.COM, Ingram Micro, Bank of China (3 roles) | Fill HK pipeline |
-| Tue Jun 24 | SZ Cross-border (if Chinese OK) | ByteDance, Alibaba, OSL/OKX (3 roles) | Cross-border differentiator |
+**Tier 1: Apply THIS WEEK (score 85+, direct insight available)**
+1. ByteDance Growth Strategy PM - Global Payment (SG, 85) — Cross-border payments, your exact differentiator
+2. ByteDance Card Growth PM - Global Payment (SG, 85) — Same team, second application
+3. OKX Web3 Wallet PM (HK, 89) — Highest-score new find, ask David Liu for intro
+4. Airwallex Director Product Strategy Payments (SG, 100) — Ask Emily Watson for intro
+5. Airwallex Payment Fraud Director (SG, 100) — Same company, different team
+
+**Tier 2: Apply Next Week (score 80-84)**
+6. OKX Local Market & Growth PM (HK, 87)
+7. UOB VP Digital Currency & Payments (SG, 82)
+8. DBS VP DBS Digital Exchange (SG, 82)
+9. Crypto.com Lead PM Exchange (SG, 82)
+10. Crypto.com Senior PM AI Transformation (SG, 80)
+
+**Tier 3: Apply Week 3 (score 75-79)**
+11. Citi PM Payments VP (HK, 79)
+12. Binance AI Chatbot PM (HK, 77)
+13. Crypto.com Product Director Banking Engagement (HK, 77)
+14. Gate Payment PM Fiat & Cross-Border (SG, 75)
+
+### Week of June 22-28: REVISED SPRINT
+*** Insert After @@
+| Mon Jun 22 | SG Cross-border + Director | ByteDance x2 (85), Airwallex x2 (100) | Cross-border PMs + Director intros |
+| Tue Jun 23 | HK Crypto/Fintech | OKX Web3 Wallet (89), OKX Local Market (87), Binance AI Chat (77) | HK crypto hub |
+| Wed Jun 24 | SG Banking/Fintech | UOB (82), DBS (82), Crypto.com x2 (82, 80) | Banking + crypto PM |
+| Thu Jun 25 | SG Strategy/Director | Wellington (100), Mastercard (100), BlackRock (100), BNY (100) | Director-level batch |
+| Fri Jun 26 | HK + SG catchup | Citi (79), Gate (75), Coins.ph (100), Futu (100) | Fill remaining slots |
 
 ### Priority Order for Applications
 1. **Airwallex SG** (3 Director roles, all score 100) — ask Emily Watson for intros
