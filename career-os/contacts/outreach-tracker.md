@@ -1,8 +1,8 @@
 # Outreach Tracking — Career OS
 
-## 🚨 EXECUTION STATUS (June 21, 2026 — Updated by Career OS Cron)
+## 🚨 EXECUTION STATUS (June 22, 2026 — Updated by Career OS Cron)
 
-**Status: Excellent planning, ZERO execution. 3 overdue outreach messages.**
+**Status: Excellent planning, ZERO execution. 3 overdue outreach messages. Day 2 of sprint.**
 
 ### 📊 Cumulative Status
 | Metric | Last Week | This Week | Trend |
@@ -19,10 +19,10 @@
 | Meetings set | 3+ | 0 | 🔴 NOT STARTED |
 | Referrals gained | 1+ | 0 | 🔴 NOT STARTED |
 
-### ⚡ TODAY'S TOP 3 ACTIONS (June 21 — URGENT)
-1. **Send Michael Zhang message** — OVERDUE 2 days. Alignment paper + APAC question. (10 min)
-2. **Send David Liu WeChat** — OVERDUE 1 day. Reconnect after 6+ months. (5 min)
-3. **Send Emily Watson message** — DUE TODAY. Airwallex SG Director roles. (10 min)
+### ⚡ TODAY'S TOP 3 ACTIONS (June 22 — URGENT)
+1. **Send Michael Zhang message** — OVERDUE 3 days. Alignment paper + APAC question. (10 min)
+2. **Send David Liu WeChat** — OVERDUE 2 days. Reconnect after 6+ months. (5 min)
+3. **Send Emily Watson message** — OVERDUE 1 day. Airwallex SG Director roles. (10 min)
 
 **Total time: ~25 minutes. This is non-negotiable. Block 30 min NOW.**
 
@@ -70,30 +70,30 @@
 || ✅ Offer | 0 | Offer received |
 
 ## Immediate Follow-ups (Week of June 22-28)
-|| Contact | Company | Action | Due | Channel | Status | Priority |
-||---------|---------|--------|-----|---------|--------|----------||
-|| Michael Zhang | OpenAI | OVERDUE: Send alignment paper. Ask about APAC expansion. | 2026-06-19 | LinkedIn/Email | 🔴 OVERDUE (2 days) | ⚡ P1 |
-|| David Liu | ByteDance | URGENT: Reconnect after 6+ months. TikTok E-commerce PM roles. | 2026-06-20 | WeChat | 🔴 OVERDUE (1 day) | ⚡ P1 |
-|| Emily Watson | Airwallex | Follow up on ML hiring. Director Product Strategy Payments (SG). | 2026-06-21 | LinkedIn/Email | 🟡 DUE TODAY | ⚡ P1 |
-|| Amanda Foster | Google | Ask about APAC BizOps/Chief of Staff role at Google Singapore. | 2026-06-25 | LinkedIn/Email | ⏳ PENDING | 🟢 P2 |
-|| Lisa Wang | Sequoia | Share Q2 metrics. Ask about APAC portfolio companies. | 2026-06-30 | LinkedIn/Email | ⏳ PENDING | 🟢 P2 |
-|| Sarah Chen | NVIDIA | Follow up on partnership proposal. APAC strategy team question. | 2026-06-23 | LinkedIn/Email | ⏳ PENDING | 🟢 P2 |
-|| Thomas Anderson | Meta | Reconnect after 8+ months. Ask about Meta APAC strategy/ops. | 2026-06-26 | LinkedIn/Email | ⏳ PENDING | 🟢 P2 |
+| Contact | Company | Action | Due | Channel | Status | Priority |
+|---------|---------|--------|-----|---------|--------|----------|
+| Michael Zhang | OpenAI | OVERDUE 3 DAYS: Send alignment paper. Ask about APAC expansion. | 2026-06-19 | LinkedIn/Email | 🔴 OVERDUE (3 days) | ⚡ P1 |
+| David Liu | ByteDance | URGENT: Reconnect after 6+ months. TikTok E-commerce PM roles. | 2026-06-20 | WeChat | 🔴 OVERDUE (2 days) | ⚡ P1 |
+| Emily Watson | Airwallex | OVERDUE 1 DAY: Follow up on ML hiring. Director Product Strategy Payments (SG). | 2026-06-21 | LinkedIn/Email | 🔴 OVERDUE (1 day) | ⚡ P1 |
+| Amanda Foster | Google | Ask about APAC BizOps/Chief of Staff role at Google Singapore. | 2026-06-25 | LinkedIn/Email | ⏳ PENDING | 🟢 P2 |
+| Lisa Wang | Sequoia | Share Q2 metrics. Ask about APAC portfolio companies. | 2026-06-30 | LinkedIn/Email | ⏳ PENDING | 🟢 P2 |
+| Sarah Chen | NVIDIA | Follow up on partnership proposal. APAC strategy team question. | 2026-06-23 | LinkedIn/Email | ⏳ PENDING (tomorrow) | 🟢 P2 |
+| Thomas Anderson | Meta | Reconnect after 8+ months. Ask about Meta APAC strategy/ops. | 2026-06-26 | LinkedIn/Email | ⏳ PENDING | 🟢 P2 |
 
-### 🚨 CRITICAL: 3 Messages OVERDUE/DUE NOW
+### 🚨 CRITICAL: 3 Messages OVERDUE (June 22)
 
-**Priority order for TODAY (June 21):**
-1. **Michael Zhang (OpenAI)** — OVERDUE by 2 days. Alignment paper + APAC expansion question.
-2. **David Liu (ByteDance)** — OVERDUE by 1 day. WeChat reconnection after 6+ months.
-3. **Emily Watson (Airwallex)** — DUE TODAY. Airwallex SG Director roles.
+**Priority order for TODAY (June 22):**
+1. **Michael Zhang (OpenAI)** — OVERDUE by 3 days. Alignment paper + APAC expansion question.
+2. **David Liu (ByteDance)** — OVERDUE by 2 days. WeChat reconnection after 6+ months.
+3. **Emily Watson (Airwallex)** — OVERDUE by 1 day. Airwallex SG Director roles.
 
-**If no time for all 3, send Michael Zhang first** — he's the most overdue and the alignment paper was promised.
+**Tomorrow (June 23):** Sarah Chen (NVIDIA) follow-up due.
 
 ### 📊 Execution Velocity Tracker
 | Week | Outreach Sent | Apps Submitted | Time Invested | Notes |
 |------|--------------|----------------|---------------|-------|
 | Jun 15-21 | 0 | 0 | 0 hrs | **ZERO WEEK — Must fix** |
-| Jun 22-28 | TARGET: 7 | TARGET: 7 | TARGET: 4.25 hrs | Sprint week |
+| Jun 22-28 | TARGET: 7 | TARGET: 7 | TARGET: 4.25 hrs | **Sprint week — Day 1 today** |
 | Jun 29-Jul 5 | TARGET: 5 | TARGET: 10 | TARGET: 5 hrs | Scale-up week |
 
 ## ✉️ READY-TO-SEND MESSAGE DRAFTS
@@ -234,8 +234,9 @@
 
 | Week | Outreach Sent | Responses | Response Rate | Meetings Set |
 |------|--------------|-----------|---------------|--------------|
-| Jun 21-27 | 0 (drafts ready) | - | - | - |
-| **STATUS (Jun 21):** 2 messages OVERDUE (Michael Zhang, David Liu). 1 due TODAY (Emily Watson). All drafts ready. **ACTION: Send these 3 messages immediately.** | | | | |
+| Jun 15-21 | 0 | 0 | - | 0 |
+| Jun 22-28 | 0 (drafts ready) | - | - | - |
+| **STATUS (Jun 22):** 3 messages OVERDUE (Michael Zhang, David Liu, Emily Watson). 1 due tomorrow (Sarah Chen). All drafts ready. **ACTION: Send the 3 overdue messages TODAY.** | | | | |
 
 ### Monthly Goals
 - Outreach sent: 20+
@@ -244,13 +245,13 @@
 - Referrals gained: 2+
 
 ## Log
-|| Date | Action | Contact | Company | Result |
-||------|--------|---------|---------|--------||
-|| 2026-06-20 | Contact database populated from CRM | 10 contacts | Various | ✅ Migrated 10 real contacts |
-|| 2026-06-20 | Hiring manager playbook created | - | OKX, Airwallex, ByteDance, Google, Binance | ✅ LinkedIn search URLs + templates ready |
-|| 2026-06-20 | Immediate follow-ups identified | 7 contacts | Various | ⏳ Pending execution |
-|| 2026-06-20 | **Personalized message drafts created** | 7 contacts | ByteDance, OpenAI, Airwallex, Google, Sequoia, NVIDIA, Meta | ✅ Copy-paste ready. 2 URGENT (David Liu, Michael Zhang) |
-|| 2026-06-21 | **Outreach review — status updated** | 7 contacts | Various | 🚨 2 OVERDUE, 1 DUE TODAY. Priority order set. |
+| Date | Action | Contact | Company | Result |
+|------|--------|---------|---------|--------|
+| 2026-06-20 | Contact database populated from CRM | 10 contacts | Various | ✅ Migrated 10 real contacts |
+| 2026-06-20 | Hiring manager playbook created | - | OKX, Airwallex, ByteDance, Google, Binance | ✅ LinkedIn search URLs + templates ready |
+| 2026-06-20 | Immediate follow-ups identified | 7 contacts | Various | ⏳ Pending execution |
+| 2026-06-20 | **Personalized message drafts created** | 7 contacts | ByteDance, OpenAI, Airwallex, Google, Sequoia, NVIDIA, Meta | ✅ Copy-paste ready. 2 URGENT (David Liu, Michael Zhang) |
+| 2026-06-21 | **Outreach review — status updated** | 7 contacts | Various | 🚨 2 OVERDUE, 1 DUE TODAY. Priority order set. |
 | 2026-06-21 | **Execution tracker added** | - | Career OS | ✅ Added EXECUTION STATUS section + EXECUTION LOG with templates |
 | 2026-06-21 | **Week 2 Sprint Plan added** | - | Career OS | ✅ Added time-boxed execution plan (4.25 hrs, 7 outreach + 7 apps) |
 | 2026-06-21 | **Minimum Viable Execution added** | - | Career OS | ✅ Added 15-min "break the zero" plan |
@@ -259,22 +260,24 @@
 | 2026-06-21 | **Contacts research queue expanded** | 8 companies | OKX, Airwallex, ByteDance, Crypto.com, Google, Binance, DBS, UOB | ✅ Added Crypto.com, DBS, UOB to research queue. Updated ByteDance with SG cross-border roles. |
 | 2026-06-21 | **Strategy refresh — local data analysis** | 169 roles analyzed | All companies | ✅ Found 12 score-80+ direct-apply jobs untouched. Identified 7 new priority companies (Wellington, Mastercard, BlackRock, BNY, Manulife, Bitdeer, Agoda). Cleaned 151 missing statuses + 50 missing categories. Updated strategy with 30-role priority queue. |
 | 2026-06-21 | **Hiring manager research guide created** | 5 companies | OKX, Binance, Crypto.com, DBS, UOB | ✅ Created hiring-manager-research-guide.md with LinkedIn search URLs, outreach templates, and known org info. Added 5 research queue entries to contacts.json. Web tools unavailable — manual research required. |
+| 2026-06-22 | **Outreach review — dates updated to Jun 22** | 7 contacts | Various | ✅ Recalculated overdue: Michael Zhang (3 days), David Liu (2 days), Emily Watson (1 day). Updated application tracking to align with local DB (169 roles, not 416). Added Day 1 marker for sprint week. |
 
 ---
 
 ## 📊 Application Tracking
 
-**Current status: 0% application rate (416 roles in database, 0 submitted)**
+**Current status: 0% application rate (169 roles in database, 0 submitted)**
 
-### This Week's Application Targets (Jun 21-27)
+### This Week's Application Targets (Jun 22-28)
+*Day 1 of 5. Target: 20 applications this week.*
 
 | Day | Target Roles | Est. Time | Status |
 |-----|-------------|-----------|--------|
-| Sat Jun 21 | HK Crypto/Fintech (Binance, Gate, Coins.ph, Futu) | 60 min | ⬜ Not started |
-| Sun Jun 22 | SG Director roles (Airwallex x3, Wellington, Bitdeer) | 60 min | ⬜ Not started |
-| Mon Jun 23 | SG Strategy/Fintech (BNY, Mastercard, Manulife, BlackRock) | 60 min | ⬜ Not started |
-| Tue Jun 24 | HK General PM + BNPL (JD.COM, Ingram Micro, Bank of China) | 45 min | ⬜ Not started |
-| Wed Jun 25 | SZ Cross-border (ByteDance, Alibaba, OSL/OKX) | 60 min | ⬜ Not started |
+| Mon Jun 22 | HK Crypto/Fintech (Binance, Gate, Coins.ph) + SG (Wellington) | 60 min | ⬜ Today |
+| Tue Jun 23 | SG Director roles (Airwallex x2, Mastercard, Futu) | 60 min | ⬜ |
+| Wed Jun 24 | HK + SG (Ingram Micro, Agoda, Bank of China, Bitdeer) | 60 min | ⬜ |
+| Thu Jun 25 | SG (BNY, Manulife, Airwallex Financial Markets, Ambition) | 60 min | ⬜ |
+| Fri Jun 26 | SZ + HK (Meituan, JD.COM, Alibaba Lazada, OKX) | 60 min | ⬜ |
 
 ### Application Log
 
