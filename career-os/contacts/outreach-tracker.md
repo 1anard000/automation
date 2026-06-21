@@ -174,14 +174,24 @@
 | (none yet) | | | | |
 
 ## Hiring Manager Research Queue
+> **NEW:** See `hiring-manager-research-guide.md` for LinkedIn search URLs, outreach templates, and known org structures.
 
 | Company | Priority | # to Research | LinkedIn Search | Status |
 |---------|----------|---------------|-----------------|--------|
-| OKX | 1 | 5 | HK/SG product directors | 📋 READY |
-| Airwallex | 2 | 5 | SG product/strategy leaders | 📋 READY |
-| ByteDance | 3 | 5 | SZ/HK TikTok Shop PMs | 📋 READY |
-| Google | 4 | 5 | SG strategy/BizOps directors | 📋 READY |
-| Binance | 5 | 5 | HK product directors | 📋 READY |
+| OKX | 1 | 4 | HK/SG product directors | 📋 RESEARCH GUIDE READY |
+| Airwallex | 2 | 3 | SG product/strategy leaders | 📋 Existing contact (Emily Watson) |
+| ByteDance | 3 | 3 | SZ/HK TikTok Shop PMs | 📋 Existing contact (David Liu) |
+| Google | 4 | 3 | SG strategy/BizOps directors | 📋 Existing contact (Amanda Foster) |
+| Binance | 5 | 3 | HK product directors | 📋 RESEARCH GUIDE READY |
+| Crypto.com | 6 | 3 | SG product leaders | 📋 RESEARCH GUIDE READY |
+| DBS Bank | 7 | 2 | SG digital exchange | 📋 RESEARCH GUIDE READY |
+| UOB | 8 | 2 | SG digital currency | 📋 RESEARCH GUIDE READY |
+| Wellington | 9 | 2 | SG strategy | 📋 RESEARCH GUIDE READY |
+| Mastercard | 10 | 2 | SG AI strategy | 📋 RESEARCH GUIDE READY |
+| BlackRock | 11 | 2 | SG Aladdin | 📋 RESEARCH GUIDE READY |
+| BNY | 12 | 2 | SG custody | 📋 RESEARCH GUIDE READY |
+| SymphonyAI | 13 | 2 | SG AI product | 📋 RESEARCH GUIDE READY |
+| Visa | 14 | 2 | SG/HK strategy | 📋 RESEARCH GUIDE READY |
 
 ## Follow-up Cadence
 
@@ -248,6 +258,7 @@
 | 2026-06-21 | **Events file updated with real dates** | - | HK, SG, SH, SZ | ✅ Added specific event dates, target contacts, and pre-event checklists |
 | 2026-06-21 | **Contacts research queue expanded** | 8 companies | OKX, Airwallex, ByteDance, Crypto.com, Google, Binance, DBS, UOB | ✅ Added Crypto.com, DBS, UOB to research queue. Updated ByteDance with SG cross-border roles. |
 | 2026-06-21 | **Strategy refresh — local data analysis** | 169 roles analyzed | All companies | ✅ Found 12 score-80+ direct-apply jobs untouched. Identified 7 new priority companies (Wellington, Mastercard, BlackRock, BNY, Manulife, Bitdeer, Agoda). Cleaned 151 missing statuses + 50 missing categories. Updated strategy with 30-role priority queue. |
+| 2026-06-21 | **Hiring manager research guide created** | 5 companies | OKX, Binance, Crypto.com, DBS, UOB | ✅ Created hiring-manager-research-guide.md with LinkedIn search URLs, outreach templates, and known org info. Added 5 research queue entries to contacts.json. Web tools unavailable — manual research required. |
 
 ---
 
