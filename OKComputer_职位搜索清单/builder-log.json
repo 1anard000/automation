@@ -347,6 +347,15 @@
       "score_before": 6,
       "score_after": 7,
       "subagent": "nightly-improver-cleanup-py"
+    },
+    {
+      "timestamp": "2026-06-22T06:01:02.542436",
+      "dimension": "data_quality",
+      "task": "Grade 34 ungraded jobs (Director+, Senior Manager, etc)",
+      "status": "completed",
+      "score_before": 7,
+      "score_after": 7,
+      "note": "0% ungraded now. S-1: 18, A-1: 154, A: 79, A-2: 288, B: 35, C: 5"
     }
   ],
   "current_scores": {

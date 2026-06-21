@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-20T19:00:00.000Z",
-  "total_jobs": 807,
+  "generated_at": "2026-06-22T06:00:00.000Z",
+  "total_jobs": 579,
   "sources": {
     "unique_count": 30,
     "counts": {
@@ -41,12 +41,12 @@
   },
   "grades": {
     "distribution": {
-      "A-1": 308,
-      "A-2": 349,
-      "B": 44,
-      "C": 4,
-      "A": 80,
-      "S-1": 22
+      "A-1": 154,
+      "A-2": 288,
+      "B": 35,
+      "C": 5,
+      "A": 79,
+      "S-1": 18
     }
   },
   "locations": {
