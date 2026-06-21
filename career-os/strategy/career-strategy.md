@@ -471,3 +471,162 @@ The strategy's original "Top 5 Priority Companies" list was incomplete. Add thes
 3. **SG Strategy** (Wellington, Mastercard, BlackRock) — Director-level, high leverage
 4. **Google SG** (BizOps/Chief of Staff) — ask Amanda Foster for intro
 5. **SZ Cross-border** (ByteDance, Alibaba) — differentiator, but language barrier
+
+---
+
+## 🔄 Strategy Refresh — June 22, 2026 (Local Data Deep Dive)
+
+### Key Finding: Data Quality Issues Masking Real Opportunity
+
+**169 local jobs analyzed. 50 need categorization. 74 have no location. 41 are dead weight.**
+
+The database has significant data quality issues that obscure the real opportunity set. After cleaning and analysis, the actionable job pool is much smaller than the raw count suggests.
+
+### Data Quality Issues Identified
+
+| Issue | Count | Impact | Action |
+|-------|-------|--------|--------|
+| No location assigned | 74 | Can't prioritize by city | Many are Chinese-language roles without location data |
+| Unclassified category | 50 | Can't filter by role type | Mostly Chinese-language roles needing manual categorization |
+| Dead weight companies | 41 | Skews metrics | Stripe (26, avg 43.6) + Instacart (15, avg 37.4) — US roles with no APAC relevance |
+| Unknown difficulty | 136 | Can't estimate time | Only 32 jobs have difficulty rating |
+
+### Revised Opportunity Set (After Cleanup)
+
+**Actionable jobs: 128** (169 total minus 41 dead weight)
+
+| Segment | Count | Avg Score | Notes |
+|---------|-------|-----------|-------|
+| Score 100 (perfect) | 10 | 100 | All SG, all direct apply — **IMMEDIATE PRIORITY** |
+| Score 80-89 | 14 | 83.4 | Strong fit, mix of direct apply and referral needed |
+| Score 70-79 | 24 | 74.2 | Decent fit, volume play |
+| Score <70 | 80 | 38.1 | Low priority, mostly Chinese-language or poor fit |
+
+### Top 10 Score-100 Jobs — ALL Direct Apply, ALL Singapore
+
+These are the single highest-leverage actions in the entire system. **Apply to all 10 this week.**
+
+| # | Company | Title | Score | Category | Est. Time |
+|---|---------|-------|-------|----------|-----------|
+| 1 | Airwallex | Director, Product Strategy Payments | 100 | strategy | 15 min |
+| 2 | Airwallex | Product Director, Payment Fraud | 100 | fintech | 15 min |
+| 3 | Airwallex | Product Director, Financial Markets & Platform | 100 | platform | 15 min |
+| 4 | Wellington Management | Director, Product Strategy, APAC | 100 | strategy | 15 min |
+| 5 | Mastercard | Director, AI & Data Strategy | 100 | ai_product | 15 min |
+| 6 | BlackRock | Aladdin Product Solutions, Director | 100 | general_pm | 15 min |
+| 7 | BNY | Director, Commercial PM (Custody Platform) | 100 | platform | 15 min |
+| 8 | Manulife | Director, Product Pricing | 100 | general_pm | 15 min |
+| 9 | Bitdeer | Director of Product Management | 100 | general_pm | 15 min |
+| 10 | Agoda | Principal Product Manager | 100 | general_pm | 15 min |
+
+**Total time: 2.5 hours for 10 perfect-score applications.**
+
+### Updated Salary Benchmarks (From 169-Role Local Data)
+
+#### Singapore (21 roles with salary data)
+| Role Type | Floor | Target | Stretch |
+|-----------|-------|--------|---------|
+| Senior PM | SGD 15K/mo | SGD 20K/mo | SGD 28K/mo |
+| Director / Head of Product | SGD 20K/mo | SGD 28K/mo | SGD 35K/mo |
+| Strategy / BizOps | SGD 16K/mo | SGD 25K/mo | SGD 35K/mo |
+
+**Key data points:** Google PM SGD 16-28K; SymphonyAI SGD 16-28K; Airwallex Director SGD 20-35K; Wellington Director SGD 20-35K
+
+#### Hong Kong (12 roles with salary data)
+| Role Type | Floor | Target | Stretch |
+|-----------|-------|--------|---------|
+| Senior PM | HKD 50K/mo | HKD 65K/mo | HKD 80K/mo |
+| Director PM | HKD 70K/mo | HKD 100K/mo | HKD 120K/mo |
+| Strategy / BizOps | HKD 50K/mo | HKD 70K/mo | HKD 100K/mo |
+
+**Key data points:** Be Myjob PM HKD 60-75K + bonus; OKX Director HKD 70-120K; Coins.ph PM HKD 65-100K
+
+### Platform Distribution (Where to Apply)
+
+| Platform | Jobs | Notes |
+|----------|------|-------|
+| Greenhouse | 64 | ATS — standard process, many need login |
+| LinkedIn | 56 | Direct apply often available |
+| Boss Zhipin | 25 | Chinese-language heavy |
+| Liepin | 7 | Chinese-language |
+| JobsDB | 6 | HK-focused |
+| Indeed | 3 | Mix |
+| Wellfound | 3 | Startup-focused |
+| Company sites | 5 | Direct apply |
+
+**Insight:** 64 jobs are on Greenhouse — these often require account creation. LinkedIn (56 jobs) has the most direct-apply opportunities.
+
+### Actionable Weekly Plan (June 22-28) — REVISED
+
+**Goal: 10 applications (score 100 jobs) + 3 overdue outreach messages = 13 actions in ~3 hours**
+
+| Day | Actions | Time | Focus |
+|-----|---------|------|-------|
+| Sat Jun 22 | Send 3 overdue messages + Apply to 2 SG Director roles | 45 min | Fix broken promises + start SG batch |
+| Sun Jun 23 | Apply to 4 SG Director roles | 60 min | Airwallex x3 + Wellington |
+| Mon Jun 24 | Apply to 4 SG Director roles | 60 min | Mastercard, BlackRock, BNY, Manulife |
+| Tue Jun 25 | Apply to 2 SG + Follow up on outreach | 45 min | Bitdeer, Agoda + check responses |
+| Wed Jun 26 | Apply to 3 HK score-80+ roles | 45 min | OKX Web3 Wallet (89), OKX Local Market (87), OKX Institution (83) |
+| Thu Jun 27 | Apply to 3 SG score-80+ roles | 45 min | UOB (82), DBS (82), Crypto.com (82) |
+| Fri Jun 28 | Weekly review + plan Week 3 | 15 min | What worked, adjust |
+
+**Total: ~5 hours for 18 applications + 3 outreach messages**
+
+### Priority Queue — Data-Driven (June 22)
+
+**🔴 TIER 1: Apply IMMEDIATELY (Score 100, direct apply, all SG)**
+1. Airwallex Director Product Strategy Payments (100)
+2. Airwallex Product Director Payment Fraud (100)
+3. Airwallex Product Director Financial Markets (100)
+4. Wellington Management Director Product Strategy APAC (100)
+5. Mastercard Director AI & Data Strategy (100)
+6. BlackRock Aladdin Product Solutions Director (100)
+7. BNY Director Commercial PM Custody Platform (100)
+8. Manulife Director Product Pricing (100)
+9. Bitdeer Director of Product Management (100)
+10. Agoda Principal Product Manager (100)
+
+**🟡 TIER 2: Apply This Week (Score 80-89)**
+11. OKX Web3 Wallet PM (89, HK) — referral via David Liu
+12. OKX Local Market & Growth PM (87, HK) — referral via David Liu
+13. ByteDance Growth Strategy PM Global Payment (85, SG) — referral via David Liu
+14. ByteDance Card Growth PM Global Payment (85, SG) — referral via David Liu
+15. OKX Institution Onboarding PM (83, HK) — direct apply
+16. Coins.ph Compliance/AML PM (83, HK) — direct apply
+17. UOB VP Digital Currency & Payments (82, SG) — referral needed
+18. DBS VP DBS Digital Exchange (82, SG) — referral needed
+19. Crypto.com Lead PM Exchange Institutional (82, SG) — referral needed
+20. OKX Data Infra PM Web3 (81, SG) — referral needed
+21. SymphonyAI SME & Product Lead APAC (81, SG) — referral needed
+22. Google Regional Product Lead (80, SG) — referral via Amanda Foster
+23. Crypto.com Senior PM AI Transformation (80, SG) — referral needed
+24. HSBC VP Wealth Product Manager (80, SG) — referral needed
+
+**🟢 TIER 3: Apply Next Week (Score 70-79)**
+25-48: 24 roles in the 70-79 range — volume play
+
+### Key Insights for Week 2
+
+1. **Singapore is the priority:** 10 score-100 jobs, all in SG, all direct apply. This is the single highest-leverage action.
+2. **OKX is the HK priority:** 4 high-score roles (89, 87, 83, 81) but none have direct apply — need referral via David Liu.
+3. **Cross-border payments is the sweet spot:** ByteDance (85), Airwallex (100), OKX (87) all have cross-border payment roles that match your background.
+4. **Director-level roles dominate SG:** 8 of 10 score-100 jobs are Director-level. This is your level.
+5. **Dead weight is significant:** 41 roles (24% of database) are Stripe/Instacart with no APAC relevance. Ignore them.
+
+### Outreach Priority (Updated June 22)
+
+| Priority | Contact | Company | Action | Due | Status |
+|----------|---------|---------|--------|-----|--------|
+| 1 | David Liu | ByteDance | Reconnect via WeChat — OKX intro + ByteDance SG roles | Jun 20 | 🔴 OVERDUE 2 days |
+| 2 | Emily Watson | Airwallex | Ask for SG Director intros — 3 score-100 roles | Jun 21 | 🔴 OVERDUE 1 day |
+| 3 | Michael Zhang | OpenAI | Send alignment paper — APAC expansion question | Jun 19 | 🔴 OVERDUE 3 days |
+| 4 | Amanda Foster | Google | Ask for SG BizOps intros | Jun 25 | ⏳ PENDING |
+| 5 | Sarah Chen | NVIDIA | Follow up on partnership proposal | Jun 23 | ⏳ PENDING (tomorrow) |
+
+**Critical: 3 messages are overdue. Fix broken promises before sending new outreach.**
+
+---
+
+*Updated by Career OS Cron — June 22, 2026*
+*Data source: 169 local jobs in OKComputer_职位搜索清单/jobs-all.json*
+*Next update: June 29, 2026*
