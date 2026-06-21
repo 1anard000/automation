@@ -257,6 +257,54 @@
       "cities": ["Singapore"],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20UOB%20digital&geoUrn=%5B%22102222073%22%5D",
       "notes": "NEW: VP Digital Currency & Payments (score 82, SG). Banking + crypto intersection."
+    },
+    {
+      "company": "Wellington Management",
+      "priority": 9,
+      "roles_to_find": ["Director Product Strategy", "Head of Strategy APAC"],
+      "cities": ["Singapore"],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20wellington%20management&geoUrn=%5B%22102222073%22%5D",
+      "notes": "NEW: Director Product Strategy APAC (score 100, SG). Investment management + strategy. Direct apply available."
+    },
+    {
+      "company": "Mastercard",
+      "priority": 10,
+      "roles_to_find": ["Director AI Data Strategy", "Head of Strategy APAC"],
+      "cities": ["Singapore"],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=director%20strategy%20mastercard&geoUrn=%5B%22102222073%22%5D",
+      "notes": "NEW: Director AI & Data Strategy (score 100, SG). Fintech + AI intersection. Direct apply available."
+    },
+    {
+      "company": "BlackRock",
+      "priority": 11,
+      "roles_to_find": ["Director Aladdin Product", "Head of Product Solutions APAC"],
+      "cities": ["Singapore"],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20blackrock%20aladdin&geoUrn=%5B%22102222073%22%5D",
+      "notes": "NEW: Aladdin Product Solutions Director (score 100, SG). Asset management platform. Direct apply available."
+    },
+    {
+      "company": "BNY",
+      "priority": 12,
+      "roles_to_find": ["Director Commercial PM Custody", "Head of Digital Assets"],
+      "cities": ["Singapore"],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20BNY%20custody&geoUrn=%5B%22102222073%22%5D",
+      "notes": "NEW: Director Commercial PM Custody Platform (score 100, SG). Custody + digital assets. Direct apply available."
+    },
+    {
+      "company": "SymphonyAI",
+      "priority": 13,
+      "roles_to_find": ["SME Product Lead APAC", "Head of Product APAC"],
+      "cities": ["Singapore"],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20lead%20symphonyai&geoUrn=%5B%22102222073%22%5D",
+      "notes": "NEW: SME & Product Lead for APAC (score 81, SG). AI product leadership. Not direct apply — need referral."
+    },
+    {
+      "company": "Visa",
+      "priority": 14,
+      "roles_to_find": ["AVP Chief of Staff Strategy", "Director Client Consulting"],
+      "cities": ["Singapore", "Hong Kong"],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=strategy%20director%20visa%20apac&geoUrn=%5B%22102222073%22%2C%22102222072%22%5D",
+      "notes": "NEW: AVP Chief of Staff & Head of Strategy Emerging Markets (79) + Director Client Consulting Stablecoin/AI (78). Fintech strategy."
     }
   ]
 }

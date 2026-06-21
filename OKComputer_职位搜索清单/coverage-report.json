@@ -1,131 +1,95 @@
 {
-  "report_date": "2026-06-19",
-  "total_jobs": 492,
-  "unique_companies": 304,
-  "source_breakdown": {
-    "linkedin": 201,
-    "liepin": 122,
-    "company_site": 56,
-    "greenhouse": 30,
-    "boss-zhilian-websearch": 20,
-    "indeed": 12,
-    "linkedin_search": 12,
-    "jobsdb": 7,
-    "ashby": 6,
-    "linkedin_posting": 5,
-    "boss-zhilian": 5,
-    "efinancialcareers": 3,
-    "web_search": 2,
-    "other": 2,
-    "google_careers": 1,
-    "glassdoor": 1,
-    "meta_careers": 1,
-    "microsoft_careers": 1,
-    "zhaopin": 1,
-    "jobs-radar": 1,
-    "himalayas": 1,
-    "lever": 1,
-    "blockchain-association": 1
+  "generated_at": "2026-06-20T19:00:00.000Z",
+  "total_jobs": 807,
+  "sources": {
+    "unique_count": 30,
+    "counts": {
+      "boss-zhilian-websearch": 34,
+      "linkedin": 227,
+      "company_site": 83,
+      "indeed": 15,
+      "greenhouse": 141,
+      "jobsdb": 12,
+      "web_search": 6,
+      "web": 1,
+      "linkedin_posting": 5,
+      "google_careers": 3,
+      "liepin": 215,
+      "glassdoor": 3,
+      "meta_careers": 2,
+      "microsoft_careers": 2,
+      "ashby": 6,
+      "builtin": 10,
+      "wellfound": 3,
+      "linkedin_search": 12,
+      "amazon_jobs": 2,
+      "ByteDance Careers": 3,
+      "other": 2,
+      "company": 1,
+      "efinancialcareers": 3,
+      "boss-zhilian": 5,
+      "Tencent Careers": 6,
+      "zhaopin": 1,
+      "jobs-radar": 1,
+      "himalayas": 1,
+      "lever": 1,
+      "blockchain-association": 1
+    }
   },
-  "top_companies": [
-    [
-      "OKX",
-      42
-    ],
-    [
-      "Airwallex",
-      15
-    ],
-    [
-      "Google",
-      8
-    ],
-    [
-      "Binance",
-      7
-    ],
-    [
-      "ByteDance",
-      6
-    ],
-    [
-      "某知名公司",
-      6
-    ],
-    [
-      "HSBC",
-      5
-    ],
-    [
-      "某深圳大型智能硬件/消费电子公司",
-      5
-    ],
-    [
-      "Crypto.com",
-      5
-    ],
-    [
-      "GovTech Singapore",
-      5
-    ],
-    [
-      "Coins.ph",
-      4
-    ],
-    [
-      "Gate",
-      4
-    ],
-    [
-      "Indeed (company unknown)",
-      4
-    ],
-    [
-      "Shopee",
-      4
-    ],
-    [
-      "UOB",
-      4
-    ],
-    [
-      "某深圳互联网上市公司",
-      4
-    ],
-    [
-      "Bank of China (Hong Kong)",
-      3
-    ],
-    [
-      "CASETiFY",
-      3
-    ],
-    [
-      "Confidential",
-      3
-    ],
-    [
-      "GE HealthCare",
-      3
-    ]
-  ],
-  "grade_distribution": {
-    "A-1": 188,
-    "A-2": 187,
-    "A": 50,
-    "B": 42,
-    "S-1": 22,
-    "C": 3
+  "companies": {
+    "unique_count": 410
   },
-  "status_distribution": {
-    "not_applied": 412,
-    "unknown": 80
+  "grades": {
+    "distribution": {
+      "A-1": 308,
+      "A-2": 349,
+      "B": 44,
+      "C": 4,
+      "A": 80,
+      "S-1": 22
+    }
   },
   "locations": {
-    "Shenzhen": 167,
-    "Singapore": 165,
-    "Hong Kong": 122,
-    "Shanghai": 33,
-    "Guangzhou": 5
+    "distribution": {
+      "Shenzhen": 241,
+      "Singapore": 218,
+      "Hong Kong": 150,
+      "Shanghai": 38,
+      "Sydney, Australia": 5,
+      "Tokyo, Japan": 3,
+      "Remote India": 1,
+      "Taipei": 12,
+      "Tokyo": 4,
+      "Remote - India": 1,
+      "Beijing": 1,
+      "Hangzhou": 5,
+      "Guangzhou": 5,
+      "Melbourne, Australia": 1,
+      "Beijing (international role)": 1,
+      "Shenzhen/Beijing/Shanghai/Hangzhou": 1,
+      "Shenzhen/Singapore": 1,
+      "深圳-福田区": 2,
+      "深圳-南山区": 2,
+      "广州-天河区": 9,
+      "深圳-龙岗区": 1,
+      "深圳": 8,
+      "深圳-宝安区": 1,
+      "Singapore, Singapore": 35,
+      "Hong Kong, Hong Kong SAR": 26,
+      "Brazil; LATAM; Remote Roles - LATAM; São Paulo, Brazil": 1,
+      "LATAM; Mexico (Remote); Remote Roles - LATAM": 1,
+      "Southeast Asia (Remote)": 1,
+      "Hong Kong, Hong Kong SAR; Singapore, Singapore": 1,
+      "Remote - USA": 13,
+      "Remote - Asia": 2,
+      "Shenzhen, China": 1,
+      "United States - Remote": 1,
+      "Denver, CO;San Francisco, CA;New York, NY;Los Angeles, CA;Seattle, WA;Toronto, Ontario, CAN - Remote": 2,
+      "unknown": 12
+    }
+  },
+  "recency": {
+    "last_7_days": 694,
+    "older": 113
   }
 }

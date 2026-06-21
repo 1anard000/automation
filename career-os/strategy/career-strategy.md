@@ -255,6 +255,105 @@ Priority score = Quality Score + Direct Apply (5) + Difficulty Adj (easy +3 / ha
 | 16 | Manulife | Director, Product Pricing | SG | general_pm |
 | 17 | BlackRock | Aladdin Product Solutions Specialist, Director | SG | general_pm |
 
+## 🔄 Strategy Refresh — June 21, 2026 (Local Data Analysis)
+
+### Key Finding: 12 Quick-Win Jobs Sitting Untouched
+Local job database has **169 roles**, **12 score-80+ direct-apply jobs** that haven't been applied to. This is the single highest-leverage action: submit these applications.
+
+### Updated Priority Queue (Data-Driven, June 21)
+
+**🔴 TIER 1: Apply IMMEDIATELY (Score 100, direct apply, all SG)**
+
+| # | Company | Title | City | Score | Why This Matters |
+|---|---------|-------|------|-------|------------------|
+| 1 | Airwallex | Director, Product Strategy Payments | SG | 100 | Cross-border payments, ask Emily Watson for intro |
+| 2 | Airwallex | Product Director, Payment Fraud | SG | 100 | Same company, different team |
+| 3 | Airwallex | Product Director, Financial Markets & Platform | SG | 100 | Platform/infrastructure role |
+| 4 | Wellington Management | Director, Product Strategy, APAC | SG | 100 | Strategy + investment management |
+| 5 | Mastercard | Director, AI & Data Strategy | SG | 100 | AI + fintech, top-tier company |
+| 6 | BlackRock | Aladdin Product Solutions, Director | SG | 100 | Asset management platform |
+| 7 | BNY | Director, Commercial PM (Custody Platform) | SG | 100 | Custody/digital assets |
+| 8 | Manulife | Director, Product Pricing | SG | 100 | Insurance + product |
+| 9 | Bitdeer | Director of Product Management | SG | 100 | Crypto mining infrastructure |
+| 10 | Agoda | Principal Product Manager | SG | 100 | Travel + marketplace (Amazon parallel) |
+
+**🟡 TIER 2: Apply This Week (Score 80-89)**
+
+| # | Company | Title | City | Score | Notes |
+|---|---------|-------|------|-------|-------|
+| 11 | OKX | Principal/Senior PM, Web3 Wallet | HK | 89 | Highest-score non-SG role |
+| 12 | OKX | Principal/Senior PM, Local Market & Growth | HK | 87 | Latin America scope |
+| 13 | ByteDance | Growth Strategy PM - Global Payment | SG | 85 | Cross-border payments |
+| 14 | ByteDance | Card Growth PM - Global Payment | SG | 85 | Same team, second app |
+| 15 | OKX | Principal/Senior PM, Institution Onboarding | HK | 83 | Direct apply available |
+| 16 | Coins.ph | Principal PM - Compliance/AML/Risk | HK | 83 | Direct apply available |
+| 17 | UOB | VP Digital Currency & Payments | SG | 82 | Banking + crypto |
+| 18 | DBS Bank | VP DBS Digital Exchange | SG | 82 | Largest SG bank |
+| 19 | Crypto.com | Lead PM Exchange (Institutional) | SG | 82 | Institutional crypto |
+| 20 | SymphonyAI | SME & Product Lead for APAC | SG | 81 | NEW FIND — AI product lead |
+| 21 | Google | Regional Product Lead, Foundational Measurement | SG | 80 | Ask Amanda Foster |
+| 22 | Crypto.com | Senior PM AI Transformation | SG | 80 | AI + crypto |
+| 23 | HSBC | VP Wealth Product Manager (Platform) | SG | 80 | Banking platform |
+
+**🟢 TIER 3: Apply Next Week (Score 70-79)**
+
+| # | Company | Title | City | Score | Notes |
+|---|---------|-------|------|-------|-------|
+| 24 | Citi | PM Payments VP | HK | 79 | Banking payments |
+| 25 | Visa | AVP Chief of Staff & Head of Strategy | APAC | 79 | Strategy + fintech |
+| 26 | HashKey Group | Payment Director | HK | 78 | Crypto payments |
+| 27 | Lalamove | Head of Product | HK | 78 | Logistics + marketplace |
+| 28 | OCBC | Head of Cash Products, Transaction Banking | HK | 78 | Banking |
+| 29 | Binance | AI Chatbot PM | HK | 77 | Crypto + AI |
+| 30 | Gate | Payment PM Fiat & Cross-Border | SG | 75 | Cross-border payments |
+
+### New Companies to Prioritize (Discovered June 21)
+
+The strategy's original "Top 5 Priority Companies" list was incomplete. Add these:
+
+| Company | High-Score Roles | Score | City | Why Add |
+|---------|-----------------|-------|------|---------|
+| **Wellington Management** | 1 | 100 | SG | Score-100 Director role, direct apply |
+| **Mastercard** | 1 | 100 | SG | Score-100 AI strategy role |
+| **BlackRock** | 1 | 100 | SG | Score-100 Aladdin platform role |
+| **BNY** | 1 | 100 | SG | Score-100 custody platform role |
+| **Manulife** | 1 | 100 | SG | Score-100 product pricing role |
+| **Bitdeer** | 1 | 100 | SG | Score-100 crypto mining PM |
+| **Agoda** | 1 | 100 | SG | Score-100 marketplace PM |
+| **SymphonyAI** | 1 | 81 | SG | NEW: AI product lead for APAC |
+| **Coins.ph** | 1 | 83 | HK | Crypto payments compliance |
+| **HSBC** | 1 | 80 | SG | Banking platform |
+| **Visa** | 2 | 79, 78 | APAC | Strategy + fintech consulting |
+| **Lalamove** | 1 | 78 | HK | Logistics + marketplace |
+| **HashKey Group** | 1 | 78 | HK | Crypto payments |
+
+### Data Quality Insights (June 21)
+
+1. **Stripe (26 roles) and Instacart (15 roles) are dead weight** — 41 roles combined, ZERO scoring above 70. These are US-based roles with no APAC relevance. **Recommendation:** Remove or deprioritize to focus on actionable roles.
+2. **151 of 169 jobs had no status field** — now cleaned to "not_applied". Status tracking was broken.
+3. **50 jobs had no category** — now labeled "unclassified". Category classification needs improvement.
+4. **Job count discrepancy:** Strategy doc references 416 roles, but local database has 169. The 416 may include other data sources (scrapers, websearch results). Reconciliation needed.
+5. **Score distribution is polarized:** 10 jobs at 100, 14 at 80-89, then drops sharply. The middle ground (70-79) has 33 roles but most are at non-priority companies.
+
+### Revised Weekly Focus (June 22-28)
+
+| Day | Focus | Roles | Time |
+|-----|-------|-------|------|
+| Mon Jun 22 | SG Score-100 Director roles (Airwallex x3, Wellington, Mastercard) | 5 apps | 60 min |
+| Tue Jun 23 | SG Score-100 Director roles (BlackRock, BNY, Manulife, Bitdeer, Agoda) | 5 apps | 60 min |
+| Wed Jun 24 | HK Crypto/Fintech (OKX x3, Coins.ph) + SG (SymphonyAI, Google) | 6 apps | 60 min |
+| Thu Jun 25 | SG Banking (UOB, DBS, Crypto.com x2, HSBC) + outreach follow-ups | 5 apps + outreach | 60 min |
+| Fri Jun 26 | SZ Cross-border (ByteDance x2) + catch-up + weekly review | 2 apps + review | 45 min |
+
+**Total: 23 applications in 5.25 hours.** This breaks the zero and builds momentum.
+
+### Immediate Next Steps
+1. **Submit 10 score-100 applications TODAY** — all direct-apply, all SG, takes ~2 hours
+2. **Send 3 overdue outreach messages** (Michael Zhang, David Liu, Emily Watson) — ~25 min
+3. **Add SymphonyAI and Wellington to contacts research queue** — new high-value targets
+
+---
+
 ## Market Intelligence Log
 
 ### June 2026 — Key Signals

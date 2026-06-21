@@ -120,7 +120,8 @@
     "stale_days": 0,
     "summary": "Director-level Product Management role at HashKey Group. based in Hong Kong. focused on payments.",
     "category": "fintech",
-    "has_direct_apply": true
+    "has_direct_apply": true,
+    "status": "not_applied"
   },
   {
     "title": "Head of Emerging Markets",
@@ -146,7 +147,8 @@
     "stale_days": 0,
     "summary": "Director-level GM/Country Manager role at IG Group. based in Singapore.",
     "category": "general_pm",
-    "has_direct_apply": true
+    "has_direct_apply": true,
+    "status": "not_applied"
   },
   {
     "title": "Head of Product",
@@ -172,7 +174,8 @@
     "stale_days": 0,
     "summary": "Director-level Product Management role at Lalamove. based in Hong Kong.",
     "category": "general_pm",
-    "has_direct_apply": true
+    "has_direct_apply": true,
+    "status": "not_applied"
   },
   {
     "title": "Product Manager - Growth & Monetization",
@@ -248,7 +251,8 @@
     "stale_days": 0,
     "summary": "Senior Product Management role at OKX. based in Hong Kong.",
     "category": "general_pm",
-    "has_direct_apply": true
+    "has_direct_apply": true,
+    "status": "not_applied"
   },
   {
     "title": "Head of Expansion (APAC)",
@@ -274,7 +278,8 @@
     "stale_days": 0,
     "summary": "Director-level Cross-border/Expansion role at Unlimit. based in Singapore.",
     "category": "general_pm",
-    "has_direct_apply": true
+    "has_direct_apply": true,
+    "status": "not_applied"
   },
   {
     "title": "Director, Client Consulting, Stablecoin, AI & Fintech Innovation",
@@ -300,7 +305,8 @@
     "stale_days": 0,
     "summary": "Director-level Strategy/Ops role at Visa. based in Hong Kong. focused on AI/ML, fintech.",
     "category": "ai_product",
-    "has_direct_apply": true
+    "has_direct_apply": true,
+    "status": "not_applied"
   },
   {
     "title": "Principal Product Manager - Compliance / AML / Risk Platform",
@@ -326,7 +332,8 @@
     "stale_days": 0,
     "summary": "Senior Product Management role at Coins.ph. based in Hong Kong. focused on platform.",
     "category": "ai_product",
-    "has_direct_apply": true
+    "has_direct_apply": true,
+    "status": "not_applied"
   },
   {
     "title": "General Manager & Country Head - Singapore",
@@ -352,7 +359,8 @@
     "stale_days": 0,
     "summary": "Director-level GM/Country Manager role at EFICYENT. based in Singapore.",
     "category": "general_pm",
-    "has_direct_apply": true
+    "has_direct_apply": true,
+    "status": "not_applied"
   },
   {
     "title": "Head of International Expansion",
@@ -378,7 +386,8 @@
     "stale_days": 0,
     "summary": "Director-level Cross-border/Expansion role at EPOS. based in Singapore.",
     "category": "cross_border",
-    "has_direct_apply": true
+    "has_direct_apply": true,
+    "status": "not_applied"
   },
   {
     "title": "Strategy and Operations Principal Lead, Apps, Product GTM",
@@ -404,7 +413,8 @@
     "stale_days": 0,
     "summary": "Senior Strategy/Ops role at Google. based in Singapore. focused on mobile apps.",
     "category": "strategy",
-    "has_direct_apply": false
+    "has_direct_apply": false,
+    "status": "not_applied"
   },
   {
     "title": "Head of Cash Products, Transaction Banking (HK & Macau)",
@@ -430,7 +440,8 @@
     "stale_days": 0,
     "summary": "Director-level Product Management role at OCBC. based in Hong Kong. focused on banking.",
     "category": "fintech",
-    "has_direct_apply": true
+    "has_direct_apply": true,
+    "status": "not_applied"
   },
   {
     "title": "(Senior) Data Infra Product Manager, On Chain (Web3)",
@@ -455,7 +466,8 @@
     "stale": false,
     "stale_days": 0,
     "summary": "Senior Product Management role at OKX. based in Singapore. focused on AI/ML, crypto/web3.",
-    "category": "fintech"
+    "category": "fintech",
+    "status": "not_applied"
   },
   {
     "title": "Head of Wholesale, NEA (VIP)",
@@ -480,7 +492,8 @@
     "stale": false,
     "stale_days": 0,
     "summary": "Director-level BD/Partnerships role at OKX. based in Hong Kong.",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Product Manager (Global Networking)",
@@ -553,7 +566,8 @@
     "stale_days": 0,
     "summary": "Senior Product Management role at SymphonyAI. based in Singapore.",
     "category": "general_pm",
-    "has_direct_apply": false
+    "has_direct_apply": false,
+    "status": "not_applied"
   },
   {
     "title": "Director, Government Relations, APAC",
@@ -579,7 +593,8 @@
     "stale_days": 0,
     "summary": "Director-level Strategy/Ops role at SHEIN. based in Singapore.",
     "category": "strategy",
-    "has_direct_apply": false
+    "has_direct_apply": false,
+    "status": "not_applied"
   },
   {
     "title": "Regional Head of Strategy, Insights and Data APAC",
@@ -1249,7 +1264,8 @@
     },
     "english_friendly": false,
     "location_norm": "Hong Kong",
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "资深产品经理招聘 - 腾讯",
@@ -1272,7 +1288,8 @@
     },
     "english_friendly": false,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "腾讯产品总监招聘",
@@ -1295,7 +1312,8 @@
     },
     "english_friendly": false,
     "location_norm": "Shenzhen",
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "1688-策略产品负责人-杭州 - 阿里巴巴集团",
@@ -1318,7 +1336,8 @@
     },
     "english_friendly": false,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "产品负责人（客户体验）- 杭州促聚科技",
@@ -1341,7 +1360,8 @@
     },
     "english_friendly": false,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "产品负责人（支付、sdk）- 杭州某大型游戏及IP生态平台",
@@ -1365,7 +1385,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "AI产品经理（大模型/视觉/NLP/转运）- 顺丰科技",
@@ -1390,7 +1411,8 @@
     },
     "english_friendly": true,
     "location_norm": "Shenzhen",
-    "category": "ai_product"
+    "category": "ai_product",
+    "status": "not_applied"
   },
   {
     "title": "元宝-大模型评测产品经理(北京/深圳) - 腾讯",
@@ -1413,7 +1435,8 @@
     },
     "english_friendly": false,
     "location_norm": "Shenzhen",
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "AI/大模型产品经理 - 百度",
@@ -1437,7 +1460,8 @@
     },
     "english_friendly": false,
     "location_norm": "Shenzhen",
-    "category": "ai_product"
+    "category": "ai_product",
+    "status": "not_applied"
   },
   {
     "title": "医疗大模型/医疗智能体产品经理 - 有米科技",
@@ -1460,7 +1484,8 @@
     },
     "english_friendly": false,
     "location_norm": "Shenzhen",
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "大模型策略产品经理 - 腾讯",
@@ -1483,7 +1508,8 @@
     },
     "english_friendly": false,
     "location_norm": "Shenzhen",
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "AI增长产品经理（线索挖掘方向）",
@@ -1507,7 +1533,8 @@
     },
     "english_friendly": false,
     "location_norm": "Hong Kong",
-    "category": "ai_product"
+    "category": "ai_product",
+    "status": "not_applied"
   },
   {
     "title": "新加坡产品经理招聘",
@@ -1530,7 +1557,8 @@
     },
     "english_friendly": false,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "WEB产品经理招聘",
@@ -1554,7 +1582,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "深圳总监招聘信息",
@@ -1577,7 +1606,8 @@
     },
     "english_friendly": false,
     "location_norm": "Shenzhen",
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "账号资深产品经理 - 美团",
@@ -1600,7 +1630,8 @@
     },
     "english_friendly": false,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "AI产品经理 - 杭州星核引力人工智能科技",
@@ -1624,7 +1655,8 @@
     },
     "english_friendly": false,
     "location_norm": null,
-    "category": "ai_product"
+    "category": "ai_product",
+    "status": "not_applied"
   },
   {
     "title": "杭州模型工作室招聘信息",
@@ -1647,7 +1679,8 @@
     },
     "english_friendly": false,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "大模型评测产品经理 - 美团",
@@ -1670,7 +1703,8 @@
     },
     "english_friendly": false,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "建材产品经理 - 香港尚居綠色室内設計有限公司",
@@ -1693,7 +1727,8 @@
     },
     "english_friendly": false,
     "location_norm": "Shenzhen",
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "ai产品经理（外企直签）",
@@ -1717,7 +1752,8 @@
     },
     "english_friendly": false,
     "location_norm": null,
-    "category": "ai_product"
+    "category": "ai_product",
+    "status": "not_applied"
   },
   {
     "title": "产品VP/产品总监招聘",
@@ -1741,7 +1777,8 @@
     },
     "english_friendly": false,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "产品总监（女性向陪伴类海外产品）- 作业帮",
@@ -1764,7 +1801,8 @@
     },
     "english_friendly": false,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "AI产品总监/医疗AI产品负责人 - 同花顺",
@@ -1788,7 +1826,8 @@
     },
     "english_friendly": false,
     "location_norm": null,
-    "category": "ai_product"
+    "category": "ai_product",
+    "status": "not_applied"
   },
   {
     "title": "高级产品经理 - 杭州",
@@ -1811,7 +1850,8 @@
     },
     "english_friendly": false,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Principal / Senior Product Manager, Local Market & Growth (Latin America)",
@@ -1839,7 +1879,8 @@
     },
     "english_friendly": true,
     "location_norm": "Hong Kong",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Principal/Senior Product Manager, Web3 Wallet",
@@ -1867,7 +1908,8 @@
     },
     "english_friendly": true,
     "location_norm": "Hong Kong",
-    "category": "fintech"
+    "category": "fintech",
+    "status": "not_applied"
   },
   {
     "title": "Senior Growth Manager, SEA",
@@ -1894,7 +1936,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Senior Manager, DeFi Lending Growth",
@@ -1922,7 +1965,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "fintech"
+    "category": "fintech",
+    "status": "not_applied"
   },
   {
     "title": "Senior Manager, Web3 Growth",
@@ -1950,7 +1994,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "fintech"
+    "category": "fintech",
+    "status": "not_applied"
   },
   {
     "title": "Senior Manager, Web3 Growth (Ecosystem)",
@@ -1978,7 +2023,8 @@
     },
     "english_friendly": true,
     "location_norm": "Hong Kong",
-    "category": "fintech"
+    "category": "fintech",
+    "status": "not_applied"
   },
   {
     "title": "Senior Manager, Web3 Growth (Protocols)",
@@ -2006,7 +2052,8 @@
     },
     "english_friendly": true,
     "location_norm": "Hong Kong",
-    "category": "fintech"
+    "category": "fintech",
+    "status": "not_applied"
   },
   {
     "title": "Senior/Staff Engineer, Growth",
@@ -2033,7 +2080,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Group Product Manager, Compliance Automation",
@@ -2058,7 +2106,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Group Product Manager, Core Infrastructure & Reliability",
@@ -2083,7 +2132,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Group Product Manager, Developer Infrastructure",
@@ -2108,7 +2158,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Group Product Manager, Financial Engineering ",
@@ -2133,7 +2184,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Group Product Manager, Payments Core",
@@ -2159,7 +2211,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "fintech"
+    "category": "fintech",
+    "status": "not_applied"
   },
   {
     "title": "Senior Program Manager, Contracts & Analytics",
@@ -2184,7 +2237,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Sr. Program Manager, Learning & Development",
@@ -2209,7 +2263,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Staff Product Manager, CX Automation",
@@ -2234,7 +2289,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Technical Program Manager, CX Intelligence & AI",
@@ -2260,7 +2316,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "ai_product"
+    "category": "ai_product",
+    "status": "not_applied"
   },
   {
     "title": "Technical Program Manager, Knowledge Systems",
@@ -2285,7 +2342,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Commercial Solutions Program Manager",
@@ -2311,7 +2369,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Company Strategy & Operations",
@@ -2337,7 +2396,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "strategy"
+    "category": "strategy",
+    "status": "not_applied"
   },
   {
     "title": "Executive Journey Strategy Manager",
@@ -2363,7 +2423,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "strategy"
+    "category": "strategy",
+    "status": "not_applied"
   },
   {
     "title": "Full Stack Engineer, Growth",
@@ -2390,7 +2451,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Product Lead, Connect",
@@ -2416,7 +2478,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Product Manager - Compliance, Bridge",
@@ -2442,7 +2505,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Product Manager, Ecosystem Risk",
@@ -2468,7 +2532,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Product Manager, Growth AI Outreach Motion ",
@@ -2495,7 +2560,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "ai_product"
+    "category": "ai_product",
+    "status": "not_applied"
   },
   {
     "title": "Product Manager, Infrastructure",
@@ -2521,7 +2587,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Product Manager, Link - Consumer",
@@ -2547,7 +2614,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Product Manager, Payments",
@@ -2574,7 +2642,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "fintech"
+    "category": "fintech",
+    "status": "not_applied"
   },
   {
     "title": "Program Manager, GTM Planning",
@@ -2600,7 +2669,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Program Manager, Risk Ops Enablement",
@@ -2626,7 +2696,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Program Manager, Security Business Enablement",
@@ -2652,7 +2723,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Program Manager, Solutions Architecture (GTM Transformation)",
@@ -2678,7 +2750,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Risk Strategist, User Risk Strategy",
@@ -2704,7 +2777,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "strategy"
+    "category": "strategy",
+    "status": "not_applied"
   },
   {
     "title": "Staff Product Manager, Cards Monetization",
@@ -2730,7 +2804,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Staff Product Manager, Dashboard",
@@ -2756,7 +2831,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Staff Product Manager, Enterprise (Industries) ",
@@ -2782,7 +2858,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Staff Product Manager, Payments",
@@ -2809,7 +2886,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "fintech"
+    "category": "fintech",
+    "status": "not_applied"
   },
   {
     "title": "Technical Program Manager",
@@ -2835,7 +2913,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Technical Program Manager, Core Infrastructure",
@@ -2861,7 +2940,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Technical Program Manager,  Extensibility Programs",
@@ -2887,7 +2967,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Technical Program Manager,  Identity and Access Management Programs",
@@ -2913,7 +2994,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Technical Program Manager, Service Infrastructure",
@@ -2939,7 +3021,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "User Risk Strategist, Ecosystem Risk Strategy",
@@ -2965,7 +3048,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "strategy"
+    "category": "strategy",
+    "status": "not_applied"
   },
   {
     "title": "Technical Program Manager",
@@ -2991,7 +3075,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Growth Engineer (Data Systems)",
@@ -3017,7 +3102,8 @@
     },
     "english_friendly": true,
     "location_norm": "Hong Kong",
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Growth Specialist",
@@ -3043,7 +3129,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Staff Product Manager ",
@@ -3068,7 +3155,8 @@
     },
     "english_friendly": true,
     "location_norm": "Shenzhen",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Bilingual Staff Technical Program Manager, Global Enterprise Fulfillment Platform",
@@ -3094,7 +3182,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Director, International Strategy & Planning",
@@ -3121,7 +3210,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "cross_border"
+    "category": "cross_border",
+    "status": "not_applied"
   },
   {
     "title": "Director of Product, Agentic Commerce",
@@ -3148,7 +3238,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "People Experience Program Manager - San Francisco",
@@ -3173,7 +3264,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Program Manager II",
@@ -3198,7 +3290,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Senior Director, Enterprise Delivery and Growth",
@@ -3225,7 +3318,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Senior Director, Media Analytics, Commercial Strategy & Acceleration",
@@ -3251,7 +3345,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "strategy"
+    "category": "strategy",
+    "status": "not_applied"
   },
   {
     "title": "Senior Product Manager, Fraud & Trust",
@@ -3276,7 +3371,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Senior Product Manager, In-Store Tasks",
@@ -3301,7 +3397,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Senior Product Manager, Retailer Platform",
@@ -3327,7 +3424,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "ai_product"
+    "category": "ai_product",
+    "status": "not_applied"
   },
   {
     "title": "Senior Product Manager, Shopping Experience",
@@ -3352,7 +3450,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Senior Product Security Engineer II",
@@ -3377,7 +3476,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Senior Program Manager, Quality Assurance",
@@ -3402,7 +3502,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Senior Strategic Financial Analyst – Growth",
@@ -3428,7 +3529,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Senior Strategy & Planning Manager",
@@ -3453,7 +3555,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "strategy"
+    "category": "strategy",
+    "status": "not_applied"
   },
   {
     "title": "Head of Product, Payroll",
@@ -3479,7 +3582,8 @@
     },
     "english_friendly": true,
     "location_norm": null,
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Ai Product Manager Jobs in Hong Kong - Jun 2026",
@@ -3505,7 +3609,8 @@
     },
     "english_friendly": true,
     "location_norm": "Hong Kong",
-    "category": "ai_product"
+    "category": "ai_product",
+    "status": "not_applied"
   },
   {
     "title": "Senior Product Owner Jobs in Hong Kong - Jun 2026",
@@ -3530,7 +3635,8 @@
     },
     "english_friendly": true,
     "location_norm": "Hong Kong",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Head Of Product Jobs in Hong Kong - Jun 2026",
@@ -3556,7 +3662,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "【深圳高级/资深产品经理招聘】-深圳素士科技股份有限公司深圳招聘",
@@ -3580,7 +3687,8 @@
     },
     "english_friendly": false,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "产品经理- 山西证券深圳招聘信息",
@@ -3604,7 +3712,8 @@
     },
     "english_friendly": false,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "深圳产品总监招聘",
@@ -3628,7 +3737,8 @@
     },
     "english_friendly": false,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "上海招聘产品总监人才",
@@ -3652,7 +3762,8 @@
     },
     "english_friendly": false,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "上海- 产品总监招聘",
@@ -3676,7 +3787,8 @@
     },
     "english_friendly": false,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "上海AI平台产品总监招聘",
@@ -3701,7 +3813,8 @@
     },
     "english_friendly": false,
     "location_norm": null,
-    "category": "ai_product"
+    "category": "ai_product",
+    "status": "not_applied"
   },
   {
     "title": "产品经理招聘",
@@ -3725,7 +3838,8 @@
     },
     "english_friendly": false,
     "location_norm": null,
-    "category": null
+    "category": "unclassified",
+    "status": "not_applied"
   },
   {
     "title": "Product Manager Jobs in Singapore - 2026 - Wellfound",
@@ -3750,7 +3864,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Associate Product Manager (Technical) at Alchemyst AI - Wellfound",
@@ -3776,7 +3891,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "ai_product"
+    "category": "ai_product",
+    "status": "not_applied"
   },
   {
     "title": "Technical Product Manager Jobs in Singapore - 2026 - Wellfound",
@@ -3801,7 +3917,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Senior Product Manager",
@@ -3826,7 +3943,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Senior Product Manager, AI Transformation",
@@ -3853,7 +3971,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "ai_product"
+    "category": "ai_product",
+    "status": "not_applied"
   },
   {
     "title": "Senior Product Manager (eSIM)",
@@ -3878,7 +3997,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Senior Product Manager, Robotics Operations",
@@ -3904,7 +4024,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Bureau Product Head",
@@ -3929,7 +4050,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "VP, Product Manager - Digital Currency and Payments",
@@ -3956,7 +4078,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "fintech"
+    "category": "fintech",
+    "status": "not_applied"
   },
   {
     "title": "VP, Product Manager, DBS Digital Exchange",
@@ -3983,7 +4106,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "fintech"
+    "category": "fintech",
+    "status": "not_applied"
   },
   {
     "title": "Earn Structured Product & Operations Manager/Senior Manager",
@@ -4010,7 +4134,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "P2P Product Manager",
@@ -4035,7 +4160,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Crypto Card Product Manager",
@@ -4061,7 +4187,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "fintech"
+    "category": "fintech",
+    "status": "not_applied"
   },
   {
     "title": "Payment Product Manager (Fiat & Cross-Border)",
@@ -4087,7 +4214,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "cross_border"
+    "category": "cross_border",
+    "status": "not_applied"
   },
   {
     "title": "SG Business Product Manager",
@@ -4113,7 +4241,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Senior Business Product Manager - SG BPM",
@@ -4139,7 +4268,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Senior SG Business Product Manager - SPX",
@@ -4165,7 +4295,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Growth Strategy Product Manager - Global Payment",
@@ -4192,7 +4323,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "cross_border"
+    "category": "cross_border",
+    "status": "not_applied"
   },
   {
     "title": "Card Growth & Loyalty Product Manager - Global Payment",
@@ -4219,7 +4351,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "cross_border"
+    "category": "cross_border",
+    "status": "not_applied"
   },
   {
     "title": "Global Retail Product Owner",
@@ -4245,7 +4378,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "ai_product"
+    "category": "ai_product",
+    "status": "not_applied"
   },
   {
     "title": "Product Owner - Marketplace",
@@ -4271,7 +4405,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Agile Product Owner, Global Transaction Banking",
@@ -4296,7 +4431,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "VP Wealth Product Manager (Platform)",
@@ -4323,7 +4459,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Product Lead",
@@ -4348,7 +4485,8 @@
     },
     "english_friendly": true,
     "location_norm": "Hong Kong",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "AI Chatbot Product Manager",
@@ -4375,7 +4513,8 @@
     },
     "english_friendly": true,
     "location_norm": "Hong Kong",
-    "category": "ai_product"
+    "category": "ai_product",
+    "status": "not_applied"
   },
   {
     "title": "Product Manager (Digital Payment)",
@@ -4401,7 +4540,8 @@
     },
     "english_friendly": true,
     "location_norm": "Hong Kong",
-    "category": "fintech"
+    "category": "fintech",
+    "status": "not_applied"
   },
   {
     "title": "Product Manager(Fiat)",
@@ -4426,7 +4566,8 @@
     },
     "english_friendly": true,
     "location_norm": "Hong Kong",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Compliance Product Manager",
@@ -4451,7 +4592,8 @@
     },
     "english_friendly": true,
     "location_norm": "Hong Kong",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Product Manager, Payments - VP",
@@ -4478,7 +4620,8 @@
     },
     "english_friendly": true,
     "location_norm": "Hong Kong",
-    "category": "fintech"
+    "category": "fintech",
+    "status": "not_applied"
   },
   {
     "title": "VP, Product Specialist, Custody Product Management",
@@ -4504,7 +4647,8 @@
     },
     "english_friendly": true,
     "location_norm": "Hong Kong",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Lead / Senior Product Manager - Exchange (Institutional)",
@@ -4531,7 +4675,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "fintech"
+    "category": "fintech",
+    "status": "not_applied"
   },
   {
     "title": "Product Director, Banking Engagement",
@@ -4558,7 +4703,8 @@
     },
     "english_friendly": true,
     "location_norm": "Hong Kong",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Senior Product Manager Stablecoin & Crypto",
@@ -4584,7 +4730,8 @@
     },
     "english_friendly": true,
     "location_norm": "Singapore",
-    "category": "fintech"
+    "category": "fintech",
+    "status": "not_applied"
   },
   {
     "title": "Product Manager - FMCG",
@@ -4609,7 +4756,8 @@
     },
     "english_friendly": true,
     "location_norm": "Hong Kong",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Buy Now, Pay Later (BNPL) Product & Operations Lead",
@@ -4635,7 +4783,8 @@
     },
     "english_friendly": true,
     "location_norm": "Hong Kong",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   },
   {
     "title": "Web3 Growth & Business Operations Lead - GTM / Product Operations (Crypto)",
@@ -4661,7 +4810,8 @@
     },
     "english_friendly": true,
     "location_norm": "Hong Kong",
-    "category": "fintech"
+    "category": "fintech",
+    "status": "not_applied"
   },
   {
     "title": "Product Senior",
@@ -4686,6 +4836,7 @@
     },
     "english_friendly": true,
     "location_norm": "Shenzhen",
-    "category": "general_pm"
+    "category": "general_pm",
+    "status": "not_applied"
   }
 ]

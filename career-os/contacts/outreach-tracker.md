@@ -247,6 +247,7 @@
 | 2026-06-21 | **Strategy update — 136 unscored jobs rescanned** | - | Career OS | ✅ Found 9 new high-score (80+) roles: OKX Web3 Wallet (89), OKX Local Market (87), ByteDance x2 cross-border (85), UOB (82), DBS (82), Crypto.com x2 (82, 80). Updated strategy doc with revised priority queue. |
 | 2026-06-21 | **Events file updated with real dates** | - | HK, SG, SH, SZ | ✅ Added specific event dates, target contacts, and pre-event checklists |
 | 2026-06-21 | **Contacts research queue expanded** | 8 companies | OKX, Airwallex, ByteDance, Crypto.com, Google, Binance, DBS, UOB | ✅ Added Crypto.com, DBS, UOB to research queue. Updated ByteDance with SG cross-border roles. |
+| 2026-06-21 | **Strategy refresh — local data analysis** | 169 roles analyzed | All companies | ✅ Found 12 score-80+ direct-apply jobs untouched. Identified 7 new priority companies (Wellington, Mastercard, BlackRock, BNY, Manulife, Bitdeer, Agoda). Cleaned 151 missing statuses + 50 missing categories. Updated strategy with 30-role priority queue. |
 
 ---
 
