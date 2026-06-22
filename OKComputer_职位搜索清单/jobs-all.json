@@ -241,29 +241,6 @@
     "has_direct_link": true
   },
   {
-    "title": "Principal Product Manager (Singapore Based)",
-    "company": "Agoda",
-    "location": "Singapore",
-    "grade": "A-2",
-    "url": "https://job-boards.greenhouse.io/agoda/jobs/8009593",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-21",
-    "source": "greenhouse",
-    "status": "not_applied",
-    "status_date": "2026-06-21",
-    "last_touch_date": "2026-06-21",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "stale": false,
-    "stale_days": 0,
-    "has_direct_link": true,
-    "category": "general_pm",
-    "url_type": "direct",
-    "english_friendly": true,
-    "quality_score": 74
-  },
-  {
     "title": "Senior Product Manager, Growth",
     "company": "Airwallex",
     "location": "Singapore",
@@ -515,18 +492,42 @@
     "title": "Revenue Strategy & Operations Lead, Japan",
     "company": "Anthropic",
     "location": "Tokyo, Japan",
+    "location_norm": "Tokyo",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5016171008",
+    "role_type": "Strategy/Ops",
     "salary": "",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5221910008",
+    "scanned_date": "2026-06-22",
     "source": "greenhouse",
-    "role_type": "strategy",
-    "description": "Strategy & ops lead for Japan market at Anthropic. AI company, cross-border.",
-    "grade": "A-1",
-    "posted": "2026-05-20T10:25:58-04:00",
-    "has_direct_link": true,
-    "category": "strategy",
-    "url_type": "direct",
+    "summary": "Senior Strategy/Ops role at Anthropic. based in Tokyo, Japan.",
     "english_friendly": true,
-    "quality_score": 76
+    "category": "strategy",
+    "quality_score": 85,
+    "quality_tier": "A",
+    "low_quality": false,
+    "grade": "A-1",
+    "app_platform": "greenhouse",
+    "app_difficulty": "medium",
+    "app_time_est": "15-20 min",
+    "job_id": "416ff6b15574",
+    "status": "not_applied",
+    "status_date": "2026-06-22",
+    "last_touch_date": "2026-06-22",
+    "applied_date": null,
+    "lifecycle_notes": [],
+    "platform": "Greenhouse",
+    "login_required": false,
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
+    "url_type": "direct",
+    "has_direct_apply": true,
+    "top20": true,
+    "geo_score": 15,
+    "us_firm_apac": true,
+    "stale": false,
+    "stale_days": 0,
+    "en_title": "Revenue Strategy & Operations Lead, Japan",
+    "bing_fallback": "https://www.bing.com/search?q=Anthropic+Revenue+Strategy+&+Operations+Lead,+Japan+Tokyo,+Japan+apply",
+    "has_direct_link": true
   },
   {
     "title": "Senior Wealth Management Product Manager (Insurance)",
@@ -2654,98 +2655,6 @@
     "has_direct_link": false
   },
   {
-    "title": "Principal/Senior Product Manager, AI and Agent",
-    "company": "OKX",
-    "location": "Hong Kong",
-    "grade": "A-2",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7531920003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-21",
-    "source": "greenhouse",
-    "status": "not_applied",
-    "status_date": "2026-06-21",
-    "last_touch_date": "2026-06-21",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "stale": false,
-    "stale_days": 0,
-    "has_direct_link": true,
-    "category": "ai_product",
-    "url_type": "direct",
-    "english_friendly": true,
-    "quality_score": 73
-  },
-  {
-    "title": "Principal / Senior Product Manager, Institution Onboarding Experience (KYB)",
-    "company": "OKX",
-    "location": "Singapore",
-    "grade": "A-2",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/6584033003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-21",
-    "source": "greenhouse",
-    "status": "not_applied",
-    "status_date": "2026-06-21",
-    "last_touch_date": "2026-06-21",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "stale": false,
-    "stale_days": 0,
-    "has_direct_link": true,
-    "category": "general_pm",
-    "url_type": "direct",
-    "english_friendly": true,
-    "quality_score": 74
-  },
-  {
-    "title": "Principal / Senior Product Manager, Local Market & Growth (Latin America)",
-    "company": "OKX",
-    "location": "Brazil; LATAM; Remote Roles - LATAM; São Paulo, Brazil",
-    "grade": "A-2",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7655632003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-21",
-    "source": "greenhouse",
-    "status": "not_applied",
-    "status_date": "2026-06-21",
-    "last_touch_date": "2026-06-21",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "stale": false,
-    "stale_days": 0,
-    "has_direct_link": true,
-    "category": "growth",
-    "url_type": "direct",
-    "english_friendly": true,
-    "quality_score": 71
-  },
-  {
-    "title": "Principal / Senior Product Manager, Local Market & Growth (Latin America)",
-    "company": "OKX",
-    "location": "LATAM; Mexico (Remote); Remote Roles - LATAM",
-    "grade": "A-2",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7655633003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-21",
-    "source": "greenhouse",
-    "status": "not_applied",
-    "status_date": "2026-06-21",
-    "last_touch_date": "2026-06-21",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "stale": false,
-    "stale_days": 0,
-    "has_direct_link": true,
-    "category": "growth",
-    "url_type": "direct",
-    "english_friendly": true,
-    "quality_score": 71
-  },
-  {
     "title": "Principal / Senior Product Manager, Local Market & Growth (Latin America)",
     "company": "OKX",
     "location": "Singapore",
@@ -2766,53 +2675,49 @@
     "category": "growth",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 79
+    "quality_score": 79,
+    "quality_tier": "A"
   },
   {
     "title": "Principal/Senior Product Manager, Web3 Wallet",
     "company": "OKX",
-    "location": "Singapore",
-    "grade": "A-2",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7777028003",
+    "location": "Hong Kong, Hong Kong SAR",
+    "location_norm": "Hong Kong",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7777029003",
     "role_type": "Product Management",
     "salary": "",
-    "scanned_date": "2026-06-21",
+    "scanned_date": "2026-06-22",
     "source": "greenhouse",
-    "status": "not_applied",
-    "status_date": "2026-06-21",
-    "last_touch_date": "2026-06-21",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "stale": false,
-    "stale_days": 0,
-    "has_direct_link": true,
-    "category": "fintech",
-    "url_type": "direct",
+    "summary": "Senior Product Management role at OKX. based in Hong Kong, Hong Kong SAR.",
     "english_friendly": true,
-    "quality_score": 71
-  },
-  {
-    "title": "Senior/Principal Product Manager, DEX Trading",
-    "company": "OKX",
-    "location": "Hong Kong",
-    "grade": "A-1",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7671615003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-21",
-    "source": "greenhouse",
-    "status": "not_applied",
-    "status_date": "2026-06-21",
-    "last_touch_date": "2026-06-21",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "stale": false,
-    "stale_days": 0,
-    "has_direct_link": true,
     "category": "general_pm",
+    "quality_score": 75,
+    "quality_tier": "B",
+    "low_quality": false,
+    "grade": "A-1",
+    "app_platform": "greenhouse",
+    "app_difficulty": "medium",
+    "app_time_est": "15-20 min",
+    "job_id": "a8abdb56bc8b",
+    "status": "not_applied",
+    "status_date": "2026-06-22",
+    "last_touch_date": "2026-06-22",
+    "applied_date": null,
+    "lifecycle_notes": [],
+    "platform": "Greenhouse",
+    "login_required": false,
+    "quality_bar_reject": false,
+    "quality_bar_reason": "",
     "url_type": "direct",
-    "english_friendly": true,
-    "quality_score": 76
+    "has_direct_apply": true,
+    "top20": false,
+    "geo_score": 15,
+    "us_firm_apac": false,
+    "stale": false,
+    "stale_days": 0,
+    "en_title": "Principal/Senior Product Manager, Web3 Wallet",
+    "bing_fallback": "https://www.bing.com/search?q=OKX+Principal/Senior+Product+Manager,+Web3+Wallet+Hong+Kong,+Hong+Kong+SAR+apply",
+    "has_direct_link": true
   },
   {
     "title": "Senior / Lead Product Manager – B2B Cross-Border Crypto Payments",
@@ -4948,7 +4853,8 @@
     "category": "general_pm",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 66
+    "quality_score": 66,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Manager - IG Group",
@@ -4971,7 +4877,8 @@
     "category": "general_pm",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 66
+    "quality_score": 66,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Manager - PropertyGuru Group",
@@ -4994,7 +4901,8 @@
     "category": "general_pm",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 66
+    "quality_score": 66,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Manager (FinTech) - MatchMove",
@@ -5017,7 +4925,8 @@
     "category": "fintech",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 63
+    "quality_score": 63,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Manager, AIA Digital",
@@ -5080,7 +4989,8 @@
     "grade": "A-1",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 81
+    "quality_score": 81,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Manager (SG-based) ",
@@ -5177,7 +5087,8 @@
     "category": "growth",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 71
+    "quality_score": 71,
+    "quality_tier": "A"
   },
   {
     "title": "Staff Product Manager, Onboarding",
@@ -5474,7 +5385,8 @@
     "grade": "A-1",
     "english_friendly": true,
     "category": "operations",
-    "quality_score": 78
+    "quality_score": 78,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Manager",
@@ -5861,7 +5773,8 @@
     "category": "growth",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 63
+    "quality_score": 63,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Partnerships Manager, Australia",
@@ -6038,7 +5951,9 @@
     "has_direct_link": false,
     "url_type": "search",
     "category": "growth",
-    "english_friendly": true
+    "english_friendly": true,
+    "quality_tier": "A",
+    "scanned_date": "2026-06-20"
   },
   {
     "title": "营销产品经理（投放优化方向）-Gaming Marketing Platform",
@@ -6056,7 +5971,9 @@
     "has_direct_link": false,
     "url_type": "search",
     "category": "platform",
-    "english_friendly": true
+    "english_friendly": true,
+    "quality_tier": "A",
+    "scanned_date": "2026-06-20"
   },
   {
     "title": "大模型应用产品经理-火山引擎 (LLM Applications PM)",
@@ -6074,7 +5991,9 @@
     "has_direct_link": false,
     "url_type": "search",
     "category": "general_pm",
-    "english_friendly": true
+    "english_friendly": true,
+    "quality_tier": "A",
+    "scanned_date": "2026-06-20"
   },
   {
     "title": "Payments - Banking as a Service / Payer ID - Product Management Senior Specialist",
@@ -6150,7 +6069,8 @@
     "category": "general_pm",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 58
+    "quality_score": 58,
+    "quality_tier": "A"
   },
   {
     "title": "Group Product Manager, Core Infrastructure & Reliability",
@@ -6173,7 +6093,8 @@
     "category": "general_pm",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 58
+    "quality_score": 58,
+    "quality_tier": "A"
   },
   {
     "title": "Group Product Manager, Developer Infrastructure",
@@ -6196,7 +6117,8 @@
     "category": "general_pm",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 58
+    "quality_score": 58,
+    "quality_tier": "A"
   },
   {
     "title": "Group Product Manager, Financial Engineering ",
@@ -6219,7 +6141,8 @@
     "category": "general_pm",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 58
+    "quality_score": 58,
+    "quality_tier": "A"
   },
   {
     "title": "Group Product Manager, Payments Core",
@@ -6242,7 +6165,8 @@
     "category": "fintech",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 55
+    "quality_score": 55,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Program Manager, Contracts & Analytics",
@@ -6265,7 +6189,8 @@
     "category": "general_pm",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 66
+    "quality_score": 66,
+    "quality_tier": "A"
   },
   {
     "title": "Sr. Program Manager, Learning & Development",
@@ -6288,7 +6213,8 @@
     "category": "general_pm",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 58
+    "quality_score": 58,
+    "quality_tier": "A"
   },
   {
     "title": "Staff Product Designer - Advanced Trade",
@@ -6311,7 +6237,8 @@
     "category": "product",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 66
+    "quality_score": 66,
+    "quality_tier": "A"
   },
   {
     "title": "Staff Product Manager, CX Automation",
@@ -6334,7 +6261,8 @@
     "category": "general_pm",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 66
+    "quality_score": 66,
+    "quality_tier": "A"
   },
   {
     "title": "Technical Program Manager, CX Intelligence & AI",
@@ -6357,7 +6285,8 @@
     "category": "ai_product",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 55
+    "quality_score": 55,
+    "quality_tier": "A"
   },
   {
     "title": "Technical Program Manager, Knowledge Systems",
@@ -6380,7 +6309,8 @@
     "category": "general_pm",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 58
+    "quality_score": 58,
+    "quality_tier": "A"
   },
   {
     "title": "Principal Product Manager - Compliance / AML / Risk Platform",
@@ -6791,7 +6721,8 @@
     "url_type": "search",
     "category": "operations",
     "english_friendly": true,
-    "quality_score": 68
+    "quality_score": 68,
+    "quality_tier": "A"
   },
   {
     "title": "General Manager & Country Head - Singapore",
@@ -6842,7 +6773,8 @@
     "category": "general_pm",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 81
+    "quality_score": 81,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Manager, Fintech/Trading/Brokerage Platform",
@@ -7220,7 +7152,8 @@
     "category": "product",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 66
+    "quality_score": 66,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Manager - HK Business",
@@ -7501,7 +7434,8 @@
     "category": "cross_border",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 71
+    "quality_score": 71,
+    "quality_tier": "A"
   },
   {
     "title": "BNPL Product & Operations Lead (Europe Business)",
@@ -8137,51 +8071,43 @@
   {
     "title": "Senior Strategy Project Manager, VIP/Institutions",
     "company": "OKX",
-    "location": "Hong Kong",
-    "grade": "A-1",
-    "url": "https://jobs.okx.com/",
-    "role_type": "Strategy/Ops",
-    "salary": "(est) 50-80K HKD/mo",
-    "scanned_date": "2026-06-13",
-    "source": "greenhouse",
+    "location": "Hong Kong, Hong Kong SAR",
     "location_norm": "Hong Kong",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7739163003",
+    "role_type": "Strategy/Ops",
+    "salary": "",
+    "scanned_date": "2026-06-22",
+    "source": "greenhouse",
+    "summary": "Senior Strategy/Ops role at OKX. based in Hong Kong, Hong Kong SAR.",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 87,
+    "quality_score": 90,
     "quality_tier": "A",
     "low_quality": false,
-    "score_breakdown": {
-      "yoe_match": 30,
-      "domain_match": 25,
-      "location_match": 12,
-      "english_match": 5,
-      "salary_match": 5,
-      "company_fit": 10
-    },
+    "grade": "S-1",
     "app_platform": "greenhouse",
-    "app_difficulty": "easy",
-    "app_time_est": "3-5 min",
-    "job_id": "98a083b194d3",
+    "app_difficulty": "medium",
+    "app_time_est": "15-20 min",
+    "job_id": "970f6d459177",
     "status": "not_applied",
-    "status_date": "2026-06-15",
-    "last_touch_date": "2026-06-15",
+    "status_date": "2026-06-22",
+    "last_touch_date": "2026-06-22",
     "applied_date": null,
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "url_type": "search",
-    "has_direct_apply": false,
-    "top20": false,
-    "geo_score": 21,
-    "us_firm_apac": true,
-    "stale": true,
-    "stale_days": 8,
+    "url_type": "direct",
+    "has_direct_apply": true,
+    "top20": true,
+    "geo_score": 15,
+    "us_firm_apac": false,
+    "stale": false,
+    "stale_days": 0,
     "en_title": "Senior Strategy Project Manager, VIP/Institutions",
-    "summary": "Senior Strategy/Ops role at OKX. based in Hong Kong.",
-    "has_direct_link": false,
-    "bing_fallback": "https://www.bing.com/search?q=OKX%20Senior%20Strategy%20Project%20Manager%2C%20VIP/Institutions%20Hong%20Kong%20apply"
+    "bing_fallback": "https://www.bing.com/search?q=OKX+Senior+Strategy+Project+Manager,+VIP/Institutions+Hong+Kong,+Hong+Kong+SAR+apply",
+    "has_direct_link": true
   },
   {
     "title": "(Senior) Product Manager, DEX Institution Trading",
@@ -8589,47 +8515,6 @@
     "bing_fallback": "https://www.bing.com/search?q=OKX%20Senior%20Strategy%20PMO%20/%20Project%20Manager%20%28AI%20%26%20Org%20Efficiency%29%20Singapore%20apply"
   },
   {
-    "title": "Senior Strategy PMO / Project Manager (AI & Org Efficiency)",
-    "company": "OKX",
-    "location": "Hong Kong",
-    "location_norm": "Hong Kong",
-    "salary": "HKD 70-100K/mo est",
-    "url": "https://www.efinancialcareers.hk/jobs-Hong_Kong-Hong_Kong-Senior_Strategy_PMO__Project_Manager_AI__Org_Efficiency.id24250148",
-    "source": "efinancialcareers",
-    "role_type": "Strategy/Ops",
-    "summary": "Senior Strategy PMO at OKX driving AI and organizational efficiency. Strategy + project management at crypto exchange. Hong Kong based.",
-    "grade": "A-1",
-    "quality_score": 79,
-    "quality_tier": "B",
-    "low_quality": false,
-    "english_friendly": true,
-    "category": "strategy",
-    "scanned_date": "2026-06-17",
-    "job_id": "b10e891f9d0f",
-    "status": "not_applied",
-    "status_date": "2026-06-17",
-    "last_touch_date": "2026-06-17",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "eFinancialCareers",
-    "login_required": false,
-    "has_direct_apply": false,
-    "app_platform": "other",
-    "app_difficulty": "medium",
-    "app_time_est": "10-15 min",
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "search",
-    "top20": false,
-    "geo_score": 18,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Senior Strategy PMO / Project Manager (AI & Org Efficiency)",
-    "has_direct_link": false,
-    "bing_fallback": "https://www.bing.com/search?q=OKX%20Senior%20Strategy%20PMO%20/%20Project%20Manager%20%28AI%20%26%20Org%20Efficiency%29%20Hong%20Kong%20apply"
-  },
-  {
     "title": "Senior Product Manager, Risk Platform",
     "company": "OKX",
     "location": "Singapore",
@@ -8725,54 +8610,43 @@
   {
     "title": "Fraud Risk Strategy Expert",
     "company": "OKX",
-    "location": "Singapore",
-    "grade": "A-2",
-    "url": "https://jobs.okx.com/",
-    "role_type": "Strategy/Ops",
-    "salary": "(est) 15-25K SGD/mo",
-    "scanned_date": "2026-06-13",
-    "source": "greenhouse",
+    "location": "Singapore, Singapore",
     "location_norm": "Singapore",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/6270708003",
+    "role_type": "Strategy/Ops",
+    "salary": "",
+    "scanned_date": "2026-06-22",
+    "source": "greenhouse",
+    "summary": "Senior Strategy/Ops role at OKX. based in Singapore, Singapore.",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 60,
-    "quality_tier": "C",
-    "low_quality": true,
-    "score_breakdown": {
-      "yoe_match": 0,
-      "salary_match": 0,
-      "domain_match": 0,
-      "location_match": 0,
-      "english_match": 0,
-      "company_fit": 0,
-      "reject_reason": "Location: Singapore (no work authorization)"
-    },
+    "quality_score": 80,
+    "quality_tier": "A",
+    "low_quality": false,
+    "grade": "A-1",
     "app_platform": "greenhouse",
-    "app_difficulty": "easy",
-    "app_time_est": "3-5 min",
-    "job_id": "7491d8edba79",
+    "app_difficulty": "medium",
+    "app_time_est": "15-20 min",
+    "job_id": "46f43ae7ff59",
     "status": "not_applied",
-    "status_date": "2026-06-15",
-    "last_touch_date": "2026-06-15",
+    "status_date": "2026-06-22",
+    "last_touch_date": "2026-06-22",
     "applied_date": null,
     "lifecycle_notes": [],
     "platform": "Greenhouse",
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "sg_visa_likely": true,
-    "sg_note": "Large company, visa sponsorship likely",
-    "url_type": "search",
-    "has_direct_apply": false,
-    "top20": false,
-    "geo_score": 13,
-    "us_firm_apac": true,
-    "stale": true,
-    "stale_days": 8,
+    "url_type": "direct",
+    "has_direct_apply": true,
+    "top20": true,
+    "geo_score": 15,
+    "us_firm_apac": false,
+    "stale": false,
+    "stale_days": 0,
     "en_title": "Fraud Risk Strategy Expert",
-    "summary": "Mid-level Strategy/Ops role at OKX. based in Singapore.",
-    "has_direct_link": false,
-    "bing_fallback": "https://www.bing.com/search?q=OKX%20Fraud%20Risk%20Strategy%20Expert%20Singapore%20apply"
+    "bing_fallback": "https://www.bing.com/search?q=OKX+Fraud+Risk+Strategy+Expert+Singapore,+Singapore+apply",
+    "has_direct_link": true
   },
   {
     "title": "(Senior) Data Infra Product Manager, On Chain (Web3)",
@@ -8803,102 +8677,28 @@
     "has_direct_link": false
   },
   {
-    "title": "Principal / Senior Product Manager, Local Market & Growth (Latin America)",
-    "company": "OKX",
-    "location": "Hong Kong",
-    "grade": "C",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7655610003",
-    "role_type": "A-2",
-    "salary": "",
-    "scanned_date": "2026-06-20",
-    "source": "greenhouse",
-    "summary": "Senior A-2 role at OKX based in Hong Kong.",
-    "location_norm": "Hong Kong",
-    "english_friendly": true,
-    "category": "growth",
-    "quality_score": 24,
-    "quality_tier": "A",
-    "low_quality": false,
-    "score_breakdown": {
-      "yoe_match": 20,
-      "domain_match": 15,
-      "location_match": 4,
-      "english_match": 5,
-      "salary_match": 0,
-      "company_fit": 0
-    },
-    "app_platform": "other",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "8ddb6f1cfb59",
-    "status": "not_applied",
-    "status_date": "2026-06-20",
-    "last_touch_date": "2026-06-20",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Other",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "search",
-    "has_direct_apply": false,
-    "top20": false,
-    "geo_score": 4,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Principal / Senior Product Manager, Local Market & Growth (Latin America)",
-    "has_direct_link": false,
-    "bing_fallback": "https://www.bing.com/search?q=OKX%20Principal%20/%20Senior%20Product%20Manager%2C%20Local%20Market%20%26%20Growth%20%28Latin%20America%29%20Hong%20Kong%20apply"
-  },
-  {
     "title": "Senior Data Scientist, Product & Growth Analytics",
     "company": "OKX",
-    "location": "Singapore",
-    "grade": "C",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7732807003",
-    "role_type": "A-2",
+    "location": "Hong Kong",
+    "grade": "A-1",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7732811003",
+    "role_type": "Product Management",
     "salary": "",
-    "scanned_date": "2026-06-20",
+    "scanned_date": "2026-06-21",
     "source": "greenhouse",
-    "summary": "A-2 role at OKX based in Singapore.",
-    "location_norm": "Singapore",
-    "english_friendly": true,
-    "category": "growth",
-    "quality_score": 24,
-    "quality_tier": "A",
-    "low_quality": false,
-    "score_breakdown": {
-      "yoe_match": 20,
-      "domain_match": 15,
-      "location_match": 4,
-      "english_match": 5,
-      "salary_match": 0,
-      "company_fit": 0
-    },
-    "app_platform": "other",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "51144face073",
     "status": "not_applied",
-    "status_date": "2026-06-20",
-    "last_touch_date": "2026-06-20",
+    "status_date": "2026-06-21",
+    "last_touch_date": "2026-06-21",
     "applied_date": null,
     "lifecycle_notes": [],
-    "platform": "Other",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "search",
-    "has_direct_apply": false,
-    "top20": false,
-    "geo_score": 4,
-    "us_firm_apac": false,
     "stale": false,
     "stale_days": 0,
-    "en_title": "Senior Data Scientist, Product & Growth Analytics",
-    "has_direct_link": false,
-    "bing_fallback": "https://www.bing.com/search?q=OKX%20Senior%20Data%20Scientist%2C%20Product%20%26%20Growth%20Analytics%20Singapore%20apply"
+    "has_direct_link": true,
+    "category": "growth",
+    "url_type": "direct",
+    "english_friendly": true,
+    "quality_score": 81,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Data Scientist, Risk (Risk Strategy)",
@@ -9342,29 +9142,6 @@
     "bing_fallback": "https://www.bing.com/search?q=OKX%20Senior%20Product%20Designer%2C%20Wallets%20Singapore%20apply"
   },
   {
-    "title": "Senior Data Scientist, Product & Growth Analytics",
-    "company": "OKX",
-    "location": "Hong Kong",
-    "grade": "A-1",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7732811003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-21",
-    "source": "greenhouse",
-    "status": "not_applied",
-    "status_date": "2026-06-21",
-    "last_touch_date": "2026-06-21",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "stale": false,
-    "stale_days": 0,
-    "has_direct_link": true,
-    "category": "growth",
-    "url_type": "direct",
-    "english_friendly": true,
-    "quality_score": 81
-  },
-  {
     "title": "Senior Growth Manager, SEA",
     "company": "OKX",
     "location": "Southeast Asia (Remote)",
@@ -9385,7 +9162,8 @@
     "category": "growth",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 71
+    "quality_score": 71,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Manager, DeFi Lending Growth",
@@ -9408,7 +9186,8 @@
     "category": "fintech",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 71
+    "quality_score": 71,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Manager, Web3 Growth",
@@ -9431,7 +9210,8 @@
     "category": "fintech",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 71
+    "quality_score": 71,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Manager, Web3 Growth (Ecosystem)",
@@ -9454,7 +9234,8 @@
     "category": "fintech",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 73
+    "quality_score": 73,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Manager, Web3 Growth (Protocols)",
@@ -9477,7 +9258,8 @@
     "category": "fintech",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 73
+    "quality_score": 73,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Designer, Defi",
@@ -9500,7 +9282,8 @@
     "category": "fintech",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 73
+    "quality_score": 73,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Designer, Web3",
@@ -9523,7 +9306,8 @@
     "category": "fintech",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 71
+    "quality_score": 71,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Designer, Web3 Growth",
@@ -9546,53 +9330,8 @@
     "category": "fintech",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 71
-  },
-  {
-    "title": "Senior Product Manager, DevOps and AI",
-    "company": "OKX",
-    "location": "Singapore",
-    "grade": "A-2",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7699601003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-21",
-    "source": "greenhouse",
-    "status": "not_applied",
-    "status_date": "2026-06-21",
-    "last_touch_date": "2026-06-21",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "stale": false,
-    "stale_days": 0,
-    "has_direct_link": true,
-    "category": "ai_product",
-    "url_type": "direct",
-    "english_friendly": true,
-    "quality_score": 71
-  },
-  {
-    "title": "(Senior) Product Manager, DEX Institution Trading",
-    "company": "OKX",
-    "location": "Singapore",
-    "grade": "A-2",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7668932003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-21",
-    "source": "greenhouse",
-    "status": "not_applied",
-    "status_date": "2026-06-21",
-    "last_touch_date": "2026-06-21",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "stale": false,
-    "stale_days": 0,
-    "has_direct_link": true,
-    "category": "general_pm",
-    "url_type": "direct",
-    "english_friendly": true,
-    "quality_score": 74
+    "quality_score": 71,
+    "quality_tier": "A"
   },
   {
     "title": "(Senior) Product Manager, Tokenized Stocks/Equity Trading (DEX)",
@@ -9615,122 +9354,8 @@
     "category": "general_pm",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 76
-  },
-  {
-    "title": "(Senior) Product Manager, Tokenized Stocks/Equity Trading (DEX)",
-    "company": "OKX",
-    "location": "Singapore",
-    "grade": "A-2",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7765707003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-21",
-    "source": "greenhouse",
-    "status": "not_applied",
-    "status_date": "2026-06-21",
-    "last_touch_date": "2026-06-21",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "stale": false,
-    "stale_days": 0,
-    "has_direct_link": true,
-    "category": "general_pm",
-    "url_type": "direct",
-    "english_friendly": true,
-    "quality_score": 74
-  },
-  {
-    "title": "Senior/Staff Product Manager, Token Listing",
-    "company": "OKX",
-    "location": "Hong Kong, Hong Kong SAR; Singapore, Singapore",
-    "grade": "A-1",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7763223003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-21",
-    "source": "greenhouse",
-    "status": "not_applied",
-    "status_date": "2026-06-21",
-    "last_touch_date": "2026-06-21",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "stale": false,
-    "stale_days": 0,
-    "has_direct_link": true,
-    "category": "general_pm",
-    "url_type": "direct",
-    "english_friendly": true,
-    "quality_score": 76
-  },
-  {
-    "title": "Senior Strategy PMO / Project Manager  (AI & Org Efficiency) ",
-    "company": "OKX",
-    "location": "Singapore",
-    "grade": "A-2",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7650512003",
-    "role_type": "Strategy/Ops",
-    "salary": "",
-    "scanned_date": "2026-06-21",
-    "source": "greenhouse",
-    "status": "not_applied",
-    "status_date": "2026-06-21",
-    "last_touch_date": "2026-06-21",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "stale": false,
-    "stale_days": 0,
-    "has_direct_link": true,
-    "category": "ai_product",
-    "url_type": "direct",
-    "english_friendly": true,
-    "quality_score": 71
-  },
-  {
-    "title": "Senior Strategy PMO / Project Manager  (AI & Org Efficiency) ",
-    "company": "OKX",
-    "location": "Hong Kong",
-    "grade": "A-2",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7650513003",
-    "role_type": "Strategy/Ops",
-    "salary": "",
-    "scanned_date": "2026-06-21",
-    "source": "greenhouse",
-    "status": "not_applied",
-    "status_date": "2026-06-21",
-    "last_touch_date": "2026-06-21",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "stale": false,
-    "stale_days": 0,
-    "has_direct_link": true,
-    "category": "ai_product",
-    "url_type": "direct",
-    "english_friendly": true,
-    "quality_score": 73
-  },
-  {
-    "title": "Senior Strategy Project Manager, VIP/Institutions",
-    "company": "OKX",
-    "location": "Singapore",
-    "grade": "A-1",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7739162003",
-    "role_type": "Strategy/Ops",
-    "salary": "",
-    "scanned_date": "2026-06-21",
-    "source": "greenhouse",
-    "status": "not_applied",
-    "status_date": "2026-06-21",
-    "last_touch_date": "2026-06-21",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "stale": false,
-    "stale_days": 0,
-    "has_direct_link": true,
-    "category": "strategy",
-    "url_type": "direct",
-    "english_friendly": true,
-    "quality_score": 79
+    "quality_score": 76,
+    "quality_tier": "A"
   },
   {
     "title": "Product Lead - Pricing",
@@ -9968,7 +9593,8 @@
     "category": "general_pm",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 68
+    "quality_score": 68,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Manager",
@@ -10609,53 +10235,42 @@
     "title": "Credit Risk Strategy Manager",
     "company": "Stripe",
     "location": "Singapore",
-    "grade": "A-2",
-    "url": "https://stripe.com/jobs",
-    "role_type": "Strategy/Ops",
-    "salary": "(est) 10-18K SGD/mo",
-    "scanned_date": "2026-06-13",
-    "source": "greenhouse",
     "location_norm": "Singapore",
+    "url": "https://stripe.com/jobs/search?gh_jid=7863824",
+    "role_type": "Strategy/Ops",
+    "salary": "",
+    "scanned_date": "2026-06-22",
+    "source": "web",
+    "summary": "Senior Strategy/Ops role at Stripe. based in Singapore.",
     "english_friendly": true,
     "category": "strategy",
-    "quality_score": 70,
-    "quality_tier": "B",
-    "low_quality": true,
-    "score_breakdown": {
-      "yoe_match": 0,
-      "salary_match": 0,
-      "domain_match": 0,
-      "location_match": 0,
-      "english_match": 0,
-      "company_fit": 0,
-      "reject_reason": "Location: Singapore (no work authorization)"
-    },
-    "app_platform": "greenhouse",
-    "app_difficulty": "easy",
-    "app_time_est": "3-5 min",
-    "job_id": "1ed09acfbfa0",
+    "quality_score": 80,
+    "quality_tier": "A",
+    "low_quality": false,
+    "grade": "A-1",
+    "app_platform": "other",
+    "app_difficulty": "medium",
+    "app_time_est": "15-20 min",
+    "job_id": "435327f2edd0",
     "status": "not_applied",
-    "status_date": "2026-06-15",
-    "last_touch_date": "2026-06-15",
+    "status_date": "2026-06-22",
+    "last_touch_date": "2026-06-22",
     "applied_date": null,
     "lifecycle_notes": [],
-    "platform": "Greenhouse",
+    "platform": "Other",
     "login_required": false,
     "quality_bar_reject": false,
     "quality_bar_reason": "",
-    "sg_visa_likely": true,
-    "sg_note": "Large company, visa sponsorship likely",
     "url_type": "search",
     "has_direct_apply": false,
-    "top20": false,
-    "geo_score": 13,
-    "us_firm_apac": true,
-    "stale": true,
-    "stale_days": 8,
+    "top20": true,
+    "geo_score": 15,
+    "us_firm_apac": false,
+    "stale": false,
+    "stale_days": 0,
     "en_title": "Credit Risk Strategy Manager",
-    "summary": "Mid-level Strategy/Ops role at Stripe. based in Singapore.",
-    "has_direct_link": false,
-    "bing_fallback": "https://www.bing.com/search?q=Stripe%20Credit%20Risk%20Strategy%20Manager%20Singapore%20apply"
+    "bing_fallback": "https://www.bing.com/search?q=Stripe+Credit+Risk+Strategy+Manager+Singapore+apply",
+    "has_direct_link": false
   },
   {
     "title": "Technical Program Manager",
@@ -10718,7 +10333,8 @@
     "grade": "S-1",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 93
+    "quality_score": 93,
+    "quality_tier": "A"
   },
   {
     "title": "SME & Product Lead for APAC",
@@ -10841,7 +10457,9 @@
     "has_direct_link": false,
     "category": "general_pm",
     "url_type": "direct",
-    "english_friendly": true
+    "english_friendly": true,
+    "quality_tier": "A",
+    "scanned_date": "2026-06-20"
   },
   {
     "title": "APAC Senior Regional Operations Manager, Uber Mobility",
@@ -16970,7 +16588,8 @@
     "category": "general_pm",
     "url_type": "direct",
     "english_friendly": true,
-    "quality_score": 58
+    "quality_score": 58,
+    "quality_tier": "A"
   },
   {
     "title": "Head of ANZ, Applied AI",
@@ -16984,7 +16603,8 @@
     "grade": "A-2",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 70
+    "quality_score": 70,
+    "quality_tier": "A"
   },
   {
     "title": "高级产品经理",
@@ -17385,7 +17005,8 @@
     "grade": "A-2",
     "english_friendly": true,
     "category": "ai_product",
-    "quality_score": 63
+    "quality_score": 63,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Manager",
@@ -17740,30 +17361,6 @@
     "bing_fallback": "https://www.bing.com/search?q=OKX%20Senior%20Product%20Manager%2C%20AI%20Gateway%20Shanghai%20apply"
   },
   {
-    "title": "Principal/Senior Product Manager, Web3 Wallet",
-    "company": "OKX",
-    "location": "Hong Kong",
-    "salary": "",
-    "url": "https://www.linkedin.com/jobs/search/?keywords=principal+senior+product+manager+web3+wallet&location=Hong+Kong",
-    "source": "linkedin",
-    "role_type": "Product Management",
-    "description": "Principal/Senior PM for Web3 wallet at OKX. Lead wallet product development and cross-chain capabilities.",
-    "grade": "A-2",
-    "grade_reason": "Principal-level, Web3 wallet, OKX HK — strong product role but Web3-specific",
-    "scanned_date": "2026-06-19",
-    "location_norm": "Hong Kong",
-    "quality_score": 70,
-    "quality_tier": "B",
-    "job_id": "j_c2aecf18ef81",
-    "english_friendly": true,
-    "url_type": "search",
-    "en_title": "Principal/Senior Product Manager, Web3 Wallet",
-    "summary": "Senior product management role at OKX based in Hong Kong.",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+Principal/Senior+Product+Manager,+Web3+Wallet+Hong+Kong+apply",
-    "has_direct_link": false,
-    "category": "fintech"
-  },
-  {
     "title": "Wealth Management Product Manager (Derivatives-focus)",
     "company": "Ping An Digital Bank",
     "location": "Kowloon, Hong Kong SAR",
@@ -17932,7 +17529,8 @@
     "grade": "A-1",
     "english_friendly": true,
     "category": "platform",
-    "quality_score": 82
+    "quality_score": 82,
+    "quality_tier": "A"
   },
   {
     "title": "Product Lead, Project R.I.S.E",
@@ -17978,7 +17576,9 @@
     "has_direct_link": false,
     "category": "ai_product",
     "url_type": "direct",
-    "english_friendly": true
+    "english_friendly": true,
+    "quality_tier": "A",
+    "scanned_date": "2026-06-20"
   },
   {
     "title": "Deposit Products Development Manager - Wealth Products Management",
@@ -18034,7 +17634,8 @@
     "grade": "A-2",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 73
+    "quality_score": 73,
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Manager - Singapore",
@@ -18174,7 +17775,8 @@
     "grade": "A-2",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 73
+    "quality_score": 73,
+    "quality_tier": "A"
   },
   {
     "title": "(Senior) Segment Manager (Cross Border Business)",
@@ -18238,7 +17840,8 @@
     "grade": "A-1",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 78
+    "quality_score": 78,
+    "quality_tier": "A"
   },
   {
     "title": "Country Director, India",
@@ -18252,7 +17855,8 @@
     "grade": "A-2",
     "english_friendly": true,
     "category": "general_pm",
-    "quality_score": 73
+    "quality_score": 73,
+    "quality_tier": "A"
   },
   {
     "title": "Marketing Manager (KOL/Content)",
@@ -18270,7 +17874,9 @@
     "has_direct_link": false,
     "category": "general_pm",
     "url_type": "direct",
-    "english_friendly": true
+    "english_friendly": true,
+    "quality_tier": "A",
+    "scanned_date": "2026-06-20"
   },
   {
     "title": "海外增长负责人-APP推广/fintech外企",
@@ -20093,7 +19699,9 @@
     "has_direct_link": false,
     "category": "general_pm",
     "url_type": "direct",
-    "english_friendly": true
+    "english_friendly": true,
+    "quality_tier": "A",
+    "scanned_date": "2026-06-20"
   },
   {
     "title": "Senior Business Development Manager (AI/Gaming)",
@@ -20111,7 +19719,9 @@
     "has_direct_link": false,
     "category": "ai_product",
     "url_type": "direct",
-    "english_friendly": true
+    "english_friendly": true,
+    "quality_tier": "A",
+    "scanned_date": "2026-06-20"
   },
   {
     "title": "Strategy Manager",
@@ -20129,7 +19739,9 @@
     "has_direct_link": false,
     "category": "strategy",
     "url_type": "direct",
-    "english_friendly": true
+    "english_friendly": true,
+    "quality_tier": "A",
+    "scanned_date": "2026-06-20"
   },
   {
     "title": "Product Lead",
@@ -20756,170 +20368,6 @@
     "english_friendly": false
   },
   {
-    "title": "Fraud Risk Strategy Expert",
-    "company": "OKX",
-    "location": "Singapore, Singapore",
-    "location_norm": "Singapore",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/6270708003",
-    "role_type": "Strategy/Ops",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Strategy/Ops role at OKX. based in Singapore, Singapore.",
-    "english_friendly": true,
-    "category": "strategy",
-    "quality_score": 80,
-    "quality_tier": "A",
-    "low_quality": false,
-    "grade": "A-1",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "46f43ae7ff59",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": true,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Fraud Risk Strategy Expert",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+Fraud+Risk+Strategy+Expert+Singapore,+Singapore+apply",
-    "has_direct_link": true
-  },
-  {
-    "title": "Principal/Senior Product Manager, AI and Agent",
-    "company": "OKX",
-    "location": "Singapore, Singapore",
-    "location_norm": "Singapore",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7531921003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Product Management role at OKX. based in Singapore, Singapore.",
-    "english_friendly": true,
-    "category": "general_pm",
-    "quality_score": 65,
-    "quality_tier": "B",
-    "low_quality": false,
-    "grade": "A-2",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "495917bb0fce",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": false,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Principal/Senior Product Manager, AI and Agent",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+Principal/Senior+Product+Manager,+AI+and+Agent+Singapore,+Singapore+apply",
-    "has_direct_link": true
-  },
-  {
-    "title": "Principal / Senior Product Manager, Institution Onboarding Experience (KYB)",
-    "company": "OKX",
-    "location": "Hong Kong, Hong Kong SAR",
-    "location_norm": "Hong Kong",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/6584031003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Product Management role at OKX. based in Hong Kong, Hong Kong SAR.",
-    "english_friendly": true,
-    "category": "general_pm",
-    "quality_score": 75,
-    "quality_tier": "B",
-    "low_quality": false,
-    "grade": "A-1",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "2659edef7669",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": false,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Principal / Senior Product Manager, Institution Onboarding Experience (KYB)",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+Principal+/+Senior+Product+Manager,+Institution+Onboarding+Experience+(KYB)+Hong+Kong,+Hong+Kong+SAR+apply",
-    "has_direct_link": true
-  },
-  {
-    "title": "Principal/Senior Product Manager, Web3 Wallet",
-    "company": "OKX",
-    "location": "Hong Kong, Hong Kong SAR",
-    "location_norm": "Hong Kong",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7777029003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Product Management role at OKX. based in Hong Kong, Hong Kong SAR.",
-    "english_friendly": true,
-    "category": "general_pm",
-    "quality_score": 75,
-    "quality_tier": "B",
-    "low_quality": false,
-    "grade": "A-1",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "a8abdb56bc8b",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": false,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Principal/Senior Product Manager, Web3 Wallet",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+Principal/Senior+Product+Manager,+Web3+Wallet+Hong+Kong,+Hong+Kong+SAR+apply",
-    "has_direct_link": true
-  },
-  {
     "title": "Product Director, Compliance",
     "company": "OKX",
     "location": "Hong Kong, Hong Kong SAR",
@@ -21084,88 +20532,6 @@
     "has_direct_link": true
   },
   {
-    "title": "Product Director, Trust & Experience",
-    "company": "OKX",
-    "location": "Singapore, Singapore",
-    "location_norm": "Singapore",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/6576979003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Product Management role at OKX. based in Singapore, Singapore.",
-    "english_friendly": true,
-    "category": "general_pm",
-    "quality_score": 65,
-    "quality_tier": "B",
-    "low_quality": false,
-    "grade": "A-2",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "4a36ed0a64ec",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": false,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Product Director, Trust & Experience",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+Product+Director,+Trust+&+Experience+Singapore,+Singapore+apply",
-    "has_direct_link": true
-  },
-  {
-    "title": "Product Manager / Director, AI Trading",
-    "company": "OKX",
-    "location": "Singapore, Singapore",
-    "location_norm": "Singapore",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7712844003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Product Management role at OKX. based in Singapore, Singapore.",
-    "english_friendly": true,
-    "category": "general_pm",
-    "quality_score": 65,
-    "quality_tier": "B",
-    "low_quality": false,
-    "grade": "A-2",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "2af0a8ddf4c6",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": false,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Product Manager / Director, AI Trading",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+Product+Manager+/+Director,+AI+Trading+Singapore,+Singapore+apply",
-    "has_direct_link": true
-  },
-  {
     "title": "Product Manager / Director, AI Trading",
     "company": "OKX",
     "location": "Hong Kong, Hong Kong SAR",
@@ -21250,47 +20616,6 @@
   {
     "title": "Product Manager / Director, Global Payment Partnerships",
     "company": "OKX",
-    "location": "Singapore, Singapore",
-    "location_norm": "Singapore",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7527252003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Product Management role at OKX. based in Singapore, Singapore.",
-    "english_friendly": true,
-    "category": "general_pm",
-    "quality_score": 65,
-    "quality_tier": "B",
-    "low_quality": false,
-    "grade": "A-2",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "4dba4fa6e594",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": false,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Product Manager / Director, Global Payment Partnerships",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+Product+Manager+/+Director,+Global+Payment+Partnerships+Singapore,+Singapore+apply",
-    "has_direct_link": true
-  },
-  {
-    "title": "Product Manager / Director, Global Payment Partnerships",
-    "company": "OKX",
     "location": "Hong Kong, Hong Kong SAR",
     "location_norm": "Hong Kong",
     "url": "https://job-boards.greenhouse.io/okx/jobs/7527253003",
@@ -21327,47 +20652,6 @@
     "stale_days": 0,
     "en_title": "Product Manager / Director, Global Payment Partnerships",
     "bing_fallback": "https://www.bing.com/search?q=OKX+Product+Manager+/+Director,+Global+Payment+Partnerships+Hong+Kong,+Hong+Kong+SAR+apply",
-    "has_direct_link": true
-  },
-  {
-    "title": "Product Manager / Director, Institutional Growth",
-    "company": "OKX",
-    "location": "Singapore, Singapore",
-    "location_norm": "Singapore",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7738698003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Product Management role at OKX. based in Singapore, Singapore.",
-    "english_friendly": true,
-    "category": "general_pm",
-    "quality_score": 65,
-    "quality_tier": "B",
-    "low_quality": false,
-    "grade": "A-2",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "6e370212b28f",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": false,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Product Manager / Director, Institutional Growth",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+Product+Manager+/+Director,+Institutional+Growth+Singapore,+Singapore+apply",
     "has_direct_link": true
   },
   {
@@ -21453,47 +20737,6 @@
     "has_direct_link": true
   },
   {
-    "title": "Product Manager / Director, Institutional Product",
-    "company": "OKX",
-    "location": "Singapore, Singapore",
-    "location_norm": "Singapore",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7747640003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Product Management role at OKX. based in Singapore, Singapore.",
-    "english_friendly": true,
-    "category": "general_pm",
-    "quality_score": 65,
-    "quality_tier": "B",
-    "low_quality": false,
-    "grade": "A-2",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "7f833dc300f3",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": false,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Product Manager / Director, Institutional Product",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+Product+Manager+/+Director,+Institutional+Product+Singapore,+Singapore+apply",
-    "has_direct_link": true
-  },
-  {
     "title": "Product Manager / Director, Trading Infrastructure",
     "company": "OKX",
     "location": "Hong Kong, Hong Kong SAR",
@@ -21532,47 +20775,6 @@
     "stale_days": 0,
     "en_title": "Product Manager / Director, Trading Infrastructure",
     "bing_fallback": "https://www.bing.com/search?q=OKX+Product+Manager+/+Director,+Trading+Infrastructure+Hong+Kong,+Hong+Kong+SAR+apply",
-    "has_direct_link": true
-  },
-  {
-    "title": "Product Manager / Director, Trading Infrastructure",
-    "company": "OKX",
-    "location": "Singapore, Singapore",
-    "location_norm": "Singapore",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7739030003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Product Management role at OKX. based in Singapore, Singapore.",
-    "english_friendly": true,
-    "category": "general_pm",
-    "quality_score": 65,
-    "quality_tier": "B",
-    "low_quality": false,
-    "grade": "A-2",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "077f51016420",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": false,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Product Manager / Director, Trading Infrastructure",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+Product+Manager+/+Director,+Trading+Infrastructure+Singapore,+Singapore+apply",
     "has_direct_link": true
   },
   {
@@ -21617,47 +20819,6 @@
     "has_direct_link": true
   },
   {
-    "title": "Product Manager / Director, User Growth",
-    "company": "OKX",
-    "location": "Singapore, Singapore",
-    "location_norm": "Singapore",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7768053003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Product Management role at OKX. based in Singapore, Singapore.",
-    "english_friendly": true,
-    "category": "general_pm",
-    "quality_score": 65,
-    "quality_tier": "B",
-    "low_quality": false,
-    "grade": "A-2",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "3dc14f96e032",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": false,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Product Manager / Director, User Growth",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+Product+Manager+/+Director,+User+Growth+Singapore,+Singapore+apply",
-    "has_direct_link": true
-  },
-  {
     "title": "Product Manager / Director, VIP Growth & Operations",
     "company": "OKX",
     "location": "Hong Kong, Hong Kong SAR",
@@ -21696,47 +20857,6 @@
     "stale_days": 0,
     "en_title": "Product Manager / Director, VIP Growth & Operations",
     "bing_fallback": "https://www.bing.com/search?q=OKX+Product+Manager+/+Director,+VIP+Growth+&+Operations+Hong+Kong,+Hong+Kong+SAR+apply",
-    "has_direct_link": true
-  },
-  {
-    "title": "Product Manager / Director, VIP Growth & Operations",
-    "company": "OKX",
-    "location": "Singapore, Singapore",
-    "location_norm": "Singapore",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7766850003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Product Management role at OKX. based in Singapore, Singapore.",
-    "english_friendly": true,
-    "category": "general_pm",
-    "quality_score": 65,
-    "quality_tier": "B",
-    "low_quality": false,
-    "grade": "A-2",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "8d9d7a12b7bb",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": false,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Product Manager / Director, VIP Growth & Operations",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+Product+Manager+/+Director,+VIP+Growth+&+Operations+Singapore,+Singapore+apply",
     "has_direct_link": true
   },
   {
@@ -21781,252 +20901,6 @@
     "has_direct_link": true
   },
   {
-    "title": "Product Manager / Product Director, Copy Trading / Trading Bot",
-    "company": "OKX",
-    "location": "Singapore, Singapore",
-    "location_norm": "Singapore",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/6679537003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Product Management role at OKX. based in Singapore, Singapore.",
-    "english_friendly": true,
-    "category": "general_pm",
-    "quality_score": 65,
-    "quality_tier": "B",
-    "low_quality": false,
-    "grade": "A-2",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "1a94d76cfa98",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": false,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Product Manager / Product Director, Copy Trading / Trading Bot",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+Product+Manager+/+Product+Director,+Copy+Trading+/+Trading+Bot+Singapore,+Singapore+apply",
-    "has_direct_link": true
-  },
-  {
-    "title": "Senior/Principal Product Manager, DEX Trading",
-    "company": "OKX",
-    "location": "Singapore, Singapore",
-    "location_norm": "Singapore",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7671614003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Product Management role at OKX. based in Singapore, Singapore.",
-    "english_friendly": true,
-    "category": "general_pm",
-    "quality_score": 65,
-    "quality_tier": "B",
-    "low_quality": false,
-    "grade": "A-2",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "5d97242c865e",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": false,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Senior/Principal Product Manager, DEX Trading",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+Senior/Principal+Product+Manager,+DEX+Trading+Singapore,+Singapore+apply",
-    "has_direct_link": true
-  },
-  {
-    "title": "Senior Product Manager, Conversational AI Chatbot & Agent Quality",
-    "company": "OKX",
-    "location": "Singapore, Singapore",
-    "location_norm": "Singapore",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7710516003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Product Management role at OKX. based in Singapore, Singapore.",
-    "english_friendly": true,
-    "category": "general_pm",
-    "quality_score": 65,
-    "quality_tier": "B",
-    "low_quality": false,
-    "grade": "A-2",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "c619c627a6ac",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": false,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Senior Product Manager, Conversational AI Chatbot & Agent Quality",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+Senior+Product+Manager,+Conversational+AI+Chatbot+&+Agent+Quality+Singapore,+Singapore+apply",
-    "has_direct_link": true
-  },
-  {
-    "title": "(Senior) Product Manager, DEX Institution Trading",
-    "company": "OKX",
-    "location": "Hong Kong, Hong Kong SAR",
-    "location_norm": "Hong Kong",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7668933003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Product Management role at OKX. based in Hong Kong, Hong Kong SAR.",
-    "english_friendly": true,
-    "category": "general_pm",
-    "quality_score": 75,
-    "quality_tier": "B",
-    "low_quality": false,
-    "grade": "A-1",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "ae372b88691f",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": false,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "(Senior) Product Manager, DEX Institution Trading",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+(Senior)+Product+Manager,+DEX+Institution+Trading+Hong+Kong,+Hong+Kong+SAR+apply",
-    "has_direct_link": true
-  },
-  {
-    "title": "Senior Product Manager, Risk Intelligence Product",
-    "company": "OKX",
-    "location": "Singapore, Singapore",
-    "location_norm": "Singapore",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7690776003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Product Management role at OKX. based in Singapore, Singapore.",
-    "english_friendly": true,
-    "category": "general_pm",
-    "quality_score": 65,
-    "quality_tier": "B",
-    "low_quality": false,
-    "grade": "A-2",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "99a0d78b64d6",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": false,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Senior Product Manager, Risk Intelligence Product",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+Senior+Product+Manager,+Risk+Intelligence+Product+Singapore,+Singapore+apply",
-    "has_direct_link": true
-  },
-  {
-    "title": "Senior Product Manager - Risk Platform",
-    "company": "OKX",
-    "location": "Singapore, Singapore",
-    "location_norm": "Singapore",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/6642975003",
-    "role_type": "Product Management",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Product Management role at OKX. based in Singapore, Singapore.",
-    "english_friendly": true,
-    "category": "general_pm",
-    "quality_score": 65,
-    "quality_tier": "B",
-    "low_quality": false,
-    "grade": "A-2",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "83e42f6e8773",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": false,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Senior Product Manager - Risk Platform",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+Senior+Product+Manager+-+Risk+Platform+Singapore,+Singapore+apply",
-    "has_direct_link": true
-  },
-  {
     "title": "Senior/Staff Engineer, Liquidity Platform, Strategy Service",
     "company": "OKX",
     "location": "Hong Kong, Hong Kong SAR",
@@ -22065,88 +20939,6 @@
     "stale_days": 0,
     "en_title": "Senior/Staff Engineer, Liquidity Platform, Strategy Service",
     "bing_fallback": "https://www.bing.com/search?q=OKX+Senior/Staff+Engineer,+Liquidity+Platform,+Strategy+Service+Hong+Kong,+Hong+Kong+SAR+apply",
-    "has_direct_link": true
-  },
-  {
-    "title": "Senior Strategy Project Manager, VIP/Institutions",
-    "company": "OKX",
-    "location": "Hong Kong, Hong Kong SAR",
-    "location_norm": "Hong Kong",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7739163003",
-    "role_type": "Strategy/Ops",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Strategy/Ops role at OKX. based in Hong Kong, Hong Kong SAR.",
-    "english_friendly": true,
-    "category": "strategy",
-    "quality_score": 90,
-    "quality_tier": "A",
-    "low_quality": false,
-    "grade": "S-1",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "970f6d459177",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": true,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Senior Strategy Project Manager, VIP/Institutions",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+Senior+Strategy+Project+Manager,+VIP/Institutions+Hong+Kong,+Hong+Kong+SAR+apply",
-    "has_direct_link": true
-  },
-  {
-    "title": "Vice President, AI Strategy & Transformation",
-    "company": "OKX",
-    "location": "Singapore, Singapore",
-    "location_norm": "Singapore",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7684887003",
-    "role_type": "Strategy/Ops",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Strategy/Ops role at OKX. based in Singapore, Singapore.",
-    "english_friendly": true,
-    "category": "strategy",
-    "quality_score": 80,
-    "quality_tier": "A",
-    "low_quality": false,
-    "grade": "A-1",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "7fc7b28b3d94",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": true,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Vice President, AI Strategy & Transformation",
-    "bing_fallback": "https://www.bing.com/search?q=OKX+Vice+President,+AI+Strategy+&+Transformation+Singapore,+Singapore+apply",
     "has_direct_link": true
   },
   {
@@ -22189,47 +20981,6 @@
     "en_title": "Vice President, AI Strategy & Transformation",
     "bing_fallback": "https://www.bing.com/search?q=OKX+Vice+President,+AI+Strategy+&+Transformation+Hong+Kong,+Hong+Kong+SAR+apply",
     "has_direct_link": true
-  },
-  {
-    "title": "Credit Risk Strategy Manager",
-    "company": "Stripe",
-    "location": "Singapore",
-    "location_norm": "Singapore",
-    "url": "https://stripe.com/jobs/search?gh_jid=7863824",
-    "role_type": "Strategy/Ops",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "web",
-    "summary": "Senior Strategy/Ops role at Stripe. based in Singapore.",
-    "english_friendly": true,
-    "category": "strategy",
-    "quality_score": 80,
-    "quality_tier": "A",
-    "low_quality": false,
-    "grade": "A-1",
-    "app_platform": "other",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "435327f2edd0",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Other",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "search",
-    "has_direct_apply": false,
-    "top20": true,
-    "geo_score": 15,
-    "us_firm_apac": false,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Credit Risk Strategy Manager",
-    "bing_fallback": "https://www.bing.com/search?q=Stripe+Credit+Risk+Strategy+Manager+Singapore+apply",
-    "has_direct_link": false
   },
   {
     "title": "Product Manager / Product Director, Copy Trading / Trading Bot - P2P",
@@ -22353,47 +21104,6 @@
     "en_title": "Product Director, Payments (Liquidity / Cross-Border) - Ethos BeathChapman",
     "bing_fallback": "https://www.bing.com/search?q=+Product+Director,+Payments+(Liquidity+/+Cross-Border)+-+Ethos+BeathChapman+Singapore+apply",
     "has_direct_link": false
-  },
-  {
-    "title": "Revenue Strategy & Operations Lead, Japan",
-    "company": "Anthropic",
-    "location": "Tokyo, Japan",
-    "location_norm": "Tokyo",
-    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5016171008",
-    "role_type": "Strategy/Ops",
-    "salary": "",
-    "scanned_date": "2026-06-22",
-    "source": "greenhouse",
-    "summary": "Senior Strategy/Ops role at Anthropic. based in Tokyo, Japan.",
-    "english_friendly": true,
-    "category": "strategy",
-    "quality_score": 85,
-    "quality_tier": "A",
-    "low_quality": false,
-    "grade": "A-1",
-    "app_platform": "greenhouse",
-    "app_difficulty": "medium",
-    "app_time_est": "15-20 min",
-    "job_id": "416ff6b15574",
-    "status": "not_applied",
-    "status_date": "2026-06-22",
-    "last_touch_date": "2026-06-22",
-    "applied_date": null,
-    "lifecycle_notes": [],
-    "platform": "Greenhouse",
-    "login_required": false,
-    "quality_bar_reject": false,
-    "quality_bar_reason": "",
-    "url_type": "direct",
-    "has_direct_apply": true,
-    "top20": true,
-    "geo_score": 15,
-    "us_firm_apac": true,
-    "stale": false,
-    "stale_days": 0,
-    "en_title": "Revenue Strategy & Operations Lead, Japan",
-    "bing_fallback": "https://www.bing.com/search?q=Anthropic+Revenue+Strategy+&+Operations+Lead,+Japan+Tokyo,+Japan+apply",
-    "has_direct_link": true
   },
   {
     "title": "Full Stack Engineer, Growth",
@@ -22617,7 +21327,7 @@
     "english_friendly": "",
     "category": "general_pm",
     "quality_score": 68,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -22661,7 +21371,7 @@
     "english_friendly": "",
     "category": "general_pm",
     "quality_score": 68,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -22705,7 +21415,7 @@
     "english_friendly": "",
     "category": "general_pm",
     "quality_score": 68,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -22749,7 +21459,7 @@
     "english_friendly": "",
     "category": "general_pm",
     "quality_score": 61,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -22793,7 +21503,7 @@
     "english_friendly": "",
     "category": "general_pm",
     "quality_score": 61,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -22837,7 +21547,7 @@
     "english_friendly": "",
     "category": "general_pm",
     "quality_score": 68,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -22881,7 +21591,7 @@
     "english_friendly": "",
     "category": "strategy",
     "quality_score": 73,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -22925,7 +21635,7 @@
     "english_friendly": "",
     "category": "general_pm",
     "quality_score": 73,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -22969,7 +21679,7 @@
     "english_friendly": "",
     "category": "fintech",
     "quality_score": 65,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23013,7 +21723,7 @@
     "english_friendly": "",
     "category": "growth",
     "quality_score": 66,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23057,7 +21767,7 @@
     "english_friendly": "",
     "category": "general_pm",
     "quality_score": 61,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23101,7 +21811,7 @@
     "english_friendly": "",
     "category": "operations",
     "quality_score": 58,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23145,7 +21855,7 @@
     "english_friendly": "",
     "category": "general_pm",
     "quality_score": 61,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23189,7 +21899,7 @@
     "english_friendly": "",
     "category": "general_pm",
     "quality_score": 68,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23233,7 +21943,7 @@
     "english_friendly": "",
     "category": "general_pm",
     "quality_score": 68,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23277,7 +21987,7 @@
     "english_friendly": "",
     "category": "operations",
     "quality_score": 58,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23321,7 +22031,7 @@
     "english_friendly": "",
     "category": "ai_product",
     "quality_score": 58,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23365,7 +22075,7 @@
     "english_friendly": "",
     "category": "strategy",
     "quality_score": 73,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23409,7 +22119,7 @@
     "english_friendly": "",
     "category": "general_pm",
     "quality_score": 68,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23453,7 +22163,7 @@
     "english_friendly": "",
     "category": "general_pm",
     "quality_score": 68,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23497,7 +22207,7 @@
     "english_friendly": "",
     "category": "strategy",
     "quality_score": 66,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23541,7 +22251,7 @@
     "english_friendly": "",
     "category": "strategy",
     "quality_score": 66,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23585,7 +22295,7 @@
     "english_friendly": "",
     "category": "general_pm",
     "quality_score": 61,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23629,7 +22339,7 @@
     "english_friendly": "",
     "category": "strategy",
     "quality_score": 66,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23673,7 +22383,7 @@
     "english_friendly": "",
     "category": "growth",
     "quality_score": 73,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23717,7 +22427,7 @@
     "english_friendly": "",
     "category": "strategy",
     "quality_score": 66,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23761,7 +22471,7 @@
     "english_friendly": "",
     "category": "general_pm",
     "quality_score": 68,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23805,7 +22515,7 @@
     "english_friendly": "",
     "category": "general_pm",
     "quality_score": 68,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23849,7 +22559,7 @@
     "english_friendly": "",
     "category": "general_pm",
     "quality_score": 61,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23893,7 +22603,7 @@
     "english_friendly": "",
     "category": "general_pm",
     "quality_score": 68,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23937,7 +22647,7 @@
     "english_friendly": "",
     "category": "strategy",
     "quality_score": 85,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -23981,7 +22691,7 @@
     "english_friendly": "",
     "category": "general_pm",
     "quality_score": 73,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -24025,7 +22735,7 @@
     "english_friendly": "",
     "category": "operations",
     "quality_score": 58,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -24069,7 +22779,7 @@
     "english_friendly": "",
     "category": "strategy",
     "quality_score": 66,
-    "quality_tier": "",
+    "quality_tier": "A",
     "low_quality": "",
     "score_breakdown": "",
     "app_platform": "",
@@ -24982,7 +23692,8 @@
     "posted_date": "2026-06-18",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Financial Operations Lead - DragonPay Team",
@@ -24998,7 +23709,8 @@
     "posted_date": "2026-06-18",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Head of Product - Core & Growth",
@@ -25014,7 +23726,8 @@
     "posted_date": "2026-05-26",
     "english_friendly": true,
     "quality_score": 86,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Product Director – Business Payments",
@@ -25030,7 +23743,8 @@
     "posted_date": "2026-05-26",
     "english_friendly": true,
     "quality_score": 81,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Integration Reliability Engineer, Technical Operations",
@@ -25046,7 +23760,8 @@
     "posted_date": "2026-06-19",
     "english_friendly": true,
     "quality_score": 91,
-    "grade": "S-1"
+    "grade": "S-1",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Manager, Global Premier Support",
@@ -25062,7 +23777,8 @@
     "posted_date": "2026-06-15",
     "english_friendly": true,
     "quality_score": 83,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Staff Product Operations Manager",
@@ -25078,7 +23794,8 @@
     "posted_date": "2026-06-18",
     "english_friendly": true,
     "quality_score": 78,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "[Coupang Pay] Staff Product Designer (FinTech UX)",
@@ -25094,7 +23811,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 66,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Director, Advertising Growth & Marketing",
@@ -25110,7 +23828,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 78,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Director, Catalog Operations",
@@ -25126,7 +23845,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 78,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Director, Compliance (Compliance Risk Monitoring) Global Projects",
@@ -25142,7 +23862,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 78,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Director, Customer Service (TW Contact Center Operations)",
@@ -25158,7 +23879,8 @@
     "posted_date": "2026-06-02",
     "english_friendly": true,
     "quality_score": 83,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Director, Global Payroll and Equity Administration",
@@ -25174,7 +23896,8 @@
     "posted_date": "2026-06-17",
     "english_friendly": true,
     "quality_score": 78,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "[쿠팡이츠서비스] Director II, Program Management (Business & Operations) ",
@@ -25190,7 +23913,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 78,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Director of Operations - Last Mile Innovation",
@@ -25206,7 +23930,8 @@
     "posted_date": "2026-06-10",
     "english_friendly": true,
     "quality_score": 83,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Director of Product Management (Onsite Growth)",
@@ -25222,7 +23947,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 78,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Director, Sales Operations & Program Management",
@@ -25238,7 +23964,8 @@
     "posted_date": "2026-06-02",
     "english_friendly": true,
     "quality_score": 83,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "[Growth Engineering] Senior Staff Back-end Engineer I",
@@ -25254,7 +23981,8 @@
     "posted_date": "2026-06-22",
     "english_friendly": true,
     "quality_score": 83,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "[Growth Engineering] Staff Back-end Engineer I",
@@ -25270,7 +23998,8 @@
     "posted_date": "2026-06-10",
     "english_friendly": true,
     "quality_score": 83,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "[쿠팡] 전사 카테고리 셀렉션 전략 & Growth PM (Principal)",
@@ -25286,7 +24015,8 @@
     "posted_date": "2026-06-18",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Head of Driver Supply Growth & Engagement",
@@ -25302,7 +24032,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 83,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Lead AI Design Technologist (Staff Product Designer)",
@@ -25318,7 +24049,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 66,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "[쿠팡] 가격 운영 품질혁신 리더 / Pricing Operations Excellence Lead (Quality excellence)",
@@ -25334,7 +24066,8 @@
     "posted_date": "2026-06-18",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Principal, Business Analysis(Retail Sourcing & Acquisition Excellence)",
@@ -25350,7 +24083,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "(Senior) Business Analyst, data focused-Strategy & Analytics",
@@ -25366,7 +24100,8 @@
     "posted_date": "2026-06-11",
     "english_friendly": true,
     "quality_score": 76,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Director, Global Payroll and Equity Administration",
@@ -25382,7 +24117,8 @@
     "posted_date": "2026-06-18",
     "english_friendly": true,
     "quality_score": 78,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Director, Robotics & Computer Vision (Global Operations Technology) ",
@@ -25398,7 +24134,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 78,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Director, Sales Strategy & Operations",
@@ -25414,7 +24151,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 78,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Growth Marketing Management, 쿠팡파트너스(Influencer Acquisition)",
@@ -25430,7 +24168,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "[쿠팡] 가격정책·운영개선 리더 / Senior Pricing Program Manager (Seller Excellence)",
@@ -25446,7 +24185,8 @@
     "posted_date": "2026-06-18",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Designer (Business UX)",
@@ -25462,7 +24202,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 66,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Manager (Coupang pay, new Fintech)",
@@ -25478,7 +24219,8 @@
     "posted_date": "2026-06-22",
     "english_friendly": true,
     "quality_score": 66,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Manager (Eats JP Market)",
@@ -25494,7 +24236,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 66,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Manager II",
@@ -25510,7 +24253,8 @@
     "posted_date": "2026-06-02",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Manager II (Retail Product)",
@@ -25526,7 +24270,8 @@
     "posted_date": "2026-06-17",
     "english_friendly": true,
     "quality_score": 66,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Manager (Marketplace)",
@@ -25542,7 +24287,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 66,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Manager (Onsite Growth)",
@@ -25558,7 +24304,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Staff Back-end Engineer (eCommerce Engineering)",
@@ -25574,7 +24321,8 @@
     "posted_date": "2026-06-17",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Staff, Back-end Engineer (Global Operations Technology)",
@@ -25590,7 +24338,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Staff Product Designer (Core UX)",
@@ -25606,7 +24355,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 66,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Staff, SAP S/4 HANA Solution Architect (Global Accounting Tech)",
@@ -25622,7 +24372,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Staff, SAP Solution Architect (Global Accounting Tech)",
@@ -25638,7 +24389,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Staff Technical Program Manager (TSE/CIC)",
@@ -25654,7 +24406,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Strategic Talent Partner (Osaka based)",
@@ -25670,7 +24423,8 @@
     "posted_date": "2026-06-02",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Strategic Talent Partner (Tokyo based) ",
@@ -25686,7 +24440,8 @@
     "posted_date": "2026-06-02",
     "english_friendly": true,
     "quality_score": 76,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Sr. Staff Front-end Engineer  (Global Operations Technology)",
@@ -25702,7 +24457,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Sr. Staff, Technical Program Management (Marketplace Platform)",
@@ -25718,7 +24474,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Staff, Back-end Engineer (Global Operations Technology)",
@@ -25734,7 +24491,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Staff, Back-end Engineer (Marketplace Platform)",
@@ -25750,7 +24508,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Staff, Front-end Engineer (Global Operations Technology)",
@@ -25766,7 +24525,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Staff IT Operations Engineer",
@@ -25782,7 +24542,8 @@
     "posted_date": "2026-06-02",
     "english_friendly": true,
     "quality_score": 76,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Staff, IT Operations Engineer (인천물류센터)",
@@ -25798,7 +24559,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "[쿠팡페이] Staff Product Designer",
@@ -25814,7 +24576,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 66,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Staff Product Designer",
@@ -25830,7 +24593,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Staff Technical Program Manager (Coupang Pay)",
@@ -25846,7 +24610,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Staff UCC Application Engineer (Operations, Governance, AI-enabled productivity)",
@@ -25862,7 +24627,8 @@
     "posted_date": "2026-06-16",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Managing Director, Global Banking Partnerships",
@@ -25878,7 +24644,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 86,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Product Director, Internal HR & Finance Systems",
@@ -25894,7 +24661,8 @@
     "posted_date": "2026-06-15",
     "english_friendly": true,
     "quality_score": 83,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Product Director, VIP Products",
@@ -25910,7 +24678,8 @@
     "posted_date": "2026-06-22",
     "english_friendly": true,
     "quality_score": 81,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Product Operations Manager / Director, Institutional Product",
@@ -25926,7 +24695,8 @@
     "posted_date": "2026-06-11",
     "english_friendly": true,
     "quality_score": 88,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Manager / Director, Growth Operation",
@@ -25942,7 +24712,8 @@
     "posted_date": "2026-05-29",
     "english_friendly": true,
     "quality_score": 88,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Manager, RWA Partnerships & Operations",
@@ -25958,7 +24729,8 @@
     "posted_date": "2026-06-05",
     "english_friendly": true,
     "quality_score": 79,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Operations Manager",
@@ -25974,7 +24746,8 @@
     "posted_date": "2026-05-28",
     "english_friendly": true,
     "quality_score": 79,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Risk Manager, Trading (AI-Augmented Operations)",
@@ -25990,7 +24763,8 @@
     "posted_date": "2026-05-26",
     "english_friendly": true,
     "quality_score": 81,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Senior/Staff Engineer, Growth",
@@ -26006,7 +24780,8 @@
     "posted_date": "2026-06-18",
     "english_friendly": true,
     "quality_score": 79,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Staff/Senior Staff Engineer, Public Cloud Operations",
@@ -26022,7 +24797,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 79,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Data Center Facility Operations Lead",
@@ -26038,7 +24814,8 @@
     "posted_date": "2026-05-29",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Data Center Hardware Operations Lead",
@@ -26054,7 +24831,8 @@
     "posted_date": "2026-05-29",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Ocean Operations Associate",
@@ -26070,7 +24848,8 @@
     "posted_date": "2026-06-04",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Analyst/Senior Analyst/Associate Manager, Corporate Strategy (Bangkok Based)",
@@ -26086,7 +24865,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Area Manager/Senior Area Manager, Thailand",
@@ -26102,7 +24882,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Associate Director, Global People Services and Help Desk (Bangkok Based -Relocation provided)",
@@ -26118,7 +24899,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 78,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Associate Director – International Accounting & Financial Reporting (Bangkok Based - Relocation Provided)",
@@ -26134,7 +24916,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 78,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Associate Director, Strategic Accounts (Seoul-based)",
@@ -26150,7 +24933,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 78,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Associate Director Supply Operations – Bangkok Based",
@@ -26166,7 +24950,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 78,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Head of Global Communications (Bangkok-based)",
@@ -26182,7 +24967,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 78,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Manager, New Hotel Acquisition\" (Sr. Account Team Lead)",
@@ -26198,7 +24984,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 76,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Manager/Senior Manager, Corporate Strategy (Bangkok Based)",
@@ -26214,7 +25001,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Manager/Senior Manager, Growth Marketing – New verticals (Relocation provided, Bangkok-based)",
@@ -26230,7 +25018,8 @@
     "posted_date": "2026-06-17",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Manager/Senior Manager, Strategic Revenue & Growth Management (Bangkok-based, relocation provided)",
@@ -26246,7 +25035,8 @@
     "posted_date": "2026-06-17",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": " Principal Product Counsel",
@@ -26262,7 +25052,8 @@
     "posted_date": "2026-06-15",
     "english_friendly": true,
     "quality_score": 66,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Analyst/ Associate Manager, Marketing Strategy (Bangkok based/ Relocation provided)",
@@ -26278,7 +25069,8 @@
     "posted_date": "2026-06-17",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Analyst, Business Strategy (Bangkok-based, Relocation Provided) ",
@@ -26294,7 +25086,8 @@
     "posted_date": "2026-06-12",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Analyst, Commercial Strategy (Bangkok-based, Relocation Provided) ",
@@ -26310,7 +25103,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Analyst, Strategy & Analytics - Strategic Partnerships (Bangkok-based, Relocation Provided) ",
@@ -26326,7 +25120,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Area Manager/Associate Director, Business Development (South Korea & APAC) (Based in Seoul/Bangkok/Singapore) (Korean Speaking)",
@@ -26342,7 +25137,8 @@
     "posted_date": "2026-06-22",
     "english_friendly": true,
     "quality_score": 78,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Insights Analyst, Strategic Partnerships (Bangkok-based, Relocation Provided) ",
@@ -26358,7 +25154,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Manager- Accounts Receivable Operations (Bangkok Based - Relocation Provided)",
@@ -26374,7 +25171,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Manager, B2B Analytics & Insights (Strategic Partnerships), (Bangkok Based)",
@@ -26390,7 +25188,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Manager, Business Operations (Bangkok Based, Relocation Provided)",
@@ -26406,7 +25205,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": " Senior Manager, Business Strategy & Analytics (Strategic Partnerships) (Bangkok based)",
@@ -26422,7 +25222,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Manager, Global Employee and Labor Relations (Bangkok-based, Relocation Provided)",
@@ -26438,7 +25239,8 @@
     "posted_date": "2026-06-11",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Manager / Regional Manager, Regional Management Office - North Asia (Seoul Based)",
@@ -26454,7 +25256,8 @@
     "posted_date": "2026-06-14",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Manager / Senior Area Manager, Strategic Partnerships (Taiwan & China Financial institution partnerships)",
@@ -26470,7 +25273,8 @@
     "posted_date": "2026-06-18",
     "english_friendly": true,
     "quality_score": 83,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Manager, Strategic Partnerships - Centre of Excellence (Bangkok based)",
@@ -26486,7 +25290,8 @@
     "posted_date": "2026-06-11",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Manager, Strategic Partnerships – Financial Institutions (Taiwan & China)",
@@ -26502,7 +25307,8 @@
     "posted_date": "2026-06-12",
     "english_friendly": true,
     "quality_score": 83,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Manager, Strategic Partnerships (Taiwan & China Financial institution partnerships)",
@@ -26518,7 +25324,8 @@
     "posted_date": "2026-06-18",
     "english_friendly": true,
     "quality_score": 83,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Manager, Strategy & Operations - North Asia (Seoul Based)",
@@ -26534,7 +25341,8 @@
     "posted_date": "2026-06-14",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior / Principal Program Manager - Controllership (Bangkok Based, Relocation Provided)",
@@ -26550,7 +25358,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Designer - CEG(Bangkok - Based, Relocation Provided)",
@@ -26566,7 +25375,8 @@
     "posted_date": "2026-06-22",
     "english_friendly": true,
     "quality_score": 66,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Product Manager (Bangkok-based)",
@@ -26582,7 +25392,8 @@
     "posted_date": "2026-06-17",
     "english_friendly": true,
     "quality_score": 66,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Regional Manager, Customer/ Partner Operations (Based in Seoul)",
@@ -26598,7 +25409,8 @@
     "posted_date": "2026-06-15",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Sr. Compliance Specialist, Global Compliance & Ethics (Bangkok-based, Relocation Provided)",
@@ -26614,7 +25426,8 @@
     "posted_date": "2026-06-10",
     "english_friendly": true,
     "quality_score": 63,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Strategic Account Manager/Senior Strategic Account Manager, Thailand",
@@ -26630,7 +25443,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 71,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Regional Manager, Sales Engineering - Public Sector",
@@ -26646,7 +25460,8 @@
     "posted_date": "2026-06-18",
     "english_friendly": true,
     "quality_score": 68,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Senior Manager, Payroll Compliance & International Operations (Sydney, Australia)",
@@ -26662,7 +25477,8 @@
     "posted_date": "2026-06-04",
     "english_friendly": true,
     "quality_score": 83,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Principal Product Marketing Manager, India",
@@ -26678,7 +25494,8 @@
     "posted_date": "2026-06-09",
     "english_friendly": true,
     "quality_score": 66,
-    "grade": "A-2"
+    "grade": "A-2",
+    "quality_tier": "A"
   },
   {
     "title": "Strategic Account Director, Bengaluru",
@@ -26694,7 +25511,8 @@
     "posted_date": "2026-06-02",
     "english_friendly": true,
     "quality_score": 78,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   },
   {
     "title": "Strategic Account Director - BFSI,Mumbai",
@@ -26710,6 +25528,7 @@
     "posted_date": "2026-06-02",
     "english_friendly": true,
     "quality_score": 78,
-    "grade": "A-1"
+    "grade": "A-1",
+    "quality_tier": "A"
   }
 ]

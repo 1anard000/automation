@@ -356,6 +356,11 @@
       "score_before": 7,
       "score_after": 7,
       "note": "0% ungraded now. S-1: 18, A-1: 154, A: 79, A-2: 288, B: 35, C: 5"
+    },
+    {
+      "timestamp": "2026-06-23T03:00:00+08:00",
+      "improvement": "Deduped 39 duplicate jobs, filled 196 missing quality_tiers, filled 9 missing scanned_dates. Data quality 9→10, python_scripts 7→8.",
+      "dimension": "data_quality"
     }
   ],
   "current_scores": {
@@ -366,14 +371,14 @@
     "coverage": 7,
     "strategy": 7
   },
-  "last_run": "2026-06-22T00:00:00",
-  "last_dimension": "data_quality",
-  "last_task": "Refreshed career strategy with current data (OKX 106, Coinbase 13, Coupang 11)",
+  "last_run": "2026-06-23T03:01:10.373833",
+  "last_dimension": "career_strategy",
+  "last_task": "Strategy refresh with 699-job dataset",
   "scores": {
     "dashboard": 8,
     "career_hub": 8,
-    "data_quality": 9,
-    "python_scripts": 7,
+    "data_quality": 10,
+    "python_scripts": 8,
     "strategy": 7,
     "coverage": 8
   },
@@ -411,6 +416,15 @@
       "score_before": 6,
       "score_after": "pending",
       "subagent": "builder-career-hub-v2"
+    },
+    {
+      "timestamp": "2026-06-23T03:01:10.373824",
+      "dimension": "career_strategy",
+      "task": "Refresh career-strategy.md with 699-job dataset + fresh June 2026 market intel",
+      "status": "in_progress",
+      "score_before": 7,
+      "score_after": "pending",
+      "subagent": "builder-strategy-refresh-jun23"
     }
   ],
   "latest_scores": {
