@@ -370,14 +370,14 @@
   "last_dimension": "data_quality",
   "last_task": "Refreshed career strategy with current data (OKX 106, Coinbase 13, Coupang 11)",
   "scores": {
-    "dashboard": 7,
+    "dashboard": 8,
     "career_hub": 8,
     "data_quality": 9,
     "python_scripts": 7,
     "strategy": 7,
     "coverage": 8
   },
-  "last_improvement": "strategy",
+  "last_improvement": "dashboard_rebuild",
   "entries": [
     {
       "date": "2026-06-19",
@@ -434,6 +434,14 @@
         "strategy": 7,
         "coverage": 8
       }
+    }
+  ],
+  "improvements": [
+    {
+      "date": "2026-06-23",
+      "action": "Rebuilt dashboard.html from 412→590 jobs with full feature set (sort, search, filter, export). Updated build-dashboard.py output path.",
+      "task": "Fix stale dashboard (412 jobs → 590 jobs, Jun 18 → current)",
+      "dimension": "dashboard"
     }
   ]
 }
