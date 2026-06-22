@@ -13,7 +13,10 @@
       "connection_date": "2026-04-17",
       "relationship_strength": "warm",
       "notes": "Works on Gemini team. Open to referrals. Last contact: 2026-04-17. Strong relationship. Follow-up due Jun 25.",
-      "relevance_tags": ["referral", "industry_contact"],
+      "relevance_tags": [
+        "referral",
+        "industry_contact"
+      ],
       "apac_relevant": false,
       "follow_up_needed": true,
       "follow_up_action": "Reconnect and ask about APAC strategy/ops roles at Google",
@@ -32,7 +35,10 @@
       "connection_date": "2025-11-28",
       "relationship_strength": "weak",
       "notes": "Hiring for AI infra roles. Prefers WeChat communication. Last contact: 2025-11-28 (6+ months ago). URGENT reconnection needed. FOLLOW-UP OVERDUE since Jun 20.",
-      "relevance_tags": ["hiring_manager", "referral"],
+      "relevance_tags": [
+        "hiring_manager",
+        "referral"
+      ],
       "apac_relevant": true,
       "follow_up_needed": true,
       "follow_up_action": "URGENT: Reconnect via WeChat. Mention ByteDance TikTok E-commerce PM roles (SZ) and Head of Product Strategy (HK). Ask for intro to hiring managers.",
@@ -51,7 +57,10 @@
       "connection_date": "2026-02-16",
       "relationship_strength": "weak",
       "notes": "Looking for ML engineers for payments team. Last contact: 2026-02-16. Airwallex has 13 open roles in SG, 3 are top-20 (Director-level strategy/fintech). FOLLOW-UP DUE TODAY Jun 21.",
-      "relevance_tags": ["hiring_manager", "referral"],
+      "relevance_tags": [
+        "hiring_manager",
+        "referral"
+      ],
       "apac_relevant": true,
       "follow_up_needed": true,
       "follow_up_action": "Follow up on Airwallex ML hiring. Ask about Director Product Strategy Payments role (SG, score 100). Mention cross-border commerce background.",
@@ -70,7 +79,9 @@
       "connection_date": "2026-03-13",
       "relationship_strength": "weak",
       "notes": "Last contact: 2026-03-13. Could be valuable for startup path or portfolio company intros.",
-      "relevance_tags": ["industry_contact"],
+      "relevance_tags": [
+        "industry_contact"
+      ],
       "apac_relevant": false,
       "follow_up_needed": false,
       "follow_up_action": null,
@@ -89,7 +100,9 @@
       "connection_date": "2026-06-11",
       "relationship_strength": "warm",
       "notes": "Last contact: 2026-06-11. Strong relationship. Not directly APAC-relevant but good network node.",
-      "relevance_tags": ["industry_contact"],
+      "relevance_tags": [
+        "industry_contact"
+      ],
       "apac_relevant": false,
       "follow_up_needed": false,
       "follow_up_action": null,
@@ -108,7 +121,10 @@
       "connection_date": "2026-05-17",
       "relationship_strength": "warm",
       "notes": "Last contact: 2026-05-17. Strong relationship. Reminder: Share Q2 metrics for potential intro (due 2026-06-30). Could have APAC portfolio company connections.",
-      "relevance_tags": ["industry_contact", "referral"],
+      "relevance_tags": [
+        "industry_contact",
+        "referral"
+      ],
       "apac_relevant": false,
       "follow_up_needed": true,
       "follow_up_action": "Share Q2 metrics as promised. Ask about APAC portfolio companies hiring strategy/product leads.",
@@ -127,7 +143,10 @@
       "connection_date": "2026-05-02",
       "relationship_strength": "warm",
       "notes": "Last contact: 2026-05-02. Strong relationship. Reminder: Send alignment paper (due 2026-06-19 — OVERDUE 2 DAYS). OpenAI opening APAC office - could be valuable referral.",
-      "relevance_tags": ["referral", "industry_contact"],
+      "relevance_tags": [
+        "referral",
+        "industry_contact"
+      ],
       "apac_relevant": false,
       "follow_up_needed": true,
       "follow_up_action": "OVERDUE: Send alignment paper. Ask about OpenAI APAC expansion and any product/strategy roles.",
@@ -146,7 +165,9 @@
       "connection_date": "2026-06-08",
       "relationship_strength": "warm",
       "notes": "Last contact: 2026-06-08. Strong relationship. Not directly APAC-relevant.",
-      "relevance_tags": ["industry_contact"],
+      "relevance_tags": [
+        "industry_contact"
+      ],
       "apac_relevant": false,
       "follow_up_needed": false,
       "follow_up_action": null,
@@ -165,7 +186,10 @@
       "connection_date": "2026-06-01",
       "relationship_strength": "warm",
       "notes": "Last contact: 2026-06-01. Strong relationship. Reminder: Follow up on NVIDIA partnership proposal (due 2026-06-23). Could have APAC connections.",
-      "relevance_tags": ["referral", "industry_contact"],
+      "relevance_tags": [
+        "referral",
+        "industry_contact"
+      ],
       "apac_relevant": false,
       "follow_up_needed": true,
       "follow_up_action": "Follow up on partnership proposal. Ask about NVIDIA APAC strategy team.",
@@ -184,7 +208,9 @@
       "connection_date": "2025-10-09",
       "relationship_strength": "weak",
       "notes": "Last contact: 2025-10-09 (8+ months ago). Weak relationship. Reminder: Reach out (due 2026-06-26). Meta has APAC presence.",
-      "relevance_tags": ["industry_contact"],
+      "relevance_tags": [
+        "industry_contact"
+      ],
       "apac_relevant": false,
       "follow_up_needed": true,
       "follow_up_action": "Reconnect after 8+ months. Ask about Meta APAC strategy/ops roles.",
@@ -203,7 +229,10 @@
       "connection_date": "2026-06-21",
       "relationship_strength": "cold",
       "notes": "RESEARCH QUEUE: Target for OKX Web3 Wallet PM role (score 89). Search LinkedIn for product directors at OKX HK. See hiring-manager-research-guide.md for search URLs.",
-      "relevance_tags": ["hiring_manager", "priority_target"],
+      "relevance_tags": [
+        "hiring_manager",
+        "priority_target"
+      ],
       "apac_relevant": true,
       "follow_up_needed": true,
       "follow_up_action": "Research on LinkedIn using search URL. Send outreach after identifying.",
@@ -222,7 +251,10 @@
       "connection_date": "2026-06-21",
       "relationship_strength": "cold",
       "notes": "RESEARCH QUEUE: Target for OKX Local Market PM role (score 87). Latin America scope. Search LinkedIn for growth product directors.",
-      "relevance_tags": ["hiring_manager", "priority_target"],
+      "relevance_tags": [
+        "hiring_manager",
+        "priority_target"
+      ],
       "apac_relevant": true,
       "follow_up_needed": true,
       "follow_up_action": "Research on LinkedIn. Send outreach after identifying.",
@@ -241,7 +273,10 @@
       "connection_date": "2026-06-21",
       "relationship_strength": "cold",
       "notes": "RESEARCH QUEUE: Target for Binance Earn Structured Product role (score 70) and AI Chatbot PM (score 77). Search LinkedIn for product directors.",
-      "relevance_tags": ["hiring_manager", "priority_target"],
+      "relevance_tags": [
+        "hiring_manager",
+        "priority_target"
+      ],
       "apac_relevant": true,
       "follow_up_needed": true,
       "follow_up_action": "Research on LinkedIn. Send outreach after identifying.",
@@ -260,7 +295,10 @@
       "connection_date": "2026-06-21",
       "relationship_strength": "cold",
       "notes": "RESEARCH QUEUE: Target for Crypto.com Lead PM Exchange Institutional (score 82). Search LinkedIn for institutional product directors in SG.",
-      "relevance_tags": ["hiring_manager", "priority_target"],
+      "relevance_tags": [
+        "hiring_manager",
+        "priority_target"
+      ],
       "apac_relevant": true,
       "follow_up_needed": true,
       "follow_up_action": "Research on LinkedIn. Send outreach after identifying.",
@@ -279,7 +317,10 @@
       "connection_date": "2026-06-21",
       "relationship_strength": "cold",
       "notes": "RESEARCH QUEUE: Target for Crypto.com Senior PM AI Transformation (score 80). Search LinkedIn for AI product leads.",
-      "relevance_tags": ["hiring_manager", "priority_target"],
+      "relevance_tags": [
+        "hiring_manager",
+        "priority_target"
+      ],
       "apac_relevant": true,
       "follow_up_needed": true,
       "follow_up_action": "Research on LinkedIn. Send outreach after identifying.",
@@ -287,119 +328,266 @@
     }
   ],
   "outreach_log": [],
-  "notes": "Contacts migrated from CRM on 2026-06-20. Key APAC contacts: David Liu (ByteDance, needs urgent reconnection), Emily Watson (Airwallex, needs follow-up). Priority: Build more APAC-based contacts at OKX, Binance, Google SG, Tencent. RESEARCH GUIDE: See hiring-manager-research-guide.md for LinkedIn search URLs and outreach templates for 5 priority companies.",
+  "notes": "Contacts managed by Career OS. Key APAC contacts: David Liu (ByteDance, URGENT reconnection needed), Emily Watson (Airwallex, needs SG intros), Amanda Foster (Google, warm). 5 placeholder contacts need replacing with real people. 8 companies have NO contacts — Wellington, Mastercard, BlackRock, BNY have score-100 Director roles. See contact-mapping-plan.md for detailed research plan.",
   "research_queue": [
     {
-      "company": "OKX",
-      "priority": 1,
-      "roles_to_find": ["Head of Product", "Director of Product", "VP Product", "Head of PM", "Web3 Wallet PM"],
-      "cities": ["Hong Kong", "Singapore"],
-      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20OKX&geoUrn=%5B%22102222072%22%2C%22102222073%22%5D",
-      "notes": "4 high-score roles found. Web3 Wallet PM (89) and Local Market PM (87) in HK. Ask David Liu for intros."
-    },
-    {
-      "company": "Airwallex",
-      "priority": 2,
-      "roles_to_find": ["Head of Product", "Director Product Strategy", "VP Product"],
-      "cities": ["Singapore"],
-      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20airwallex&geoUrn=%5B%22102222073%22%5D",
-      "notes": "3 score-100 Director roles in SG. Emily Watson (existing contact) is Head of Product in Beijing - can ask for SG intros."
-    },
-    {
-      "company": "ByteDance",
-      "priority": 3,
-      "roles_to_find": ["Growth Strategy PM", "Card Growth PM", "Head of Product Strategy", "Senior Director PM"],
-      "cities": ["Singapore", "Shenzhen", "Hong Kong"],
-      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20bytedance%20global%20payment&geoUrn=%5B%22102222073%22%2C%22102447021%22%5D",
-      "notes": "NEW: 2 cross-border payment PM roles in SG (score 85 each). Growth Strategy PM + Card Growth PM. David Liu can intro. HIGH PRIORITY."
-    },
-    {
-      "company": "Crypto.com",
-      "priority": 4,
-      "roles_to_find": ["Lead PM Exchange", "Senior PM AI Transformation", "Product Director Banking"],
-      "cities": ["Singapore", "Hong Kong"],
-      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20crypto.com&geoUrn=%5B%22102222073%22%2C%22102222072%22%5D",
-      "notes": "NEW: 3 high-score roles found. Lead PM Exchange Institutional (82, SG), Senior PM AI Transformation (80, SG), Product Director Banking Engagement (77, HK)."
-    },
-    {
-      "company": "Google",
-      "priority": 5,
-      "roles_to_find": ["Head of BizOps", "Chief of Staff", "Director Strategy", "Regional Product Lead"],
-      "cities": ["Singapore", "Shanghai"],
-      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=bizops%20director%20google&geoUrn=%5B%22102222073%22%2C%22102065798%22%5D",
-      "notes": "Regional Product Lead Foundational Measurement (score 80, SG). Amanda Foster can ask for APAC intros."
-    },
-    {
-      "company": "Binance",
-      "priority": 6,
-      "roles_to_find": ["AI Chatbot PM", "Head of Product", "Director PM"],
-      "cities": ["Hong Kong", "Singapore"],
-      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20binance&geoUrn=%5B%22102222072%22%5D",
-      "notes": "NEW: AI Chatbot PM in HK (score 77) + Earn Structured Product in SG (score 70). Crypto/fintech focus."
-    },
-    {
-      "company": "DBS Bank",
-      "priority": 7,
-      "roles_to_find": ["VP Product Manager Digital Exchange", "Head of Digital Products"],
-      "cities": ["Singapore"],
-      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20DBS%20digital&geoUrn=%5B%22102222073%22%5D",
-      "notes": "NEW: VP DBS Digital Exchange (score 82, SG). Largest SG bank. Need contacts."
-    },
-    {
-      "company": "UOB",
-      "priority": 8,
-      "roles_to_find": ["VP Digital Currency", "Head of Digital Products"],
-      "cities": ["Singapore"],
-      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20UOB%20digital&geoUrn=%5B%22102222073%22%5D",
-      "notes": "NEW: VP Digital Currency & Payments (score 82, SG). Banking + crypto intersection."
-    },
-    {
       "company": "Wellington Management",
-      "priority": 9,
-      "roles_to_find": ["Director Product Strategy", "Head of Strategy APAC"],
-      "cities": ["Singapore"],
-      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20wellington%20management&geoUrn=%5B%22102222073%22%5D",
-      "notes": "NEW: Director Product Strategy APAC (score 100, SG). Investment management + strategy. Direct apply available."
+      "priority": 1,
+      "roles_to_find": [
+        "Director Product Strategy APAC"
+      ],
+      "cities": [
+        "Singapore"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20Wellington%20Management%20Singapore&geoUrn=%5B%22102222073%22%5D",
+      "notes": "Score-100 Director role. Investment management + strategy. Direct apply available. HIGHEST PRIORITY - find contact."
     },
     {
       "company": "Mastercard",
-      "priority": 10,
-      "roles_to_find": ["Director AI Data Strategy", "Head of Strategy APAC"],
-      "cities": ["Singapore"],
-      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=director%20strategy%20mastercard&geoUrn=%5B%22102222073%22%5D",
-      "notes": "NEW: Director AI & Data Strategy (score 100, SG). Fintech + AI intersection. Direct apply available."
+      "priority": 2,
+      "roles_to_find": [
+        "Director AI & Data Strategy"
+      ],
+      "cities": [
+        "Singapore"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=director%20strategy%20Mastercard%20Singapore&geoUrn=%5B%22102222073%22%5D",
+      "notes": "Score-100 Director role. Fintech + AI intersection. Direct apply available. HIGH PRIORITY."
     },
     {
       "company": "BlackRock",
-      "priority": 11,
-      "roles_to_find": ["Director Aladdin Product", "Head of Product Solutions APAC"],
-      "cities": ["Singapore"],
-      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20blackrock%20aladdin&geoUrn=%5B%22102222073%22%5D",
-      "notes": "NEW: Aladdin Product Solutions Director (score 100, SG). Asset management platform. Direct apply available."
+      "priority": 3,
+      "roles_to_find": [
+        "Aladdin Product Solutions Director"
+      ],
+      "cities": [
+        "Singapore"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20BlackRock%20Aladdin&geoUrn=%5B%22102222073%22%5D",
+      "notes": "Score-100 Director role. Asset management platform. Direct apply available. HIGH PRIORITY."
     },
     {
       "company": "BNY",
-      "priority": 12,
-      "roles_to_find": ["Director Commercial PM Custody", "Head of Digital Assets"],
-      "cities": ["Singapore"],
+      "priority": 4,
+      "roles_to_find": [
+        "Director Commercial PM Custody Platform"
+      ],
+      "cities": [
+        "Singapore"
+      ],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20BNY%20custody&geoUrn=%5B%22102222073%22%5D",
-      "notes": "NEW: Director Commercial PM Custody Platform (score 100, SG). Custody + digital assets. Direct apply available."
+      "notes": "Score-100 Director role. Custody + digital assets. Direct apply available. HIGH PRIORITY."
+    },
+    {
+      "company": "DBS Bank",
+      "priority": 5,
+      "roles_to_find": [
+        "VP DBS Digital Exchange",
+        "Head of Digital Products"
+      ],
+      "cities": [
+        "Singapore"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20DBS%20digital%20exchange&geoUrn=%5B%22102222073%22%5D",
+      "notes": "Score-82 role. Largest SG bank. Digital exchange focus. Need contact."
+    },
+    {
+      "company": "UOB",
+      "priority": 6,
+      "roles_to_find": [
+        "VP Digital Currency & Payments"
+      ],
+      "cities": [
+        "Singapore"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20UOB%20digital&geoUrn=%5B%22102222073%22%5D",
+      "notes": "Score-82 role. Banking + crypto intersection. Need contact."
+    },
+    {
+      "company": "OKX",
+      "priority": 7,
+      "roles_to_find": [
+        "Director of Product, Web3 Wallet",
+        "Director of Product, Local Market & Growth"
+      ],
+      "cities": [
+        "Hong Kong"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20OKX%20wallet&geoUrn=%5B%22102222072%22%5D",
+      "notes": "4 high-score roles. Web3 Wallet PM (89) and Local Market PM (87) in HK. ASK DAVID LIU FOR INTROS. Replace placeholder contacts with real people."
+    },
+    {
+      "company": "Airwallex",
+      "priority": 8,
+      "roles_to_find": [
+        "Director Product Strategy Payments"
+      ],
+      "cities": [
+        "Singapore"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20airwallex&geoUrn=%5B%22102222073%22%5D",
+      "notes": "3 score-100 Director roles in SG. Emily Watson (existing contact) is Head of Product in Beijing. ASK FOR SG INTROS."
+    },
+    {
+      "company": "ByteDance",
+      "priority": 9,
+      "roles_to_find": [
+        "Growth Strategy PM Global Payment",
+        "Card Growth PM Global Payment"
+      ],
+      "cities": [
+        "Singapore"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20bytedance%20global%20payment&geoUrn=%5B%22102222073%22%5D",
+      "notes": "2 cross-border payment PM roles in SG (score 85 each). David Liu can intro. HIGH PRIORITY."
+    },
+    {
+      "company": "Crypto.com",
+      "priority": 10,
+      "roles_to_find": [
+        "Lead PM Exchange Institutional",
+        "Head of AI Products"
+      ],
+      "cities": [
+        "Singapore"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20crypto.com&geoUrn=%5B%22102222073%22%5D",
+      "notes": "3 high-score roles. Lead PM Exchange Institutional (82, SG), Senior PM AI Transformation (80, SG). Replace placeholder contacts."
+    },
+    {
+      "company": "Google",
+      "priority": 11,
+      "roles_to_find": [
+        "Regional Product Lead Foundational Measurement"
+      ],
+      "cities": [
+        "Singapore"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=bizops%20director%20google&geoUrn=%5B%22102222073%22%5D",
+      "notes": "Score-80 role. Amanda Foster (existing contact) can ask for APAC intros."
+    },
+    {
+      "company": "Binance",
+      "priority": 12,
+      "roles_to_find": [
+        "AI Chatbot PM",
+        "Director PM Earn Products"
+      ],
+      "cities": [
+        "Hong Kong",
+        "Singapore"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20binance&geoUrn=%5B%22102222072%22%5D",
+      "notes": "AI Chatbot PM in HK (score 77) + Earn Structured Product in SG (score 70). Replace placeholder contact."
     },
     {
       "company": "SymphonyAI",
       "priority": 13,
-      "roles_to_find": ["SME Product Lead APAC", "Head of Product APAC"],
-      "cities": ["Singapore"],
+      "roles_to_find": [
+        "SME & Product Lead APAC"
+      ],
+      "cities": [
+        "Singapore"
+      ],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20lead%20symphonyai&geoUrn=%5B%22102222073%22%5D",
-      "notes": "NEW: SME & Product Lead for APAC (score 81, SG). AI product leadership. Not direct apply — need referral."
+      "notes": "Score-81 role. AI product leadership. Not direct apply — need referral."
     },
     {
       "company": "Visa",
       "priority": 14,
-      "roles_to_find": ["AVP Chief of Staff Strategy", "Director Client Consulting"],
-      "cities": ["Singapore", "Hong Kong"],
+      "roles_to_find": [
+        "AVP Chief of Staff & Head of Strategy",
+        "Director Client Consulting"
+      ],
+      "cities": [
+        "Singapore",
+        "Hong Kong"
+      ],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=strategy%20director%20visa%20apac&geoUrn=%5B%22102222073%22%2C%22102222072%22%5D",
-      "notes": "NEW: AVP Chief of Staff & Head of Strategy Emerging Markets (79) + Director Client Consulting Stablecoin/AI (78). Fintech strategy."
+      "notes": "2 roles. AVP Chief of Staff (79) + Director Client Consulting Stablecoin/AI (78). Fintech strategy."
     }
-  ]
+  ],
+  "contact_targets": {
+    "wellington_management": {
+      "current": 0,
+      "target": 2,
+      "roles": [
+        "Director Product Strategy APAC"
+      ]
+    },
+    "mastercard": {
+      "current": 0,
+      "target": 2,
+      "roles": [
+        "Director AI & Data Strategy"
+      ]
+    },
+    "blackrock": {
+      "current": 0,
+      "target": 2,
+      "roles": [
+        "Aladdin Product Solutions Director"
+      ]
+    },
+    "bny": {
+      "current": 0,
+      "target": 2,
+      "roles": [
+        "Director Commercial PM Custody"
+      ]
+    },
+    "dbs_bank": {
+      "current": 0,
+      "target": 1,
+      "roles": [
+        "VP DBS Digital Exchange"
+      ]
+    },
+    "uob": {
+      "current": 0,
+      "target": 1,
+      "roles": [
+        "VP Digital Currency"
+      ]
+    },
+    "symphonyai": {
+      "current": 0,
+      "target": 1,
+      "roles": [
+        "SME & Product Lead APAC"
+      ]
+    },
+    "visa": {
+      "current": 0,
+      "target": 1,
+      "roles": [
+        "AVP Chief of Staff"
+      ]
+    },
+    "okx": {
+      "current": 0,
+      "target": 3,
+      "roles": [
+        "Director Product Web3 Wallet",
+        "Director Product Growth",
+        "Director Institutional"
+      ]
+    },
+    "crypto.com": {
+      "current": 0,
+      "target": 2,
+      "roles": [
+        "Director Institutional",
+        "Head of AI Products"
+      ]
+    },
+    "binance": {
+      "current": 0,
+      "target": 2,
+      "roles": [
+        "Director Earn Products",
+        "Head of AI Products"
+      ]
+    }
+  }
 }

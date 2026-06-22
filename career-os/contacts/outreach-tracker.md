@@ -59,15 +59,15 @@
 
 ## Pipeline Overview
 || Stage | Count | Notes |
-||-------|-------|-------|
-|| 🎯 Identified | 10 | Hiring managers to research (see playbook) |
-|| 📨 Outreach Sent | 0 | **ACTION: Send 7 this week** |
-|| 💬 Conversation | 0 | Response received, chatting |
-|| ☕ Meeting Set | 0 | Coffee chat / call scheduled |
-|| 🤝 Referral | 0 | Got internal referral |
-|| 📋 Applied | 0 | **ACTION: Submit 7 this week** |
-|| 🎤 Interviewing | 0 | In interview process |
-|| ✅ Offer | 0 | Offer received |
+||-------|-------|-------||
+|| 🎯 Identified | 21 | 3 real contacts + 5 placeholders + 11 companies needing mapping (see contact-mapping-plan.md) ||
+|| 📨 Outreach Sent | 0 | **ACTION: Send 7 this week** ||
+|| 💬 Conversation | 0 | Response received, chatting ||
+|| ☕ Meeting Set | 0 | Coffee chat / call scheduled ||
+|| 🤝 Referral | 0 | Got internal referral ||
+|| 📋 Applied | 0 | **ACTION: Submit 7 this week** ||
+|| 🎤 Interviewing | 0 | In interview process ||
+|| ✅ Offer | 0 | Offer received ||
 
 ## Immediate Follow-ups (Week of June 22-28)
 | Contact | Company | Action | Due | Channel | Status | Priority |
@@ -175,23 +175,24 @@
 
 ## Hiring Manager Research Queue
 > **NEW:** See `hiring-manager-research-guide.md` for LinkedIn search URLs, outreach templates, and known org structures.
+> **UPDATED:** See `contact-mapping-plan.md` for detailed research execution plan with 11 companies.
 
 | Company | Priority | # to Research | LinkedIn Search | Status |
 |---------|----------|---------------|-----------------|--------|
-| OKX | 1 | 4 | HK/SG product directors | 📋 RESEARCH GUIDE READY |
-| Airwallex | 2 | 3 | SG product/strategy leaders | 📋 Existing contact (Emily Watson) |
-| ByteDance | 3 | 3 | SZ/HK TikTok Shop PMs | 📋 Existing contact (David Liu) |
-| Google | 4 | 3 | SG strategy/BizOps directors | 📋 Existing contact (Amanda Foster) |
-| Binance | 5 | 3 | HK product directors | 📋 RESEARCH GUIDE READY |
-| Crypto.com | 6 | 3 | SG product leaders | 📋 RESEARCH GUIDE READY |
-| DBS Bank | 7 | 2 | SG digital exchange | 📋 RESEARCH GUIDE READY |
-| UOB | 8 | 2 | SG digital currency | 📋 RESEARCH GUIDE READY |
-| Wellington | 9 | 2 | SG strategy | 📋 RESEARCH GUIDE READY |
-| Mastercard | 10 | 2 | SG AI strategy | 📋 RESEARCH GUIDE READY |
-| BlackRock | 11 | 2 | SG Aladdin | 📋 RESEARCH GUIDE READY |
-| BNY | 12 | 2 | SG custody | 📋 RESEARCH GUIDE READY |
-| SymphonyAI | 13 | 2 | SG AI product | 📋 RESEARCH GUIDE READY |
-| Visa | 14 | 2 | SG/HK strategy | 📋 RESEARCH GUIDE READY |
+| Wellington Management | 1 | 2 | SG strategy | 📋 SCORE-100 — NEEDS MAPPING |
+| Mastercard | 2 | 2 | SG AI strategy | 📋 SCORE-100 — NEEDS MAPPING |
+| BlackRock | 3 | 2 | SG Aladdin | 📋 SCORE-100 — NEEDS MAPPING |
+| BNY | 4 | 2 | SG custody | 📋 SCORE-100 — NEEDS MAPPING |
+| OKX | 5 | 4 | HK/SG product directors | 📋 REPLACE PLACEHOLDERS |
+| Airwallex | 6 | 3 | SG product/strategy leaders | 📋 Existing contact (Emily Watson) |
+| ByteDance | 7 | 3 | SG cross-border PMs | 📋 Existing contact (David Liu) |
+| DBS Bank | 8 | 2 | SG digital exchange | 📋 NEEDS MAPPING |
+| UOB | 9 | 2 | SG digital currency | 📋 NEEDS MAPPING |
+| Crypto.com | 10 | 3 | SG product leaders | 📋 REPLACE PLACEHOLDERS |
+| Google | 11 | 3 | SG strategy/BizOps directors | 📋 Existing contact (Amanda Foster) |
+| Binance | 12 | 3 | HK product directors | 📋 REPLACE PLACEHOLDER |
+| SymphonyAI | 13 | 2 | SG AI product | 📋 NEEDS MAPPING |
+| Visa | 14 | 2 | SG/HK strategy | 📋 NEEDS MAPPING |
 
 ## Follow-up Cadence
 
@@ -262,6 +263,8 @@
 | 2026-06-21 | **Hiring manager research guide created** | 5 companies | OKX, Binance, Crypto.com, DBS, UOB | ✅ Created hiring-manager-research-guide.md with LinkedIn search URLs, outreach templates, and known org info. Added 5 research queue entries to contacts.json. Web tools unavailable — manual research required. |
 | 2026-06-22 | **Outreach review — dates updated to Jun 22** | 7 contacts | Various | ✅ Recalculated overdue: Michael Zhang (3 days), David Liu (2 days), Emily Watson (1 day). Updated application tracking to align with local DB (169 roles, not 416). Added Day 1 marker for sprint week. |
 | 2026-06-22 | **Strategy deep dive — data quality analysis** | 169 roles | All companies | ✅ Found 50 unclassified jobs, 74 missing locations, 41 dead weight (Stripe/Instacart). Revised actionable pool to 128 roles. Updated salary benchmarks with local data. Created revised weekly plan targeting 18 applications + 3 outreach in 5 hours. |
+2026-06-22 | **Contact mapping plan created** | 11 companies | Wellington, Mastercard, BlackRock, BNY, DBS, UOB, SymphonyAI, Visa, OKX, Crypto.com, Binance | ✅ Created contact-mapping-plan.md with LinkedIn search URLs, outreach templates, and research execution plan. Identified 11 companies needing contact mapping. 4 have score-100 Director roles. Updated research_queue in contacts.json. Web tools unavailable — manual research required. |
+2026-06-22 | **Contacts database updated** | 14 companies | All | ✅ Updated research_queue with 14 prioritized companies. Added contact_targets tracking for 11 companies. Updated notes with current status. |
 
 ---
 
