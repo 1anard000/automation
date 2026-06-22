@@ -118,6 +118,20 @@
 
 ## Data-Driven Priorities (June 2026 Scan)
 
+### Company Cluster Analysis (NEW — June 22)
+**See `strategy/company-cluster-analysis.md` for full resume tailoring guide.**
+
+Key finding: 6 resume clusters identified. Apply the same resume version to all jobs in a cluster:
+1. **🌐 Cross-border & Marketplace** (5 roles) — ByteDance, Gate. Emphasize Amazon marketplace ops.
+2. **💳 Fintech & Payments** (32 roles) — Airwallex, OKX, BNY, Coins.ph, UOB, DBS. Largest cluster.
+3. **📊 Strategy & BizOps** (14 roles) — Wellington, Mastercard, Visa. Emphasize Microsoft/Salesforce.
+4. **🤖 AI & Platform** (25 roles) — BNY, Mastercard, OKX, Crypto.com. Emphasize GitHub Copilot launch.
+5. **📈 Growth & Expansion** (16 roles) — OKX, ByteDance. Emphasize growth metrics.
+6. **📦 General Product** (60 roles) — Agoda, Bitdeer, Manulife, BlackRock. Standard PM resume.
+
+**6 batch application groups identified** — apply same resume to all jobs in a batch for efficiency.
+**31 high-visa-likelihood roles** identified (visa-friendly companies: Google, Airwallex, OKX, etc.)
+
 ### Top Companies by Opportunity Density (Updated Jun 21)
 | Company | High-Score (80+) | Score-100 | Key Roles | Cities |
 |---------|-----------------|-----------|-----------|--------|
