@@ -9,6 +9,37 @@ Track relevant networking events, conferences, and meetups in target cities.
 
 ---
 
+## 🔴 JULY 2026 — ACTION ITEMS
+
+### Week 1 (Jul 1-7)
+- [ ] **Register for Singapore Fintech Festival** (Nov 3-7) — Early bird pricing ends soon. This is THE fintech event in APAC. Airwallex, DBS, UOB, Stripe all have major presence.
+- [ ] **Check WAIC dates** (World AI Conference, Shanghai) — Typically early July. AI product roles are growing.
+- [ ] **Attend ProductTank HK** (3rd Thursday = Jul 16) — Google PMs attend. Good for PM networking.
+
+### Week 2 (Jul 8-14)
+- [ ] **Attend Startup Grind HK** (mid-month) — Cross-border commerce founders attend.
+- [ ] **Attend ProductTank SG** (2nd Tuesday = Jul 14) — Google, Meta, Shopee PMs attend.
+- [ ] **Research RISE Conference** (late Jul/early Aug) — Check riseconf.com for 2026 dates. Register early.
+
+### Week 3 (Jul 15-21)
+- [ ] **Attend ProductTank HK** (3rd Thursday = Jul 16) — Monthly PM meetup.
+- [ ] **Check for CHINAOSS** (China Open Source Summit) — Typically August in Shenzhen. Product/strategy tracks.
+- [ ] **Research Guangzhou Cross-border E-commerce Expo** — Typically August. Directly relevant to cross-border commerce roles.
+
+### Week 4 (Jul 22-31)
+- [ ] **Attend Startup Grind SG** (last Wednesday = Jul 29) — Monthly.
+- [ ] **Follow up on all July networking contacts** — Add to contacts database, send follow-up messages.
+- [ ] **Plan August events** — RISE Conference, CHINAOSS, Cross-border Expo.
+
+### 📋 Pre-Event Checklist (Use Before Each Event)
+1. **Research speakers/attendees** — LinkedIn search for target company people
+2. **Prepare 30-sec pitch** — "Cross-border commerce PM, 9 years at Amazon/Microsoft/Salesforce"
+3. **Bring materials** — Business cards or WeChat QR code
+4. **Set follow-up reminder** — 48 hours after event
+5. **Update outreach tracker** — Log all contacts made
+
+---
+
 ## 🔴 IMMEDIATE (June-July 2026)
 
 ### Hong Kong
