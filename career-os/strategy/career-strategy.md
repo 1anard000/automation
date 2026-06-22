@@ -233,41 +233,31 @@ Priority score = Quality Score + Direct Apply (5) + Difficulty Adj (easy +3 / ha
 
 ## 🚨 CRITICAL: Application Status (Updated June 22, 2026)
 
-**0% application rate.** 169 roles in local database, ZERO applications submitted. 3 overdue outreach messages.
+**Current status: 0% application rate (699 roles in full database, 0 submitted). 4 overdue outreach messages (1 due today).**
 
 | Metric | Value |
 |--------|-------|
-| Total roles | 416 |
+| Total roles | 699 |
 | Applied | 0 |
-| Not applied | 355 |
-| Unknown status | 61 |
-| Direct-apply available | 55 |
-| High-score (80+) unapplied | 108 |
-| Perfect-score (100) unapplied | 17 |
+| Not applied | 477 |
+| High-score (80+) unapplied | 137 |
+| Perfect-score (100) unapplied | 8 (all direct apply) |
+| Direct-apply available | 181 |
 
-**Immediate priority: Submit 5-10 applications this week.** Start with the 17 perfect-score direct-apply roles below.
+**Immediate priority: Submit 5-10 applications this week.** Start with the 8 perfect-score direct-apply roles below.
 
-### 🎯 Top 17 Perfect-Score (100) Direct-Apply Roles — Apply NOW
+### 🎯 Top 8 Perfect-Score (100) Direct-Apply Roles — Apply NOW
 
 | # | Company | Title | City | Category |
 |---|---------|-------|------|----------|
-| 1 | Airwallex | Director, Product Strategy Payments | SG | strategy |
-| 2 | Airwallex | Product Director, Payment Fraud | SG | fintech |
-| 3 | Airwallex | Product Director, Financial Markets & Financial Platform | SG | platform |
-| 4 | Binance | Senior Payment Product Manager - LATAM | HK | fintech |
-| 5 | Gate | Senior Fiat Product Manager (GatePay) | HK | fintech |
-| 6 | Coins.ph | Senior Product Manager (Card Issuing) | HK | fintech |
-| 7 | Futu Holdings | Senior PM - Derivatives Risk | HK | general_pm |
-| 8 | JD.COM | BNPL Product & Operations Lead | HK | fintech |
-| 9 | Ingram Micro | Senior PM - Cloud | HK | general_pm |
-| 10 | Agoda | Principal Product Manager | SG | general_pm |
-| 11 | Bank of China | Senior Wealth Management PM (Insurance) | HK | general_pm |
-| 12 | Wellington Management | Director, Product Strategy, APAC | SG | strategy |
-| 13 | Bitdeer | Director of Product Management | SG | general_pm |
-| 14 | BNY | Director, Commercial PM (Custody Platform) | SG | platform |
-| 15 | Mastercard | Director, AI & Data Strategy | SG | ai_product |
-| 16 | Manulife | Director, Product Pricing | SG | general_pm |
-| 17 | BlackRock | Aladdin Product Solutions Specialist, Director | SG | general_pm |
+| 1 | Agoda | Principal Product Manager | Singapore | general_pm |
+| 2 | Bank of China (Hong Kong) | Senior Wealth Management PM (Insurance) | Hong Kong | general_pm |
+| 3 | Binance | Senior Payment Product Manager - LATAM | Hong Kong | fintech |
+| 4 | Coins.ph | Senior Product Manager (Card Issuing) | Hong Kong | fintech |
+| 5 | Futu Holdings | Senior PM - Derivatives Risk | Hong Kong | general_pm |
+| 6 | Gate | Senior Fiat Product Manager (GatePay) | Hong Kong | fintech |
+| 7 | Ingram Micro | Senior PM - Cloud | Hong Kong | general_pm |
+| 8 | JD.COM | BNPL Product & Operations Lead | Hong Kong | fintech |
 
 ## 🔄 Strategy Refresh — June 21, 2026 (Local Data Analysis)
 
@@ -558,9 +548,16 @@ The system has:
 
 ### Key Finding: Data Quality Issues Masking Real Opportunity
 
-**169 local jobs analyzed. 50 need categorization. 74 have no location. 41 are dead weight.**
+**699 total jobs in database. 137 high-score (80+), 8 score-100, 181 direct-apply available.**
 
-The database has significant data quality issues that obscure the real opportunity set. After cleaning and analysis, the actionable job pool is much smaller than the raw count suggests.
+The database has significantly more roles than previously tracked (699 vs 169). After analyzing the full dataset:
+
+| Segment | Count | Avg Score | Notes |
+|---------|-------|-----------|-------|
+| Score 100 (perfect) | 8 | 100 | All HK except Agoda (SG), all direct apply — **IMMEDIATE PRIORITY** |
+| Score 80-89 | 129 | ~83 | Strong fit, mix of direct apply and referral needed |
+| Score 70-79 | ~200 | ~74 | Decent fit, volume play |
+| Score <70 | ~370 | ~38 | Low priority, mostly Chinese-language or poor fit |
 
 ### Data Quality Issues Identified
 
@@ -570,36 +567,35 @@ The database has significant data quality issues that obscure the real opportuni
 | Unclassified category | 50 | Can't filter by role type | Mostly Chinese-language roles needing manual categorization |
 | Dead weight companies | 41 | Skews metrics | Stripe (26, avg 43.6) + Instacart (15, avg 37.4) — US roles with no APAC relevance |
 | Unknown difficulty | 136 | Can't estimate time | Only 32 jobs have difficulty rating |
+| Agoda location error | 1 | Fixed today | Title said "Singapore Based" but location_norm was "Hong Kong" — corrected |
 
 ### Revised Opportunity Set (After Cleanup)
 
-**Actionable jobs: 128** (169 total minus 41 dead weight)
+**Actionable jobs: 658** (699 total minus 41 dead weight)
 
 | Segment | Count | Avg Score | Notes |
 |---------|-------|-----------|-------|
-| Score 100 (perfect) | 10 | 100 | All SG, all direct apply — **IMMEDIATE PRIORITY** |
-| Score 80-89 | 14 | 83.4 | Strong fit, mix of direct apply and referral needed |
-| Score 70-79 | 24 | 74.2 | Decent fit, volume play |
-| Score <70 | 80 | 38.1 | Low priority, mostly Chinese-language or poor fit |
+| Score 100 (perfect) | 8 | 100 | All HK except Agoda (SG), all direct apply — **IMMEDIATE PRIORITY** |
+| Score 80-89 | 129 | ~83 | Strong fit, mix of direct apply and referral needed |
+| Score 70-79 | ~200 | ~74 | Decent fit, volume play |
+| Score <70 | ~320 | ~38 | Low priority, mostly Chinese-language or poor fit |
 
-### Top 10 Score-100 Jobs — ALL Direct Apply, ALL Singapore
+### Top 8 Score-100 Jobs — ALL Direct Apply
 
-These are the single highest-leverage actions in the entire system. **Apply to all 10 this week.**
+These are the single highest-leverage actions in the entire system. **Apply to all 8 this week.**
 
 | # | Company | Title | Score | Category | Est. Time |
 |---|---------|-------|-------|----------|-----------|
-| 1 | Airwallex | Director, Product Strategy Payments | 100 | strategy | 15 min |
-| 2 | Airwallex | Product Director, Payment Fraud | 100 | fintech | 15 min |
-| 3 | Airwallex | Product Director, Financial Markets & Platform | 100 | platform | 15 min |
-| 4 | Wellington Management | Director, Product Strategy, APAC | 100 | strategy | 15 min |
-| 5 | Mastercard | Director, AI & Data Strategy | 100 | ai_product | 15 min |
-| 6 | BlackRock | Aladdin Product Solutions, Director | 100 | general_pm | 15 min |
-| 7 | BNY | Director, Commercial PM (Custody Platform) | 100 | platform | 15 min |
-| 8 | Manulife | Director, Product Pricing | 100 | general_pm | 15 min |
-| 9 | Bitdeer | Director of Product Management | 100 | general_pm | 15 min |
-| 10 | Agoda | Principal Product Manager | 100 | general_pm | 15 min |
+| 1 | Agoda | Principal Product Manager | 100 | general_pm | 15 min |
+| 2 | Bank of China (Hong Kong) | Senior Wealth Management PM | 100 | general_pm | 15 min |
+| 3 | Binance | Senior Payment Product Manager - LATAM | 100 | fintech | 15 min |
+| 4 | Coins.ph | Senior Product Manager (Card Issuing) | 100 | fintech | 15 min |
+| 5 | Futu Holdings | Senior PM - Derivatives Risk | 100 | general_pm | 15 min |
+| 6 | Gate | Senior Fiat Product Manager (GatePay) | 100 | fintech | 15 min |
+| 7 | Ingram Micro | Senior PM - Cloud | 100 | general_pm | 15 min |
+| 8 | JD.COM | BNPL Product & Operations Lead | 100 | fintech | 15 min |
 
-**Total time: 2.5 hours for 10 perfect-score applications.**
+**Total time: 2 hours for 8 perfect-score applications.**
 
 ### Updated Salary Benchmarks (From 169-Role Local Data)
 
@@ -707,6 +703,6 @@ These are the single highest-leverage actions in the entire system. **Apply to a
 
 ---
 
-*Updated by Career OS Cron — June 22, 2026*
-*Data source: 169 local jobs in OKComputer_职位搜索清单/jobs-all.json*
-*Next update: June 29, 2026*
+*Updated by Career OS Cron — June 23, 2026*
+*Data source: 699 jobs in OKComputer_职位搜索清单/jobs-all.json*
+*Next update: June 30, 2026*

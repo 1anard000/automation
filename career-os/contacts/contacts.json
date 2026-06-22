@@ -34,7 +34,7 @@
       "connection": "Tech conference in Shanghai",
       "connection_date": "2025-11-28",
       "relationship_strength": "weak",
-      "notes": "Hiring for AI infra roles. Prefers WeChat communication. Last contact: 2025-11-28 (6+ months ago). URGENT reconnection needed. FOLLOW-UP OVERDUE since Jun 20.",
+      "notes": "Hiring for AI infra roles. Prefers WeChat communication. Last contact: 2025-11-28 (6+ months ago). URGENT reconnection needed. FOLLOW-UP OVERDUE 3 DAYS since Jun 20.",
       "relevance_tags": [
         "hiring_manager",
         "referral"
@@ -56,7 +56,7 @@
       "connection": "AWS Summit Beijing 2025",
       "connection_date": "2026-02-16",
       "relationship_strength": "weak",
-      "notes": "Looking for ML engineers for payments team. Last contact: 2026-02-16. Airwallex has 13 open roles in SG, 3 are top-20 (Director-level strategy/fintech). FOLLOW-UP DUE TODAY Jun 21.",
+      "notes": "Looking for ML engineers for payments team. Last contact: 2026-02-16. Airwallex has 13 open roles in SG, 3 are top-20 (Director-level strategy/fintech). FOLLOW-UP OVERDUE 2 DAYS since Jun 21.",
       "relevance_tags": [
         "hiring_manager",
         "referral"
@@ -150,7 +150,7 @@
       "apac_relevant": false,
       "follow_up_needed": true,
       "follow_up_action": "OVERDUE: Send alignment paper. Ask about OpenAI APAC expansion and any product/strategy roles.",
-      "follow_up_date": "2026-06-20"
+      "follow_up_date": "2026-06-19"
     },
     {
       "id": "anthropic-robert-kim",

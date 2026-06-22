@@ -1,8 +1,8 @@
 # Outreach Tracking — Career OS
 
-## 🚨 EXECUTION STATUS (June 22, 2026 — Updated by Career OS Cron)
+## 🚨 EXECUTION STATUS (June 23, 2026 — Updated by Career OS Cron)
 
-**Status: Excellent planning, ZERO execution. 3 overdue outreach messages. Web tools unavailable for contact mapping.**
+**Status: Excellent planning, ZERO execution. 4 overdue outreach messages (1 due today). Web tools unavailable for contact mapping or job research.**
 
 ### 📊 Cumulative Status
 | Metric | Last Week | This Week | Trend |
@@ -19,12 +19,13 @@
 | Meetings set | 2+ | 0 | 🔴 NOT STARTED |
 | Referrals gained | 1+ | 0 | 🔴 NOT STARTED |
 
-### ⚡ TODAY'S TOP 3 ACTIONS (June 22 — URGENT)
-1. **Send Michael Zhang message** — OVERDUE 3 days. Alignment paper + APAC question. (10 min)
-2. **Send David Liu WeChat** — OVERDUE 2 days. Reconnect after 6+ months. (5 min)
-3. **Send Emily Watson message** — OVERDUE 1 day. Airwallex SG Director roles. (10 min)
+### ⚡ TODAY'S TOP 3 ACTIONS (June 23 — URGENT)
+1. **Send Michael Zhang message** — OVERDUE 4 days. Alignment paper + APAC question. (10 min)
+2. **Send David Liu WeChat** — OVERDUE 3 days. Reconnect after 6+ months. (5 min)
+3. **Send Emily Watson message** — OVERDUE 2 days. Airwallex SG Director roles. (10 min)
+4. **Send Sarah Chen message** — DUE TODAY. Follow up on NVIDIA partnership. (10 min)
 
-**Total time: ~25 minutes. This is non-negotiable. Block 30 min NOW.**
+**Total time: ~35 minutes. This is non-negotiable. Block 45 min NOW.**
 
 ### 🎯 MINIMUM VIABLE EXECUTION (Daily)
 **If you do nothing else, do these 3 things every day:**
@@ -40,9 +41,9 @@
 | Day | Time Box | Outreach | Applications | Total Time |
 |-----|----------|----------|-------------|------------|
 | Sat Jun 22 | 30 min | Michael Zhang (OVERDUE) | — | 30 min |
-| Sun Jun 23 | 45 min | David Liu + Emily Watson | Binance + Gate (HK, score 100) | 45 min |
+| Sun Jun 23 | 45 min | David Liu + Emily Watson + Sarah Chen | Binance + Gate (HK, score 100) | 45 min |
 | Mon Jun 24 | 45 min | Amanda Foster | Coins.ph + Wellington (HK/SG, score 100) | 45 min |
-| Tue Jun 25 | 45 min | Lisa Wang + Sarah Chen | Airwallex x2 (SG, score 100) | 45 min |
+| Tue Jun 25 | 45 min | Lisa Wang | Airwallex x2 (SG, score 100) | 45 min |
 | Wed Jun 26 | 30 min | Thomas Anderson | Mastercard + Futu (SG/HK, score 100) | 30 min |
 | Thu Jun 27 | 30 min | Follow-up on responses | Ingram Micro + Bank of China (HK) | 30 min |
 | Fri Jun 28 | 15 min | Weekly review | — | 15 min |
@@ -80,22 +81,23 @@
 ## Immediate Follow-ups (Week of June 22-28)
 | Contact | Company | Action | Due | Channel | Status | Priority |
 |---------|---------|--------|-----|---------|--------|----------|
-| Michael Zhang | OpenAI | OVERDUE 3 DAYS: Send alignment paper. Ask about APAC expansion. | 2026-06-19 | LinkedIn/Email | 🔴 OVERDUE (3 days) | ⚡ P1 |
-| David Liu | ByteDance | URGENT: Reconnect after 6+ months. TikTok E-commerce PM roles. | 2026-06-20 | WeChat | 🔴 OVERDUE (2 days) | ⚡ P1 |
-| Emily Watson | Airwallex | OVERDUE 1 DAY: Follow up on ML hiring. Director Product Strategy Payments (SG). | 2026-06-21 | LinkedIn/Email | 🔴 OVERDUE (1 day) | ⚡ P1 |
-| Amanda Foster | Google | Ask about APAC BizOps/Chief of Staff role at Google Singapore. | 2026-06-25 | LinkedIn/Email | ⏳ PENDING | 🟢 P2 |
-| Lisa Wang | Sequoia | Share Q2 metrics. Ask about APAC portfolio companies. | 2026-06-30 | LinkedIn/Email | ⏳ PENDING | 🟢 P2 |
-| Sarah Chen | NVIDIA | Follow up on partnership proposal. APAC strategy team question. | 2026-06-23 | LinkedIn/Email | ⏳ PENDING (tomorrow) | 🟢 P2 |
-| Thomas Anderson | Meta | Reconnect after 8+ months. Ask about Meta APAC strategy/ops. | 2026-06-26 | LinkedIn/Email | ⏳ PENDING | 🟢 P2 |
+| Michael Zhang | OpenAI | OVERDUE 4 DAYS: Send alignment paper. Ask about APAC expansion. | 2026-06-19 | LinkedIn/Email | 🔴 OVERDUE (4 days) | ⚡ P1 |
+| David Liu | ByteDance | URGENT: Reconnect after 6+ months. TikTok E-commerce PM roles. | 2026-06-20 | WeChat | 🔴 OVERDUE (3 days) | ⚡ P1 |
+| Emily Watson | Airwallex | OVERDUE 2 DAYS: Follow up on ML hiring. Director Product Strategy Payments (SG). | 2026-06-21 | LinkedIn/Email | 🔴 OVERDUE (2 days) | ⚡ P1 |
+| Sarah Chen | NVIDIA | DUE TODAY: Follow up on partnership proposal. APAC strategy team question. | 2026-06-23 | LinkedIn/Email | ⚡ DUE TODAY | ⚡ P1 |
+| Amanda Foster | Google | Ask about APAC BizOps/Chief of Staff role at Google Singapore. | 2026-06-25 | LinkedIn/Email | ⏳ PENDING (2 days) | 🟢 P2 |
+| Lisa Wang | Sequoia | Share Q2 metrics. Ask about APAC portfolio companies. | 2026-06-30 | LinkedIn/Email | ⏳ PENDING (7 days) | 🟢 P2 |
+| Thomas Anderson | Meta | Reconnect after 8+ months. Ask about Meta APAC strategy/ops. | 2026-06-26 | LinkedIn/Email | ⏳ PENDING (3 days) | 🟢 P2 |
 
-### 🚨 CRITICAL: 3 Messages OVERDUE (June 22)
+### 🚨 CRITICAL: 4 Messages OVERDUE or DUE TODAY (June 23)
 
-**Priority order for TODAY (June 22):**
-1. **Michael Zhang (OpenAI)** — OVERDUE by 3 days. Alignment paper + APAC expansion question.
-2. **David Liu (ByteDance)** — OVERDUE by 2 days. WeChat reconnection after 6+ months.
-3. **Emily Watson (Airwallex)** — OVERDUE by 1 day. Airwallex SG Director roles.
+**Priority order for TODAY (June 23):**
+1. **Michael Zhang (OpenAI)** — OVERDUE by 4 days. Alignment paper + APAC expansion question.
+2. **David Liu (ByteDance)** — OVERDUE by 3 days. WeChat reconnection after 6+ months.
+3. **Emily Watson (Airwallex)** — OVERDUE by 2 days. Airwallex SG Director roles.
+4. **Sarah Chen (NVIDIA)** — DUE TODAY. Partnership proposal follow-up.
 
-**Tomorrow (June 23):** Sarah Chen (NVIDIA) follow-up due.
+**Tomorrow (June 24):** Amanda Foster (Google) follow-up due.
 
 ### 📊 Execution Velocity Tracker
 | Week | Outreach Sent | Apps Submitted | Time Invested | Notes |
@@ -276,22 +278,24 @@
 | 2026-06-22 | **Company cluster analysis created** | 128 jobs | 71 companies | ✅ Created company-cluster-analysis.md with resume tailoring clusters, batch application recommendations, and visa sponsorship risk analysis. Found 6 clusters, 6 application batches. 31 high-visa-likelihood roles identified. |
 | 2026-06-22 | **Application batch checklist created** | 24 jobs | All score-80+ | ✅ Created strategy/application-batch.md — daily checklist with exact URLs, 4 resume versions, referral sequence, and 7-day schedule. ~6 hours total. Stop planning, start clicking. |
 | 2026-06-22 | **Execution gap analysis** | Strategy + Outreach | Career OS | ✅ Added EXECUTION GAP ANALYSIS section to career-strategy.md. Identified root causes (perfectionism, no accountability, overwhelm). Created Minimum Viable Execution framework (17 min/day). Revised weekly commitment to realistic targets. Updated outreach tracker with MVE section. |
+| 2026-06-23 | **Outreach tracker updated** | 7 contacts | Various | ✅ Updated overdue items to Jun 23: Michael Zhang (4 days), David Liu (3 days), Emily Watson (2 days). Sarah Chen now due TODAY. Updated sprint plan to reflect today's actions. Fixed day-of-week alignment (Sat Jun 22 → Sun Jun 23). |
+| 2026-06-23 | **Job database analysis** | 699 jobs | All companies | ✅ Verified full database has 699 jobs (not 169 as previously tracked). 8 score-100 with direct apply, 137 high-score (80+). 0 applications submitted. Fixed Agoda location data issue (title says "Singapore Based" but location_norm was "Hong Kong"). |
 
 ---
 
 ## 📊 Application Tracking
 
-**Current status: 0% application rate (169 roles in database, 0 submitted)**
+**Current status: 0% application rate (699 roles in database, 0 submitted)**
 
 ### This Week's Application Targets (Jun 22-28)
-*Day 1 of 5. Target: 20 applications this week.*
+*Day 2 of 7. Target: 20 applications this week.*
 
 | Day | Target Roles | Est. Time | Status |
 |-----|-------------|-----------|--------|
-| Mon Jun 22 | HK Crypto/Fintech (Binance, Gate, Coins.ph) + SG (Wellington) | 60 min | ⬜ Today |
-| Tue Jun 23 | SG Director roles (Airwallex x2, Mastercard, Futu) | 60 min | ⬜ |
-| Wed Jun 24 | HK + SG (Ingram Micro, Agoda, Bank of China, Bitdeer) | 60 min | ⬜ |
-| Thu Jun 25 | SG (BNY, Manulife, Airwallex Financial Markets, Ambition) | 60 min | ⬜ |
+| Sat Jun 22 | HK Crypto/Fintech (Binance, Gate, Coins.ph) + SG (Wellington) | 60 min | ⬜ |
+| Sun Jun 23 | SG Director roles (Airwallex x2, Mastercard, Futu) | 60 min | ⬜ Today |
+| Mon Jun 24 | HK + SG (Ingram Micro, Agoda, Bank of China, Bitdeer) | 60 min | ⬜ |
+| Tue Jun 25 | SG (BNY, Manulife, Airwallex Financial Markets, Ambition) | 60 min | ⬜ |
 | Fri Jun 26 | SZ + HK (Meituan, JD.COM, Alibaba Lazada, OKX) | 60 min | ⬜ |
 
 ### Application Log
