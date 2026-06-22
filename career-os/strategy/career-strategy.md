@@ -132,21 +132,19 @@ Key finding: 6 resume clusters identified. Apply the same resume version to all 
 **6 batch application groups identified** — apply same resume to all jobs in a batch for efficiency.
 **31 high-visa-likelihood roles** identified (visa-friendly companies: Google, Airwallex, OKX, etc.)
 
-### Top Companies by Opportunity Density (Updated Jun 21)
-| Company | High-Score (80+) | Score-100 | Key Roles | Cities |
-|---------|-----------------|-----------|-----------|--------|
-| OKX | 4 | 0 | Web3 Wallet PM (89), Local Market PM (87), DeFi Lending (unscored), Web3 Growth x3 | HK, SG |
-| Airwallex | 3 | 3 | Director Product Strategy Payments (100), Payment Fraud Director (100), Financial Markets Director (100) | SG |
-| ByteDance | 2 | 0 | Growth Strategy PM - Global Payment (85), Card Growth PM - Global Payment (85) | SG |
-| Crypto.com | 2 | 0 | Lead PM Exchange Institutional (82), Senior PM AI Transformation (80) | SG |
-| Google | 1 | 0 | Regional Product Lead (80) | SG |
-| Binance | 2 | 0 | AI Chatbot PM (77), Earn Structured Product (70) | HK, SG |
-| Shopee | 3 | 0 | SG Business PM x3 (70) | SG |
-| UOB | 1 | 0 | VP Digital Currency & Payments (82) | SG |
-| DBS Bank | 1 | 0 | VP DBS Digital Exchange (82) | SG |
-| Wellington Management | 1 | 1 | Director Product Strategy APAC (100) | SG |
-| Mastercard | 1 | 1 | Director AI & Data Strategy (100) | SG |
-| BlackRock | 1 | 1 | Aladdin Product Solutions Director (100) | SG |
+### Top Companies by Opportunity Density (Updated Jun 23 — Full DB Analysis)
+| Company | Total Roles | High-Score (80+) | Score-100 | Dir+ | Key Roles | Cities |
+|---------|-------------|-----------------|-----------|------|-----------|--------|
+| **OKX** | **92** | **22** | 0 | **42** | VP AI Strategy (90), KYB PM (83), DEX PM (82) | SG, HK |
+| **Coupang** | **60** | **10** | 0 | **18** | Director Product & Program Mgmt (88), Principal BizOps (85) | **SH** — UNDEREXPLORED |
+| **Agoda** | **41** | **7** | **1** | 10 | Principal PM (100), Senior PM SG (80) | SG, SH |
+| Airwallex | 9 | 2 | 0 | 0 | Director Product Strategy Payments (100), Payment Fraud (100) | SG |
+| ByteDance | 7 | 3 | 0 | 0 | TikTok E-commerce PM (95), CapCut PM (95), TikTok Shop HK (87) | SZ, SG, HK |
+| Stripe | 14 | 6 | 0 | 2 | Head of Comms APAC (93), Enterprise Product Support (82) | SG |
+| Binance | 9 | 5 | **1** | 0 | Senior Payment PM LATAM (100), Binance Pay Lead (87) | HK |
+| Crypto.com | 5 | 0 | 0 | 3 | Lead PM Exchange (82), AI Transformation (80) | HK, SG |
+| Coins.ph | 3 | 3 | **1** | 0 | Senior PM Card Issuing (100), Principal PM AML (83) | HK |
+| Google | 5 | 1 | 0 | 1 | Regional Product Lead (80) | SG |
 
 ### NEW: Unscored Roles Rescanned (Jun 21)
 136 roles were added to the database without scoring. A quick-scan was run to identify high-value opportunities:
@@ -702,7 +700,8 @@ These are the single highest-leverage actions in the entire system. **Apply to a
 **Critical: 3 messages are overdue. Fix broken promises before sending new outreach.**
 
 ---
-
+---
 *Updated by Career OS Cron — June 23, 2026*
 *Data source: 699 jobs in OKComputer_职位搜索清单/jobs-all.json*
+*Market Intelligence: See `strategy/market-intelligence.md` for full company/salary/geographic analysis*
 *Next update: June 30, 2026*
