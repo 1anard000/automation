@@ -136,8 +136,8 @@ Key finding: 6 resume clusters identified. Apply the same resume version to all 
 | Company | Total Roles | High-Score (80+) | Score-100 | Dir+ | Key Roles | Cities |
 |---------|-------------|-----------------|-----------|------|-----------|--------|
 | **OKX** | **92** | **22** | 0 | **42** | VP AI Strategy (90), KYB PM (83), DEX PM (82) | SG, HK |
-| **Coupang** | **60** | **10** | 0 | **18** | Director Product & Program Mgmt (88), Principal BizOps (85) | **SH** — UNDEREXPLORED |
-| **Agoda** | **41** | **7** | **1** | 10 | Principal PM (100), Senior PM SG (80) | SG, SH |
+| **Coupang** | **60** | **10** | 0 | **18** | Director Product & Program Mgmt (88), Principal BizOps (85) | **SH, Tokyo** — UNDEREXPLORED |
+| **Agoda** | **41** | **7** | **1** | 10 | Principal PM (100), Senior PM SG (80) | SG, SH, **Tokyo**, Bangkok |
 | Airwallex | 9 | 2 | 0 | 0 | Director Product Strategy Payments (100), Payment Fraud (100) | SG |
 | ByteDance | 7 | 3 | 0 | 0 | TikTok E-commerce PM (95), CapCut PM (95), TikTok Shop HK (87) | SZ, SG, HK |
 | Stripe | 14 | 6 | 0 | 2 | Head of Comms APAC (93), Enterprise Product Support (82) | SG |
@@ -145,6 +145,8 @@ Key finding: 6 resume clusters identified. Apply the same resume version to all 
 | Crypto.com | 5 | 0 | 0 | 3 | Lead PM Exchange (82), AI Transformation (80) | HK, SG |
 | Coins.ph | 3 | 3 | **1** | 0 | Senior PM Card Issuing (100), Principal PM AML (83) | HK |
 | Google | 5 | 1 | 0 | 1 | Regional Product Lead (80) | SG |
+Payoneer | 2 | 2 | 0 | 0 | **Chief of Staff GTM China (92)**, Growth Mgr (80) | **SH** — NEW |
+Datadog | 2 | 2 | 0 | 0 | Country Manager Japan (90), Head Enterprise Sales Japan (88) | **Tokyo** — NEW |
 
 ### NEW: Unscored Roles Rescanned (Jun 21)
 136 roles were added to the database without scoring. A quick-scan was run to identify high-value opportunities:
@@ -167,6 +169,7 @@ Key finding: 6 resume clusters identified. Apply the same resume version to all 
 ### Category Sweet Spots (by city)
 - **HK:** Fintech (13 roles), AI Product (10), Cross-border (7) — crypto/fintech is the HK story
 - **SG:** Strategy (22), Cross-border (21), AI Product (16) — SG = strategy + expansion HQ
+- **Tokyo:** Emerging — Datadog (2), Anthropic (1), Agoda (1), Coupang (1). 5 high-score roles.
 - **SH:** Strategy (16) — overwhelmingly strategy-focused, pharma/life sciences crossover
 - **SZ:** General PM (145) — volume play but language barrier is real
 

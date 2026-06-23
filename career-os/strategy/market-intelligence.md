@@ -198,4 +198,75 @@ Companies most likely to sponsor APAC work authorization:
 
 ---
 
-*Next update: July 1, 2026 | Source: 699 jobs in jobs-all.json*
+## 🆕 Fresh Intelligence — June 23, 2026 (Local Data Analysis)
+
+### Data Quality Fix
+- **222 jobs had broken status** (188 missing, 34 empty) → Fixed to `not_applied`
+- **126 jobs flagged as stale** — OKX has 17 stale roles (may be filled or expired)
+- All 699 jobs now have valid status tracking
+
+### New Discovery: Tokyo as 5th Target City
+Tokyo is emerging as a viable option with 5 high-score direct-apply roles:
+
+| Score | Company | Title | Why It Fits |
+|-------|---------|-------|-------------|
+| 90 | Datadog | Country Manager | Strategy + leadership |
+| 88 | Datadog | Head of Enterprise Sales, Japan | Enterprise sales |
+| 85 | Anthropic | Revenue Strategy & Ops Lead, Japan | AI + strategy |
+| 83 | Agoda | Manager, Growth Team | Marketplace growth |
+| 82 | Coupang | Director, Growth Marketing | Growth + cross-border |
+
+**Signal:** Datadog and Coupang both have multiple Tokyo roles. Anthropic is expanding in Japan. Consider adding Tokyo to target cities.
+
+### New High-Value Roles Not in Strategy Doc
+
+| Score | Company | Title | City | Category |
+|-------|---------|-------|------|----------|
+| 92 | Payoneer | Chief of Staff, GTM China | Shanghai | strategy |
+| 85 | Flexport | Senior BD Manager, Omnichannel | Shanghai | cross_border |
+| 85 | Nothing | Strategy & Operations Lead | Shenzhen | strategy |
+| 85 | D.E. Shaw Group | Senior PM, Applied AI | Hong Kong | ai_product |
+| 85 | Anthropic | Revenue Strategy & Ops Lead | Tokyo | strategy |
+| 82 | Notion | Country Manager, Singapore | Singapore | gm |
+| 82 | Wise | Senior PM - APAC Growth | Singapore | growth |
+
+### Company Density Update (Revised from Full DB)
+
+| Company | Total | 80+ | 100 | Status |
+|---------|-------|-----|-----|--------|
+| OKX | 92 | 22 | 0 | Need referral (David Liu) |
+| Coupang | 60 | 10 | 0 | Underexplored — SH strategy roles |
+| Agoda | 41 | 7 | 1 | 4 cities — SG, SH, Tokyo, Bangkok |
+| Stripe | 14 | 6 | 0 | Good scores, SG-focused |
+| Binance | 9 | 5 | 1 | HK crypto hub |
+| Airwallex | 9 | 2 | 0 | Ask Emily Watson |
+| ByteDance | 7 | 3 | 0 | Cross-border PMs — David Liu |
+| Payoneer | 2 | 2 | 0 | NEW — Chief of Staff Shanghai (92) |
+| Datadog | 2 | 2 | 0 | NEW — Tokyo roles |
+
+### Direct-Apply Hot List (Score 80+, Not Applied, 34 Roles in 7 Days)
+
+**HK (11 roles):** 7 score-100 + 3 OKX score-90
+**SG (8 roles):** Agoda 100, GitLab 85, Wise 82, Notion 82, Stripe 82
+**SH (7 roles):** Payoneer 92, Coupang 88, Flexport 85
+**Tokyo (5 roles):** Datadog 90, Anthropic 85, Agoda 83
+**SZ (2 roles):** Nothing 85, Amazon 80
+
+### Stale Job Risk
+126 jobs flagged as stale. Top stale companies:
+- OKX: 17 stale (out of 92 total — 18% may be filled)
+- Binance: 4 stale
+- ByteDance: 4 stale
+- Airwallex: 3 stale
+
+**Action:** Prioritize non-stale OKX roles. Cross-reference stale dates with application deadlines.
+
+### Application Barrier Analysis
+- **181 direct-apply available** — submit immediately
+- **94 login-required** — need referral or ATS account
+- **518 no direct apply** — need to find application links
+- **6 login-required high-score** — all Chinese companies (Meituan, Tencent, Xunlei, Baidu)
+
+---
+
+*Next update: June 30, 2026 | Source: 699 jobs in jobs-all.json | Web tools unavailable — local data analysis only*
