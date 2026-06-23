@@ -370,6 +370,15 @@
       "score_before": 10,
       "score_after": 10,
       "details": "Extracted company names from job titles/URLs for 8 BuiltIn/Wellfound entries. Removed 5 generic listing pages (Wellfound/CN Boss search pages, not real job postings). Dashboard rebuilt."
+    },
+    {
+      "timestamp": "2026-06-24T00:01:01.529960+08:00",
+      "dimension": "data_quality",
+      "task": "Fix 5 jobs with missing company names or locations from builtin sources",
+      "status": "completed",
+      "score_before": 10,
+      "score_after": 10,
+      "subagent": "nightly-improver"
     }
   ],
   "current_scores": {
