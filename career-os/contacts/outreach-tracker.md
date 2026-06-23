@@ -284,6 +284,7 @@
 | 2026-06-23 | **Job database analysis** | 699 jobs | All companies | ✅ Verified full database has 699 jobs (not 169 as previously tracked). 8 score-100 with direct apply, 137 high-score (80+). 0 applications submitted. Fixed Agoda location data issue. |
 | 2026-06-23 | **Market Intelligence Brief created** | 699 jobs | All companies | ✅ Created strategy/market-intelligence.md with company hiring activity, salary intelligence, geographic heatmap, Director-level opportunities, and visa sponsorship signals. Key discoveries: Coupang has 60 roles (18 Dir+) — underexplored. OKX has 92 roles (42 Dir+) — massive but need referral. Updated career-strategy.md company density table with full DB data. |
 | 2026-06-24 | **Outreach tracker updated — Week 3 & 4 plans** | - | Career OS | ✅ Updated execution status to Jun 24. Added Week 3 (Jun 29-Jul 5) plan: 2 outreach + 2 applications = 2.25 hrs. Added Week 4 (Jul 6-12) plan: 3 applications = 2.25 hrs. Added minimum viable execution for Week 3. Added follow-up cadence table and monthly targets. Fixed dates from Jun 23 to Jun 24. |
+| 2026-06-24 | **Market Intelligence refresh — stale role analysis** | 699 jobs | All companies | ✅ Found 50 high-score roles are stale (18% of DB). SZ has 40% stale rate — deprioritized. Tokyo added as 5th target city (8 roles, all fresh). Coupang SH added (3 direct-apply high-score). Identified 39 safe direct-apply roles (score 80+, not stale). Updated strategy doc with stale risk tables and revised priority queue. |
 
 ---
 

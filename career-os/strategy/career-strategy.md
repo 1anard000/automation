@@ -703,8 +703,73 @@ These are the single highest-leverage actions in the entire system. **Apply to a
 **Critical: 3 messages are overdue. Fix broken promises before sending new outreach.**
 
 ---
+
+## 🔄 Strategy Refresh — June 24, 2026 (Stale Role Risk Analysis)
+
+### Critical Finding: 50 High-Score Roles Are Stale
+**18% of all roles are stale. Among score-80+ roles, 50 are flagged stale.** Applying to stale roles wastes time on potentially filled positions.
+
+### Stale Risk by City
+| City | Total | Stale | Fresh % | Risk Level |
+|------|-------|-------|---------|------------|
+| Singapore | 157 | ~15 | 90% | ✅ SAFEST |
+| Hong Kong | 112 | ~20 | 82% | ✅ GOOD |
+| Shanghai | 30 | ~5 | 83% | ✅ GOOD |
+| **Shenzhen** | **152** | **~60** | **60%** | **⚠️ RISKY** |
+| Tokyo | 8 | 0 | 100% | ✅ FRESHEST |
+
+### Stale Risk by Company
+| Company | Total | Stale | Stale % | Recommendation |
+|---------|-------|-------|---------|----------------|
+| ByteDance | 7 | 4 | 57% | Focus on SG roles only |
+| Binance | 9 | 4 | 44% | Verify HK roles before applying |
+| Airwallex | 9 | 3 | 33% | Ask Emily Watson directly |
+| OKX | 92 | 17 | 18% | Don't apply to stale — verify first |
+| Alibaba | 2 | 2 | 100% | Both roles stale |
+
+### New Discovery: Tokyo as 5th Target City
+Tokyo has 8 roles, ALL fresh, with 3 high-score direct-apply:
+- Datadog Country Manager (90)
+- Datadog Head of Enterprise Sales, Japan (88)
+- Anthropic Revenue Strategy & Ops Lead (85)
+
+**Action:** Add Tokyo to target cities. Consider Datadog and Anthropic as new priority companies.
+
+### New Discovery: Coupang Shanghai (UNDEREXPLORED)
+Coupang has 60 roles with 3 direct-apply high-score roles in SH:
+- Director, Product & Program Mgmt (88)
+- Principal Business Strategy & Ops (85)
+- Director, Growth Marketing (82, Tokyo)
+
+**Action:** Add Coupang SH to application queue. Strategy-heavy, English-friendly.
+
+### Revised Safe Application Pool
+**39 direct-apply high-score roles** identified (score 80+, not stale):
+- 14 at score 90+ (~3.5 hours)
+- 25 at score 80-89 (~8 hours)
+- Total: ~11.5 hours across 5 days
+
+### Updated Priority Queue
+**🔴 IMMEDIATE (Today):**
+1. Submit 8 score-100 applications (HK, LinkedIn, ~2 hours)
+2. Submit Payoneer Chief of Staff (92, SH)
+3. Submit OKX VP AI Strategy (90, HK) — NEW finding
+
+**🟡 THIS WEEK:**
+4. Submit Coupang SH roles (88, 85)
+5. Submit Datadog Tokyo (90, 88)
+6. Submit Anthropic Tokyo (85)
+7. Submit remaining score-80+ direct apply (15 roles)
+
+### Key Shift in Strategy
+1. **SZ is deprioritized** — 40% stale, mostly Chinese-language. Focus on SG/HK/SH/Tokyo.
+2. **Tokyo added** — Fresh market, high-score roles, English-friendly.
+3. **Coupang SH added** — Underexplored strategy hub.
+4. **Stale verification required** — Always check if role is still active before applying.
+
 ---
-*Updated by Career OS Cron — June 23, 2026*
+
+*Updated by Career OS Cron — June 24, 2026*
 *Data source: 699 jobs in OKComputer_职位搜索清单/jobs-all.json*
-*Market Intelligence: See `strategy/market-intelligence.md` for full company/salary/geographic analysis*
-*Next update: June 30, 2026*
+*Market Intelligence: See `strategy/market-intelligence.md` for full stale risk analysis*
+*Next update: July 1, 2026*
