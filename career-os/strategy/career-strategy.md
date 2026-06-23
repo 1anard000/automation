@@ -232,20 +232,28 @@ Priority score = Quality Score + Direct Apply (5) + Difficulty Adj (easy +3 / ha
 - **If blocked:** Note the blocker, move to next task, circle back
 - **Weekly:** Review what got done vs. plan, adjust next week
 
-## 🚨 CRITICAL: Application Status (Updated June 22, 2026)
+## 🚨 CRITICAL: Application Status (Updated June 24, 2026)
 
-**Current status: 0% application rate (699 roles in full database, 0 submitted). 4 overdue outreach messages (1 due today).**
+**Current status: 0% application rate (474 roles in database, 0 submitted). Database reconciled — 474 jobs, not 699. 15 direct-apply score-80+ English-friendly roles with working URLs.**
 
 | Metric | Value |
 |--------|-------|
-| Total roles | 699 |
+| Total roles (reconciled) | 474 |
 | Applied | 0 |
-| Not applied | 477 |
-| High-score (80+) unapplied | 137 |
-| Perfect-score (100) unapplied | 8 (all direct apply) |
-| Direct-apply available | 181 |
+| Scored | 346 |
+| Score 80+ | 60 |
+| Score 80+ direct-apply English | **15** |
+| Score 100 direct-apply | 1 |
+| Direct-apply total | ~55 |
 
-**Immediate priority: Submit 5-10 applications this week.** Start with the 8 perfect-score direct-apply roles below.
+**Immediate priority: Submit 8 applications this week using the Week 3 sprint plan.** See `strategy/weekly-application-plan-jul5.md` for exact URLs and daily breakdown.
+
+### Database Reconciliation (June 24)
+Previous analysis referenced 699 jobs. Current database has **474 jobs**. Discrepancy:
+- 699 likely included deduplication + Stripe/Instacart dead weight
+- 474 is the cleaned, actionable set
+- **128 jobs have no score** — need scoring pass
+- Focus on the 15 direct-apply score-80+ English roles — these are the REAL quick wins
 
 ### 🎯 Top 8 Perfect-Score (100) Direct-Apply Roles — Apply NOW
 
