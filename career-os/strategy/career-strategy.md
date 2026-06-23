@@ -191,8 +191,8 @@ Datadog | 2 | 2 | 0 | 0 | Country Manager Japan (90), Head Enterprise Sales Japa
 ## Weekly Cadence (Updated with Priority Engine)
 
 ### ⚡ WEEK 2 EXECUTION SPRINT (June 22-28)
-**Goal: 7 outreach messages + 7 applications. Total time: 4.25 hours.**
-
+### ⚡ WEEK 2 EXECUTION SPRINT (June 22-28)
+**Goal: Break the zero. Even 1 application + 1 outreach = success.**
 | Day | Time Box | Focus | Rationale |
 |-----|----------|-------|-----------|
 | Sat Jun 22 | 30 min | Send Michael Zhang message (OVERDUE) | Fix broken promise, highest-overdue |
