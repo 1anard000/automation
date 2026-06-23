@@ -397,6 +397,15 @@
       "score_before": 10,
       "score_after": 10,
       "details": "223 summaries filled from title/company/location, 221 en_title filled (19 translated from Chinese), 6 grades assigned (A-1/A-2), 10 quality_tiers added. All 665 jobs now complete."
+    },
+    {
+      "timestamp": "2026-06-24T06:03:09.945300",
+      "dimension": "data_quality",
+      "task": "Normalize 10 inconsistent quality_tier values (tier_a→A, tier_b→B, tier_c→C); refresh coverage-report.json",
+      "status": "completed",
+      "score_before": 10,
+      "score_after": 10,
+      "details": "Fixed tier_a(3), tier_b(6), tier_c(1) → A/B/C. Coverage report now shows 734 jobs, 36 sources, 319 companies."
     }
   ],
   "current_scores": {
