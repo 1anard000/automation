@@ -1,228 +1,154 @@
 # Market Intelligence Brief — APAC Career Landscape
-**Generated: June 24, 2026 | Data: 699 jobs in OKComputer_职位搜索清单/jobs-all.json**
+**Updated: June 24, 2026 (Corrected) | Data: 474 jobs in OKComputer_职位搜索清单/jobs-all.json**
 
 ---
 
-## 🚨 CRITICAL UPDATE: Stale Role Risk Assessment
+## 📊 Corrected Database Summary
 
-**50 high-score (80+) roles are flagged as stale** — applying to these wastes time on potentially filled positions. This is the single biggest risk in the current pipeline.
-
-### Stale Role Breakdown by Score Tier
-| Score Range | Stale Count | Risk Level |
-|-------------|-------------|------------|
-| 90-100 | 10 | 🔴 HIGH — these are the best roles, many likely filled |
-| 80-89 | 40 | 🟡 MEDIUM — still worth applying but verify availability first |
-
-### Top Stale Companies (by stale count)
-| Company | Total | Stale | Stale % | Action |
-|---------|-------|-------|---------|--------|
-| **OKX** | 92 | 17 | 18% | Verify before applying to any SG/HK role |
-| **ByteDance** | 7 | 4 | 57% | Most SZ roles stale — focus on SG only |
-| **Binance** | 9 | 4 | 44% | HK roles stale — check if still active |
-| **Airwallex** | 9 | 3 | 33% | SG roles stale — ask Emily Watson directly |
-| **Alibaba** | 2 | 2 | 100% | Both Lazada roles stale |
-| **Huawei** | 2 | 2 | 100% | Both SZ roles stale |
-
-### High-Score Stale Roles (Score 90+, Likely Filled)
-| Score | Company | Title | City | Stale Days |
-|-------|---------|-------|------|------------|
-| 95 | Alibaba | Senior PM, Lazada | SZ | 7 |
-| 95 | ByteDance | Senior PM, TikTok E-commerce | SZ | 7 |
-| 95 | ByteDance | Senior PM, CapCut | SZ | 7 |
-| 95 | Huawei | Senior PM, Huawei Cloud | SZ | 7 |
-| 95 | Huawei | Senior PM, HarmonyOS | SZ | 7 |
-| 95 | Tencent | Senior PM, WeChat Pay | SZ | 7 |
-| 95 | Tencent | Senior PM, Cloud & Smart | SZ | 7 |
-| 93 | Meituan | Senior PM, Waimai | SZ | 7 |
-| 91 | OSL (OKX) | Lead PM, B2B Cross-Border | SZ | 8 |
-| 88 | OKX | Senior PM, AI Gateway | SH | 7 |
-
-**Key insight:** ALL score-95 stale roles are in Shenzhen. The SZ market moves fast — roles posted 7+ days ago are likely filled. **Focus on SG and HK where roles are fresher.**
+| Metric | Previous Claim | Actual | Notes |
+|--------|---------------|--------|-------|
+| Total jobs | 699 | **474** | Reconciled — previous count included dedup + dead weight |
+| Scored | 346 | **346** | ✅ Confirmed |
+| Unscored | 128 | **128** | 4 are English-friendly, potential high-value |
+| Score 80+ | 108 | **60** | Previous count overcounted |
+| Score 80+ English | ~60 | **44** (deduped) | OKX case variation inflated count |
+| Direct apply score 80+ | ~55 | **19** | Actual direct-apply with working URLs |
+| Stale roles | 50 | **5** | Previous stale analysis was wrong |
+| English friendly | 269 | **269** | ✅ Confirmed |
 
 ---
 
-## ✅ SAFE TO APPLY: Direct-Apply High-Score Roles (Score 80+, Not Stale)
+## 🚨 CRITICAL: OKX Case Variation (10 Roles, Not 5)
 
-These are the **safest applications** — direct apply, not stale, high score.
+**The database has both "OKX" (5 roles) and "Okx" (5 roles) as company names.** This is a data quality issue that inflated OKX counts in previous analyses. All 10 are English-friendly score-80+ roles.
+
+### All OKX/Okx Score-80+ Roles (DEDUPED)
+| Score | Title | City | Apply Type |
+|-------|-------|------|------------|
+| 90 | Senior Strategy PM, VIP/Institutions | HK | direct |
+| 90 | VP, AI Strategy & Transformation | HK | direct |
+| 88 | Product Operations Manager / Director, Institutional | HK | ? |
+| 88 | Senior Manager / Director, Growth Operations | HK | ? |
+| 86 | Managing Director, Global Banking Partnership | SG | ? |
+| 83 | Principal/Senior PM, Institutional | HK | direct |
+| 81 | (Senior) Data Infra PM, On Chain Data | SG | search |
+| 81 | Product Director, VIP Products | SG | ? |
+| 81 | Senior Risk Manager, Trading (AI-Augmented) | HK | ? |
+| 80 | Fraud Risk Strategy Expert | SG | direct |
+
+**Action:** Deduplicate "OKX" and "Okx" in database. Focus on the 4 direct-apply HK roles first.
+
+---
+
+## ✅ SAFE TO APPLY: Direct-Apply High-Score Roles (Score 80+, English, Not Stale)
 
 ### Tier 1: Score 90+ (Apply IMMEDIATELY)
-| Score | Company | Title | City | Platform | Time |
-|-------|---------|-------|------|----------|------|
-| 100 | Agoda | Principal Product Manager | SG | LinkedIn | 10-15 min |
-| 100 | Bank of China (HK) | Senior Wealth Mgmt PM | HK | LinkedIn | 10-15 min |
-| 100 | Binance | Senior Payment PM - LATAM | HK | LinkedIn | 10-15 min |
-| 100 | Coins.ph | Senior PM (Card Issuing) | HK | LinkedIn | 10-15 min |
-| 100 | Futu Holdings | Senior PM - Derivatives Risk | HK | LinkedIn | 10-15 min |
-| 100 | Gate | Senior Fiat PM (GatePay) | HK | LinkedIn | 10-15 min |
-| 100 | Ingram Micro | Senior PM - Cloud | HK | LinkedIn | 10-15 min |
-| 100 | JD.COM | BNPL Product & Ops Lead | HK | LinkedIn | 10-15 min |
-| 94 | Ambition | Senior Program Manager | HK | LinkedIn | 10-15 min |
-| 92 | Payoneer | Chief of Staff, GTM China | SH | Greenhouse | 20-30 min |
-| 90 | OKX | VP, AI Strategy & Transformation | HK | Greenhouse | 15-20 min |
-| 90 | OKX | Senior Strategy PM, VIP/Institutions | HK | Greenhouse | 15-20 min |
-| 90 | OKX | Senior/Staff Engineer, Liquidity | HK | Greenhouse | 15-20 min |
-| 90 | Datadog | Country Manager | Tokyo | Greenhouse | 20-30 min |
+| Score | Company | Title | City | URL Type | Est. Time |
+|-------|---------|-------|------|----------|-----------|
+| 100 | Agoda | Principal Product Manager | SG* | LinkedIn | 15 min |
+| 90 | Datadog | Country Manager | Tokyo | direct | 20 min |
+| 90 | OKX | Senior Strategy PM, VIP/Institutions | HK | direct | 15 min |
+| 90 | OKX | VP, AI Strategy & Transformation | HK | direct | 20 min |
 
-**Total: 14 roles at score 90+ with direct apply. ~3.5 hours.**
+**Total: 4 roles at score 90+ with direct apply. ~70 minutes.**
 
 ### Tier 2: Score 80-89 (Apply This Week)
-| Score | Company | Title | City | Platform | Time |
-|-------|---------|-------|------|----------|------|
-| 88 | Coupang | Director, Product & Program Mgmt | SH | Greenhouse | 20-30 min |
-| 88 | Datadog | Head of Enterprise Sales, Japan | Tokyo | Greenhouse | 20-30 min |
-| 85 | Coupang | Principal Business Strategy & Ops | SH | Greenhouse | 20-30 min |
-| 85 | Anthropic | Revenue Strategy & Ops Lead | Tokyo | Greenhouse | 15-20 min |
-| 85 | Flexport | Senior BD Manager, Omnichannel | SH | Greenhouse | 20-30 min |
-| 85 | GitLab | Regional Sales Director, ASEAN | SG | Greenhouse | 20-30 min |
-| 85 | Nothing | Strategy & Ops Lead | SZ | LinkedIn | 10-15 min |
-| 83 | Coins.ph | Senior PM (Card Issuing) | HK | ? | ? |
-| 83 | OKX | Principal PM, Institution Onboarding | HK | ? | ? |
-| 83 | Coins.ph | Principal PM, Compliance/AML | HK | ? | ? |
-| 83 | HSBC | Senior PM - HK Business | HK | ? | ? |
-| 83 | Bank of China (HK) | Senior PM, Transaction Banking | HK | ? | ? |
-| 83 | Agoda | Manager, Growth Team | Tokyo | Greenhouse | 20-30 min |
-| 82 | Wise | Senior PM - APAC Growth | SG | Wise Careers | 10-15 min |
-| 82 | Notion | Country Manager, Singapore | SG | Ashby | 15-20 min |
-| 82 | Coupang | Director, Growth Marketing | Tokyo | Greenhouse | 20-30 min |
-| 82 | Stripe | Enterprise Product Support Mgr | SG | Greenhouse | 20-30 min |
-| 80 | OKX | Fraud Risk Strategy Expert | SG | Greenhouse | 15-20 min |
-| 80 | OKX | VP, AI Strategy & Transformation | SG | Greenhouse | 15-20 min |
-| 80 | Amazon | Senior PM - AI, Global Selling | SZ | LinkedIn | 10-15 min |
-| 80 | Coupang | Group Product Manager | Taipei | Greenhouse | 20-30 min |
-| 80 | Kong | Senior PM, AI Gateway | SH | Ashby | 15-20 min |
-| 80 | Agoda | Senior Manager, Strategic Partnerships | SH | Greenhouse | 20-30 min |
-| 80 | Payoneer | Senior Growth Marketing Mgr | SH | Greenhouse | 20-30 min |
-| 80 | Stripe | Partner Development Mgr | SG | Greenhouse | 20-30 min |
+| Score | Company | Title | City | URL Type | Est. Time |
+|-------|---------|-------|------|----------|-----------|
+| 85 | Coupang | Principal Business Strategy & Ops | SH | direct | 20 min |
+| 83 | Coins.ph | Principal PM - Compliance/AML | HK | direct | 15 min |
+| 83 | OKX | Principal/Senior PM, Institutional | HK | direct | 15 min |
+| 82 | Notion | Country Manager, Singapore | SG | direct | 15 min |
+| 82 | Stripe | Enterprise Product Support Mgr | SG | direct | 20 min |
+| 80 | Amazon | Senior PM - AI, Global Selling | SZ | direct | 15 min |
+| 80 | Coupang | Group Product Manager | Taipei | direct | 20 min |
+| 80 | OKX | Fraud Risk Strategy Expert | SG | direct | 15 min |
+| 80 | Stripe | Partner Development Mgr | SG | direct | 20 min |
 
-**Total: 25 roles at score 80-89 with direct apply. ~8 hours.**
+**Total: 9 roles at score 80-89 with direct apply. ~155 minutes.**
 
-### Combined Safe Pool: 39 Direct-Apply High-Score Roles
-**Total estimated time: ~11.5 hours across 5 days**
+### Combined Safe Pool: 13 Direct-Apply High-Score Roles
+**Total estimated time: ~3.7 hours across 3 days**
 
 ---
 
-## 🗺️ Geographic Intelligence Update
+## 🏢 Company Deep Dives (Corrected)
 
-### Freshness by City
-| City | Total | Stale | Fresh % | Recommendation |
-|------|-------|-------|---------|----------------|
-| Singapore | 157 | ~15 | 90% | ✅ SAFEST — roles are fresh, most diverse |
-| Hong Kong | 112 | ~20 | 82% | ✅ GOOD — crypto/fintech roles fresh |
-| Shanghai | 30 | ~5 | 83% | ✅ GOOD — strategy roles available |
-| Shenzhen | 152 | ~60 | 60% | ⚠️ RISKY — 40% stale, mostly Chinese |
-| Tokyo | 8 | 0 | 100% | ✅ FRESHEST — new market, all fresh |
+### OKX: 10 Score-80+ Roles (Case Variation Issue)
+- **5 as "OKX"** + **5 as "Okx"** in database
+- All English-friendly, mix of HK and SG
+- 4 direct-apply roles available
+- **Action:** Deduplicate. Apply to VP AI Strategy (90, HK) first.
 
-### Tokyo: Emerging 5th City (NEW)
-Tokyo has 8 roles, ALL fresh (scanned in last 5 days), with 3 high-score direct-apply:
+### Coupang: 7 Score-80+ Roles (UNDEREXPLORED)
+- 7 fresh score-80+ roles across SH, Taipei, Tokyo
+- Principal Business Strategy & Ops (85, SH) — direct apply
+- Group Product Manager (80, Taipei) — direct apply
+- **Action:** Add Coupang to application queue. Strategy-heavy, English-friendly.
 
-| Score | Company | Title | Why It Matters |
-|-------|---------|-------|----------------|
-| 90 | Datadog | Country Manager | Strategy + leadership |
-| 88 | Datadog | Head of Enterprise Sales, Japan | Enterprise sales |
-| 85 | Anthropic | Revenue Strategy & Ops Lead, Japan | AI + strategy |
-| 83 | Agoda | Manager, Growth Team | Marketplace growth |
-| 82 | Coupang | Director, Growth Marketing | Growth + cross-border |
+### Agoda: 6 Score-80+ Roles
+- Principal PM (100, SG) — direct apply, TOP PRIORITY
+- Manager Growth Team (83, Tokyo) — direct apply
+- Senior Manager Strategic Partnerships (80, Bangkok/SH) — direct apply
+- **Action:** Apply to Agoda Principal PM today.
 
-**Signal:** Datadog and Coupang both have multiple Tokyo roles. Anthropic expanding in Japan. Consider adding Tokyo to target cities.
+### Stripe: 4 Score-80+ Roles
+- Head of Communications APAC (93, SG) — comms role, not PM
+- Enterprise Product Support Mgr (82, SG) — direct apply
+- Partner Development Mgr (80, SG) — direct apply
+- **Note:** Strategy doc previously labeled Stripe as "dead weight" — incorrect. 4 score-80+ English roles.
 
-### Shanghai: Strategy Hub (Underexplored)
-SH has 30 roles with 43% strategy category. Key direct-apply:
-
-| Score | Company | Title | Category |
-|-------|---------|-------|----------|
-| 92 | Payoneer | Chief of Staff, GTM China | strategy |
-| 88 | Coupang | Director, Product & Program Mgmt | general_pm |
-| 85 | Coupang | Principal Business Strategy & Ops | strategy |
-| 85 | Flexport | Senior BD Manager, Omnichannel | cross_border |
-| 80 | Kong | Senior PM, AI Gateway | ai_product |
-| 80 | Agoda | Senior Manager, Strategic Partnerships | growth |
-| 80 | Payoneer | Senior Growth Marketing Mgr | growth |
-
-**Signal:** Payoneer Chief of Staff (92) is the highest-score SH role — apply immediately.
+### Tencent: 3 Score-80+ Roles
+- Sr BD Manager AI/Gaming (90, SZ) — direct apply
+- Strategic Investment Manager (88, SZ) — direct apply
+- Strategy Manager (85, SZ) — direct apply
+- **Note:** All in Shenzhen. Language barrier likely. English-friendly flag set but verify.
 
 ---
 
-## 🏢 Company Deep Dives (Updated June 24)
+## 📊 Freshness Analysis (Corrected)
 
-### OKX: 103 Entries (Revised from 92)
-OKX has **11 more entries** than previously tracked. After deduplication analysis:
-- 92 unique roles in main dataset
-- 10 additional entries with "Okx" (capitalization variant)
-- 1 OSL (OKX subsidiary) entry
+| City | Total | Fresh (7d) | Fresh % | Notes |
+|------|-------|-----------|---------|-------|
+| Singapore | 157 | ~140 | 89% | ✅ SAFEST — roles are fresh |
+| Hong Kong | 112 | ~95 | 85% | ✅ GOOD — crypto/fintech fresh |
+| Shenzhen | 152 | ~130 | 86% | ⚠️ FRESH BUT language barrier |
+| Shanghai | 30 | ~25 | 83% | ✅ GOOD — strategy roles |
+| Tokyo | 8 | 8 | 100% | ✅ FRESHEST — all fresh |
+| Other | 15 | ~10 | 67% | Sydney, Taipei, Barcelona |
 
-**Stale risk:** 17 of 92 are stale (18%). Focus on non-stale SG roles.
-
-**New discovery:** OKX has TWO VP AI Strategy roles — one in HK (score 90, direct apply) and one in SG (score 80, direct apply). The HK role is higher priority.
-
-### Coupang: 60 Roles (UNDEREXPLORED)
-Coupang has the second-highest role count but is barely in the strategy doc.
-
-**Direct-apply high-score roles:**
-| Score | Title | City | Time |
-|-------|-------|------|------|
-| 88 | Director, Product & Program Mgmt | SH | 20-30 min |
-| 85 | Principal Business Strategy & Ops | SH | 20-30 min |
-| 82 | Director, Growth Marketing | Tokyo | 20-30 min |
-| 80 | Group Product Manager | Taipei | 20-30 min |
-
-**Action:** Add Coupang SH roles to application queue. These are strategy-heavy, English-friendly, and direct apply.
-
-### Datadog: Tokyo Opportunity (NEW)
-Datadog has 2 high-score Tokyo roles, both direct apply:
-- Country Manager (90) — leadership role
-- Head of Enterprise Sales, Japan (88) — sales leadership
-
-**Signal:** Datadog is building a Tokyo presence. First-mover advantage.
-
-### Anthropic: Tokyo Expansion (NEW)
-Anthropic has 1 Tokyo role:
-- Revenue Strategy & Ops Lead, Japan (85) — AI + strategy
-
-**Signal:** Anthropic is expanding in Japan. Rare AI strategy role.
+**Key correction:** Previous stale analysis claimed 50 stale roles. Actual stale count is **5**. The "stale" calculation was likely based on a different methodology (possibly days since job posting vs. days since database scan).
 
 ---
 
-## 📊 Updated Score Distribution
+## 🗺️ Revised Priority Queue (June 24)
 
-| Tier | Count | % of Total | Notes |
-|------|-------|-----------|-------|
-| 90-100 | 26 | 3.7% | Highest leverage — apply immediately |
-| 80-89 | 111 | 15.9% | Strong fit — apply this week |
-| 70-79 | 341 | 48.8% | Volume play — batch process |
-| 60-69 | 142 | 20.3% | Lower priority |
-| <60 | 79 | 11.3% | Mostly Chinese-language or poor fit |
-
-**Key shift:** 431 roles scanned in last 5 days — database is actively maintained.
-
----
-
-## 🎯 Revised Priority Queue (June 24)
-
-### 🔴 IMMEDIATE (Today/Tomorrow)
-1. **Submit 8 score-100 applications** — all HK, all LinkedIn, ~2 hours
-2. **Submit Payoneer Chief of Staff (92, SH)** — highest-score SH role
-3. **Submit OKX VP AI Strategy (90, HK)** — NEW finding, direct apply
+### 🔴 IMMEDIATE (Today)
+1. **Submit Agoda Principal PM (100, SG)** — highest score, direct apply
+2. **Submit OKX VP AI Strategy (90, HK)** — direct apply
+3. **Submit Datadog Country Manager (90, Tokyo)** — emerging market
 
 ### 🟡 THIS WEEK
-4. **Submit Coupang SH roles** (88, 85) — underexplored, strategy-heavy
-5. **Submit Datadog Tokyo** (90, 88) — emerging market, first-mover
-6. **Submit Anthropic Tokyo** (85) — AI strategy, rare
-7. **Submit remaining score-80+ direct apply** (15 roles)
+4. **Submit Coupang Principal BizOps (85, SH)** — underexplored, strategy-heavy
+5. **Submit Coins.ph Principal PM (83, HK)** — crypto compliance
+6. **Submit OKX Principal PM Institutional (83, HK)** — direct apply
+7. **Submit Notion Country Manager (82, SG)** — SG strategy
+8. **Submit Stripe Enterprise Product Support (82, SG)** — direct apply
 
 ### 🟢 NEXT WEEK
-8. **Verify stale roles** — check if OKX/Binance/Airwallex SG roles are still active
-9. **Submit Tokyo roles** (Agoda 83, Coupang 82)
-10. **Submit SH strategy roles** (Flexport 85, Kong 80, Agoda 80)
+9. **Submit remaining score-80+ direct apply** (5 roles)
+10. **Score the 128 unscored jobs** — 4 are English-friendly
+11. **Deduplicate OKX/Okx** in database
 
 ---
 
-## ⚠️ Risk Signals
+## ⚠️ Risk Signals (Corrected)
 
-1. **Stale role epidemic:** 50 high-score roles are stale. SZ is worst (40% stale). Always check freshness before applying.
-2. **OKX volume trap:** 103 entries but 17 stale. Don't apply to stale OKX roles — verify first.
-3. **ByteDance SZ dead end:** 4/7 roles stale. Focus on SG cross-border roles instead.
-4. **Airwallex stale risk:** 3/9 stale. Ask Emily Watson which roles are actually open.
-5. **No direct apply on score-100 SG roles:** The 10 score-100 SG Director roles (Airwallex, Wellington, etc.) have NO direct apply — need referral.
+1. **OKX case variation:** 10 roles split across "OKX" and "Okx" — deduplicate before analysis
+2. **Stripe is NOT dead weight:** 4 score-80+ English roles, previously mislabeled
+3. **Stale risk was overstated:** Only 5 stale roles, not 50. Most roles are fresh.
+4. **Unscored jobs:** 128 jobs lack quality scores. 4 are English-friendly — need scoring.
+5. **New unscored English roles found:** MongoDB Senior Director HK, Roblox GM SEA
 
 ---
 
@@ -231,20 +157,27 @@ Anthropic has 1 Tokyo role:
 | Week | Target | Actual | Gap | Notes |
 |------|--------|--------|-----|-------|
 | Jun 15-21 | 10 | 0 | -10 | ZERO WEEK |
-| Jun 22-28 | 10 | 0 | -10 | Sprint week — Day 2 |
+| Jun 22-28 | 10 | 0 | -10 | Sprint week — Day 3 |
 | Jun 29-Jul 5 | 15 | — | — | Scale-up week |
 
 **Cumulative:** 0/25 applications submitted (0%)
 
-**Minimum Viable Execution (Daily):**
-1. Submit 1 score-100 application (10 min)
-2. Send 1 overdue message (10 min)
-3. Log it (2 min)
+---
 
-**Total: 22 minutes/day. That's it.**
+## 📋 New Unsored English-Friendly Roles (Potential High-Value)
+
+| Company | Title | City | Action |
+|---------|-------|------|--------|
+| MongoDB | Senior Director, Partner Specialists (Greater China) | HK | Score — likely high |
+| Roblox | General Manager, South East Asia | SG | Score — likely high |
+| Agoda | Senior Project Manager, Talent Development | Bangkok/KL | Score — medium |
+| Agoda | Senior Specialist, B2B Content Strategy | Bangkok/KL | Score — medium |
+
+**Action:** Score these 4 roles. MongoDB and Roblox could be score-80+.
 
 ---
 
-*Next update: July 1, 2026 | Source: 699 jobs in jobs-all.json*
-*Stale data refreshed: June 24, 2026*
-*Web tools unavailable — local data analysis only*
+*Updated by Career OS Cron — June 24, 2026*
+*Data source: 474 jobs in OKComputer_职位搜索清单/jobs-all.json*
+*Key corrections: OKX dedup (10 not 5), stale count (5 not 50), Stripe reclassified*
+*Next update: July 1, 2026*
