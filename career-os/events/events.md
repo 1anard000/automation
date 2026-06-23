@@ -64,23 +64,96 @@ Track relevant networking events, conferences, and meetups in target cities.
 
 ---
 
-## 🟡 Q3-Q4 2026
+## 🔴 AUGUST 2026 — ACTION ITEMS
+
+### Week 1 (Aug 1-7)
+- [ ] **Verify RISE Conference dates** — Check riseconf.com. If late July, register NOW. If August, block calendar.
+- [ ] **Register for CHINAOSS** — China Open Source Summit, typically mid-Aug in Shenzhen. Product/strategy tracks. Target: ByteDance, Alibaba teams.
+- [ ] **Attend ProductTank SG** (2nd Tuesday = Aug 11) — Google, Meta, Shopee PMs attend.
+- [ ] **Research AWS Summit Singapore** — Typically August. Cloud/AI product contacts. Check aws.amazon.com/summits.
+
+### Week 2 (Aug 8-14)
+- [ ] **Attend ProductTank SG** (Aug 11) — Monthly PM meetup.
+- [ ] **Attend ProductTank HK** (3rd Thursday = Aug 20) — Monthly PM meetup.
+- [ ] **Register for Guangzhou Cross-border E-commerce Expo** — Typically mid-late Aug. Directly relevant to cross-border commerce roles. Prepare cross-border pitch.
+- [ ] **Follow up on July networking contacts** — Check if any July event contacts responded. Send gentle follow-ups.
+
+### Week 3 (Aug 15-21)
+- [ ] **Attend CHINAOSS** (if mid-Aug in Shenzhen) — Product/strategy tracks. Target: ByteDance, Alibaba teams. Prepare cross-border commerce pitch.
+- [ ] **Attend ProductTank HK** (Aug 20) — Monthly PM meetup.
+- [ ] **Research Singapore UX Conference** — Typically August. Product design contacts.
+- [ ] **Plan September events** — FinTechAV (HK), Asia Pacific Retail Banking Summit, Tech in Asia (SG).
+
+### Week 4 (Aug 22-31)
+- [ ] **Attend Startup Grind SG** (last Wednesday = Aug 26) — Monthly.
+- [ ] **Attend Guangzhou Cross-border E-commerce Expo** (if late Aug) — Cross-border commerce contacts.
+- [ ] **Q3 Review** — Assess: applications sent, responses received, meetings set, referrals gained. Update strategy doc.
+- [ ] **Prepare September sprint** — FinTechAV, Tech in Asia, Echelon Asia Summit.
+
+### 📋 August Events Quick Reference
+| Date | Event | City | Priority | Target Contacts |
+|------|-------|------|----------|-----------------|
+| Aug 11 | ProductTank SG | Singapore | ⚡ HIGH | Google, Meta, Shopee PMs |
+| Aug ~12-14 | CHINAOSS | Shenzhen | ⚡ HIGH | ByteDance, Alibaba teams |
+| Aug 20 | ProductTank HK | Hong Kong | ⚡ HIGH | PM networking |
+| Aug ~18-20 | Guangzhou Cross-border Expo | Guangzhou | ⚡ HIGH | Cross-border commerce contacts |
+| Aug 26 | Startup Grind SG | Singapore | 🟢 MEDIUM | Startup founders |
+| TBD | RISE Conference | Hong Kong | ⚡ HIGH | OKX, Binance, Airwallex product teams |
+| TBD | AWS Summit Singapore | Singapore | 🟢 MEDIUM | Cloud/AI product contacts |
+| TBD | Singapore UX Conference | Singapore | 🟢 MEDIUM | Product design contacts |
+
+### 🪙 HK Crypto/Fintech Events (August — Check Dates)
+These are high-value for OKX, Binance, HashKey, Coins.ph contacts:
+- [ ] **Bitcoin Conference / Token2049 side events** — HK crypto community events. Check token2049.com for satellite events.
+- [ ] **HKVCA events** — Hong Kong Venture Capital Association. Crypto/fintech founders attend.
+- [ ] **HashKey Group events** — Check hashkey.com for community events in HK.
+- [ ] **OKX community events** — Check okx.com for HK community meetups or AMAs.
+- [ ] **Fintech Association of HK events** — Check fintech.org.hk for August events.
+- [ ] **Cyberport events** — Cyberport HK runs regular fintech/tech events. Check cyberport.hk.
+
+---
+
+## 🟡 SEPTEMBER 2026 — ACTION ITEMS
+
+### Week 1 (Sep 1-7)
+- [ ] **Register for Echelon Asia Summit** — Typically September/October in Singapore. Tech conference with APAC focus.
+- [ ] **Attend ProductTank SG** (2nd Tuesday = Sep 8) — Monthly PM meetup.
+- [ ] **Attend ProductTank HK** (3rd Thursday = Sep 17) — Monthly PM meetup.
+- [ ] **Research FinTechAV** — HK fintech awards/conference. Check for 2026 dates.
+
+### Week 2 (Sep 8-14)
+- [ ] **Attend ProductTank SG** (Sep 8) — Monthly PM meetup.
+- [ ] **Attend Startup Grind HK** (mid-month) — Cross-border commerce founders attend.
+- [ ] **Research Asia Pacific Retail Banking Summit** — Typically September. Banking/strategy contacts.
+- [ ] **Follow up on August networking contacts** — Send gentle follow-ups.
+
+### Week 3 (Sep 15-21)
+- [ ] **Attend ProductTank HK** (Sep 17) — Monthly PM meetup.
+- [ ] **Attend Startup Grind SG** (last Wed = Sep 30) — Monthly.
+- [ ] **Research ASOCIO** — September/October typically. Computing industry org.
+- [ ] **Prepare October events** — Tech in Asia (SG), Web Summit (Lisbon).
+
+### Week 4 (Sep 22-30)
+- [ ] **Attend Startup Grind SG** (Sep 30) — Monthly.
+- [ ] **Q3 Final Review** — Full assessment of applications, outreach, meetings, referrals. Update strategy doc.
+- [ ] **October prep** — Tech in Asia, CIIE planning.
+
+---
+
+## 🟡 Q4 2026
 
 ### Hong Kong
 - [ ] **FinTechAV** — HK fintech awards/conference. Check for 2026 dates.
-- [ ] **Asia Pacific Retail Banking Summit** — Typically September. Banking/strategy contacts.
-- [ ] **Cross-border E-commerce Summit** — Various organizers. Search for HK events in Q3.
+- [ ] **Cross-border E-commerce Summit** — Various organizers. Search for HK events in Q4.
 - [ ] **Web Summit (Lisbon)** — October/November. Not APAC but global tech. Some APAC companies attend.
 
 ### Shanghai
 - [ ] **CIIE (China International Import Expo)** — November 5-10, 2026. Massive trade expo. Cross-border commerce contacts.
-- [ ] **TechCrunch Shanghai** — Check for 2026 dates. Startup/VC networking.
 
 ### Singapore
 - [ ] **Tech in Asia Conference** — Typically October in Singapore. Startup/growth contacts.
 - [ ] **Wild Digital** — December typically. Southeast Asia tech conference.
-- [ ] **ASOCIO** — September/October typically. Computing industry org.
-- [ ] **Singapore Fintech Festival** — November 3-7, 2026 (confirmed). Major event.
+- [ ] **Singapore Fintech Festival** — November 3-7, 2026 (confirmed). Major event. Airwallex, DBS, UOB, Stripe all have major presence.
 
 ---
 
