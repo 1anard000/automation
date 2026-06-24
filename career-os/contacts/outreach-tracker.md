@@ -1,62 +1,44 @@
 # Outreach Tracking — Career OS
 
-## 🚨 EXECUTION STATUS (June 24, 2026 — Updated by Career OS Cron)
+## 🚨 EXECUTION STATUS (June 25, 2026 — Updated by Career OS Cron)
 
-**Status: Excellent planning, ZERO execution. Database reconciliation done: 474 jobs (not 699). Market intelligence corrected: 13 direct-apply score-80+ roles (not 15). OKX has 10 roles (case variation: "OKX" + "Okx"). Daily action card created.**
+**Status: Week 2 ended with ZERO execution. 4 days of planned outreach + applications = nothing sent. The planning is excellent. The execution is nonexistent. Week 3 plan is simpler: 2 outreach + 2 applications in 2.25 hours.**
 
-### 📊 Cumulative Status
-| Metric | Last Week | This Week | Trend |
-|--------|-----------|-----------|-------|
-| Applications sent | 0 | 0 | ⚠️ STALE |
-| Outreach messages sent | 0 | 0 | ⚠️ STALE |
-| Meetings set | 0 | 0 | ⚠️ STALE |
-| Referrals gained | 0 | 0 | ⚠️ STALE |
+### 📊 Cumulative Status (All-Time)
+| Metric | Target (to date) | Actual | Status |
+|--------|-----------------|--------|--------|
+| Applications sent | 25+ | **0** | 🔴 CRITICAL |
+| Outreach messages sent | 12+ | **0** | 🔴 CRITICAL |
+| Meetings set | 4+ | **0** | 🔴 CRITICAL |
+| Referrals gained | 3+ | **0** | 🔴 CRITICAL |
 
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-| Applications sent this week | 10 | 0 | 🔴 NOT STARTED |
-| Outreach messages sent | 5 | 0 | 🔴 NOT STARTED |
-| Meetings set | 2+ | 0 | 🔴 NOT STARTED |
-| Referrals gained | 1+ | 0 | 🔴 NOT STARTED |
+### ⚡ TODAY'S TOP 3 ACTIONS (June 25)
+1. **Send Michael Zhang message** — OVERDUE 6 days. Alignment paper + APAC expansion. (10 min)
+2. **Send David Liu WeChat** — OVERDUE 5 days. Reconnect after 6+ months. (5 min)
+3. **Send Emily Watson message** — OVERDUE 4 days. Airwallex SG Director roles. (10 min)
 
-### ⚡ TODAY'S TOP 3 ACTIONS (June 24 — URGENT)
-1. **Send Michael Zhang message** — OVERDUE 5 days. Alignment paper + APAC question. (10 min)
-2. **Send David Liu WeChat** — OVERDUE 4 days. Reconnect after 6+ months. (5 min)
-3. **Send Emily Watson message** — OVERDUE 3 days. Airwallex SG Director roles. (10 min)
-4. **Send Sarah Chen message** — OVERDUE 1 day. Follow up on NVIDIA partnership. (10 min)
-5. **Send Amanda Foster message** — DUE TODAY. Google SG BizOps intro. (10 min)
+**Total time: 25 minutes. Do it before noon.**
 
-**Total time: ~35 minutes. This is non-negotiable. Block 45 min NOW.**
-
-### 🎯 MINIMUM VIABLE EXECUTION (Daily)
-**If you do nothing else, do these 3 things every day:**
+### 🎯 MINIMUM VIABLE EXECUTION (Daily — Non-Negotiable)
 1. Send 1 overdue message (10 min)
 2. Apply to 1 job (5 min) — direct apply, no customization
 3. Log it (2 min)
 
-**Total: 17 minutes/day. That's it.**
+**Total: 17 minutes/day. That's it. No exceptions.**
 
-### 🚀 WEEK 2 EXECUTION SPRINT (June 22-28)
-**Goal: Send 5 outreach messages + Submit 5 applications. Break the zero.**
+### 🚀 WEEK 3 EXECUTION SPRINT (June 29 - July 5) — CURRENT
+**Goal: 2 outreach + 2 applications = 4 actions in 2.25 hours. Keep it simple.**
 
-| Day | Time Box | Outreach | Applications | Total Time |
-|-----|----------|----------|-------------|------------|
-| Sat Jun 22 | 30 min | Michael Zhang (OVERDUE) | — | 30 min |
-| Sun Jun 23 | 45 min | David Liu + Emily Watson + Sarah Chen | Binance + Gate (HK, score 100) | 45 min |
-| Mon Jun 24 | 45 min | Amanda Foster | Coins.ph + Wellington (HK/SG, score 100) | 45 min |
-| Tue Jun 25 | 45 min | Lisa Wang | Airwallex x2 (SG, score 100) | 45 min |
-| Wed Jun 26 | 30 min | Thomas Anderson | Mastercard + Futu (SG/HK, score 100) | 30 min |
-| Thu Jun 27 | 30 min | Follow-up on responses | Ingram Micro + Bank of China (HK) | 30 min |
-| Fri Jun 28 | 15 min | Weekly review | — | 15 min |
-| **TOTAL** | **4.25 hrs** | **7 outreach** | **7 applications** | **4.25 hrs** |
-
-### ⏱️ Minimum Viable Execution (If No Time for Full Sprint)
-**Do these 3 things — takes 15 minutes total:**
-1. Send Michael Zhang message (10 min) — PROMISE WAS BROKEN, fix it
-2. Apply to Binance Sr Payment PM (3 min) — Direct apply, score 100
-3. Apply to Gate Sr Fiat PM (3 min) — Direct apply, score 100
-
-**If you do ONLY these 3 things, you've broken the zero and built momentum.**
+| Day | Time Box | Action | Est. Time |
+|-----|----------|--------|-----------|
+| Sat Jun 29 | 20 min | Send Lisa Wang message (Q2 metrics + APAC portfolio ask) | 20 min |
+| Sun Jun 30 | 20 min | Send Thomas Anderson message (reconnect after 8+ months) | 20 min |
+| Mon Jul 1 | 30 min | Apply: Airwallex Director Product Strategy (SG, score 100) | 30 min |
+| Tue Jul 2 | 30 min | Apply: Wellington Management Director (SG, score 100) | 30 min |
+| Wed Jul 3 | 20 min | Follow up on any Week 2 responses | 20 min |
+| Thu Jul 4 | — | Holiday — no action | — |
+| Fri Jul 5 | 15 min | Weekly review: Did we break the zero? | 15 min |
+| **TOTAL** | **2.25 hrs** | **2 outreach + 2 applications** | |
 
 ### 📌 Accountability Rules
 - **Before starting:** Set a timer for the time box
@@ -68,44 +50,46 @@
 ---
 
 ## Pipeline Overview
-|| Stage | Count | Notes |
-||-------|-------|-------||
-|| 🎯 Identified | 21 | 3 real contacts + 5 placeholders + 11 companies needing mapping (see contact-mapping-plan.md) ||
-|| 📨 Outreach Sent | 0 | **ACTION: Send 7 this week** ||
-|| 💬 Conversation | 0 | Response received, chatting ||
-|| ☕ Meeting Set | 0 | Coffee chat / call scheduled ||
-|| 🤝 Referral | 0 | Got internal referral ||
-|| 📋 Applied | 0 | **ACTION: Submit 7 this week** ||
-|| 🎤 Interviewing | 0 | In interview process ||
-|| ✅ Offer | 0 | Offer received ||
+| Stage | Count | Notes |
+|-------|-------|-------|
+| 🎯 Identified | 21 | 3 real contacts + 5 placeholders + 11 companies needing mapping |
+| 📨 Outreach Sent | 0 | ⚠️ ZERO — action required |
+| 💬 Conversation | 0 | No responses yet |
+| ☕ Meeting Set | 0 | No meetings scheduled |
+| 🤝 Referral | 0 | No referrals gained |
+| 📋 Applied | 0 | ⚠️ ZERO — 60 score-80+ roles sitting untouched |
+| 🎤 Interviewing | 0 | Not in any process |
+| ✅ Offer | 0 | — |
 
-## Immediate Follow-ups (Week of June 22-28)
+## Immediate Follow-ups (Week of June 22-28 — STALE)
+> ⚠️ This section references Jun 22-28. See top section for current actions.
 | Contact | Company | Action | Due | Channel | Status | Priority |
 |---------|---------|--------|-----|---------|--------|----------|
-| Michael Zhang | OpenAI | OVERDUE 4 DAYS: Send alignment paper. Ask about APAC expansion. | 2026-06-19 | LinkedIn/Email | 🔴 OVERDUE (4 days) | ⚡ P1 |
-| David Liu | ByteDance | URGENT: Reconnect after 6+ months. TikTok E-commerce PM roles. | 2026-06-20 | WeChat | 🔴 OVERDUE (3 days) | ⚡ P1 |
-| Emily Watson | Airwallex | OVERDUE 2 DAYS: Follow up on ML hiring. Director Product Strategy Payments (SG). | 2026-06-21 | LinkedIn/Email | 🔴 OVERDUE (2 days) | ⚡ P1 |
-| Sarah Chen | NVIDIA | DUE TODAY: Follow up on partnership proposal. APAC strategy team question. | 2026-06-23 | LinkedIn/Email | ⚡ DUE TODAY | ⚡ P1 |
-| Amanda Foster | Google | Ask about APAC BizOps/Chief of Staff role at Google Singapore. | 2026-06-25 | LinkedIn/Email | ⏳ PENDING (2 days) | 🟢 P2 |
-| Lisa Wang | Sequoia | Share Q2 metrics. Ask about APAC portfolio companies. | 2026-06-30 | LinkedIn/Email | ⏳ PENDING (7 days) | 🟢 P2 |
-| Thomas Anderson | Meta | Reconnect after 8+ months. Ask about Meta APAC strategy/ops. | 2026-06-26 | LinkedIn/Email | ⏳ PENDING (3 days) | 🟢 P2 |
+| Michael Zhang | OpenAI | OVERDUE 6 DAYS: Send alignment paper. Ask about APAC expansion. | 2026-06-19 | LinkedIn/Email | 🔴 OVERDUE (6 days) | ⚡ P1 |
+| David Liu | ByteDance | URGENT: Reconnect after 6+ months. TikTok E-commerce PM roles. | 2026-06-20 | WeChat | 🔴 OVERDUE (5 days) | ⚡ P1 |
+| Emily Watson | Airwallex | OVERDUE 4 DAYS: Follow up on ML hiring. Director Product Strategy Payments (SG). | 2026-06-21 | LinkedIn/Email | 🔴 OVERDUE (4 days) | ⚡ P1 |
+| Sarah Chen | NVIDIA | OVERDUE 2 DAYS: Follow up on partnership proposal. APAC strategy team question. | 2026-06-23 | LinkedIn/Email | 🔴 OVERDUE (2 days) | ⚡ P1 |
+| Amanda Foster | Google | DUE YESTERDAY: Ask about APAC BizOps/Chief of Staff role at Google Singapore. | 2026-06-25 | LinkedIn/Email | 🔴 DUE YESTERDAY | 🟢 P2 |
+| Lisa Wang | Sequoia | Share Q2 metrics. Ask about APAC portfolio companies. | 2026-06-30 | LinkedIn/Email | ⏳ PENDING (5 days) | 🟢 P2 |
+| Thomas Anderson | Meta | Reconnect after 8+ months. Ask about Meta APAC strategy/ops. | 2026-06-26 | LinkedIn/Email | ⏳ PENDING (1 day) | 🟢 P2 |
 
-### 🚨 CRITICAL: 4 Messages OVERDUE or DUE TODAY (June 23)
+### 🚨 CRITICAL: 5 Messages OVERDUE + 1 DUE YESTERDAY (June 25)
 
-**Priority order for TODAY (June 23):**
-1. **Michael Zhang (OpenAI)** — OVERDUE by 4 days. Alignment paper + APAC expansion question.
-2. **David Liu (ByteDance)** — OVERDUE by 3 days. WeChat reconnection after 6+ months.
-3. **Emily Watson (Airwallex)** — OVERDUE by 2 days. Airwallex SG Director roles.
-4. **Sarah Chen (NVIDIA)** — DUE TODAY. Partnership proposal follow-up.
+**Priority order for TODAY (June 25):**
+1. **Michael Zhang (OpenAI)** — OVERDUE by 6 days. Alignment paper + APAC expansion question.
+2. **David Liu (ByteDance)** — OVERDUE by 5 days. WeChat reconnection after 6+ months.
+3. **Emily Watson (Airwallex)** — OVERDUE by 4 days. Airwallex SG Director roles.
+4. **Sarah Chen (NVIDIA)** — OVERDUE by 2 days. Partnership proposal follow-up.
+5. **Amanda Foster (Google)** — DUE YESTERDAY. Google SG BizOps intro.
 
-**Tomorrow (June 24):** Amanda Foster (Google) follow-up due.
+**If you send just ONE message today, send Michael Zhang's. Broken promises damage relationships.**
 
 ### 📊 Execution Velocity Tracker
 | Week | Outreach Sent | Apps Submitted | Time Invested | Notes |
 |------|--------------|----------------|---------------|-------|
-| Jun 15-21 | 0 | 0 | 0 hrs | **ZERO WEEK — Must fix** |
-| Jun 22-28 | TARGET: 7 | TARGET: 7 | TARGET: 4.25 hrs | **Sprint week — Day 1 today** |
-| Jun 29-Jul 5 | TARGET: 5 | TARGET: 10 | TARGET: 5 hrs | Scale-up week |
+| Jun 15-21 | 0 | 0 | 0 hrs | **ZERO WEEK** |
+| Jun 22-28 | 0 | 0 | 0 hrs | **ZERO WEEK — Despite 4.25 hrs planned** |
+| Jun 29-Jul 5 | TARGET: 2 | TARGET: 2 | TARGET: 2.25 hrs | **Week 3 — Current** |
 
 ## ✉️ READY-TO-SEND MESSAGE DRAFTS
 > Copy-paste these. Each is personalized based on relationship history and specific roles.
@@ -247,8 +231,8 @@
 | Week | Outreach Sent | Responses | Response Rate | Meetings Set |
 |------|--------------|-----------|---------------|--------------|
 | Jun 15-21 | 0 | 0 | - | 0 |
-| Jun 22-28 | 0 (drafts ready) | - | - | - |
-| **STATUS (Jun 22):** 3 messages OVERDUE (Michael Zhang, David Liu, Emily Watson). 1 due tomorrow (Sarah Chen). All drafts ready. **ACTION: Send the 3 overdue messages TODAY.** | | | | |
+| Jun 22-28 | 0 | 0 | - | 0 |
+| **STATUS:** 5 messages OVERDUE as of Jun 25. Zero execution across two weeks. **ACTION: Send Michael Zhang message NOW.** | | | | |
 
 ### Monthly Goals
 - Outreach sent: 20+
@@ -291,23 +275,14 @@
 | 2026-06-24 | **Daily Action Card created** | 3 actions | Career OS | ✅ Created strategy/daily-action-card.md — single-page daily execution template. Today: Michael Zhang message + OKX VP AI Strategy (90) + Datadog Country Manager (90). Cuts through planning noise. |
 | 2026-06-25 | **Market Intelligence — Database expanded to 803 jobs** | 803 jobs | All companies | ✅ Database grew 70% (474→803). 135 score-80+ roles (was 60). New companies: Flexport (85), Thunes (86), D.E. Shaw (85), Adyen (81). OKX has 36 SG roles (13 score-80+). Updated market-intelligence.md, career-strategy.md, contacts.json research queue. |
 | 2026-06-24 | **Market Intelligence CORRECTED — 474 jobs (not 803)** | 474 jobs | All companies | ✅ Verified actual database has 474 jobs. June 25 claim of 803 was incorrect. 60 score-80+ (not 135). 16 direct-apply score-80+ (not 45). Fixed career-strategy.md and market-intelligence.md with accurate numbers. |
+| 2026-06-25 | **Outreach tracker cleanup** | Career OS | Career OS | ✅ Major cleanup: removed stale Week 2 sprint plan, consolidated Week 3/4 into top section, updated all dates to Jun 25, fixed pipeline table formatting, updated execution velocity tracker, added "STALE" warning to old follow-up section. File reduced from ~424 to ~340 lines. Clearer action path: send Michael Zhang message NOW. |
 
 ---
 
 ## 📊 Application Tracking
 
-**Current status: 0% application rate (699 roles in database, 0 submitted)**
-
-### This Week's Application Targets (Jun 22-28)
-*Day 2 of 7. Target: 20 applications this week.*
-
-| Day | Target Roles | Est. Time | Status |
-|-----|-------------|-----------|--------|
-| Sat Jun 22 | HK Crypto/Fintech (Binance, Gate, Coins.ph) + SG (Wellington) | 60 min | ⬜ |
-| Sun Jun 23 | SG Director roles (Airwallex x2, Mastercard, Futu) | 60 min | ⬜ Today |
-| Mon Jun 24 | HK + SG (Ingram Micro, Agoda, Bank of China, Bitdeer) | 60 min | ⬜ |
-| Tue Jun 25 | SG (BNY, Manulife, Airwallex Financial Markets, Ambition) | 60 min | ⬜ |
-| Fri Jun 26 | SZ + HK (Meituan, JD.COM, Alibaba Lazada, OKX) | 60 min | ⬜ |
+**Current status: 0% application rate (474 roles in database, 0 submitted)**
+**Week 3 targets: Airwallex Director (SG, score 100) + Wellington Director (SG, score 100)**
 
 ### Application Log
 
@@ -322,7 +297,7 @@
 | Applications sent | 15-20 | 0 | 🔴 |
 | Response rate | >15% | - | - |
 | Interviews | 2-3 | 0 | 🔴 |
-|| Networking touches | 5-10 | 0 | 🔴 |
+| Networking touches | 5-10 | 0 | 🔴 |
 
 ---
 
@@ -347,70 +322,11 @@
 
 ---
 
-## 🚀 WEEK 3 EXECUTION SPRINT (June 29 - July 5)
-**Goal: SUSTAIN momentum. 2 outreach + 2 applications = 4 actions in 2 hours.**
+## 📋 Upcoming Plans
 
-**Context:** If Week 2 achieved ZERO execution despite 4.25 hours planned, Week 3 must be simpler. The goal is 2 outreach + 2 applications — not 7+7.
-
-| Day | Time Box | Outreach | Applications | Total Time |
-|-----|----------|----------|-------------|------------|
-| Sat Jun 29 | 20 min | Lisa Wang (Q2 metrics + APAC portfolio ask) | — | 20 min |
-| Sun Jun 30 | 20 min | Thomas Anderson (reconnect after 8+ months) | — | 20 min |
-| Mon Jul 1 | 30 min | — | Airwallex Director Product Strategy (SG, score 100) | 30 min |
-| Tue Jul 2 | 30 min | — | Wellington Management Director (SG, score 100) | 30 min |
-| Wed Jul 3 | 20 min | Follow up on Week 2 responses | — | 20 min |
-| Thu Jul 4 | — | (Holiday — no action) | — | — |
-| Fri Jul 5 | 15 min | Weekly review | — | 15 min |
-| **TOTAL** | **2.25 hrs** | **2 outreach** | **2 applications** | **2.25 hrs** |
-
-### 🎯 MINIMUM VIABLE EXECUTION (Week 3)
-**If you do NOTHING else, do these 3 things:**
-1. Send Lisa Wang message (10 min) — Q2 metrics + APAC portfolio companies
-2. Apply to Airwallex Director (5 min) — score 100, direct apply
-3. Log it (2 min)
-
-**Total: 17 minutes. That's it.**
-
-### 📋 Week 3 Follow-up Cadence
-| Contact | Company | Last Touch | Next Action | Due | Channel |
-|---------|---------|------------|-------------|-----|---------|
-| Michael Zhang | OpenAI | Jun 24 (if sent) | Wait for response | Jul 1 | LinkedIn/Email |
-| David Liu | ByteDance | Jun 24 (if sent) | Wait for response | Jul 1 | WeChat |
-| Emily Watson | Airwallex | Jun 24 (if sent) | Wait for response | Jul 1 | LinkedIn/Email |
-| Sarah Chen | NVIDIA | Jun 24 (if sent) | Wait for response | Jul 1 | LinkedIn/Email |
-| Amanda Foster | Google | Jun 24 (if sent) | Wait for response | Jul 1 | LinkedIn/Email |
-| Lisa Wang | Sequoia | Jun 29 | Send Q2 metrics | Jun 29 | LinkedIn/Email |
-| Thomas Anderson | Meta | Jun 30 | Reconnect | Jun 30 | LinkedIn/Email |
-
-### 🎯 Week 3 Application Targets (Score 100, Direct Apply)
-| # | Company | Title | City | Score | Est. Time |
-|---|---------|-------|------|-------|-----------|
-| 1 | Airwallex | Director, Product Strategy Payments | SG | 100 | 15 min |
-| 2 | Wellington Management | Director, Product Strategy APAC | SG | 100 | 15 min |
-| 3 | Mastercard | Director, AI & Data Strategy | SG | 100 | 15 min |
-| 4 | BlackRock | Aladdin Product Solutions Director | SG | 100 | 15 min |
-
-**Priority order:** Airwallex first (ask Emily Watson for intro), then Wellington/Mastercard/BlackRock (cold apply).
-
-### 📌 Week 3 Accountability Rules
-- **Monday Jul 1:** Submit Airwallex application (score 100, highest leverage)
-- **Tuesday Jul 2:** Submit Wellington application (score 100, cold apply)
-- **Wednesday Jul 3:** Check for responses to Week 2 outreach. If no response, gentle follow-up.
-- **Friday Jul 5:** Review: Did we break the zero? If not, what's blocking?
-
----
-
-## 🚀 WEEK 4 EXECUTION PLAN (July 6-12)
-**Goal: SCALE momentum. 3 outreach + 3 applications = 6 actions in 3 hours.**
-
-| Day | Time Box | Outreach | Applications | Total Time |
-|-----|----------|----------|-------------|------------|
-| Mon Jul 6 | 30 min | — | Mastercard Director (SG, score 100) | 30 min |
-| Tue Jul 7 | 30 min | — | BlackRock Director (SG, score 100) | 30 min |
-| Wed Jul 8 | 20 min | Follow up on Week 3 outreach | — | 20 min |
-| Thu Jul 9 | 30 min | OKX research (David Liu intro request) | Binance Sr Payment PM (HK, score 100) | 30 min |
-| Fri Jul 10 | 15 min | Weekly review + plan Week 5 | — | 15 min |
-| **TOTAL** | **2.25 hrs** | **1 new + follow-ups** | **3 applications** | **2.25 hrs** |
+**Week 3 (Jun 29 - Jul 5):** See top section for daily breakdown.
+**Week 4 (Jul 6-12):** Mastercard + BlackRock Director apps (SG, score 100) + follow-ups.
+**Monthly (July):** Target 8 outreach + 10 applications + 2 meetings.
 
 ### 🎯 Monthly Targets (July 2026)
 | Metric | Target | Actual | Status |
@@ -419,6 +335,5 @@
 | Applications sent | 10 | — | ⏳ PENDING |
 | Meetings set | 2+ | — | ⏳ PENDING |
 | Referrals gained | 1+ | — | ⏳ PENDING |
-| Total time | ~8 hrs | — | ⏳ PENDING |
 
 **Weekly cadence:** 2 outreach + 2 applications (Week 3), 3 applications (Week 4), 4 applications (Week 5), 4 applications (Week 6).
