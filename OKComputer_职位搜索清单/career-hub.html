@@ -3,105 +3,146 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Career Hub — Job Search Resources</title>
+<title>Career Hub — APAC Senior Tech Job Search</title>
 <style>
   :root {
     --bg: #0a0a0f;
+    --bg2: #0e0e16;
     --card: #12121a;
+    --card-hover: #181824;
     --border: #1e1e2e;
+    --border-hover: #3a3a5c;
     --accent: #6c5ce7;
     --accent2: #00b894;
     --accent3: #fdcb6e;
+    --accent4: #e17055;
+    --accent5: #74b9ff;
     --text: #e0e0e0;
-    --muted: #888;
+    --muted: #7a7a8e;
     --link: #74b9ff;
+    --link-hover: #a0d0ff;
+    --check: #00b894;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 80px; }
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
     background: var(--bg);
     color: var(--text);
     line-height: 1.6;
-    padding: 2rem;
+    padding: 0 2rem 3rem;
   }
-  .header {
-    text-align: center;
-    padding: 2rem 0 3rem;
+
+  /* ─── Navigation Bar ─── */
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(10,10,15,0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    padding: 0.6rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 -2rem;
+    flex-wrap: wrap;
   }
-  .header h1 {
-    font-size: 2.4rem;
+  nav .brand {
     font-weight: 700;
+    font-size: 1rem;
     background: linear-gradient(135deg, var(--accent), var(--accent2));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 0.5rem;
+    white-space: nowrap;
+  }
+  nav a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.82rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 6px;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+  nav a:hover, nav a.active {
+    color: var(--text);
+    background: rgba(108,92,231,0.12);
+  }
+  .nav-spacer { flex: 1; }
+
+  /* ─── Header ─── */
+  .header {
+    text-align: center;
+    padding: 3rem 0 2rem;
+  }
+  .header h1 {
+    font-size: 2.6rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.4rem;
+    letter-spacing: -0.02em;
   }
   .header p {
     color: var(--muted);
     font-size: 1rem;
-  }
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-    gap: 1.5rem;
-    max-width: 1200px;
+    max-width: 600px;
     margin: 0 auto;
   }
-  .card {
+  .header .updated-badge {
+    display: inline-block;
+    margin-top: 0.6rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    background: rgba(0,184,148,0.1);
+    border: 1px solid rgba(0,184,148,0.25);
+    color: var(--accent2);
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+
+  /* ─── Search Bar ─── */
+  .search-container {
+    max-width: 1200px;
+    margin: 0 auto 1.5rem;
+    position: relative;
+  }
+  .search-bar {
+    width: 100%;
+    padding: 0.85rem 1.2rem 0.85rem 3rem;
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: 12px;
-    padding: 1.5rem;
-    transition: border-color 0.2s;
+    color: var(--text);
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.25s, box-shadow 0.25s;
   }
-  .card:hover { border-color: var(--accent); }
-  .card h2 {
-    font-size: 1.15rem;
-    font-weight: 600;
-    margin-bottom: 0.75rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+  .search-bar::placeholder { color: var(--muted); }
+  .search-bar:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(108,92,231,0.15);
   }
-  .card h2 .emoji { font-size: 1.3rem; }
-  .card ul { list-style: none; }
-  .card li {
-    padding: 0.4rem 0;
-    border-bottom: 1px solid rgba(255,255,255,0.04);
-  }
-  .card li:last-child { border: none; }
-  .card a {
-    color: var(--link);
-    text-decoration: none;
-    font-size: 0.92rem;
-  }
-  .card a:hover { text-decoration: underline; }
-  .card .desc {
+  .search-icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
     color: var(--muted);
-    font-size: 0.82rem;
-    margin-top: 0.15rem;
+    font-size: 1.1rem;
+    pointer-events: none;
   }
-  .tag {
-    display: inline-block;
-    background: rgba(108, 92, 231, 0.15);
-    color: var(--accent);
-    padding: 0.15rem 0.5rem;
-    border-radius: 4px;
+  .search-hint {
+    text-align: center;
     font-size: 0.75rem;
-    margin-right: 0.3rem;
-  }
-  .tag.green { background: rgba(0,184,148,0.15); color: var(--accent2); }
-  .tag.gold { background: rgba(253,203,110,0.15); color: var(--accent3); }
-  .section-title {
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
     color: var(--muted);
-    margin: 2rem 0 0.75rem;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 0.4rem;
   }
+
+  /* ─── Stats ─── */
   .stat-row {
     display: flex;
     gap: 1rem;
@@ -115,9 +156,11 @@
     border-radius: 10px;
     padding: 1rem 1.5rem;
     flex: 1;
-    min-width: 140px;
+    min-width: 130px;
     text-align: center;
+    transition: transform 0.2s, border-color 0.2s;
   }
+  .stat:hover { transform: translateY(-2px); border-color: var(--border-hover); }
   .stat .num {
     font-size: 1.8rem;
     font-weight: 700;
@@ -125,183 +168,685 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  .stat .label { color: var(--muted); font-size: 0.8rem; margin-top: 0.2rem; }
-  .updated {
+  .stat .label { color: var(--muted); font-size: 0.78rem; margin-top: 0.15rem; }
+
+  /* ─── Quick Links ─── */
+  .quick-links {
+    max-width: 1200px;
+    margin: 0 auto 2rem;
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+  .quick-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 1rem;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+  .quick-links a:hover {
+    border-color: var(--accent);
+    background: var(--card-hover);
+    transform: translateY(-1px);
+  }
+
+  /* ─── Sections ─── */
+  .section-title {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+    margin: 2.5rem 0 0.75rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+  }
+  .section-title:first-of-type { margin-top: 1rem; }
+
+  /* ─── Grid ─── */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 1.25rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .grid.single { grid-template-columns: 1fr; }
+  .grid.triple { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+
+  /* ─── Cards ─── */
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.4rem;
+    transition: all 0.25s ease;
+  }
+  .card:hover {
+    border-color: var(--border-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+  }
+  .card h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.7rem;
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+  }
+  .card h2 .emoji { font-size: 1.2rem; }
+  .card ul { list-style: none; }
+  .card li {
+    padding: 0.45rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+  .card li:last-child { border: none; }
+  .card a {
+    color: var(--link);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.15s;
+  }
+  .card a:hover { color: var(--link-hover); text-decoration: underline; }
+  .card .desc {
+    color: var(--muted);
+    font-size: 0.8rem;
+    margin-top: 0.1rem;
+    line-height: 1.4;
+  }
+
+  /* ─── Tags ─── */
+  .tag {
+    display: inline-block;
+    background: rgba(108, 92, 231, 0.15);
+    color: var(--accent);
+    padding: 0.12rem 0.45rem;
+    border-radius: 4px;
+    font-size: 0.72rem;
+    font-weight: 500;
+    margin-right: 0.25rem;
+  }
+  .tag.green { background: rgba(0,184,148,0.15); color: var(--accent2); }
+  .tag.gold { background: rgba(253,203,110,0.15); color: var(--accent3); }
+  .tag.red { background: rgba(225,112,85,0.15); color: var(--accent4); }
+  .tag.blue { background: rgba(116,185,255,0.15); color: var(--accent5); }
+
+  /* ─── Weekly Checklist ─── */
+  .checklist {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .checklist .card {
+    padding: 1.5rem 1.8rem;
+  }
+  .checklist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+  .check-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    padding: 0.6rem 0.8rem;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.02);
+    border: 1px solid transparent;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  .check-item:hover {
+    background: rgba(108,92,231,0.06);
+    border-color: rgba(108,92,231,0.15);
+  }
+  .check-item input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--border-hover);
+    border-radius: 4px;
+    flex-shrink: 0;
+    margin-top: 2px;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+  }
+  .check-item input[type="checkbox"]:checked {
+    background: var(--accent2);
+    border-color: var(--accent2);
+  }
+  .check-item input[type="checkbox"]:checked::after {
+    content: '✓';
+    position: absolute;
+    top: -1px;
+    left: 2px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .check-item label {
+    font-size: 0.88rem;
+    cursor: pointer;
+    line-height: 1.5;
+  }
+  .check-item label .detail {
+    display: block;
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-top: 0.1rem;
+  }
+  .check-item.done label {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+
+  /* ─── Negotiation Framework ─── */
+  .framework-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-top: 0.5rem;
+  }
+  .framework-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.7rem;
+    padding: 0.7rem 0.9rem;
+    background: rgba(255,255,255,0.02);
+    border-radius: 8px;
+    border-left: 3px solid var(--accent);
+    transition: border-color 0.2s;
+  }
+  .framework-step:hover { border-left-color: var(--accent2); }
+  .step-num {
+    background: var(--accent);
+    color: #fff;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.72rem;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .step-text { font-size: 0.88rem; line-height: 1.5; }
+  .step-text strong { color: var(--text); }
+  .step-text span { color: var(--muted); font-size: 0.82rem; }
+
+  /* ─── Footer ─── */
+  .footer {
     text-align: center;
     color: var(--muted);
-    font-size: 0.78rem;
+    font-size: 0.75rem;
     margin-top: 3rem;
-    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
-  @media (max-width: 600px) {
-    body { padding: 1rem; }
+
+  /* ─── Filter active state ─── */
+  .card[data-hidden="true"] {
+    display: none;
+  }
+
+  /* ─── Responsive ─── */
+  @media (max-width: 768px) {
+    body { padding: 0 1rem 2rem; }
+    nav { padding: 0.5rem 1rem; margin: 0 -1rem; }
+    .header h1 { font-size: 2rem; }
+    .header { padding: 2rem 0 1.5rem; }
+    .stat-row { gap: 0.6rem; }
+    .stat { min-width: 100px; padding: 0.8rem 1rem; }
+    .stat .num { font-size: 1.4rem; }
     .grid { grid-template-columns: 1fr; }
-    .header h1 { font-size: 1.8rem; }
+    .grid.triple { grid-template-columns: 1fr; }
+    .checklist-grid { grid-template-columns: 1fr; }
+    .quick-links { gap: 0.5rem; }
+    .quick-links a { font-size: 0.78rem; padding: 0.4rem 0.75rem; }
+    .search-bar { font-size: 0.9rem; padding: 0.75rem 1rem 0.75rem 2.6rem; }
+  }
+  @media (max-width: 480px) {
+    .header h1 { font-size: 1.6rem; }
+    .stat-row { flex-direction: column; }
+    nav a { font-size: 0.75rem; padding: 0.25rem 0.4rem; }
+  }
+
+  /* ─── Animations ─── */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .card, .stat, .quick-links a, .check-item, .framework-step {
+    animation: fadeIn 0.3s ease forwards;
   }
 </style>
 </head>
 <body>
 
+<!-- ─── Sticky Nav ─── -->
+<nav>
+  <span class="brand">🎯 Career Hub</span>
+  <a href="#quick-links">Quick Links</a>
+  <a href="#job-search">Job Search</a>
+  <a href="#strategy">Strategy</a>
+  <a href="#interview">Interview</a>
+  <a href="#salary">Salary</a>
+  <a href="#networking">Networking</a>
+  <a href="#negotiation">Negotiation</a>
+  <a href="#checklist">Checklist</a>
+  <div class="nav-spacer"></div>
+  <a href="dashboard.html">Dashboard →</a>
+</nav>
+
+<!-- ─── Header ─── -->
 <div class="header">
   <h1>🎯 Career Hub</h1>
-  <p>Resources for Senior Tech Roles — APAC Focus (SG / HK / SZ / SH)</p>
+  <p>Resources for senior PM / strategy roles targeting APAC fintech, crypto & AI-native companies (SG · HK · SZ · SH)</p>
+  <span class="updated-badge">⟳ Last sync: June 22, 2026</span>
 </div>
 
+<!-- ─── Stats ─── -->
 <div class="stat-row">
-  <div class="stat"><div class="num">288</div><div class="label">Jobs Tracked</div></div>
+  <div class="stat"><div class="num">690</div><div class="label">Jobs Tracked</div></div>
+  <div class="stat"><div class="num">536</div><div class="label">In Database</div></div>
   <div class="stat"><div class="num">24</div><div class="label">Sources</div></div>
   <div class="stat"><div class="num">6</div><div class="label">Locations</div></div>
-  <div class="stat"><div class="num">135</div><div class="label">A-1 Grade</div></div>
+  <div class="stat"><div class="num">243</div><div class="label">A-1 Grade</div></div>
 </div>
 
-<!-- Job Search Tools -->
-<div class="section-title">🔍 Job Search Platforms</div>
+<!-- ─── Quick Links ─── -->
+<div class="section-title" id="quick-links">⚡ Quick Links</div>
+<div class="quick-links">
+  <a href="dashboard.html">📊 Job Dashboard</a>
+  <a href="crm-dashboard.html">🤝 CRM Dashboard</a>
+  <a href="index.html">📋 Full Database</a>
+  <a href="career-strategy.md">🧠 Career Strategy</a>
+  <a href="job-database-senior.html">🎯 Senior Job DB</a>
+</div>
+
+<!-- ─── Search Bar ─── -->
+<div class="search-container">
+  <span class="search-icon">🔍</span>
+  <input type="text" class="search-bar" id="searchInput" placeholder="Search resources — try 'crypto', 'negotiation', 'glassdoor', 'system design'..." autocomplete="off">
+  <div class="search-hint">Filter by name, category, or description. Type to search, clear to reset.</div>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- ─── JOB SEARCH PLATFORMS ─── -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="section-title" id="job-search">🔍 Job Search Platforms</div>
 <div class="grid">
-  <div class="card">
+  <div class="card" data-keywords="linkedin singapore jobs fintech crypto primary">
     <h2><span class="emoji">💼</span> Primary Boards</h2>
     <ul>
-      <li><a href="https://www.linkedin.com/jobs/search/?keywords=&location=Singapore&f_TPR=r604800" target="_blank">LinkedIn Jobs — Singapore</a><div class="desc">92 jobs sourced. Best for fintech/crypto roles.</div></li>
-      <li><a href="https://www.linkedin.com/jobs/search/?keywords=&location=Hong+Kong&f_TPR=r604800" target="_blank">LinkedIn Jobs — Hong Kong</a><div class="desc">75 HK roles tracked.</div></li>
-      <li><a href="https://hk.indeed.com/" target="_blank">Indeed HK</a><div class="desc">15 jobs sourced. Good for local postings.</div></li>
-      <li><a href="https://hk.jobsdb.com/" target="_blank">JobsDB Hong Kong</a><div class="desc">7 sourced. Strong for APAC companies.</div></li>
-      <li><a href="https://www.liepin.com/" target="_blank">猎聘 (Liepin)</a><div class="desc">6 sourced. China-based senior roles.</div></li>
-      <li><a href="https://www.zhipin.com/" target="_blank">BOSS直聘</a><div class="desc">25 sourced. Direct hiring manager contact.</div></li>
+      <li><a href="https://www.linkedin.com/jobs/search/?keywords=&location=Singapore&f_TPR=r604800" target="_blank" rel="noopener">LinkedIn Jobs — Singapore</a><div class="desc">92 jobs sourced. Best for fintech/crypto roles in SG.</div></li>
+      <li><a href="https://www.linkedin.com/jobs/search/?keywords=&location=Hong+Kong&f_TPR=r604800" target="_blank" rel="noopener">LinkedIn Jobs — Hong Kong</a><div class="desc">75 HK roles tracked. Check weekly for new postings.</div></li>
+      <li><a href="https://hk.indeed.com/" target="_blank" rel="noopener">Indeed HK</a><div class="desc">15 jobs sourced. Good for local / regional postings.</div></li>
+      <li><a href="https://hk.jobsdb.com/" target="_blank" rel="noopener">JobsDB Hong Kong</a><div class="desc">7 sourced. Strong for APAC enterprise companies.</div></li>
+      <li><a href="https://www.liepin.com/" target="_blank" rel="noopener">猎聘 (Liepin)</a><div class="desc">6 sourced. China-based senior / director roles.</div></li>
+      <li><a href="https://www.zhipin.com/" target="_blank" rel="noopener">BOSS直聘</a><div class="desc">25 sourced. Direct hiring manager contact.</div></li>
     </ul>
   </div>
 
-  <div class="card">
+  <div class="card" data-keywords="crypto web3 blockchain niche startup remote ycombinator ai">
     <h2><span class="emoji">🚀</span> Niche & Crypto</h2>
     <ul>
-      <li><a href="https://crypto.jobs/" target="_blank">Crypto Jobs List</a><div class="desc">Web3 and blockchain roles.</div></li>
-      <li><a href="https://www.himalayas.app/jobs" target="_blank">Himalayas</a><div class="desc">Remote-friendly, transparent companies.</div></li>
-      <li><a href="https://efinancialcareers.com" target="_blank">eFinancialCareers</a><div class="desc">Finance + tech crossover roles.</div></li>
-      <li><a href="https://www.glassdoor.com/Job/" target="_blank">Glassdoor</a><div class="desc">Salary intel + company reviews.</div></li>
-      <li><a href="https://ai-jobs.net/" target="_blank">AI-Jobs.net</a><div class="desc">ML/AI focused positions.</div></li>
-      <li><a href="https://www.workatastartup.com/jobs" target="_blank">YC Work at a Startup</a><div class="desc">Startup roles from YC companies.</div></li>
-    </ul>
-  </div>
-</div>
-
-<!-- Career Strategy -->
-<div class="section-title">🧠 Strategy & Market Intel</div>
-<div class="grid">
-  <div class="card">
-    <h2><span class="emoji">📊</span> APAC Tech Market</h2>
-    <ul>
-      <li><a href="https://www.levels.fyi/t/software-engineer/locations/asia-pacific" target="_blank">Levels.fyi — APAC Compensation</a><div class="desc">Benchmark your comp across SG, HK, CN.</div></li>
-      <li><a href="https://www.techinasia.com/jobs" target="_blank">Tech in Asia — Jobs & News</a><div class="desc">APAC startup ecosystem intel.</div></li>
-      <li><a href="https://www.bloomberg.com/asia" target="_blank">Bloomberg Asia</a><div class="desc">Market moves, hiring trends.</div></li>
-      <li><a href="https://www.mpkj.gov.my/mdec/digital-economy" target="_blank">MDEC Digital Economy</a><div class="desc">Malaysia tech scene overview.</div></li>
+      <li><a href="https://crypto.jobs/" target="_blank" rel="noopener">Crypto Jobs List</a><div class="desc">Web3 and blockchain roles across exchanges, DeFi, and infra.</div></li>
+      <li><a href="https://www.himalayas.app/jobs" target="_blank" rel="noopener">Himalayas</a><div class="desc">Remote-friendly, transparent companies with salary data.</div></li>
+      <li><a href="https://efinancialcareers.com" target="_blank" rel="noopener">eFinancialCareers</a><div class="desc">Finance + tech crossover. Quant, PM, strategy roles.</div></li>
+      <li><a href="https://ai-jobs.net/" target="_blank" rel="noopener">AI-Jobs.net</a><div class="desc">ML/AI focused positions. Growing APAC presence.</div></li>
+      <li><a href="https://www.workatastartup.com/jobs" target="_blank" rel="noopener">YC Work at a Startup</a><div class="desc">Startup roles from YC-backed companies. Filter by stage.</div></li>
+      <li><a href="https://wellfound.com/" target="_blank" rel="noopener">Wellfound (AngelList)</a><div class="desc">Startup jobs with salary equity data. Formerly AngelList Talent.</div></li>
     </ul>
   </div>
 
-  <div class="card">
+  <div class="card" data-keywords="glassdoor company reviews salary intel market">
     <h2><span class="emoji">🏢</span> Company Research</h2>
     <ul>
-      <li><a href="https://www.glassdoor.com/Reviews/" target="_blank">Glassdoor Reviews</a><div class="desc">Interview experiences + culture intel.</div></li>
-      <li><a href="https://www.teamblind.com/" target="_blank">Blind (Teamblind)</a><div class="desc">Anonymous insider discussions.</div></li>
-      <li><a href="https://www.comparably.com/" target="_blank">Comparably</a><div class="desc">CEO ratings, culture scores.</div></li>
-      <li><a href="https://pitchbook.com/" target="_blank">PitchBook</a><div class="desc">Startup funding data. Know who's raising.</div></li>
+      <li><a href="https://www.glassdoor.com/Reviews/" target="_blank" rel="noopener">Glassdoor Reviews</a><div class="desc">Interview experiences, culture intel, salary data.</div></li>
+      <li><a href="https://www.teamblind.com/" target="_blank" rel="noopener">Blind (Teamblind)</a><div class="desc">Anonymous insider discussions. Real comp and layoff intel.</div></li>
+      <li><a href="https://www.comparably.com/" target="_blank" rel="noopener">Comparably</a><div class="desc">CEO ratings, culture scores, compensation benchmarks.</div></li>
+      <li><a href="https://pitchbook.com/" target="_blank" rel="noopener">PitchBook</a><div class="desc">Startup funding data. Know who's raising before they post roles.</div></li>
     </ul>
   </div>
 </div>
 
-<!-- Interview Prep -->
-<div class="section-title">🎯 Interview Preparation</div>
+<!-- ═══════════════════════════════════════════ -->
+<!-- ─── STRATEGY & MARKET INTEL ─── -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="section-title" id="strategy">🧠 Strategy & Market Intel</div>
 <div class="grid">
-  <div class="card">
-    <h2><span class="emoji">💻</span> Technical Prep</h2>
+  <div class="card" data-keywords="compensation levels salary benchmark apac market asia tech">
+    <h2><span class="emoji">📊</span> APAC Tech Market</h2>
     <ul>
-      <li><a href="https://leetcode.com/" target="_blank">LeetCode</a><div class="desc">Coding challenges. Focus on system design at senior level.</div></li>
-      <li><a href="https://www.tryexponent.com/" target="_blank">Exponent</a><div class="desc">PM & tech interview prep. Case studies.</div></li>
-      <li><a href="https://interviewing.io/" target="_blank">interviewing.io</a><div class="desc">Anonymous mock interviews with engineers.</div></li>
-      <li><a href="https://www.educative.io/courses/grokking-the-system-design-interview" target="_blank">Grokking System Design</a><div class="desc">System design interview bible.</div></li>
+      <li><a href="https://www.levels.fyi/t/software-engineer/locations/asia-pacific" target="_blank" rel="noopener">Levels.fyi — APAC Compensation</a><div class="desc">Benchmark comp across SG, HK, CN by level and company.</div></li>
+      <li><a href="https://www.venturecap.sg/" target="_blank" rel="noopener">VentureCap — SG Startup Intel</a><div class="desc">Singapore startup funding data, hiring signals, and ecosystem maps.</div></li>
+      <li><a href="https://www.bloomberg.com/asia" target="_blank" rel="noopener">Bloomberg Asia</a><div class="desc">Market moves, macro trends, hiring signals.</div></li>
+      <li><a href="https://e27.co/" target="_blank" rel="noopener">e27 — APAC Tech ecosystem</a><div class="desc">Southeast Asia startup news, funding rounds, job market intel.</div></li>
     </ul>
   </div>
 
-  <div class="card">
+  <div class="card" data-keywords="tech news newsletter analysis layoff hiring trend pulse">
+    <h2><span class="emoji">📡</span> Market Pulse & News</h2>
+    <ul>
+      <li><a href="https://kr-asia.com/" target="_blank" rel="noopener">KrASIA</a><div class="desc">China + APAC tech news. Deep dives on AI, fintech, and e-commerce trends.</div></li>
+      <li><a href="https://www.theinformation.com/" target="_blank" rel="noopener">The Information</a><div class="desc">Deep tech reporting. Paywall but worth it for signal.</div></li>
+      <li><a href="https://restofworld.org/" target="_blank" rel="noopener">Rest of World</a><div class="desc">Tech beyond Silicon Valley. Strong APAC coverage.</div></li>
+      <li><a href="https://newsletter.pragmaticengineer.com/" target="_blank" rel="noopener">The Pragmatic Engineer</a><div class="desc">Engineering culture, comp, hiring trends at scale-ups.</div></li>
+    </ul>
+  </div>
+
+  <div class="card" data-keywords="ai machine learning artificial intelligence llm genai startup">
+    <h2><span class="emoji">🤖</span> AI / ML Job Market</h2>
+    <ul>
+      <li><a href="https://ai-jobs.net/" target="_blank" rel="noopener">AI-Jobs.net</a><div class="desc">ML/AI specific roles. Filter by APAC region.</div></li>
+      <li><a href="https://www.aimodels.fyi/" target="_blank" rel="noopener">AI Models FYI</a><div class="desc">AI/ML job board + model comparisons. Good for AI-native product roles.</div></li>
+      <li><a href="https://www.glassdoor.com/Job/singapore-ai-jobs-SRCH_IL.0,9_IN1276_KO10,12.htm" target="_blank" rel="noopener">Glassdoor — AI Jobs SG</a><div class="desc">AI/ML roles in Singapore with salary data.</div></li>
+      <li><a href="https://linkedin.com/jobs/search/?keywords=AI+product+manager&location=Singapore" target="_blank" rel="noopener">LinkedIn — AI PM Roles SG</a><div class="desc">Product Manager roles with AI/ML focus in Singapore.</div></li>
+      <li><a href="https://www.anthropic.com/careers" target="_blank" rel="noopener">Anthropic Careers</a><div class="desc">AI safety company. Remote-first, strong APAC presence.</div></li>
+    </ul>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- ─── INTERVIEW PREP ─── -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="section-title" id="interview">🎯 Interview Preparation</div>
+<div class="grid triple">
+  <div class="card" data-keywords="system design technical coding leetcode architecture distributed">
+    <h2><span class="emoji">💻</span> Technical & System Design</h2>
+    <ul>
+      <li><a href="https://leetcode.com/" target="_blank" rel="noopener">LeetCode</a><div class="desc">Coding challenges. Focus on medium/hard for senior roles.</div></li>
+      <li><a href="https://www.tryexponent.com/" target="_blank" rel="noopener">Exponent</a><div class="desc">PM & tech interview prep. Case studies, system design.</div></li>
+      <li><a href="https://interviewing.io/" target="_blank" rel="noopener">interviewing.io</a><div class="desc">Anonymous mock interviews with engineers from top companies.</div></li>
+      <li><a href="https://www.educative.io/courses/grokking-the-system-design-interview" target="_blank" rel="noopener">Grokking System Design</a><div class="desc">System design interview bible. Must-have for senior roles.</div></li>
+      <li><a href="https://github.com/donnemartin/system-design-primer" target="_blank" rel="noopener">System Design Primer</a><div class="desc">Open-source guide. Learn scalable system design from scratch.</div></li>
+    </ul>
+  </div>
+
+  <div class="card" data-keywords="behavioral star leadership manager executive case study pm product">
     <h2><span class="emoji">🗣️</span> Behavioral & Leadership</h2>
     <ul>
-      <li><a href="https://www.manager-tools.com/" target="_blank">Manager Tools</a><div class="desc">Management interview frameworks.</div></li>
-      <li><a href="https://star-method.com/" target="_blank">STAR Method Guide</a><div class="desc">Structure behavioral answers.</div></li>
-      <li><a href="https://hbr.org/topic/subject/self-management" target="_blank">HBR — Self-Management</a><div class="desc">Leadership topics for exec-level questions.</div></li>
+      <li><a href="https://www.manager-tools.com/" target="_blank" rel="noopener">Manager Tools</a><div class="desc">Management interview frameworks. 1-on-1, feedback, coaching.</div></li>
+      <li><a href="https://star-method.com/" target="_blank" rel="noopener">STAR Method Guide</a><div class="desc">Structure behavioral answers with Situation-Task-Action-Result.</div></li>
+      <li><a href="https://hbr.org/topic/subject/self-management" target="_blank" rel="noopener">HBR — Self-Management</a><div class="desc">Leadership topics for exec-level behavioral questions.</div></li>
+      <li><a href="https://www.productmanagementexercises.com/" target="_blank" rel="noopener">PM Exercises</a><div class="desc">Product sense, strategy, and execution case studies.</div></li>
+    </ul>
+  </div>
+
+  <div class="card" data-keywords="mock practice prep simulation roleplay dry run">
+    <h2><span class="emoji">🎯</span> Practice & Mock</h2>
+    <ul>
+      <li><a href="https://www.tryexponent.com/mock-interviews" target="_blank" rel="noopener">Exponent Mock Interviews</a><div class="desc">Live PM mock interviews. Get real feedback.</div></li>
+      <li><a href="https://www.pramp.com/" target="_blank" rel="noopener">Pramp</a><div class="desc">Free peer-to-peer mock interviews. Technical + behavioral.</div></li>
+      <li><a href="https://www.levels.fyi/behavioral-interview" target="_blank" rel="noopener">Levels.fyi Behavioral Prep</a><div class="desc">Behavioral question banks by company. Data-driven prep.</div></li>
+      <li><a href="https://www.cake.me/interview-preparation" target="_blank" rel="noopener">Cake.me Interview Prep</a><div class="desc">APAC-focused interview resources and company intel.</div></li>
     </ul>
   </div>
 </div>
 
-<!-- Networking -->
-<div class="section-title">🤝 Networking & Community</div>
+<!-- ═══════════════════════════════════════════ -->
+<!-- ─── SALARY RESEARCH ─── -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="section-title" id="salary">💰 Salary Research</div>
+<div class="grid triple">
+  <div class="card" data-keywords="levels compensation benchmark salary data crowdsourced tech">
+    <h2><span class="emoji">📈</span> Compensation Data</h2>
+    <ul>
+      <li><a href="https://www.levels.fyi/" target="_blank" rel="noopener">Levels.fyi</a><div class="desc">Crowdsourced comp data by level, company, and location. Gold standard.</div></li>
+      <li><a href="https://www.glassdoor.com/Salaries/" target="_blank" rel="noopener">Glassdoor Salaries</a><div class="desc">Salary estimates with company-specific breakdowns.</div></li>
+      <li><a href="https://www.payscale.com/" target="_blank" rel="noopener">Payscale</a><div class="desc">Market salary data + personalized compensation reports.</div></li>
+      <li><a href="https://www.comparably.com/salaries" target="_blank" rel="noopener">Comparably Salaries</a><div class="desc">CEO-approved salary data. Culture-adjusted benchmarks.</div></li>
+    </ul>
+  </div>
+
+  <div class="card" data-keywords="blind anonymous insider comp total compensation equity rsu bonus">
+    <h2><span class="emoji">🔍</span> Insider Comp Intel</h2>
+    <ul>
+      <li><a href="https://www.teamblind.com/post/Compensation" target="_blank" rel="noopener">Blind — Compensation</a><div class="desc">Anonymous TC (total comp) shares. Real numbers from real people.</div></li>
+      <li><a href="https://www.teamblind.com/" target="_blank" rel="noopener">Blind — Company Discussions</a><div class="desc">Culture, layoff rumors, return-to-office policies.</div></li>
+      <li><a href="https://www.reddit.com/r/cscareerquestions/" target="_blank" rel="noopener">r/cscareerquestions</a><div class="desc">Reddit comp threads. APAC-specific posts in weekly threads.</div></li>
+      <li><a href="https://www.h1bdata.info/" target="_blank" rel="noopener">H1B Data Info</a><div class="desc">US salary data for companies with APAC offices. Benchmark against US.</div></li>
+    </ul>
+  </div>
+
+  <div class="card" data-keywords="currency exchange rate local market singapore hong kong china">
+    <h2><span class="emoji">🌏</span> APAC Market Context</h2>
+    <ul>
+      <li><a href="https://www.numbeo.com/cost-of-living/" target="_blank" rel="noopener">Numbeo — Cost of Living</a><div class="desc">Compare purchasing power across SG, HK, SZ, SH.</div></li>
+      <li><a href="https://www.expatistan.com/cost-of-living" target="_blank" rel="noopener">Expatistan</a><div class="desc">Cost of living comparison. Factor in housing, transport, food.</div></li>
+      <li><a href="https://www.mom.gov.sg/employment-practices/salary" target="_blank" rel="noopener"> MOM — SG Employment</a><div class="desc">Singapore Ministry of Manpower salary guidelines and EP requirements.</div></li>
+      <li><a href="https://www.censtatd.gov.hk/en/" target="_blank" rel="noopener">HK Census & Statistics</a><div class="desc">Hong Kong salary surveys and employment statistics.</div></li>
+    </ul>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- ─── NETWORKING ─── -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="section-title" id="networking">🤝 Networking & Community</div>
+<div class="grid triple">
+  <div class="card" data-keywords="linkedin profile optimize headline network connection outreach strategy">
+    <h2><span class="emoji">🔗</span> LinkedIn Strategy</h2>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/" target="_blank" rel="noopener">Your LinkedIn Profile</a><div class="desc">Optimize headline, banner, "Open to Work" badge, featured section.</div></li>
+      <li><a href="https://www.linkedin.com/jobs/" target="_blank" rel="noopener">LinkedIn Job Alerts</a><div class="desc">Set alerts for: senior PM, strategy lead, product director, head of growth.</div></li>
+      <li><a href="https://www.linkedin.com/company/" target="_blank" rel="noopener">Follow Target Companies</a><div class="desc">Follow 50+ companies. Engage with their posts to get on hiring radars.</div></li>
+      <li><a href="https://creator.linkedin.com/" target="_blank" rel="noopener">LinkedIn Creator Mode</a><div class="desc">Turn on creator mode. Post 2-3x/week about fintech/AI insights.</div></li>
+    </ul>
+  </div>
+
+  <div class="card" data-keywords="meetup event community conference tech singapore hong kong web3 crypto">
+    <h2><span class="emoji">🌐</span> APAC Communities & Events</h2>
+    <ul>
+      <li><a href="https://www.meetup.com/topics/technology/sg/" target="_blank" rel="noopener">Meetup — SG Tech</a><div class="desc">Singapore tech meetups. AI, fintech, crypto events weekly.</div></li>
+      <li><a href="https://www.meetup.com/topics/technology/hk/" target="_blank" rel="noopener">Meetup — HK Tech</a><div class="desc">Hong Kong tech community. Web3 and fintech heavy.</div></li>
+      <li><a href="https://www.producthunt.com/" target="_blank" rel="noopener">Product Hunt</a><div class="desc">Launch products, find founders, build public reputation.</div></li>
+      <li><a href="https://tokenterminal.com/events" target="_blank" rel="noopener">Crypto Events</a><div class="desc">Token conferences, DeFi summits, web3 hackathons in APAC.</div></li>
+    </ul>
+  </div>
+
+  <div class="card" data-keywords="discord slack community group channel discussion networking web3">
+    <h2><span class="emoji">💬</span> Online Communities</h2>
+    <ul>
+      <li><a href="https://discord.gg/crypto" target="_blank" rel="noopener">Crypto Discords</a><div class="desc">Join project Discords. Engage genuinely, not just to sell yourself.</div></li>
+      <li><a href="https://www.lennysnewsletter.com/" target="_blank" rel="noopener">Lenny's Newsletter</a><div class="desc">PM community. Premium Slack has hiring channel.</div></li>
+      <li><a href="https://www.indiehackers.com/" target="_blank" rel="noopener">Indie Hackers</a><div class="desc">Builder community. Find co-founders and early-stage roles.</div></li>
+      <li><a href="https://www.reddit.com/r/fintech/" target="_blank" rel="noopener">r/fintech</a><div class="desc">Fintech discussions, job postings, industry analysis.</div></li>
+    </ul>
+  </div>
+</div>
+
+<div class="section-title">✍️ Personal Brand</div>
 <div class="grid">
-  <div class="card">
-    <h2><span class="emoji">🌐</span> APAC Tech Communities</h2>
+  <div class="card" data-keywords="twitter x posts content writing personal brand thought leadership">
+    <h2><span class="emoji">🐦</span> Public Presence</h2>
     <ul>
-      <li><a href="https://www.meetup.com/topics/technology/hk/" target="_blank">Meetup — HK Tech</a><div class="desc">Local tech meetups and events.</div></li>
-      <li><a href="https://www.meetup.com/topics/technology/sg/" target="_blank">Meetup — SG Tech</a><div class="desc">Singapore tech community.</div></li>
-      <li><a href="https://sg.slack.com/" target="_blank">SG Tech Slack</a><div class="desc">Singapore tech Slack workspace.</div></li>
-      <li><a href="https://www.producthunt.com/" target="_blank">Product Hunt</a><div class="desc">Find founders, launch products, network.</div></li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2><span class="emoji">✍️</span> Personal Brand</h2>
-    <ul>
-      <li><a href="https://twitter.com/" target="_blank">X / Twitter</a><div class="desc">Share insights, build public presence.</div></li>
-      <li><a href="https://www.linkedin.com/in/" target="_blank">LinkedIn Profile</a><div class="desc">Optimize headline, open to work, activity.</div></li>
-      <li><a href="https://github.com/" target="_blank">GitHub</a><div class="desc">Side projects demonstrate capability.</div></li>
-      <li><a href="https://substack.com/" target="_blank">Substack</a><div class="desc">Write about your domain expertise.</div></li>
+      <li><a href="https://x.com/" target="_blank" rel="noopener">X / Twitter</a><div class="desc">Share fintech/AI insights. 3-5 posts/week builds visibility over time.</div></li>
+      <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a><div class="desc">Side projects, open-source contributions. Demonstrates technical depth.</div></li>
+      <li><a href="https://substack.com/" target="_blank" rel="noopener">Substack</a><div class="desc">Write about your domain. Position as a thought leader in fintech/AI.</div></li>
+      <li><a href="https://medium.com/" target="_blank" rel="noopener">Medium</a><div class="desc">Long-form essays on product strategy. Cross-post to LinkedIn.</div></li>
     </ul>
   </div>
 </div>
 
-<!-- Salary & Negotiation -->
-<div class="section-title">💰 Compensation & Negotiation</div>
+<!-- ═══════════════════════════════════════════ -->
+<!-- ─── NEGOTIATION ─── -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="section-title" id="negotiation">📋 Negotiation</div>
 <div class="grid">
-  <div class="card">
-    <h2><span class="emoji">📈</span> Salary Research</h2>
-    <ul>
-      <li><a href="https://www.levels.fyi/" target="_blank">Levels.fyi</a><div class="desc">Crowdsourced comp data by level.</div></li>
-      <li><a href="https://www.payscale.com/" target="_blank">Payscale</a><div class="desc">Market salary data + negotiation tips.</div></li>
-      <li><a href="https://www.comparisonwise.com/" target="_blank">ComparisonWise</a><div class="desc">Compare offers side-by-side.</div></li>
-    </ul>
+  <div class="card" data-keywords="negotiation framework offer counter offer leverage anchor strategy">
+    <h2><span class="emoji">🏆</span> Comp Negotiation Framework</h2>
+    <div class="framework-steps">
+      <div class="framework-step">
+        <div class="step-num">1</div>
+        <div class="step-text"><strong>Anchor high, with data.</strong><br><span>Use Levels.fyi and Glassdoor data to justify your number. Never name a number first if you can avoid it — let them anchor, then counter 10-20% higher with market data.</span></div>
+      </div>
+      <div class="framework-step">
+        <div class="step-num">2</div>
+        <div class="step-text"><strong>Negotiate the total package, not just salary.</strong><br><span>Equity refresh, sign-on bonus, RSU vesting schedule, remote flexibility, PTO, learning budget. Some levers are easier for them to grant than base.</span></div>
+      </div>
+      <div class="framework-step">
+        <div class="step-num">3</div>
+        <div class="step-text"><strong>Get competing offers.</strong><br><span>Nothing accelerates a decision like "I have another offer at X." Apply broadly, move fast through pipelines. 2-3 competing offers is the sweet spot.</span></div>
+      </div>
+      <div class="framework-step">
+        <div class="step-num">4</div>
+        <div class="step-text"><strong>Use the "enthusiastic but" technique.</strong><br><span>"I'm really excited about this role — and I want to make sure the package reflects the seniority and impact I'll bring." Never negotiate adversarially.</span></div>
+      </div>
+      <div class="framework-step">
+        <div class="step-num">5</div>
+        <div class="step-text"><strong>Get everything in writing.</strong><br><span>Verbal offers aren't offers. Ask for the written offer letter before resigning. Clarify equity terms, cliff, acceleration clauses, and any "gotchas."</span></div>
+      </div>
+    </div>
   </div>
 
-  <div class="card">
-    <h2><span class="emoji">📋</span> Negotiation Tactics</h2>
+  <div class="card" data-keywords="negotiation resources guide book hbr kalzumeus rules tactics">
+    <h2><span class="emoji">📚</span> Negotiation Resources</h2>
     <ul>
-      <li><a href="https://hbr.org/2014/04/10-rules-for-negotiating-a-job-offer" target="_blank">HBR — 10 Rules for Negotiating</a><div class="desc">Harvard-backed negotiation framework.</div></li>
-      <li><a href="https://www.kalzumeus.com/2012/01/23/salary-negotiation/" target="_blank">Kalzumeus — Salary Negotiation</a><div class="desc">The definitive tech salary negotiation guide.</div></li>
-      <li><a href="https://www.shrm.org/topics-tools/news/talent-acquisition/does-pay-transparency-help-candidates" target="_blank">SHRM — Pay Transparency</a><div class="desc">Understand your market position.</div></li>
-    </ul>
-  </div>
-</div>
-
-<!-- Quick Actions -->
-<div class="section-title">⚡ Quick Actions</div>
-<div class="grid">
-  <div class="card">
-    <h2><span class="emoji">📅</span> This Week's Focus</h2>
-    <ul>
-      <li><span class="tag gold">Priority</span> Apply to top 5 A-1 graded jobs <a href="job-database-senior.html">→ View</a></li>
-      <li><span class="tag green">Research</span> Deep-dive OKX, Airwallex, Crypto.com cultures</li>
-      <li><span class="tag">Prep</span> 2 mock system design sessions</li>
-      <li><span class="tag">Network</span> Reach out to 3 contacts at target companies</li>
-      <li><span class="tag green">Update</span> Refresh LinkedIn with recent project wins</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2><span class="emoji">🔗</span> Your Dashboard</h2>
-    <ul>
-      <li><a href="dashboard.html">📊 Job Dashboard</a><div class="desc">Full job listing with filters and grades.</div></li>
-      <li><a href="job-database-senior.html">🎯 Senior Roles View</a><div class="desc">Curated senior-level positions.</div></li>
-      <li><a href="index.html">📋 Full Database</a><div class="desc">All 288 tracked positions.</div></li>
+      <li><a href="https://hbr.org/2014/04/10-rules-for-negotiating-a-job-offer" target="_blank" rel="noopener">HBR — 10 Rules for Negotiating a Job Offer</a><div class="desc">Harvard Business Review's definitive negotiation framework.</div></li>
+      <li><a href="https://www.kalzumeus.com/2012/01/23/salary-negotiation/" target="_blank" rel="noopener">Kalzumeus — Salary Negotiation</a><div class="desc">The definitive tech salary negotiation guide. Read twice.</div></li>
+      <li><a href="https://www.payscale.com/career-advice/how-to-negotiate-salary/" target="_blank" rel="noopener">Payscale — How to Negotiate</a><div class="desc">Market data-backed negotiation tactics and scripts.</div></li>
+      <li><a href="https://www.teamblind.com/post/How-to-Negotiate-a-Tech-Offer" target="_blank" rel="noopener">Blind — How to Negotiate a Tech Offer</a><div class="desc">Real-world negotiation stories and scripts from FAANG+ employees.</div></li>
     </ul>
   </div>
 </div>
 
-<div class="updated">
-  Last updated: June 17, 2026 · Auto-generated by Career OS Nightly Improver
+<!-- ═══════════════════════════════════════════ -->
+<!-- ─── WEEKLY CHECKLIST ─── -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="section-title" id="checklist">✅ Weekly Action Checklist</div>
+<div class="checklist">
+  <div class="card">
+    <h2 style="margin-bottom:1rem"><span class="emoji">📋</span> This Week's Focus — June 22–28, 2026</h2>
+    <div class="checklist-grid">
+      <div class="check-item" onclick="toggleCheck(this)">
+        <input type="checkbox" id="c1">
+        <label for="c1">Apply to 5 jobs matching A-1/A criteria<div class="detail">Prioritize roles with salary ≥$180K or ≥¥800K. Use LinkedIn + niche boards.</div></label>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <input type="checkbox" id="c2">
+        <label for="c2">Network with 2 contacts<div class="detail">DM 2 senior people at target companies. Ask for 15-min informational chats.</div></label>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <input type="checkbox" id="c3">
+        <label for="c3">Prepare 1 case study<div class="detail">Write up a PM case study (product strategy, launch, growth metric impact).</div></label>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <input type="checkbox" id="c4">
+        <label for="c4">Research 3 target companies<div class="detail">PitchBook + Glassdoor intel. Know their funding, culture, and recent hires.</div></label>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <input type="checkbox" id="c5">
+        <label for="c5">Practice 1 system design question<div class="detail">Focus on distributed systems, caching, or rate limiting — common at senior level.</div></label>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <input type="checkbox" id="c6">
+        <label for="c6">Post 1 LinkedIn insight<div class="detail">Share a fintech/AI observation. Builds visibility and signals active search.</div></label>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <input type="checkbox" id="c7">
+        <label for="c7">Update resume with latest quantifiable wins<div class="detail">Add revenue growth, user acquisition, or cost reduction numbers.</div></label>
+      </div>
+      <div class="check-item" onclick="toggleCheck(this)">
+        <input type="checkbox" id="c8">
+        <label for="c8">Attend 1 meetup or community event<div class="detail">Virtual or in-person. Focus on APAC fintech or AI communities.</div></label>
+      </div>
+    </div>
+  </div>
 </div>
+
+<!-- ─── Footer ─── -->
+<div class="footer">
+  Career Hub — Auto-maintained · Last updated June 22, 2026 · Built for APAC senior tech job seekers
+</div>
+
+<!-- ─── Search + Checklist JS ─── -->
+<script>
+  // ─── Search / Filter ───
+  const searchInput = document.getElementById('searchInput');
+  const cards = document.querySelectorAll('.card[data-keywords]');
+
+  searchInput.addEventListener('input', function() {
+    const query = this.value.toLowerCase().trim();
+    if (!query) {
+      cards.forEach(c => c.removeAttribute('data-hidden'));
+      return;
+    }
+    cards.forEach(card => {
+      const keywords = (card.getAttribute('data-keywords') || '').toLowerCase();
+      const text = card.textContent.toLowerCase();
+      const match = keywords.includes(query) || text.includes(query);
+      card.setAttribute('data-hidden', match ? 'false' : 'true');
+    });
+  });
+
+  // ─── Sticky Nav Active State ───
+  const navLinks = document.querySelectorAll('nav a[href^="#"]');
+  const sections = [];
+  navLinks.forEach(link => {
+    const id = link.getAttribute('href').slice(1);
+    const el = document.getElementById(id);
+    if (el) sections.push({ el, link });
+  });
+
+  function updateActiveNav() {
+    let current = null;
+    const scrollY = window.scrollY + 100;
+    for (const s of sections) {
+      if (s.el.offsetTop <= scrollY) current = s;
+    }
+    navLinks.forEach(l => l.classList.remove('active'));
+    if (current) current.link.classList.add('active');
+  }
+  window.addEventListener('scroll', updateActiveNav, { passive: true });
+  updateActiveNav();
+
+  // ─── Checklist Persistence ───
+  function toggleCheck(item) {
+    const cb = item.querySelector('input[type="checkbox"]');
+    cb.checked = !cb.checked;
+    item.classList.toggle('done', cb.checked);
+    saveChecklist();
+  }
+
+  function saveChecklist() {
+    const checks = document.querySelectorAll('.check-item input[type="checkbox"]');
+    const state = Array.from(checks).map(c => c.checked);
+    try { localStorage.setItem('careerHubChecklist', JSON.stringify(state)); } catch(e) {}
+  }
+
+  function loadChecklist() {
+    try {
+      const state = JSON.parse(localStorage.getItem('careerHubChecklist') || '[]');
+      const checks = document.querySelectorAll('.check-item');
+      checks.forEach((item, i) => {
+        if (state[i]) {
+          item.querySelector('input').checked = true;
+          item.classList.add('done');
+        }
+      });
+    } catch(e) {}
+  }
+  loadChecklist();
+</script>
 
 </body>
 </html>

@@ -1,20 +1,103 @@
 #!/usr/bin/env python3
 """Rebuild dashboard.html — reads JS from rebuild-dashboard.js to avoid quoting issues."""
-import json, os
+import json, os, re
 from datetime import datetime
 from collections import Counter
+from difflib import SequenceMatcher
 
 jobs = json.load(open('OKComputer_职位搜索清单/jobs-all.json'))
-# Deduplicate by title+company (case-insensitive), keep higher quality_score
+
+# --- Deduplication (two passes) ---
+def _norm_title(title):
+    """Aggressively normalize title for dedup comparison."""
+    t = title.lower().strip()
+    t = re.sub(r'[/\\]', ' ', t)
+    t = re.sub(r'[,;:]', ' ', t)
+    t = re.sub(r'\s*-\s*', ' ', t)
+    t = re.sub(r'[^\w\s]', '', t)
+    t = re.sub(r'\s+', ' ', t).strip()
+    return t
+
+# Pass 1: exact dedup with normalized title+company
 _deduped = {}
 for _j in jobs:
-    _key = (_j.get('title', '').strip().lower(), _j.get('company', '').strip().lower())
+    _key = (_norm_title(_j.get('title', '')), _j.get('company', '').strip().lower())
     if _key in _deduped:
-        if _j.get('quality_score', 0) > _deduped[_key].get('quality_score', 0):
+        if (_j.get('quality_score') or 0) > (_deduped[_key].get('quality_score') or 0):
             _deduped[_key] = _j
     else:
         _deduped[_key] = _j
-jobs = list(_deduped.values())
+
+# Pass 2: fuzzy dedup within same company (>=95% title similarity after normalization)
+_dlist = list(_deduped.values())
+_by_co = {}
+for _j in _dlist:
+    _co = _j.get('company', '').strip().lower()
+    _by_co.setdefault(_co, []).append(_j)
+_fuzzy_removed = set()
+for _co, _co_jobs in _by_co.items():
+    if len(_co_jobs) < 2:
+        continue
+    _ntitles = [(_norm_title(j.get('title', '')), j) for j in _co_jobs]
+    for _i in range(len(_ntitles)):
+        if _i in _fuzzy_removed:
+            continue
+        for _k in range(_i + 1, len(_ntitles)):
+            if _k in _fuzzy_removed:
+                continue
+            _t1, _j1 = _ntitles[_i]
+            _t2, _j2 = _ntitles[_k]
+            _ratio = SequenceMatcher(None, _t1, _t2).ratio()
+            if _ratio >= 0.95:
+                if (_j1.get('quality_score') or 0) >= (_j2.get('quality_score') or 0):
+                    _fuzzy_removed.add(_k)
+                else:
+                    _fuzzy_removed.add(_i)
+                    break
+
+jobs = [j for _idx, j in enumerate(_dlist) if _idx not in _fuzzy_removed]
+
+# --- Auto-fill missing en_title and category ---
+def _infer_category(title_t):
+    """Infer category from job title when missing."""
+    t = title_t.lower()
+    if any(k in t for k in ['strategy', 'chief of staff', 'bizops', 'business operations',
+                             'strategic', 'commercial strategy']):
+        return 'strategy'
+    if any(k in t for k in ['ai ', ' ai', 'data strategy', 'machine learning',
+                             'artificial intelligence']):
+        return 'ai_product'
+    if any(k in t for k in ['cross-border', 'cross border', 'international',
+                             'global', 'regional', 'apac', 'sea ', 'southeast asia']):
+        return 'cross_border'
+    if any(k in t for k in ['fintech', 'banking', 'financial', 'payments',
+                             'lending', 'credit']):
+        return 'fintech'
+    if any(k in t for k in ['growth', 'expansion', 'marketplace']):
+        return 'growth'
+    if any(k in t for k in ['senior', 'principal', 'director', 'head of',
+                             'vp ', 'vice president']):
+        return 'senior_pm'
+    return 'general_pm'
+
+_filled_en = 0
+_filled_cat = 0
+for _j in jobs:
+    # Auto-fill en_title when title is already in English (no CJK chars)
+    if not _j.get('en_title') and _j.get('title'):
+        _t = _j['title']
+        if not any('\u4e00' <= c <= '\u9fff' for c in _t):
+            _j['en_title'] = _t
+            _filled_en += 1
+    # Auto-fill category when missing
+    if not _j.get('category'):
+        _t = (_j.get('en_title') or _j.get('title', ''))
+        _j['category'] = _infer_category(_t)
+        _filled_cat += 1
+
+if _filled_en or _filled_cat:
+    print(f'Auto-filled: {_filled_en} en_title, {_filled_cat} category')
+
 js_code = open('rebuild-dashboard.js').read()
 
 CRYPTO_COMPANIES = ['binance', 'okx', 'coins.ph', 'bitdeer', 'bullish', 'coinmarketcap',
@@ -41,7 +124,7 @@ def is_aligned(j):
     target_locs = ['hong kong', 'shenzhen', 'shanghai', 'guangzhou', 'singapore', 'tokyo', 'taipei']
     if not any(t in loc for t in target_locs):
         return False
-    if j.get('quality_score', 0) < 70:
+    if (j.get('quality_score') or 0) < 70:
         return False
     if any(c in company for c in CRYPTO_COMPANIES):
         return False
@@ -57,6 +140,137 @@ def is_aligned(j):
 aligned = [j for j in jobs if is_aligned(j)]
 total = len(aligned)
 
+# Company tier classification
+BIGTECH = ['google', 'meta', 'microsoft', 'apple', 'amazon', 'bytedance', 'tiktok', 'tencent', 'alibaba',
+           'jd.com', 'baidu', 'bytedance ltd', 'huawei', 'qualcomm', 'cisco', 'mastercard', 'visa',
+           'jpmorgan chase', 'hsbc', 'jpmorgan']
+GROWTH = ['airwallex', 'shopee', 'grab', 'lalamove', 'klook', 'agoda', 'gojek', 'tokopedia',
+          'sea group', ' Lazada', 'sailpoint', 'canva', 'atlassian', 'stripe', 'wise',
+          'ninja van', 'carousell', 'futu', 'xiaomi', 'meituan', 'didi', 'ant group', 'antom',
+          'dtcpay', 'gotymex', 'equinix', 'ge healthcare', 'abbvie', 'bio-techne', 'ingram micro',
+          'dp world', 'codat', 'coda', 'virtuos']
+ENTERPRISE = ['aia group', 'axa', 'uob', 'bank of china', 'hang seng bank', 'bny', 'gic',
+              'govtech', 'indeed', 'jobsdb', 'kgroup', 'ambition', 'be myjob', 'constructor technology',
+              'casetify', 'greaterheat', 'on', 'kgi']
+
+def classify_company(co):
+    co_l = co.lower().strip()
+    for b in BIGTECH:
+        if b in co_l or co_l in b:
+            return 'bigtech'
+    for g in GROWTH:
+        if g.lower() in co_l or co_l in g.lower():
+            return 'growth'
+    for e in ENTERPRISE:
+        if e in co_l or co_l in e:
+            return 'enterprise'
+    return 'startup'
+
+for j in aligned:
+    j['_company_tier'] = classify_company(j.get('company', ''))
+
+# Salary tier classification (monthly USD estimate)
+import re as _re
+def _parse_salary_monthly_usd(s):
+    if not s: return None
+    sl = s.lower().replace(',', '').strip()
+    sc = _re.sub(r'\s*-\s*', '-', sl)
+    has_k = bool(_re.search(r'(\d)k(?!d)', sc))
+    m = _re.search(r'(\d+\.?\d*)', sc)
+    if not m: return None
+    try: val = float(m.group(1))
+    except: return None
+    if has_k: val *= 1000
+    if 'hkd' in sl: rate = 0.128
+    elif 'sgd' in sl: rate = 0.75
+    elif 'rmb' in sl or 'cny' in sl: rate = 0.137
+    else: rate = 1.0
+    usd = val * rate
+    is_yearly = '/yr' in sl or 'year' in sl
+    is_monthly = '/mo' in sl or '/month' in sl or '月' in sl
+    if is_yearly: usd /= 12
+    elif not is_monthly and val > 500: usd /= 12
+    return round(usd)
+
+for j in aligned:
+    _usd = _parse_salary_monthly_usd(j.get('salary', ''))
+    j['_salary_usd'] = _usd
+    if _usd is None: j['_salary_tier'] = 'none'
+    elif _usd >= 12000: j['_salary_tier'] = 'high'
+    elif _usd >= 8000: j['_salary_tier'] = 'midhigh'
+    elif _usd >= 5000: j['_salary_tier'] = 'mid'
+    else: j['_salary_tier'] = 'low'
+
+salary_tier_counts = Counter(j['_salary_tier'] for j in aligned)
+
+tier_counts = Counter(j['_company_tier'] for j in aligned)
+
+# Visa-likely count (SG + bigtech or growth)
+visa_likely_count = sum(1 for j in aligned if 'singapore' in (j.get('location_norm', j.get('location',''))).lower() and j.get('_company_tier') in ('bigtech', 'growth'))
+
+# === RESUME-BASED FIT SCORING ===
+# Ian's profile: strategy/ops leader, 8+ years, Amazon/Microsoft/GitHub/Salesforce
+# Strengths: cross-border, marketplace, e-commerce, AI go-to-market, data strategy, platform ops
+# NOT a traditional PM — strategy/ops/biz ops is the core
+FIT_TITLE_BOOST = {
+    'business operations': 25, 'bizops': 25, 'chief of staff': 25,
+    'strategy': 20, 'go-to-market': 20, 'gtm': 20,
+    'cross-border': 15, 'marketplace': 15, 'expansion': 15,
+    'program manager': 10, 'project manager': 10,
+    'product manager': 5, 'product director': 0, 'head of product': 0,
+}
+FIT_TITLE_PENALTY = {
+    'data scientist': -20, 'software engineer': -20, 'devops': -20,
+    'ux designer': -15, 'frontend': -20, 'backend': -20,
+    'sales manager': -10, 'account executive': -15,
+}
+FIT_COMPANY_BOOST = {
+    'amazon': 15, 'microsoft': 15, 'google': 15, 'github': 15,
+    'salesforce': 10, 'meta': 10, 'apple': 10,
+    'bytedance': 10, 'tiktok': 10, 'alibaba': 10, 'shopee': 10,
+    'airwallex': 8, 'visa': 8, 'mastercard': 8, 'jpmorgan': 8,
+    'ge healthcare': 5, 'abbvie': 5, 'tencent': 8, 'jd.com': 8,
+}
+FIT_DOMAIN_BOOST = {
+    'cross-border': 15, 'marketplace': 15, 'e-commerce': 10,
+    'platform': 10, 'fintech': 8, 'payments': 8,
+    'ai': 8, 'cloud': 8, 'developer': 8, 'growth': 8,
+}
+FIT_LOC_BOOST = {'shenzhen': 12, 'shanghai': 10, 'hong kong': 8, 'guangzhou': 6, 'singapore': 2, 'tokyo': 2, 'taipei': 2}
+FIT_LOC_PENALTY = {'singapore': -5}  # no work authorization
+
+def compute_fit_score(j):
+    title = (j.get('title','') + ' ' + j.get('en_title','')).lower()
+    summary = (j.get('summary','') + ' ' + j.get('description','')).lower()
+    company = j.get('company','').lower()
+    loc = j.get('location_norm', j.get('location','')).lower()
+    score = 30  # base score for passing is_aligned
+    for k, v in FIT_TITLE_BOOST.items():
+        if k in title: score += v; break
+    for k, v in FIT_TITLE_PENALTY.items():
+        if k in title: score += v
+    for k, v in FIT_COMPANY_BOOST.items():
+        if k in company: score += v; break
+    for k, v in FIT_DOMAIN_BOOST.items():
+        if k in title or k in summary: score += v
+    for k, v in FIT_LOC_BOOST.items():
+        if k in loc: score += v; break
+    for k, v in FIT_LOC_PENALTY.items():
+        if k in loc: score += v
+    if j.get('english_friendly'): score += 5
+    return max(0, min(100, score))
+
+for j in aligned:
+    j['_fit_score'] = compute_fit_score(j)
+
+fit_counts = {}
+for j in aligned:
+    fs = j.get('_fit_score', 0)
+    if fs >= 70: fit_counts['excellent'] = fit_counts.get('excellent', 0) + 1
+    elif fs >= 55: fit_counts['strong'] = fit_counts.get('strong', 0) + 1
+    elif fs >= 40: fit_counts['moderate'] = fit_counts.get('moderate', 0) + 1
+    else: fit_counts['weak'] = fit_counts.get('weak', 0) + 1
+
 locs = Counter(j.get('location_norm', j.get('location','')) for j in aligned)
 hk = sum(v for k,v in locs.items() if 'hong kong' in k.lower())
 sh = sum(v for k,v in locs.items() if 'shanghai' in k.lower())
@@ -69,6 +283,26 @@ jobs_json = json.dumps(aligned, ensure_ascii=False)
 direct_count = sum(1 for j in aligned if j.get('url_type') == 'direct' or
     any(p in j.get('url','') for p in ['viewjob','greenhouse.io/','lever.co/','ashbyhq.com/',
     'linkedin.com/jobs/view/','workday.com/','/job/','/position/','/posting/']))
+
+# Compute staleness stats
+from datetime import datetime as _dt
+_today = _dt.now()
+stale_count = 0
+fresh_count = 0
+for j in aligned:
+    sd = j.get('scanned_date', '')
+    if sd:
+        try:
+            _days = (_today - _dt.strptime(sd[:10], '%Y-%m-%d')).days
+            if _days >= 6:
+                stale_count += 1
+            elif _days <= 2:
+                fresh_count += 1
+        except Exception:
+            pass
+
+# Count broken URLs (from ALL jobs, not just aligned — data quality metric)
+broken_url_count = sum(1 for j in jobs if j.get('url_broken'))
 
 html = f"""<!DOCTYPE html>
 <html lang="en">
@@ -109,6 +343,7 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
 .sm{{color:#64748b;font-size:0.8rem;margin-top:6px}}
 .upt{{text-align:center;color:#475569;font-size:0.7rem;margin-top:20px}}
 .url-fix{{background:#7f1d1d;color:#fca5a5;border:1px solid #fca5a5;border-radius:4px;padding:2px 6px;font-size:0.65rem;margin-left:8px}}
+.url-broken{{display:inline-block;border-radius:4px;padding:2px 6px;font-size:0.65rem;font-weight:600;margin-left:6px;background:#7f1d1d;color:#fca5a5;border:1px solid #fca5a5}}
 .en{{background:#1e3a5f;color:#93c5fd;border:1px solid #93c5fd;border-radius:4px;padding:2px 6px;font-size:0.65rem;margin-left:6px}}
 .salary{{color:#4ade80;font-size:0.75rem}}
 .status-badge{{display:inline-block;border-radius:4px;padding:2px 8px;font-size:0.65rem;font-weight:600;margin-left:6px;cursor:pointer;transition:all 0.2s}}
@@ -133,12 +368,87 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
 .notes-input:focus{{border-color:#38bdf8;outline:none}}
 .notes-saved{{color:#4ade80;font-size:0.65rem;margin-left:8px;display:none}}
 .notes-saved.show{{display:inline}}
+.back-to-top{{position:fixed;bottom:24px;right:24px;background:#38bdf8;color:#0f172a;width:44px;height:44px;border-radius:50%;border:none;font-size:1.4rem;cursor:pointer;display:none;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(56,189,248,0.4);z-index:999;transition:opacity 0.2s,transform 0.2s}}
+.back-to-top:hover{{transform:scale(1.1)}}
+.search-hint{{color:#475569;font-size:0.7rem;margin-top:4px}}
+.search-hint kbd{{background:#1e293b;border:1px solid #334155;border-radius:4px;padding:1px 6px;font-family:inherit;font-size:0.65rem;color:#94a3b8}}
+.staleness{{display:inline-block;border-radius:4px;padding:1px 6px;font-size:0.65rem;font-weight:500;margin-left:6px}}
+.staleness-fresh{{background:#064e3b;color:#34d399;border:1px solid #34d399}}
+.staleness-ok{{background:#713f12;color:#fde68a;border:1px solid #fde68a}}
+.staleness-stale{{background:#7f1d1d;color:#fca5a5;border:1px solid #fca5a5}}
+.staleness-ancient{{background:#4c1d1d;color:#f87171;border:1px solid #f87171}}
+.tier{{display:inline-block;border-radius:4px;padding:1px 6px;font-size:0.65rem;font-weight:600;margin-left:6px}}
+.tier-bigtech{{background:#1e3a5f;color:#60a5fa;border:1px solid #60a5fa}}
+.tier-growth{{background:#064e3b;color:#34d399;border:1px solid #34d399}}
+.tier-enterprise{{background:#78350f;color:#fbbf24;border:1px solid #fbbf24}}
+.tier-startup{{background:#312e81;color:#a5b4fc;border:1px solid #a5b4fc}}
+.st-stats-stale{{background:#1e293b;border-radius:6px;padding:4px 10px;font-size:0.7rem;color:#94a3b8;border:1px solid #334155}}
+.st-stats-stale .n{{font-size:0.85rem;font-weight:700}}
+.st-stats-stale.stale-warn .n{{color:#fbbf24}}
+.st-stats-stale.stale-danger .n{{color:#f87171}}
+.fit-badge{{display:inline-block;border-radius:4px;padding:1px 6px;font-size:0.65rem;font-weight:600;margin-left:4px}}
+.fit-excellent{{background:#064e3b;color:#34d399;border:1px solid #34d399}}
+.fit-strong{{background:#1e3a5f;color:#60a5fa;border:1px solid #60a5fa}}
+.fit-moderate{{background:#78350f;color:#fbbf24;border:1px solid #fbbf24}}
+.fit-weak{{background:#334155;color:#94a3b8;border:1px solid #475569}}
+.theme-toggle{{position:fixed;top:16px;right:16px;background:#1e293b;color:#94a3b8;border:1px solid #334155;border-radius:50%;width:36px;height:36px;font-size:1.1rem;cursor:pointer;z-index:1000;display:flex;align-items:center;justify-content:center;transition:all 0.2s;box-shadow:0 2px 8px rgba(0,0,0,0.3)}}
+.theme-toggle:hover{{background:#334155;color:#e2e8f0;border-color:#38bdf8}}
+body.light .theme-toggle{{background:#f1f5f9;color:#475569;border-color:#e2e8f0;box-shadow:0 2px 8px rgba(0,0,0,0.1)}}
+body.light .theme-toggle:hover{{background:#e2e8f0;color:#1e293b;border-color:#2563eb}}
+body.light{{background:#f8fafc;color:#1e293b}}
+body.light .st{{background:#ffffff;border-color:#e2e8f0}}
+body.light .st .l{{color:#64748b}}
+body.light .flt button{{background:#f1f5f9;color:#475569;border-color:#e2e8f0}}
+body.light .flt button.on{{background:#2563eb;color:#ffffff;border-color:#2563eb}}
+body.light .jc{{background:#ffffff;border-color:#e2e8f0}}
+body.light .jc:hover{{border-color:#2563eb}}
+body.light .jc .t{{color:#0f172a}}
+body.light .jc .co{{color:#2563eb}}
+body.light .jc .mt{{color:#64748b}}
+body.light .jc .sm{{color:#64748b}}
+body.light #search-box{{background:#ffffff;color:#1e293b;border-color:#e2e8f0}}
+body.light #search-box:focus{{border-color:#2563eb}}
+body.light .st-btn{{background:#f1f5f9;color:#475569;border-color:#e2e8f0}}
+body.light .st-btn.on{{background:#2563eb;color:#ffffff;border-color:#2563eb}}
+body.light .st-stats{{background:#ffffff;color:#64748b;border-color:#e2e8f0}}
+body.light .st-stats-stale{{background:#ffffff;color:#64748b;border-color:#e2e8f0}}
+body.light .notes-input{{background:#ffffff;color:#1e293b;border-color:#e2e8f0}}
+body.light .notes-input:focus{{border-color:#2563eb}}
+body.light .notes-toggle{{color:#64748b}}
+body.light .notes-toggle:hover{{background:#e2e8f0;color:#1e293b}}
+body.light .upt{{color:#94a3b8}}
+body.light .url-fix{{background:#fef2f2;color:#dc2626;border-color:#fca5a5}}
+body.light .url-broken{{background:#fef2f2;color:#dc2626;border-color:#fca5a5}}
+body.light .en{{background:#eff6ff;color:#2563eb;border-color:#93c5fd}}
+body.light .salary{{color:#16a34a}}
+body.light .search-hint kbd{{background:#f1f5f9;border-color:#e2e8f0;color:#64748b}}
+body.light .search-hint{{color:#94a3b8}}
+body.light .lk .ap{{background:#059669;color:#ffffff;border-color:#059669}}
+body.light .lk .ap:hover{{background:#047857;color:#ffffff}}
+body.light .lk .gs{{background:#d97706;color:#ffffff;border-color:#d97706}}
+body.light .lk .gs:hover{{background:#b45309;color:#ffffff}}
+@media(max-width:640px){{
+  .hdr h1{{font-size:1.3rem}}
+  .hdr .sub{{font-size:0.7rem}}
+  .sts{{grid-template-columns:repeat(auto-fit,minmax(60px,1fr));gap:6px}}
+  .st{{padding:8px 4px}}.st .n{{font-size:1.2rem}}.st .l{{font-size:0.5rem}}
+  .flt{{gap:5px}}.flt button{{padding:4px 8px;font-size:0.7rem}}
+  .jc{{padding:12px 10px}}.jc .t{{font-size:0.9rem}}
+  .jc .mt{{gap:8px;font-size:0.7rem}}
+  .jc .sm{{font-size:0.75rem}}
+  .lk a{{font-size:0.8rem;padding:5px 10px}}
+  #search-box{{padding:8px 10px;font-size:0.85rem}}
+  .st-btn{{padding:3px 7px;font-size:0.65rem}}
+  .back-to-top{{width:38px;height:38px;font-size:1.1rem;bottom:16px;right:16px}}
+  .search-hint{{display:none}}
+}}
 </style>
 </head>
 <body>
+<button class="theme-toggle" id="theme-toggle" title="Toggle dark/light theme">🌙</button>
 <div class="hdr">
 <h1>🎯 APAC Senior Roles</h1>
-<div class="sub">{total} aligned from {len(jobs)} scanned · {direct_count} direct links · {now}</div>
+<div class=\"sub\">{total} aligned from {len(jobs)} scanned · {direct_count} direct links · {now}</div>
 </div>
 <div class="sts">
 <div class="st"><div class="n">{total}</div><div class="l">Total</div></div>
@@ -147,6 +457,9 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
 <div class="st sz"><div class="n">{sz}</div><div class="l">SZ</div></div>
 <div class="st sg"><div class="n">{sg}</div><div class="l">SG</div></div>
 <div class="st"><div class="n">{gz}</div><div class="l">GZ</div></div>
+<div class="st-stats-stale{' stale-danger' if stale_count > 5 else ' stale-warn' if stale_count > 0 else ''}"><div class="n">⏰ {stale_count}</div><div class="l">Stale 6d+</div></div>
+<div class="st-stats-stale{(' stale-danger' if broken_url_count > 0 else '')}"><div class="n">🔴 {broken_url_count}</div><div class="l">Broken URLs</div></div>
+<div class="st-stats-stale"><div class="n">🟢 {fresh_count}</div><div class="l">Fresh 0-2d</div></div>
 </div>
 <div class="flt" id="flt">
 <button class="on" data-f="all">All ({total})</button>
@@ -155,17 +468,37 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
 <button data-f="hk">HK</button>
 <button data-f="sh">SH</button>
 <button data-f="sz">SZ</button>
+<button data-f="sg">SG</button>
 <button data-f="strategy">Strategy</button>
+<button data-f="bizops">🔧 BizOps</button>
+<button data-f="gm">👔 GM</button>
 <button data-f="product">Product</button>
 <button data-f="ai">AI</button>
+<button data-f="fintech">💳 Fintech</button>
+<button data-f="crossborder">🌍 Cross-border</button>
+<button data-f="growth">📈 Growth</button>
+<button data-f="senior">👔 Senior PM</button>
 <button data-f="direct">🎯 Direct Apply</button>
 <button data-f="easy">⚡ Easy Apply</button>
 <button data-f="english">🌐 English</button>
+<button data-f="visa_likely" style="color:#34d399">🛂 Visa Likely ({visa_likely_count})</button>
 <button data-f="needs_url">🔧 Needs URL Fix</button>
 <button data-f="top20">🏆 Top 20</button>
+<button data-f="best_fit" style="color:#34d399">🎯 Best Fit ({fit_counts.get('excellent',0)})</button>
+<button data-f="strong_fit" style="color:#86efac">👍 Strong Fit ({fit_counts.get('strong',0)})</button>
+<button data-f="bigtech" style="color:#60a5fa">🏢 Big Tech ({tier_counts.get('bigtech',0)})</button>
+<button data-f="company_growth" style="color:#34d399">🚀 Growth ({tier_counts.get('growth',0)})</button>
+<button data-f="enterprise" style="color:#fbbf24">🏛 Enterprise ({tier_counts.get('enterprise',0)})</button>
+<button data-f="startup" style="color:#a5b4fc">⚡ Startup ({tier_counts.get('startup',0)})</button>
+<button data-f="sal_high" style="color:#4ade80">💰 $12K+/mo ({salary_tier_counts.get('high',0)})</button>
+<button data-f="sal_midhigh" style="color:#86efac">💰 $8-12K/mo ({salary_tier_counts.get('midhigh',0)})</button>
+<button data-f="sal_mid" style="color:#fde68a">💰 $5-8K/mo ({salary_tier_counts.get('mid',0)})</button>
+<button data-f="sal_low" style="color:#fca5a5">💰 &lt;$5K/mo ({salary_tier_counts.get('low',0)})</button>
+<button data-f="sal_none" style="color:#94a3b8">📋 No salary ({salary_tier_counts.get('none',0)})</button>
 </div>
 <div style="margin:12px 0">
 <input type="text" id="search-box" placeholder="🔍 Search jobs by title, company, location..." style="width:100%;max-width:600px;background:#1e293b;color:#e2e8f0;border:1px solid #334155;border-radius:8px;padding:10px 14px;font-size:0.9rem;outline:none" oninput="render(currentFilter)">
+<div class="search-hint">Press <kbd>/</kbd> to search · <kbd>Esc</kbd> to clear</div>
 </div>
 <div class="flt" id="status-flt" style="margin-top:4px">
 <span style="color:#94a3b8;font-size:0.7rem;margin-right:4px">Status:</span>
@@ -186,14 +519,81 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
 <option value="company">Company</option>
 <option value="location">Location</option>
 <option value="difficulty">Apply Difficulty</option>
+<option value="salary">Salary (Highest)</option>
+<option value="fit">🎯 Resume Fit Score</option>
+<option value="tier">Company Tier (Big Tech →)</option>
+<option value="apply_ease">Apply Ease (Direct →)</option>
 </select>
 </div>
 <div id="jobs"></div>
 <div id="result-count" style="text-align:center;color:#94a3b8;font-size:0.8rem;margin:8px 0"></div>
 <div class="upt">Last updated: {now}</div>
+<button class="back-to-top" id="btt" title="Back to top">↑</button>
 <script>
 const jobs = {jobs_json};
 {js_code}
+</script>
+<script>
+(function(){{var b=document.getElementById('btt');window.addEventListener('scroll',function(){{b.style.display=window.scrollY>400?'flex':'none'}});b.addEventListener('click',function(){{window.scrollTo({{top:0,behavior:'smooth'}})}})}})();
+document.addEventListener('keydown',function(e){{
+  if(e.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)){{
+    e.preventDefault();document.getElementById('search-box').focus();
+  }}
+  if(e.key==='Escape'){{
+    var s=document.getElementById('search-box');
+    if(document.activeElement===s){{s.value='';s.blur();render(currentFilter)}}
+  }}
+}});
+/* Staleness badges — compute days since scan and add color-coded badges */
+(function(){{
+  var jobMap={{}};jobs.forEach(function(j){{jobMap[j.job_id]=j}});
+  var today=new Date();
+  function daysSince(d){{if(!d)return-1;var dt=new Date(d);return Math.floor((today-dt)/(864e5))}}
+  function addStaleness(){{
+    document.querySelectorAll('.jc').forEach(function(card){{
+      if(card.querySelector('.staleness'))return;
+      /* find job_id from status-badge data attribute */
+      var badge=card.querySelector('.status-badge[data-job-id]');
+      if(!badge)return;
+      var jid=badge.dataset.jobId;
+      var j=jobMap[jid];
+      if(!j||!j.scanned_date)return;
+      var d=daysSince(j.scanned_date);
+      if(d<0)return;
+      var cls,label;
+      if(d<=2){{cls='staleness-fresh';label='✅ '+d+'d ago'}}
+      else if(d<=4){{cls='staleness-ok';label='📅 '+d+'d ago'}}
+      else if(d<=6){{cls='staleness-stale';label='⏰ '+d+'d old'}}
+      else{{cls='staleness-ancient';label='🔥 '+d+'d old!'}}
+      var span=document.createElement('span');
+      span.className='staleness '+cls;
+      span.textContent=label;
+      span.title='Scanned: '+j.scanned_date;
+      var titleEl=card.querySelector('.t');
+      if(titleEl)titleEl.appendChild(span);
+    }});
+  }}
+  var obs=new MutationObserver(addStaleness);
+  obs.observe(document.getElementById('jobs'),{{childList:true}});
+  addStaleness();
+}})();
+/* Theme toggle — dark/light with localStorage persistence */
+(function(){{
+  var btn=document.getElementById('theme-toggle');
+  var saved=localStorage.getItem('career_os_theme');
+  var prefersLight=window.matchMedia&&window.matchMedia('(prefers-color-scheme:light)').matches;
+  var isLight=saved==='light'||(!saved&&prefersLight);
+  function applyTheme(light){{
+    if(light){{document.body.classList.add('light');btn.textContent='☀️';}}
+    else{{document.body.classList.remove('light');btn.textContent='🌙';}}
+  }}
+  applyTheme(isLight);
+  btn.addEventListener('click',function(){{
+    isLight=!isLight;
+    applyTheme(isLight);
+    localStorage.setItem('career_os_theme',isLight?'light':'dark');
+  }});
+}})();
 </script>
 </body>
 </html>"""

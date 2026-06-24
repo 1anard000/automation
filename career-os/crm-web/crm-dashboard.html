@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Career OS — CRM Dashboard</title>
+<style>
+/* ── Reset & Base ────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #0d1117; --bg-card: #161b22; --bg-hover: #1c2128; --bg-elevated: #21262d;
+  --border: #30363d; --border-subtle: #21262d;
+  --text: #c9d1d9; --text-muted: #8b949e; --text-bright: #f0f6fc;
+  --accent: #58a6ff; --green: #3fb950; --yellow: #d29922; --red: #f85149;
+  --purple: #bc8cff; --cyan: #39d353;
+  --radius: 8px; --radius-lg: 12px;
+  --shadow: 0 1px 3px rgba(0,0,0,.3), 0 1px 2px rgba(0,0,0,.2);
+  --shadow-lg: 0 8px 24px rgba(0,0,0,.4);
+  --transition: .15s ease;
+}
+html { font-size: 15px; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg); color: var(--text); line-height: 1.5;
+  min-height: 100vh; overflow-x: hidden;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button { font: inherit; cursor: pointer; border: none; background: none; color: inherit; }
+input, select { font: inherit; color: var(--text); }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+/* ── Layout ──────────────────────────────────────────────────── */
+.app { max-width: 1200px; margin: 0 auto; padding: 24px 20px; }
+
+/* ── Header ──────────────────────────────────────────────────── */
+.header {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 28px; flex-wrap: wrap; gap: 12px;
+}
+.header h1 {
+  font-size: 1.5rem; font-weight: 600; color: var(--text-bright);
+  display: flex; align-items: center; gap: 10px;
+}
+.header h1 span { font-size: 1.2rem; }
+.header-actions { display: flex; gap: 8px; align-items: center; }
+.btn {
+  padding: 6px 14px; border-radius: var(--radius); font-size: .85rem;
+  border: 1px solid var(--border); background: var(--bg-card); color: var(--text);
+  transition: var(--transition);
+}
+.btn:hover { background: var(--bg-hover); border-color: var(--border); }
+.btn-primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+.btn-primary:hover { background: #4c9aed; }
+
+/* ── Summary Cards ───────────────────────────────────────────── */
+.summary-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px; margin-bottom: 24px;
+}
+.summary-card {
+  background: var(--bg-card); border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg); padding: 18px 20px;
+  transition: var(--transition);
+}
+.summary-card:hover { border-color: var(--border); }
+.summary-card .label { font-size: .78rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: .04em; margin-bottom: 4px; }
+.summary-card .value { font-size: 1.8rem; font-weight: 700; color: var(--text-bright); line-height: 1.2; }
+.summary-card .sub { font-size: .8rem; color: var(--text-muted); margin-top: 2px; }
+
+/* Health distribution bar */
+.health-bar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; margin-top: 10px; gap: 2px; }
+.health-bar .seg { border-radius: 3px; transition: width .4s ease; }
+
+/* ── Toolbar ─────────────────────────────────────────────────── */
+.toolbar {
+  display: flex; gap: 10px; margin-bottom: 18px; flex-wrap: wrap; align-items: center;
+}
+.search-box {
+  flex: 1; min-width: 220px; position: relative;
+}
+.search-box input {
+  width: 100%; padding: 9px 14px 9px 36px; border-radius: var(--radius);
+  border: 1px solid var(--border); background: var(--bg-card); font-size: .9rem;
+  outline: none; transition: var(--transition);
+}
+.search-box input:focus { border-color: var(--accent); }
+.search-box .icon {
+  position: absolute; left: 11px; top: 50%; transform: translateY(-50%);
+  color: var(--text-muted); pointer-events: none;
+}
+.filter-select {
+  padding: 9px 12px; border-radius: var(--radius); border: 1px solid var(--border);
+  background: var(--bg-card); font-size: .85rem; outline: none; color: var(--text);
+  transition: var(--transition); min-width: 130px;
+}
+.filter-select:focus { border-color: var(--accent); }
+
+/* ── Contact Table ───────────────────────────────────────────── */
+.table-wrap {
+  background: var(--bg-card); border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg); overflow: hidden;
+}
+.table-header {
+  display: grid; padding: 10px 18px; border-bottom: 1px solid var(--border-subtle);
+  font-size: .75rem; color: var(--text-muted); text-transform: uppercase;
+  letter-spacing: .04em; font-weight: 600; cursor: pointer; user-select: none;
+}
+.table-header .th { display: flex; align-items: center; gap: 4px; }
+.table-header .th:hover { color: var(--text); }
+.table-header .th .arrow { font-size: .65rem; }
+.table-header .th.active { color: var(--accent); }
+.contact-row {
+  display: grid; padding: 13px 18px; border-bottom: 1px solid var(--border-subtle);
+  align-items: center; cursor: pointer; transition: var(--transition);
+}
+.contact-row:last-child { border-bottom: none; }
+.contact-row:hover { background: var(--bg-hover); }
+
+/* Column template: name, company, title, priority, strength, health, last contact */
+.table-header { grid-template-columns: 2fr 1.5fr 1.5fr .8fr .8fr .9fr 1fr; }
+.contact-row   { grid-template-columns: 2fr 1.5fr 1.5fr .8fr .8fr .9fr 1fr; }
+
+.cell-name { color: var(--text-bright); font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cell-company { color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cell-title { color: var(--text-muted); font-size: .85rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* Badges */
+.badge {
+  display: inline-flex; align-items: center; padding: 2px 8px;
+  border-radius: 10px; font-size: .73rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: .03em; white-space: nowrap;
+}
+.badge-high { background: rgba(248,81,73,.15); color: var(--red); }
+.badge-medium { background: rgba(210,153,34,.15); color: var(--yellow); }
+.badge-low { background: rgba(63,185,80,.15); color: var(--green); }
+.badge-strong { background: rgba(63,185,80,.15); color: var(--green); }
+.badge-weak { background: rgba(139,148,158,.15); color: var(--text-muted); }
+
+/* Mini health bar in table */
+.mini-health {
+  display: flex; align-items: center; gap: 8px;
+}
+.mini-health-bar {
+  flex: 1; height: 5px; background: var(--bg-elevated); border-radius: 3px; overflow: hidden;
+}
+.mini-health-fill { height: 100%; border-radius: 3px; transition: width .3s ease; }
+.mini-health-val { font-size: .78rem; font-weight: 600; min-width: 22px; text-align: right; }
+
+.cell-date { font-size: .82rem; color: var(--text-muted); white-space: nowrap; }
+.no-data { color: var(--border); font-style: italic; font-size: .82rem; }
+
+/* ── Detail Panel (overlay) ──────────────────────────────────── */
+.overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,.6); z-index: 100;
+  display: flex; justify-content: flex-end; opacity: 0; pointer-events: none;
+  transition: opacity .2s ease;
+}
+.overlay.open { opacity: 1; pointer-events: auto; }
+.detail-panel {
+  width: 560px; max-width: 100%; height: 100vh; background: var(--bg-card);
+  border-left: 1px solid var(--border); overflow-y: auto; padding: 0;
+  transform: translateX(40px); transition: transform .25s ease;
+}
+.overlay.open .detail-panel { transform: translateX(0); }
+
+.detail-header {
+  position: sticky; top: 0; z-index: 2; background: var(--bg-card);
+  border-bottom: 1px solid var(--border-subtle); padding: 18px 24px;
+  display: flex; align-items: flex-start; justify-content: space-between;
+}
+.detail-header .close-btn {
+  padding: 4px 8px; border-radius: 6px; font-size: 1.1rem; color: var(--text-muted);
+  transition: var(--transition);
+}
+.detail-header .close-btn:hover { background: var(--bg-elevated); color: var(--text); }
+
+.detail-body { padding: 24px; }
+
+.detail-name { font-size: 1.3rem; font-weight: 600; color: var(--text-bright); margin-bottom: 2px; }
+.detail-title { font-size: .9rem; color: var(--text-muted); margin-bottom: 14px; }
+
+.detail-meta {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 10px 20px;
+  margin-bottom: 24px;
+}
+.meta-item { display: flex; flex-direction: column; }
+.meta-label { font-size: .72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: .04em; margin-bottom: 2px; }
+.meta-value { font-size: .88rem; color: var(--text); word-break: break-word; }
+
+/* Health gauge */
+.gauge-section { text-align: center; margin-bottom: 28px; }
+.gauge-container { position: relative; width: 140px; height: 80px; margin: 0 auto 8px; }
+.gauge-svg { width: 140px; height: 80px; }
+.gauge-label {
+  position: absolute; bottom: 2px; left: 50%; transform: translateX(-50%);
+  font-size: 1.5rem; font-weight: 700; color: var(--text-bright);
+}
+.gauge-sub { font-size: .78rem; color: var(--text-muted); }
+
+/* Section headings */
+.section-title {
+  font-size: .82rem; font-weight: 600; color: var(--text-muted);
+  text-transform: uppercase; letter-spacing: .04em; margin-bottom: 12px;
+  padding-bottom: 8px; border-bottom: 1px solid var(--border-subtle);
+}
+
+/* Timeline */
+.timeline { margin-bottom: 28px; }
+.tl-item {
+  display: flex; gap: 14px; padding: 12px 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+.tl-item:last-child { border-bottom: none; }
+.tl-dot {
+  width: 10px; height: 10px; border-radius: 50%; margin-top: 5px; flex-shrink: 0;
+}
+.tl-dot.email { background: var(--accent); }
+.tl-dot.meeting { background: var(--purple); }
+.tl-dot.call { background: var(--green); }
+.tl-dot.linkedin { background: var(--cyan); }
+.tl-dot.other { background: var(--text-muted); }
+.tl-content { flex: 1; min-width: 0; }
+.tl-type {
+  font-size: .75rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: .03em; margin-bottom: 2px;
+}
+.tl-type.email { color: var(--accent); }
+.tl-type.meeting { color: var(--purple); }
+.tl-type.call { color: var(--green); }
+.tl-type.linkedin { color: var(--cyan); }
+.tl-type.other { color: var(--text-muted); }
+.tl-summary { font-size: .88rem; color: var(--text); }
+.tl-date { font-size: .78rem; color: var(--text-muted); margin-top: 2px; }
+.tl-sentiment {
+  display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-left: 6px;
+}
+.tl-sentiment.positive { background: var(--green); }
+.tl-sentiment.neutral { background: var(--text-muted); }
+.tl-sentiment.negative { background: var(--red); }
+.tl-followup {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: .75rem; color: var(--yellow); margin-top: 4px;
+}
+
+/* Reminders */
+.reminders-list { margin-bottom: 24px; }
+.reminder-item {
+  display: flex; align-items: center; gap: 10px; padding: 10px 14px;
+  background: var(--bg-elevated); border-radius: var(--radius); margin-bottom: 6px;
+}
+.reminder-item .r-status {
+  width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
+}
+.reminder-item .r-status.pending { background: var(--yellow); }
+.reminder-item .r-status.snoozed { background: var(--purple); }
+.reminder-item .r-task { flex: 1; font-size: .88rem; }
+.reminder-item .r-due { font-size: .78rem; color: var(--text-muted); white-space: nowrap; }
+.reminder-overdue .r-due { color: var(--red); font-weight: 600; }
+
+.empty-state { text-align: center; padding: 32px 16px; color: var(--text-muted); font-size: .9rem; }
+
+/* ── Responsive ──────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .app { padding: 16px 12px; }
+  .summary-grid { grid-template-columns: repeat(2, 1fr); }
+  .table-header, .contact-row {
+    grid-template-columns: 1.5fr 1fr .8fr .7fr .7fr;
+  }
+  .table-header .th:nth-child(3), .contact-row > *:nth-child(3),
+  .table-header .th:nth-child(7), .contact-row > *:nth-child(7) {
+    display: none;
+  }
+  .detail-panel { width: 100%; }
+  .detail-meta { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+  .summary-grid { grid-template-columns: 1fr; }
+  .toolbar { flex-direction: column; }
+  .search-box { min-width: 100%; }
+}
+
+/* ── Animations ──────────────────────────────────────────────── */
+@keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+.summary-card { animation: fadeIn .3s ease both; }
+.summary-card:nth-child(2) { animation-delay: .05s; }
+.summary-card:nth-child(3) { animation-delay: .1s; }
+.summary-card:nth-child(4) { animation-delay: .15s; }
+.summary-card:nth-child(5) { animation-delay: .2s; }
+.summary-card:nth-child(6) { animation-delay: .25s; }
+
+.contact-row { animation: fadeIn .2s ease both; }
+
+/* Loading */
+.loading {
+  display: flex; align-items: center; justify-content: center;
+  padding: 60px 20px; color: var(--text-muted); font-size: .95rem;
+}
+.spinner {
+  width: 20px; height: 20px; border: 2px solid var(--border);
+  border-top-color: var(--accent); border-radius: 50%;
+  animation: spin .6s linear infinite; margin-right: 10px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+<div class="app" id="app">
+  <div class="loading" id="loading">
+    <div class="spinner"></div>
+    Loading CRM data…
+  </div>
+</div>
+
+<div class="overlay" id="overlay">
+  <div class="detail-panel" id="detailPanel"></div>
+</div>
+
+<script>
+// ── State ────────────────────────────────────────────────────────
+let DATA = null;
+let sortField = 'name';
+let sortAsc = true;
+let searchQuery = '';
+let filterPriority = '';
+let filterStrength = '';
+
+// ── Load Data ────────────────────────────────────────────────────
+async function loadData() {
+  try {
+    const resp = await fetch('crm-data.json');
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    DATA = await resp.json();
+    render();
+  } catch (e) {
+    document.getElementById('loading').innerHTML =
+      `<span style="color:var(--red);">⚠ Failed to load crm-data.json</span>
+       <div style="margin-top:12px;font-size:.82rem;color:var(--text-muted);max-width:400px;text-align:left;">
+         <p>Make sure you've run the export script first:</p>
+         <code style="color:var(--accent);">python3 export-data.py</code>
+         <p style="margin-top:8px;">Then serve the directory:</p>
+         <code style="color:var(--accent);">python3 -m http.server 8080</code>
+         <p style="margin-top:8px;">And open <a href="http://localhost:8080/crm-dashboard.html">http://localhost:8080/crm-dashboard.html</a></p>
+       </div>`;
+  }
+}
+
+// ── Helpers ──────────────────────────────────────────────────────
+function healthColor(score) {
+  if (score == null) return 'var(--text-muted)';
+  if (score >= 80) return 'var(--green)';
+  if (score >= 60) return 'var(--accent)';
+  if (score >= 40) return 'var(--yellow)';
+  return 'var(--red)';
+}
+
+function formatDate(d) {
+  if (!d) return '—';
+  const dt = new Date(d + (d.includes('T') ? '' : 'T00:00:00'));
+  return dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+function daysAgo(d) {
+  if (!d) return null;
+  const diff = Math.floor((Date.now() - new Date(d).getTime()) / 86400000);
+  if (diff === 0) return 'today';
+  if (diff === 1) return '1 day ago';
+  return `${diff} days ago`;
+}
+
+function escapeHtml(s) {
+  if (!s) return '';
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// ── Render ───────────────────────────────────────────────────────
+function render() {
+  const s = DATA.summary;
+  const contacts = getFilteredContacts();
+  const app = document.getElementById('app');
+
+  app.innerHTML = `
+    <div class="header">
+      <h1><span>⚡</span> Career OS <span style="font-weight:400;color:var(--text-muted);font-size:1rem;margin-left:4px;">CRM</span></h1>
+      <div class="header-actions">
+        <button class="btn" onclick="location.reload()" title="Refresh data">↻ Refresh</button>
+      </div>
+    </div>
+
+    <div class="summary-grid">
+      ${renderSummaryCards(s)}
+    </div>
+
+    <div class="toolbar">
+      <div class="search-box">
+        <span class="icon">🔍</span>
+        <input type="text" placeholder="Search contacts…" id="searchInput" value="${escapeHtml(searchQuery)}" oninput="onSearch(this.value)">
+      </div>
+      <select class="filter-select" id="filterPriority" onchange="onFilterPriority(this.value)">
+        <option value="">All Priorities</option>
+        <option value="high" ${filterPriority==='high'?'selected':''}>🔴 High</option>
+        <option value="medium" ${filterPriority==='medium'?'selected':''}>🟡 Medium</option>
+        <option value="low" ${filterPriority==='low'?'selected':''}>🟢 Low</option>
+      </select>
+      <select class="filter-select" id="filterStrength" onchange="onFilterStrength(this.value)">
+        <option value="">All Strengths</option>
+        <option value="strong" ${filterStrength==='strong'?'selected':''}>Strong</option>
+        <option value="medium" ${filterStrength==='medium'?'selected':''}>Medium</option>
+        <option value="weak" ${filterStrength==='weak'?'selected':''}>Weak</option>
+      </select>
+    </div>
+
+    <div class="table-wrap">
+      <div class="table-header" id="tableHeader">
+        <div class="th ${sortField==='name'?'active':''}" onclick="onSort('name')">Name <span class="arrow">${sortField==='name'?(sortAsc?'▲':'▼'):''}</span></div>
+        <div class="th ${sortField==='company'?'active':''}" onclick="onSort('company')">Company <span class="arrow">${sortField==='company'?(sortAsc?'▲':'▼'):''}</span></div>
+        <div class="th">Title</div>
+        <div class="th ${sortField==='priority'?'active':''}" onclick="onSort('priority')">Priority <span class="arrow">${sortField==='priority'?(sortAsc?'▲':'▼'):''}</span></div>
+        <div class="th ${sortField==='strength'?'active':''}" onclick="onSort('strength')">Strength <span class="arrow">${sortField==='strength'?(sortAsc?'▲':'▼'):''}</span></div>
+        <div class="th ${sortField==='health_score'?'active':''}" onclick="onSort('health_score')">Health <span class="arrow">${sortField==='health_score'?(sortAsc?'▲':'▼'):''}</span></div>
+        <div class="th ${sortField==='last_contact_date'?'active':''}" onclick="onSort('last_contact_date')">Last Contact <span class="arrow">${sortField==='last_contact_date'?(sortAsc?'▲':'▼'):''}</span></div>
+      </div>
+      <div id="contactList">
+        ${contacts.length === 0 ? '<div class="empty-state">No contacts match your search.</div>' : contacts.map(renderContactRow).join('')}
+      </div>
+    </div>
+
+    <div style="text-align:center;padding:20px;font-size:.78rem;color:var(--text-muted);">
+      ${contacts.length} contact${contacts.length!==1?'s':''} · Data exported from Career OS CRM
+    </div>
+  `;
+
+  // Focus search input
+  const si = document.getElementById('searchInput');
+  if (si) si.focus();
+}
+
+function renderSummaryCards(s) {
+  const topCompanies = Object.entries(s.by_company).slice(0, 3);
+  const hd = s.health_distribution;
+  const totalH = hd.excellent + hd.good + hd.fair + hd.poor + hd.unknown || 1;
+
+  return `
+    <div class="summary-card">
+      <div class="label">Total Contacts</div>
+      <div class="value">${s.total_contacts}</div>
+      <div class="sub">${s.upcoming_reminders.length} pending reminders</div>
+    </div>
+    <div class="summary-card">
+      <div class="label">Top Companies</div>
+      <div class="value" style="font-size:1rem;">${topCompanies.map(([c,n]) => `<span style="display:block;"><span style="color:var(--accent)">${n}</span> <span style="color:var(--text-muted)">${escapeHtml(c)}</span></span>`).join('')}</div>
+    </div>
+    <div class="summary-card">
+      <div class="label">Priority Mix</div>
+      <div class="value" style="font-size:1rem;">
+        <span style="color:var(--red);">🔴 ${s.priority_distribution.high}</span>
+        <span style="color:var(--yellow);margin:0 8px;">🟡 ${s.priority_distribution.medium}</span>
+        <span style="color:var(--green);">🟢 ${s.priority_distribution.low}</span>
+      </div>
+    </div>
+    <div class="summary-card">
+      <div class="label">Relationship Health</div>
+      <div class="health-bar">
+        <div class="seg" style="width:${hd.excellent/totalH*100}%;background:var(--green);" title="Excellent (80-100)"></div>
+        <div class="seg" style="width:${hd.good/totalH*100}%;background:var(--accent);" title="Good (60-79)"></div>
+        <div class="seg" style="width:${hd.fair/totalH*100}%;background:var(--yellow);" title="Fair (40-59)"></div>
+        <div class="seg" style="width:${hd.poor/totalH*100}%;background:var(--red);" title="Poor (0-39)"></div>
+      </div>
+      <div class="sub" style="margin-top:8px;">
+        🟢 ${hd.excellent} · 🔵 ${hd.good} · 🟡 ${hd.fair} · 🔴 ${hd.poor} · ⚪ ${hd.unknown}
+      </div>
+    </div>
+    <div class="summary-card">
+      <div class="label">Relationship Strength</div>
+      <div class="value" style="font-size:1rem;">
+        <span style="color:var(--green);">Strong ${s.strength_distribution.strong}</span>
+        <span style="color:var(--yellow);margin:0 8px;">Med ${s.strength_distribution.medium}</span>
+        <span style="color:var(--text-muted);">Weak ${s.strength_distribution.weak}</span>
+      </div>
+    </div>
+    <div class="summary-card">
+      <div class="label">Upcoming Reminders</div>
+      <div class="value">${s.upcoming_reminders.length}</div>
+      <div class="sub">${s.upcoming_reminders.filter(r=>r.status==='pending').length} pending</div>
+    </div>
+  `;
+}
+
+function renderContactRow(c) {
+  const pri = c.priority || 'medium';
+  const str = c.strength || 'weak';
+  const hs = c.health_score;
+  const lc = c.last_contact_date;
+  return `
+    <div class="contact-row" onclick="openDetail(${c.id})">
+      <div class="cell-name">${escapeHtml(c.name)}</div>
+      <div class="cell-company">${escapeHtml(c.company) || '<span class="no-data">—</span>'}</div>
+      <div class="cell-title">${escapeHtml(c.title) || '<span class="no-data">—</span>'}</div>
+      <div><span class="badge badge-${pri}">${pri}</span></div>
+      <div><span class="badge badge-${str}">${str}</span></div>
+      <div class="mini-health">
+        <div class="mini-health-bar"><div class="mini-health-fill" style="width:${hs||0}%;background:${healthColor(hs)};"></div></div>
+        <span class="mini-health-val" style="color:${healthColor(hs)};">${hs != null ? hs : '—'}</span>
+      </div>
+      <div class="cell-date">${lc ? `<span title="${daysAgo(lc)}">${formatDate(lc)}</span>` : '<span class="no-data">—</span>'}</div>
+    </div>
+  `;
+}
+
+// ── Detail Panel ─────────────────────────────────────────────────
+function openDetail(id) {
+  const c = DATA.contacts.find(x => x.id === id);
+  if (!c) return;
+
+  const hs = c.health_score;
+  const panel = document.getElementById('detailPanel');
+  const overlay = document.getElementById('overlay');
+
+  panel.innerHTML = `
+    <div class="detail-header">
+      <div>
+        <div class="detail-name">${escapeHtml(c.name)}</div>
+        <div class="detail-title">${escapeHtml(c.title || '')} ${c.company ? '· ' + escapeHtml(c.company) : ''}</div>
+      </div>
+      <button class="close-btn" onclick="closeDetail()">✕</button>
+    </div>
+    <div class="detail-body">
+      <div class="detail-meta">
+        ${c.email ? `<div class="meta-item"><div class="meta-label">Email</div><div class="meta-value"><a href="mailto:${escapeHtml(c.email)}">${escapeHtml(c.email)}</a></div></div>` : ''}
+        ${c.phone ? `<div class="meta-item"><div class="meta-label">Phone</div><div class="meta-value">${escapeHtml(c.phone)}</div></div>` : ''}
+        ${c.location ? `<div class="meta-item"><div class="meta-label">Location</div><div class="meta-value">${escapeHtml(c.location)}</div></div>` : ''}
+        ${c.linkedin_url ? `<div class="meta-item"><div class="meta-label">LinkedIn</div><div class="meta-value"><a href="${escapeHtml(c.linkedin_url)}" target="_blank" rel="noopener">${escapeHtml(c.linkedin_url)}</a></div></div>` : ''}
+        ${c.how_we_met ? `<div class="meta-item"><div class="meta-label">How We Met</div><div class="meta-value">${escapeHtml(c.how_we_met)}</div></div>` : ''}
+        <div class="meta-item"><div class="meta-label">Priority</div><div class="meta-value"><span class="badge badge-${c.priority||'medium'}">${c.priority||'medium'}</span></div></div>
+        <div class="meta-item"><div class="meta-label">Strength</div><div class="meta-value"><span class="badge badge-${c.strength||'weak'}">${c.strength||'weak'}</span></div></div>
+      </div>
+
+      ${c.notes ? `<div style="margin-bottom:24px;"><div class="section-title">Notes</div><div style="font-size:.88rem;color:var(--text);white-space:pre-wrap;">${escapeHtml(c.notes)}</div></div>` : ''}
+
+      <!-- Health Gauge -->
+      <div class="gauge-section">
+        <div class="section-title">Relationship Health</div>
+        <div class="gauge-container">
+          <svg class="gauge-svg" viewBox="0 0 140 80">
+            <path d="M 15 75 A 55 55 0 0 1 125 75" fill="none" stroke="var(--bg-elevated)" stroke-width="10" stroke-linecap="round"/>
+            <path d="M 15 75 A 55 55 0 0 1 125 75" fill="none" stroke="${healthColor(hs)}" stroke-width="10" stroke-linecap="round"
+              stroke-dasharray="${(hs||0)/100 * 173} 173" style="transition:stroke-dasharray .6s ease;"/>
+          </svg>
+          <div class="gauge-label" style="color:${healthColor(hs)};">${hs != null ? hs : '—'}</div>
+        </div>
+        <div class="gauge-sub">${hs != null ? (hs >= 80 ? 'Excellent' : hs >= 60 ? 'Good' : hs >= 40 ? 'Fair' : 'Needs attention') : 'No data'}</div>
+      </div>
+
+      <!-- Interactions Timeline -->
+      <div style="margin-bottom:28px;">
+        <div class="section-title">Interactions (${c.interactions.length})</div>
+        ${c.interactions.length === 0 ? '<div class="empty-state">No interactions recorded yet.</div>' : `
+          <div class="timeline">
+            ${c.interactions.slice(0, 20).map(i => `
+              <div class="tl-item">
+                <div class="tl-dot ${i.type}"></div>
+                <div class="tl-content">
+                  <div class="tl-type ${i.type}">${i.type} <span class="tl-sentiment ${i.sentiment}"></span></div>
+                  <div class="tl-summary">${escapeHtml(i.summary) || '<em style="color:var(--text-muted)">No summary</em>'}</div>
+                  <div class="tl-date">${formatDate(i.date)}</div>
+                  ${i.follow_up_needed ? `<div class="tl-followup">⏰ Follow-up${i.follow_up_date ? ' by ' + formatDate(i.follow_up_date) : ''}</div>` : ''}
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        `}
+      </div>
+
+      <!-- Reminders -->
+      <div class="reminders-list">
+        <div class="section-title">Reminders (${c.reminders.length})</div>
+        ${c.reminders.length === 0 ? '<div class="empty-state">No active reminders.</div>' :
+          c.reminders.map(r => `
+            <div class="reminder-item ${r.status==='pending' && new Date(r.due_date) < new Date() ? 'reminder-overdue' : ''}">
+              <div class="r-status ${r.status}"></div>
+              <div class="r-task">${escapeHtml(r.task)}</div>
+              <div class="r-due">${formatDate(r.due_date)}${r.status==='snoozed'?' (snoozed)':''}</div>
+            </div>
+          `).join('')}
+      </div>
+    </div>
+  `;
+
+  overlay.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeDetail() {
+  document.getElementById('overlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// ── Filtering & Sorting ──────────────────────────────────────────
+function getFilteredContacts() {
+  let list = DATA.contacts.slice();
+
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    list = list.filter(c =>
+      (c.name && c.name.toLowerCase().includes(q)) ||
+      (c.company && c.company.toLowerCase().includes(q)) ||
+      (c.title && c.title.toLowerCase().includes(q)) ||
+      (c.email && c.email.toLowerCase().includes(q)) ||
+      (c.location && c.location.toLowerCase().includes(q))
+    );
+  }
+  if (filterPriority) list = list.filter(c => c.priority === filterPriority);
+  if (filterStrength) list = list.filter(c => c.strength === filterStrength);
+
+  const priOrder = { high: 0, medium: 1, low: 2 };
+  const strOrder = { strong: 0, medium: 1, weak: 2 };
+
+  list.sort((a, b) => {
+    let va, vb;
+    switch (sortField) {
+      case 'name': va = (a.name||'').toLowerCase(); vb = (b.name||'').toLowerCase(); break;
+      case 'company': va = (a.company||'zzz').toLowerCase(); vb = (b.company||'zzz').toLowerCase(); break;
+      case 'priority': va = priOrder[a.priority]??1; vb = priOrder[b.priority]??1; break;
+      case 'strength': va = strOrder[a.strength]??2; vb = strOrder[b.strength]??2; break;
+      case 'health_score': va = a.health_score ?? -1; vb = b.health_score ?? -1; break;
+      case 'last_contact_date': va = a.last_contact_date || '0000'; vb = b.last_contact_date || '0000'; break;
+      default: va = (a.name||'').toLowerCase(); vb = (b.name||'').toLowerCase();
+    }
+    if (va < vb) return sortAsc ? -1 : 1;
+    if (va > vb) return sortAsc ? 1 : -1;
+    return 0;
+  });
+  return list;
+}
+
+let searchDebounce;
+function onSearch(val) {
+  clearTimeout(searchDebounce);
+  searchDebounce = setTimeout(() => { searchQuery = val; render(); }, 200);
+}
+function onFilterPriority(val) { filterPriority = val; render(); }
+function onFilterStrength(val) { filterStrength = val; render(); }
+function onSort(field) {
+  if (sortField === field) sortAsc = !sortAsc;
+  else { sortField = field; sortAsc = true; }
+  render();
+}
+
+// Close detail on overlay click
+document.getElementById('overlay').addEventListener('click', e => {
+  if (e.target === e.currentTarget) closeDetail();
+});
+
+// Close on Escape
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeDetail();
+});
+
+// ── Init ─────────────────────────────────────────────────────────
+loadData();
+</script>
+</body>
+</html>

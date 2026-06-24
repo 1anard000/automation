@@ -7,7 +7,7 @@ from datetime import datetime
 
 DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_FILE = os.path.join(DIR, "jobs-all.json")
-OUT_FILE = os.path.join(DIR, "job-database-senior.html")
+OUT_FILE = os.path.join(DIR, "dashboard.html")
 
 
 def load_jobs():

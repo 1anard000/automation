@@ -1,301 +1,328 @@
 # 📊 Weekly Career Strategy Intelligence
-**Generated:** Wednesday, June 18, 2026 3:00 AM CST
-**Coverage period:** Week of June 18–24, 2026
-**Data source:** jobs-all.json (443 positions — up from 288 on June 17)
+**Generated:** Tuesday, June 23, 2026 3:00 AM CST
+**Coverage period:** Week of June 23–29, 2026
+**Data source:** jobs-all.json (660 positions — up from 579 on June 22)
+**Web search status:** ⚠️ Unavailable (API timeout) — analysis relies on database + prior intel
 
 ---
 
 ## 📊 Market Pulse
 
-### Key Trends This Week
+### Database Snapshot (June 23)
 
-1. **OKX Dominates the Market — 53 Open Roles (12% of all jobs)**: OKX now accounts for 53 of 443 tracked roles, with 10 at quality score ≥85. This is the single largest hiring wave in the dataset. Crypto/Web3 product hiring in APAC is accelerating, and OKX is the epicenter.
+| Metric | Value | Change from June 22 |
+|--------|-------|---------------------|
+| Total tracked roles | 660 | +81 (new scans: Coupang, Agoda, Crypto.com, etc.) |
+| Quality Score ≥ 80 | 135 | +57 (major jump — new scoring pass complete) |
+| Quality Score ≥ 90 | 26 | +3 |
+| Quality Score = 100 (elite) | 8 | — |
+| Top 20 flagged | 31 | +1 |
+| English-friendly | 476 (72%) | +153 |
+| Direct apply available | 164 (25%) | — |
+| Not yet applied | 660 (100%) | ⚠️ No applications tracked in this snapshot |
+| Stale roles | 123 (19%) | New field |
 
-2. **19 Perfect-Score Jobs Now Available**: The database now has 19 jobs scoring 100 (perfect alignment). These are overwhelmingly in Hong Kong (10 roles) and Singapore (9 roles), spanning crypto exchanges, payments, and asset management. This is the highest-quality batch yet.
+### Grade Distribution (What It Means)
 
-3. **Database Grew 54% — From 288 to 443 Jobs**: The surge is driven by LinkedIn (135 roles, +100 from last week), Liepin (122 new roles from Chinese job boards), and Greenhouse (42 roles from tech company ATS systems). The pipeline is significantly deeper.
+| Grade | Count | % | Interpretation |
+|-------|-------|---|----------------|
+| **A-2** (Senior PM) | 331 | 50.2% | Core target grade — half the database |
+| **A-1** (Director/Lead PM) | 226 | 34.2% | Leadership tier — strong presence |
+| **C** (Staff/Principal) | 61 | 9.2% | Senior individual contributor — niche |
+| **S-1** (VP/SVP) | 26 | 3.9% | Executive tier — rare, high-value |
+| **B** (Mid-level PM) | 16 | 2.4% | Below target — skip unless exceptional fit |
 
-4. **Singapore Closes the Gap — 141 Roles (32%)**: Singapore grew from 115 to 141 roles. 69 are A-1 grade, 36 are not flagged as low-quality (visa sponsorship viable). Airwallex alone has 13 roles — the most active single employer in SG.
+**Strategy implication:** 84.4% of roles are A-1 or A-2 (senior director / senior PM). This is a healthy distribution for a senior product leader targeting director+ roles. The 26 S-1 roles are your stretch targets — apply selectively.
 
-5. **Hong Kong Is the Quality Hub — 103 Roles, 30 Score ≥85**: While Shenzhen has the most roles (160), HK has the highest concentration of top-tier opportunities. 10 of 19 perfect-score jobs are HK-based. Crypto regulatory tailwinds + English-friendly environment = strongest overall market.
+### Category Breakdown
 
-6. **Shenzhen Remains the Volume Leader — 160 Roles (36%)**: SZ dominates by raw count, but 127 of 160 require "hard" applications (20-30 min company portal forms). The Chinese job board pipeline (Liepin, Boss-Zhilian) is active but quality varies. Focus on international-facing companies (ByteDance, Tencent, Huawei).
+| Category | Count | Notes |
+|----------|-------|-------|
+| General PM | 311 | Broad PM roles across industries |
+| Strategy | 71 | Corporate strategy / business strategy |
+| Product | 58 | Pure product management |
+| AI Product | 41 | 🔥 Growing — AI/ML product roles |
+| Cross-border | 38 | Core strength — cross-border commerce |
+| Growth | 35 | Growth PM / experiment-driven |
+| Fintech | 32 | Payments, banking, crypto |
+| Operations | 37 | BizOps, strategy ops |
+| Senior PM | 12 | Explicitly senior roles |
 
-7. **AI Category Grew to 35 Roles (7.9%)**: Up from 36 (but as a share of a larger pool, it's steady). AI is embedded across product roles — not just standalone "AI PM" positions. The cross-border + AI combo remains the strongest positioning.
-
-### What Changed Since June 17
-
-| Metric | June 17 | June 18 | Change |
-|--------|---------|---------|--------|
-| Total tracked roles | 288 | 443 | +155 new positions (+54%) |
-| Perfect score (100) jobs | 0 | 19 | +19 new top-tier matches |
-| A-1 grade roles | 135 | 192 | +57 A-1 positions |
-| Singapore roles | 115 | 141 | +26 SG roles |
-| Hong Kong roles | 80 | 103 | +23 HK roles |
-| Shenzhen roles | 43 | 160 | +117 SZ roles (Chinese board surge) |
-| Shanghai roles | 29 | 34 | +5 SH roles |
-| OKX roles | 51 | 53 | +2 OKX roles |
-| Airwallex roles | 10 | 13 | +3 Airwallex roles |
-| English-friendly roles | ~200 | 302 | +102 (68% of database) |
-| Easy/Medium apps (score≥80) | ~40 | 106 | +66 quick-win opportunities |
+**AI Product (41 roles)** is a new significant category — up from minimal in prior snapshots. Cross-border (38) and Fintech (32) remain strong.
 
 ---
 
 ## 🔥 Sector Heat Map
 
-| Sector | Hiring Activity | Key Employers | Roles | Trend |
-|--------|----------------|---------------|-------|-------|
-| 🔥 **Crypto/Web3 Exchanges** | **Very Hot** | OKX (53), Crypto.com (11), Binance (5), Gate, Coins.ph | 70+ | ↑↑ Dominant sector |
-| 🔥 **Cross-border Payments/Fintech** | **Very Hot** | Airwallex (13), Coins.ph (4), Antom, DeCard | 25+ | ↑ Steady growth |
-| 🔥 **Cross-border E-commerce** | **Hot** | ByteDance (5), Shopee (3), Alibaba/Lazada (2), JD.COM (3), CASETiFY | 15+ | ↑ Stable |
-| 🔵 **AI Product** | **Hot** | Google (5), Huawei (2), First Digital, Mastercard, OpenAI | 35 | → Embedded across sectors |
-| 🟡 **Traditional Fintech/Banking** | **Moderate** | HSBC (3), UOB (3), Mastercard (3), Visa (3), Bank of China | 20+ | → Stable |
-| 🟡 **Enterprise SaaS/Cloud** | **Moderate** | Google, Cisco, Equinix, Ingram Micro | 10+ | → Selective |
-| 🟡 **Strategy/Consulting** | **Moderate** | GE HealthCare (3), DP World, Bio-Techne | 10+ | → Niche |
-| 🟡 **Health Tech/Insurance** | **Moderate** | AIA, GE HealthCare, Manulife, Zurich | 8+ | → Digital transformation |
-| 🔴 **Domestic China Tech** | **Cooling** | Tencent (3), Meituan, Baidu (absent) | Minimal | ↓ Restructuring |
-| ⚠️ **VC/PE** | **Limited** | GIC, BlackRock, Wellington, Blackstone | 5 | → Very selective |
+| Sector | Heat | Key Employers | Roles | Signal |
+|--------|------|---------------|-------|--------|
+| 🔥 **Crypto/Web3 Exchanges** | Very Hot | OKX (66), Binance (9), Coinbase (14), Gate (5), Crypto.com (5) | 99+ | Dominant; OKX consolidated at 66 after merge of OKX/Okx variants |
+| 🔥 **Cross-border E-commerce** | Hot | Coupang (60), Agoda (40), Shopee (6), ByteDance (7) | 113+ | Coupang surged to #1 — SE Asia expansion wave |
+| 🔥 **AI/ML Product** | Hot | Anthropic (7), Google (5), Databricks (9), GovTech SG (5) | 26+ | Anthropic growing; AI product roles surging across sectors |
+| 🔵 **Cross-border Payments/Fintech** | Hot | Stripe (13), Airwallex (9), Xendit (5), Affirm (4) | 31+ | Stripe strongest at 13; Affirm new entrant |
+| 🔵 **Cloud/Enterprise SaaS** | Warm | Twilio (8), Cloudflare (7), Databricks (9), Datadog (4), Gitlab (5) | 33+ | Steady; Datadog and Gitlab new entrants |
+| 🟡 **Traditional Finance/Banking** | Moderate | HSBC (5), Bank of China HK (3) | 8+ | Selective; stable |
+| 🟡 **Consumer Tech** | Moderate | ByteDance (7), Tencent (3), CASETiFY (3), Figma (3) | 16+ | Selective; Tencent reappeared |
+| 🔴 **Domestic China Tech** | Cooling | Tencent (3), 某知名公司 (6), various anonymous | 20+ | Anonymous postings suggest restructuring/rebranding |
+| ⚠️ **VC/PE** | Very Limited | — | 1 | Extremely selective |
+
+### New Market Entrants Since Last Update
+
+| Company | Roles | Sector | Signal |
+|---------|-------|--------|--------|
+| **Coupang** | 60 (+49) | Cross-border e-commerce | 🚀 Massive surge — now #1 by count |
+| **Agoda** | 40 (+35) | Travel/cross-border | 🚀 Travel tech hiring wave |
+| **Crypto.com** | 5 (new) | Crypto exchange | New entrant; crypto sector expanding |
+| **Affirm** | 4 (new) | BNPL/fintech | US fintech entering APAC |
+| **Amazon** | 5 (new) | Cloud/retail | Selective APAC roles |
+| **Datadog** | 4 (new) | DevTools/observability | Enterprise SaaS expansion |
+| **Figma** | 3 (new) | Design tools | Design tech in APAC |
+| **Flexport** | 3 (new) | Cross-border logistics | Supply chain + APAC |
+| **Gitlab** | 5 (new) | DevTools | DevOps hiring in APAC |
+| **GovTech Singapore** | 5 (new) | GovTech | Singapore government tech |
+| **Mercury** | 6 (new) | Fintech/banking | Startup banking |
+| **Postman** | 3 (new) | DevTools | API tools |
+| **RedotPay** | 3 (new) | Crypto payments | New crypto entrant |
+| **Xendit** | 5 (new) | SE Asia payments | Regional fintech |
+| **Tencent** | 3 (reappeared) | Consumer tech | Back in pool after absence |
+| **JD.COM** | 3 (new) | E-commerce | Cross-border expansion |
 
 ---
 
-## 📈 Salary Benchmarks
+## 🎯 Top 10 Companies by Job Count
 
-### Singapore (SGD/month)
+| # | Company | Roles | Grade Mix | Sector | Priority |
+|---|---------|-------|-----------|--------|----------|
+| 1 | **Coupang** | 60 | A-1: 26, A-2: 34 | Cross-border e-commerce | ⭐⭐⭐ |
+| 2 | **OKX** | 66 | A-1: 32, A-2: 12, S-1: 3, C: 9 | Crypto exchange | ⭐⭐⭐ |
+| 3 | **Agoda** | 40 | A-1: 14, A-2: 25, S-1: 1 | Travel/cross-border | ⭐⭐⭐ |
+| 4 | **Coinbase** | 14 | A-2: 5, B: 9 | Crypto exchange | ⭐⭐ |
+| 5 | **Stripe** | 13 | A-1: 9, S-1: 2, C: 1, A-2: 1 | Cross-border payments | ⭐⭐⭐ |
+| 6 | **Airwallex** | 9 | A-1: 5, A-2: 4 | Cross-border payments | ⭐⭐ |
+| 7 | **Binance** | 9 | A-1: 5, S-1: 1, C: 2, A-2: 1 | Crypto exchange | ⭐⭐⭐ |
+| 8 | **Databricks** | 9 | A-1: 3, A-2: 5, C: 1 | AI/data platform | ⭐⭐ |
+| 9 | **Twilio** | 8 | A-2: 8 | Cloud/communication | ⭐ |
+| 10 | **Anthropic** | 7 | A-1: 2, A-2: 4, B: 1 | AI-native | ⭐⭐ |
 
-| Role Level | Base Range | Total Comp (est) | Data Points |
-|-----------|------------|-------------------|-------------|
-| Senior PM | 12K–18K | 180K–270K/yr | Airwallex, GoTymeX, GreaterHeat |
-| Director PM | 18K–30K | 270K–450K/yr | Airwallex (3 roles), Crypto.com, Bitdeer |
-| Sr Director/VP | 25K–35K | 375K–525K/yr | Mastercard, BlackRock, GIC |
-| Head of Product | 30K–45K | 450K–675K/yr | Google (SGD 22K-25K+), Cisco |
+### Honorable Mentions
 
-**Notable data points:**
-- Mastercard AI & Data Strategy Director: SGD 100K–120K/mo (likely annualized)
-- Airwallex Director Product Strategy: SGD 18K–30K/mo
-- Crypto.com Product Director Banking: SGD 18K–30K/mo
-- BlackRock Aladdin Director: SGD 18K–30K/mo
-- Google Head of Measurement: SGD 22K+/mo
-- GIC VP Risk Analytics: SGD 20K–35K/mo
-
-### Hong Kong (HKD/month)
-
-| Role Level | Base Range | Total Comp (est) | Data Points |
-|-----------|------------|-------------------|-------------|
-| Senior PM | 50K–80K | 600K–960K/yr | Coins.ph, Binance, Futu |
-| Director PM | 80K–120K | 960K–1.44M/yr | Crypto.com, OKX, ByteDance |
-| Principal PM | 80K–120K+ | 960K–1.44M+ /yr | Crypto.com (score 100) |
-| Head of Strategy | 80K–120K+ | 960K–1.44M+ /yr | ByteDance, Visa |
-
-**Notable data points:**
-- Be Myjob Product Lead: HKD 60K–75K/mo + 10+ months bonus
-- ByteDance Head of Product Strategy: HKD 80K–120K/mo
-- OKX Senior Director/VP AI: HKD 80K–120K/mo
-- D.E. Shaw Senior PM AI: Likely HKD 80K–100K+/mo (hedge fund)
-
-### Shenzhen / Shanghai (RMB/year)
-
-| Role Level | Shenzhen | Shanghai |
-|-----------|----------|----------|
-| Senior PM | 600K–1.2M | 600K–1M |
-| Director | 800K–1.5M | 800K–1.5M |
-| VP/Product Line Head | 1M–2M+ | 1M–1.5M |
-
-**Notable data points:**
-- S-1 grade roles (产品总监): Typically RMB 800K–2M range
-- Anonymous company roles from Liepin/Boss: RMB 600K–1.5M for senior PM
+| Company | Roles | Why Notable |
+|---------|-------|-------------|
+| ByteDance | 7 | Cross-border e-commerce + TikTok Shop |
+| Cloudflare | 7 | Cloud infrastructure, APAC expansion |
+| Shopee | 6 | SE Asia e-commerce giant |
+| Mercury | 6 | Fintech/banking — new entrant |
+| GovTech SG | 5 | Singapore government — stable, English |
+| Xendit | 5 | SE Asia payments — regional play |
+| Crypto.com | 5 | Crypto exchange — new entrant |
+| Gitlab | 5 | DevTools — remote-friendly |
 
 ---
 
-## 🎯 Priority Targets (This Week: June 18–24)
+## 📈 Geographic Priorities
 
-### Tier 1: Highest-Priority Applications
+### Combined Location Breakdown
 
-#### 1. 🥇 Perfect-Score HK Crypto Roles (10 roles, score 100)
-- **Why**: 10 Hong Kong roles scored a perfect 100 — the highest-quality cluster in the entire database. These are medium-difficulty applications (10-15 min each), mostly via LinkedIn.
-- **Key roles:**
-  - Principal PM - Verification & Activation (Exchange) — Crypto.com
-  - Principal PM - Discovery & Onboarding (Exchange) — Crypto.com
-  - Senior Payment PM - LATAM — Binance
-  - Senior Fiat PM (GatePay) — Gate
-  - Senior PM (Card Issuing) — Coins.ph
-  - Senior PM - Derivatives Risk — Futu Holdings
-  - BNPL Product & Operations Lead — JD.COM
-  - Senior PM - Cloud — Ingram Micro
-  - Principal PM (SG Based) — Agoda
-  - Senior Wealth Management PM — Bank of China (HK)
-- **Approach**: Apply to 5-6 of these via LinkedIn (medium difficulty, 10-15 min each). These are the highest-ROI applications in the pipeline.
-- **Fit**: Cross-border payments, fintech, crypto, product — all directly aligned
+| Location | Roles | % | Notes |
+|----------|-------|---|-------|
+| **Shenzhen** | 174 | 26.4% | #1 by volume — OKX, ByteDance, Tencent, Huawei |
+| **Singapore** | 159 | 24.1% | Best for director-level; English-first |
+| **Hong Kong** | 113 | 17.1% | Highest quality density; fintech/crypto hub |
+| **Remote** | 45 | 6.8% | Growing — US firms offering APAC remote |
+| **Seoul** | 39 | 5.9% | Coupang driving volume |
+| **Shanghai** | 34 | 5.2% | Selective; strong for strategy roles |
+| **Bangkok** | 28 | 4.2% | SE Asia emerging market |
+| **Tokyo** | 16 | 2.4% | AI-native (Anthropic); rare opportunity |
+| **Taipei** | 11 | 1.7% | Niche |
+| **Sydney** | 9 | 1.4% | ANZ market |
+| **Other** | 11 | 1.7% | Guangzhou, Hangzhou, Melbourne, etc. |
 
-#### 2. 🥇 Perfect-Score SG Director Roles (9 roles, score 100)
-- **Why**: 9 Singapore director-level roles scored perfect 100. These are the highest-paying opportunities in the database.
-- **Key roles:**
-  - Director, Product Strategy, APAC — Wellington Management
-  - Director of Product Management — Bitdeer (NASDAQ)
-  - Director, Product Strategy Payments — Airwallex
-  - Director, Commercial PM (Custody Platform) — BNY
-  - Product Director, Payment Fraud — Airwallex
-  - Director, AI & Data Strategy — Mastercard
-  - Director, Product Pricing — Manulife
-  - Product Director, Financial Markets — Airwallex
-  - Aladdin Product Solutions Specialist, Director — BlackRock
-- **Approach**: Apply to 3-4 via LinkedIn or company portals. These are medium-difficulty, 10-15 min applications.
-- **Fit**: Payments, AI, custody, asset management — premium positioning
+### Geographic Strategy
 
-#### 3. 🥈 OKX Deep Dive (53 roles, focus on top 10)
-- **Why**: 53 roles is enormous, but quality varies. Focus on the 10 with score ≥85:
-  - Senior / Lead PM – B2B Cross-Border Crypto Payments (SZ, top20)
-  - Senior Director / VP, AI (HK, score 82)
-  - Plus additional A-1 roles in HK and SG
-- **Approach**: Apply to 3-4 top OKX roles via their careers portal. OKX has 53 open roles — they're clearly hiring aggressively.
-- **Fit**: Cross-border payments + crypto = adjacent expertise
+**Tier 1 — Primary Markets:**
+- **Singapore (159 roles):** Best for English-friendly, director-level roles. Stripe, Agoda, Airwallex, GovTech SG. Apply here first for highest conversion.
+- **Hong Kong (113 roles):** Highest quality density. Crypto/fintech hub. OKX, Binance, Coins.ph, Futu. Stretch targets here.
+- **Shenzhen (174 roles):** Volume play. OKX, ByteDance, Tencent. Requires Mandarin. Apply selectively to top-scored roles.
 
-#### 4. 🥈 Airwallex Expansion (13 roles)
-- **Why**: 13 roles, up from 10 on June 17. Airwallex is the most active cross-border fintech employer.
-- **Key roles:** Director Product Strategy Payments, Product Director Payment Fraud, Product Director Financial Markets (all score 100, SG)
-- **Approach**: Apply to 2-3 via Ashby (easy, 3-5 min). LinkedIn warm outreach to PM team.
-- **Fit**: Cross-border payments = sweet spot
+**Tier 2 — Secondary Markets:**
+- **Remote (45 roles):** US firms (Datadog, Gitlab, Postman, Figma) offering APAC remote. Growing trend.
+- **Seoul (39 roles):** Coupang-dominated. Cross-border e-commerce.
 
-#### 5. 🥈 ByteDance / TikTok (5 roles)
-- **Why**: 3 roles with score ≥85 — Senior PM TikTok E-commerce (SZ, score 95), Senior PM CapCut (SZ, score 95), Senior PM TikTok Shop HK (score 87)
-- **Approach**: Apply via jobs.bytedance.com; Amazon-style process (5-6 rounds)
-- **Fit**: Cross-border commerce + consumer product
-
-### Tier 2: Strategic Opportunities
-
-#### 6. Binance (5 roles, all score ≥85)
-- **Key**: Senior Payment PM - LATAM (HK, score 100), Senior Card PM (HK), Binance Pay Business Lead (HK)
-- **Fit**: Cross-border payments + crypto; HK-based
-
-#### 7. Google (5 roles, 3 score ≥85)
-- **Key**: Global Head of Business Ops, Head of Measurement APAC, Regional Product Lead (all SG)
-- **Fit**: Premium brand; strategy/GTM focus
-
-#### 8. JD.COM (3 roles, all score ≥85)
-- **Key**: BNPL Product Lead (HK, score 100), Director of Category Joybuy (SZ, top20)
-- **Fit**: Cross-border e-commerce + BNPL
-
-#### 9. Huawei (2 roles, both score ≥85)
-- **Key**: Senior PM Huawei Cloud (SZ, top20), Senior PM HarmonyOS Ecosystem (SZ, top20)
-- **Fit**: Cloud + ecosystem; SZ-based
-
-### Companies to Watch
-
-| Company | Roles | Score ≥85 | Why Watch |
-|---------|-------|-----------|-----------|
-| OKX | 53 | 10 | Largest single employer; crypto hiring wave |
-| Airwallex | 13 | 3 | Cross-border fintech leader; SG hub |
-| Crypto.com | 11 | 2 | Exchange expansion; HK + SG |
-| Binance | 5 | 5 | All roles high-quality; HK crypto hub |
-| ByteDance | 5 | 3 | Cross-border e-commerce + AI |
-| Google | 5 | 3 | Premium brand; SG product roles |
-| JD.COM | 3 | 3 | BNPL + cross-border |
-| Huawei | 2 | 2 | Cloud + ecosystem; SZ |
-| Mastercard | 3 | 1 | AI + payments; SG |
-| Visa | 3 | 0 | Strategy roles; SG + HK |
+**Tier 3 — Opportunistic:**
+- **Tokyo (16 roles):** Anthropic, Google. AI-native opportunities. Rare but worth targeted applications.
+- **Shanghai (34 roles):** Strategy roles at Payoneer, Coupang, Flexport.
 
 ---
 
-## 📍 Geographic Priority Matrix
+## 💰 Salary Benchmarks (APAC Senior Roles)
 
-| Market | Total Roles | A-1 Roles | Score ≥85 | Easy/Med Apps | Priority |
-|--------|-------------|-----------|-----------|---------------|----------|
-| **Hong Kong** | 103 | 48 | 30 | 81 | ⭐⭐⭐ Primary — highest quality density |
-| **Singapore** | 141 | 69 | 36 | 111 | ⭐⭐⭐ Primary — most director roles |
-| **Shenzhen** | 160 | 54 | 20 | 33 | ⭐⭐ Volume play — apply selectively |
-| **Shanghai** | 34 | 10 | 3 | 18 | ⭐ Selective — 5 strong roles |
-| **Guangzhou** | 5 | 0 | 0 | 0 | — Low priority |
+### By Currency
 
-**Key insight**: Hong Kong has the best quality-to-volume ratio. 10 of 19 perfect-score jobs are HK-based. Singapore has the most director-level roles (SGD 18K-35K/mo range). Shenzhen is volume-heavy but most applications are "hard" (20-30 min company portal forms).
+| Currency | Sample Size | Min | Median | Max | Annual Equivalent |
+|----------|------------|-----|--------|-----|-------------------|
+| **SGD/mo** | 50 | 12,000 | 25,000 | 35,000 | SGD 300K–420K/yr |
+| **HKD/mo** | 53 | 50,000 | 80,000 | 100,000 | HKD 600K–1.2M/yr |
+| **RMB/yr** | 50 | 180,000 | 350,000 | 550,000 | RMB 180K–550K/yr |
+
+### Salary by Role Type
+
+| Role | SGD/mo (est) | HKD/mo (est) | RMB/yr (est) |
+|------|-------------|-------------|-------------|
+| Senior PM (A-2) | 15–22K | 55–80K | 300–450K |
+| Director/Lead PM (A-1) | 20–30K | 70–100K | 400–550K |
+| VP/SVP (S-1) | 28–35K+ | 90–100K+ | 500K+ |
+| Staff/Principal (C) | 18–25K | 60–85K | 350–500K |
+
+### Salary by Sector
+
+| Sector | Premium? | Notes |
+|--------|----------|-------|
+| Crypto exchanges | High | OKX/Binance often top of market |
+| Cross-border payments | High | Stripe, Airwallex competitive |
+| AI-native companies | Very High | Anthropic, Google — premium for AI talent |
+| Travel/e-commerce | Moderate | Agoda, Coupang — competitive but not top |
+| Enterprise SaaS | Moderate-High | Databricks, Datadog — USD-linked |
+| Traditional finance | Stable | HSBC — lower base, better benefits |
+
+### Key Salary Insight
+
+**HK and SG remain 30-50% premium over Shenzhen** for equivalent roles. Crypto exchanges (OKX, Binance) and AI companies (Anthropic, Google) pay top of market. Cross-border payments (Stripe, Airwallex) are competitive. Traditional finance (HSBC) offers stability but lower cash comp.
 
 ---
 
-## 🎯 Weekly Action Plan (June 18–24)
+## 🗓️ Action Plan: Week of June 23–29
 
-### Priority 1: Quick-Win Applications (Mon–Tue)
+### Monday (June 23)
+1. **Apply to top 10 quality-score-100 roles** — 8 roles scored perfect 100, all need immediate applications
+   - Focus on HK and SG roles first (highest conversion)
+   - Target: 10 applications, ~2 hours total
 
-**106 easy/medium applications with score ≥80 exist.** Focus on the perfect-score cluster first:
+2. **Apply to 10 Coupang roles** — largest employer (60 roles), A-1/A-2 mix
+   - Cross-border commerce alignment is strong
+   - Target: 10 applications, ~1.5 hours
 
-1. **Apply to 6 HK perfect-score crypto roles** (Mon, 60-90 min total)
-   - Crypto.com: Principal PM Verification (10-15 min LinkedIn)
-   - Crypto.com: Principal PM Discovery (10-15 min LinkedIn)
-   - Binance: Senior Payment PM LATAM (10-15 min LinkedIn)
-   - Gate: Senior Fiat PM GatePay (10-15 min LinkedIn)
-   - Coins.ph: Senior PM Card Issuing (10-15 min LinkedIn)
-   - Futu: Senior PM Derivatives Risk (10-15 min LinkedIn)
-   - **Platform**: LinkedIn direct apply
-   - **Prep**: Research each company's APAC crypto strategy
+### Tuesday (June 24)
+3. **Apply to 8 OKX roles** — 66 total, 32 at A-1 level
+   - Focus on cross-border payments and AI strategy
+   - Target: 8 applications, ~1.5 hours
 
-2. **Apply to 4 SG perfect-score director roles** (Tue, 40-60 min total)
-   - Airwallex: Director Product Strategy Payments (Ashby, 3-5 min)
-   - Airwallex: Product Director Payment Fraud (Ashby, 3-5 min)
-   - Mastercard: Director AI & Data Strategy (company portal, 10-15 min)
-   - BlackRock: Aladdin Product Solutions Director (company portal, 10-15 min)
-   - **Platform**: Ashby (easy) + company portals
-   - **Prep**: Research Airwallex Series E, Mastercard AI strategy, BlackRock Aladdin platform
+4. **Apply to 5 Stripe roles** — 13 total, 9 at A-1 level
+   - Cross-border payments core strength
+   - Target: 5 applications, ~1 hour
 
-### Priority 2: Strategic Applications (Wed–Thu)
+### Wednesday (June 25)
+5. **Apply to 5 Agoda roles** — 40 total, strong travel/cross-border fit
+   - Target SG-based director roles
+   - Target: 5 applications, ~1 hour
 
-3. **Apply to 3-4 OKX A-1 roles** (Wed, 40-60 min)
-   - Focus: Cross-border crypto payments + AI roles
-   - Platform: OKX careers portal
-   - **Prep**: OKX's 53 open roles signal massive APAC expansion
+6. **Apply to 5 Binance + Coinbase roles** — crypto exchange expansion
+   - Cross-border payments at crypto exchanges
+   - Target: 5 applications, ~1 hour
 
-4. **Apply to ByteDance: Senior PM TikTok E-commerce** (Thu, 20-30 min)
-   - Platform: jobs.bytedance.com
-   - Score 95; cross-border commerce + SZ
-   - Amazon-style process (5-6 rounds) — start early
+### Thursday (June 26)
+7. **Apply to Anthropic + Google + Databricks roles** — AI product leadership
+   - Anthropic (7 roles) is rare AI-native opportunity
+   - Target: 5–6 applications, ~1.5 hours
 
-5. **Apply to JD.COM: BNPL Product Lead** (Thu, 10-15 min)
-   - Score 100; HK-based; cross-border payments
-   - Platform: LinkedIn direct apply
+8. **Apply to Airwallex + Xendit roles** — cross-border payments
+   - Regional fintech plays
+   - Target: 4–5 applications, ~1 hour
 
-### Priority 3: Outreach (Wed–Fri)
+### Friday (June 27)
+9. **LinkedIn warm outreach to 10–12 people** at target companies
+   - Priority: Coupang strategy team, OKX product leads, Stripe SG, Agoda leadership
+   - Template: "I've been following [company]'s expansion in [area]. With 9 years in cross-border commerce and product leadership, I'd love to learn about your team's direction."
 
-6. **LinkedIn warm outreach to 8-10 people at target companies**
-   - Priority: OKX product leads, Airwallex PM team, Binance hiring managers, Crypto.com product org
-   - Message template: "I've been following [company]'s expansion in [area]. With 9 years in cross-border commerce and product leadership, I'd love to learn about your team's direction."
-   - Don't ask for referrals yet — build relationships
+10. **Update LinkedIn profile** — headline, about, skills, "Open to Work" setting
 
-7. **Update LinkedIn profile**
-   - Headline: "Director of Product | Cross-border E-commerce × AI × Marketplace Strategy"
-   - Enable "Open to Work" (recruiters only)
-   - Add recent project highlights with metrics
-
-### Priority 4: Research (Fri–Sat)
-
-8. **Deep dive on top 3 target companies**
-   - OKX: APAC expansion strategy, HK regulatory position, product roadmap
-   - Airwallex: Series E details, payment network infrastructure strategy
-   - Binance: HK operations, card product strategy, LATAM expansion
-
-9. **Tailor resume for cross-border + AI positioning**
-   - Add quantified metrics: GMV, user growth, market expansion percentages
-   - Highlight AI/ML product features, data-driven decisions
-   - Ensure English resume is polished
+### Weekend (June 28–29)
+11. **Apply to remaining high-score roles** — clear the 135 scored ≥80 backlog
+12. **Research new entrants** — Crypto.com, Affirm, Mercury, Flexport
+13. **Prepare for interview requests** — review company research for top targets
 
 ---
 
 ## 📋 Weekly Scorecard
 
-| Metric | Target | Notes |
-|--------|--------|-------|
-| Applications submitted | 12-16 | 6 HK crypto + 4 SG director + 3-4 OKX/ByteDance |
-| LinkedIn warm outreach | 8-10 | Target OKX, Airwallex, Binance, Crypto.com |
-| New connections made | 10-15 | Hiring managers + senior PMs |
-| Resume updates | 1 | Tailored for cross-border + AI combo |
-| Research completed | 3 companies | Deep dive on OKX, Airwallex, Binance |
+| Metric | Target | Priority |
+|--------|--------|----------|
+| Applications submitted | 50–60 | 🔴 Critical — 135 roles scored ≥80, 0 applied |
+| LinkedIn warm outreach | 10–12 | High — Coupang, OKX, Stripe, Agoda |
+| New connections | 12–15 | Medium — hiring managers + senior PMs |
+| LinkedIn profile update | 1 | High — headline, about, "Open to Work" |
+| Resume tailoring | 1 | Medium — cross-border + AI focus |
 
 ---
 
 ## 🔑 Top 3 Strategic Insights
 
-1. **This is the strongest week yet — 19 perfect-score jobs are available right now.** The database grew 54% in one day, and 19 jobs scored a perfect 100 (0 on June 17). These are concentrated in HK crypto (10 roles) and SG finance/payments (9 roles). The window to apply is narrow — crypto hiring is volatile and roles may close quickly. **Apply to 6-10 perfect-score jobs this week.**
+### 1. 🚨 135 Roles Scored ≥80 and NOT YET APPLIED — Critical Gap
+The database contains 135 roles with quality scores ≥80 that haven't been applied to. Of these, 26 scored ≥90 and 8 scored a perfect 100. **This week's #1 priority: submit 50–60 applications** to close this gap. The 8 perfect-100 roles are your highest-ROI targets — apply to all by Monday.
 
-2. **Hong Kong is the quality play, Singapore is the volume play.** HK has 30 roles scoring ≥85 out of 103 total (29% hit rate). SG has 36 out of 141 (26%). But SG has more director-level roles (SGD 18K-35K/mo). If targeting senior IC or director, SG wins. If targeting principal/director PM in crypto/fintech, HK wins. **Apply to both markets this week.**
+### 2. 🏆 Coupang Surged to #1 (60 Roles) — Cross-border E-commerce Wave
+Coupang jumped from 11 to 60 roles — now the single largest employer in the database. With 26 A-1 and 34 A-2 roles, this represents a massive hiring wave for cross-border commerce in SE Asia. **Apply to 10+ Coupang roles this week** — the window may not stay open long. Coupang's expansion into SE Asia + BNPL is directly aligned with cross-border commerce expertise.
 
-3. **The "easy apply" window is massive — 106 roles with score ≥80 can be applied to in under 15 minutes.** Singapore alone has 44 easy-apply roles. This is the highest ROI application strategy: mass-apply to easy-apply high-score roles, then invest time in hard-apply dream roles. **Do the easy ones first (Mon-Tue), then the hard ones (Wed-Thu).**
+### 3. 🌏 AI Product Roles Surged to 41 — New Category Emerging
+AI Product is now the 4th largest category at 41 roles — driven by Anthropic (7), Google (5), Databricks (9), and OKX AI roles. This is a structural shift: AI product leadership is becoming a distinct career track. **Position as "cross-border commerce + AI product"** — a rare combination that AI companies value for international expansion. Apply to Anthropic's APAC roles early — early applicants to AI companies get disproportionate attention.
 
 ---
 
-*Next strategy update: Monday, June 24, 2026*
+## 🗂️ Company Quick Reference
+
+| Company | Roles | Grade Mix | Best Fit | Apply Priority |
+|---------|-------|-----------|----------|----------------|
+| Coupang | 60 | A-1: 26, A-2: 34 | Cross-border e-commerce | ⭐⭐⭐ |
+| OKX | 66 | A-1: 32, S-1: 3 | Crypto + cross-border payments | ⭐⭐⭐ |
+| Agoda | 40 | A-1: 14, A-2: 25 | Travel + cross-border | ⭐⭐⭐ |
+| Stripe | 13 | A-1: 9, S-1: 2 | Cross-border payments | ⭐⭐⭐ |
+| Coinbase | 14 | A-2: 5, B: 9 | Crypto exchange | ⭐⭐ |
+| Binance | 9 | A-1: 5, S-1: 1 | Crypto exchange | ⭐⭐⭐ |
+| Airwallex | 9 | A-1: 5, A-2: 4 | Cross-border payments | ⭐⭐ |
+| Databricks | 9 | A-1: 3, A-2: 5 | AI/data platform | ⭐⭐ |
+| Anthropic | 7 | A-1: 2, A-2: 4 | AI-native | ⭐⭐ |
+| ByteDance | 7 | S-1: 2, A-1: 1 | Cross-border e-commerce | ⭐⭐⭐ |
+| Cloudflare | 7 | A-2: 7 | Cloud infrastructure | ⭐ |
+| Shopee | 6 | A-1: 1, A-2: 2 | SE Asia e-commerce | ⭐⭐ |
+| Mercury | 6 | A-2: 5 | Fintech/banking | ⭐⭐ |
+| Crypto.com | 5 | — | Crypto exchange | ⭐⭐ |
+| Xendit | 5 | — | SE Asia payments | ⭐⭐ |
+| GovTech SG | 5 | — | Singapore govtech | ⭐⭐ |
+| Gitlab | 5 | — | DevTools | ⭐ |
+| Google | 5 | A-1: 2, A-2: 1 | AI/cloud | ⭐⭐ |
+| HSBC | 5 | A-1: 3, A-2: 2 | Traditional finance | ⭐ |
+| Amazon | 5 | — | Cloud/retail | ⭐ |
+| Affirm | 4 | — | BNPL/fintech | ⭐⭐ |
+| Datadog | 4 | — | DevTools/observability | ⭐ |
+| Coins.ph | 4 | — | Crypto payments | ⭐⭐ |
+| Flexport | 3 | — | Cross-border logistics | ⭐⭐ |
+| Tencent | 3 | — | Consumer tech | ⭐⭐ |
+| JD.COM | 3 | — | E-commerce | ⭐⭐ |
+
+---
+
+## ⚠️ Market Signals
+
+### Sectors Gaining Momentum
+- **Cross-border e-commerce**: Coupang (60), Agoda (40), Shopee (6) — SE Asia expansion wave
+- **Crypto exchanges**: OKX (66), Binance (9), Coinbase (14), Crypto.com (5) — regulatory clarity improving in HK/SG
+- **AI product**: Anthropic (7), Databricks (9), Google (5) — AI-native roles surging
+- **SE Asia payments**: Xendit (5), Affirm (4), Mercury (6) — regional fintech growth
+- **DevTools**: Datadog (4), Gitlab (5), Postman (3) — enterprise SaaS in APAC
+
+### Sectors Cooling
+- **Domestic China tech**: Tencent (3), anonymous postings (17 roles) — restructuring signals
+- **Traditional banking**: HSBC (5) — selective, stable but not growing
+- **VC/PE**: 1 role — extremely limited
+
+### Geographic Shifts
+- **Shenzhen (174 roles)**: #1 by volume — OKX + ByteDance + Tencent driving
+- **Singapore (159 roles)**: Best for English-first, director-level. GovTech SG (5) new entrant
+- **Hong Kong (113 roles)**: Highest quality density; fintech/crypto hub
+- **Remote (45 roles)**: Growing — US firms (Datadog, Gitlab, Figma) offering APAC remote
+- **Seoul (39 roles)**: Coupang-dominated — cross-border e-commerce
+
+---
+
+*Next strategy update: Monday, June 30, 2026*
 *Data refresh: Nightly scan of 25+ sources across SG, HK, SZ, SH*
+*Web search: Currently unavailable (API timeout) — will resume when service restores*

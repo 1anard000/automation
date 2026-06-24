@@ -21,6 +21,11 @@ SCRAPERS = [
     ("wellfound", "wellfound.py"),
     ("websearch", "websearch.py"),
     ("company_careers", "company_careers.py"),
+    ("turing", "turing.py"),
+    ("toptal", "toptal.py"),
+    ("arc", "arc.py"),
+    ("hired", "hired.py"),
+    ("wellfound-enhanced", "wellfound-enhanced.py"),
 ]
 
 # Additional JSON result files to merge (no runner script)
