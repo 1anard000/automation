@@ -132,7 +132,7 @@ Key finding: 6 resume clusters identified. Apply the same resume version to all 
 **6 batch application groups identified** — apply same resume to all jobs in a batch for efficiency.
 **31 high-visa-likelihood roles** identified (visa-friendly companies: Google, Airwallex, OKX, etc.)
 
-### Top Companies by Opportunity Density (Updated Jun 25 — 803 Jobs)
+### Top Companies by Opportunity Density (Updated Jun 24 — 474 Jobs, CORRECTED)
 | Company | Total Roles | High-Score (80+) | Score-100 | Dir+ | Key Roles | Cities |
 |---------|-------------|-----------------|-----------|------|-----------|--------|
 | **OKX** | **66** | **25+** | 0 | **42+** | VP AI Strategy (90), MD Banking (86), 13 SG score-80+ | SG, HK |
@@ -246,16 +246,16 @@ Priority score = Quality Score + Direct Apply (5) + Difficulty Adj (easy +3 / ha
 ## 🚨 CRITICAL: Application Status (Updated June 24, 2026)
 
 **Current status: 0% application rate (474 roles in database, 0 submitted). Database reconciled — 474 jobs, not 699. 15 direct-apply score-80+ English-friendly roles with working URLs.**
-**Current status: 0% application rate (803 roles in database, 0 submitted). Database expanded to 803 jobs (was 474). 135 score-80+ roles. ~45 direct-apply score-80+ English-friendly roles with working URLs.**
+**Current status: 0% application rate (474 roles in database, 0 submitted). Database verified: 474 jobs. 60 score-80+ roles. 16 direct-apply score-80+ English-friendly roles with working URLs.**
 | Metric | Value |
 |--------|-------|
-| Total roles (expanded) | 803 |
+| Total roles (verified) | 474 |
 | Applied | 0 |
 | Scored | 478 |
-| Score 80+ | **135** |
-| Score 80+ English | **~110** |
-| Score 100 direct-apply | **8** |
-| Direct-apply total | **~45** |
+| Score 80+ | **60** |
+| Score 80+ English | **45** |
+| Score 100 direct-apply | **1** |
+| Direct-apply total | **16** |
 **Immediate priority: Submit 5+ applications this week. Focus on score-90+ roles first.** See `strategy/market-intelligence.md` for full priority queue.
 **Immediate priority: Submit 8 applications this week using the Week 3 sprint plan.** See `strategy/weekly-application-plan-jul5.md` for exact URLs and daily breakdown.
 

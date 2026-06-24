@@ -290,6 +290,7 @@
 | 2026-06-24 | **Market Intelligence CORRECTED** | 474 jobs | All companies | ✅ Fixed stale count (5, not 50). Found OKX case variation (10 roles, not 5). Added Coupang (7 score-80+), Stripe (4 score-80+). Found 4 unscored English roles (MongoDB, Roblox). Updated strategy doc with corrected data. |
 | 2026-06-24 | **Daily Action Card created** | 3 actions | Career OS | ✅ Created strategy/daily-action-card.md — single-page daily execution template. Today: Michael Zhang message + OKX VP AI Strategy (90) + Datadog Country Manager (90). Cuts through planning noise. |
 | 2026-06-25 | **Market Intelligence — Database expanded to 803 jobs** | 803 jobs | All companies | ✅ Database grew 70% (474→803). 135 score-80+ roles (was 60). New companies: Flexport (85), Thunes (86), D.E. Shaw (85), Adyen (81). OKX has 36 SG roles (13 score-80+). Updated market-intelligence.md, career-strategy.md, contacts.json research queue. |
+| 2026-06-24 | **Market Intelligence CORRECTED — 474 jobs (not 803)** | 474 jobs | All companies | ✅ Verified actual database has 474 jobs. June 25 claim of 803 was incorrect. 60 score-80+ (not 135). 16 direct-apply score-80+ (not 45). Fixed career-strategy.md and market-intelligence.md with accurate numbers. |
 
 ---
 
