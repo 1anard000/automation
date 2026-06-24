@@ -23,7 +23,7 @@ _deduped = {}
 for _j in jobs:
     _key = (_norm_title(_j.get('title', '')), _j.get('company', '').strip().lower())
     if _key in _deduped:
-        if _j.get('quality_score', 0) > _deduped[_key].get('quality_score', 0):
+        if (_j.get('quality_score') or 0) > (_deduped[_key].get('quality_score') or 0):
             _deduped[_key] = _j
     else:
         _deduped[_key] = _j
@@ -49,7 +49,7 @@ for _co, _co_jobs in _by_co.items():
             _t2, _j2 = _ntitles[_k]
             _ratio = SequenceMatcher(None, _t1, _t2).ratio()
             if _ratio >= 0.95:
-                if _j1.get('quality_score', 0) >= _j2.get('quality_score', 0):
+                if (_j1.get('quality_score') or 0) >= (_j2.get('quality_score') or 0):
                     _fuzzy_removed.add(_k)
                 else:
                     _fuzzy_removed.add(_i)
@@ -124,7 +124,7 @@ def is_aligned(j):
     target_locs = ['hong kong', 'shenzhen', 'shanghai', 'guangzhou', 'singapore', 'tokyo', 'taipei']
     if not any(t in loc for t in target_locs):
         return False
-    if j.get('quality_score', 0) < 70:
+    if (j.get('quality_score') or 0) < 70:
         return False
     if any(c in company for c in CRYPTO_COMPANIES):
         return False
