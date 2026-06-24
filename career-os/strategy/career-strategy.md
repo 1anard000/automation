@@ -132,21 +132,32 @@ Key finding: 6 resume clusters identified. Apply the same resume version to all 
 **6 batch application groups identified** — apply same resume to all jobs in a batch for efficiency.
 **31 high-visa-likelihood roles** identified (visa-friendly companies: Google, Airwallex, OKX, etc.)
 
-### Top Companies by Opportunity Density (Updated Jun 23 — Full DB Analysis)
+### Top Companies by Opportunity Density (Updated Jun 25 — 803 Jobs)
 | Company | Total Roles | High-Score (80+) | Score-100 | Dir+ | Key Roles | Cities |
 |---------|-------------|-----------------|-----------|------|-----------|--------|
-| **OKX** | **92** | **22** | 0 | **42** | VP AI Strategy (90), KYB PM (83), DEX PM (82) | SG, HK |
-| **Coupang** | **60** | **10** | 0 | **18** | Director Product & Program Mgmt (88), Principal BizOps (85) | **SH, Tokyo** — UNDEREXPLORED |
-| **Agoda** | **41** | **7** | **1** | 10 | Principal PM (100), Senior PM SG (80) | SG, SH, **Tokyo**, Bangkok |
-| Airwallex | 9 | 2 | 0 | 0 | Director Product Strategy Payments (100), Payment Fraud (100) | SG |
-| ByteDance | 7 | 3 | 0 | 0 | TikTok E-commerce PM (95), CapCut PM (95), TikTok Shop HK (87) | SZ, SG, HK |
-| Stripe | 14 | 6 | 0 | 2 | Head of Comms APAC (93), Enterprise Product Support (82) | SG |
+| **OKX** | **66** | **25+** | 0 | **42+** | VP AI Strategy (90), MD Banking (86), 13 SG score-80+ | SG, HK |
+| **Coupang** | **60** | **10** | 0 | **18** | Director P&PM (88), Principal BizOps (85) | **SH, Tokyo, Taipei** — UNDEREXPLORED |
+| **Agoda** | **42** | **8+** | **1** | 10 | Principal PM (100), Growth Team (83, Tokyo) | SG, SH, **Tokyo**, Bangkok |
+| ByteDance | 37 | 5+ | 0 | 0 | TikTok E-commerce PM (95), CapCut PM (95), TikTok Shop HK (87) | SZ, SG, HK |
+| Shopee | 30 | 3+ | 0 | 0 | Senior PM Cross-border (87) | HK, SG |
+| Stripe | 17 | 6+ | 0 | 2 | Head of Comms APAC (93), Enterprise Support (82) | SG |
+| Coinbase | 14 | 0 | 0 | 0 | US-only roles — deprioritize | Remote US |
+| Airwallex | 13 | 3+ | 0 | 0 | Director Product Strategy (100), Senior PM Growth (80) | SG |
+| Databricks | 13 | 2 | 0 | 0 | Sr. Director Enterprise (85), Sr. Manager Support (83) | SG, Tokyo, Remote |
 | Binance | 9 | 5 | **1** | 0 | Senior Payment PM LATAM (100), Binance Pay Lead (87) | HK |
+| Anthropic | 8 | 1 | 0 | 0 | Revenue Strategy & Ops Lead (85, **Tokyo**) | Tokyo, SF |
+| Grab | 8 | 0 | 0 | 0 | All score 75 or below — monitor | SG |
+| Cloudflare | 8 | 0 | 0 | 0 | Infrastructure, low scores | SG |
 | Crypto.com | 5 | 0 | 0 | 3 | Lead PM Exchange (82), AI Transformation (80) | HK, SG |
-| Coins.ph | 3 | 3 | **1** | 0 | Senior PM Card Issuing (100), Principal PM AML (83) | HK |
-| Google | 5 | 1 | 0 | 1 | Regional Product Lead (80) | SG |
-Payoneer | 2 | 2 | 0 | 0 | **Chief of Staff GTM China (92)**, Growth Mgr (80) | **SH** — NEW |
-Datadog | 2 | 2 | 0 | 0 | Country Manager Japan (90), Head Enterprise Sales Japan (88) | **Tokyo** — NEW |
+| Coins.ph | 4 | 3 | **1** | 0 | Senior PM Card Issuing (100), Principal PM AML (83) | HK |
+| **Flexport** | **3** | **2** | 0 | 0 | **Sr BD Omnichannel (85, SH)**, Staff PM (81, SZ) | **SH, SZ** — NEW, cross-border |
+| **Thunes** | **2** | **2** | 0 | 0 | **Head of Product (86, SG)**, Product Director (81, SG) | **SG** — NEW, payments |
+| **D.E. Shaw** | **1** | **1** | 0 | 0 | **Senior PM Applied AI (85, HK)** | **HK** — NEW, hedge fund |
+| **Adyen** | **2** | **1** | 0 | 0 | **Head of Sales SG (81)** | **SG** — NEW, payments |
+| Google | 6 | 1 | 0 | 1 | Regional Product Lead (80) | SG |
+| Payoneer | 2 | 2 | 0 | 0 | **Chief of Staff GTM China (92)**, Growth Mgr (80) | **SH** |
+| Datadog | 4 | 2 | 0 | 0 | Country Manager Japan (90), Head Enterprise Sales (88) | **Tokyo** |
+| **Xendit** | **5** | **0** | 0 | 0 | Senior Impl Mgr (78, HK), PM User & Accounts (76, SG) | **HK, SG** — SE Asia payments |
 
 ### NEW: Unscored Roles Rescanned (Jun 21)
 136 roles were added to the database without scoring. A quick-scan was run to identify high-value opportunities:
@@ -235,17 +246,17 @@ Priority score = Quality Score + Direct Apply (5) + Difficulty Adj (easy +3 / ha
 ## 🚨 CRITICAL: Application Status (Updated June 24, 2026)
 
 **Current status: 0% application rate (474 roles in database, 0 submitted). Database reconciled — 474 jobs, not 699. 15 direct-apply score-80+ English-friendly roles with working URLs.**
-
+**Current status: 0% application rate (803 roles in database, 0 submitted). Database expanded to 803 jobs (was 474). 135 score-80+ roles. ~45 direct-apply score-80+ English-friendly roles with working URLs.**
 | Metric | Value |
 |--------|-------|
-| Total roles (reconciled) | 474 |
+| Total roles (expanded) | 803 |
 | Applied | 0 |
-| Scored | 346 |
-| Score 80+ | 60 |
-| Score 80+ direct-apply English | **15** |
-| Score 100 direct-apply | 1 |
-| Direct-apply total | ~55 |
-
+| Scored | 478 |
+| Score 80+ | **135** |
+| Score 80+ English | **~110** |
+| Score 100 direct-apply | **8** |
+| Direct-apply total | **~45** |
+**Immediate priority: Submit 5+ applications this week. Focus on score-90+ roles first.** See `strategy/market-intelligence.md` for full priority queue.
 **Immediate priority: Submit 8 applications this week using the Week 3 sprint plan.** See `strategy/weekly-application-plan-jul5.md` for exact URLs and daily breakdown.
 
 ### Database Reconciliation (June 24)

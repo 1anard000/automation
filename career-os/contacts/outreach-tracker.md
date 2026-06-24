@@ -289,6 +289,7 @@
 | 2026-06-24 | **Week 3 Sprint Plan created** | 8 applications | All | ✅ Created strategy/weekly-application-plan-jul5.md — hyper-focused plan with exact URLs, daily breakdown, 2.3 hours total. Targets: Agoda (100), OKX x2 (90), Datadog (90), Coupang (85), Coins.ph (83), Notion (82), Stripe (82). |
 | 2026-06-24 | **Market Intelligence CORRECTED** | 474 jobs | All companies | ✅ Fixed stale count (5, not 50). Found OKX case variation (10 roles, not 5). Added Coupang (7 score-80+), Stripe (4 score-80+). Found 4 unscored English roles (MongoDB, Roblox). Updated strategy doc with corrected data. |
 | 2026-06-24 | **Daily Action Card created** | 3 actions | Career OS | ✅ Created strategy/daily-action-card.md — single-page daily execution template. Today: Michael Zhang message + OKX VP AI Strategy (90) + Datadog Country Manager (90). Cuts through planning noise. |
+| 2026-06-25 | **Market Intelligence — Database expanded to 803 jobs** | 803 jobs | All companies | ✅ Database grew 70% (474→803). 135 score-80+ roles (was 60). New companies: Flexport (85), Thunes (86), D.E. Shaw (85), Adyen (81). OKX has 36 SG roles (13 score-80+). Updated market-intelligence.md, career-strategy.md, contacts.json research queue. |
 
 ---
 

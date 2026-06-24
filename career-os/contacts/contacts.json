@@ -505,6 +505,57 @@
       ],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=strategy%20director%20visa%20apac&geoUrn=%5B%22102222073%22%2C%22102222072%22%5D",
       "notes": "2 roles. AVP Chief of Staff (79) + Director Client Consulting Stablecoin/AI (78). Fintech strategy."
+    },
+    {
+      "company": "Flexport",
+      "priority": 15,
+      "roles_to_find": [
+        "Senior Business Development Manager, Omnichannel",
+        "Staff Product Manager"
+      ],
+      "cities": [
+        "Shanghai",
+        "Shenzhen"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20flexport&geoUrn=%5B%22102222074%22%2C%22102222071%22%5D",
+      "notes": "NEW PRIORITY: Cross-border logistics — Amazon marketplace parallel. Score 85 (SH) + 81 (SZ). Direct apply via Greenhouse."
+    },
+    {
+      "company": "Thunes",
+      "priority": 16,
+      "roles_to_find": [
+        "Head of Product - Core & Growth",
+        "Product Director - Business Payments"
+      ],
+      "cities": [
+        "Singapore"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20thunes&geoUrn=%5B%22102222073%22%5D",
+      "notes": "NEW PRIORITY: Payments infrastructure. Score 86 (Head of Product) + 81 (Product Director). Direct apply via Greenhouse."
+    },
+    {
+      "company": "D.E. Shaw Group",
+      "priority": 17,
+      "roles_to_find": [
+        "Senior Product Manager, Applied AI"
+      ],
+      "cities": [
+        "Hong Kong"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20manager%20d.e.%20shaw&geoUrn=%5B%22102222072%22%5D",
+      "notes": "NEW PRIORITY: Hedge fund, AI product. Score 85. Direct apply. Unique positioning — finance + AI."
+    },
+    {
+      "company": "Adyen",
+      "priority": 18,
+      "roles_to_find": [
+        "Head of Sales, Singapore"
+      ],
+      "cities": [
+        "Singapore"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20adyen&geoUrn=%5B%22102222073%22%5D",
+      "notes": "NEW: Payments platform. Score 81. Direct apply via Greenhouse."
     }
   ],
   "contact_targets": {
