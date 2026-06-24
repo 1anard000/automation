@@ -3,7 +3,7 @@
     {
       "timestamp": "2026-06-13T18:45:00+08:00",
       "dimension": "data_quality",
-      "task": "URL enrichment — searching for actual job posting URLs for 93 jobs missing links",
+      "task": "URL enrichment \u2014 searching for actual job posting URLs for 93 jobs missing links",
       "status": "completed",
       "score_before": 5,
       "score_after": 5,
@@ -30,7 +30,7 @@
     {
       "timestamp": "2026-06-13T20:00:00+08:00",
       "dimension": "crm",
-      "task": "Contact discovery — extract real contacts from jobs + email/calendar data",
+      "task": "Contact discovery \u2014 extract real contacts from jobs + email/calendar data",
       "status": "completed",
       "score_before": 4,
       "score_after": 7,
@@ -39,7 +39,7 @@
     {
       "timestamp": "2026-06-13T20:30:00+08:00",
       "dimension": "data_quality",
-      "task": "URL enrichment v2 — web search actual posting URLs for A-1 jobs, improve specificity from 33% to 50%+",
+      "task": "URL enrichment v2 \u2014 web search actual posting URLs for A-1 jobs, improve specificity from 33% to 50%+",
       "status": "completed",
       "score_before": 5,
       "score_after": 6,
@@ -57,7 +57,7 @@
     {
       "timestamp": "2026-06-13T22:00:00+08:00",
       "dimension": "coverage",
-      "task": "Fix broken multi-source scrapers — rewrite diversified-scan.py using web_search, merge diverse sources into jobs-all.json",
+      "task": "Fix broken multi-source scrapers \u2014 rewrite diversified-scan.py using web_search, merge diverse sources into jobs-all.json",
       "status": "completed",
       "score_before": 5,
       "score_after": 5,
@@ -84,7 +84,7 @@
     {
       "timestamp": "2026-06-14T06:00:53.595164+08:00",
       "dimension": "dashboard",
-      "task": "Rebuild dashboard with correct job count (333→228 mismatch fixed), update scores",
+      "task": "Rebuild dashboard with correct job count (333\u2192228 mismatch fixed), update scores",
       "status": "completed",
       "score_before": 4,
       "score_after": 7,
@@ -93,7 +93,7 @@
     {
       "timestamp": "2026-06-15T00:00:42.527692",
       "dimension": "coverage",
-      "task": "Nightly update: refreshed coverage report — 553 jobs, 22 sources, 278 companies (was stale at 232 jobs)",
+      "task": "Nightly update: refreshed coverage report \u2014 553 jobs, 22 sources, 278 companies (was stale at 232 jobs)",
       "status": "completed",
       "score_before": 6,
       "score_after": 7,
@@ -111,7 +111,7 @@
     {
       "timestamp": "2026-06-15T06:00:00+08:00",
       "dimension": "dashboard",
-      "task": "Fix index.html stale stats — updated from 333 to 595 jobs, refreshed grade/location counts",
+      "task": "Fix index.html stale stats \u2014 updated from 333 to 595 jobs, refreshed grade/location counts",
       "status": "completed",
       "score_before": 7,
       "score_after": 8,
@@ -120,7 +120,7 @@
     {
       "timestamp": "2026-06-16T00:00:53.390010+08:00",
       "dimension": "python_scripts",
-      "task": "Create data-quality-report.py — automated quality scorecard with field completeness, freshness, grade distribution, and issue detection",
+      "task": "Create data-quality-report.py \u2014 automated quality scorecard with field completeness, freshness, grade distribution, and issue detection",
       "status": "completed",
       "score_before": 6,
       "score_after": 7,
@@ -129,7 +129,7 @@
     {
       "timestamp": "2026-06-15T19:01:57Z",
       "dimension": "crm",
-      "task": "Initialize CRM SQLite database — create schema, seed contacts from jobs data, score contacts",
+      "task": "Initialize CRM SQLite database \u2014 create schema, seed contacts from jobs data, score contacts",
       "status": "in_progress",
       "score_before": 3,
       "score_after": "pending",
@@ -138,7 +138,7 @@
     {
       "timestamp": "2026-06-16T03:00:00+08:00",
       "dimension": "data_quality",
-      "task": "Re-score 120 jobs with quality_score=0 — all now have valid scores and tiers",
+      "task": "Re-score 120 jobs with quality_score=0 \u2014 all now have valid scores and tiers",
       "status": "completed",
       "score_before": 6,
       "score_after": 8,
@@ -156,7 +156,7 @@
     {
       "timestamp": "2026-06-17T00:01:14.858434",
       "dimension": "data_quality",
-      "task": "Clean 19 search-result entries (generic query URLs with no company), fix 4 zero-score jobs; 651→632 jobs",
+      "task": "Clean 19 search-result entries (generic query URLs with no company), fix 4 zero-score jobs; 651\u2192632 jobs",
       "status": "completed",
       "score_before": 6,
       "score_after": 7,
@@ -180,7 +180,7 @@
     {
       "timestamp": "2026-06-17T03:00:43.916763",
       "dimension": "career_strategy",
-      "task": "Refresh career-strategy.md for June 17-23 week — updated market intel, sector heat map, salary benchmarks, priority targets",
+      "task": "Refresh career-strategy.md for June 17-23 week \u2014 updated market intel, sector heat map, salary benchmarks, priority targets",
       "status": "completed",
       "score_before": 6,
       "score_after": 7,
@@ -198,7 +198,7 @@
     {
       "timestamp": "2026-06-17T03:00:00+08:00",
       "dimension": "career_hub",
-      "task": "Create career-hub.html — curated resources for APAC senior tech roles: job boards, interview prep, salary research, networking, negotiation tactics",
+      "task": "Create career-hub.html \u2014 curated resources for APAC senior tech roles: job boards, interview prep, salary research, networking, negotiation tactics",
       "status": "completed",
       "score_before": 0,
       "score_after": 7,
@@ -207,7 +207,7 @@
     {
       "timestamp": "2026-06-17T06:00:00+08:00",
       "dimension": "dashboard",
-      "task": "Add source breakdown visualization to dashboard — horizontal bar chart showing job count by source (top 12 platforms)",
+      "task": "Add source breakdown visualization to dashboard \u2014 horizontal bar chart showing job count by source (top 12 platforms)",
       "status": "completed",
       "score_before": 7,
       "score_after": 8,
@@ -252,7 +252,7 @@
     {
       "dimension": "data_quality",
       "task": "Fill missing en_title for all 411 jobs (279 English + 132 Chinese translations)",
-      "delta": "+1 (8→9)",
+      "delta": "+1 (8\u21929)",
       "date": "2026-06-18 05:02",
       "details": "Fixed 411 missing en_title fields: 279 English titles copied directly, 132 Chinese titles translated using PM/strategy term dictionary. Fixed spacing issues in 51 fields. All 443 jobs now have en_title. Dashboard rebuilt."
     },
@@ -268,7 +268,7 @@
     {
       "timestamp": "2026-06-18T06:07:33.391393",
       "dimension": "data_quality + dashboard",
-      "task": "Fix 4 misclassified URLs (Airwallex/Sea Limited → direct), fill 51 missing salary estimates, fix dashboard direct-count to use url_type field + URL patterns",
+      "task": "Fix 4 misclassified URLs (Airwallex/Sea Limited \u2192 direct), fill 51 missing salary estimates, fix dashboard direct-count to use url_type field + URL patterns",
       "status": "completed",
       "score_before": 9,
       "score_after": 9,
@@ -286,7 +286,7 @@
     {
       "timestamp": "2026-06-18T09:02:39.531028",
       "dimension": "data_quality",
-      "task": "Fill 378 missing job summaries (9%→100% coverage) — all 416 jobs now have descriptive summaries for dashboard search",
+      "task": "Fill 378 missing job summaries (9%\u2192100% coverage) \u2014 all 416 jobs now have descriptive summaries for dashboard search",
       "status": "completed",
       "score_before": 9,
       "score_after": 9,
@@ -306,7 +306,7 @@
     {
       "timestamp": "2026-06-19T06:01:34.050161",
       "dimension": "crm",
-      "task": "Build CRM web dashboard (crm-dashboard.html) — company cards, status pipeline, search/filter, dark theme",
+      "task": "Build CRM web dashboard (crm-dashboard.html) \u2014 company cards, status pipeline, search/filter, dark theme",
       "status": "completed",
       "score_before": 7,
       "score_after": 8,
@@ -359,13 +359,13 @@
     },
     {
       "timestamp": "2026-06-23T03:00:00+08:00",
-      "improvement": "Deduped 39 duplicate jobs, filled 196 missing quality_tiers, filled 9 missing scanned_dates. Data quality 9→10, python_scripts 7→8.",
+      "improvement": "Deduped 39 duplicate jobs, filled 196 missing quality_tiers, filled 9 missing scanned_dates. Data quality 9\u219210, python_scripts 7\u21928.",
       "dimension": "data_quality"
     },
     {
       "timestamp": "2026-06-23T06:01:57.612609",
       "dimension": "data_quality",
-      "task": "Fix 8 missing company names (Biogen, Plaud.ai, Alchemyst AI, LTA, IG Group, PropertyGuru, MatchMove, Ethos BeathChapman), remove 5 generic listing pages; 660→655 jobs, 34→21 missing companies",
+      "task": "Fix 8 missing company names (Biogen, Plaud.ai, Alchemyst AI, LTA, IG Group, PropertyGuru, MatchMove, Ethos BeathChapman), remove 5 generic listing pages; 660\u2192655 jobs, 34\u219221 missing companies",
       "status": "completed",
       "score_before": 10,
       "score_after": 10,
@@ -401,11 +401,11 @@
     {
       "timestamp": "2026-06-24T06:03:09.945300",
       "dimension": "data_quality",
-      "task": "Normalize 10 inconsistent quality_tier values (tier_a→A, tier_b→B, tier_c→C); refresh coverage-report.json",
+      "task": "Normalize 10 inconsistent quality_tier values (tier_a\u2192A, tier_b\u2192B, tier_c\u2192C); refresh coverage-report.json",
       "status": "completed",
       "score_before": 10,
       "score_after": 10,
-      "details": "Fixed tier_a(3), tier_b(6), tier_c(1) → A/B/C. Coverage report now shows 734 jobs, 36 sources, 319 companies."
+      "details": "Fixed tier_a(3), tier_b(6), tier_c(1) \u2192 A/B/C. Coverage report now shows 734 jobs, 36 sources, 319 companies."
     }
   ],
   "current_scores": {
@@ -416,7 +416,7 @@
     "coverage": 7,
     "strategy": 7
   },
-  "last_run": "2026-06-24T03:02:06.795579",
+  "last_run": "2026-06-25T00:01:34.743533",
   "last_dimension": "data_quality",
   "last_task": "Fill 223 summaries + 221 en_title + 6 grades + 10 tiers",
   "scores": {
@@ -424,7 +424,7 @@
     "career_hub": 8,
     "data_quality": 10,
     "python_scripts": 8,
-    "strategy": 7,
+    "strategy": 8,
     "coverage": 8
   },
   "last_improvement": "dashboard_rebuild",
@@ -436,7 +436,7 @@
     },
     {
       "date": "2026-06-19",
-      "action": "Created crm-dashboard.html — 50 company cards, status pipeline visualization, search + filter, dark theme. 554 jobs, 357 companies.",
+      "action": "Created crm-dashboard.html \u2014 50 company cards, status pipeline visualization, search + filter, dark theme. 554 jobs, 357 companies.",
       "dimension": "crm"
     },
     {
@@ -444,7 +444,7 @@
       "round": "nightly-improver",
       "action": "Updated career-hub.html: corrected stats (552 jobs, 213 A-1), removed broken dashboard.html link, updated focus items, refreshed date",
       "files_changed": [
-        "OKComputer_职位搜索清单/career-hub.html"
+        "OKComputer_\u804c\u4f4d\u641c\u7d22\u6e05\u5355/career-hub.html"
       ],
       "dimension": "Dashboard"
     },
@@ -473,7 +473,7 @@
     },
     {
       "date": "2026-06-23",
-      "action": "Fixed 8 missing company names from titles/URLs, removed 5 generic listing pages. 660→655 jobs, 34→21 missing companies.",
+      "action": "Fixed 8 missing company names from titles/URLs, removed 5 generic listing pages. 660\u2192655 jobs, 34\u219221 missing companies.",
       "dimension": "data_quality"
     }
   ],
@@ -503,9 +503,14 @@
   "improvements": [
     {
       "date": "2026-06-23",
-      "action": "Rebuilt dashboard.html from 412→590 jobs with full feature set (sort, search, filter, export). Updated build-dashboard.py output path.",
-      "task": "Fix stale dashboard (412 jobs → 590 jobs, Jun 18 → current)",
+      "action": "Rebuilt dashboard.html from 412\u2192590 jobs with full feature set (sort, search, filter, export). Updated build-dashboard.py output path.",
+      "task": "Fix stale dashboard (412 jobs \u2192 590 jobs, Jun 18 \u2192 current)",
       "dimension": "dashboard"
+    },
+    {
+      "date": "2026-06-25T00:01:34.743539",
+      "action": "career-hub: replaced broken Tech in Asia links (403) with e27, KrASIA, VentureCap SG; added AI Models FYI",
+      "dimension": "strategy"
     }
   ]
 }
