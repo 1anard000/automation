@@ -845,5 +845,6 @@ Coupang has 60 roles with 3 direct-apply high-score roles in SH:
 
 *Updated by Career OS Cron — June 26, 2026*
 *Data source: 899 jobs in OKComputer_职位搜索清单/jobs-all.json*
-*Key update: Database nearly doubled (474→899). High-score opportunities tripled (60→135). 8 score-100 roles identified.*
+*Key update: 44 direct-apply score-80+ English roles identified (was 16). OKX has 27 score-80+ (6 direct-apply). Coupang underexplored. Tokyo emerging.*
+*Latest: market-intelligence.md refreshed with database-driven analysis, OKX deep dive, Coupang analysis, Tokyo market entry.*
 *Next update: July 1, 2026*

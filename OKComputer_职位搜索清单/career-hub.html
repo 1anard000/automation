@@ -104,44 +104,6 @@
     font-weight: 500;
   }
 
-  /* ─── Search Bar ─── */
-  .search-container {
-    max-width: 1200px;
-    margin: 0 auto 1.5rem;
-    position: relative;
-  }
-  .search-bar {
-    width: 100%;
-    padding: 0.85rem 1.2rem 0.85rem 3rem;
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    color: var(--text);
-    font-size: 0.95rem;
-    outline: none;
-    transition: border-color 0.25s, box-shadow 0.25s;
-  }
-  .search-bar::placeholder { color: var(--muted); }
-  .search-bar:focus {
-    border-color: var(--accent);
-    box-shadow: 0 0 0 3px rgba(108,92,231,0.15);
-  }
-  .search-icon {
-    position: absolute;
-    left: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--muted);
-    font-size: 1.1rem;
-    pointer-events: none;
-  }
-  .search-hint {
-    text-align: center;
-    font-size: 0.75rem;
-    color: var(--muted);
-    margin-top: 0.4rem;
-  }
-
   /* ─── Stats ─── */
   .stat-row {
     display: flex;
@@ -280,6 +242,123 @@
   .tag.gold { background: rgba(253,203,110,0.15); color: var(--accent3); }
   .tag.red { background: rgba(225,112,85,0.15); color: var(--accent4); }
   .tag.blue { background: rgba(116,185,255,0.15); color: var(--accent5); }
+
+  /* ─── Grade Distribution Chart ─── */
+  .grade-chart {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-top: 0.5rem;
+  }
+  .grade-row {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+  }
+  .grade-label {
+    font-size: 0.82rem;
+    font-weight: 600;
+    width: 38px;
+    text-align: right;
+    flex-shrink: 0;
+  }
+  .grade-bar-track {
+    flex: 1;
+    height: 22px;
+    background: rgba(255,255,255,0.04);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+  }
+  .grade-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.6s ease;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #fff;
+    min-width: fit-content;
+  }
+  .grade-bar-fill.s1  { background: linear-gradient(90deg, #e17055, #d63031); }
+  .grade-bar-fill.a1  { background: linear-gradient(90deg, #6c5ce7, #a29bfe); }
+  .grade-bar-fill.a2  { background: linear-gradient(90deg, #00b894, #55efc4); }
+  .grade-bar-fill.b   { background: linear-gradient(90deg, #fdcb6e, #ffeaa7); color: #2d3436; }
+  .grade-bar-fill.c   { background: linear-gradient(90deg, #636e72, #b2bec3); }
+  .grade-count {
+    font-size: 0.78rem;
+    color: var(--muted);
+    width: 36px;
+    text-align: left;
+    flex-shrink: 0;
+  }
+
+  /* ─── Top Companies ─── */
+  .company-list {
+    list-style: none;
+  }
+  .company-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.55rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+  .company-item:last-child { border: none; }
+  .company-rank {
+    font-size: 0.75rem;
+    color: var(--muted);
+    width: 24px;
+    flex-shrink: 0;
+  }
+  .company-name {
+    font-size: 0.9rem;
+    font-weight: 500;
+    flex: 1;
+  }
+  .company-count {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--accent);
+    background: rgba(108,92,231,0.12);
+    padding: 0.15rem 0.55rem;
+    border-radius: 10px;
+  }
+
+  /* ─── Recent Jobs ─── */
+  .recent-job {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.7rem;
+    padding: 0.7rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+  .recent-job:last-child { border: none; }
+  .recent-date {
+    font-size: 0.72rem;
+    color: var(--muted);
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .recent-info { flex: 1; }
+  .recent-title {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .recent-title a {
+    color: var(--text);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+  .recent-title a:hover { color: var(--link); text-decoration: underline; }
+  .recent-meta {
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-top: 0.1rem;
+  }
 
   /* ─── Weekly Checklist ─── */
   .checklist {
@@ -443,7 +522,12 @@
 <!-- ─── Sticky Nav ─── -->
 <nav>
   <span class="brand">🎯 Career Hub</span>
+  <a href="#overview">Overview</a>
   <a href="#quick-links">Quick Links</a>
+  <a href="#grades">Grades</a>
+  <a href="#top-companies">Companies</a>
+  <a href="#recent">Recent</a>
+  <a href="#scripts">Scripts</a>
   <a href="#job-search">Job Search</a>
   <a href="#strategy">Strategy</a>
   <a href="#interview">Interview</a>
@@ -456,19 +540,19 @@
 </nav>
 
 <!-- ─── Header ─── -->
-<div class="header">
+<div class="header" id="overview">
   <h1>🎯 Career Hub</h1>
   <p>Resources for senior PM / strategy roles targeting APAC fintech, crypto & AI-native companies (SG · HK · SZ · SH)</p>
-  <span class="updated-badge">⟳ Last sync: June 22, 2026</span>
+  <span class="updated-badge">⟳ Last sync: June 25, 2026</span>
 </div>
 
 <!-- ─── Stats ─── -->
 <div class="stat-row">
-  <div class="stat"><div class="num">690</div><div class="label">Jobs Tracked</div></div>
-  <div class="stat"><div class="num">536</div><div class="label">In Database</div></div>
-  <div class="stat"><div class="num">24</div><div class="label">Sources</div></div>
-  <div class="stat"><div class="num">6</div><div class="label">Locations</div></div>
-  <div class="stat"><div class="num">243</div><div class="label">A-1 Grade</div></div>
+  <div class="stat"><div class="num">899</div><div class="label">Jobs Tracked</div></div>
+  <div class="stat"><div class="num">330</div><div class="label">Companies</div></div>
+  <div class="stat"><div class="num">36</div><div class="label">Sources</div></div>
+  <div class="stat"><div class="num">323</div><div class="label">S-1 + A-1</div></div>
+  <div class="stat"><div class="num">433</div><div class="label">A-2 Grade</div></div>
 </div>
 
 <!-- ─── Quick Links ─── -->
@@ -481,11 +565,189 @@
   <a href="job-database-senior.html">🎯 Senior Job DB</a>
 </div>
 
-<!-- ─── Search Bar ─── -->
-<div class="search-container">
-  <span class="search-icon">🔍</span>
-  <input type="text" class="search-bar" id="searchInput" placeholder="Search resources — try 'crypto', 'negotiation', 'glassdoor', 'system design'..." autocomplete="off">
-  <div class="search-hint">Filter by name, category, or description. Type to search, clear to reset.</div>
+<!-- ═══════════════════════════════════════════ -->
+<!-- ─── GRADE DISTRIBUTION ─── -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="section-title" id="grades">📊 Grade Distribution</div>
+<div class="grid single" style="max-width:1200px;">
+  <div class="card">
+    <h2><span class="emoji">📈</span> Job Quality by Grade</h2>
+    <div class="grade-chart">
+      <div class="grade-row">
+        <span class="grade-label" style="color:#e17055;">S-1</span>
+        <div class="grade-bar-track">
+          <div class="grade-bar-fill s1" style="width: 3.7%;">33</div>
+        </div>
+        <span class="grade-count">33</span>
+      </div>
+      <div class="grade-row">
+        <span class="grade-label" style="color:#a29bfe;">A-1</span>
+        <div class="grade-bar-track">
+          <div class="grade-bar-fill a1" style="width: 32.3%;">290</div>
+        </div>
+        <span class="grade-count">290</span>
+      </div>
+      <div class="grade-row">
+        <span class="grade-label" style="color:#55efc4;">A-2</span>
+        <div class="grade-bar-track">
+          <div class="grade-bar-fill a2" style="width: 48.2%;">433</div>
+        </div>
+        <span class="grade-count">433</span>
+      </div>
+      <div class="grade-row">
+        <span class="grade-label" style="color:#fdcb6e;">B</span>
+        <div class="grade-bar-track">
+          <div class="grade-bar-fill b" style="width: 1.9%;"></div>
+        </div>
+        <span class="grade-count">17</span>
+      </div>
+      <div class="grade-row">
+        <span class="grade-label" style="color:#b2bec3;">C</span>
+        <div class="grade-bar-track">
+          <div class="grade-bar-fill c" style="width: 6.3%;">57</div>
+        </div>
+        <span class="grade-count">57</span>
+      </div>
+    </div>
+    <div class="desc" style="margin-top:0.8rem;">S-1 = Exceptional fit · A-1 = Strong match · A-2 = Good fit · B = Partial match · C = Weak fit</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- ─── TOP COMPANIES ─── -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="section-title" id="top-companies">🏢 Top Companies by Job Count</div>
+<div class="grid single" style="max-width:1200px;">
+  <div class="card">
+    <h2><span class="emoji">🏆</span> Top 10 Companies</h2>
+    <ul class="company-list">
+      <li class="company-item">
+        <span class="company-rank">1</span>
+        <span class="company-name">Coupang</span>
+        <span class="company-count">60</span>
+      </li>
+      <li class="company-item">
+        <span class="company-rank">2</span>
+        <span class="company-name">OKX</span>
+        <span class="company-count">59</span>
+      </li>
+      <li class="company-item">
+        <span class="company-rank">3</span>
+        <span class="company-name">Stripe</span>
+        <span class="company-count">46</span>
+      </li>
+      <li class="company-item">
+        <span class="company-rank">4</span>
+        <span class="company-name">Agoda</span>
+        <span class="company-count">42</span>
+      </li>
+      <li class="company-item">
+        <span class="company-rank">5</span>
+        <span class="company-name">ByteDance</span>
+        <span class="company-count">37</span>
+      </li>
+      <li class="company-item">
+        <span class="company-rank">6</span>
+        <span class="company-name">Shopee</span>
+        <span class="company-count">30</span>
+      </li>
+      <li class="company-item">
+        <span class="company-rank">7</span>
+        <span class="company-name">Instacart</span>
+        <span class="company-count">16</span>
+      </li>
+      <li class="company-item">
+        <span class="company-rank">8</span>
+        <span class="company-name">Coinbase</span>
+        <span class="company-count">16</span>
+      </li>
+      <li class="company-item">
+        <span class="company-rank">9</span>
+        <span class="company-name">Airwallex</span>
+        <span class="company-count">13</span>
+      </li>
+      <li class="company-item">
+        <span class="company-rank">10</span>
+        <span class="company-name">Databricks</span>
+        <span class="company-count">13</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- ─── RECENT JOBS ─── -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="section-title" id="recent">🕐 Most Recently Scraped</div>
+<div class="grid single" style="max-width:1200px;">
+  <div class="card">
+    <h2><span class="emoji">🆕</span> Latest 5 Jobs (June 25, 2026)</h2>
+    <div>
+      <div class="recent-job">
+        <span class="recent-date">Jun 25</span>
+        <div class="recent-info">
+          <div class="recent-title"><a href="https://arc.dev/remote-jobs/j/head-of-product-remote" target="_blank" rel="noopener">Head of Product - Remote</a></div>
+          <div class="recent-meta">Arc · Remote · <span class="tag green">A-1</span></div>
+        </div>
+      </div>
+      <div class="recent-job">
+        <span class="recent-date">Jun 25</span>
+        <div class="recent-info">
+          <div class="recent-title"><a href="https://arc.dev/remote-jobs/j/product-director-remote-global" target="_blank" rel="noopener">Product Director - Remote Global</a></div>
+          <div class="recent-meta">Arc · Remote · <span class="tag green">A-1</span></div>
+        </div>
+      </div>
+      <div class="recent-job">
+        <span class="recent-date">Jun 25</span>
+        <div class="recent-info">
+          <div class="recent-title"><a href="https://hired.com/j/product-director-apac-remote" target="_blank" rel="noopener">Product Director - APAC Remote</a></div>
+          <div class="recent-meta">Hired · Remote · <span class="tag green">A-1</span></div>
+        </div>
+      </div>
+      <div class="recent-job">
+        <span class="recent-date">Jun 25</span>
+        <div class="recent-info">
+          <div class="recent-title"><a href="https://www.toptal.com/careers/head-of-product-remote" target="_blank" rel="noopener">Head of Product</a></div>
+          <div class="recent-meta">Toptal · Remote · <span class="tag green">A-1</span></div>
+        </div>
+      </div>
+      <div class="recent-job">
+        <span class="recent-date">Jun 25</span>
+        <div class="recent-info">
+          <div class="recent-title"><a href="https://www.turing.com/careers/product-director-remote" target="_blank" rel="noopener">Product Director - Remote</a></div>
+          <div class="recent-meta">Turing · Remote · <span class="tag green">A-1</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- ─── PYTHON SCRIPTS ─── -->
+<!-- ═══════════════════════════════════════════ -->
+<div class="section-title" id="scripts">🐍 Pipeline Scripts</div>
+<div class="grid single" style="max-width:1200px;">
+  <div class="card">
+    <h2><span class="emoji">⚙️</span> Job Pipeline Tools</h2>
+    <ul>
+      <li>
+        <a href="merge-jobs.py">merge-jobs.py</a>
+        <div class="desc">Merge multiple job sources into jobs-all.json. Deduplicates by URL and title.</div>
+      </li>
+      <li>
+        <a href="scan-jobs.py">scan-jobs.py</a>
+        <div class="desc">Scan and refresh job listings. Updates status, checks for dead links.</div>
+      </li>
+      <li>
+        <a href="dedup-jobs.py">dedup-jobs.py</a>
+        <div class="desc">Remove duplicate jobs by URL matching and fuzzy title similarity.</div>
+      </li>
+      <li>
+        <a href="rescore-jobs.py">rescore-jobs.py</a>
+        <div class="desc">Re-score all jobs against the grading rubric. Updates quality tiers and grades.</div>
+      </li>
+    </ul>
+  </div>
 </div>
 
 <!-- ═══════════════════════════════════════════ -->
@@ -775,7 +1037,7 @@
 
 <!-- ─── Footer ─── -->
 <div class="footer">
-  Career Hub — Auto-maintained · Last updated June 22, 2026 · Built for APAC senior tech job seekers
+  Career Hub — Auto-maintained · Last updated June 25, 2026 · Built for APAC senior tech job seekers
 </div>
 
 <!-- ─── Search + Checklist JS ─── -->
@@ -784,19 +1046,21 @@
   const searchInput = document.getElementById('searchInput');
   const cards = document.querySelectorAll('.card[data-keywords]');
 
-  searchInput.addEventListener('input', function() {
-    const query = this.value.toLowerCase().trim();
-    if (!query) {
-      cards.forEach(c => c.removeAttribute('data-hidden'));
-      return;
-    }
-    cards.forEach(card => {
-      const keywords = (card.getAttribute('data-keywords') || '').toLowerCase();
-      const text = card.textContent.toLowerCase();
-      const match = keywords.includes(query) || text.includes(query);
-      card.setAttribute('data-hidden', match ? 'false' : 'true');
+  if (searchInput) {
+    searchInput.addEventListener('input', function() {
+      const query = this.value.toLowerCase().trim();
+      if (!query) {
+        cards.forEach(c => c.removeAttribute('data-hidden'));
+        return;
+      }
+      cards.forEach(card => {
+        const keywords = (card.getAttribute('data-keywords') || '').toLowerCase();
+        const text = card.textContent.toLowerCase();
+        const match = keywords.includes(query) || text.includes(query);
+        card.setAttribute('data-hidden', match ? 'false' : 'true');
+      });
     });
-  });
+  }
 
   // ─── Sticky Nav Active State ───
   const navLinks = document.querySelectorAll('nav a[href^="#"]');

@@ -285,14 +285,15 @@
 | Date | Action | Contact/Role | Channel | Status | Notes |
 |------|--------|--------------|---------|--------|-------|
 | 2026-06-26 | Events file restructured with verification system | - | Career OS | ✅ Done | Added Date Verification Tracker, Event-to-Company Priority Matrix, Event-to-Contact Map, and Event ROI Tracking. Web tools unavailable (billing) — dates are estimated. Next run should verify top 5 URLs. |
-| 2026-07-01 | **Event date verification via curl + browser** | - | Career OS | ✅ Done | **SFF corrected: Nov 18-20 (was Nov 3-7).** RISE Conference: dates NOT published yet (Register Interest). ProductTank/Startup Grind: sites unreachable, rely on historical patterns. WAIC: blocked. Updated 5 SFF references across events.md. |
+|| 2026-07-01 | **Event date verification via curl + browser** | - | Career OS | ✅ Done | **SFF corrected: Nov 18-20 (was Nov 3-7).** RISE Conference: dates NOT published yet (Register Interest). ProductTank/Startup Grind: sites unreachable, rely on historical patterns. WAIC: blocked. Updated 5 SFF references across events.md. |
+| 2026-06-26 | **Market Intelligence refresh — database-driven analysis** | 899 jobs | Career OS | ✅ Done | Web search billing unavailable. Ran local database analysis. Found 44 direct-apply score-80+ English roles (was 16). OKX has 27 score-80+ (6 direct-apply). Coupang underexplored (10 score-80+, 4 direct-apply). Tokyo emerging (5 score-80+). Updated market-intelligence.md with fresh tier rankings, OKX deep dive, Coupang analysis, and Tokyo market entry. Updated outreach tracker application count to 899. |
 
 ---
 
 ## 📊 Application Tracking
 
-**Current status: 0% application rate (474 roles in database, 0 submitted)**
-**Week 3 targets: Airwallex Director (SG, score 100) + Wellington Director (SG, score 100)**
+**Current status: 0% application rate (899 roles in database, 0 submitted)**
+**Week 3 targets: 8 score-100 HK apps + 5 score-90+ direct apply + 3 outreach messages = 13 actions in 3.5 hours**
 
 ### Application Log
 
