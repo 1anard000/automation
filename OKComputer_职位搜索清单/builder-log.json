@@ -406,6 +406,15 @@
       "score_before": 10,
       "score_after": 10,
       "details": "Fixed tier_a(3), tier_b(6), tier_c(1) → A/B/C. Coverage report now shows 734 jobs, 36 sources, 319 companies."
+    },
+    {
+      "timestamp": "2026-06-26T00:00:00+08:00",
+      "dimension": "data_quality",
+      "task": "Backfill dates for 942 jobs missing posted_date — estimated from position in list + metadata. Also regenerated coverage-report.json (734→1106 jobs, 38 sources).",
+      "status": "completed",
+      "score_before": 5,
+      "score_after": 6,
+      "subagent": "nightly-improver"
     }
   ],
   "current_scores": {
