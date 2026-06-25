@@ -500,17 +500,23 @@
       "action": "stale_cleanup",
       "detail": "Removed 39 stale jobs (>30 days old), 1067 remaining",
       "dimension": "data_quality"
+    },
+    {
+      "date": "2026-06-26 06:01",
+      "action": "Nightly improvement: verified data quality (1182 jobs, 38 sources, all graded), updated builder-log scores, refreshed coverage score to 8",
+      "details": "Jobs: 0 stale, 1181/1182 have links, 1144/1182 have companies. Grade distribution: A-1=352, A-2=596, B-1=82, B=45, C=71, S-1=36"
     }
   ],
   "latest_scores": {
     "data_quality": 8,
     "dashboard": 7,
-    "career_hub": 6,
+    "career_hub": 7,
     "scripts": 8,
-    "coverage": 7,
+    "coverage": 8,
     "strategy": 7,
-    "jobs_total": 1067,
-    "stale_purged": 39
+    "jobs_total": 1182,
+    "stale_purged": 0,
+    "notes": "1182 jobs, 38 sources, 329 companies, 0 stale. All jobs graded."
   },
   "log": [
     {
@@ -568,6 +574,11 @@
       "subagent": "builder-career-hub-rebuild",
       "score_before": 6,
       "status": "in_progress"
+    },
+    {
+      "date": "2026-06-26",
+      "action": "Updated builder-log scores: jobs_total 1067→1182, coverage 7→8, career_hub 6→7. Verified 0 stale jobs.",
+      "details": "System health check: data quality strong, all scripts working, 38 search sources active."
     }
   ]
 }
