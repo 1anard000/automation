@@ -12,22 +12,25 @@ Track relevant networking events, conferences, and meetups in target cities.
 
 ## 📅 Date Verification Tracker
 
-> **Web tools were unavailable on last scan.** Dates below are ESTIMATED based on historical patterns. When web tools return, verify these URLs in priority order:
+> **Last verified: July 1, 2026.** Web search/extraction billing unavailable — verified via curl + browser.
 
-| Priority | Event | City | Verify URL | Status |
-|----------|-------|------|-----------|--------|
-| 1 | ProductTank HK | HK | producttank.com/hong-kong | 📋 ESTIMATED (3rd Thu) |
-| 2 | ProductTank SG | SG | producttank.com/singapore | 📋 ESTIMATED (2nd Tue) |
-| 3 | Startup Grind HK | HK | startupgrind.com/hong-kong | 📋 ESTIMATED (mid-month) |
-| 4 | Startup Grind SG | SG | startupgrind.com/singapore | 📋 ESTIMATED (last Wed) |
-| 5 | WAIC (World AI Conference) | SH | waic.world | 📋 ESTIMATED (early Jul) |
-| 6 | RISE Conference | HK | riseconf.com | 📋 ESTIMATED (late Jul/early Aug) |
-| 7 | Singapore Fintech Festival | SG | fintechfestival.com | ✅ CONFIRMED Nov 3-7 |
-| 8 | CHINAOSS | SZ | chinaosscn.com | 📋 ESTIMATED (August) |
-| 9 | Guangzhou Cross-border Expo | GZ | TBD — search for expo dates | 📋 ESTIMATED (August) |
-| 10 | Tech in Asia | SG | techinasia.com | 📋 ESTIMATED (October) |
+| Priority | Event | City | Verified URL | Status | Notes |
+|----------|-------|------|-------------|--------|-------|
+| 1 | ProductTank HK | HK | producttank.com/hong-kong | 📋 ESTIMATED (3rd Thu) | Site unreachable — rely on historical pattern |
+| 2 | ProductTank SG | SG | producttank.com/singapore | 📋 ESTIMATED (2nd Tue) | Site unreachable — rely on historical pattern |
+| 3 | Startup Grind HK | HK | startupgrind.com/hong-kong | 📋 ESTIMATED (mid-month) | JS-rendered, no dates in HTML |
+| 4 | Startup Grind SG | SG | startupgrind.com/singapore | 📋 ESTIMATED (last Wed) | JS-rendered, no dates in HTML |
+| 5 | WAIC (World AI Conference) | SH | waic.world | ❓ NEEDS CHECK | Site blocked by curl — verify manually |
+| 6 | RISE Conference | HK | riseconf.com | ⚠️ DATES NOT YET ANNOUNCED | Page says "REGISTER INTEREST" — no 2026 dates published yet. Likely late 2026. |
+| 7 | Singapore Fintech Festival | SG | fintechfestival.sg | ✅ CONFIRMED **Nov 18-20, 2026** | **CORRECTED from Nov 3-7.** Venue: Singapore Expo. |
+| 8 | CHINAOSS | SZ | chinaosscn.com | 📋 ESTIMATED (August) | Historical pattern — verify when accessible |
+| 9 | Guangzhou Cross-border Expo | GZ | TBD | 📋 ESTIMATED (August) | Search needed |
+| 10 | Tech in Asia | SG | techinasia.com | 📋 ESTIMATED (October) | Cloudflare-protected — verify manually |
 
-**Next action:** When web tools are available, check top 5 URLs and update statuses.
+**Key corrections from this scan:**
+1. 🚨 **Singapore Fintech Festival is Nov 18-20 (not Nov 3-7)** — update all references
+2. ⚠️ **RISE Conference 2026 dates not yet published** — still in "Register Interest" phase
+3. Web tools billing exhausted — remaining events need manual verification
 
 ---
 
@@ -39,8 +42,8 @@ Track relevant networking events, conferences, and meetups in target cities.
 
 | Event | City | Date | Target Companies | Contact Type | ROI |
 |-------|------|------|-----------------|--------------|-----|
-| **Singapore Fintech Festival** | SG | Nov 3-7 | Airwallex, DBS, UOB, Stripe, Mastercard, Visa | Hiring managers + peers | ⭐⭐⭐ |
-| **RISE Conference** | HK | TBD (Jul/Aug) | OKX, Binance, Airwallex, ByteDance | Product leaders | ⭐⭐⭐ |
+| **Singapore Fintech Festival** | SG | Nov 18-20 | Airwallex, DBS, UOB, Stripe, Mastercard, Visa | Hiring managers + peers | ⭐⭐⭐ |
+| **RISE Conference** | HK | DATES TBA (Register Interest) | OKX, Binance, Airwallex, ByteDance | Product leaders | ⭐⭐⭐ |
 | **CHINAOSS** | SZ | TBD (Aug) | ByteDance, Alibaba, Tencent | Engineering + Product | ⭐⭐ |
 
 ### 🥈 TIER 2: Strong Contact Density (1-2 target companies)
@@ -67,7 +70,7 @@ Track relevant networking events, conferences, and meetups in target cities.
 ### Week 1 (Jul 1-7)
 - [ ] **Verify WAIC dates** — Search waic.world for 2026 registration. If early July, register immediately.
 - [ ] **Verify ProductTank HK July event** — Check producttank.com/hong-kong. If Jul 16, add to calendar.
-- [ ] **Register for Singapore Fintech Festival** — Nov 3-7, confirmed. Early bird pricing. **Target: Airwallex, DBS, UOB, Stripe hiring managers.**
+- [ ] **Register for Singapore Fintech Festival** — Nov 18-20, confirmed (Singapore Expo). Early bird pricing. **Target: Airwallex, DBS, UOB, Stripe hiring managers.**
 
 ### Week 2 (Jul 8-14)
 - [ ] **Attend ProductTank SG** (2nd Tuesday = Jul 14) — **Target: Google, Meta, Shopee PMs.** Prepare cross-border pitch.
@@ -128,7 +131,7 @@ Track relevant networking events, conferences, and meetups in target cities.
 ## 🔴 IMMEDIATE (June-July 2026)
 
 ### Hong Kong
-- [ ] **RISE Conference** — HK, typically late July/early August. Tech/startup conference. **Target contacts:** OKX, Binance, Airwallex product teams. **Action:** Check riseconf.com for 2026 dates. Register early.
+- [ ] **RISE Conference** — HK, dates NOT YET ANNOUNCED for 2026 (verified Jul 1). Tech/startup conference. **Target contacts:** OKX, Binance, Airwallex product teams. **Action:** riseconf.com shows "Register Interest" — no dates published yet. Subscribe to newsletter for updates.
 - [ ] **Hong Kong FinTech Week (Satellite Events)** — HKMA and InvestHK run events year-round. Check fintechweek.hk for July events.
 - [ ] **ProductTank HK Meetup** — Monthly, usually 3rd Thursday. **Action:** Check producttank.com/hong-kong for July event. Good for PM networking.
 - [ ] **Startup Grind HK** — Monthly, usually mid-month. **Action:** Check startupgrind.com/hong-kong. Cross-border commerce founders attend.
@@ -136,7 +139,7 @@ Track relevant networking events, conferences, and meetups in target cities.
 ### Singapore
 - [ ] **ProductTank Singapore** — Monthly, usually 2nd Tuesday. **Action:** Check producttank.com/singapore for July event. Google, Meta, Shopee PMs attend.
 - [ ] **Startup Grind Singapore** — Monthly, usually last Wednesday. **Action:** Check startupgrind.com/singapore.
-- [ ] **Singapore Fintech Festival** — November 3-7, 2026 (confirmed). **Action:** Register now — early bird pricing. This is THE fintech event in APAC. Airwallex, DBS, UOB, Stripe all have major presence.
+- [ ] **Singapore Fintech Festival** — November 18-20, 2026 (confirmed, Singapore Expo). **Action:** Register now — early bird pricing. This is THE fintech event in APAC. Airwallex, DBS, UOB, Stripe all have major presence.
 - [ ] **Echelon Asia Summit** — Typically September/October in Singapore. Tech conference with APAC focus.
 
 ### Shenzhen
@@ -238,7 +241,7 @@ These are high-value for OKX, Binance, HashKey, Coins.ph contacts:
 ### Singapore
 - [ ] **Tech in Asia Conference** — Typically October in Singapore. Startup/growth contacts.
 - [ ] **Wild Digital** — December typically. Southeast Asia tech conference.
-- [ ] **Singapore Fintech Festival** — November 3-7, 2026 (confirmed). Major event. Airwallex, DBS, UOB, Stripe all have major presence.
+- [ ] **Singapore Fintech Festival** — November 18-20, 2026 (confirmed, Singapore Expo). Major event. Airwallex, DBS, UOB, Stripe all have major presence.
 
 ---
 

@@ -281,10 +281,11 @@
 
 ---
 
-## Event Discovery Update (June 26, 2026)
+## Event Discovery Update (July 1, 2026)
 | Date | Action | Contact/Role | Channel | Status | Notes |
 |------|--------|--------------|---------|--------|-------|
 | 2026-06-26 | Events file restructured with verification system | - | Career OS | ✅ Done | Added Date Verification Tracker, Event-to-Company Priority Matrix, Event-to-Contact Map, and Event ROI Tracking. Web tools unavailable (billing) — dates are estimated. Next run should verify top 5 URLs. |
+| 2026-07-01 | **Event date verification via curl + browser** | - | Career OS | ✅ Done | **SFF corrected: Nov 18-20 (was Nov 3-7).** RISE Conference: dates NOT published yet (Register Interest). ProductTank/Startup Grind: sites unreachable, rely on historical patterns. WAIC: blocked. Updated 5 SFF references across events.md. |
 
 ---
 
