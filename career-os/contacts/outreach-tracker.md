@@ -1,8 +1,8 @@
 # Outreach Tracking — Career OS
 
-## 🚨 EXECUTION STATUS (June 26, 2026 — Updated by Career OS Cron)
+## 🚨 EXECUTION STATUS (June 25, 2026 — Updated by Career OS Cron)
 
-**Status: Week 2 ended with ZERO execution. 5 days of planned outreach + applications = nothing sent. The planning is excellent. The execution is nonexistent. Week 3 plan is simpler: 2 outreach + 2 applications in 2.25 hours. Thomas Anderson follow-up is DUE TODAY.**
+**Status: Week 2 ended with ZERO execution. 5 days of planned outreach + applications = nothing sent. The planning is excellent. The execution is nonexistent. Week 3 plan is simpler: 2 outreach + 2 applications in 2.25 hours. Amanda Foster follow-up is DUE TODAY.**
 
 ### 📊 Cumulative Status (All-Time)
 | Metric | Target (to date) | Actual | Status |
@@ -12,10 +12,10 @@
 | Meetings set | 4+ | **0** | 🔴 CRITICAL |
 | Referrals gained | 3+ | **0** | 🔴 CRITICAL |
 
-### ⚡ TODAY'S TOP 3 ACTIONS (June 26)
-1. **Send Thomas Anderson message** — DUE TODAY. Reconnect after 8+ months. Ask about Meta APAC strategy/ops. (10 min)
-2. **Send Michael Zhang message** — OVERDUE 7 days. Alignment paper + APAC expansion. (10 min)
-3. **Send David Liu WeChat** — OVERDUE 6 days. Reconnect after 6+ months. (5 min)
+### ⚡ TODAY'S TOP 3 ACTIONS (June 25)
+1. **Send Amanda Foster message** — DUE TODAY. Ask about APAC BizOps/Chief of Staff at Google SG. (10 min)
+2. **Send Michael Zhang message** — OVERDUE 6 days. Alignment paper + APAC expansion. (10 min)
+3. **Send David Liu WeChat** — OVERDUE 5 days. Reconnect after 6+ months. (5 min)
 
 **Total time: 25 minutes. Do it before noon.**
 
@@ -61,29 +61,29 @@
 | 🎤 Interviewing | 0 | Not in any process |
 | ✅ Offer | 0 | — |
 
-## Immediate Follow-ups (Week of June 22-28 — UPDATED JUN 26)
-> ⚠️ Updated June 26. 6 messages overdue or due today. Priority: Thomas Anderson (due today), Michael Zhang (7 days overdue), David Liu (6 days overdue).
+## Immediate Follow-ups (Week of June 22-28 — UPDATED JUN 25)
+> ⚠️ Updated June 25. 6 messages overdue or due today. Priority: Amanda Foster (due today), Michael Zhang (6 days overdue), David Liu (5 days overdue).
 | Contact | Company | Action | Due | Channel | Status | Priority |
 |---------|---------|--------|-----|---------|--------|----------|
-| Thomas Anderson | Meta | DUE TODAY: Reconnect after 8+ months. Ask about Meta APAC strategy/ops. | 2026-06-26 | LinkedIn/Email | 🔴 DUE TODAY | ⚡ P1 |
-| Michael Zhang | OpenAI | OVERDUE 7 DAYS: Send alignment paper. Ask about APAC expansion. | 2026-06-19 | LinkedIn/Email | 🔴 OVERDUE (7 days) | ⚡ P1 |
-| David Liu | ByteDance | URGENT: Reconnect after 6+ months. TikTok E-commerce PM roles. | 2026-06-20 | WeChat | 🔴 OVERDUE (6 days) | ⚡ P1 |
-| Emily Watson | Airwallex | OVERDUE 5 DAYS: Follow up on ML hiring. Director Product Strategy Payments (SG). | 2026-06-21 | LinkedIn/Email | 🔴 OVERDUE (5 days) | ⚡ P1 |
-| Sarah Chen | NVIDIA | OVERDUE 3 DAYS: Follow up on partnership proposal. APAC strategy team question. | 2026-06-23 | LinkedIn/Email | 🔴 OVERDUE (3 days) | ⚡ P1 |
-| Amanda Foster | Google | OVERDUE 1 DAY: Ask about APAC BizOps/Chief of Staff role at Google Singapore. | 2026-06-25 | LinkedIn/Email | 🔴 OVERDUE (1 day) | 🟢 P2 |
-| Lisa Wang | Sequoia | Share Q2 metrics. Ask about APAC portfolio companies. | 2026-06-30 | LinkedIn/Email | ⏳ PENDING (4 days) | 🟢 P2 |
+| Amanda Foster | Google | DUE TODAY: Ask about APAC BizOps/Chief of Staff role at Google Singapore. | 2026-06-25 | LinkedIn/Email | 🔴 DUE TODAY | 🟢 P2 |
+| Michael Zhang | OpenAI | OVERDUE 6 DAYS: Send alignment paper. Ask about APAC expansion. | 2026-06-19 | LinkedIn/Email | 🔴 OVERDUE (6 days) | ⚡ P1 |
+| David Liu | ByteDance | URGENT: Reconnect after 6+ months. TikTok E-commerce PM roles. | 2026-06-20 | WeChat | 🔴 OVERDUE (5 days) | ⚡ P1 |
+| Emily Watson | Airwallex | OVERDUE 4 DAYS: Follow up on ML hiring. Director Product Strategy Payments (SG). | 2026-06-21 | LinkedIn/Email | 🔴 OVERDUE (4 days) | ⚡ P1 |
+| Sarah Chen | NVIDIA | OVERDUE 2 DAYS: Follow up on partnership proposal. APAC strategy team question. | 2026-06-23 | LinkedIn/Email | 🔴 OVERDUE (2 days) | ⚡ P1 |
+| Thomas Anderson | Meta | Reconnect after 8+ months. Ask about Meta APAC strategy/ops. | 2026-06-26 | LinkedIn/Email | ⏳ DUE TOMORROW | ⚡ P1 |
+| Lisa Wang | Sequoia | Share Q2 metrics. Ask about APAC portfolio companies. | 2026-06-30 | LinkedIn/Email | ⏳ PENDING (5 days) | 🟢 P2 |
 
-### 🚨 CRITICAL: 6 Messages OVERDUE or DUE TODAY (June 26)
+### 🚨 CRITICAL: 5 Messages OVERDUE + 1 DUE TODAY (June 25)
 
-**Priority order for TODAY (June 26):**
-1. **Thomas Anderson (Meta)** — DUE TODAY. Reconnect after 8+ months. Ask about Meta APAC strategy/ops.
-2. **Michael Zhang (OpenAI)** — OVERDUE by 7 days. Alignment paper + APAC expansion question.
-3. **David Liu (ByteDance)** — OVERDUE by 6 days. WeChat reconnection after 6+ months.
-4. **Emily Watson (Airwallex)** — OVERDUE by 5 days. Airwallex SG Director roles.
-5. **Sarah Chen (NVIDIA)** — OVERDUE by 3 days. Partnership proposal follow-up.
-6. **Amanda Foster (Google)** — OVERDUE by 1 day. Google SG BizOps intro.
+**Priority order for TODAY (June 25):**
+1. **Michael Zhang (OpenAI)** — OVERDUE by 6 days. Alignment paper + APAC expansion question.
+2. **David Liu (ByteDance)** — OVERDUE by 5 days. WeChat reconnection after 6+ months.
+3. **Emily Watson (Airwallex)** — OVERDUE by 4 days. Airwallex SG Director roles.
+4. **Sarah Chen (NVIDIA)** — OVERDUE by 2 days. Partnership proposal follow-up.
+5. **Amanda Foster (Google)** — DUE TODAY. Google SG BizOps intro.
+6. **Thomas Anderson (Meta)** — Due tomorrow. Meta APAC strategy/ops.
 
-**If you send just ONE message today, send Thomas Anderson's. It's the only one that's not yet overdue.**
+**If you send just ONE message today, send Michael Zhang's. It's the most overdue (6 days).**
 
 ### 📊 Execution Velocity Tracker
 | Week | Outreach Sent | Apps Submitted | Time Invested | Notes |
@@ -278,6 +278,7 @@
 | 2026-06-24 | **Market Intelligence CORRECTED — 474 jobs (not 803)** | 474 jobs | All companies | ✅ Verified actual database has 474 jobs. June 25 claim of 803 was incorrect. 60 score-80+ (not 135). 16 direct-apply score-80+ (not 45). Fixed career-strategy.md and market-intelligence.md with accurate numbers. |
 | 2026-06-25 | **Outreach tracker cleanup** | Career OS | Career OS | ✅ Major cleanup: removed stale Week 2 sprint plan, consolidated Week 3/4 into top section, updated all dates to Jun 25, fixed pipeline table formatting, updated execution velocity tracker, added "STALE" warning to old follow-up section. File reduced from ~424 to ~340 lines. Clearer action path: send Michael Zhang message NOW. |
 | 2026-06-26 | **Outreach review — dates updated to Jun 26** | 7 contacts | Various | ✅ Updated EXECUTION STATUS to Jun 26. Recalculated overdue: Thomas Anderson (DUE TODAY), Michael Zhang (7 days), David Liu (6 days), Emily Watson (5 days), Sarah Chen (3 days), Amanda Foster (1 day). Updated TODAY'S TOP 3 with Thomas Anderson as #1. Renamed stale follow-up section to "UPDATED JUN 26". Added Thomas Anderson to priority list. Fixed recommendation: send Thomas Anderson first (only non-overdue). |
+| 2026-06-25 | **Outreach review — dates corrected to Jun 25** | 7 contacts | Various | ✅ Fixed date drift (was Jun 26, corrected to Jun 25). Recalculated overdue: Michael Zhang (6 days), David Liu (5 days), Emily Watson (4 days), Sarah Chen (2 days), Amanda Foster (DUE TODAY), Thomas Anderson (due tomorrow). Updated TODAY'S TOP 3: Michael Zhang is most overdue. Fixed contacts.json overdue counts. |
 
 ---
 
