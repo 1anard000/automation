@@ -12,7 +12,7 @@
       "connection": "Google I/O 2025 meetup",
       "connection_date": "2026-04-17",
       "relationship_strength": "warm",
-      "notes": "Works on Gemini team. Open to referrals. Last contact: 2026-04-17. Strong relationship. Follow-up due TODAY Jun 25.",
+      "notes": "Works on Gemini team. Open to referrals. Last contact: 2026-04-17. Strong relationship. FOLLOW-UP OVERDUE 1 DAY since Jun 25.",
       "relevance_tags": [
         "referral",
         "industry_contact"
@@ -20,7 +20,7 @@
       "apac_relevant": false,
       "follow_up_needed": true,
       "follow_up_action": "Reconnect and ask about APAC strategy/ops roles at Google",
-      "follow_up_date": "2026-06-25"
+      "follow_up_date": "2026-06-26"
     },
     {
       "id": "bytedance-david-liu",
@@ -207,7 +207,7 @@
       "connection": "Unknown",
       "connection_date": "2025-10-09",
       "relationship_strength": "weak",
-      "notes": "Last contact: 2025-10-09 (8+ months ago). Weak relationship. FOLLOW-UP DUE TOMORROW Jun 26. Meta has APAC presence. Priority contact for this week.",
+      "notes": "Last contact: 2025-10-09 (8+ months ago). Weak relationship. FOLLOW-UP DUE TODAY Jun 26. Meta has APAC presence. Priority contact for this week.",
       "relevance_tags": [
         "industry_contact"
       ],
@@ -236,7 +236,7 @@
       "apac_relevant": true,
       "follow_up_needed": true,
       "follow_up_action": "Research on LinkedIn using search URL. Send outreach after identifying.",
-      "follow_up_date": "2026-06-25"
+      "follow_up_date": "2026-06-26"
     },
     {
       "id": "okx-tbd-growth-director",
@@ -258,7 +258,7 @@
       "apac_relevant": true,
       "follow_up_needed": true,
       "follow_up_action": "Research on LinkedIn. Send outreach after identifying.",
-      "follow_up_date": "2026-06-25"
+      "follow_up_date": "2026-06-26"
     },
     {
       "id": "binance-tbd-earn-director",
@@ -280,7 +280,7 @@
       "apac_relevant": true,
       "follow_up_needed": true,
       "follow_up_action": "Research on LinkedIn. Send outreach after identifying.",
-      "follow_up_date": "2026-06-25"
+      "follow_up_date": "2026-06-26"
     },
     {
       "id": "crypto-dot-com-tbd-institutional",
@@ -302,7 +302,7 @@
       "apac_relevant": true,
       "follow_up_needed": true,
       "follow_up_action": "Research on LinkedIn. Send outreach after identifying.",
-      "follow_up_date": "2026-06-25"
+      "follow_up_date": "2026-06-26"
     },
     {
       "id": "crypto-dot-com-tbd-ai",
@@ -324,11 +324,11 @@
       "apac_relevant": true,
       "follow_up_needed": true,
       "follow_up_action": "Research on LinkedIn. Send outreach after identifying.",
-      "follow_up_date": "2026-06-25"
+      "follow_up_date": "2026-06-26"
     }
   ],
   "outreach_log": [],
-  "notes": "Contacts managed by Career OS. Key APAC contacts: David Liu (ByteDance, URGENT reconnection needed), Emily Watson (Airwallex, needs SG intros), Amanda Foster (Google, warm). 5 placeholder contacts need replacing with real people. 8 companies have NO contacts — Wellington, Mastercard, BlackRock, BNY have score-100 Director roles. See contact-mapping-plan.md for detailed research plan.",
+  "notes": "Contacts managed by Career OS. Key APAC contacts: David Liu (ByteDance, OVERDUE 6 DAYS), Emily Watson (Airwallex, OVERDUE 5 DAYS), Amanda Foster (Google, OVERDUE 1 DAY). 5 placeholder contacts need replacing with real people. 8 companies have NO contacts — Wellington, Mastercard, BlackRock, BNY have score-100 Director roles. Thomas Anderson (Meta) DUE TODAY. See hiring-manager-research-guide.md for search URLs.",
   "research_queue": [
     {
       "company": "Wellington Management",

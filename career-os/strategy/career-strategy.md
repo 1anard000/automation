@@ -243,10 +243,10 @@ Priority score = Quality Score + Direct Apply (5) + Difficulty Adj (easy +3 / ha
 - **If blocked:** Note the blocker, move to next task, circle back
 - **Weekly:** Review what got done vs. plan, adjust next week
 
-## 🚨 CRITICAL: Application Status (Updated June 24, 2026)
+## 🚨 CRITICAL: Application Status (Updated June 26, 2026)
 
-**Current status: 0% application rate (474 roles in database, 0 submitted). Database reconciled — 474 jobs, not 699. 15 direct-apply score-80+ English-friendly roles with working URLs.**
-**Current status: 0% application rate (474 roles in database, 0 submitted). Database verified: 474 jobs. 60 score-80+ roles. 16 direct-apply score-80+ English-friendly roles with working URLs.**
+**Current status: 0% application rate (474 roles in database, 0 submitted). Database reconciled — 474 jobs. 60 score-80+ roles. 16 direct-apply score-80+ English-friendly roles with working URLs.**
+**11 DAYS of zero execution. The bottleneck is execution, not planning. THIS WEEK: 2 applications (Airwallex + Wellington, both score 100).**
 | Metric | Value |
 |--------|-------|
 | Total roles (verified) | 474 |
@@ -256,8 +256,8 @@ Priority score = Quality Score + Direct Apply (5) + Difficulty Adj (easy +3 / ha
 | Score 80+ English | **45** |
 | Score 100 direct-apply | **1** |
 | Direct-apply total | **16** |
-**Immediate priority: Submit 5+ applications this week. Focus on score-90+ roles first.** See `strategy/market-intelligence.md` for full priority queue.
-**Immediate priority: Submit 8 applications this week using the Week 3 sprint plan.** See `strategy/weekly-application-plan-jul5.md` for exact URLs and daily breakdown.
+**Immediate priority: Submit 2 applications this week (Airwallex + Wellington, both score 100). Then 3 more in Week 4.** See `strategy/market-intelligence.md` for full priority queue.
+**Execution gap: 11 days of zero execution. The bottleneck is doing, not planning. Start with ONE application today.**
 
 ### Database Reconciliation (June 24)
 Previous analysis referenced 699 jobs. Current database has **474 jobs**. Discrepancy:
