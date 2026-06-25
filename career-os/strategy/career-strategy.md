@@ -132,32 +132,29 @@ Key finding: 6 resume clusters identified. Apply the same resume version to all 
 **6 batch application groups identified** — apply same resume to all jobs in a batch for efficiency.
 **31 high-visa-likelihood roles** identified (visa-friendly companies: Google, Airwallex, OKX, etc.)
 
-### Top Companies by Opportunity Density (Updated Jun 24 — 474 Jobs, CORRECTED)
-| Company | Total Roles | High-Score (80+) | Score-100 | Dir+ | Key Roles | Cities |
-|---------|-------------|-----------------|-----------|------|-----------|--------|
-| **OKX** | **66** | **25+** | 0 | **42+** | VP AI Strategy (90), MD Banking (86), 13 SG score-80+ | SG, HK |
-| **Coupang** | **60** | **10** | 0 | **18** | Director P&PM (88), Principal BizOps (85) | **SH, Tokyo, Taipei** — UNDEREXPLORED |
-| **Agoda** | **42** | **8+** | **1** | 10 | Principal PM (100), Growth Team (83, Tokyo) | SG, SH, **Tokyo**, Bangkok |
-| ByteDance | 37 | 5+ | 0 | 0 | TikTok E-commerce PM (95), CapCut PM (95), TikTok Shop HK (87) | SZ, SG, HK |
-| Shopee | 30 | 3+ | 0 | 0 | Senior PM Cross-border (87) | HK, SG |
-| Stripe | 17 | 6+ | 0 | 2 | Head of Comms APAC (93), Enterprise Support (82) | SG |
-| Coinbase | 14 | 0 | 0 | 0 | US-only roles — deprioritize | Remote US |
-| Airwallex | 13 | 3+ | 0 | 0 | Director Product Strategy (100), Senior PM Growth (80) | SG |
-| Databricks | 13 | 2 | 0 | 0 | Sr. Director Enterprise (85), Sr. Manager Support (83) | SG, Tokyo, Remote |
-| Binance | 9 | 5 | **1** | 0 | Senior Payment PM LATAM (100), Binance Pay Lead (87) | HK |
-| Anthropic | 8 | 1 | 0 | 0 | Revenue Strategy & Ops Lead (85, **Tokyo**) | Tokyo, SF |
-| Grab | 8 | 0 | 0 | 0 | All score 75 or below — monitor | SG |
-| Cloudflare | 8 | 0 | 0 | 0 | Infrastructure, low scores | SG |
-| Crypto.com | 5 | 0 | 0 | 3 | Lead PM Exchange (82), AI Transformation (80) | HK, SG |
-| Coins.ph | 4 | 3 | **1** | 0 | Senior PM Card Issuing (100), Principal PM AML (83) | HK |
-| **Flexport** | **3** | **2** | 0 | 0 | **Sr BD Omnichannel (85, SH)**, Staff PM (81, SZ) | **SH, SZ** — NEW, cross-border |
-| **Thunes** | **2** | **2** | 0 | 0 | **Head of Product (86, SG)**, Product Director (81, SG) | **SG** — NEW, payments |
-| **D.E. Shaw** | **1** | **1** | 0 | 0 | **Senior PM Applied AI (85, HK)** | **HK** — NEW, hedge fund |
-| **Adyen** | **2** | **1** | 0 | 0 | **Head of Sales SG (81)** | **SG** — NEW, payments |
-| Google | 6 | 1 | 0 | 1 | Regional Product Lead (80) | SG |
-| Payoneer | 2 | 2 | 0 | 0 | **Chief of Staff GTM China (92)**, Growth Mgr (80) | **SH** |
-| Datadog | 4 | 2 | 0 | 0 | Country Manager Japan (90), Head Enterprise Sales (88) | **Tokyo** |
-| **Xendit** | **5** | **0** | 0 | 0 | Senior Impl Mgr (78, HK), PM User & Accounts (76, SG) | **HK, SG** — SE Asia payments |
+### Top Companies by Opportunity Density (CORRECTED June 26 — 899 Jobs Verified)
+| Company | Total Roles | High-Score (80+) | Key Roles | Cities |
+|---------|-------------|-----------------|-----------|--------|
+| **OKX** | **69** | **19** | VP AI Strategy (90), 11 SG roles | SG, HK, SH |
+| **Coupang** | **60** | **3** | Director P&PM (88), Principal BizOps (85) | SH, Tokyo |
+| **Agoda** | **42** | **4** | Principal PM (100, HK), Growth Team (83, Tokyo) | HK, SG, SH, Tokyo |
+| ByteDance | 37 | 3+ | TikTok E-commerce PM (95, SZ), CapCut PM (95, SZ) | SZ, HK |
+| Shopee | 30 | 1 | Sr PM Cross-border (87, HK) | HK, SG |
+| Binance | 9 | 5 | Sr Payment PM LATAM (100, HK), Pay Lead (87, HK) | HK |
+| Airwallex | 13 | 2 | Sr PM Growth (80, SG), Sr PM (80, SG) | SG |
+| Databricks | 13 | 0 | All below 80 | SG, Tokyo |
+| Coins.ph | 4 | 3 | Sr PM Card Issuing (100, HK), Principal PM AML (83, HK) | HK |
+| Datadog | 4 | 2 | Country Manager (90, Tokyo), Head Enterprise Sales (88, Tokyo) | Tokyo |
+| Anthropic | 8 | 1 | Revenue Strategy Ops Lead (85, Tokyo) | Tokyo, SF |
+| Stripe | 46 | 3 | Enterprise Support (82, SG), Partner Dev (80, SG) | SG |
+| Payoneer | 2 | 2 | Chief of Staff GTM China (92, SH) | SH |
+| Flexport | 3 | 1 | Sr BD Omnichannel (85, SH) | SH |
+| D.E. Shaw | 1 | 1 | Sr PM Applied AI (85, HK) | HK |
+| Google | 6 | 1 | Regional Product Lead (80, SG) | SG |
+| Mastercard | 1 | 1 | Manager AI & Data Strategy (80, SG) | SG |
+| Notion | 1 | 1 | Country Manager Singapore (82, SG) | SG |
+| Wise | 1 | 1 | Sr PM APAC Growth (82, SG) | SG |
+| GitLab | 1 | 1 | Regional Sales Director (85, SG) | SG |
 
 ### NEW: Unscored Roles Rescanned (Jun 21)
 136 roles were added to the database without scoring. A quick-scan was run to identify high-value opportunities:
@@ -243,113 +240,158 @@ Priority score = Quality Score + Direct Apply (5) + Difficulty Adj (easy +3 / ha
 - **If blocked:** Note the blocker, move to next task, circle back
 - **Weekly:** Review what got done vs. plan, adjust next week
 
-## 🚨 CRITICAL: Application Status (Updated June 26, 2026)
+## 🚨 CRITICAL: Application Status (CORRECTED June 26, 2026 — Database Audit)
 
-**Current status: 0% application rate (474 roles in database, 0 submitted). Database reconciled — 474 jobs. 60 score-80+ roles. 16 direct-apply score-80+ English-friendly roles with working URLs.**
-**11 DAYS of zero execution. The bottleneck is execution, not planning. THIS WEEK: 2 applications (Airwallex + Wellington, both score 100).**
-| Metric | Value |
-|--------|-------|
-| Total roles (verified) | 474 |
-| Applied | 0 |
-| Scored | 478 |
-| Score 80+ | **60** |
-| Score 80+ English | **45** |
-| Score 100 direct-apply | **1** |
-| Direct-apply total | **16** |
-**Immediate priority: Submit 2 applications this week (Airwallex + Wellington, both score 100). Then 3 more in Week 4.** See `strategy/market-intelligence.md` for full priority queue.
-**Execution gap: 11 days of zero execution. The bottleneck is doing, not planning. Start with ONE application today.**
+**🚨 DATA CORRECTION: Previous strategy referenced 474 roles. Actual database has 899 roles. Previous score-100 list included 5 phantom roles (Wellington, BlackRock, BNY, Manulife, Bitdeer) that DON'T EXIST in the database. Airwallex "Director" roles score 70-80, NOT 100. All 8 actual score-100 roles are in Hong Kong.**
 
-### Database Reconciliation (June 24)
-Previous analysis referenced 699 jobs. Current database has **474 jobs**. Discrepancy:
-- 699 likely included deduplication + Stripe/Instacart dead weight
-- 474 is the cleaned, actionable set
-- **128 jobs have no score** — need scoring pass
-- Focus on the 15 direct-apply score-80+ English roles — these are the REAL quick wins
+| Metric | Previous Claim | ACTUAL (Verified) |
+|--------|---------------|-------------------|
+| Total roles | 474 | **899** |
+| APAC target city roles | N/A | **573** |
+| Applied | 0 | **0** |
+| Score 80+ (APAC) | 60 | **87** |
+| Score 80+ English (APAC) | 45 | **84** |
+| Score 100 direct-apply | 1 | **8 (all HK)** |
+| English direct-apply score 80+ | 16 | **40** |
+| Direct-apply score 80+ | N/A | **42** |
 
-### 🎯 Top 8 Perfect-Score (100) Direct-Apply Roles — Apply NOW
+**Immediate priority: Submit 8 score-100 HK applications THIS WEEK. All are English, all have direct-apply links. Then 3 more in Week 4.**
+**Execution gap: 11+ DAYS of zero execution. The bottleneck is doing, not planning. Start with ONE application today.**
+
+### 🎯 ACTUAL Top 8 Perfect-Score (100) Direct-Apply Roles — Apply NOW
+> ⚠️ ALL are in Hong Kong, ALL are English-friendly, ALL have direct-apply links.
 
 | # | Company | Title | City | Category |
 |---|---------|-------|------|----------|
-| 1 | Agoda | Principal Product Manager | Singapore | general_pm |
-| 2 | Bank of China (Hong Kong) | Senior Wealth Management PM (Insurance) | Hong Kong | general_pm |
+| 1 | Agoda | Principal Product Manager | Hong Kong | general_pm |
+| 2 | Bank of China (HK) | Senior Wealth Management PM (Insurance) | Hong Kong | general_pm |
 | 3 | Binance | Senior Payment Product Manager - LATAM | Hong Kong | fintech |
-| 4 | Coins.ph | Senior Product Manager (Card Issuing) | Hong Kong | fintech |
+| 4 | Coins.ph | Senior PM (Card Issuing) | Hong Kong | fintech |
 | 5 | Futu Holdings | Senior PM - Derivatives Risk | Hong Kong | general_pm |
-| 6 | Gate | Senior Fiat Product Manager (GatePay) | Hong Kong | fintech |
+| 6 | Gate | Senior Fiat PM (GatePay) | Hong Kong | fintech |
 | 7 | Ingram Micro | Senior PM - Cloud | Hong Kong | general_pm |
-| 8 | JD.COM | BNPL Product & Operations Lead | Hong Kong | fintech |
+| 8 | JD.COM | BNPL Product & Ops Lead (Europe) | Hong Kong | fintech |
+
+### ⚠️ CORRECTED: Airwallex Scores (were falsely claimed as 100)
+> Previous strategy claimed Airwallex Director roles = score 100. ACTUAL scores:
+
+| Title | City | ACTUAL Score | Previous Claim |
+|-------|------|-------------|----------------|
+| Senior PM, Growth | SG | **80** | ❌ claimed 100 |
+| Senior PM | SG | **80** | ❌ claimed 100 |
+| Director, Product Strategy | SG | **70** | ❌ claimed 100 |
+| Head of Product, Global Payments | SG | **70** | ❌ claimed 100 |
+| Product Director, Financial Markets | SG | **70** | ❌ claimed 100 |
+
+**Bottom line: Airwallex roles are score 70-80, not 100. Still worth applying but NOT top priority.**
+
+### ⚠️ REMOVED: Phantom Score-100 Roles (not in database)
+| Company | Claimed Title | Status |
+|---------|--------------|--------|
+| Wellington Management | Director, Product Strategy APAC | ❌ NOT IN DATABASE |
+| BlackRock | Aladdin Product Solutions Director | ❌ NOT IN DATABASE |
+| BNY | Director, Commercial PM Custody | ❌ NOT IN DATABASE |
+| Manulife | Director, Product Pricing | ❌ NOT IN DATABASE |
+| Bitdeer | Director of Product Management | ❌ NOT IN DATABASE |
+| Mastercard | Director, AI & Data Strategy | ⚠️ Exists but score 80 (Manager level) |
 
 ## 🔄 Strategy Refresh — June 21, 2026 (Local Data Analysis)
 
 ### Key Finding: 12 Quick-Win Jobs Sitting Untouched
 Local job database has **169 roles**, **12 score-80+ direct-apply jobs** that haven't been applied to. This is the single highest-leverage action: submit these applications.
 
-### Updated Priority Queue (Data-Driven, June 21)
+### Updated Priority Queue (CORRECTED — Data Verified June 26, 2026)
 
-**🔴 TIER 1: Apply IMMEDIATELY (Score 100, direct apply, all SG)**
+> ⚠️ Previous queue included phantom roles (Wellington, BlackRock, BNY, Manulife, Bitdeer = NOT IN DATABASE). Airwallex scores corrected from 100 to 70-80.
+
+**🔴 TIER 1: Apply IMMEDIATELY (Score 100, direct apply, all HK — 8 roles)**
 
 | # | Company | Title | City | Score | Why This Matters |
 |---|---------|-------|------|-------|------------------|
-| 1 | Airwallex | Director, Product Strategy Payments | SG | 100 | Cross-border payments, ask Emily Watson for intro |
-| 2 | Airwallex | Product Director, Payment Fraud | SG | 100 | Same company, different team |
-| 3 | Airwallex | Product Director, Financial Markets & Platform | SG | 100 | Platform/infrastructure role |
-| 4 | Wellington Management | Director, Product Strategy, APAC | SG | 100 | Strategy + investment management |
-| 5 | Mastercard | Director, AI & Data Strategy | SG | 100 | AI + fintech, top-tier company |
-| 6 | BlackRock | Aladdin Product Solutions, Director | SG | 100 | Asset management platform |
-| 7 | BNY | Director, Commercial PM (Custody Platform) | SG | 100 | Custody/digital assets |
-| 8 | Manulife | Director, Product Pricing | SG | 100 | Insurance + product |
-| 9 | Bitdeer | Director of Product Management | SG | 100 | Crypto mining infrastructure |
-| 10 | Agoda | Principal Product Manager | SG | 100 | Travel + marketplace (Amazon parallel) |
+| 1 | Binance | Senior Payment PM - LATAM | HK | 100 | Cross-border payments, crypto |
+| 2 | Coins.ph | Senior PM (Card Issuing) | HK | 100 | Crypto payments |
+| 3 | Gate | Senior Fiat PM (GatePay) | HK | 100 | Cross-border payments |
+| 4 | JD.COM | BNPL Product & Ops Lead | HK | 100 | Fintech + commerce |
+| 5 | Agoda | Principal PM | HK | 100 | Travel marketplace (Amazon parallel) |
+| 6 | Bank of China (HK) | Sr Wealth Mgmt PM (Insurance) | HK | 100 | Banking |
+| 7 | Futu Holdings | Senior PM - Derivatives Risk | HK | 100 | Fintech |
+| 8 | Ingram Micro | Senior PM - Cloud | HK | 100 | Cloud/distribution |
 
-**🟡 TIER 2: Apply This Week (Score 80-89)**
+**🟡 TIER 2: Apply This Week (Score 90-99, direct apply — 15 roles)**
 
 | # | Company | Title | City | Score | Notes |
 |---|---------|-------|------|-------|-------|
-| 11 | OKX | Principal/Senior PM, Web3 Wallet | HK | 89 | Highest-score non-SG role |
-| 12 | OKX | Principal/Senior PM, Local Market & Growth | HK | 87 | Latin America scope |
-| 13 | ByteDance | Growth Strategy PM - Global Payment | SG | 85 | Cross-border payments |
-| 14 | ByteDance | Card Growth PM - Global Payment | SG | 85 | Same team, second app |
-| 15 | OKX | Principal/Senior PM, Institution Onboarding | HK | 83 | Direct apply available |
-| 16 | Coins.ph | Principal PM - Compliance/AML/Risk | HK | 83 | Direct apply available |
-| 17 | UOB | VP Digital Currency & Payments | SG | 82 | Banking + crypto |
-| 18 | DBS Bank | VP DBS Digital Exchange | SG | 82 | Largest SG bank |
-| 19 | Crypto.com | Lead PM Exchange (Institutional) | SG | 82 | Institutional crypto |
-| 20 | SymphonyAI | SME & Product Lead for APAC | SG | 81 | NEW FIND — AI product lead |
-| 21 | Google | Regional Product Lead, Foundational Measurement | SG | 80 | Ask Amanda Foster |
-| 22 | Crypto.com | Senior PM AI Transformation | SG | 80 | AI + crypto |
-| 23 | HSBC | VP Wealth Product Manager (Platform) | SG | 80 | Banking platform |
+| 9 | ByteDance | Sr PM, TikTok E-commerce | SZ | 95 | Cross-border, referral needed |
+| 10 | Alibaba | Sr PM, Lazada | SZ | 95 | Cross-border, referral needed |
+| 11 | ByteDance | Sr PM, CapCut | SZ | 95 | Content platform |
+| 12 | Tencent | Sr PM, WeChat Pay | SZ | 95 | Payments, referral needed |
+| 13 | Meituan | Sr PM, Meituan Waimai | SZ | 93 | Delivery/marketplace, DIRECT |
+| 14 | Payoneer | Chief of Staff, GTM China | SH | 92 | Strategy, DIRECT |
+| 15 | OSL (OKX) | Sr PM, B2B Cross-Border Crypto | SZ | 91 | Cross-border crypto |
+| 16 | OKX | VP, AI Strategy & Transformation | HK | 90 | Director-level, DIRECT |
+| 17 | OKX | Sr Strategy PM, VIP/Institutions | HK | 90 | Strategy, DIRECT |
+| 18 | Datadog | Country Manager | Tokyo | 90 | GM role, DIRECT |
+| 19 | Ambition | Sr Program Manager, Insurance | HK | 94 | Insurance, DIRECT |
+| 20 | Coupang | Director, Product & Program Mgmt | SH | 88 | Director, DIRECT |
+| 21 | Datadog | Head Enterprise Sales, Japan | Tokyo | 88 | Sales leadership, DIRECT |
+| 22 | OKX | Sr PM, AI Gateway | SH | 88 | AI product |
+| 23 | Alibaba | Sr PM, Alibaba Cloud | HK | 87 | Cloud platform |
 
-**🟢 TIER 3: Apply Next Week (Score 70-79)**
+**🟢 TIER 3: Apply Next Week (Score 80-87, English — key picks from 64 roles)**
 
 | # | Company | Title | City | Score | Notes |
 |---|---------|-------|------|-------|-------|
-| 24 | Citi | PM Payments VP | HK | 79 | Banking payments |
-| 25 | Visa | AVP Chief of Staff & Head of Strategy | APAC | 79 | Strategy + fintech |
-| 26 | HashKey Group | Payment Director | HK | 78 | Crypto payments |
-| 27 | Lalamove | Head of Product | HK | 78 | Logistics + marketplace |
-| 28 | OCBC | Head of Cash Products, Transaction Banking | HK | 78 | Banking |
-| 29 | Binance | AI Chatbot PM | HK | 77 | Crypto + AI |
-| 30 | Gate | Payment PM Fiat & Cross-Border | SG | 75 | Cross-border payments |
+| 24 | Binance | Binance Pay Business Lead | HK | 87 | Payments, referral needed |
+| 25 | Binance | Sr Card Product Manager | HK | 87 | Card产品 |
+| 26 | ByteDance | Sr PM, TikTok Shop HK | HK | 87 | E-commerce |
+| 27 | Shopee | Sr PM, Cross-border | HK | 87 | Cross-border, referral needed |
+| 28 | D.E. Shaw | Sr PM, Applied AI | HK | 85 | Hedge fund + AI |
+| 29 | Anthropic | Revenue Strategy & Ops Lead | Tokyo | 85 | AI company, DIRECT |
+| 30 | Coupang | Principal BizOps | SH | 85 | Strategy, DIRECT |
+| 31 | Flexport | Sr BD Manager, Omnichannel | SH | 85 | Cross-border logistics, DIRECT |
+| 32 | GitLab | Regional Sales Director | SG | 85 | DevTools, DIRECT |
+| 33 | Wise | Sr PM - APAC Growth | SG | 82 | Fintech growth, DIRECT |
+| 34 | Stripe | Enterprise Product Support Mgr | SG | 82 | Payments, DIRECT |
+| 35 | Notion | Country Manager, Singapore | SG | 82 | Product-led, DIRECT |
+| 36 | Airwallex | Sr PM, Growth | SG | 80 | Cross-border payments |
+| 37 | Google | Regional Product Lead | SG | 80 | Ask Amanda Foster |
+| 38 | Mastercard | Manager, AI & Data Strategy | SG | 80 | AI + fintech |
 
-### New Companies to Prioritize (Discovered June 21)
+**🔵 NEW: Tokyo Market Entry (Score 80+, 5 roles — all English, all fresh)**
 
-The strategy's original "Top 5 Priority Companies" list was incomplete. Add these:
+| # | Company | Title | City | Score | Notes |
+|---|---------|-------|------|-------|-------|
+| 39 | Datadog | Country Manager | Tokyo | 90 | GM role, DIRECT |
+| 40 | Datadog | Head Enterprise Sales, Japan | Tokyo | 88 | Sales leadership, DIRECT |
+| 41 | Anthropic | Revenue Strategy & Ops Lead | Tokyo | 85 | AI company, DIRECT |
+| 42 | Coupang | Director, Growth Marketing | Tokyo | 82 | Growth, DIRECT |
+| 43 | Agoda | Manager, Growth Team | Tokyo | 83 | Travel, DIRECT |
 
-| Company | High-Score Roles | Score | City | Why Add |
-|---------|-----------------|-------|------|---------|
-| **Wellington Management** | 1 | 100 | SG | Score-100 Director role, direct apply |
-| **Mastercard** | 1 | 100 | SG | Score-100 AI strategy role |
-| **BlackRock** | 1 | 100 | SG | Score-100 Aladdin platform role |
-| **BNY** | 1 | 100 | SG | Score-100 custody platform role |
-| **Manulife** | 1 | 100 | SG | Score-100 product pricing role |
-| **Bitdeer** | 1 | 100 | SG | Score-100 crypto mining PM |
-| **Agoda** | 1 | 100 | SG | Score-100 marketplace PM |
-| **SymphonyAI** | 1 | 81 | SG | NEW: AI product lead for APAC |
-| **Coins.ph** | 1 | 83 | HK | Crypto payments compliance |
-| **HSBC** | 1 | 80 | SG | Banking platform |
-| **Visa** | 2 | 79, 78 | APAC | Strategy + fintech consulting |
-| **Lalamove** | 1 | 78 | HK | Logistics + marketplace |
-| **HashKey Group** | 1 | 78 | HK | Crypto payments |
+### Company Density — Score 80+ (CORRECTED)
+
+| Company | Score 80+ Roles | Cities | Notes |
+|---------|----------------|--------|-------|
+| **OKX** | **19** | SG(11), HK(7), SH(1) | Dominant opportunity, mostly referral |
+| **Binance** | 5 | HK(5) | Crypto payments, referral needed |
+| **Agoda** | 4 | HK(1), SG(1), SH(1), Tokyo(1) | Travel marketplace |
+| **Coupang** | 3 | SH(2), Tokyo(1) | Underexplored strategy hub |
+| **ByteDance** | 3 | SZ(2), HK(1) | E-commerce, referral needed |
+| **Coins.ph** | 3 | HK(3) | Crypto payments, direct apply |
+| **Stripe** | 3 | SG(3) | Payments, mixed |
+| **Datadog** | 2 | Tokyo(2) | GM + sales roles |
+| **Airwallex** | 2 | SG(2) | Cross-border payments |
+| **Alibaba** | 2 | HK(1), SZ(1) | Cloud + e-commerce |
+| **Payoneer** | 2 | SH(2) | Fintech GTM |
+
+### City Summary — Score 80+ (CORRECTED)
+
+| City | Score 80+ | Score 100 | Direct-Apply | Key Theme |
+|------|-----------|-----------|-------------|-----------|
+| **Hong Kong** | **29** | **8** | 14 | Crypto/fintech hub, score-100 goldmine |
+| **Singapore** | **23** | 0 | 4 | Strategy/director, mostly referral |
+| **Shenzhen** | **20** | 0 | 6 | Cross-border PM, CN-language barrier |
+| **Shanghai** | **10** | 0 | 6 | Strategy/BD roles |
+| **Tokyo** | **5** | 0 | 5 | Emerging, all English, all direct |
 
 ### Data Quality Insights (June 21)
 
