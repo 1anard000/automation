@@ -281,6 +281,13 @@
 
 ---
 
+## Event Discovery Update (June 26, 2026)
+| Date | Action | Contact/Role | Channel | Status | Notes |
+|------|--------|--------------|---------|--------|-------|
+| 2026-06-26 | Events file restructured with verification system | - | Career OS | ✅ Done | Added Date Verification Tracker, Event-to-Company Priority Matrix, Event-to-Contact Map, and Event ROI Tracking. Web tools unavailable (billing) — dates are estimated. Next run should verify top 5 URLs. |
+
+---
+
 ## 📊 Application Tracking
 
 **Current status: 0% application rate (474 roles in database, 0 submitted)**
