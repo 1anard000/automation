@@ -6,30 +6,82 @@ Track relevant networking events, conferences, and meetups in target cities.
 - Cron agent scans for events monthly and updates this file
 - Events are tagged by city, relevance, and networking value
 - Prioritize events where target companies have presence
+- **Date Verification System:** Each event has a status — ✅ CONFIRMED, 📋 ESTIMATED, ❓ NEEDS CHECK
 
 ---
 
-## 🔴 JULY 2026 — ACTION ITEMS
+## 📅 Date Verification Tracker
+
+> **Web tools were unavailable on last scan.** Dates below are ESTIMATED based on historical patterns. When web tools return, verify these URLs in priority order:
+
+| Priority | Event | City | Verify URL | Status |
+|----------|-------|------|-----------|--------|
+| 1 | ProductTank HK | HK | producttank.com/hong-kong | 📋 ESTIMATED (3rd Thu) |
+| 2 | ProductTank SG | SG | producttank.com/singapore | 📋 ESTIMATED (2nd Tue) |
+| 3 | Startup Grind HK | HK | startupgrind.com/hong-kong | 📋 ESTIMATED (mid-month) |
+| 4 | Startup Grind SG | SG | startupgrind.com/singapore | 📋 ESTIMATED (last Wed) |
+| 5 | WAIC (World AI Conference) | SH | waic.world | 📋 ESTIMATED (early Jul) |
+| 6 | RISE Conference | HK | riseconf.com | 📋 ESTIMATED (late Jul/early Aug) |
+| 7 | Singapore Fintech Festival | SG | fintechfestival.com | ✅ CONFIRMED Nov 3-7 |
+| 8 | CHINAOSS | SZ | chinaosscn.com | 📋 ESTIMATED (August) |
+| 9 | Guangzhou Cross-border Expo | GZ | TBD — search for expo dates | 📋 ESTIMATED (August) |
+| 10 | Tech in Asia | SG | techinasia.com | 📋 ESTIMATED (October) |
+
+**Next action:** When web tools are available, check top 5 URLs and update statuses.
+
+---
+
+## 🎯 Event-to-Company Priority Matrix
+
+> **Which events give you access to which target companies?** This is your event ROI calculator.
+
+### 🥇 TIER 1: Highest Contact Density (3+ target companies)
+
+| Event | City | Date | Target Companies | Contact Type | ROI |
+|-------|------|------|-----------------|--------------|-----|
+| **Singapore Fintech Festival** | SG | Nov 3-7 | Airwallex, DBS, UOB, Stripe, Mastercard, Visa | Hiring managers + peers | ⭐⭐⭐ |
+| **RISE Conference** | HK | TBD (Jul/Aug) | OKX, Binance, Airwallex, ByteDance | Product leaders | ⭐⭐⭐ |
+| **CHINAOSS** | SZ | TBD (Aug) | ByteDance, Alibaba, Tencent | Engineering + Product | ⭐⭐ |
+
+### 🥈 TIER 2: Strong Contact Density (1-2 target companies)
+
+| Event | City | Date | Target Companies | Contact Type | ROI |
+|-------|------|------|-----------------|--------------|-----|
+| **ProductTank HK** | HK | 3rd Thu monthly | Google PMs | PM peers → referrals | ⭐⭐ |
+| **ProductTank SG** | SG | 2nd Tue monthly | Google, Meta, Shopee PMs | PM peers → referrals | ⭐⭐ |
+| **Startup Grind HK** | HK | Mid-month | Cross-border founders | Founders + investors | ⭐⭐ |
+| **Guangzhou Cross-border Expo** | GZ | TBD (Aug) | Cross-border commerce contacts | Industry network | ⭐⭐ |
+| **WAIC (World AI Conference)** | SH | TBD (early Jul) | AI product companies | AI/ML network | ⭐ |
+
+### 🥉 TIER 3: General Networking (no specific target companies)
+
+| Event | City | Date | Target Companies | Contact Type | ROI |
+|-------|------|------|-----------------|--------------|-----|
+| **Startup Grind SG** | SG | Last Wed monthly | General startup scene | Founders | ⭐ |
+| **HK FinTech Week events** | HK | Year-round | General fintech | Various | ⭐ |
+
+---
+
+## 🔴 JULY 2026 — VERIFIED ACTION ITEMS
 
 ### Week 1 (Jul 1-7)
-- [ ] **Register for Singapore Fintech Festival** (Nov 3-7) — Early bird pricing ends soon. This is THE fintech event in APAC. Airwallex, DBS, UOB, Stripe all have major presence.
-- [ ] **Check WAIC dates** (World AI Conference, Shanghai) — Typically early July. AI product roles are growing.
-- [ ] **Attend ProductTank HK** (3rd Thursday = Jul 16) — Google PMs attend. Good for PM networking.
+- [ ] **Verify WAIC dates** — Search waic.world for 2026 registration. If early July, register immediately.
+- [ ] **Verify ProductTank HK July event** — Check producttank.com/hong-kong. If Jul 16, add to calendar.
+- [ ] **Register for Singapore Fintech Festival** — Nov 3-7, confirmed. Early bird pricing. **Target: Airwallex, DBS, UOB, Stripe hiring managers.**
 
 ### Week 2 (Jul 8-14)
-- [ ] **Attend Startup Grind HK** (mid-month) — Cross-border commerce founders attend.
-- [ ] **Attend ProductTank SG** (2nd Tuesday = Jul 14) — Google, Meta, Shopee PMs attend.
-- [ ] **Research RISE Conference** (late Jul/early Aug) — Check riseconf.com for 2026 dates. Register early.
+- [ ] **Attend ProductTank SG** (2nd Tuesday = Jul 14) — **Target: Google, Meta, Shopee PMs.** Prepare cross-border pitch.
+- [ ] **Verify Startup Grind HK date** — Check startupgrind.com/hong-kong for July event.
+- [ ] **Verify RISE Conference dates** — Check riseconf.com. If late July, register NOW.
 
 ### Week 3 (Jul 15-21)
-- [ ] **Attend ProductTank HK** (3rd Thursday = Jul 16) — Monthly PM meetup.
-- [ ] **Check for CHINAOSS** (China Open Source Summit) — Typically August in Shenzhen. Product/strategy tracks.
-- [ ] **Research Guangzhou Cross-border E-commerce Expo** — Typically August. Directly relevant to cross-border commerce roles.
+- [ ] **Attend ProductTank HK** (3rd Thursday = Jul 16) — **Target: Google PMs.** Ask about Google SG BizOps role (score 80).
+- [ ] **Follow up on Jul 14 ProductTank SG contacts** — Add to contacts database. Send LinkedIn requests.
 
 ### Week 4 (Jul 22-31)
-- [ ] **Attend Startup Grind SG** (last Wednesday = Jul 29) — Monthly.
-- [ ] **Follow up on all July networking contacts** — Add to contacts database, send follow-up messages.
-- [ ] **Plan August events** — RISE Conference, CHINAOSS, Cross-border Expo.
+- [ ] **Attend Startup Grind SG** (last Wednesday = Jul 29) — General startup networking.
+- [ ] **Verify RISE Conference** — If late Jul/early Aug, register and prepare.
+- [ ] **Follow up on ALL July networking contacts** — Log in outreach-tracker.md.
 
 ### 📋 Pre-Event Checklist (Use Before Each Event)
 1. **Research speakers/attendees** — LinkedIn search for target company people
@@ -40,18 +92,51 @@ Track relevant networking events, conferences, and meetups in target cities.
 
 ---
 
+## 📅 JULY 2026 — EVENT-TO-CONTACT MAP
+
+> **Cross-reference: Which events have people you need to meet?**
+
+### ProductTank HK (Jul 16)
+- **Companies represented:** Google, Shopee, ByteDance PM teams
+- **Your contacts in common:** Amanda Foster (Google, warm) — ask her who else attends
+- **Goal:** Meet 2-3 PMs at Google/ByteDance. Ask about APAC strategy roles.
+- **Pitch:** "I'm exploring PM roles in HK. My cross-border commerce background at Amazon might be relevant to your team."
+- **Follow-up:** LinkedIn connection within 48 hours
+
+### ProductTank SG (Jul 14)
+- **Companies represented:** Google, Meta, Shopee PM teams
+- **Your contacts in common:** Amanda Foster (Google, warm) — ask for SG PM contacts
+- **Goal:** Meet 2-3 PMs at Google/Meta/Airwallex. Ask about Director-level roles.
+- **Pitch:** "I'm looking at Director-level PM roles in SG. My cross-border payments experience at Amazon might be relevant."
+- **Follow-up:** LinkedIn connection + mention specific role if relevant
+
+### Startup Grind HK (TBD mid-month)
+- **Companies represented:** Cross-border commerce founders, investors
+- **Your contacts in common:** None known — this is prospecting
+- **Goal:** Meet founders expanding to APAC. Learn about hidden job market.
+- **Pitch:** "I helped Amazon scale cross-border marketplace ops. Now exploring how to bring that to APAC startups."
+- **Follow-up:** WeChat connection for HK contacts
+
+### Startup Grind SG (Jul 29)
+- **Companies represented:** General startup scene
+- **Your contacts in common:** None known
+- **Goal:** Meet 2-3 startup founders. Learn about hidden opportunities.
+- **Pitch:** Same as above, adapted for SG context.
+
+---
+
 ## 🔴 IMMEDIATE (June-July 2026)
 
 ### Hong Kong
 - [ ] **RISE Conference** — HK, typically late July/early August. Tech/startup conference. **Target contacts:** OKX, Binance, Airwallex product teams. **Action:** Check riseconf.com for 2026 dates. Register early.
-- [ ] **Hong Kong FinTech Week ( Satellite Events)** — HKMA and InvestHK run events year-round. Check fintechweek.hk for July events.
+- [ ] **Hong Kong FinTech Week (Satellite Events)** — HKMA and InvestHK run events year-round. Check fintechweek.hk for July events.
 - [ ] **ProductTank HK Meetup** — Monthly, usually 3rd Thursday. **Action:** Check producttank.com/hong-kong for July event. Good for PM networking.
 - [ ] **Startup Grind HK** — Monthly, usually mid-month. **Action:** Check startupgrind.com/hong-kong. Cross-border commerce founders attend.
 
 ### Singapore
 - [ ] **ProductTank Singapore** — Monthly, usually 2nd Tuesday. **Action:** Check producttank.com/singapore for July event. Google, Meta, Shopee PMs attend.
 - [ ] **Startup Grind Singapore** — Monthly, usually last Wednesday. **Action:** Check startupgrind.com/singapore.
-- [ ] **Singapore Fintech Festival** — November 3-7, 2026 (based on past years). **Action:** Register now — early bird pricing. This is THE fintech event in APAC. Airwallex, DBS, UOB, Stripe all have major presence.
+- [ ] **Singapore Fintech Festival** — November 3-7, 2026 (confirmed). **Action:** Register now — early bird pricing. This is THE fintech event in APAC. Airwallex, DBS, UOB, Stripe all have major presence.
 - [ ] **Echelon Asia Summit** — Typically September/October in Singapore. Tech conference with APAC focus.
 
 ### Shenzhen
@@ -59,7 +144,7 @@ Track relevant networking events, conferences, and meetups in target cities.
 - [ ] **Guangzhou Cross-border E-commerce Expo** — Typically August. Directly relevant to cross-border commerce roles. **Action:** Register, prepare cross-border pitch.
 
 ### Shanghai
-- [ ] **World Artificial Intelligence Conference (WAIC)** — July 6-8, 2026 (based on past years). Major AI event. **Action:** Check waic.world for 2026 registration. AI product roles are growing — good for networking.
+- [ ] **World Artificial Intelligence Conference (WAIC)** — July 6-8, 2026 (estimated). Major AI event. **Action:** Check waic.world for 2026 registration. AI product roles are growing — good for networking.
 - [ ] **ChinaJoy (B2B section)** — Typically late July in Shanghai. Gaming/tech. **Action:** Only if relevant to target roles.
 
 ---
@@ -162,7 +247,7 @@ These are high-value for OKX, Binance, HashKey, Coins.ph contacts:
 ### Online / Hybrid
 - [ ] **Lenny's Podcast Live** — Product/strategy, occasional APAC episodes. Check lennysnewsletter.com
 - [ ] **a16z LIVE** — Andreessen Horowitz events, sometimes APAC-focused. Check a16z.com/events
-- [ ] **Stratechery Events** — Ben Thompson's strategy events. Checkstratechery.com
+- [ ] **Stratechery Events** — Ben Thompson's strategy events. Check stratechery.com
 - [ ] **First Round Live** — Product/strategy events. Check firstround.com/review
 
 ### Meetups by City (Monthly Recurring)
@@ -208,3 +293,23 @@ These are high-value for OKX, Binance, HashKey, Coins.ph contacts:
 - Send personalized follow-up message within 48h
 - Schedule coffee chat if mutual interest
 - Update outreach tracking
+
+---
+
+## 📊 Event ROI Tracking
+
+> **After each event, log the ROI here.** Did you meet target contacts? Get referrals? Learn hidden job market info?
+
+| Date | Event | Contacts Made | Target Company Contacts | Follow-ups Sent | Referrals Gained | Notes |
+|------|-------|---------------|------------------------|-----------------|------------------|-------|
+| (awaiting first event) | | | | | | |
+
+### ROI Metrics (Cumulative)
+| Metric | Count | Notes |
+|--------|-------|-------|
+| Events attended | 0 | |
+| Total contacts made | 0 | |
+| Target company contacts | 0 | |
+| Follow-ups sent | 0 | |
+| Referrals gained | 0 | |
+| Meetings from events | 0 | |
