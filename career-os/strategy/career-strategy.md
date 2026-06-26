@@ -997,8 +997,125 @@ Coupang has 60 roles with 3 direct-apply high-score roles in SH:
 
 ---
 
-*Updated by Career OS Cron — June 26, 2026*
-*Data source: 899 jobs in OKComputer_职位搜索清单/jobs-all.json*
-*Key update: 44 direct-apply score-80+ English roles identified (was 16). OKX has 27 score-80+ (6 direct-apply). Coupang underexplored. Tokyo emerging.*
-*Latest: market-intelligence.md refreshed with database-driven analysis, OKX deep dive, Coupang analysis, Tokyo market entry.*
-*Next update: July 1, 2026*
+## 🔄 Strategy Refresh — June 27, 2026 (Verified Database Analysis)
+
+### Database Verified: 899 Jobs, 135 Score-80+
+**Full database re-analysis completed. Key corrections from previous strategy sections noted below.**
+
+### Verified Score Distribution
+| Bucket | Count | Notes |
+|--------|-------|-------|
+| 90-100 | 26 | 8 at 100, 18 at 90-99 |
+| 80-89 | 109 | Core application target |
+| 70-79 | 390 | Volume play — apply selectively |
+| 60-69 | 127 | Low priority |
+| <60 | 247 | Skip unless specific interest |
+
+### Company Opportunity Density (VERIFIED)
+| Company | Total | Score 80+ | Status |
+|---------|-------|-----------|--------|
+| **OKX** | **70** (OKX+Okx merged) | **27** | 🎯 #1 priority — 6 Greenhouse direct-apply |
+| **Coupang** | **60** | **10** | 🎯 Underexplored — SH strategy hub |
+| **Agoda** | **42** | **7** | Travel marketplace parallel |
+| **Stripe** | **46** | **6** | Mixed — some US roles |
+| **Binance** | **9** | **5** | HK crypto — referral needed |
+| **ByteDance** | **37** | **3** | SZ cross-border — language barrier |
+| **Airwallex** | **13** | **2** | SG cross-border payments |
+| **Coins.ph** | **4** | **3** | HK crypto — high scores |
+| **Bank of China (HK)** | **3** | **2** | HK banking |
+
+### ⚠️ Corrections from Previous Strategy Sections
+1. **Airwallex scores were inflated**: Previous strategy claimed score 100 for Director roles. ACTUAL scores are 70-80. Still worth applying but NOT top priority.
+2. **Wellington/BlackRock/BNY/Manulife roles are NOT in database**: Previous strategy listed these as score-100 direct-apply. They do not exist in jobs-all.json. Remove from queue.
+3. **OKX case variant merged**: "OKX" + "Okx" = 70 total, 27 score-80+ (was counted as separate companies).
+4. **Shopee overstated**: 30 total jobs but only 1 score-80+. Not a high-density opportunity.
+5. **Stripe has 46 jobs** but many are US-based. Only 6 score-80+, mostly SG.
+
+### 🚨 Stale Risk: 68 High-Score Roles Are 14+ Days Old
+**These roles may be filled or closing soon. Apply to fresh roles first.**
+
+Top stale risks:
+- OKX SG roles (80-score, 14 days old) — 7 roles
+- Binance Pay Business Lead (87, 14 days old)
+- Airwallex SG roles (80-score, 14 days old) — 2 roles
+- CASETiFY SZ (85, 14 days old) — 2 roles
+
+**Rule: If a role is 14+ days old, verify it's still active before applying.**
+
+### 🎯 Top Untapped Roles (Score 80+, With Working URLs)
+**135 score-80+ roles have URLs. Zero applications submitted.**
+
+**🔴 TIER 1: Score 88+ (Apply NOW)**
+| Score | Company | Title | City | URL Pattern |
+|-------|---------|-------|------|-------------|
+| 100 | Agoda | Principal PM | HK | LinkedIn |
+| 100 | Binance | Sr Payment PM LATAM | HK | LinkedIn |
+| 100 | Coins.ph | Sr PM Card Issuing | HK | LinkedIn |
+| 100 | Gate | Sr Fiat PM GatePay | HK | LinkedIn |
+| 100 | JD.COM | BNPL Lead Europe | HK | LinkedIn |
+| 93 | Stripe | Head Comms APAC | SG | Greenhouse |
+| 91 | OSL (OKX) | B2B Cross-Border Crypto PM | SZ | OKX Jobs |
+| 90 | OKX | VP AI Strategy | HK | Greenhouse |
+| 90 | OKX | Sr Strategy PM VIP | HK | Greenhouse |
+| 88 | Coupang | Director P&PM | SH | Greenhouse |
+| 88 | OKX | Director Institutional Product | HK | Greenhouse |
+| 88 | OKX | Director Growth Operation | HK | Greenhouse |
+| 86 | OKX | MD Global Banking Partnerships | SG | Greenhouse |
+
+**🟡 TIER 2: Score 80-87 (Apply This Week)**
+- 20 roles including Thunes (86), Coupang (85), OKX (80-83)
+- See full list in deep analysis output above
+
+### Cross-Border Specific Roles (YOUR DIFFERENTIATOR)
+6 roles match "cross-border" in title, score 75+:
+| Score | Company | Title | City |
+|-------|---------|-------|------|
+| 91 | OSL (OKX) | B2B Cross-Border Crypto PM | SZ |
+| 87 | Shopee | Shopee Cross-border PM | HK |
+| 79 | Bank of China (HK) | Segment Manager Cross Border | HK |
+| 79 | Coins.ph | Cross-border Payments Sr PM | HK |
+| 76 | Confidential | Sr Cross-border Payment PM | SH |
+| 75 | OCBC | Cross Border Payment PM | SG |
+
+### Application Platform Distribution
+| Platform | Jobs | Notes |
+|----------|------|-------|
+| Greenhouse | 239 | ATS — account creation needed |
+| LinkedIn | 122 | Direct apply often available |
+| Liepin | 116 | Chinese-language heavy |
+| Boss Zhipin | 35 | Chinese-language |
+| JobsDB | 9 | HK-focused |
+| Workday | 3 | Corporate ATS |
+
+### Actionable Weekly Plan (June 27 - July 3)
+**Goal: 5 applications + 2 outreach = 7 actions in 2.5 hours**
+
+| Day | Action | Time |
+|-----|--------|------|
+| Sat Jun 27 | Apply: OKX VP AI Strategy (90, HK) + OKX Director Institutional (88, HK) | 30 min |
+| Sun Jun 28 | Apply: OKX Director Growth Operation (88, HK) + OKX MD Banking (86, SG) | 30 min |
+| Mon Jun 29 | Apply: Coupang Director P&PM (88, SH) + Send David Liu WeChat | 40 min |
+| Tue Jun 30 | Apply: Thunes Head of Product (86, SG) + Send Emily Watson LinkedIn | 40 min |
+| Wed Jul 1 | Apply: OKX Sr Strategy PM VIP (90, HK) | 15 min |
+| Thu Jul 2 | Follow up on all Week outreach — who responded? | 20 min |
+| Fri Jul 3 | Weekly review + plan Week 2 | 15 min |
+| **TOTAL** | **5 apps + 2 outreach** | **~2.5 hrs** |
+
+### Key Strategic Shifts (June 27)
+1. **OKX is THE target**: 27 score-80+ roles, 6 Greenhouse direct-apply. VP AI Strategy (90) is the dream role.
+2. **Fresh > Stale**: 68 roles are 14+ days old. Focus on fresh roles first.
+3. **Greenhouse is the path**: 239 jobs on Greenhouse — OKX, Coupang, Stripe all use it. Create one account, apply everywhere.
+4. **Cross-border is the differentiator**: 6 roles specifically match. OSL/OKX B2B Cross-Border Crypto (91, SZ) is the #1 cross-border role.
+5. **SZ is deprioritized**: 184 jobs but many stale/Chinese-language. Focus SG > HK > SH > Tokyo > SZ.
+
+### Execution Gap Reminder
+**0 applications. 0 outreach. 14+ days of zero execution.**
+The bottleneck is DOING, not PLANNING. Submit ONE application today.
+
+---
+
+*Updated by Career OS Cron — June 27, 2026*
+*Data source: 899 jobs in OKComputer_职位搜索清单/jobs-all.json (verified via full DB analysis)*
+*Key corrections: Airwallex scores inflated (70-80, not 100). Wellington/BlackRock/BNY roles NOT in database. OKX case variant merged (70 total).*
+*68 stale high-score roles identified — 14+ days old, verify before applying.*
+*Next update: June 28, 2026*

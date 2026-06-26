@@ -1,83 +1,91 @@
 #!/usr/bin/env python3
-"""Deep analysis of job database for market intelligence update."""
-import json
+"""Deep analysis: OKX case variants, direct-apply URLs, and actionable quick wins."""
 
-with open('/Users/iancolrick/.openclaw/workspace/career-os/OKComputer_职位搜索清单/jobs-all.json', 'r') as f:
+import json
+from collections import Counter
+
+with open('OKComputer_职位搜索清单/jobs-all.json', 'r') as f:
     jobs = json.load(f)
 
-# Normalize company names (OKX vs Okx)
+def safe_score(j):
+    return j.get('quality_score') or 0
+
+# 1. OKX case variant analysis
+print("--- OKX CASE VARIANT ANALYSIS ---")
+okx_both = []
 for j in jobs:
-    co = j.get('company', '')
-    if co.lower() in ['okx', 'osl (okx)']:
-        j['company'] = 'OKX'
-    elif co.lower() == 'binance':
-        j['company'] = 'Binance'
-    elif co.lower() == 'coins.ph':
-        j['company'] = 'Coins.ph'
+    company = (j.get('company') or '').lower()
+    if 'okx' in company:
+        okx_both.append(j)
 
-scores = [j.get('quality_score', 0) or 0 for j in jobs]
-print(f'Total jobs: {len(jobs)}')
-print(f'Score-80+: {sum(1 for s in scores if s >= 80)}')
-print(f'Score-100: {sum(1 for s in scores if s >= 100)}')
+print(f"Total OKX/Okx jobs: {len(okx_both)}")
+okx_high = [j for j in okx_both if safe_score(j) >= 80]
+print(f"Score 80+: {len(okx_high)}")
+for j in sorted(okx_high, key=lambda x: safe_score(x), reverse=True):
+    url = j.get('url', '')[:80]
+    print(f"  {safe_score(j)} | {(j.get('company'))} | {j.get('en_title') or j.get('title', 'Unknown')} | {j.get('location_norm') or j.get('location', 'Unknown')} | {url}")
 
-# Direct-apply score-80+ English roles
-direct_apply_80 = [j for j in jobs if (j.get('quality_score', 0) or 0) >= 80 
-                   and j.get('has_direct_link', False)
-                   and j.get('english_friendly', False)]
-print(f'\nDirect-apply score-80+ English: {len(direct_apply_80)}')
-
-# By company
-companies_80 = {}
-for j in direct_apply_80:
-    co = j.get('company', 'unknown')
-    if co not in companies_80:
-        companies_80[co] = []
-    companies_80[co].append(j)
-
-print('\n--- Direct-apply score-80+ English roles by company ---')
-for co, roles in sorted(companies_80.items(), key=lambda x: -len(x[1])):
-    print(f'\n  {co}: {len(roles)} roles')
-    for r in roles:
-        title = r.get('title', 'unknown')
-        loc = r.get('location_norm', r.get('location', ''))
-        score = r.get('quality_score', 0) or 0
-        print(f'    [{score}] {title} ({loc})')
-
-# Salary analysis
-print('\n--- Salary data ---')
-with_salary = [j for j in jobs if j.get('salary')]
-print(f'Jobs with salary data: {len(with_salary)}')
-
-# By city
-cities = {}
+# 2. Direct apply analysis - check URL patterns
+print("\n--- DIRECT APPLY URL PATTERNS ---")
+patterns = Counter()
 for j in jobs:
-    loc = j.get('location_norm', j.get('location', 'unknown'))
-    if loc not in cities:
-        cities[loc] = {'total': 0, 'score_80plus': 0, 'english': 0}
-    cities[loc]['total'] += 1
-    if (j.get('quality_score', 0) or 0) >= 80:
-        cities[loc]['score_80plus'] += 1
-    if j.get('english_friendly'):
-        cities[loc]['english'] += 1
+    url = j.get('url', '') or ''
+    if 'greenhouse' in url: patterns['greenhouse'] += 1
+    elif 'lever' in url: patterns['lever'] += 1
+    elif 'workday' in url: patterns['workday'] += 1
+    elif 'linkedin.com' in url: patterns['linkedin'] += 1
+    elif 'jobsdb' in url: patterns['jobsdb'] += 1
+    elif 'zhipin' in url: patterns['zhipin'] += 1
+    elif 'liepin' in url: patterns['liepin'] += 1
+    else: patterns['other/none'] += 1
 
-print('\n--- City breakdown (top 15) ---')
-for loc, data in sorted(cities.items(), key=lambda x: -x[1]['total'])[:15]:
-    eng_pct = round(data['english'] / data['total'] * 100) if data['total'] > 0 else 0
-    print(f'  {loc}: {data["total"]} total, {data["score_80plus"]} score-80+, {eng_pct}% English')
+for p, count in patterns.most_common():
+    print(f"  {p}: {count}")
 
-# Stale/low quality analysis
-low_quality = [j for j in jobs if j.get('low_quality')]
-print(f'\nLow quality/stale: {len(low_quality)} ({round(len(low_quality)/len(jobs)*100)}%)')
+# 3. Score 80+ with working URLs
+print("\n--- SCORE 80+ WITH URLs (potential quick wins) ---")
+quick = []
+for j in jobs:
+    score = safe_score(j)
+    url = j.get('url', '') or ''
+    if score >= 80 and url:
+        quick.append(j)
 
-# OKX deep dive (combined OKX + Okx)
-okx_roles = [j for j in jobs if j.get('company') == 'OKX']
-okx_80 = [j for j in okx_roles if (j.get('quality_score', 0) or 0) >= 80]
-print(f'\n--- OKX Deep Dive ---')
-print(f'Total OKX roles: {len(okx_roles)}')
-print(f'Score-80+: {len(okx_80)}')
-for r in sorted(okx_80, key=lambda x: -(x.get('quality_score', 0) or 0)):
-    title = r.get('title', 'unknown')
-    loc = r.get('location_norm', r.get('location', ''))
-    score = r.get('quality_score', 0) or 0
-    direct = r.get('has_direct_link', False)
-    print(f'  [{score}] {title} ({loc}) direct={direct}')
+quick.sort(key=lambda x: safe_score(x), reverse=True)
+print(f"Total: {len(quick)}")
+for j in quick[:30]:
+    print(f"  {safe_score(j)} | {(j.get('company') or 'Unknown')} | {j.get('en_title') or j.get('title', 'Unknown')} | {j.get('location_norm') or j.get('location', 'Unknown')} | {(j.get('url') or '')[:90]}")
+
+# 4. Untapped score-100 roles
+print("\n--- SCORE 100 UNTAPPED ---")
+for j in jobs:
+    if safe_score(j) == 100:
+        print(f"  {(j.get('company') or 'Unknown')} | {j.get('en_title') or j.get('title', 'Unknown')} | {j.get('location_norm') or j.get('location', 'Unknown')} | {(j.get('url') or '')[:80]}")
+
+# 5. Company growth: which companies have the most NEW roles?
+print("\n--- LARGEST COMPANY OPPORTUNITIES ---")
+company_stats = {}
+for j in jobs:
+    company = j.get('company') or 'Unknown'
+    if company not in company_stats:
+        company_stats[company] = {'total': 0, 'high': 0, 'cities': set(), 'categories': set()}
+    company_stats[company]['total'] += 1
+    if safe_score(j) >= 80:
+        company_stats[company]['high'] += 1
+    company_stats[company]['cities'].add(j.get('location_norm') or j.get('location') or 'Unknown')
+    company_stats[company]['categories'].add(j.get('category') or 'Unknown')
+
+sorted_companies = sorted(company_stats.items(), key=lambda x: x[1]['high'], reverse=True)
+for company, stats in sorted_companies[:15]:
+    if stats['high'] > 0:
+        cities = ', '.join(sorted(stats['cities'])[:3])
+        cats = ', '.join(sorted(stats['categories'])[:3])
+        print(f"  {company}: {stats['total']} jobs, {stats['high']} high-score | Cities: {cities} | Cats: {cats}")
+
+# 6. Cross-border specific roles
+print("\n--- CROSS-BORDER SPECIFIC (score 75+, title contains cross-border/cross border) ---")
+for j in jobs:
+    title = ((j.get('en_title') or '') or (j.get('title') or '')).lower()
+    score = safe_score(j)
+    if score >= 75 and ('cross-border' in title or 'cross border' in title):
+        print(f"  {score} | {(j.get('company') or 'Unknown')} | {j.get('en_title') or j.get('title', 'Unknown')} | {j.get('location_norm') or j.get('location', 'Unknown')}")
