@@ -1,5 +1,9 @@
 # Application Batch — Week of June 22-28, 2026
 
+> **⚠️ HISTORICAL PLAN — Week 2 (Jun 22-28) has passed. Zero applications submitted.**
+> **Current plans:** See `outreach-tracker.md` for Week 3 (Jun 29-Jul 5) and Week 4 (Jul 6-12) plans.
+> **Key change:** This plan targeted 24 apps in 6 hrs. Current plan is 4 apps + 4 outreach in Week 3 (2.25 hrs) + 3 apps + 2 follow-ups in Week 4 (2.75 hrs). Simpler, more realistic.
+
 > **Purpose:** Stop planning, start clicking. This is your daily application checklist.
 > **Total jobs:** 24 (score 80+), **Estimated time:** ~6 hours across the week
 > **Resume versions needed:** 4 (see clusters below)
@@ -156,13 +160,13 @@
 
 | Day | Batch | Jobs | Time | Focus |
 |-----|-------|------|------|-------|
-| **Sat Jun 22** | Batch 1 (SG Score-100) | 4 apps | 60 min | Airwallex x3 + BNY. Ask Emily Watson first. |
-| **Sun Jun 23** | Batch 3 (Cross-border) | 4 apps | 45 min | ByteDance x2 + Agoda + Bitdeer. Ask David Liu first. |
-| **Mon Jun 24** | Batch 2 (Strategy) | 4 apps | 60 min | Wellington + Mastercard + BlackRock + Google. Ask Amanda Foster. |
-| **Tue Jun 25** | Batch 1 (HK Fintech) | 3 apps | 45 min | OKX x2 + Coins.ph |
-| **Wed Jun 26** | Batch 1 (SG Banking) + Batch 4 | 5 apps | 75 min | UOB + DBS + Crypto.com + OKX KYB + OKX Data |
-| **Thu Jun 27** | Batch 4 (AI/Platform) | 3 apps | 45 min | Crypto.com AI + SymphonyAI + Manulife |
-| **Fri Jun 28** | Review + Catch-up | 1 app + review | 30 min | HSBC + weekly review |
+| **Mon Jun 22** | Batch 1 (SG Score-100) | 4 apps | 60 min | Airwallex x3 + BNY. Ask Emily Watson first. |
+| **Tue Jun 23** | Batch 3 (Cross-border) | 4 apps | 45 min | ByteDance x2 + Agoda + Bitdeer. Ask David Liu first. |
+| **Wed Jun 24** | Batch 2 (Strategy) | 4 apps | 60 min | Wellington + Mastercard + BlackRock + Google. Ask Amanda Foster. |
+| **Thu Jun 25** | Batch 1 (HK Fintech) | 3 apps | 45 min | OKX x2 + Coins.ph |
+| **Fri Jun 26** | Batch 1 (SG Banking) + Batch 4 | 5 apps | 75 min | UOB + DBS + Crypto.com + OKX KYB + OKX Data |
+| **Sat Jun 27** | Batch 4 (AI/Platform) | 3 apps | 45 min | Crypto.com AI + SymphonyAI + Manulife |
+| **Sun Jun 28** | Review + Catch-up | 1 app + review | 30 min | HSBC + weekly review |
 | **TOTAL** | | **24 apps** | **~6 hrs** | |
 
 ---
