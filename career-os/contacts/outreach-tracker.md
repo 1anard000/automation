@@ -12,12 +12,22 @@
 | Meetings set | 4+ | **0** | 🔴 CRITICAL |
 | Referrals gained | 3+ | **0** | 🔴 CRITICAL |
 
-### ⚡ TODAY'S TOP 3 ACTIONS (June 26)
-1. **Send Thomas Anderson message** — DUE TODAY. Reconnect after 8+ months. Ask about Meta APAC strategy/ops. (10 min)
-2. **Send Michael Zhang message** — OVERDUE 7 days. Alignment paper + APAC expansion. (10 min)
-3. **Send David Liu WeChat** — OVERDUE 6 days. Reconnect after 6+ months. (5 min)
+### ⚡ TODAY'S TOP 3 ACTIONS (June 26 — UPDATED 09:12 AM)
+**Goal: Break the zero streak. 3 actions in 45 minutes.**
 
-**Total time: 25 minutes. Do it before noon.**
+1. **Apply: OKX VP AI Strategy & Transformation** (HK, score 90, direct apply) — THE dream role. AI + strategy + crypto. 15 min.
+2. **Apply: OKX Senior Strategy PM, VIP/Institutions** (HK, score 90, direct apply) — Strategy + institutional. 15 min.
+3. **Send Thomas Anderson message** (Meta) — DUE TODAY. Reconnect after 8+ months. 10 min.
+
+**Total: 40 minutes. All three are quick wins.**
+
+### 📋 NEW: OKX Deep Dive Created (June 26)
+OKX has 69 open roles (26 score-80+). See `strategy/okx-deep-dive.md` for:
+- Team structure analysis (6 teams identified)
+- 10 priority contacts to find
+- LinkedIn search URLs (copy-paste ready)
+- 16 OKX roles to apply to this week
+- Cross-reference: your differentiators × OKX needs
 
 ### 🎯 MINIMUM VIABLE EXECUTION (Daily — Non-Negotiable)
 1. Send 1 overdue message (10 min)
@@ -280,6 +290,7 @@
 | 2026-06-25 | **Outreach tracker cleanup** | Career OS | Career OS | ✅ Major cleanup: removed stale Week 2 sprint plan, consolidated Week 3/4 into top section, updated all dates to Jun 25, fixed pipeline table formatting, updated execution velocity tracker, added "STALE" warning to old follow-up section. File reduced from ~424 to ~340 lines. Clearer action path: send Michael Zhang message NOW. |
 | 2026-06-26 | **Outreach tracker — full date sync to Jun 26** | 7 contacts | Various | ✅ Fixed ALL stale dates: header (Jun 25→26), TODAY'S TOP 3 (Thomas Anderson is due today), overdue counts (Michael Zhang 7 days, David Liu 6 days), priority order (Thomas first now), execution velocity tracker, upcoming plans section. Added THIS WEEK plan (Jun 26-Jul 2): 6 outreach + 2 applications in 2.6 hrs. Fixed Thomas Anderson status from "DUE TOMORROW" to "DUE TODAY". |
 | 2026-06-25 | **Outreach review — dates corrected to Jun 25** | 7 contacts | Various | ✅ Fixed date drift (was Jun 26, corrected to Jun 25). Recalculated overdue: Michael Zhang (6 days), David Liu (5 days), Emily Watson (4 days), Sarah Chen (2 days), Amanda Foster (DUE TODAY), Thomas Anderson (due tomorrow). Updated TODAY'S TOP 3: Michael Zhang is most overdue. Fixed contacts.json overdue counts. |
+| 2026-06-26 | **OKX Deep Dive created** | OKX (69 roles) | Career OS | ✅ Created strategy/okx-deep-dive.md with team structure analysis (6 teams), 10 priority contacts, LinkedIn search URLs, 16 OKX roles to apply, cross-reference with your differentiators. OKX has 26 score-80+ roles — largest single-company opportunity. Updated contacts.json with 2 OKX placeholder contacts (VP AI Strategy dream role, Institutional Product director). Updated TODAY'S TOP 3: added 2 OKX applications. |
 
 ---
 
