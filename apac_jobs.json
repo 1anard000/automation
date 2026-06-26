@@ -1,0 +1,222 @@
+[
+  {
+    "title": "Senior Product Manager II",
+    "company": "Coupang",
+    "location": "Singapore, Singapore",
+    "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7864690",
+    "source": "greenhouse_api",
+    "role_type": "product",
+    "grade": "Senior",
+    "notes": "Pricing role"
+  },
+  {
+    "title": "Staff Product Manager, Global Expansion",
+    "company": "Stripe",
+    "location": "Bengaluru, India",
+    "url": "https://stripe.com/jobs/search?gh_jid=7570242",
+    "source": "greenhouse_api",
+    "role_type": "product",
+    "grade": "Senior",
+    "notes": "Staff-level PM, global expansion"
+  },
+  {
+    "title": "Staff Product Operations Manager",
+    "company": "Databricks",
+    "location": "Bengaluru, India",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8560096002",
+    "source": "greenhouse_api",
+    "role_type": "operations",
+    "grade": "Senior",
+    "notes": "Staff-level Product Ops"
+  },
+  {
+    "title": "[Coupang Pay] Senior Product Manager II",
+    "company": "Coupang",
+    "location": "Seoul, South Korea",
+    "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8027721",
+    "source": "greenhouse_api",
+    "role_type": "product",
+    "grade": "Senior",
+    "notes": "Fintech/payments product"
+  },
+  {
+    "title": "Senior Product Manager (Coupang Pay, new Fintech)",
+    "company": "Coupang",
+    "location": "Seoul, South Korea",
+    "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7340247",
+    "source": "greenhouse_api",
+    "role_type": "product",
+    "grade": "Senior",
+    "notes": "Fintech product"
+  },
+  {
+    "title": "Group Product Manager (Rocket Growth)",
+    "company": "Coupang",
+    "location": "Seoul, South Korea",
+    "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7936623",
+    "source": "greenhouse_api",
+    "role_type": "product",
+    "grade": "Lead",
+    "notes": "Growth/e-commerce"
+  },
+  {
+    "title": "Senior Product Manager II (Retail Product)",
+    "company": "Coupang",
+    "location": "Seoul, South Korea",
+    "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8012281",
+    "source": "greenhouse_api",
+    "role_type": "product",
+    "grade": "Senior",
+    "notes": "Retail product"
+  },
+  {
+    "title": "Senior Product Manager (Marketplace)",
+    "company": "Coupang",
+    "location": "Seoul, South Korea",
+    "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8009160",
+    "source": "greenhouse_api",
+    "role_type": "product",
+    "grade": "Senior",
+    "notes": "Marketplace role"
+  },
+  {
+    "title": "Senior Product Manager (Eats JP Market)",
+    "company": "Coupang",
+    "location": "Seoul, South Korea",
+    "url": "https://www.coupang.jobs/en/jobs/?gh_jid=6655436",
+    "source": "greenhouse_api",
+    "role_type": "product",
+    "grade": "Senior",
+    "notes": "Food delivery, Japan market"
+  },
+  {
+    "title": "Group Product Manager",
+    "company": "Coupang",
+    "location": "Taipei, Taiwan",
+    "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7946299",
+    "source": "greenhouse_api",
+    "role_type": "product",
+    "grade": "Lead",
+    "notes": "Group PM role"
+  },
+  {
+    "title": "Senior Product Manager",
+    "company": "Coupang",
+    "location": "Taipei, Taiwan",
+    "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7942634",
+    "source": "greenhouse_api",
+    "role_type": "product",
+    "grade": "Senior",
+    "notes": ""
+  },
+  {
+    "title": "Senior Product Manager - Growth",
+    "company": "Coupang",
+    "location": "Taipei, Taiwan",
+    "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7919597",
+    "source": "greenhouse_api",
+    "role_type": "product",
+    "grade": "Senior",
+    "notes": "Growth PM"
+  },
+  {
+    "title": "Principal Product Manager",
+    "company": "New Relic",
+    "location": "Hyderabad, India",
+    "url": "https://job-boards.greenhouse.io/newrelic/jobs/5211232008",
+    "source": "greenhouse_api",
+    "role_type": "product",
+    "grade": "Senior",
+    "notes": "Principal level"
+  },
+  {
+    "title": "Staff Product Manager, Connectors",
+    "company": "Fivetran",
+    "location": "Bengaluru, India",
+    "url": "https://www.fivetran.com/careers/job?gh_jid=7735295003",
+    "source": "greenhouse_api",
+    "role_type": "product",
+    "grade": "Senior",
+    "notes": "Staff PM, data connectors"
+  },
+  {
+    "title": "Lead Advanced Analytics, Marketplace",
+    "company": "Airbnb",
+    "location": "Gurugram, India",
+    "url": "https://careers.airbnb.com/positions/8023118?gh_jid=8023118",
+    "source": "greenhouse_api",
+    "role_type": "operations",
+    "grade": "Lead",
+    "notes": "Marketplace analytics"
+  },
+  {
+    "title": "Senior Product Manager (Marketplace)",
+    "company": "Coupang",
+    "location": "Seoul, South Korea",
+    "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7981424",
+    "source": "greenhouse_api",
+    "role_type": "product",
+    "grade": "Senior",
+    "notes": "Marketplace PM"
+  },
+  {
+    "title": "Director of Operations - Last Mile Innovation",
+    "company": "Coupang",
+    "location": "Taipei, Taiwan",
+    "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7813232",
+    "source": "greenhouse_api",
+    "role_type": "operations",
+    "grade": "Director",
+    "notes": "Director-level ops"
+  },
+  {
+    "title": "Product Manager (Eats Quick Commerce)",
+    "company": "Coupang",
+    "location": "Seoul, South Korea",
+    "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7912283",
+    "source": "greenhouse_api",
+    "role_type": "product",
+    "grade": "Mid",
+    "notes": "Quick commerce PM"
+  },
+  {
+    "title": "Senior Product Manager (Retail Selection)",
+    "company": "Coupang",
+    "location": "Taipei, Taiwan",
+    "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7870289",
+    "source": "greenhouse_api",
+    "role_type": "product",
+    "grade": "Senior",
+    "notes": "Retail selection"
+  },
+  {
+    "title": "Senior Product Manager",
+    "company": "Lemon.io",
+    "location": "Americas, Europe, Asia, Oceania (Remote)",
+    "url": "https://remotive.com/remote-jobs/product/senior-product-manager-2090984",
+    "source": "remotive_api",
+    "role_type": "product",
+    "grade": "Senior",
+    "notes": "Remote-friendly, APAC timezones"
+  },
+  {
+    "title": "Fraud Operations Manager (Mandarin-speaking)",
+    "company": "Stripe",
+    "location": "Singapore",
+    "url": "https://stripe.com/jobs/search?gh_jid=7994541",
+    "source": "greenhouse_api",
+    "role_type": "operations",
+    "grade": "Mid",
+    "notes": "Cross-border fraud ops"
+  },
+  {
+    "title": "Product Manager, Risk & Compliance",
+    "company": "Stripe",
+    "location": "Bengaluru, India",
+    "url": "https://stripe.com/jobs/search?gh_jid=7625842",
+    "source": "greenhouse_api",
+    "role_type": "product",
+    "grade": "Mid",
+    "notes": "Risk/compliance product"
+  }
+]
