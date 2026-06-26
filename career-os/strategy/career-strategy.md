@@ -213,13 +213,13 @@ Key finding: 6 resume clusters identified. Apply the same resume version to all 
 **Goal: Break the zero. Even 1 application + 1 outreach = success.**
 | Day | Time Box | Focus | Rationale |
 |-----|----------|-------|-----------|
-| Sat Jun 22 | 30 min | Send Michael Zhang message (OVERDUE) | Fix broken promise, highest-overdue |
-| Sun Jun 23 | 45 min | David Liu + Emily Watson outreach; Binance + Gate apps | 2 overdue + 2 score-100 apps |
-| Mon Jun 24 | 45 min | Amanda Foster outreach; Coins.ph + Wellington apps | Warm referral + 2 score-100 apps |
-| Tue Jun 25 | 45 min | Lisa Wang + Sarah Chen outreach; Airwallex x2 apps | Strategic contacts + highest-leverage apps |
-| Wed Jun 26 | 30 min | Thomas Anderson outreach; Mastercard + Futu apps | 1 outreach + 2 score-100 apps |
-| Thu Jun 27 | 30 min | Follow up on responses; Ingram Micro + Bank of China apps | Pipeline maintenance |
-| Fri Jun 28 | 15 min | Weekly review, plan Week 3 | Reflect + adjust |
+| Mon Jun 22 | 30 min | Send Michael Zhang message (OVERDUE) | Fix broken promise, highest-overdue |
+| Tue Jun 23 | 45 min | David Liu + Emily Watson outreach; Binance + Gate apps | 2 overdue + 2 score-100 apps |
+| Wed Jun 24 | 45 min | Amanda Foster outreach; Coins.ph + Wellington apps | Warm referral + 2 score-100 apps |
+| Thu Jun 25 | 45 min | Lisa Wang + Sarah Chen outreach; Airwallex x2 apps | Strategic contacts + highest-leverage apps |
+| Fri Jun 26 | 30 min | Thomas Anderson outreach; Mastercard + Futu apps | 1 outreach + 2 score-100 apps |
+| Sat Jun 27 | 30 min | Follow up on responses; Ingram Micro + Bank of China apps | Pipeline maintenance |
+| Sun Jun 28 | 15 min | Weekly review, plan Week 3 | Reflect + adjust |
 | **TOTAL** | **4.25 hrs** | **7 outreach + 7 applications** | |
 
 ### ⏱️ Minimum Viable Execution (15 min)
@@ -271,6 +271,83 @@ Priority score = Quality Score + Direct Apply (5) + Difficulty Adj (easy +3 / ha
 
 **Immediate priority: Submit 8 score-100 HK applications THIS WEEK. All are English, all have direct-apply links. Then 3 more in Week 4.**
 **Execution gap: 11+ DAYS of zero execution. The bottleneck is doing, not planning. Start with ONE application today.**
+
+---
+
+## 📊 DATABASE GROWTH UPDATE (July 1, 2026 — Cron Refresh)
+
+**Database has grown 35%: 899 → 1,211 jobs.** 312 new jobs added. 58 new high-score (80+) roles discovered since Jun 19.
+
+### Updated Metrics
+
+| Metric | Previous (Jun 26) | CURRENT (Jul 1) | Change |
+|--------|-------------------|-----------------|--------|
+| Total roles | 899 | **1,211** | +312 (+35%) |
+| Score 80+ | 135 | **124** (recounted) | -11 (data cleanup) |
+| Score 100 | 8 | **8** | — |
+| Score 90-99 | ~13 | **18** | +5 |
+| Score 80-89 | ~120 | **98** | (recounted after cleanup) |
+| OKX total roles | 102 | **102** | — |
+| OKX score-80+ | 26 | **26** | — |
+| Coupang total | 60 | **126** | +66 (MASSIVE growth) |
+| Quick wins (English+80+direct) | 26 | **26 unique** | — |
+
+### 🔥 NEW OKX Direct-Apply Roles (Previously Untracked)
+
+These 5 OKX roles are DIRECT APPLY, score 83-88, and were missed in previous analysis:
+
+| Score | Title | City | Action |
+|-------|-------|------|--------|
+| **88** | Product Operations Manager / Director, Institutional Product | HK | **APPLY NOW** — matches institutional product background |
+| **88** | Senior Manager / Director, Growth Operation | HK | **APPLY NOW** — growth ops is your wheelhouse |
+| **86** | Managing Director, Global Banking Partnerships | SG | **APPLY NOW** — Director-level, banking partnerships |
+| **83** | Product Director, Internal HR & Finance Systems | HK | Apply — internal tools PM |
+| **81** | Product Director, VIP Products | SG | Apply — VIP/institutional products |
+
+**These 3 roles (score 86-88) are higher-priority than the score-80 SG OKX roles previously tracked.**
+
+### Company Growth Tracking
+
+| Company | Total (Jul 1) | Total (Jun 26) | Growth | High-Score |
+|---------|--------------|---------------|--------|------------|
+| **Coupang** | **126** | 60 | **+110%** | 10 |
+| **Agoda** | **96** | 42 | **+129%** | 4 |
+| **OKX** | **102** | 102 | — | 26 |
+| **Stripe** | **57** | 46 | +24% | 6 |
+| **Databricks** | **23** | 13 | +77% | 2 |
+| **Flexport** | **9** | 3 | +200% | 2 |
+
+**Coupang and Agoda have grown massively** — both are cross-border commerce companies directly relevant to your background.
+
+### Top Direct-Apply Quick Wins (Updated Jul 1)
+
+**🔴 TIER 1: Score 88+ Direct Apply (NEW — Apply This Week)**
+
+| # | Company | Title | City | Score |
+|---|---------|-------|------|-------|
+| 1 | Stripe | Sr Integration Reliability Engineer | SG | 91 |
+| 2 | OKX | Product Ops Manager / Director, Institutional Product | HK | 88 |
+| 3 | OKX | Senior Manager / Director, Growth Operation | HK | 88 |
+| 4 | OKX | Managing Director, Global Banking Partnerships | SG | 86 |
+
+**🟡 TIER 2: Score 80-87 Direct Apply (Apply Next Week)**
+
+| # | Company | Title | City | Score |
+|---|---------|-------|------|-------|
+| 5 | OKX | Product Director, Internal HR & Finance Systems | HK | 83 |
+| 6 | Agoda | Sr Manager, Strategic Partnerships (Taiwan & China) | Bangkok/SH | 83 |
+| 7 | Coupang | Director, Customer Service (TW) | Taipei | 83 |
+| 8 | Coupang | Director, Sales Operations & Program Mgmt | Taipei | 83 |
+| 9 | Coupang | Head of Driver Supply Growth & Engagement | Tokyo | 83 |
+| 10 | OKX | Product Director, VIP Products | SG | 81 |
+| 11 | OKX | Principal/Sr PM, AI and Agent | SG | 80 |
+| 12 | OKX | Sr PM, Conversational AI Chatbot & Agent Quality | SG | 80 |
+| 13 | OKX | Sr PM, Dev Ops and AI | SG | 80 |
+| 14 | OKX | Sr PM, Risk Intelligence Product | SG | 80 |
+| 15 | OKX | Sr PM, Token Listing | HK/SG | 80 |
+| 16 | OKX | Sr Strategy PMO (AI & Org Efficiency) | SG | 80 |
+
+**Key insight: OKX now has 13 direct-apply score-80+ roles** — 3 Director-level in HK/SG. This is the #1 target company.
 
 ### 🎯 ACTUAL Top 8 Perfect-Score (100) Direct-Apply Roles — Apply NOW
 > ⚠️ ALL are in Hong Kong, ALL are English-friendly, ALL have direct-apply links.
@@ -735,13 +812,13 @@ These are the single highest-leverage actions in the entire system. **Apply to a
 
 | Day | Actions | Time | Focus |
 |-----|---------|------|-------|
-| Sat Jun 22 | Send 3 overdue messages + Apply to 2 SG Director roles | 45 min | Fix broken promises + start SG batch |
-| Sun Jun 23 | Apply to 4 SG Director roles | 60 min | Airwallex x3 + Wellington |
-| Mon Jun 24 | Apply to 4 SG Director roles | 60 min | Mastercard, BlackRock, BNY, Manulife |
-| Tue Jun 25 | Apply to 2 SG + Follow up on outreach | 45 min | Bitdeer, Agoda + check responses |
-| Wed Jun 26 | Apply to 3 HK score-80+ roles | 45 min | OKX Web3 Wallet (89), OKX Local Market (87), OKX Institution (83) |
-| Thu Jun 27 | Apply to 3 SG score-80+ roles | 45 min | UOB (82), DBS (82), Crypto.com (82) |
-| Fri Jun 28 | Weekly review + plan Week 3 | 15 min | What worked, adjust |
+| Mon Jun 22 | Send 3 overdue messages + Apply to 2 SG Director roles | 45 min | Fix broken promises + start SG batch |
+| Tue Jun 23 | Apply to 4 SG Director roles | 60 min | Airwallex x3 + Wellington |
+| Wed Jun 24 | Apply to 4 SG Director roles | 60 min | Mastercard, BlackRock, BNY, Manulife |
+| Thu Jun 25 | Apply to 2 SG + Follow up on outreach | 45 min | Bitdeer, Agoda + check responses |
+| Fri Jun 26 | Apply to 3 HK score-80+ roles | 45 min | OKX Web3 Wallet (89), OKX Local Market (87), OKX Institution (83) |
+| Sat Jun 27 | Apply to 3 SG score-80+ roles | 45 min | UOB (82), DBS (82), Crypto.com (82) |
+| Sun Jun 28 | Weekly review + plan Week 3 | 15 min | What worked, adjust |
 
 **Total: ~5 hours for 18 applications + 3 outreach messages**
 
