@@ -449,6 +449,13 @@
         "strategy": 7
       },
       "subagent": "builder-career-hub-rebuild"
+    },
+    {
+      "timestamp": "2026-06-27T06:01:00.782871+08:00",
+      "dimension": "strategy",
+      "what": "Updated career-strategy.md with fresh data (1346 jobs, June 27 snapshot)",
+      "score_before": 8,
+      "score_after": 9
     }
   ],
   "current_scores": {
@@ -467,7 +474,7 @@
     "career_hub": 8,
     "data_quality": 10,
     "python_scripts": 8,
-    "strategy": 8,
+    "strategy": 9,
     "coverage": 8
   },
   "last_improvement": "Normalized 559 raw city strings into 30 clean city groups for dashboard filter",
