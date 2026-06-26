@@ -434,6 +434,21 @@
       "score_before": 6,
       "score_after": 7,
       "details": "Updated stats (1211 jobs, 335 companies, 42 sources), grade chart (added B-1), top 10 companies (Instacart 16→46, Stripe 48→57, Coinbase 16→39, added Twilio), recent jobs to Jun 26, sync badge to Jun 27"
+    },
+    {
+      "timestamp": "2026-06-27 03:00",
+      "dimension": "career_hub",
+      "task": "Rebuild career-hub.html for 1,346-job database — embedded stats, filters, chart, responsive dark theme",
+      "status": "spawned",
+      "scores_before": {
+        "data_quality": 8,
+        "dashboard": 7,
+        "career_hub": 7,
+        "scripts": 8,
+        "coverage": 8,
+        "strategy": 7
+      },
+      "subagent": "builder-career-hub-rebuild"
     }
   ],
   "current_scores": {
@@ -448,14 +463,14 @@
   "last_dimension": "career_hub",
   "last_task": "Sync career-hub.html with current 1211-job dataset",
   "scores": {
-    "dashboard": 8,
+    "dashboard": 9,
     "career_hub": 8,
     "data_quality": 10,
     "python_scripts": 8,
     "strategy": 8,
     "coverage": 8
   },
-  "last_improvement": "Created grade-jobs.py, graded 69 jobs (new distribution: A-1=317, A-2=460, B=18, C=71, S-1=33), rebuilt dashboard",
+  "last_improvement": "Normalized 559 raw city strings into 30 clean city groups for dashboard filter",
   "entries": [
     {
       "date": "2026-06-19",
@@ -523,9 +538,9 @@
     "scripts": 8,
     "coverage": 8,
     "strategy": 7,
-    "jobs_total": 1182,
+    "jobs_total": 1346,
     "stale_purged": 0,
-    "notes": "1182 jobs, 38 sources, 329 companies, 0 stale. All jobs graded."
+    "notes": "1346 jobs, 29 ungraded, 38 missing companies, career-hub rebuild in progress"
   },
   "log": [
     {
@@ -589,5 +604,6 @@
       "action": "Updated builder-log scores: jobs_total 1067→1182, coverage 7→8, career_hub 6→7. Verified 0 stale jobs.",
       "details": "System health check: data quality strong, all scripts working, 38 search sources active."
     }
-  ]
+  ],
+  "run_count": 1
 }
