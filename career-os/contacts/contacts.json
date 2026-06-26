@@ -557,6 +557,47 @@
       ],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20adyen&geoUrn=%5B%22102222073%22%5D",
       "notes": "NEW: Payments platform. Score 81. Direct apply via Greenhouse."
+    },
+    {
+      "company": "Coupang",
+      "priority": 19,
+      "roles_to_find": [
+        "Director, Product & Program Management",
+        "(Senior) Principal Business Strategy & Ops",
+        "Director, Growth Marketing"
+      ],
+      "cities": [
+        "Shanghai",
+        "Tokyo",
+        "Taipei"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20coupang&geoUrn=%5B%22102222074%22%2C%22102222076%22%5D",
+      "notes": "NEW PRIORITY: 10 score-80+ roles (was only tracking 3). Amazon of Korea — cross-border commerce DNA. Director P&PM SH (88) + Principal BizOps SH (85) + Director Growth Tokyo (82). All direct apply. HIGH VALUE."
+    },
+    {
+      "company": "CASETiFY",
+      "priority": 20,
+      "roles_to_find": [
+        "Senior Product Manager - Supply Chain Management",
+        "Senior Product Manager"
+      ],
+      "cities": [
+        "Shenzhen"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20casetify&geoUrn=%5B%22102222071%22%5D",
+      "notes": "NEW: D2C tech brand. 2 score-85+ roles in SZ. Supply chain/ops focus. Not direct apply — need referral."
+    },
+    {
+      "company": "JD.COM",
+      "priority": 21,
+      "roles_to_find": [
+        "BNPL Product & Operations Lead"
+      ],
+      "cities": [
+        "Hong Kong"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20jd.com%20fintech&geoUrn=%5B%22102222072%22%5D",
+      "notes": "NEW: BNPL Lead (100, HK) + BNPL Lead Europe (87, HK). Fintech + commerce. Direct apply for score-100 role."
     }
   ],
   "contact_targets": {
@@ -639,6 +680,28 @@
       "roles": [
         "Director Earn Products",
         "Head of AI Products"
+      ]
+    },
+    "coupang": {
+      "current": 0,
+      "target": 2,
+      "roles": [
+        "Director Product & Program Management",
+        "Principal Business Strategy & Ops"
+      ]
+    },
+    "casetify": {
+      "current": 0,
+      "target": 1,
+      "roles": [
+        "Senior Product Manager Supply Chain"
+      ]
+    },
+    "jd_com": {
+      "current": 0,
+      "target": 1,
+      "roles": [
+        "BNPL Product & Operations Lead"
       ]
     }
   }
