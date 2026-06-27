@@ -333,7 +333,7 @@
   "research_queue": [
     {
       "company": "Wellington Management",
-      "priority": 1,
+      "priority": 99,
       "roles_to_find": [
         "Director Product Strategy APAC"
       ],
@@ -341,11 +341,11 @@
         "Singapore"
       ],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20Wellington%20Management%20Singapore&geoUrn=%5B%22102222073%22%5D",
-      "notes": "Score-100 Director role. Investment management + strategy. Direct apply available. HIGHEST PRIORITY - find contact."
-    },
+      "notes": "Jul 5 CORRECTION: This role does NOT exist in the database. 0 jobs found for Wellington. Remove from priority queue. Was phantom entry from earlier analysis."
+      },
     {
       "company": "Mastercard",
-      "priority": 2,
+      "priority": 10,
       "roles_to_find": [
         "Director AI & Data Strategy"
       ],
@@ -353,11 +353,11 @@
         "Singapore"
       ],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=director%20strategy%20Mastercard%20Singapore&geoUrn=%5B%22102222073%22%5D",
-      "notes": "Score-100 Director role. Fintech + AI intersection. Direct apply available. HIGH PRIORITY."
-    },
+      "notes": "Jul 5 CORRECTION: Only 1 role in database (score 80, not 100). Glassdoor link — may not be direct apply. Lower priority than Coupang/Datadog/Payoneer."
+      },
     {
       "company": "BlackRock",
-      "priority": 3,
+      "priority": 99,
       "roles_to_find": [
         "Aladdin Product Solutions Director"
       ],
@@ -365,11 +365,11 @@
         "Singapore"
       ],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20BlackRock%20Aladdin&geoUrn=%5B%22102222073%22%5D",
-      "notes": "Score-100 Director role. Asset management platform. Direct apply available. HIGH PRIORITY."
-    },
+      "notes": "Jul 5 CORRECTION: This role does NOT exist in the database. 0 jobs found for BlackRock. Remove from priority queue. Was phantom entry."
+      },
     {
       "company": "BNY",
-      "priority": 4,
+      "priority": 99,
       "roles_to_find": [
         "Director Commercial PM Custody Platform"
       ],
@@ -377,8 +377,8 @@
         "Singapore"
       ],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20BNY%20custody&geoUrn=%5B%22102222073%22%5D",
-      "notes": "Score-100 Director role. Custody + digital assets. Direct apply available. HIGH PRIORITY."
-    },
+      "notes": "Jul 5 CORRECTION: This role does NOT exist in the database. 0 jobs found for BNY. Remove from priority queue. Was phantom entry."
+      },
     {
       "company": "DBS Bank",
       "priority": 5,
@@ -419,7 +419,7 @@
     },
     {
       "company": "Airwallex",
-      "priority": 8,
+      "priority": 12,
       "roles_to_find": [
         "Director Product Strategy Payments"
       ],
@@ -427,11 +427,11 @@
         "Singapore"
       ],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20airwallex&geoUrn=%5B%22102222073%22%5D",
-      "notes": "3 score-100 Director roles in SG. Emily Watson (existing contact) is Head of Product in Beijing. ASK FOR SG INTROS."
-    },
+      "notes": "Jul 5 CORRECTION: Both score-80+ roles are STALE (pre-Jun 20). Emily Watson contact is overdue 11 days. Lower priority than fresh companies. Still worth asking for intros."
+      },
     {
       "company": "ByteDance",
-      "priority": 9,
+      "priority": 13,
       "roles_to_find": [
         "Growth Strategy PM Global Payment",
         "Card Growth PM Global Payment"
@@ -440,8 +440,8 @@
         "Singapore"
       ],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20bytedance%20global%20payment&geoUrn=%5B%22102222073%22%5D",
-      "notes": "2 cross-border payment PM roles in SG (score 85 each). David Liu can intro. HIGH PRIORITY."
-    },
+      "notes": "Jul 5 CORRECTION: All 3 score-80+ roles are STALE (pre-Jun 20). David Liu contact is overdue 12 days. Lower priority than fresh companies. Still worth reconnecting."
+      },
     {
       "company": "Crypto.com",
       "priority": 10,
@@ -469,7 +469,7 @@
     },
     {
       "company": "Binance",
-      "priority": 12,
+      "priority": 11,
       "roles_to_find": [
         "AI Chatbot PM",
         "Director PM Earn Products"
@@ -479,8 +479,8 @@
         "Singapore"
       ],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20binance&geoUrn=%5B%22102222072%22%5D",
-      "notes": "AI Chatbot PM in HK (score 77) + Earn Structured Product in SG (score 70). Replace placeholder contact."
-    },
+      "notes": "Jul 5 CORRECTION: All 5 score-80+ roles are STALE (pre-Jun 20). Verify roles still open before applying. Lower priority than fresh companies."
+      },
     {
       "company": "SymphonyAI",
       "priority": 13,
@@ -560,11 +560,13 @@
     },
     {
       "company": "Coupang",
-      "priority": 19,
+      "priority": 1,
       "roles_to_find": [
         "Director, Product & Program Management",
         "(Senior) Principal Business Strategy & Ops",
-        "Director, Growth Marketing"
+        "Director, Growth Marketing",
+        "Group Product Manager",
+        "Head of Driver Supply Growth & Engagement"
       ],
       "cities": [
         "Shanghai",
@@ -572,7 +574,45 @@
         "Taipei"
       ],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20coupang&geoUrn=%5B%22102222074%22%2C%22102222076%22%5D",
-      "notes": "NEW PRIORITY: 10 score-80+ roles (was only tracking 3). Amazon of Korea — cross-border commerce DNA. Director P&PM SH (88) + Principal BizOps SH (85) + Director Growth Tokyo (82). All direct apply. HIGH VALUE."
+      "notes": "Jul 5 UPDATE: #1 PRIORITY. 10 score-80+ roles, ALL FRESH (scanned Jun 20+), 4 direct-apply. ZERO contacts. Amazon of Korea — cross-border commerce DNA. Director P&PM SH (88) + Principal BizOps SH (85) + Director Growth Tokyo (82) + Group PM Taipei (80) + Driver Supply Tokyo (83). All direct apply via Greenhouse. THIS IS YOUR #1 CONTACT MAPPING TARGET."
+    },
+    {
+      "company": "Datadog",
+      "priority": 2,
+      "roles_to_find": [
+        "Country Manager",
+        "Head of Enterprise Sales, Japan"
+      ],
+      "cities": [
+        "Tokyo"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=general%20manager%20datadog%20japan&geoUrn=%5B%22103024086%22%5D",
+      "notes": "Jul 5 UPDATE: 2 fresh score-80+ roles in Tokyo, ALL direct-apply. Country Manager (90) + Head Enterprise Sales (88). GM role = Amazon ops parallel. ZERO contacts."
+    },
+    {
+      "company": "Payoneer",
+      "priority": 3,
+      "roles_to_find": [
+        "Chief of Staff, GTM China",
+        "Senior Growth Marketing Manager, SME"
+      ],
+      "cities": [
+        "Shanghai"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=chief%20of%20staff%20payoneer&geoUrn=%5B%22102222074%22%5D",
+      "notes": "Jul 5 UPDATE: 2 fresh score-80+ roles in SH, ALL direct-apply. Chief of Staff GTM China (92) is HIGHEST score fresh role. Cross-border payments + China GTM — perfect fit. ZERO contacts."
+    },
+    {
+      "company": "Anthropic",
+      "priority": 4,
+      "roles_to_find": [
+        "Revenue Strategy & Operations Lead, Japan"
+      ],
+      "cities": [
+        "Tokyo"
+      ],
+      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=strategy%20anthropic%20japan&geoUrn=%5B%22103024086%22%5D",
+      "notes": "Jul 5 UPDATE: 1 fresh score-85+ role in Tokyo, direct-apply. Revenue Strategy & Ops (85). AI + strategy — rare combination. ZERO contacts."
     },
     {
       "company": "CASETiFY",
@@ -601,9 +641,43 @@
     }
   ],
   "contact_targets": {
+    "coupang": {
+      "current": 0,
+      "target": 3,
+      "roles": [
+        "Director Product & Program Management",
+        "Principal Business Strategy & Ops",
+        "Director Growth Marketing"
+      ]
+    },
+    "datadog": {
+      "current": 0,
+      "target": 2,
+      "roles": [
+        "Country Manager",
+        "Head Enterprise Sales Japan"
+      ]
+    },
+    "payoneer": {
+      "current": 0,
+      "target": 2,
+      "roles": [
+        "Chief of Staff GTM China",
+        "Sr Growth Marketing Manager"
+      ]
+    },
+    "anthropic": {
+      "current": 0,
+      "target": 1,
+      "roles": [
+        "Revenue Strategy & Ops Lead Japan"
+      ]
+    },
     "wellington_management": {
       "current": 0,
       "target": 2,
+      "_deprecated": true,
+      "_deprecated_reason": "Jul 5: No jobs in database. Phantom entry.",
       "roles": [
         "Director Product Strategy APAC"
       ]
@@ -611,6 +685,7 @@
     "mastercard": {
       "current": 0,
       "target": 2,
+      "_note": "Only 1 role in database (score 80). Lower priority.",
       "roles": [
         "Director AI & Data Strategy"
       ]
@@ -618,6 +693,8 @@
     "blackrock": {
       "current": 0,
       "target": 2,
+      "_deprecated": true,
+      "_deprecated_reason": "Jul 5: No jobs in database. Phantom entry.",
       "roles": [
         "Aladdin Product Solutions Director"
       ]
@@ -625,6 +702,8 @@
     "bny": {
       "current": 0,
       "target": 2,
+      "_deprecated": true,
+      "_deprecated_reason": "Jul 5: No jobs in database. Phantom entry.",
       "roles": [
         "Director Commercial PM Custody"
       ]

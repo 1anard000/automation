@@ -1,8 +1,8 @@
 # Outreach Tracking — Career OS
 
-## 🚨 EXECUTION STATUS (June 27, 2026 — Updated by Career OS Cron)
+## 🚨 EXECUTION STATUS (July 5, 2026 — Updated by Career OS Cron)
 
-**Status: 18+ DAYS of zero execution. Database has 918 unique jobs. OKX has 57 roles (26 score-80+). THIS WEEK (Jun 27 - Jul 3): Focus on David Liu (OVERDUE 12 DAYS) + 2 OKX Director apps + 1 SG Director app. Start with ONE action TODAY — David Liu WeChat message.**
+**Status: 22+ DAYS of zero execution. Database has 899 jobs (last scanned Jun 25 — NEEDS REFRESH). 25 fresh direct-apply score-80+ roles identified. #1 PRIORITY: Coupang (10 fresh roles, ZERO contacts). Start with ONE action TODAY — apply to Payoneer Chief of Staff (score 92, SH, direct).**
 ### 📊 Cumulative Status (All-Time)
 | Metric | Target (to date) | Actual | Status |
 |--------|-----------------|--------|--------|
@@ -11,14 +11,14 @@
 | Meetings set | 5+ | **0** | 🔴 CRITICAL |
 | Referrals gained | 3+ | **0** | 🔴 CRITICAL |
 
-### ⚡ TODAY'S TOP 3 ACTIONS (Jun 27 — Saturday)
-**Goal: Break the zero streak. 1 action minimum. 10 minutes.**
+### ⚡ TODAY'S TOP 3 ACTIONS (Jul 5 — Saturday)
+**Goal: Break the zero streak. 1 action minimum. 15 minutes.**
 
-1. **Send David Liu message** (ByteDance) — OVERDUE 12 DAYS. WeChat reconnection. 10 min.
-2. **Apply: OKX Product Ops Director, Institutional Product** (HK, score 88, DIRECT) — 15 min.
-3. **Apply: OKX Senior Manager / Director, Growth Operation** (HK, score 88, DIRECT) — 15 min.
+1. **Apply: Payoneer Chief of Staff, GTM China** (SH, score 92, DIRECT) — 15 min. Highest-score fresh role.
+2. **Apply: OKX VP AI Strategy & Transformation** (HK, score 90, DIRECT) — 15 min. Dream role.
+3. **Apply: Datadog Country Manager** (Tokyo, score 90, DIRECT) — 15 min. GM role — Amazon parallel.
 
-**Saturday focus: Just #1. Send David Liu's WeChat message. That's it. One action, 10 minutes. The rest can wait until Monday.**
+**Saturday focus: Just #1. Apply to Payoneer Chief of Staff. 15 minutes. Breaks the zero with the highest-score fresh role.**
 
 ### 📋 NEW: OKX Deep Dive Created (June 26)
 OKX has **102 open roles** (26 score-80+, 13 direct-apply). See `strategy/okx-deep-dive.md` for:
@@ -380,13 +380,14 @@ OKX has **102 open roles** (26 score-80+, 13 direct-apply). See `strategy/okx-de
 | 2026-06-26 | **Market Intelligence refresh — database-driven analysis** | 899 jobs | Career OS | ✅ Done | Web search billing unavailable. Ran local database analysis. Found 44 direct-apply score-80+ English roles (was 16). OKX has 27 score-80+ (6 direct-apply). Coupang underexplored (10 score-80+, 4 direct-apply). Tokyo emerging (5 score-80+). Updated market-intelligence.md with fresh tier rankings, OKX deep dive, Coupang analysis, and Tokyo market entry. Updated outreach tracker application count to 899. |
 | 2026-07-01 | **Strategy + Outreach refresh — DB growth analysis** | 1,211 jobs | Career OS | ✅ Done | Database grew 35% (899→1,211). Found 5 NEW OKX direct-apply Director roles (score 86-88) missed in previous analysis. Coupang doubled (60→126). Updated career-strategy.md with growth metrics, new OKX quick wins, company growth tracking. Updated outreach-tracker.md with Jul 1 week plan, revised overdue dates, new TODAY'S TOP 3. Web search billing unavailable — used local DB analysis. |
 | 2026-06-27 | **Outreach review — date sync to Jun 27 + weekly plan** | Career OS | Career OS | ✅ Done | Fixed duplicate header, updated all dates to Jun 27, recalculated overdue: David Liu (12d), Michael Zhang (14d), Emily Watson (11d), Thomas Anderson (8d), Sarah Chen (11d), Amanda Foster (9d), Lisa Wang (3d). Created Jun 27-Jul 3 weekly plan. Added Saturday focus: David Liu WeChat only (10 min). DB verified: 918 unique jobs. OKX 57 roles. |
+| 2026-07-05 | **Market Intelligence + Contact Mapping refresh** | Career OS | Career OS | ✅ Done | **KEY FINDING: Coupang is #1 hidden opportunity** — 10 score-80+ roles, ALL FRESH, 4 direct-apply, ZERO contacts. Created market-intelligence-jul5.md with "Golden 25" fresh direct-apply list. Updated contacts.json: Coupang → priority 1, added Datadog/Payoneer/Anthropic, deprecated phantom companies (Wellington/BlackRock/BNY — 0 jobs in DB). Updated outreach tracker: Jul 5-11 plan with 21 apps + 2 contact maps. TODAY'S TOP 3: Payoneer Chief of Staff (92), OKX VP AI (90), Datadog Country Manager (90). Web tools billing unavailable — used local DB analysis. |
 
 ---
 
 ## 📊 Application Tracking
 
-**Current status: 0% application rate (918 unique roles in database, 0 submitted)**
-**Week targets: 3 OKX Director apps (HK/SG, score 86-88) + 4 outreach messages = 7 actions in 2 hours**
+**Current status: 0% application rate (899 roles in database, 0 submitted)**
+**Week targets: 25 fresh direct-apply score-80+ roles. Apply to Tier 1 (6 roles, score 88+) TODAY.**
 
 ### Application Log
 
@@ -428,25 +429,25 @@ OKX has **102 open roles** (26 score-80+, 13 direct-apply). See `strategy/okx-de
 
 ## 📋 Upcoming Plans
 
-**Week 3 (Jun 29 - Jul 5):** See WEEK 3 EXECUTION SPRINT section for daily breakdown.
-**Week 4 (Jul 6 - Jul 12):** See WEEK 4 EXECUTION PLAN section for daily breakdown. Mastercard + BlackRock + BNY Director apps (SG) + follow-ups.
-**Monthly (July):** Target 8 outreach + 10 applications + 2 meetings.
+**Week 1 (Jul 5-11):** Apply to 25 fresh direct-apply score-80+ roles. Contact map Coupang + Datadog Tokyo.
+**Week 2 (Jul 12-18):** Follow up on Week 1 applications. Contact map Anthropic Tokyo + Payoneer SH. Send overdue outreach.
+**Monthly (July):** Target 25 applications + 10 outreach + 3 meetings.
 
-### 🔴 THIS WEEK: Jun 27 - Jul 3 (Updated Jun 27)
-**Goal: Send 2 overdue messages + 2 applications = 4 actions in 2 hours. David Liu is OVERDUE 12 DAYS.**
+### 🔴 THIS WEEK: Jul 5 - Jul 11 (Updated Jul 5)
+**Goal: Apply to 6 Tier 1 roles (score 88+) + contact map Coupang = 7 actions in 3 hours.**
 
 | Day | Time Box | Action | Est. Time |
 |-----|----------|--------|-----------|
-| Sat Jun 27 | 10 min | Send David Liu (ByteDance, OVERDUE 12 DAYS) via WeChat | 10 min |
-| Sun Jun 28 | 10 min | Send Michael Zhang (OpenAI, OVERDUE 14 DAYS) + alignment paper | 10 min |
-| Mon Jun 29 | 15 min | Apply: OKX Product Ops Director, Institutional Product (HK, score 88, DIRECT) | 15 min |
-| Tue Jun 30 | 15 min | Apply: OKX Senior Manager / Director, Growth Operation (HK, score 88, DIRECT) | 15 min |
-| Wed Jul 1 | 15 min | Apply: OKX Managing Director, Global Banking Partnerships (SG, score 86, DIRECT) | 15 min |
-| Thu Jul 2 | 15 min | Send Emily Watson (Airwallex, OVERDUE 11 DAYS) + Thomas Anderson (Meta, OVERDUE 8 DAYS) | 15 min |
-| Fri Jul 3 | 15 min | Send Amanda Foster (Google, OVERDUE 9 DAYS) + Lisa Wang (Sequoia, OVERDUE 3 DAYS) | 15 min |
-| **TOTAL** | **1.5 hrs** | **4 outreach + 3 applications** | |
+| Sat Jul 5 | 15 min | Apply: Payoneer Chief of Staff GTM China (SH, score 92, DIRECT) | 15 min |
+| Sun Jul 6 | 45 min | Apply: OKX VP AI Strategy (90) + Datadog Country Manager (90) + OKX Sr Strategy PM (90) + Coupang Director P&PM (88) + Datadog Head Sales (88) | 45 min |
+| Mon Jul 7 | 60 min | Apply: Anthropic Revenue Strategy (85) + Coupang Principal BizOps (85) + Flexport Sr BD (85) + GitLab Regional Director (85) + Agoda Growth (83) | 60 min |
+| Tue Jul 8 | 60 min | Apply: Coupang Growth Marketing (82) + Notion Country Manager (82) + Stripe Enterprise PM (82) + Flexport Staff PM (81) + OKX Data Scientist (81) | 60 min |
+| Wed Jul 9 | 30 min | Apply: Agoda Strategic Partnerships (80) + Coupang Group PM (80) + OKX Fraud Risk (80) + Payoneer Growth Marketing (80) + Stripe Partner Dev (80) | 30 min |
+| Thu Jul 10 | 30 min | Contact map: LinkedIn search for Coupang Shanghai product directors. Add 2-3 to contacts.json | 30 min |
+| Fri Jul 11 | 20 min | Contact map: LinkedIn search for Datadog Japan leadership. Add to contacts.json. Weekly review. | 20 min |
+| **TOTAL** | **4.5 hrs** | **21 applications + 2 contact maps** | |
 
-**Saturday focus: Just David Liu's message. 10 minutes. That breaks the zero.**
+**Saturday focus: Just Payoneer Chief of Staff. 15 minutes. Highest-score fresh role (92). Breaks the zero.**
 
 ### 🎯 Monthly Targets (July 2026)
 | Metric | Target | Actual | Status |
