@@ -18,7 +18,7 @@ def load_jobs():
 def build_html(jobs):
     # Gather dynamic filter options
     grades = sorted(set(j.get("grade", "") for j in jobs if j.get("grade")))
-    locations = sorted(set(j.get("location", "") for j in jobs if j.get("location")))
+    locations = sorted(set(j.get("city_normalized", j.get("location", "")) for j in jobs if j.get("city_normalized") or j.get("location")))
     role_types = sorted(set(j.get("role_type", "") for j in jobs if j.get("role_type")))
     categories = sorted(set(j.get("category", "") for j in jobs if j.get("category")))
     statuses = sorted(set(j.get("status", "not_applied") for j in jobs))
@@ -232,7 +232,7 @@ function renderTable(data) {{
       <td><span class="badge ${{gc}}">${{j.grade}}</span> ${{qualityHtml}}</td>
       <td><strong>${{j.title}}</strong>${{engBadge}}${{enTitle}}</td>
       <td>${{j.company}}</td>
-      <td><span class="city-tag">${{j.location}}</span></td>
+      <td><span class="city-tag">${{j.city_normalized || j.location}}</span></td>
       <td class="hide-mobile"><span class="cat-tag ${{cc}}">${{catLabel}}</span></td>
       <td class="hide-mobile"><span class="${{diffClass}}">${{diffLabel}}</span></td>
       <td class="hide-mobile" style="color:#94a3b8;font-size:0.7rem">${{j.salary||'—'}}</td>
@@ -253,7 +253,8 @@ function filterData() {{
   let d = jobs.filter(j => {{
     if (q && !j.title.toLowerCase().includes(q) && !j.company.toLowerCase().includes(q) && !(j.en_title||'').toLowerCase().includes(q)) return false;
     if (g && j.grade !== g) return false;
-    if (c && j.location !== c) return false;
+    const cLoc = j.city_normalized || j.location || '';
+    if (c && cLoc !== c) return false;
     if (cat && j.category !== cat) return false;
     if (diff && j.app_difficulty !== diff) return false;
     if (eng === 'true' && !j.english_friendly) return false;

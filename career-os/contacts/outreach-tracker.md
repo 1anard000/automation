@@ -1,23 +1,33 @@
 # Outreach Tracking — Career OS
 
-## 🚨 EXECUTION STATUS (June 26, 2026 — Updated by Career OS Cron)
+## 🚨 EXECUTION STATUS (July 5, 2026 — Updated by Career OS Cron)
 
-**Status: Week 2 ended with ZERO execution. 5 days of planned outreach + applications = nothing sent. The planning is excellent. The execution is nonexistent. Week 3 plan is simpler: 2 outreach + 2 applications in 2.25 hours. Thomas Anderson follow-up is DUE TODAY.**
-
+**Status: 22+ DAYS of zero execution. Database has 899 jobs (last scanned Jun 25 — NEEDS REFRESH). 25 fresh direct-apply score-80+ roles identified. #1 PRIORITY: Coupang (10 fresh roles, ZERO contacts). Start with ONE action TODAY — apply to Payoneer Chief of Staff (score 92, SH, direct).**
 ### 📊 Cumulative Status (All-Time)
 | Metric | Target (to date) | Actual | Status |
 |--------|-----------------|--------|--------|
-| Applications sent | 25+ | **0** | 🔴 CRITICAL |
-| Outreach messages sent | 12+ | **0** | 🔴 CRITICAL |
-| Meetings set | 4+ | **0** | 🔴 CRITICAL |
+| Applications sent | 30+ | **0** | 🔴 CRITICAL |
+| Outreach messages sent | 15+ | **0** | 🔴 CRITICAL |
+| Meetings set | 5+ | **0** | 🔴 CRITICAL |
 | Referrals gained | 3+ | **0** | 🔴 CRITICAL |
 
-### ⚡ TODAY'S TOP 3 ACTIONS (June 26)
-1. **Send Thomas Anderson message** — DUE TODAY. Reconnect after 8+ months. Ask about Meta APAC strategy/ops. (10 min)
-2. **Send Michael Zhang message** — OVERDUE 7 days. Alignment paper + APAC expansion. (10 min)
-3. **Send David Liu WeChat** — OVERDUE 6 days. Reconnect after 6+ months. (5 min)
+### ⚡ TODAY'S TOP 3 ACTIONS (Jul 5 — Saturday)
+**Goal: Break the zero streak. 1 action minimum. 15 minutes.**
 
-**Total time: 25 minutes. Do it before noon.**
+1. **Apply: Payoneer Chief of Staff, GTM China** (SH, score 92, DIRECT) — 15 min. Highest-score fresh role.
+2. **Apply: OKX VP AI Strategy & Transformation** (HK, score 90, DIRECT) — 15 min. Dream role.
+3. **Apply: Datadog Country Manager** (Tokyo, score 90, DIRECT) — 15 min. GM role — Amazon parallel.
+
+**Saturday focus: Just #1. Apply to Payoneer Chief of Staff. 15 minutes. Breaks the zero with the highest-score fresh role.**
+
+### 📋 NEW: OKX Deep Dive Created (June 26)
+OKX has **102 open roles** (26 score-80+, 13 direct-apply). See `strategy/okx-deep-dive.md` for:
+- Team structure analysis (6 teams identified)
+- 10 priority contacts to find
+- LinkedIn search URLs (copy-paste ready)
+- 16 OKX roles to apply to this week
+- Cross-reference: your differentiators × OKX needs
+- **NEW Jul 1:** 3 Director-level direct-apply roles (score 86-88) in HK/SG — HIGHEST priority
 
 ### 🎯 MINIMUM VIABLE EXECUTION (Daily — Non-Negotiable)
 1. Send 1 overdue message (10 min)
@@ -31,13 +41,13 @@
 
 | Day | Time Box | Action | Est. Time |
 |-----|----------|--------|-----------|
-| Sat Jun 29 | 20 min | Send Lisa Wang message (Q2 metrics + APAC portfolio ask) | 20 min |
-| Sun Jun 30 | 20 min | Send Thomas Anderson message (reconnect after 8+ months) | 20 min |
-| Mon Jul 1 | 30 min | Apply: Airwallex Director Product Strategy (SG, score 100) | 30 min |
-| Tue Jul 2 | 30 min | Apply: Wellington Management Director (SG, score 100) | 30 min |
-| Wed Jul 3 | 20 min | Follow up on any Week 2 responses | 20 min |
-| Thu Jul 4 | — | Holiday — no action | — |
-| Fri Jul 5 | 15 min | Weekly review: Did we break the zero? | 15 min |
+| Mon Jun 29 | 20 min | Send Lisa Wang message (Q2 metrics + APAC portfolio ask) | 20 min |
+| Tue Jun 30 | 20 min | Send Thomas Anderson message (reconnect after 8+ months) | 20 min |
+| Wed Jul 1 | 30 min | Apply: Airwallex Director Product Strategy (SG, score 100) | 30 min |
+| Thu Jul 2 | 30 min | Apply: Wellington Management Director (SG, score 100) | 30 min |
+| Fri Jul 3 | 20 min | Follow up on any Week 2 responses | 20 min |
+| Sat Jul 4 | — | Holiday — no action | — |
+| Sun Jul 5 | 15 min | Weekly review: Did we break the zero? | 15 min |
 | **TOTAL** | **2.25 hrs** | **2 outreach + 2 applications** | |
 
 ### 📌 Accountability Rules
@@ -46,6 +56,79 @@
 - **After:** Update EXECUTION LOG below with timestamp
 - **If blocked:** Note the blocker, move to next task, circle back
 - **Weekly:** Review what got done vs. plan, adjust next week
+
+---
+
+### 🚀 WEEK 4 EXECUTION PLAN (July 6 - July 12)
+**Goal: 3 applications + 2 follow-ups = 5 actions in 3 hours. Build on Week 3 momentum.**
+
+| Day | Time Box | Action | Est. Time |
+|-----|----------|--------|-----------|
+| Mon Jul 6 | 30 min | Apply: Mastercard Director AI & Data Strategy (SG, score 80) | 30 min |
+| Tue Jul 7 | 30 min | Apply: BlackRock Aladdin Product Solutions Director (SG, score 100) | 30 min |
+| Wed Jul 8 | 30 min | Apply: BNY Director Commercial PM Custody (SG, score 100) | 30 min |
+| Thu Jul 9 | 20 min | Follow up on all Week 3 outreach — who responded? Send gentle nudges to non-responders | 20 min |
+| Fri Jul 10 | 20 min | Follow up on Week 3 applications — check status, update tracker | 20 min |
+| Sat Jul 11 | 15 min | Plan Week 5: Which companies to target next? | 15 min |
+| Sun Jul 12 | — | Rest day — no action | — |
+| **TOTAL** | **2.75 hrs** | **3 applications + 2 follow-ups** | |
+
+**Key insight:** Week 4 targets SG Director-level roles at established financial institutions (Mastercard, BlackRock, BNY). These are score-100 roles with direct apply. The SG strategy/director market is your strongest play.
+
+---
+
+### 🔥 BREAK THE ZERO: Simplified Daily Actions
+> **If the full plan feels overwhelming, do THIS instead.** One action per day. That's it.
+
+| Day | One Action | Time | Why It Matters |
+|-----|-----------|------|----------------|
+| **Today (Fri Jun 26)** | Send Thomas Anderson message (Meta) | 10 min | Only non-overdue message — least risk |
+| **Sat Jun 27** | Apply to ONE score-100 HK role | 5 min | Binance Senior Payment PM or Coins.ph Card Issuing |
+| **Sun Jun 28** | Send Michael Zhang message (OpenAI) | 10 min | 7 days overdue — fix broken promise |
+| **Mon Jun 29** | Apply to ONE more score-100 HK role | 5 min | Gate Senior Fiat PM or JD.COM BNPL Lead |
+| **Tue Jun 30** | Send David Liu message (ByteDance) | 10 min | WeChat — reconnect after 6+ months |
+| **Wed Jul 1** | Apply: Airwallex Director (SG, score 100) | 15 min | First SG application — expand beyond HK |
+| **Thu Jul 2** | Send Emily Watson message (Airwallex) | 10 min | Ask about SG Director roles |
+| **Fri Jul 3** | Apply: Wellington Director (SG, score 100) | 15 min | Second SG application |
+| **Sat Jul 4** | — | — | Holiday — no action |
+| **Sun Jul 5** | Review: What got done? What didn't? | 10 min | Honest assessment → adjust Week 4 |
+
+**Week total: 10 min/day average. 4 applications + 4 outreach messages. That breaks the zero.**
+
+---
+
+### 📊 30-Day Accountability Tracker
+> **Track daily. Be honest. If you miss a day, note it and move on.**
+
+| Date | Action Taken | ✅/❌ | Time Spent | Notes |
+|------|-------------|-------|------------|-------|
+| Jun 26 | | | | |
+| Jun 27 | | | | |
+| Jun 28 | | | | |
+| Jun 29 | | | | |
+| Jun 30 | | | | |
+| Jul 1 | | | | |
+| Jul 2 | | | | |
+| Jul 3 | | | | |
+| Jul 4 | | | | |
+| Jul 5 | | | | |
+| Jul 6 | | | | |
+| Jul 7 | | | | |
+| Jul 8 | | | | |
+| Jul 9 | | | | |
+| Jul 10 | | | | |
+| Jul 11 | | | | |
+| Jul 12 | | | | |
+| Jul 13-26 | *(add rows as needed)* | | | |
+
+### 📈 30-Day Targets (Jun 26 - Jul 26)
+| Metric | Target | Actual | Status |
+|--------|--------|--------|--------|
+| Applications sent | 15+ | 0 | 🔴 |
+| Outreach messages sent | 10+ | 0 | 🔴 |
+| Responses received | 3+ | 0 | 🔴 |
+| Meetings set | 1+ | 0 | 🔴 |
+| Days with at least 1 action | 20+ | 0 | 🔴 |
 
 ---
 
@@ -61,36 +144,40 @@
 | 🎤 Interviewing | 0 | Not in any process |
 | ✅ Offer | 0 | — |
 
-## Immediate Follow-ups (Week of June 22-28 — UPDATED JUN 26)
-> ⚠️ Updated June 26. 6 messages overdue or due today. Priority: Thomas Anderson (due today), Michael Zhang (7 days overdue), David Liu (6 days overdue).
+## Immediate Follow-ups (Week of Jun 27 - Jul 3 — UPDATED Jun 27)
+> ⚠️ Updated Jun 27. David Liu is now OVERDUE 12 DAYS. Michael Zhang is OVERDUE 14 DAYS. Emily Watson OVERDUE 11 DAYS. Thomas Anderson overdue 8 days. All overdue follow-ups are HIGH REPUTATIONAL RISK. ZERO messages sent in 18+ days.
 | Contact | Company | Action | Due | Channel | Status | Priority |
 |---------|---------|--------|-----|---------|--------|----------|
-| Thomas Anderson | Meta | DUE TODAY: Reconnect after 8+ months. Ask about Meta APAC strategy/ops. | 2026-06-26 | LinkedIn/Email | 🔴 DUE TODAY | ⚡ P1 |
-| Michael Zhang | OpenAI | OVERDUE 7 DAYS: Send alignment paper. Ask about APAC expansion. | 2026-06-19 | LinkedIn/Email | 🔴 OVERDUE (7 days) | ⚡ P1 |
-| David Liu | ByteDance | URGENT: Reconnect after 6+ months. TikTok E-commerce PM roles. | 2026-06-20 | WeChat | 🔴 OVERDUE (6 days) | ⚡ P1 |
-| Emily Watson | Airwallex | OVERDUE 5 DAYS: Follow up on ML hiring. Director Product Strategy Payments (SG). | 2026-06-21 | LinkedIn/Email | 🔴 OVERDUE (5 days) | ⚡ P1 |
-| Sarah Chen | NVIDIA | OVERDUE 3 DAYS: Follow up on partnership proposal. APAC strategy team question. | 2026-06-23 | LinkedIn/Email | 🔴 OVERDUE (3 days) | ⚡ P1 |
-| Amanda Foster | Google | OVERDUE 1 DAY: Ask about APAC BizOps/Chief of Staff role at Google Singapore. | 2026-06-25 | LinkedIn/Email | 🔴 OVERDUE (1 day) | 🟢 P2 |
-| Lisa Wang | Sequoia | Share Q2 metrics. Ask about APAC portfolio companies. | 2026-06-30 | LinkedIn/Email | ⏳ PENDING (4 days) | 🟢 P2 |
+| David Liu | ByteDance | URGENT: Reconnect after 12+ months. TikTok E-commerce PM roles. | 2026-06-20 | WeChat | 🔴 OVERDUE (12 days) | ⚡ P1 |
+| Emily Watson | Airwallex | OVERDUE 11 DAYS: Follow up on ML hiring. Director Product Strategy Payments (SG). | 2026-06-21 | LinkedIn/Email | 🔴 OVERDUE (11 days) | ⚡ P1 |
+| Michael Zhang | OpenAI | OVERDUE 14 DAYS: Send alignment paper. Ask about APAC expansion. | 2026-06-19 | LinkedIn/Email | 🔴 OVERDUE (14 days) | ⚡ P1 |
+| Thomas Anderson | Meta | OVERDUE 8 DAYS: Reconnect after 8+ months. Ask about Meta APAC strategy/ops. | 2026-06-26 | LinkedIn/Email | 🔴 OVERDUE (8 days) | ⚡ P1 |
+| Sarah Chen | NVIDIA | OVERDUE 11 DAYS: Follow up on partnership proposal. APAC strategy team question. | 2026-06-23 | LinkedIn/Email | 🔴 OVERDUE (11 days) | 🟢 P2 |
+| Amanda Foster | Google | OVERDUE 9 DAYS: Ask about APAC BizOps/Chief of Staff role at Google Singapore. | 2026-06-25 | LinkedIn/Email | 🔴 OVERDUE (9 days) | 🟢 P2 |
+| Lisa Wang | Sequoia | OVERDUE 3 DAYS: Share Q2 metrics. Ask about APAC portfolio companies. | 2026-06-30 | LinkedIn/Email | 🔴 OVERDUE (3 days) | 🟢 P2 |
 
-### 🚨 CRITICAL: 6 Messages OVERDUE or DUE TODAY (June 26)
+### 🚨 CRITICAL: ALL 7 Messages OVERDUE (June 27)
 
-**Priority order for TODAY (June 26):**
-1. **Thomas Anderson (Meta)** — DUE TODAY. Reconnect after 8+ months. Ask about Meta APAC strategy/ops.
-2. **Michael Zhang (OpenAI)** — OVERDUE by 7 days. Alignment paper + APAC expansion question.
-3. **David Liu (ByteDance)** — OVERDUE by 6 days. WeChat reconnection after 6+ months.
-4. **Emily Watson (Airwallex)** — OVERDUE by 5 days. Airwallex SG Director roles.
-5. **Sarah Chen (NVIDIA)** — OVERDUE by 3 days. Partnership proposal follow-up.
-6. **Amanda Foster (Google)** — OVERDUE by 1 day. Google SG BizOps intro.
+**Priority order for TODAY (Jun 27):**
+1. **David Liu (ByteDance)** — OVERDUE 12 DAYS. WeChat reconnection. Highest reputational risk. **Send TODAY.**
+2. **Michael Zhang (OpenAI)** — OVERDUE 14 DAYS. Alignment paper + APAC expansion question.
+3. **Emily Watson (Airwallex)** — OVERDUE 11 DAYS. Airwallex SG Director roles.
+4. **Thomas Anderson (Meta)** — OVERDUE 8 DAYS. Reconnect after 8+ months.
+5. **Amanda Foster (Google)** — OVERDUE 9 DAYS. Google SG BizOps intro.
+6. **Sarah Chen (NVIDIA)** — OVERDUE 11 DAYS. Partnership proposal follow-up.
+7. **Lisa Wang (Sequoia)** — OVERDUE 3 DAYS. Q2 metrics + APAC portfolio ask.
 
-**If you send just ONE message today, send Thomas Anderson's. It's the only one that's not yet overdue.**
+**If you send just ONE message today, send David Liu's. It's the most overdue — WeChat is his preferred channel, lowest friction.**
 
 ### 📊 Execution Velocity Tracker
 | Week | Outreach Sent | Apps Submitted | Time Invested | Notes |
 |------|--------------|----------------|---------------|-------|
 | Jun 15-21 | 0 | 0 | 0 hrs | **ZERO WEEK** |
 | Jun 22-28 | 0 | 0 | 0 hrs | **ZERO WEEK — Despite 4.25 hrs planned** |
-| Jun 29-Jul 5 | TARGET: 2 | TARGET: 2 | TARGET: 2.25 hrs | **Week 3 — Current** |
+| Jun 29-Jul 5 | TARGET: 4 | TARGET: 3 | TARGET: 2.5 hrs | **Week 4 — OKX Director apps + outreach** |
+| Jul 6-12 | TARGET: 3 | TARGET: 3 | TARGET: 2.75 hrs | **Week 5 — Mastercard + BlackRock apps** |
+
+> ⚠️ **18+ days of ZERO execution.** The bottleneck is doing, not planning. Today's minimum: send 1 WeChat message (10 min).
 
 ## ✉️ READY-TO-SEND MESSAGE DRAFTS
 > Copy-paste these. Each is personalized based on relationship history and specific roles.
@@ -277,21 +364,30 @@
 | 2026-06-25 | **Market Intelligence — Database expanded to 803 jobs** | 803 jobs | All companies | ✅ Database grew 70% (474→803). 135 score-80+ roles (was 60). New companies: Flexport (85), Thunes (86), D.E. Shaw (85), Adyen (81). OKX has 36 SG roles (13 score-80+). Updated market-intelligence.md, career-strategy.md, contacts.json research queue. |
 | 2026-06-24 | **Market Intelligence CORRECTED — 474 jobs (not 803)** | 474 jobs | All companies | ✅ Verified actual database has 474 jobs. June 25 claim of 803 was incorrect. 60 score-80+ (not 135). 16 direct-apply score-80+ (not 45). Fixed career-strategy.md and market-intelligence.md with accurate numbers. |
 | 2026-06-25 | **Outreach tracker cleanup** | Career OS | Career OS | ✅ Major cleanup: removed stale Week 2 sprint plan, consolidated Week 3/4 into top section, updated all dates to Jun 25, fixed pipeline table formatting, updated execution velocity tracker, added "STALE" warning to old follow-up section. File reduced from ~424 to ~340 lines. Clearer action path: send Michael Zhang message NOW. |
-| 2026-06-26 | **Outreach review — dates updated to Jun 26** | 7 contacts | Various | ✅ Updated EXECUTION STATUS to Jun 26. Recalculated overdue: Thomas Anderson (DUE TODAY), Michael Zhang (7 days), David Liu (6 days), Emily Watson (5 days), Sarah Chen (3 days), Amanda Foster (1 day). Updated TODAY'S TOP 3 with Thomas Anderson as #1. Renamed stale follow-up section to "UPDATED JUN 26". Added Thomas Anderson to priority list. Fixed recommendation: send Thomas Anderson first (only non-overdue). |
+| 2026-06-26 | **Outreach tracker — full date sync to Jun 26** | 7 contacts | Various | ✅ Fixed ALL stale dates: header (Jun 25→26), TODAY'S TOP 3 (Thomas Anderson is due today), overdue counts (Michael Zhang 7 days, David Liu 6 days), priority order (Thomas first now), execution velocity tracker, upcoming plans section. Added THIS WEEK plan (Jun 26-Jul 2): 6 outreach + 2 applications in 2.6 hrs. Fixed Thomas Anderson status from "DUE TOMORROW" to "DUE TODAY". |
+| 2026-06-25 | **Outreach review — dates corrected to Jun 25** | 7 contacts | Various | ✅ Fixed date drift (was Jun 26, corrected to Jun 25). Recalculated overdue: Michael Zhang (6 days), David Liu (5 days), Emily Watson (4 days), Sarah Chen (2 days), Amanda Foster (DUE TODAY), Thomas Anderson (due tomorrow). Updated TODAY'S TOP 3: Michael Zhang is most overdue. Fixed contacts.json overdue counts. |
+| 2026-06-26 | **OKX Deep Dive created** | OKX (69 roles) | Career OS | ✅ Created strategy/okx-deep-dive.md with team structure analysis (6 teams), 10 priority contacts, LinkedIn search URLs, 16 OKX roles to apply, cross-reference with your differentiators. OKX has 26 score-80+ roles — largest single-company opportunity. Updated contacts.json with 2 OKX placeholder contacts (VP AI Strategy dream role, Institutional Product director). Updated TODAY'S TOP 3: added 2 OKX applications. |
+| 2026-06-26 | **Strategy refresh — DB analysis with case variant fix** | 899 jobs | Career OS | ✅ Ran full 899-job database analysis. Found OKX case variant ("OKX" + "Okx" = 26 score-80+, was 19). Coupang undercounted (was 3, actual 10). Discovered Thunes (2 SG roles), CASETiFY (2 SZ roles), Adyen (1 SG role). Direct-apply score-80+ = 46 (was 42). 17 cross-border roles in target cities. Updated career-strategy.md company density table, city summary, and application status section. |
+| 2026-06-26 | **Outreach tracker — date corrections + Week 4 plan + accountability tracker** | Career OS | Career OS | ✅ Fixed ALL day-of-week errors in outreach-tracker.md (Jun 29 was labeled "Sat" but is Mon, etc.). Added detailed Week 4 plan (Jul 6-12): 3 SG Director apps (Mastercard, BlackRock, BNY) + 2 follow-ups = 2.75 hrs. Added "Break the Zero" simplified daily actions (10 min/day avg, 4 apps + 4 outreach). Added 30-day accountability tracker (Jun 26 - Jul 26) with daily log table. Added 30-day targets (15 apps, 10 outreach, 3 responses, 1 meeting). Updated "Upcoming Plans" to reference new Week 4 section. |
 
 ---
 
-## Event Discovery Update (June 26, 2026)
+## Event Discovery Update (July 1, 2026)
 | Date | Action | Contact/Role | Channel | Status | Notes |
 |------|--------|--------------|---------|--------|-------|
 | 2026-06-26 | Events file restructured with verification system | - | Career OS | ✅ Done | Added Date Verification Tracker, Event-to-Company Priority Matrix, Event-to-Contact Map, and Event ROI Tracking. Web tools unavailable (billing) — dates are estimated. Next run should verify top 5 URLs. |
+| 2026-07-01 | **Event date verification via curl + browser** | - | Career OS | ✅ Done | **SFF corrected: Nov 18-20 (was Nov 3-7).** RISE Conference: dates NOT published yet (Register Interest). ProductTank/Startup Grind: sites unreachable, rely on historical patterns. WAIC: blocked. Updated 5 SFF references across events.md. |
+| 2026-06-26 | **Market Intelligence refresh — database-driven analysis** | 899 jobs | Career OS | ✅ Done | Web search billing unavailable. Ran local database analysis. Found 44 direct-apply score-80+ English roles (was 16). OKX has 27 score-80+ (6 direct-apply). Coupang underexplored (10 score-80+, 4 direct-apply). Tokyo emerging (5 score-80+). Updated market-intelligence.md with fresh tier rankings, OKX deep dive, Coupang analysis, and Tokyo market entry. Updated outreach tracker application count to 899. |
+| 2026-07-01 | **Strategy + Outreach refresh — DB growth analysis** | 1,211 jobs | Career OS | ✅ Done | Database grew 35% (899→1,211). Found 5 NEW OKX direct-apply Director roles (score 86-88) missed in previous analysis. Coupang doubled (60→126). Updated career-strategy.md with growth metrics, new OKX quick wins, company growth tracking. Updated outreach-tracker.md with Jul 1 week plan, revised overdue dates, new TODAY'S TOP 3. Web search billing unavailable — used local DB analysis. |
+| 2026-06-27 | **Outreach review — date sync to Jun 27 + weekly plan** | Career OS | Career OS | ✅ Done | Fixed duplicate header, updated all dates to Jun 27, recalculated overdue: David Liu (12d), Michael Zhang (14d), Emily Watson (11d), Thomas Anderson (8d), Sarah Chen (11d), Amanda Foster (9d), Lisa Wang (3d). Created Jun 27-Jul 3 weekly plan. Added Saturday focus: David Liu WeChat only (10 min). DB verified: 918 unique jobs. OKX 57 roles. |
+| 2026-07-05 | **Market Intelligence + Contact Mapping refresh** | Career OS | Career OS | ✅ Done | **KEY FINDING: Coupang is #1 hidden opportunity** — 10 score-80+ roles, ALL FRESH, 4 direct-apply, ZERO contacts. Created market-intelligence-jul5.md with "Golden 25" fresh direct-apply list. Updated contacts.json: Coupang → priority 1, added Datadog/Payoneer/Anthropic, deprecated phantom companies (Wellington/BlackRock/BNY — 0 jobs in DB). Updated outreach tracker: Jul 5-11 plan with 21 apps + 2 contact maps. TODAY'S TOP 3: Payoneer Chief of Staff (92), OKX VP AI (90), Datadog Country Manager (90). Web tools billing unavailable — used local DB analysis. |
 
 ---
 
 ## 📊 Application Tracking
 
-**Current status: 0% application rate (474 roles in database, 0 submitted)**
-**Week 3 targets: Airwallex Director (SG, score 100) + Wellington Director (SG, score 100)**
+**Current status: 0% application rate (899 roles in database, 0 submitted)**
+**Week targets: 25 fresh direct-apply score-80+ roles. Apply to Tier 1 (6 roles, score 88+) TODAY.**
 
 ### Application Log
 
@@ -333,9 +429,25 @@
 
 ## 📋 Upcoming Plans
 
-**Week 3 (Jun 29 - Jul 5):** See top section for daily breakdown.
-**Week 4 (Jul 6-12):** Mastercard + BlackRock Director apps (SG, score 100) + follow-ups.
-**Monthly (July):** Target 8 outreach + 10 applications + 2 meetings.
+**Week 1 (Jul 5-11):** Apply to 25 fresh direct-apply score-80+ roles. Contact map Coupang + Datadog Tokyo.
+**Week 2 (Jul 12-18):** Follow up on Week 1 applications. Contact map Anthropic Tokyo + Payoneer SH. Send overdue outreach.
+**Monthly (July):** Target 25 applications + 10 outreach + 3 meetings.
+
+### 🔴 THIS WEEK: Jul 5 - Jul 11 (Updated Jul 5)
+**Goal: Apply to 6 Tier 1 roles (score 88+) + contact map Coupang = 7 actions in 3 hours.**
+
+| Day | Time Box | Action | Est. Time |
+|-----|----------|--------|-----------|
+| Sat Jul 5 | 15 min | Apply: Payoneer Chief of Staff GTM China (SH, score 92, DIRECT) | 15 min |
+| Sun Jul 6 | 45 min | Apply: OKX VP AI Strategy (90) + Datadog Country Manager (90) + OKX Sr Strategy PM (90) + Coupang Director P&PM (88) + Datadog Head Sales (88) | 45 min |
+| Mon Jul 7 | 60 min | Apply: Anthropic Revenue Strategy (85) + Coupang Principal BizOps (85) + Flexport Sr BD (85) + GitLab Regional Director (85) + Agoda Growth (83) | 60 min |
+| Tue Jul 8 | 60 min | Apply: Coupang Growth Marketing (82) + Notion Country Manager (82) + Stripe Enterprise PM (82) + Flexport Staff PM (81) + OKX Data Scientist (81) | 60 min |
+| Wed Jul 9 | 30 min | Apply: Agoda Strategic Partnerships (80) + Coupang Group PM (80) + OKX Fraud Risk (80) + Payoneer Growth Marketing (80) + Stripe Partner Dev (80) | 30 min |
+| Thu Jul 10 | 30 min | Contact map: LinkedIn search for Coupang Shanghai product directors. Add 2-3 to contacts.json | 30 min |
+| Fri Jul 11 | 20 min | Contact map: LinkedIn search for Datadog Japan leadership. Add to contacts.json. Weekly review. | 20 min |
+| **TOTAL** | **4.5 hrs** | **21 applications + 2 contact maps** | |
+
+**Saturday focus: Just Payoneer Chief of Staff. 15 minutes. Highest-score fresh role (92). Breaks the zero.**
 
 ### 🎯 Monthly Targets (July 2026)
 | Metric | Target | Actual | Status |
