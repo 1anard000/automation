@@ -1,276 +1,229 @@
 #!/usr/bin/env python3
 """
-Web search-based job scraper.
-Uses DuckDuckGo search to find PM, Strategy, BizOps, Chief of Staff,
-Growth, and GM roles from Indeed, Glassdoor, JobsDB, and general web.
-Balanced across role types per Ian's profile: strategy/ops/biz ops core,
-with PM as one of several directions.
-"""
-import json, sys, os, re, subprocess, time
-from datetime import datetime
+Web search-based job scraper — best-effort from China.
+Tries Bing CN and DuckDuckGo, but both are unreliable from mainland China.
+The real value comes from API-based scrapers (Greenhouse, Ashby).
 
-# Search queries to run
+This scraper is a fallback — if it finds nothing, that's expected.
+The agent-driven cron job uses Hermes web_search which has a better backend.
+"""
+import json, sys, os, re, time, random
+from datetime import datetime
+from urllib.request import urlopen, Request
+from urllib.parse import quote_plus
+from urllib.error import URLError, HTTPError
+
+# Simplified queries — fewer, more targeted
 QUERIES = [
-    # === PRODUCT MANAGEMENT (8 queries — 22%) ===
-    'site:indeed.com "senior product manager" Singapore OR "Hong Kong" 2026',
-    'site:jobsdb.com "product manager" "Hong Kong" OR Singapore',
-    'site:careers.bytedance.com "product manager" Singapore OR Shenzhen',
-    'site:careers.shopee.com "product manager" Singapore OR Shenzhen',
-    'site:glassdoor.com "product director" Singapore OR Shenzhen',
-    'site:builtin.com "director of product" Singapore',
-    'site:linkedin.com/jobs "senior product manager" "Hong Kong" cross-border',
-    'site:grab.careers "product manager" Singapore',
-    # === STRATEGY / BIZ OPS (10 queries — 28%) ===
-    'site:indeed.com "business operations" OR "bizops" Singapore OR "Hong Kong"',
-    'site:indeed.com "strategy manager" OR "head of strategy" Singapore OR Shenzhen',
-    'site:jobsdb.com "business strategy" OR "corporate strategy" "Hong Kong" OR Singapore',
-    'site:linkedin.com/jobs "business operations" manager Singapore OR "Hong Kong"',
-    'site:linkedin.com/jobs "chief of staff" Singapore OR Shenzhen OR "Hong Kong"',
-    'site:glassdoor.com "strategy operations" OR "strategic operations" Singapore',
-    'site:glassdoor.com "business operations" director "Hong Kong"',
-    'site:wellfound.com "bizops" OR "business operations" lead Singapore',
-    'site:builtin.com "business operations" Singapore',
-    'site:efinancialcareers.com "business strategy" OR "bizops" Singapore OR "Hong Kong"',
-    # === GROWTH / EXPANSION / GM (10 queries — 28%) ===
-    'site:indeed.com "head of growth" OR "growth manager" Singapore OR Shenzhen',
-    'site:indeed.com "general manager" OR "country manager" Singapore OR "Hong Kong"',
-    'site:jobsdb.com "general manager" "Hong Kong" OR Singapore fintech OR ecommerce',
-    'site:linkedin.com/jobs "regional manager" OR "expansion lead" APAC Singapore',
-    'site:linkedin.com/jobs "head of growth" "Hong Kong" OR Shenzhen',
-    'site:glassdoor.com "general manager" ecommerce Singapore',
-    'site:glassdoor.com "market expansion" OR "business expansion" APAC',
-    'site:grab.careers "general manager" OR "growth" Singapore',
-    'site:builtin.com "general manager" OR "country manager" Singapore',
-    'site:wellfound.com "head of growth" OR "growth lead" Singapore OR Hong Kong',
-    # === PROGRAM / PROJECT MANAGEMENT (4 queries — 11%) ===
-    'site:indeed.com "program manager" senior Singapore OR "Hong Kong"',
-    'site:glassdoor.com "program manager" fintech Singapore',
-    'site:linkedin.com/jobs "senior program manager" "Hong Kong" OR Shenzhen',
-    'site:jobsdb.com "program manager" "Hong Kong" OR Singapore',
-    # === CROSS-BORDER / MARKETPLACE / PLATFORM (4 queries — 11%) ===
-    'site:indeed.com "cross-border" OR "marketplace" operations manager Singapore OR Shenzhen',
-    'site:linkedin.com/jobs "marketplace operations" OR "platform operations" APAC',
-    'site:jobsdb.com "cross-border" OR "ecommerce" operations "Hong Kong"',
-    'site:glassdoor.com "marketplace" OR "platform" director Singapore OR Shenzhen',
+    # Job board searches (if Bing cooperates)
+    'site:indeed.com "product manager" Singapore "Hong Kong"',
+    'site:jobsdb.com "product manager" OR "program manager" "Hong Kong" Singapore',
+    '"senior product manager" OR "head of product" Shenzhen OR "Hong Kong" OR Singapore',
+    '"business operations" OR "bizops" manager Singapore OR "Hong Kong" fintech',
+    '"growth manager" OR "head of growth" APAC Singapore OR Shenzhen',
+    '"cross-border" ecommerce product manager China OR Singapore',
+    '"general manager" OR "country manager" fintech ecommerce APAC',
+    '"chief of staff" tech Singapore OR "Hong Kong" OR Shenzhen',
 ]
 
-# Keywords to filter relevant results
 TITLE_KEYWORDS = [
-    # PM
     "product manager", "product director", "head of product", "vp product",
     "product lead", "principal product", "senior product",
-    # Strategy / BizOps
     "business operations", "bizops", "strategy", "strategic",
     "chief of staff", "corporate strategy", "business strategy",
-    # Growth / GM / Expansion
     "head of growth", "growth manager", "growth lead",
     "general manager", "country manager", "regional manager",
-    "market expansion", "business expansion", "expansion lead",
-    # Program / Project
     "program manager", "project manager",
-    # Cross-border / Marketplace / Platform
     "cross-border", "e-commerce", "ecommerce", "marketplace",
-    "platform operations", "marketplace operations",
 ]
 
-def run_ddg_search(query, max_results=10):
-    """Run a search using DuckDuckGo via CLI or API."""
+BLOCKED_DOMAINS = [
+    "linkedin.com", "glassdoor.com", "google.com",
+    "twitter.com", "x.com", "facebook.com",
+]
+
+
+def try_bing(query, max_results=8):
+    """Try Bing CN — often fails from China for English queries."""
     try:
-        import urllib.request
-        import urllib.parse
-        
-        encoded_query = urllib.parse.quote_plus(query)
-        url = f"https://html.duckduckgo.com/html/?q={encoded_query}"
-        
-        req = urllib.request.Request(url, headers={
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        encoded = quote_plus(query)
+        url = f"https://www.bing.com/search?q={encoded}&mkt=en-US&setlang=en"
+        req = Request(url, headers={
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                          "AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36",
+            "Accept-Language": "en-US,en;q=0.9",
         })
-        
-        with urllib.request.urlopen(req, timeout=15) as resp:
+        with urlopen(req, timeout=10) as resp:
             html = resp.read().decode("utf-8", errors="replace")
-        
-        # Parse results
+
         results = []
-        # DuckDuckGo HTML results pattern
-        result_pattern = re.compile(
-            r'<a[^>]+class="result__a"[^>]+href="([^"]+)"[^>]*>(.*?)</a>.*?'
-            r'<a[^>]+class="result__snippet"[^>]*>(.*?)</a>',
-            re.DOTALL
-        )
-        
-        for match in result_pattern.finditer(html):
-            url = match.group(1)
-            title = re.sub(r'<[^>]+>', '', match.group(2)).strip()
-            snippet = re.sub(r'<[^>]+>', '', match.group(3)).strip()
-            
-            # Clean up DuckDuckGo redirect URLs
-            if "uddg=" in url:
-                url_match = re.search(r'uddg=([^&]+)', url)
-                if url_match:
-                    import urllib.parse
-                    url = urllib.parse.unquote(url_match.group(1))
-            
-            if title and url.startswith("http"):
-                results.append({
-                    "title": title,
-                    "url": url,
-                    "snippet": snippet,
-                })
-        
+        for m in re.finditer(
+            r'class="b_algo"[^>]*>.*?<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>',
+            html, re.DOTALL
+        ):
+            link = m.group(1)
+            title = re.sub(r'<[^>]+>', '', m.group(2)).strip()
+            if any(d in link.lower() for d in BLOCKED_DOMAINS):
+                continue
+            if title and link.startswith("http") and len(title) > 10:
+                # Skip dictionary/encyclopedia results
+                if any(kw in link.lower() for kw in ["iciba", "baike", "zhihu", "dict"]):
+                    continue
+                results.append({"title": title, "url": link, "snippet": ""})
         return results[:max_results]
-    except Exception as e:
-        print(f"  [WARN] Search failed for '{query[:50]}...': {e}", file=sys.stderr)
+    except Exception:
         return []
 
+
+def try_ddg(query, max_results=8):
+    """Try DuckDuckGo — often blocked or slow from China."""
+    try:
+        encoded = quote_plus(query)
+        url = f"https://html.duckduckgo.com/html/?q={encoded}"
+        req = Request(url, headers={
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                          "AppleWebKit/537.36",
+        })
+        with urlopen(req, timeout=8) as resp:
+            html = resp.read().decode("utf-8", errors="replace")
+
+        results = []
+        for m in re.finditer(
+            r'<a[^>]+class="result__a"[^>]+href="([^"]+)"[^>]*>(.*?)</a>',
+            html, re.DOTALL
+        ):
+            link = m.group(1)
+            title = re.sub(r'<[^>]+>', '', m.group(2)).strip()
+            if "uddg=" in link:
+                um = re.search(r'uddg=([^&]+)', link)
+                if um:
+                    from urllib.parse import unquote
+                    link = unquote(um.group(1))
+            if any(d in link.lower() for d in BLOCKED_DOMAINS):
+                continue
+            if title and link.startswith("http"):
+                results.append({"title": title, "url": link, "snippet": ""})
+        return results[:max_results]
+    except Exception:
+        return []
+
+
+def search(query, max_results=8):
+    """Try Bing first, fall back to DDG."""
+    results = try_bing(query, max_results)
+    if results:
+        return results
+    return try_ddg(query, max_results)
+
+
 def extract_source(url):
-    """Determine source from URL."""
     url_lower = url.lower()
-    if "indeed.com" in url_lower:
-        return "indeed"
-    if "glassdoor.com" in url_lower:
-        return "glassdoor"
-    if "jobsdb.com" in url_lower:
-        return "jobsdb"
-    if "linkedin.com" in url_lower:
-        return "linkedin_search"
-    if "efinancialcareers.com" in url_lower:
-        return "efinancialcareers"
-    if "builtin.com" in url_lower:
-        return "builtin"
-    if "greenhouse.io" in url_lower:
-        return "greenhouse"
-    if "bytedance" in url_lower or "tiktok" in url_lower:
-        return "bytedance"
-    if "shopee" in url_lower:
-        return "shopee"
-    if "grab" in url_lower:
-        return "grab"
+    if "indeed.com" in url_lower: return "indeed"
+    if "jobsdb.com" in url_lower: return "jobsdb"
+    if "greenhouse.io" in url_lower: return "greenhouse"
+    if "ashbyhq.com" in url_lower: return "ashby"
+    if "bytedance" in url_lower or "tiktok" in url_lower: return "bytedance"
+    if "shopee" in url_lower: return "shopee"
+    if "zhipin.com" in url_lower: return "boss_zhipin"
+    if "liepin.com" in url_lower: return "liepin"
     return "web_search"
 
-def extract_company(title, url, snippet):
-    """Try to extract company name from title or URL."""
-    # Pattern: "at Company" or "- Company" in title
+
+def extract_company(title, url):
     at_match = re.search(r'\s+(?:at|@)\s+([^-|–]+?)(?:\s*[-|–]|\s*$)', title, re.IGNORECASE)
     if at_match:
         return at_match.group(1).strip()
-    
     dash_match = re.search(r'[-|–]\s*([^-|–]+?)$', title)
     if dash_match:
         candidate = dash_match.group(1).strip()
-        if len(candidate) < 50 and not any(kw in candidate.lower() for kw in ["singapore", "hong kong", "remote"]):
+        if len(candidate) < 50 and not any(kw in candidate.lower()
+                for kw in ["singapore", "hong kong", "remote", "shenzhen"]):
             return candidate
-    
-    # From URL
-    if "indeed.com" in url:
-        return ""
-    if "glassdoor.com" in url:
-        return ""
-    
     return ""
 
+
 def extract_location(title, snippet):
-    """Extract location from title or snippet."""
-    text = f"{title} {snippet}"
-    locations = {
-        "Singapore": ["singapore"],
-        "Hong Kong": ["hong kong", "hongkong"],
-        "Shenzhen": ["shenzhen"],
-        "Guangzhou": ["guangzhou"],
-        "Remote": ["remote"],
-    }
-    for loc, keywords in locations.items():
-        if any(kw in text.lower() for kw in keywords):
+    text = f"{title} {snippet}".lower()
+    for loc, keywords in {
+        "Singapore": ["singapore"], "Hong Kong": ["hong kong"],
+        "Shenzhen": ["shenzhen"], "Guangzhou": ["guangzhou"],
+        "Shanghai": ["shanghai"], "Beijing": ["beijing"],
+    }.items():
+        if any(kw in text for kw in keywords):
             return loc
     return ""
 
+
 def is_relevant(title, snippet):
-    """Check if job result is relevant to [CANDIDATE]'s profile."""
     text = f"{title} {snippet}".lower()
     has_title = any(kw in text for kw in TITLE_KEYWORDS)
-    has_senior = any(kw in text for kw in ["senior", "director", "head", "vp", "principal", "lead", "manager"])
+    has_senior = any(kw in text for kw in [
+        "senior", "director", "head", "vp", "principal", "lead", "manager",
+        "总监", "负责人", "资深", "高级"
+    ])
     return has_title and has_senior
+
 
 def classify_role_type(title):
     t = title.lower()
-    # Strategy / BizOps
-    if "chief of staff" in t:
-        return "Chief of Staff"
-    if "business operations" in t or "bizops" in t:
-        return "Business Operations"
-    if "strategy" in t or "strategic" in t:
-        return "Strategy/Ops"
-    # Growth / GM / Expansion
-    if "general manager" in t or "country manager" in t or "regional manager" in t:
-        return "General Manager"
-    if "growth" in t or "expansion" in t:
-        return "Growth/Expansion"
-    # PM
-    if "product" in t:
-        return "Product Management"
-    # Program / Project
-    if "program" in t or "project" in t:
-        return "Program Management"
-    # Cross-border / Marketplace / Platform
-    if "cross-border" in t or "marketplace" in t or "platform" in t:
-        return "Cross-border/Platform"
+    if "chief of staff" in t: return "Chief of Staff"
+    if "business operations" in t or "bizops" in t: return "Business Operations"
+    if "strategy" in t or "strategic" in t: return "Strategy/Ops"
+    if "general manager" in t or "country manager" in t: return "General Manager"
+    if "growth" in t or "expansion" in t: return "Growth/Expansion"
+    if "product" in t: return "Product Management"
+    if "program" in t or "project" in t: return "Program Management"
     return "Other"
 
+
 def main():
-    print(f"Web search scraper: running {len(QUERIES)} queries...")
+    print(f"Web search scraper: running {len(QUERIES)} queries (best-effort from China)...")
     all_results = []
-    
+
     for i, query in enumerate(QUERIES):
-        print(f"  [{i+1}/{len(QUERIES)}] {query[:60]}...")
-        results = run_ddg_search(query, max_results=8)
+        print(f"  [{i+1}/{len(QUERIES)}] {query[:70]}...")
+        results = search(query, max_results=8)
+        if results:
+            print(f"    → {len(results)} results")
+        else:
+            print(f"    → 0 results (expected from China)")
         all_results.extend(results)
-        time.sleep(1.5)  # Rate limiting
-    
+        time.sleep(2 + random.uniform(0, 1))
+
     print(f"\nRaw results: {len(all_results)}")
-    
-    # Filter and format
+
     seen_urls = set()
     formatted = []
-    
     for r in all_results:
         url = r.get("url", "")
         title = r.get("title", "")
         snippet = r.get("snippet", "")
-        
-        if not url or not title:
+        if not url or not title or url in seen_urls:
             continue
-        if url in seen_urls:
+        if any(d in url.lower() for d in BLOCKED_DOMAINS):
             continue
         if not is_relevant(title, snippet):
             continue
-        
         seen_urls.add(url)
-        location = extract_location(title, snippet)
-        company = extract_company(title, url, snippet)
-        source = extract_source(url)
-        
-        # Clean title
-        clean_title = re.sub(r'\s*(?:at|@)\s+[^-|–]+$', '', title).strip()
-        clean_title = re.sub(r'\s*[-|–]\s*[^-|–]+$', '', clean_title).strip()
-        
         formatted.append({
-            "title": clean_title,
-            "company": company,
-            "location": location,
-            "grade": "A-1" if any(k in clean_title.lower() for k in ["director", "vp", "head"]) else "A-2",
+            "title": title,
+            "company": extract_company(title, url),
+            "location": extract_location(title, snippet),
+            "grade": "A-2",
             "url": url,
-            "role_type": classify_role_type(clean_title),
+            "role_type": classify_role_type(title),
             "salary": "",
             "scanned_date": datetime.now().strftime("%Y-%m-%d"),
-            "source": source,
+            "source": extract_source(url),
         })
-    
+
     print(f"Filtered & formatted: {len(formatted)} jobs")
-    
     output_path = os.path.join(os.path.dirname(__file__), "websearch-results.json")
     with open(output_path, "w") as f:
         json.dump(formatted, f, indent=2, ensure_ascii=False)
     print(f"Saved to {output_path}")
     return formatted
+
 
 if __name__ == "__main__":
     main()
