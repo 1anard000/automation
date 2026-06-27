@@ -1,0 +1,67 @@
+[03:01:34] ⏭️  Step 1/4: Skipping scan (--no-scan)
+[03:01:34] 📊 Step 2/4: Grading and deduplicating scan results...
+
+=== SCAN RESULTS ===
+Total unique APAC roles: 0
+After grading/filtering: 0
+
+By Grade:
+  A-1: 0
+  A-2: 0
+  B: 0
+  C: 0
+
+By City:
+
+By Company:
+
+=== TOP PICKS ===
+
+Saved 0 graded jobs to scan-latest.json
+[03:01:34] ✅ Grading complete
+[03:01:34] 🔗 Step 3/4: Merging new jobs into master database...
+No new jobs to merge
+[03:01:34] ✅ Merge complete
+[03:01:34] 🖥️  Step 4/4: Building dashboard...
+Dashboard generated: /Users/iancolrick/.openclaw/workspace/OKComputer_职位搜索清单/dashboard.html
+  Total jobs: 1358
+  : 12
+  ?: 29
+  A-1: 399
+  A-2: 632
+  B: 60
+  B-1: 88
+  C: 99
+  S-1: 36
+  Senior: 3
+  English friendly: 985
+  Categories:
+    general_pm: 451
+    ?: 151
+    strategy: 119
+    other: 106
+    product management: 80
+    ops: 68
+    product: 64
+    growth: 53
+    cross_border: 52
+    ai_product: 47
+    fintech: 33
+    strategy_ops: 32
+    operations: 15
+    business operations: 15
+    growth_expansion: 14
+    senior_pm: 12
+    platform: 10
+    business development: 9
+    gm: 8
+    product_management: 6
+    program management: 6
+    program: 2
+    general_manager: 1
+    general manager: 1
+    vc_pe: 1
+    cross-border_platform: 1
+    bizops: 1
+[03:01:34] ✅ Dashboard built: dashboard.html
+[03:01:34] 🏁 Pipeline complete at 2026-06-28 03:01

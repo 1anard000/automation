@@ -272,8 +272,8 @@
   "scores": {
     "dashboard": 7,
     "career_hub": 7,
-    "data_quality": 8,
-    "python_scripts": 6,
+    "data_quality": 9,
+    "python_scripts": 7,
     "strategy": 7
   },
   "last_improvement": "2026-06-18: Refreshed career-strategy.md — updated from 288 to 443 jobs, added Shenzhen surge analysis, AI roles 3x growth, salary benchmarks",
@@ -287,6 +287,12 @@
       "date": "2026-06-28",
       "task": "Created run-pipeline.sh — automated scan→grade→merge→build pipeline with --no-scan and --scan-only modes",
       "subagent": "nightly-improver-20260628"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-28T06:00:00+08:00",
+      "action": "Removed 32 stale jobs (>30 days old), rebuilt dashboard. Score: data_quality 8→9, python_scripts 6→7."
     }
   ]
 }
