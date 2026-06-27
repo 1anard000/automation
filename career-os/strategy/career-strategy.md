@@ -132,14 +132,13 @@ Key finding: 6 resume clusters identified. Apply the same resume version to all 
 **6 batch application groups identified** — apply same resume to all jobs in a batch for efficiency.
 **31 high-visa-likelihood roles** identified (visa-friendly companies: Google, Airwallex, OKX, etc.)
 
-### Top Companies by Opportunity Density (REFRESHED June 27 — 1,358 Jobs Full DB, Letter Grades)
-> **MAJOR UPDATE:** Full workspace database now has 1,358 jobs (was 899). OKX case variants merged (164 total, 99 A-1). Coupang more than doubled (143 roles, 52 A-1). Agoda 3x (128 roles, 16 A-1). OpenAI APAC role discovered. Seoul added as 6th target city.
-> **Grade system:** A-1 = top tier (399 roles), A-2 = strong (632 roles). 1,031 A-1+A-2 = 76% of database.
-> **Full details:** See `strategy/market-intelligence-jun27.md`
+### Top Companies by Opportunity Density (LIVE June 27 — OKX Greenhouse API + Full DB)
+> **LIVE DATA UPDATE:** OKX Greenhouse API shows 275 total jobs (was 164 in previous scan — +68% growth). 118 PM/Director/VP roles. 98 in Singapore, 97 in Hong Kong. 15+ NEW PM/Director roles not previously tracked.
+> **Full details:** See `strategy/market-intelligence-jun27-live.md` (LIVE Greenhouse API data)
 
 | Company | Total | A-1 | Key Roles | Cities | Notes |
 |---------|-------|-----|-----------|--------|-------|
-| **OKX** | **164** | **99** | VP AI Strategy (HK), Director Institutional (HK), Director User Growth (HK) | HK, SG, SH, SZ | #1 by far. Case variant merged. |
+| **OKX** | **275** | **99+** | VP AI Strategy (HK/SG), Dir Global Payment Partnerships (HK/SG), Dir Institutional Product (HK/SG), Dir User Growth (HK/SG), Dir Pay & Card (SG) | HK, SG | **#1 by far. LIVE verified 275 jobs. 118 PM/Director roles.** |
 | **Coupang** | **143** | **52** | Director P&PM (SH), Principal BizOps (SH), Director Growth (Tokyo) | SH, Tokyo, Taipei | #2. Underexplored strategy hub. |
 | **Agoda** | **128** | **16** | Principal PM (HK), Growth Team (Tokyo), Strategic Partnerships (SH) | HK, SG, Tokyo, SH, Bangkok | Travel marketplace. |
 | **Stripe** | **65** | **12** | Head Comms APAC (SG), Integration Reliability (SG) | SG, Sydney | Payments. |
