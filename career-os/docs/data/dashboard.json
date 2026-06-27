@@ -1,1 +1,75 @@
-{"generated_at": "2026-06-27T14:25:00+08:00", "stats": {"total": 269, "avg_score": 57.2, "jobs_last_7d": 178, "jobs_last_24h": 178}, "by_city": {"Shenzhen": 103, "Guangzhou": 26, "Hong Kong": 31, "Shanghai": 94, "Beijing": 15}, "by_category": {"PM": 95, "Strategy": 82, "Growth": 92}, "top_5": [{"id": "greenhouse-coupang-1033314", "title": "Head of Product, Advertising Platform", "company": "Coupang", "location": "Shanghai", "score": 89, "url": "https://boards.greenhouse.io/coupangcareers/jobs/1033314"}, {"id": "greenhouse-airwallex-1034752", "title": "Sr Product Manager, BaaS Platform", "company": "Airwallex", "location": "Shanghai", "score": 86, "url": "https://boards.greenhouse.io/airwallex/jobs/1034752"}, {"id": "greenhouse-binance-1034154", "title": "Sr Product Manager, Payment", "company": "Binance", "location": "Hong Kong", "score": 85, "url": "https://boards.greenhouse.io/binance/jobs/1034154"}, {"id": "greenhouse-okx-1034233", "title": "Sr Product Manager, Trading", "company": "OKX", "location": "Hong Kong", "score": 84, "url": "https://boards.greenhouse.io/okx/jobs/1034233"}, {"id": "ashby-flexport-1034556", "title": "Product Manager, Logistics Platform", "company": "Flexport", "location": "Shenzhen", "score": 83, "url": "https://jobs.ashbyhq.com/flexport/1034556"}], "category_counts": {"PM": 95, "Strategy": 82, "Growth": 92}, "error": null}
+{
+  "generated_at": "2026-06-28T00:03:30+08:00",
+  "stats": {
+    "total": 718,
+    "total_all": 899,
+    "jobs_last_7d": 402,
+    "jobs_last_24h": 0,
+    "direct_links": 718
+  },
+  "by_city": {
+    "Shenzhen": 181,
+    "Singapore": 155,
+    "Hong Kong": 71,
+    "Shanghai": 32,
+    "Guangzhou": 17,
+    "Beijing": 4
+  },
+  "by_category": {
+    "Other": 342,
+    "PM": 202,
+    "Strategy": 100,
+    "Growth": 46,
+    "Program": 28
+  },
+  "top_5": [
+    {
+      "title": "Country Manager",
+      "company": "Datadog",
+      "location": "",
+      "grade": "S-1",
+      "url": "https://careers.datadoghq.com/detail/7975747/?gh_jid=7975747",
+      "source": "greenhouse"
+    },
+    {
+      "title": "Senior Director, Partner Specialists (Greater China + Korea)",
+      "company": "MongoDB",
+      "location": "Hong Kong",
+      "grade": "S-1",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=7918616",
+      "source": "greenhouse"
+    },
+    {
+      "title": "Senior Strategy Project Manager, VIP/Institutions",
+      "company": "OKX",
+      "location": "Hong Kong",
+      "grade": "S-1",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7739163003",
+      "source": "greenhouse"
+    },
+    {
+      "title": "Senior/Staff Engineer, Liquidity Platform, Strategy Service",
+      "company": "OKX",
+      "location": "Hong Kong",
+      "grade": "S-1",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7673466003",
+      "source": "greenhouse"
+    },
+    {
+      "title": "Vice President, AI Strategy & Transformation",
+      "company": "OKX",
+      "location": "Hong Kong",
+      "grade": "S-1",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7684888003",
+      "source": "greenhouse"
+    }
+  ],
+  "category_counts": {
+    "Other": 342,
+    "PM": 202,
+    "Strategy": 100,
+    "Growth": 46,
+    "Program": 28
+  },
+  "error": null
+}
