@@ -481,6 +481,15 @@
         "strategy": 7
       },
       "subagent": "builder-dashboard-rebuild-0628"
+    },
+    {
+      "timestamp": "2026-06-29T00:01:17.507292",
+      "dimension": "coverage",
+      "task": "Regenerated coverage-report.json with current 1326 jobs across 48 sources (was stale at 1106/38)",
+      "status": "completed",
+      "score_before": 8,
+      "score_after": 9,
+      "subagent": "nightly-coverage-regen"
     }
   ],
   "current_scores": {
@@ -500,7 +509,7 @@
     "data_quality": 10,
     "python_scripts": 8,
     "strategy": 9,
-    "coverage": 8
+    "coverage": 9
   },
   "last_improvement": "Normalized 559 raw city strings into 30 clean city groups for dashboard filter",
   "entries": [

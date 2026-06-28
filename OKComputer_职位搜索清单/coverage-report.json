@@ -1,59 +1,69 @@
 {
-  "generated_at": "2026-06-26T00:00:36.758994",
-  "total_jobs": 1106,
+  "generated_at": "2026-06-29T00:01:08.988380",
+  "total_jobs": 1326,
   "sources": {
-    "unique_count": 38,
+    "unique_count": 48,
     "counts": {
-      "greenhouse": 311,
+      "greenhouse": 425,
       "ats-cached": 169,
-      "linkedin": 144,
-      "liepin": 139,
-      "company_site": 118,
-      "boss-zhilian-discovery": 47,
+      "liepin": 138,
+      "linkedin": 132,
+      "company_site": 113,
+      "web_scrape": 76,
+      "boss-zhilian-discovery": 42,
       "ats-live": 38,
-      "diversified": 29,
+      "greenhouse_api": 26,
+      "diversified": 22,
+      "bing_jobs": 14,
       "boss-zhilian-websearch": 13,
       "builtin": 10,
-      "vc-pe": 8,
+      "vc-pe": 7,
       "wellfound-enhanced": 6,
-      "jobsdb": 6,
       "indeed": 6,
       "Tencent Careers": 6,
+      "careers_site": 6,
+      "jobsdb": 5,
       "boss-zhilian": 5,
+      "greenhouse_agoda": 5,
+      "hired": 4,
+      "toptal": 4,
+      "turing": 4,
       "arc": 4,
       "ashby": 4,
       "web": 4,
-      "hired": 3,
-      "toptal": 3,
-      "turing": 3,
-      "ByteDance Careers": 3,
+      "smartrecruiters_grab": 4,
       "google_careers": 3,
       "glassdoor": 3,
       "wellfound": 3,
       "web_search": 3,
       "other": 2,
       "efinancialcareers": 2,
+      "ByteDance Careers": 2,
       "meta_careers": 2,
+      "microsoft_careers": 2,
       "amazon_jobs": 2,
-      "himalayas": 1,
       "jobs-radar": 1,
       "zhaopin": 1,
       "indeed-jobsdb": 1,
       "lever": 1,
-      "microsoft_careers": 1,
-      "company": 1
+      "company": 1,
+      "smartrecruiters": 1,
+      "remotive_api": 1,
+      "greenhouse_thunes": 1,
+      "greenhouse_adyen": 1,
+      "greenhouse_payoneer": 1
     }
   },
-  "companies": {
-    "unique_count": 329
+  "field_completeness": {
+    "title": 100.0,
+    "company": 97.1,
+    "location": 99.2,
+    "salary": 26.8,
+    "url": 99.9,
+    "source": 100.0
   },
-  "grades": {
-    "distribution": {
-      "A-1": 375,
-      "A-2": 582,
-      "B": 45,
-      "C": 71,
-      "S-1": 33
-    }
+  "freshness": {
+    "total": 1326,
+    "with_date": 1215
   }
 }
