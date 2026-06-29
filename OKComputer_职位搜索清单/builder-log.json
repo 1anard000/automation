@@ -499,6 +499,15 @@
       "score_before": 7,
       "subagent": "builder-dashboard-rebuild-0629",
       "details": "Dashboard was only 211 lines for 1348 jobs. Rebuilding with: dark theme, real-time search, grade/source/location filters, sort controls, grade distribution chart, CSV export, responsive design."
+    },
+    {
+      "timestamp": "2026-06-30T00:01:00",
+      "dimension": "data_quality",
+      "task": "Remove 76 stale jobs (>30 days old), rebuild dashboard: 1348→1272 jobs",
+      "status": "completed",
+      "score_before": 10,
+      "score_after": 10,
+      "subagent": "nightly-improver"
     }
   ],
   "current_scores": {
@@ -509,7 +518,7 @@
     "coverage": 7,
     "strategy": 7
   },
-  "last_run": "2026-06-29T03:00:40.968494+08:00",
+  "last_run": "2026-06-30T00:01:00",
   "last_dimension": "dashboard",
   "last_task": "Full dashboard rebuild",
   "scores": {
@@ -520,7 +529,7 @@
     "strategy": 9,
     "coverage": 9
   },
-  "last_improvement": "Normalized 559 raw city strings into 30 clean city groups for dashboard filter",
+  "last_improvement": "Removed 76 stale jobs (>30 days old), rebuilt dashboard: 1348→1272 jobs",
   "entries": [
     {
       "date": "2026-06-19",
