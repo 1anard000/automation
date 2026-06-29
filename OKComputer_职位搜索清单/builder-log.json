@@ -508,6 +508,24 @@
       "score_before": 10,
       "score_after": 10,
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-06-30T03:00:00+08:00",
+      "dimension": "crm",
+      "task": "Build CRM outreach tracker — outreach_log empty, only 7 interactions in 40-contact DB. Adding pipeline funnel, follow-up reminders, interaction seeding, and dashboard upgrade.",
+      "status": "spawned",
+      "score_before": 7,
+      "score_after": null,
+      "subagent": "builder-crm-outreach-20260630"
+    },
+    {
+      "timestamp": "2026-06-30T03:01:20.807103+08:00",
+      "dimension": "data_quality",
+      "task": "Remove 208 generic search page entries (LinkedIn/Boss/Liepin), keeping only real job postings (1086 from 1294)",
+      "status": "completed",
+      "score_before": 10,
+      "score_after": 10,
+      "subagent": "nightly-improver"
     }
   ],
   "current_scores": {
@@ -527,7 +545,8 @@
     "data_quality": 10,
     "python_scripts": 8,
     "strategy": 9,
-    "coverage": 9
+    "coverage": 9,
+    "crm": 7
   },
   "last_improvement": "Removed 76 stale jobs (>30 days old), rebuilt dashboard: 1348→1272 jobs",
   "entries": [
@@ -591,15 +610,15 @@
     }
   ],
   "latest_scores": {
-    "data_quality": 8,
+    "data_quality": 10,
     "dashboard": 7,
-    "career_hub": 7,
+    "career_hub": 8,
     "scripts": 8,
     "coverage": 8,
     "strategy": 7,
-    "jobs_total": 1346,
+    "jobs_total": 1086,
     "stale_purged": 0,
-    "notes": "1346 jobs, 29 ungraded, 38 missing companies, career-hub rebuild in progress"
+    "notes": "1086 jobs, all graded, all with links. Career-hub footer fixed (stale count/dates). Dashboard and strategy still need work."
   },
   "log": [
     {
