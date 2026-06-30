@@ -231,7 +231,9 @@
     "first_published": "2026-04-23T03:33:11-04:00",
     "posted_date": "2026-06-17T06:14:00",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Director - Legal, Commercial (Bangkok-based, Relocation Provided)",
+    "summary": "Director - Legal, Commercial (Bangkok-based, Relocation Provided) at Agoda in Bangkok."
   },
   {
     "title": "Director, Organizational Performance",
@@ -265,7 +267,9 @@
     "first_published": "2026-04-16T12:40:46-04:00",
     "posted_date": "2026-06-17T06:49:11",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Director, Organizational Performance",
+    "summary": "Director, Organizational Performance at Agoda in Bangkok."
   },
   {
     "title": "Senior Director, Brand & Media (Based in Bangkok, Relocation Provided)",
@@ -299,7 +303,9 @@
     "first_published": "2026-03-18T04:23:31-04:00",
     "posted_date": "2026-06-17T17:57:43",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Senior Director, Brand & Media (Based in Bangkok, Relocation Provided)",
+    "summary": "Senior Director, Brand & Media (Based in Bangkok, Relocation Provided) at Agoda in Bangkok."
   },
   {
     "title": "Principal Product Manager (Singapore Based)",
@@ -314,7 +320,9 @@
     "english_friendly": true,
     "city_normalized": "Singapore",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Principal Product Manager (Singapore Based)",
+    "summary": "Principal Product Manager (Singapore Based) at Agoda in Singapore."
   },
   {
     "title": "Senior Area Manager, Strategic Partnerships (Taiwan & China Financial institution partnerships)",
@@ -329,7 +337,9 @@
     "posted": "2026-06-06",
     "city_normalized": "Shanghai",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Area Manager, Strategic Partnerships (Taiwan & China Financial institution partnerships)",
+    "summary": "Senior Area Manager, Strategic Partnerships (Taiwan & China Financial institution partnerships) at Agoda in Bangkok or Shanghai. Greenhouse posting."
   },
   {
     "title": "Senior Manager, Strategic Alliances – Financial Institutions",
@@ -344,7 +354,9 @@
     "posted": "2026-06-06",
     "city_normalized": "Shanghai",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Manager, Strategic Alliances – Financial Institutions",
+    "summary": "Senior Manager, Strategic Alliances – Financial Institutions at Agoda in Bangkok or Shanghai. Greenhouse posting."
   },
   {
     "title": "Technical Product Manager, Data Domain",
@@ -360,7 +372,7 @@
     "scanned_date": "2026-06-27",
     "source": "greenhouse_agoda",
     "english_friendly": true,
-    "summary": "",
+    "summary": "Technical Product Manager, Data Domain at Agoda in Bangkok, Thailand.",
     "url_type": "direct",
     "app_platform": "greenhouse",
     "app_difficulty": "easy",
@@ -406,7 +418,9 @@
     "description": "Lead growth marketing strategy across Asia. Cross-border, APAC expansion focus at major tech company.",
     "posted": "2026-05-14",
     "grade": "A-1",
-    "grade_note": "Perfect fit - Head of Asia, Singapore, growth/marketing leadership"
+    "grade_note": "Perfect fit - Head of Asia, Singapore, growth/marketing leadership",
+    "en_title": "Head of Growth Marketing, Asia",
+    "summary": "Head of Growth Marketing, Asia at Airbnb in Singapore. Lead growth marketing strategy across Asia."
   },
   {
     "title": "Associate Director, Product Strategy",
@@ -768,7 +782,9 @@
     "posted": "2026-06-02",
     "city_normalized": "Singapore",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Head of APAC Accounting",
+    "summary": "Head of APAC Accounting at Anthropic in Singapore. Greenhouse posting."
   },
   {
     "title": "Head of Product - Remote",
@@ -783,7 +799,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 42,
-    "quality_tier": "C"
+    "quality_tier": "C",
+    "en_title": "Head of Product - Remote",
+    "summary": "Head of Product - Remote at Arc.dev in Remote."
   },
   {
     "title": "Product Director - Remote Global | Arc",
@@ -798,7 +816,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 42,
-    "quality_tier": "C"
+    "quality_tier": "C",
+    "en_title": "Product Director - Remote Global | Arc",
+    "summary": "Product Director - Remote Global | Arc at Arc.dev in Remote."
   },
   {
     "title": "Head of Product at AsiaCloud",
@@ -813,7 +833,9 @@
     "english_friendly": true,
     "city_normalized": "Hong Kong",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Head of Product at AsiaCloud",
+    "summary": "Head of Product at AsiaCloud at Asiacloud in Hong Kong."
   },
   {
     "title": "Product Manager - AI",
@@ -871,7 +893,9 @@
     "posted": "2026-06-14",
     "city_normalized": "Hong Kong",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Head of HR",
+    "summary": "Head of HR at Bybit in Abu Dhabi, UAE; Hong Kong SAR; Kuala Lumpur, Malaysia. Greenhouse posting."
   },
   {
     "title": "AI Product Manager - LLM Security Evaluation",
@@ -1871,7 +1895,9 @@
     "first_published": "2025-03-03T20:08:30-05:00",
     "posted_date": "2026-06-18T15:39:35",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "[Coupang Pay]  Director, Back-End Engineering",
+    "summary": "[Coupang Pay]  Director, Back-End Engineering at Coupang in Seoul."
   },
   {
     "title": "Director, Account Management",
@@ -1905,7 +1931,9 @@
     "first_published": "2026-05-15T05:16:05-04:00",
     "posted_date": "2026-06-18T17:25:08",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Director, Account Management",
+    "summary": "Director, Account Management at Coupang in Tokyo."
   },
   {
     "title": "Director, Affiliate Marketing",
@@ -1939,7 +1967,9 @@
     "first_published": "2026-04-19T22:00:25-04:00",
     "posted_date": "2026-06-18T18:00:19",
     "date_source": "estimated",
-    "city_normalized": "Taipei"
+    "city_normalized": "Taipei",
+    "en_title": "Director, Affiliate Marketing",
+    "summary": "Director, Affiliate Marketing at Coupang in Taipei."
   },
   {
     "title": "[쿠팡] Director, Brand Management [Fashion]",
@@ -1973,7 +2003,9 @@
     "first_published": "2026-04-27T04:42:25-04:00",
     "posted_date": "2026-06-18T18:35:30",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "[쿠팡] Director, Brand Management [Fashion]",
+    "summary": "[쿠팡] Director, Brand Management [Fashion] at Coupang in Seoul."
   },
   {
     "title": "Director, Brand Management(Kitchen)",
@@ -2007,7 +2039,9 @@
     "first_published": "2026-06-11T04:52:20-04:00",
     "posted_date": "2026-06-18T19:10:41",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Director, Brand Management(Kitchen)",
+    "summary": "Director, Brand Management(Kitchen) at Coupang in Seoul."
   },
   {
     "title": "Director, Business Development (Coupang Play)",
@@ -2041,7 +2075,9 @@
     "first_published": "2026-06-17T22:01:52-04:00",
     "posted_date": "2026-06-18T19:45:52",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Director, Business Development (Coupang Play)",
+    "summary": "Director, Business Development (Coupang Play) at Coupang in Seoul."
   },
   {
     "title": "[쿠팡] Director, Compliance (공정거래 컴플라이언스 사내변호사)",
@@ -2075,7 +2111,9 @@
     "first_published": "2026-05-31T20:08:07-04:00",
     "posted_date": "2026-06-18T20:21:04",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "[쿠팡] Director, Compliance (공정거래 컴플라이언스 사내변호사)",
+    "summary": "[쿠팡] Director, Compliance (공정거래 컴플라이언스 사내변호사) at Coupang in Seoul."
   },
   {
     "title": "Director, Customer Service (TW Customer Incident Management)",
@@ -2109,7 +2147,9 @@
     "first_published": "2026-05-26T03:16:43-04:00",
     "posted_date": "2026-06-18T20:56:15",
     "date_source": "estimated",
-    "city_normalized": "Taipei"
+    "city_normalized": "Taipei",
+    "en_title": "Director, Customer Service (TW Customer Incident Management)",
+    "summary": "Director, Customer Service (TW Customer Incident Management) at Coupang in Taipei."
   },
   {
     "title": "Director, Customer Service (TW Planning and Development)",
@@ -2143,7 +2183,9 @@
     "first_published": "2026-05-26T01:57:46-04:00",
     "posted_date": "2026-06-18T21:31:26",
     "date_source": "estimated",
-    "city_normalized": "Taipei"
+    "city_normalized": "Taipei",
+    "en_title": "Director, Customer Service (TW Planning and Development)",
+    "summary": "Director, Customer Service (TW Planning and Development) at Coupang in Taipei."
   },
   {
     "title": "Director, Data Security Engineering (Digital Trust)",
@@ -2177,7 +2219,9 @@
     "first_published": "2026-06-15T23:41:24-04:00",
     "posted_date": "2026-06-18T22:06:37",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Director, Data Security Engineering (Digital Trust)",
+    "summary": "Director, Data Security Engineering (Digital Trust) at Coupang in Seoul."
   },
   {
     "title": "Director, Employee Relation",
@@ -2211,7 +2255,9 @@
     "first_published": "2026-01-11T22:53:14-05:00",
     "posted_date": "2026-06-18T22:41:48",
     "date_source": "estimated",
-    "city_normalized": "Taipei"
+    "city_normalized": "Taipei",
+    "en_title": "Director, Employee Relation",
+    "summary": "Director, Employee Relation at Coupang in Taipei."
   },
   {
     "title": "[쿠팡페이] Director, External Relations (신사업)",
@@ -2245,7 +2291,9 @@
     "first_published": "2026-05-08T02:53:12-04:00",
     "posted_date": "2026-06-18T23:16:59",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "[쿠팡페이] Director, External Relations (신사업)",
+    "summary": "[쿠팡페이] Director, External Relations (신사업) at Coupang in Seoul."
   },
   {
     "title": "Director, Financial Planning & Analysis ",
@@ -2279,7 +2327,9 @@
     "first_published": "2026-06-19T03:55:00-04:00",
     "posted_date": "2026-06-18T23:52:10",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Director, Financial Planning & Analysis ",
+    "summary": "Director, Financial Planning & Analysis  at Coupang in Tokyo."
   },
   {
     "title": "[쿠팡페이] Director, Fintech Business Development ",
@@ -2313,7 +2363,9 @@
     "first_published": "2026-05-18T00:51:26-04:00",
     "posted_date": "2026-06-19T00:27:21",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "[쿠팡페이] Director, Fintech Business Development ",
+    "summary": "[쿠팡페이] Director, Fintech Business Development  at Coupang in Seoul."
   },
   {
     "title": "[쿠팡] Director II, Compliance (Privacy Compliance Monitoring)",
@@ -2347,7 +2399,9 @@
     "first_published": "2026-06-15T03:48:07-04:00",
     "posted_date": "2026-06-19T01:02:33",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "[쿠팡] Director II, Compliance (Privacy Compliance Monitoring)",
+    "summary": "[쿠팡] Director II, Compliance (Privacy Compliance Monitoring) at Coupang in Seoul."
   },
   {
     "title": "Director, Logistics Security & Loss Prevention",
@@ -2381,7 +2435,9 @@
     "first_published": "2026-06-05T02:07:13-04:00",
     "posted_date": "2026-06-19T01:37:44",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Director, Logistics Security & Loss Prevention",
+    "summary": "Director, Logistics Security & Loss Prevention at Coupang in Seoul."
   },
   {
     "title": "Director of Product Management (Coupang Partners Programmatic Product)",
@@ -2415,7 +2471,9 @@
     "first_published": "2026-05-27T01:28:59-04:00",
     "posted_date": "2026-06-19T02:12:55",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Director of Product Management (Coupang Partners Programmatic Product)",
+    "summary": "Director of Product Management (Coupang Partners Programmatic Product) at Coupang in Seoul."
   },
   {
     "title": "Director of Product Management (Offsite Ads)",
@@ -2449,7 +2507,9 @@
     "first_published": "2025-11-20T21:26:11-05:00",
     "posted_date": "2026-06-19T02:48:06",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Director of Product Management (Offsite Ads)",
+    "summary": "Director of Product Management (Offsite Ads) at Coupang in Seoul."
   },
   {
     "title": "Director, Onsite Merchandising",
@@ -2483,7 +2543,9 @@
     "first_published": "2026-04-15T23:24:15-04:00",
     "posted_date": "2026-06-19T03:23:17",
     "date_source": "estimated",
-    "city_normalized": "Taipei"
+    "city_normalized": "Taipei",
+    "en_title": "Director, Onsite Merchandising",
+    "summary": "Director, Onsite Merchandising at Coupang in Taipei."
   },
   {
     "title": "Director, Product Management",
@@ -2517,7 +2579,9 @@
     "first_published": "2026-05-25T21:44:10-04:00",
     "posted_date": "2026-06-19T03:58:28",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Director, Product Management",
+    "summary": "Director, Product Management at Coupang in Seoul."
   },
   {
     "title": "Director, Product Management (Customer Experience)",
@@ -2551,7 +2615,9 @@
     "first_published": "2026-05-14T02:10:22-04:00",
     "posted_date": "2026-06-19T04:33:39",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Director, Product Management (Customer Experience)",
+    "summary": "Director, Product Management (Customer Experience) at Coupang in Seoul."
   },
   {
     "title": "Director, Program Management [Retail COE (Center of Excellence) Selection]",
@@ -2585,7 +2651,9 @@
     "first_published": "2026-05-14T05:44:41-04:00",
     "posted_date": "2026-06-19T05:08:51",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Director, Program Management [Retail COE (Center of Excellence) Selection]",
+    "summary": "Director, Program Management [Retail COE (Center of Excellence) Selection] at Coupang in Seoul."
   },
   {
     "title": "Director, Program Management [Retail COE Selection]",
@@ -2619,7 +2687,9 @@
     "first_published": "2026-05-14T05:49:01-04:00",
     "posted_date": "2026-06-19T05:44:02",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Director, Program Management [Retail COE Selection]",
+    "summary": "Director, Program Management [Retail COE Selection] at Coupang in Seoul."
   },
   {
     "title": "Director, Selection Operational Excellence",
@@ -2653,7 +2723,9 @@
     "first_published": "2026-06-23T04:37:19-04:00",
     "posted_date": "2026-06-19T06:19:13",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Director, Selection Operational Excellence",
+    "summary": "Director, Selection Operational Excellence at Coupang in Seoul."
   },
   {
     "title": "Senior Director, Brand Management",
@@ -2687,7 +2759,9 @@
     "first_published": "2025-06-23T00:45:10-04:00",
     "posted_date": "2026-06-19T14:31:49",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Senior Director, Brand Management",
+    "summary": "Senior Director, Brand Management at Coupang in Seoul."
   },
   {
     "title": "Tax Director",
@@ -2721,7 +2795,9 @@
     "first_published": "2025-11-18T02:01:40-05:00",
     "posted_date": "2026-06-19T18:02:55",
     "date_source": "estimated",
-    "city_normalized": "Taipei"
+    "city_normalized": "Taipei",
+    "en_title": "Tax Director",
+    "summary": "Tax Director at Coupang in Taipei."
   },
   {
     "title": "SEA TikTok Live Operations Lead",
@@ -2767,7 +2843,7 @@
     "url_type": "search",
     "stale": true,
     "stale_days": 8,
-    "en_title": "SEA Tik Tok Live Operations Lead",
+    "en_title": "SEA TikTok Live Operations Lead",
     "summary": "Senior Cross-border/Expansion role at Cross-border E-commerce. based in Shanghai.",
     "bing_fallback": "https://www.bing.com/search?q=Cross-border+E-commerce+SEA+TikTok+Live+Operations+Lead+Shanghai+apply",
     "has_direct_link": false,
@@ -2816,7 +2892,8 @@
     "has_direct_link": false,
     "posted_date": "2026-05-28T10:03:21",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Product Director at CrossBorder.io at Crossborder Io in Remote."
   },
   {
     "title": "Principal Product Manager - Verification & Activation(Exchange)",
@@ -2945,7 +3022,8 @@
     "has_direct_link": false,
     "posted_date": "2026-05-28T11:48:55",
     "date_source": "estimated",
-    "city_normalized": "Hong Kong"
+    "city_normalized": "Hong Kong",
+    "summary": "Product Director, Banking Engagement at Crypto.com in Hong Kong."
   },
   {
     "title": "Senior Product Manager, Applied AI",
@@ -3170,7 +3248,9 @@
     "first_published": "2026-06-09T01:32:35-04:00",
     "posted_date": "2026-06-19T18:38:07",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Director, Lakebase Sales Specialist",
+    "summary": "Director, Lakebase Sales Specialist at Databricks in Tokyo."
   },
   {
     "title": "Director, Partner Account Manager - Accenture APJ",
@@ -3204,7 +3284,9 @@
     "first_published": "2026-03-09T14:28:00-04:00",
     "posted_date": "2026-06-19T19:13:18",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Director, Partner Account Manager - Accenture APJ",
+    "summary": "Director, Partner Account Manager - Accenture APJ at Databricks in Singapore."
   },
   {
     "title": "Head of Marketing - Japan",
@@ -3238,7 +3320,9 @@
     "first_published": "2026-04-12T20:16:43-04:00",
     "posted_date": "2026-06-19T20:58:51",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Head of Marketing - Japan",
+    "summary": "Head of Marketing - Japan at Databricks in Tokyo."
   },
   {
     "title": "Head of Enterprise Sales, Japan",
@@ -3315,7 +3399,9 @@
     "first_published": "2025-10-10T07:16:15-04:00",
     "posted_date": "2026-06-19T23:19:36",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Director, Enterprise Sales - Public Sector (State, Local, Education/SLED)",
+    "summary": "Director, Enterprise Sales - Public Sector (State, Local, Education/SLED) at Datadog in Tokyo."
   },
   {
     "title": "Head of Channels & Alliances",
@@ -3349,7 +3435,9 @@
     "first_published": "2026-03-19T03:56:33-04:00",
     "posted_date": "2026-06-19T23:54:47",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Head of Channels & Alliances",
+    "summary": "Head of Channels & Alliances at Datadog in Seoul."
   },
   {
     "title": "Regional Director, Enterprise Sales",
@@ -3383,7 +3471,9 @@
     "first_published": "2026-01-08T01:28:58-05:00",
     "posted_date": "2026-06-20T00:29:58",
     "date_source": "estimated",
-    "city_normalized": "Jakarta"
+    "city_normalized": "Jakarta",
+    "en_title": "Regional Director, Enterprise Sales",
+    "summary": "Regional Director, Enterprise Sales at Datadog in Jakarta."
   },
   {
     "title": "General Manager & Country Head - Singapore",
@@ -3440,7 +3530,9 @@
     "url_type": "search",
     "posted_date": "2026-05-28T17:05:35",
     "date_source": "estimated",
-    "city_normalized": "Shanghai"
+    "city_normalized": "Shanghai",
+    "en_title": "Head of Product at EcomAsia",
+    "summary": "Head of Product at EcomAsia at Ecomasia in Shanghai."
   },
   {
     "title": "Senior Manager, Commercial Sales",
@@ -3657,7 +3749,9 @@
     "description": "Staff PM at Flexport China. Cross-border logistics tech, supply chain platform. Senior product leadership.",
     "posted": "2026-06-29",
     "grade": "A-1",
-    "grade_note": "Perfect fit - Staff PM, Shenzhen/Shanghai, cross-border logistics, fintech adjacent"
+    "grade_note": "Perfect fit - Staff PM, Shenzhen/Shanghai, cross-border logistics, fintech adjacent",
+    "en_title": "Staff Product Manager",
+    "summary": "Staff Product Manager at Flexport in Shanghai / Shenzhen. Staff PM at Flexport China."
   },
   {
     "title": "Associate/AVP, Total Portfolio Sustainability Investment Research & Strategy",
@@ -3683,7 +3777,9 @@
     "url_type": "search",
     "posted_date": "2026-05-28T21:11:53",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Associate/AVP, Total Portfolio Sustainability Investment Research & Strategy",
+    "summary": "Associate/AVP, Total Portfolio Sustainability Investment Research & Strategy at GIC in Singapore."
   },
   {
     "title": "Senior Product Manager (Trading)",
@@ -3762,7 +3858,9 @@
     "url_type": "direct",
     "posted_date": "2026-05-29T00:07:49",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "GA Actis Associate, SPV Management",
+    "summary": "GA Actis Associate, SPV Management at General Atlantic in Singapore."
   },
   {
     "title": "Regional Sales Director, ASEAN & Korea",
@@ -4041,7 +4139,8 @@
     "has_direct_link": true,
     "posted_date": "2026-05-29T04:14:07",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Head of Product, Payroll at Gusto, Inc. in Denver, CO;San Francisco, CA;New York, NY;Los Angeles, CA;Seattle, WA;Toronto, Ontario, CAN - Remote."
   },
   {
     "title": "Senior Manager of Frontline Incentive and Strategy",
@@ -4256,7 +4355,9 @@
     "url_type": "search",
     "posted_date": "2026-05-29T07:45:13",
     "date_source": "estimated",
-    "city_normalized": "Hong Kong"
+    "city_normalized": "Hong Kong",
+    "en_title": "Venture Investment Associate",
+    "summary": "Venture Investment Associate at HSBC Ventures in Hong Kong."
   },
   {
     "title": "Growth Equity Associate Opportunity",
@@ -4282,7 +4383,9 @@
     "url_type": "search",
     "posted_date": "2026-05-29T09:30:47",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Growth Equity Associate Opportunity",
+    "summary": "Growth Equity Associate Opportunity at Hunter Bond in Singapore."
   },
   {
     "title": "Senior Product Manager, Global Corporate Banking - Bank of China (Hong Kong)",
@@ -4370,7 +4473,8 @@
     "has_direct_link": false,
     "posted_date": "2026-05-29T10:41:09",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Director, International Strategy & Planning at Instacart in United States - Remote."
   },
   {
     "title": "Director of Product, Agentic Commerce",
@@ -4413,7 +4517,8 @@
     "has_direct_link": false,
     "posted_date": "2026-05-29T11:16:20",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Director of Product, Agentic Commerce at Instacart in Canada - Remote (ON, AB, BC, or NS Only)."
   },
   {
     "title": "Senior Director, Enterprise Delivery and Growth",
@@ -4456,7 +4561,8 @@
     "has_direct_link": false,
     "posted_date": "2026-05-29T11:51:31",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Senior Director, Enterprise Delivery and Growth at Instacart in United States - Remote."
   },
   {
     "title": "Senior Director, Media Analytics, Commercial Strategy & Acceleration",
@@ -4499,7 +4605,8 @@
     "has_direct_link": false,
     "posted_date": "2026-05-29T12:26:42",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Senior Director, Media Analytics, Commercial Strategy & Acceleration at Instacart in Canada - Remote (ON, AB, BC, or NS Only)."
   },
   {
     "title": "Director, International Strategy & Planning",
@@ -4514,7 +4621,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Director, International Strategy & Planning",
+    "summary": "Director, International Strategy & Planning at Instacart in Canada - Remote (ON, AB, BC, or NS Only)."
   },
   {
     "title": "Director of Product, Agentic Commerce",
@@ -4529,7 +4638,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Director of Product, Agentic Commerce",
+    "summary": "Director of Product, Agentic Commerce at Instacart in United States - Remote."
   },
   {
     "title": "Principal Product Manager, AI",
@@ -4544,7 +4655,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Principal Product Manager, AI",
+    "summary": "Principal Product Manager, AI at Instacart in United States - Remote."
   },
   {
     "title": "Principal Product Manager, AI",
@@ -4559,7 +4672,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Principal Product Manager, AI",
+    "summary": "Principal Product Manager, AI at Instacart in Canada - Remote (ON, AB, BC, or NS Only)."
   },
   {
     "title": "Senior Director, Enterprise Delivery and Growth",
@@ -4574,7 +4689,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Director, Enterprise Delivery and Growth",
+    "summary": "Senior Director, Enterprise Delivery and Growth at Instacart in Canada - Remote (ON, AB, BC, or NS Only)."
   },
   {
     "title": "Senior Director, Media Analytics, Commercial Strategy & Acceleration",
@@ -4589,7 +4706,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Director, Media Analytics, Commercial Strategy & Acceleration",
+    "summary": "Senior Director, Media Analytics, Commercial Strategy & Acceleration at Instacart in United States - Remote."
   },
   {
     "title": "BNPL Product & Operations Lead (Europe Business)",
@@ -4745,7 +4864,9 @@
     "english_friendly": true,
     "city_normalized": "Hong Kong",
     "quality_score": 42,
-    "quality_tier": "C"
+    "quality_tier": "C",
+    "en_title": "Head of Product - Hong Kong",
+    "summary": "Head of Product - Hong Kong at Kong in Hong Kong."
   },
   {
     "title": "Senior Product Manager, AI Gateway",
@@ -4864,7 +4985,9 @@
     "description": "Senior Director leading partner ecosystem across Greater China and Korea. Strategic partnerships and channel development.",
     "posted": "2026-05-20",
     "grade": "A-1",
-    "grade_note": "Perfect fit - Senior Director, HK/Shanghai, partnerships, APAC leadership"
+    "grade_note": "Perfect fit - Senior Director, HK/Shanghai, partnerships, APAC leadership",
+    "en_title": "Senior Director, Partner Specialists (Greater China + Korea)",
+    "summary": "Senior Director, Partner Specialists (Greater China + Korea) at MongoDB in Hong Kong / Seoul / Shanghai. Senior Director leading partner ecosystem across Greater China and Korea."
   },
   {
     "title": "AI Project/Product Manager - AI Company - Hong Kong",
@@ -5148,7 +5271,9 @@
     "first_published": "2026-06-23T08:55:57.049+00:00",
     "posted_date": "2026-06-20T04:01:05",
     "date_source": "estimated",
-    "city_normalized": "Taipei"
+    "city_normalized": "Taipei",
+    "en_title": "Country Manager, Taiwan",
+    "summary": "Country Manager, Taiwan at Notion in Taiwan."
   },
   {
     "title": "Cross Border Payment Product Manager, Group Transaction Banking – Cash Product Management (AVP)",
@@ -5664,7 +5789,7 @@
     "us_firm_apac": true,
     "stale": true,
     "stale_days": 8,
-    "en_title": "Senior Product Manager, Dev Ops and AI",
+    "en_title": "Senior Product Manager, DevOps and AI",
     "summary": "Senior Product Management role at OKX. based in Singapore. focused on AI/ML.",
     "has_direct_link": false,
     "bing_fallback": "https://www.bing.com/search?q=OKX%20Senior%20Product%20Manager%2C%20Dev%20Ops%20and%20AI%20Singapore%20apply",
@@ -6573,7 +6698,9 @@
     "first_published": "2026-04-08T03:37:29-04:00",
     "posted_date": "2026-06-20T06:57:00",
     "date_source": "estimated",
-    "city_normalized": "APAC"
+    "city_normalized": "APAC",
+    "en_title": "Data Engineering Director ",
+    "summary": "Data Engineering Director  at OKX in APAC."
   },
   {
     "title": "Design Director, Visual Systems",
@@ -6607,7 +6734,9 @@
     "first_published": "2025-10-06T02:28:53-04:00",
     "posted_date": "2026-06-20T07:32:11",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Design Director, Visual Systems",
+    "summary": "Design Director, Visual Systems at OKX in Singapore."
   },
   {
     "title": "Director, AI & Chatbot",
@@ -6641,7 +6770,9 @@
     "first_published": "2026-04-22T02:40:05-04:00",
     "posted_date": "2026-06-20T08:07:23",
     "date_source": "estimated",
-    "city_normalized": "Kuala Lumpur"
+    "city_normalized": "Kuala Lumpur",
+    "en_title": "Director, AI & Chatbot",
+    "summary": "Director, AI & Chatbot at OKX in Kuala Lumpur, Malaysia."
   },
   {
     "title": "Director, Compliance Data Science & AI",
@@ -6675,7 +6806,9 @@
     "first_published": "2026-03-19T03:50:03-04:00",
     "posted_date": "2026-06-20T08:42:34",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Director, Compliance Data Science & AI",
+    "summary": "Director, Compliance Data Science & AI at OKX in Singapore."
   },
   {
     "title": "Director, Group Treasury Services",
@@ -6709,7 +6842,9 @@
     "first_published": "2026-05-14T10:02:09-04:00",
     "posted_date": "2026-06-20T09:17:45",
     "date_source": "estimated",
-    "city_normalized": "Kuala Lumpur"
+    "city_normalized": "Kuala Lumpur",
+    "en_title": "Director, Group Treasury Services",
+    "summary": "Director, Group Treasury Services at OKX in Kuala Lumpur, Malaysia."
   },
   {
     "title": "Engineering Director, DBA",
@@ -6743,7 +6878,9 @@
     "first_published": "2025-05-08T08:48:51-04:00",
     "posted_date": "2026-06-20T09:52:56",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Engineering Director, DBA",
+    "summary": "Engineering Director, DBA at OKX in Singapore."
   },
   {
     "title": "Engineering Director, Frontend",
@@ -6777,7 +6914,9 @@
     "first_published": "2026-04-02T05:30:08-04:00",
     "posted_date": "2026-06-20T10:28:07",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Engineering Director, Frontend",
+    "summary": "Engineering Director, Frontend at OKX in Singapore."
   },
   {
     "title": "Engineering Director, Frontend Business Lead",
@@ -6811,7 +6950,9 @@
     "first_published": "2026-04-02T05:30:09-04:00",
     "posted_date": "2026-06-20T11:03:18",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Engineering Director, Frontend Business Lead",
+    "summary": "Engineering Director, Frontend Business Lead at OKX in Singapore."
   },
   {
     "title": "Engineering Director (Java), Trading Services",
@@ -6845,7 +6986,9 @@
     "first_published": "2026-03-20T02:11:12-04:00",
     "posted_date": "2026-06-20T11:38:29",
     "date_source": "estimated",
-    "city_normalized": "APAC"
+    "city_normalized": "APAC",
+    "en_title": "Engineering Director (Java), Trading Services",
+    "summary": "Engineering Director (Java), Trading Services at OKX in APAC."
   },
   {
     "title": "Engineering Director, Mobile (iOS/Android)",
@@ -6879,7 +7022,9 @@
     "first_published": "2026-06-19T06:42:33-04:00",
     "posted_date": "2026-06-20T12:13:40",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Engineering Director, Mobile (iOS/Android)",
+    "summary": "Engineering Director, Mobile (iOS/Android) at OKX in Singapore."
   },
   {
     "title": "Engineering Director, Mobile, Web3",
@@ -6913,7 +7058,9 @@
     "first_published": "2026-06-22T02:44:35-04:00",
     "posted_date": "2026-06-20T12:48:52",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Engineering Director, Mobile, Web3",
+    "summary": "Engineering Director, Mobile, Web3 at OKX in Singapore."
   },
   {
     "title": "Finance Director - Group Consolidation",
@@ -6947,7 +7094,9 @@
     "first_published": "2026-06-22T05:56:48-04:00",
     "posted_date": "2026-06-20T13:24:03",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Finance Director - Group Consolidation",
+    "summary": "Finance Director - Group Consolidation at OKX in Singapore."
   },
   {
     "title": "Frontend Business Engineering Director",
@@ -6981,7 +7130,9 @@
     "first_published": "2026-03-31T03:34:54-04:00",
     "posted_date": "2026-06-20T13:59:14",
     "date_source": "estimated",
-    "city_normalized": "APAC"
+    "city_normalized": "APAC",
+    "en_title": "Frontend Business Engineering Director",
+    "summary": "Frontend Business Engineering Director at OKX in APAC."
   },
   {
     "title": "Head of Communications and PR, APAC",
@@ -7015,7 +7166,9 @@
     "first_published": "2026-05-20T07:07:27-04:00",
     "posted_date": "2026-06-20T15:09:36",
     "date_source": "estimated",
-    "city_normalized": "Hong Kong"
+    "city_normalized": "Hong Kong",
+    "en_title": "Head of Communications and PR, APAC",
+    "summary": "Head of Communications and PR, APAC at OKX in Hong Kong."
   },
   {
     "title": "Head of Wholesale, NEA (VIP)",
@@ -7049,7 +7202,9 @@
     "first_published": "2025-12-30T02:51:03-05:00",
     "posted_date": "2026-06-20T15:44:47",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Head of Wholesale, NEA (VIP)",
+    "summary": "Head of Wholesale, NEA (VIP) at OKX in Singapore."
   },
   {
     "title": "Senior Director/ VP, AI ",
@@ -7083,7 +7238,9 @@
     "first_published": "2026-05-18T20:39:40-04:00",
     "posted_date": "2026-06-20T18:05:32",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Senior Director/ VP, AI ",
+    "summary": "Senior Director/ VP, AI  at OKX in Singapore."
   },
   {
     "title": "Vice President of Product, AI and Agent",
@@ -7117,7 +7274,9 @@
     "first_published": "2026-04-07T06:57:53-04:00",
     "posted_date": "2026-06-20T18:40:43",
     "date_source": "estimated",
-    "city_normalized": "Hong Kong"
+    "city_normalized": "Hong Kong",
+    "en_title": "Vice President of Product, AI and Agent",
+    "summary": "Vice President of Product, AI and Agent at OKX in Hong Kong."
   },
   {
     "title": "Product Manager / Director, Core Trading",
@@ -7151,7 +7310,9 @@
     "first_published": "2026-06-23T22:55:02-04:00",
     "posted_date": "2026-06-21T19:53:42",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Product Manager / Director, Core Trading",
+    "summary": "Product Manager / Director, Core Trading at OKX in Singapore."
   },
   {
     "title": "Product Manager / Director, Financial Products",
@@ -7185,7 +7346,9 @@
     "first_published": "2026-06-23T22:56:17-04:00",
     "posted_date": "2026-06-21T20:28:53",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Product Manager / Director, Financial Products",
+    "summary": "Product Manager / Director, Financial Products at OKX in Singapore."
   },
   {
     "title": "Managing Director, Global Banking Partnerships",
@@ -7200,7 +7363,9 @@
     "posted": "2026-06-03",
     "city_normalized": "Singapore",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Managing Director, Global Banking Partnerships",
+    "summary": "Managing Director, Global Banking Partnerships at OKX in Singapore, Singapore. Greenhouse posting."
   },
   {
     "title": "Principal Product Manager, Affiliate & KOL - Onshore Markets",
@@ -7215,7 +7380,9 @@
     "posted": "2026-06-18",
     "city_normalized": "Singapore",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Principal Product Manager, Affiliate & KOL - Onshore Markets",
+    "summary": "Principal Product Manager, Affiliate & KOL - Onshore Markets at OKX in Hong Kong, Hong Kong SAR; Singapore, Singapore. Greenhouse posting."
   },
   {
     "title": "Principal/Senior Product Manager, Web3 Wallet",
@@ -7230,7 +7397,9 @@
     "posted": "2026-06-17",
     "city_normalized": "Singapore",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Principal/Senior Product Manager, Web3 Wallet",
+    "summary": "Principal/Senior Product Manager, Web3 Wallet at OKX in Singapore, Singapore. Greenhouse posting."
   },
   {
     "title": "Product Manager / Director, Core Trading",
@@ -7245,7 +7414,9 @@
     "posted": "2026-06-23",
     "city_normalized": "Hong Kong",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Product Manager / Director, Core Trading",
+    "summary": "Product Manager / Director, Core Trading at OKX in Hong Kong, Hong Kong SAR. Greenhouse posting."
   },
   {
     "title": "Product Manager / Director, Core Trading",
@@ -7260,7 +7431,9 @@
     "posted": "2026-06-23",
     "city_normalized": "Singapore",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Product Manager / Director, Core Trading",
+    "summary": "Product Manager / Director, Core Trading at OKX in Singapore, Singapore. Greenhouse posting."
   },
   {
     "title": "Product Manager / Director, Financial Products",
@@ -7275,7 +7448,9 @@
     "posted": "2026-06-23",
     "city_normalized": "Singapore",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Product Manager / Director, Financial Products",
+    "summary": "Product Manager / Director, Financial Products at OKX in Singapore, Singapore. Greenhouse posting."
   },
   {
     "title": "Product Manager / Director, Financial Products",
@@ -7290,7 +7465,9 @@
     "posted": "2026-06-23",
     "city_normalized": "Hong Kong",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Product Manager / Director, Financial Products",
+    "summary": "Product Manager / Director, Financial Products at OKX in Hong Kong, Hong Kong SAR. Greenhouse posting."
   },
   {
     "title": "Product Manager / Director, User Growth",
@@ -7305,7 +7482,9 @@
     "posted": "2026-06-10",
     "city_normalized": "Singapore",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Product Manager / Director, User Growth",
+    "summary": "Product Manager / Director, User Growth at OKX in Singapore, Singapore. Greenhouse posting."
   },
   {
     "title": "Product Manager / Director, VIP Growth & Operations",
@@ -7320,7 +7499,9 @@
     "posted": "2026-06-09",
     "city_normalized": "Singapore",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Product Manager / Director, VIP Growth & Operations",
+    "summary": "Product Manager / Director, VIP Growth & Operations at OKX in Singapore, Singapore. Greenhouse posting."
   },
   {
     "title": "Senior Manager, RWA Partnerships & Operations",
@@ -7335,7 +7516,9 @@
     "posted": "2026-06-05",
     "city_normalized": "Singapore",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Manager, RWA Partnerships & Operations",
+    "summary": "Senior Manager, RWA Partnerships & Operations at OKX in Singapore, Singapore. Greenhouse posting."
   },
   {
     "title": "Senior Manager, Web3 Partnerships",
@@ -7350,7 +7533,9 @@
     "posted": "2026-06-05",
     "city_normalized": "Hong Kong",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Manager, Web3 Partnerships",
+    "summary": "Senior Manager, Web3 Partnerships at OKX in Hong Kong, Hong Kong SAR. Greenhouse posting."
   },
   {
     "title": "Managing Director, Global Banking Partnerships",
@@ -7967,7 +8152,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 42,
-    "quality_tier": "C"
+    "quality_tier": "C",
+    "en_title": "Product Director - APAC Remote",
+    "summary": "Product Director - APAC Remote at Remote in Remote."
   },
   {
     "title": "General Manager, South East Asia",
@@ -9164,7 +9351,9 @@
     "posted": "2026-06-26",
     "city_normalized": "Singapore",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Head of Sales, Stripe Billing - APAC",
+    "summary": "Head of Sales, Stripe Billing - APAC at Stripe in Sydney OR Singapore. Greenhouse posting."
   },
   {
     "title": "Product Lead, Project R.I.S.E",
@@ -9334,7 +9523,9 @@
     "first_published": "2026-04-11T12:30:58-04:00",
     "posted_date": "2026-06-20T22:11:50",
     "date_source": "estimated",
-    "city_normalized": "Hong Kong"
+    "city_normalized": "Hong Kong",
+    "en_title": "Business Development Director",
+    "summary": "Business Development Director at Thunes in Hong Kong."
   },
   {
     "title": "Head of Product - Core & Growth",
@@ -9350,7 +9541,7 @@
     "scanned_date": "2026-06-27",
     "source": "greenhouse_thunes",
     "english_friendly": true,
-    "summary": "",
+    "summary": "Head of Product - Core & Growth at Thunes in Singapore, Central, Singapore.",
     "url_type": "search",
     "app_platform": "company_portal",
     "app_difficulty": "hard",
@@ -9374,7 +9565,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 42,
-    "quality_tier": "C"
+    "quality_tier": "C",
+    "en_title": "Head of Product",
+    "summary": "Head of Product at Toptal in Remote."
   },
   {
     "title": "Product Director - APAC",
@@ -9389,7 +9582,9 @@
     "english_friendly": true,
     "city_normalized": "Singapore",
     "quality_score": 42,
-    "quality_tier": "C"
+    "quality_tier": "C",
+    "en_title": "Product Director - APAC",
+    "summary": "Product Director - APAC at Toptal in Singapore."
   },
   {
     "title": "Head of Product",
@@ -9404,7 +9599,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 42,
-    "quality_tier": "C"
+    "quality_tier": "C",
+    "en_title": "Head of Product",
+    "summary": "Head of Product at Turing in Remote."
   },
   {
     "title": "Product Director - Remote",
@@ -9419,7 +9616,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 42,
-    "quality_tier": "C"
+    "quality_tier": "C",
+    "en_title": "Product Director - Remote",
+    "summary": "Product Director - Remote at Turing in Remote."
   },
   {
     "title": "Senior Consultant / Consultant - AI Strategy",
@@ -9701,7 +9900,9 @@
     "first_published": "2026-05-19T05:30:44-04:00",
     "posted_date": "2026-06-20T23:57:23",
     "date_source": "estimated",
-    "city_normalized": "Jakarta"
+    "city_normalized": "Jakarta",
+    "en_title": "Banking Experiments Business Director",
+    "summary": "Banking Experiments Business Director at Xendit in Jakarta."
   },
   {
     "title": "Head of Treasury",
@@ -9735,7 +9936,9 @@
     "first_published": "2026-03-08T23:28:58-04:00",
     "posted_date": "2026-06-21T01:07:45",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Head of Treasury",
+    "summary": "Head of Treasury at Xendit in Singapore."
   },
   {
     "title": "Senior Regional Commercial Development Manager (Strategy/Planning)",
@@ -9813,7 +10016,9 @@
     "url_type": "search",
     "posted_date": "2026-06-01T04:21:56",
     "date_source": "estimated",
-    "city_normalized": "Shenzhen"
+    "city_normalized": "Shenzhen",
+    "en_title": "Director P02/P03 -",
+    "summary": "Director P02/P03 - at 中明科技 in Shenzhen."
   },
   {
     "title": "商业策略运营",
@@ -9889,7 +10094,9 @@
     "url_type": "search",
     "posted_date": "2026-06-01T06:42:40",
     "date_source": "estimated",
-    "city_normalized": "Guangzhou"
+    "city_normalized": "Guangzhou",
+    "en_title": "IAP) 2C -",
+    "summary": "IAP) 2C - at 幂动科技 in Guangzhou."
   },
   {
     "title": "副总经理",
@@ -9965,7 +10172,9 @@
     "url_type": "search",
     "posted_date": "2026-06-01T09:38:36",
     "date_source": "estimated",
-    "city_normalized": "Guangzhou"
+    "city_normalized": "Guangzhou",
+    "en_title": "AI AI /AIGame/Gaming - Network",
+    "summary": "AI AI /AIGame/Gaming - Network at 易娱网络 in Guangzhou."
   },
   {
     "title": "市场增长负责人",
@@ -10263,7 +10472,9 @@
     "url_type": "search",
     "posted_date": "2026-06-01T16:40:49",
     "date_source": "estimated",
-    "city_normalized": "Unknown"
+    "city_normalized": "Unknown",
+    "en_title": "Director",
+    "summary": "Director at 猎聘."
   },
   {
     "title": "上海招聘产品总监人才",
@@ -10289,7 +10500,9 @@
     "url_type": "search",
     "posted_date": "2026-06-01T17:16:01",
     "date_source": "estimated",
-    "city_normalized": "Unknown"
+    "city_normalized": "Unknown",
+    "en_title": "Director",
+    "summary": "Director at 猎聘."
   },
   {
     "title": "上海- 产品总监招聘",
@@ -10315,7 +10528,9 @@
     "url_type": "search",
     "posted_date": "2026-06-01T17:51:12",
     "date_source": "estimated",
-    "city_normalized": "Unknown"
+    "city_normalized": "Unknown",
+    "en_title": "- Director",
+    "summary": "- Director at 猎聘."
   },
   {
     "title": "上海AI平台产品总监招聘",
@@ -10341,7 +10556,9 @@
     "url_type": "search",
     "posted_date": "2026-06-01T18:26:23",
     "date_source": "estimated",
-    "city_normalized": "Unknown"
+    "city_normalized": "Unknown",
+    "en_title": "AIPlatform Director",
+    "summary": "AIPlatform Director at 猎聘."
   },
   {
     "title": "海外产品负责人（语音/直播）招聘_百度招聘 - BOSS直聘",
@@ -10647,7 +10864,9 @@
     "url_type": "search",
     "posted_date": "2026-06-01T23:07:52",
     "date_source": "estimated",
-    "city_normalized": "Shenzhen"
+    "city_normalized": "Shenzhen",
+    "en_title": "Game/Gaming - Network",
+    "summary": "Game/Gaming - Network at 迅雷网络 in Shenzhen."
   },
   {
     "title": "WPS商业化运营",
@@ -10751,7 +10970,7 @@
   },
   {
     "title": "Product Manager / Product Director, Copy Trading / Trading Bot - P2P",
-    "company": "",
+    "company": "Unknown",
     "location": "Singapore",
     "location_norm": "Singapore",
     "url": "https://sg.jobsdb.com/Visa-Sponsorship-Product-Manager-jobs-in-Singapore",
@@ -10795,7 +11014,7 @@
   },
   {
     "title": "AI增长产品经理（线索挖掘方向）",
-    "company": "",
+    "company": "Unknown",
     "location": "Hong Kong",
     "grade": "A-2",
     "url": "https://www.zhipin.com/job_detail/d9689946ec363c1a0nZ929u0E1FY.html",
@@ -10834,11 +11053,12 @@
     "has_direct_link": false,
     "posted_date": "2026-06-02T10:16:23",
     "date_source": "estimated",
-    "city_normalized": "Hong Kong"
+    "city_normalized": "Hong Kong",
+    "summary": "AI增长产品经理（线索挖掘方向） in Hong Kong."
   },
   {
     "title": "ai产品经理（外企直签）",
-    "company": "",
+    "company": "Unknown",
     "location": "",
     "grade": "A-2",
     "url": "https://www.zhaopin.com/jobdetail/CC153170410J40776545902.htm",
@@ -10877,7 +11097,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-02T14:57:52",
     "date_source": "estimated",
-    "city_normalized": "Unknown"
+    "city_normalized": "Unknown",
+    "summary": "ai产品经理（外企直签）."
   },
   {
     "title": "APAC Lead - Payment Method Compliance",
@@ -10911,7 +11132,9 @@
     "first_published": "2026-01-26T03:55:38-05:00",
     "posted_date": "2026-06-16T23:11:46",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "APAC Lead - Payment Method Compliance",
+    "summary": "APAC Lead - Payment Method Compliance at Adyen in Singapore."
   },
   {
     "title": "Engineering Leader -  Payments APAC",
@@ -10945,7 +11168,9 @@
     "first_published": "2026-06-07T23:45:51-04:00",
     "posted_date": "2026-06-16T23:46:58",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Engineering Leader -  Payments APAC",
+    "summary": "Engineering Leader -  Payments APAC at Adyen in Singapore."
   },
   {
     "title": "Marketing Lead APAC",
@@ -10979,7 +11204,9 @@
     "first_published": "2026-02-11T03:01:45-05:00",
     "posted_date": "2026-06-17T00:22:09",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Marketing Lead APAC",
+    "summary": "Marketing Lead APAC at Adyen in Singapore."
   },
   {
     "title": "Team Lead - Account Management",
@@ -11013,7 +11240,9 @@
     "first_published": "2026-04-14T11:42:29-04:00",
     "posted_date": "2026-06-17T01:32:31",
     "date_source": "estimated",
-    "city_normalized": "Shanghai"
+    "city_normalized": "Shanghai",
+    "en_title": "Team Lead - Account Management",
+    "summary": "Team Lead - Account Management at Adyen in Shanghai."
   },
   {
     "title": "Team Lead, IT support APAC",
@@ -11047,7 +11276,9 @@
     "first_published": "2026-06-01T03:58:46-04:00",
     "posted_date": "2026-06-17T02:07:42",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Team Lead, IT support APAC",
+    "summary": "Team Lead, IT support APAC at Adyen in Singapore."
   },
   {
     "title": "Team Lead, Sales ",
@@ -11081,7 +11312,9 @@
     "first_published": "2026-02-27T04:01:27-05:00",
     "posted_date": "2026-06-17T02:42:53",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Team Lead, Sales ",
+    "summary": "Team Lead, Sales  at Adyen in Tokyo."
   },
   {
     "title": "Project Operations Manager",
@@ -11115,7 +11348,9 @@
     "first_published": "2026-04-29T03:29:50-04:00",
     "posted_date": "2026-06-21T02:18:08",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Project Operations Manager",
+    "summary": "Project Operations Manager at Adyen in Tokyo."
   },
   {
     "title": "Product Manager - Payments",
@@ -11131,7 +11366,7 @@
     "scanned_date": "2026-06-27",
     "source": "greenhouse_adyen",
     "english_friendly": true,
-    "summary": "",
+    "summary": "Product Manager - Payments at Adyen in Singapore.",
     "url_type": "direct",
     "app_platform": "greenhouse",
     "app_difficulty": "easy",
@@ -11153,7 +11388,9 @@
     "description": "Head of Sales Singapore at Adyen. Leading enterprise payments sales in SEA.",
     "posted": "2026-06-15",
     "grade": "A-2",
-    "grade_note": "Strong fit - Head of Sales, Singapore, payments/fintech"
+    "grade_note": "Strong fit - Head of Sales, Singapore, payments/fintech",
+    "en_title": "Head of Sales, Singapore",
+    "summary": "Head of Sales, Singapore at Adyen in Singapore. Head of Sales Singapore at Adyen."
   },
   {
     "title": "Director, Learning",
@@ -11965,7 +12202,9 @@
     "first_published": "2026-04-27T05:16:38-04:00",
     "posted_date": "2026-06-17T03:18:04",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Account Team Lead",
+    "summary": "Account Team Lead at Agoda in Tokyo."
   },
   {
     "title": "Analyst, Marketing Analytics and Strategy (Bangkok Based, relocation provided)",
@@ -11999,7 +12238,9 @@
     "first_published": "2021-06-11T06:40:32-04:00",
     "posted_date": "2026-06-17T03:53:16",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Analyst, Marketing Analytics and Strategy (Bangkok Based, relocation provided)",
+    "summary": "Analyst, Marketing Analytics and Strategy (Bangkok Based, relocation provided) at Agoda in Bangkok."
   },
   {
     "title": "Back End Lead Software Engineer - Accommodation/Flights/Supply/FinTech(Bangkok based - Relocation provided)",
@@ -12033,7 +12274,9 @@
     "first_published": "2026-05-03T07:30:38-04:00",
     "posted_date": "2026-06-17T04:28:27",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Back End Lead Software Engineer - Accommodation/Flights/Supply/FinTech(Bangkok based - Relocation provided)",
+    "summary": "Back End Lead Software Engineer - Accommodation/Flights/Supply/FinTech(Bangkok based - Relocation provided) at Agoda in Bangkok."
   },
   {
     "title": "Backend Lead Software Engineer (L5) — Bangkok Relocation Provided",
@@ -12067,7 +12310,9 @@
     "first_published": "2025-02-06T23:02:18-05:00",
     "posted_date": "2026-06-17T05:03:38",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Backend Lead Software Engineer (L5) — Bangkok Relocation Provided",
+    "summary": "Backend Lead Software Engineer (L5) — Bangkok Relocation Provided at Agoda in Bangkok."
   },
   {
     "title": "Customer Satisfaction & Incidents, Regional Customer Service Manager",
@@ -12101,7 +12346,9 @@
     "first_published": "2025-12-18T03:42:13-05:00",
     "posted_date": "2026-06-17T05:38:49",
     "date_source": "estimated",
-    "city_normalized": "Kuala Lumpur"
+    "city_normalized": "Kuala Lumpur",
+    "en_title": "Customer Satisfaction & Incidents, Regional Customer Service Manager",
+    "summary": "Customer Satisfaction & Incidents, Regional Customer Service Manager at Agoda in Kuala Lumpur."
   },
   {
     "title": "[ITO] (GSD) Program Manager – People Technology (Bangkok/Indian/Malaysia-based, relocation provided)",
@@ -12135,7 +12382,9 @@
     "first_published": "2025-12-30T05:30:55-05:00",
     "posted_date": "2026-06-17T07:24:22",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "[ITO] (GSD) Program Manager – People Technology (Bangkok/Indian/Malaysia-based, relocation provided)",
+    "summary": "[ITO] (GSD) Program Manager – People Technology (Bangkok/Indian/Malaysia-based, relocation provided) at Agoda in Bangkok."
   },
   {
     "title": "Lead, Account Management (Manila based)",
@@ -12169,7 +12418,9 @@
     "first_published": "2025-08-04T00:00:11-04:00",
     "posted_date": "2026-06-17T07:59:33",
     "date_source": "estimated",
-    "city_normalized": "Manila"
+    "city_normalized": "Manila",
+    "en_title": "Lead, Account Management (Manila based)",
+    "summary": "Lead, Account Management (Manila based) at Agoda in Manila."
   },
   {
     "title": "Lead Analyst (Supply Analytics, Bangkok-based, Relocation provided)",
@@ -12203,7 +12454,9 @@
     "first_published": "2025-11-06T04:32:18-05:00",
     "posted_date": "2026-06-17T08:34:45",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Lead Analyst (Supply Analytics, Bangkok-based, Relocation provided)",
+    "summary": "Lead Analyst (Supply Analytics, Bangkok-based, Relocation provided) at Agoda in Bangkok."
   },
   {
     "title": "Lead Collaboration Tools and Cloud Solutions Engineer",
@@ -12237,7 +12490,9 @@
     "first_published": "2026-06-08T23:38:20-04:00",
     "posted_date": "2026-06-17T09:09:56",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Lead Collaboration Tools and Cloud Solutions Engineer",
+    "summary": "Lead Collaboration Tools and Cloud Solutions Engineer at Agoda in Bangkok."
   },
   {
     "title": "Lead Data Science (Bangkok based, Relocation provided)",
@@ -12271,7 +12526,9 @@
     "first_published": "2024-06-09T22:36:24-04:00",
     "posted_date": "2026-06-17T09:45:07",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Lead Data Science (Bangkok based, Relocation provided)",
+    "summary": "Lead Data Science (Bangkok based, Relocation provided) at Agoda in Bangkok."
   },
   {
     "title": "Lead Data Scientist - (Singapore Based)",
@@ -12305,7 +12562,9 @@
     "first_published": "2025-06-25T03:52:52-04:00",
     "posted_date": "2026-06-17T10:20:18",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Lead Data Scientist - (Singapore Based)",
+    "summary": "Lead Data Scientist - (Singapore Based) at Agoda in Singapore."
   },
   {
     "title": "Lead, Flights Supply (Bangkok Based)",
@@ -12339,7 +12598,9 @@
     "first_published": "2026-04-29T02:56:33-04:00",
     "posted_date": "2026-06-17T10:55:29",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Lead, Flights Supply (Bangkok Based)",
+    "summary": "Lead, Flights Supply (Bangkok Based) at Agoda in Bangkok."
   },
   {
     "title": "Lead, Flights Supply (Vietnam Based)",
@@ -12373,7 +12634,9 @@
     "first_published": "2026-04-29T02:46:31-04:00",
     "posted_date": "2026-06-17T11:30:40",
     "date_source": "estimated",
-    "city_normalized": "HCMC"
+    "city_normalized": "HCMC",
+    "en_title": "Lead, Flights Supply (Vietnam Based)",
+    "summary": "Lead, Flights Supply (Vietnam Based) at Agoda in Ho Chi Minh, Vietnam."
   },
   {
     "title": "Lead Partners program",
@@ -12407,7 +12670,9 @@
     "first_published": "2026-06-09T01:10:08-04:00",
     "posted_date": "2026-06-17T12:05:51",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Lead Partners program",
+    "summary": "Lead Partners program at Agoda in Bangkok."
   },
   {
     "title": "Lead/Senior Lead, Regional Management Office (Jakarta based)",
@@ -12441,7 +12706,9 @@
     "first_published": "2026-02-10T23:54:15-05:00",
     "posted_date": "2026-06-17T12:41:02",
     "date_source": "estimated",
-    "city_normalized": "Jakarta"
+    "city_normalized": "Jakarta",
+    "en_title": "Lead/Senior Lead, Regional Management Office (Jakarta based)",
+    "summary": "Lead/Senior Lead, Regional Management Office (Jakarta based) at Agoda in Jakarta."
   },
   {
     "title": "Lead Software Engineer - Android (Bangkok based, Relocation provided)",
@@ -12475,7 +12742,9 @@
     "first_published": "2026-01-23T00:06:51-05:00",
     "posted_date": "2026-06-17T13:16:14",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Lead Software Engineer - Android (Bangkok based, Relocation provided)",
+    "summary": "Lead Software Engineer - Android (Bangkok based, Relocation provided) at Agoda in Bangkok."
   },
   {
     "title": "Lead Software Engineer - Front End (Bangkok based, Relocation provided)",
@@ -12509,7 +12778,9 @@
     "first_published": "2024-08-09T05:06:08-04:00",
     "posted_date": "2026-06-17T13:51:25",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Lead Software Engineer - Front End (Bangkok based, Relocation provided)",
+    "summary": "Lead Software Engineer - Front End (Bangkok based, Relocation provided) at Agoda in Bangkok."
   },
   {
     "title": "Lead Software Engineer - Full Stack (Bangkok based, relocation provided)",
@@ -12543,7 +12814,9 @@
     "first_published": "2025-04-02T04:56:44-04:00",
     "posted_date": "2026-06-17T14:26:36",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Lead Software Engineer - Full Stack (Bangkok based, relocation provided)",
+    "summary": "Lead Software Engineer - Full Stack (Bangkok based, relocation provided) at Agoda in Bangkok."
   },
   {
     "title": "Manager, Partner Growth Marketing (Bangkok Based, Relocation Provided)",
@@ -12577,7 +12850,9 @@
     "first_published": "2026-02-02T21:12:21-05:00",
     "posted_date": "2026-06-17T15:01:47",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Manager, Partner Growth Marketing (Bangkok Based, Relocation Provided)",
+    "summary": "Manager, Partner Growth Marketing (Bangkok Based, Relocation Provided) at Agoda in Bangkok."
   },
   {
     "title": "Marketing Growth Strategy & Analytics (Bangkok-based, relocation provided)",
@@ -12611,7 +12886,9 @@
     "first_published": "2026-05-25T00:55:13-04:00",
     "posted_date": "2026-06-17T15:36:58",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Marketing Growth Strategy & Analytics (Bangkok-based, relocation provided)",
+    "summary": "Marketing Growth Strategy & Analytics (Bangkok-based, relocation provided) at Agoda in Bangkok."
   },
   {
     "title": "Regional Customer Service Manager - Customer Satisfaction & Incidents (CSI) ",
@@ -12645,7 +12922,9 @@
     "first_published": "2026-06-01T13:10:44-04:00",
     "posted_date": "2026-06-17T16:47:20",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Regional Customer Service Manager - Customer Satisfaction & Incidents (CSI) ",
+    "summary": "Regional Customer Service Manager - Customer Satisfaction & Incidents (CSI)  at Agoda in Bangkok."
   },
   {
     "title": "Senior Account Team Lead",
@@ -12679,7 +12958,9 @@
     "first_published": "2026-04-21T03:47:44-04:00",
     "posted_date": "2026-06-17T17:22:32",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Senior Account Team Lead",
+    "summary": "Senior Account Team Lead at Agoda in Tokyo."
   },
   {
     "title": "Senior Lead, Central Management Office, (Bangkok Based, Relocation Provided)",
@@ -12713,7 +12994,9 @@
     "first_published": "2026-05-20T02:43:42-04:00",
     "posted_date": "2026-06-17T18:32:54",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Senior Lead, Central Management Office, (Bangkok Based, Relocation Provided)",
+    "summary": "Senior Lead, Central Management Office, (Bangkok Based, Relocation Provided) at Agoda in Bangkok."
   },
   {
     "title": "Senior Lead, Flights Supply",
@@ -12747,7 +13030,9 @@
     "first_published": "2026-06-07T22:36:07-04:00",
     "posted_date": "2026-06-17T19:08:05",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Senior Lead, Flights Supply",
+    "summary": "Senior Lead, Flights Supply at Agoda in Tokyo."
   },
   {
     "title": "Senior Lead, Flights Supply (Bangkok Based)",
@@ -12781,7 +13066,9 @@
     "first_published": "2026-04-29T02:56:35-04:00",
     "posted_date": "2026-06-17T19:43:16",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Senior Lead, Flights Supply (Bangkok Based)",
+    "summary": "Senior Lead, Flights Supply (Bangkok Based) at Agoda in Bangkok."
   },
   {
     "title": "Senior Lead, Flights Supply Third Parties (Bangkok-based, Relocation Benefits provided)",
@@ -12815,7 +13102,9 @@
     "first_published": "2025-11-07T01:05:52-05:00",
     "posted_date": "2026-06-17T20:18:27",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Senior Lead, Flights Supply Third Parties (Bangkok-based, Relocation Benefits provided)",
+    "summary": "Senior Lead, Flights Supply Third Parties (Bangkok-based, Relocation Benefits provided) at Agoda in Bangkok."
   },
   {
     "title": "Senior Lead, Flights Supply (Vietnam Based)",
@@ -12849,7 +13138,9 @@
     "first_published": "2026-04-29T02:46:29-04:00",
     "posted_date": "2026-06-17T20:53:38",
     "date_source": "estimated",
-    "city_normalized": "HCMC"
+    "city_normalized": "HCMC",
+    "en_title": "Senior Lead, Flights Supply (Vietnam Based)",
+    "summary": "Senior Lead, Flights Supply (Vietnam Based) at Agoda in Ho Chi Minh, Vietnam."
   },
   {
     "title": "Senior Lead, Regional Management Office",
@@ -12883,7 +13174,9 @@
     "first_published": "2026-04-30T01:02:28-04:00",
     "posted_date": "2026-06-17T21:28:49",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Senior Lead, Regional Management Office",
+    "summary": "Senior Lead, Regional Management Office at Agoda in Tokyo."
   },
   {
     "title": "Senior Strategic Accounts Manager – Philippines Based",
@@ -12917,7 +13210,9 @@
     "first_published": "2026-06-16T00:20:37-04:00",
     "posted_date": "2026-06-17T22:04:01",
     "date_source": "estimated",
-    "city_normalized": "Makati, Philippines"
+    "city_normalized": "Makati, Philippines",
+    "en_title": "Senior Strategic Accounts Manager – Philippines Based",
+    "summary": "Senior Strategic Accounts Manager – Philippines Based at Agoda in Makati, Philippines."
   },
   {
     "title": "Specialist, B2B Content Strategy & Insights (Bangkok Based, relocation provided)",
@@ -12951,7 +13246,9 @@
     "first_published": "2026-06-15T00:45:42-04:00",
     "posted_date": "2026-06-17T22:39:12",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Specialist, B2B Content Strategy & Insights (Bangkok Based, relocation provided)",
+    "summary": "Specialist, B2B Content Strategy & Insights (Bangkok Based, relocation provided) at Agoda in Bangkok."
   },
   {
     "title": "Staff/Lead LLM Data Scientist (Bangkok based, relocation provided)",
@@ -12985,7 +13282,9 @@
     "first_published": "2023-10-12T04:42:25-04:00",
     "posted_date": "2026-06-17T23:14:23",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Staff/Lead LLM Data Scientist (Bangkok based, relocation provided)",
+    "summary": "Staff/Lead LLM Data Scientist (Bangkok based, relocation provided) at Agoda in Bangkok."
   },
   {
     "title": "Staff/Lead LLM Data Scientist (Singapore based)",
@@ -13019,7 +13318,9 @@
     "first_published": "2023-09-26T00:13:36-04:00",
     "posted_date": "2026-06-17T23:49:34",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Staff/Lead LLM Data Scientist (Singapore based)",
+    "summary": "Staff/Lead LLM Data Scientist (Singapore based) at Agoda in Singapore."
   },
   {
     "title": "Staff/Lead Software Engineer, Back End (Bangkok based - Relocation provided)",
@@ -13053,7 +13354,9 @@
     "first_published": "2026-05-03T06:43:37-04:00",
     "posted_date": "2026-06-18T00:24:45",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Staff/Lead Software Engineer, Back End (Bangkok based - Relocation provided)",
+    "summary": "Staff/Lead Software Engineer, Back End (Bangkok based - Relocation provided) at Agoda in Bangkok."
   },
   {
     "title": "Strategic Account Manager",
@@ -13087,7 +13390,9 @@
     "first_published": "2026-06-05T01:33:48-04:00",
     "posted_date": "2026-06-18T00:59:56",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Strategic Account Manager",
+    "summary": "Strategic Account Manager at Agoda in Seoul."
   },
   {
     "title": "Strategic Account Manager - Malaysia",
@@ -13121,7 +13426,9 @@
     "first_published": "2026-03-24T06:03:24-04:00",
     "posted_date": "2026-06-18T01:35:07",
     "date_source": "estimated",
-    "city_normalized": "Kuala Lumpur"
+    "city_normalized": "Kuala Lumpur",
+    "en_title": "Strategic Account Manager - Malaysia",
+    "summary": "Strategic Account Manager - Malaysia at Agoda in Kuala Lumpur, Malaysia."
   },
   {
     "title": "Strategic Account Manager – Malaysia (Kuala Lumpur Based)",
@@ -13155,7 +13462,9 @@
     "first_published": "2026-03-16T04:10:42-04:00",
     "posted_date": "2026-06-18T02:10:19",
     "date_source": "estimated",
-    "city_normalized": "Kuala Lumpur"
+    "city_normalized": "Kuala Lumpur",
+    "en_title": "Strategic Account Manager – Malaysia (Kuala Lumpur Based)",
+    "summary": "Strategic Account Manager – Malaysia (Kuala Lumpur Based) at Agoda in Kuala Lumpur, Malaysia."
   },
   {
     "title": "Strategic Account Manager - Osaka",
@@ -13189,7 +13498,9 @@
     "first_published": "2025-08-22T00:39:40-04:00",
     "posted_date": "2026-06-18T02:45:30",
     "date_source": "estimated",
-    "city_normalized": "Osaka"
+    "city_normalized": "Osaka",
+    "en_title": "Strategic Account Manager - Osaka",
+    "summary": "Strategic Account Manager - Osaka at Agoda in Osaka, Japan."
   },
   {
     "title": "Strategic Account Manager - Taiwan Based ",
@@ -13223,7 +13534,9 @@
     "first_published": "2026-05-15T04:07:02-04:00",
     "posted_date": "2026-06-18T03:20:41",
     "date_source": "estimated",
-    "city_normalized": "Taipei"
+    "city_normalized": "Taipei",
+    "en_title": "Strategic Account Manager - Taiwan Based ",
+    "summary": "Strategic Account Manager - Taiwan Based  at Agoda in Taipei."
   },
   {
     "title": "Strategic Account Manager - Tokyo / Osaka",
@@ -13257,7 +13570,9 @@
     "first_published": "2025-04-17T23:49:07-04:00",
     "posted_date": "2026-06-18T03:55:52",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Strategic Account Manager - Tokyo / Osaka",
+    "summary": "Strategic Account Manager - Tokyo / Osaka at Agoda in Tokyo."
   },
   {
     "title": "Strategic Accounts Manager (Agoda Homes), Kuala Lumpur Based",
@@ -13291,7 +13606,9 @@
     "first_published": "2026-03-23T02:14:49-04:00",
     "posted_date": "2026-06-18T04:31:03",
     "date_source": "estimated",
-    "city_normalized": "Kuala Lumpur"
+    "city_normalized": "Kuala Lumpur",
+    "en_title": "Strategic Accounts Manager (Agoda Homes), Kuala Lumpur Based",
+    "summary": "Strategic Accounts Manager (Agoda Homes), Kuala Lumpur Based at Agoda in Kuala Lumpur."
   },
   {
     "title": "Strategic Accounts Manager – Philippines Based",
@@ -13325,7 +13642,9 @@
     "first_published": "2026-04-16T05:43:56-04:00",
     "posted_date": "2026-06-18T05:06:14",
     "date_source": "estimated",
-    "city_normalized": "Makati, Philippines"
+    "city_normalized": "Makati, Philippines",
+    "en_title": "Strategic Accounts Manager – Philippines Based",
+    "summary": "Strategic Accounts Manager – Philippines Based at Agoda in Makati, Philippines."
   },
   {
     "title": "Strategic Partnerships Manager - Tokyo/Osaka",
@@ -13359,7 +13678,9 @@
     "first_published": "2025-10-02T06:31:42-04:00",
     "posted_date": "2026-06-18T05:41:25",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Strategic Partnerships Manager - Tokyo/Osaka",
+    "summary": "Strategic Partnerships Manager - Tokyo/Osaka at Agoda in Tokyo."
   },
   {
     "title": "Technical Product Manager, LLM/ML Domain",
@@ -13393,7 +13714,9 @@
     "first_published": "2026-04-21T06:28:25-04:00",
     "posted_date": "2026-06-18T06:16:36",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Technical Product Manager, LLM/ML Domain",
+    "summary": "Technical Product Manager, LLM/ML Domain at Agoda in Bangkok."
   },
   {
     "title": "Technical Product Manager, Observability Domain",
@@ -13427,7 +13750,9 @@
     "first_published": "2026-04-21T06:26:01-04:00",
     "posted_date": "2026-06-18T06:51:48",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Technical Product Manager, Observability Domain",
+    "summary": "Technical Product Manager, Observability Domain at Agoda in Bangkok."
   },
   {
     "title": "Technical Product Manager, Private Cloud Domain",
@@ -13461,7 +13786,9 @@
     "first_published": "2026-04-21T06:22:38-04:00",
     "posted_date": "2026-06-18T07:26:59",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Technical Product Manager, Private Cloud Domain",
+    "summary": "Technical Product Manager, Private Cloud Domain at Agoda in Bangkok."
   },
   {
     "title": "Test Booking Coordinator, Strategic Partnerships (10-month contract, Bangkok based)",
@@ -13495,7 +13822,9 @@
     "first_published": "2026-06-17T22:15:35-04:00",
     "posted_date": "2026-06-18T08:02:10",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Test Booking Coordinator, Strategic Partnerships (10-month contract, Bangkok based)",
+    "summary": "Test Booking Coordinator, Strategic Partnerships (10-month contract, Bangkok based) at Agoda in Bangkok."
   },
   {
     "title": "Treasury Manager, Banking & Strategy (Bangkok Based, Relocation Provided)",
@@ -13529,7 +13858,9 @@
     "first_published": "2026-02-10T06:45:40-05:00",
     "posted_date": "2026-06-18T08:37:21",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Treasury Manager, Banking & Strategy (Bangkok Based, Relocation Provided)",
+    "summary": "Treasury Manager, Banking & Strategy (Bangkok Based, Relocation Provided) at Agoda in Bangkok."
   },
   {
     "title": "Business Development Manager - Homes, Japan  ",
@@ -13563,7 +13894,9 @@
     "first_published": "2026-02-03T03:59:24-05:00",
     "posted_date": "2026-06-21T02:53:19",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Business Development Manager - Homes, Japan  ",
+    "summary": "Business Development Manager - Homes, Japan   at Agoda in Tokyo."
   },
   {
     "title": "Finance Operations Excellence Manager (Bangkok Based, Relocation Provided)",
@@ -13597,7 +13930,9 @@
     "first_published": "2026-02-12T01:14:48-05:00",
     "posted_date": "2026-06-21T03:28:30",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Finance Operations Excellence Manager (Bangkok Based, Relocation Provided)",
+    "summary": "Finance Operations Excellence Manager (Bangkok Based, Relocation Provided) at Agoda in Bangkok."
   },
   {
     "title": "【大阪/Uターン・Iターン歓迎】Strategic Account Manager - Osaka",
@@ -13631,7 +13966,9 @@
     "first_published": "2026-05-27T20:05:38-04:00",
     "posted_date": "2026-06-21T05:14:03",
     "date_source": "estimated",
-    "city_normalized": "Osaka"
+    "city_normalized": "Osaka",
+    "en_title": "【大阪/Uターン・Iターン歓迎】Strategic Account Manager - Osaka",
+    "summary": "【大阪/Uターン・Iターン歓迎】Strategic Account Manager - Osaka at Agoda in Osaka."
   },
   {
     "title": "2026 - RTA - Senior Area Manager / Associate Director, Business Development - South Korea & APAC (Korean Speaking, Bangkok based)",
@@ -13646,7 +13983,9 @@
     "posted": "2026-06-24",
     "city_normalized": "Bangkok",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "2026 - RTA - Senior Area Manager / Associate Director, Business Development - South Korea & APAC (Korean Speaking, Bangkok based)",
+    "summary": "2026 - RTA - Senior Area Manager / Associate Director, Business Development - South Korea & APAC (Korean Speaking, Bangkok based) at Agoda in Bangkok, Thailand. Greenhouse posting."
   },
   {
     "title": "2026 - RTA - Senior Area Manager / Associate Director, Business Development - South Korea & APAC (Seoul Based)",
@@ -13661,7 +14000,9 @@
     "posted": "2026-06-24",
     "city_normalized": "Seoul",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "2026 - RTA - Senior Area Manager / Associate Director, Business Development - South Korea & APAC (Seoul Based)",
+    "summary": "2026 - RTA - Senior Area Manager / Associate Director, Business Development - South Korea & APAC (Seoul Based) at Agoda in Seoul. Greenhouse posting."
   },
   {
     "title": "Senior Area Manager/Associate Director, Business Development - South Korea & APAC (Based in Seoul/Bangkok/Singapore) (Korean Speaking)",
@@ -13676,7 +14017,9 @@
     "posted": "2026-06-15",
     "city_normalized": "Seoul",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Area Manager/Associate Director, Business Development - South Korea & APAC (Based in Seoul/Bangkok/Singapore) (Korean Speaking)",
+    "summary": "Senior Area Manager/Associate Director, Business Development - South Korea & APAC (Based in Seoul/Bangkok/Singapore) (Korean Speaking) at Agoda in Seoul, South Korea. Greenhouse posting."
   },
   {
     "title": "Strategy & Operations Manager (Bangkok based)",
@@ -13692,7 +14035,7 @@
     "scanned_date": "2026-06-27",
     "source": "greenhouse_agoda",
     "english_friendly": true,
-    "summary": "",
+    "summary": "Strategy & Operations Manager (Bangkok based) at Agoda in Bangkok, Thailand.",
     "url_type": "direct",
     "app_platform": "greenhouse",
     "app_difficulty": "easy",
@@ -13717,7 +14060,7 @@
     "scanned_date": "2026-06-27",
     "source": "greenhouse_agoda",
     "english_friendly": true,
-    "summary": "",
+    "summary": "Strategy & Operations Manager (Manila based) at Agoda in Manila, Philippines.",
     "url_type": "direct",
     "app_platform": "greenhouse",
     "app_difficulty": "easy",
@@ -14349,7 +14692,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-02T07:20:28",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Senior Product Manager - Remote APAC at Arc.dev in Remote."
   },
   {
     "title": "Staff Product Manager",
@@ -14383,7 +14727,9 @@
     "first_published": "",
     "posted_date": "2026-06-18T09:47:43",
     "date_source": "estimated",
-    "city_normalized": "Shenzhen"
+    "city_normalized": "Shenzhen",
+    "en_title": "Staff Product Manager",
+    "summary": "Staff Product Manager at Ats New in Shenzhen."
   },
   {
     "title": "高级产品经理",
@@ -14541,7 +14887,8 @@
     "has_direct_link": true,
     "posted_date": "2026-06-03T20:17:09",
     "date_source": "estimated",
-    "city_normalized": "Hong Kong"
+    "city_normalized": "Hong Kong",
+    "summary": "Growth Engineer (Data Systems) at BitMEX in Hong Kong."
   },
   {
     "title": "Private Wealth - Product Specialist (BXHF), Principal",
@@ -15892,7 +16239,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-04T10:21:36",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Associate Manager, Billing Operations & Strategy at Coinbase in Remote - USA."
   },
   {
     "title": "Senior Finance & Strategy Analyst, Consumer",
@@ -15935,7 +16283,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-04T10:56:47",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Senior Finance & Strategy Analyst, Consumer at Coinbase in Remote - USA."
   },
   {
     "title": "Senior Product Manager, Quantitative Copy Trading",
@@ -16785,7 +17134,9 @@
     "first_published": "2026-04-10T00:36:24-04:00",
     "posted_date": "2026-06-18T10:22:54",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Ads Business Lead - Rocket Now ",
+    "summary": "Ads Business Lead - Rocket Now  at Coupang in Tokyo."
   },
   {
     "title": "[쿠팡 Ads] Product Specialist Lead(광고 제품 전략 및 세일즈 리드)",
@@ -16819,7 +17170,9 @@
     "first_published": "2026-04-27T22:05:02-04:00",
     "posted_date": "2026-06-18T11:33:17",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "[쿠팡 Ads] Product Specialist Lead(광고 제품 전략 및 세일즈 리드)",
+    "summary": "[쿠팡 Ads] Product Specialist Lead(광고 제품 전략 및 세일즈 리드) at Coupang in Seoul."
   },
   {
     "title": "[쿠팡 Ads]Senior Ad Product Strategist(Ads & Brand Solutions)",
@@ -16853,7 +17206,9 @@
     "first_published": "2026-05-21T20:19:29-04:00",
     "posted_date": "2026-06-18T12:08:28",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "[쿠팡 Ads]Senior Ad Product Strategist(Ads & Brand Solutions)",
+    "summary": "[쿠팡 Ads]Senior Ad Product Strategist(Ads & Brand Solutions) at Coupang in Seoul."
   },
   {
     "title": "[쿠팡] 쿠팡이츠 브랜드마케터 (Campaign Strategy & Brand Planning)",
@@ -16887,7 +17242,9 @@
     "first_published": "2026-05-20T00:33:10-04:00",
     "posted_date": "2026-06-18T13:18:50",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "[쿠팡] 쿠팡이츠 브랜드마케터 (Campaign Strategy & Brand Planning)",
+    "summary": "[쿠팡] 쿠팡이츠 브랜드마케터 (Campaign Strategy & Brand Planning) at Coupang in Seoul."
   },
   {
     "title": "[쿠팡] Commerce Strategy (법무지원) ",
@@ -16921,7 +17278,9 @@
     "first_published": "2026-06-02T03:37:44-04:00",
     "posted_date": "2026-06-18T13:54:01",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "[쿠팡] Commerce Strategy (법무지원) ",
+    "summary": "[쿠팡] Commerce Strategy (법무지원)  at Coupang in Seoul."
   },
   {
     "title": "[쿠팡] Commerce Strategy (사내변호사)",
@@ -16955,7 +17314,9 @@
     "first_published": "2025-12-02T02:28:46-05:00",
     "posted_date": "2026-06-18T14:29:12",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "[쿠팡] Commerce Strategy (사내변호사)",
+    "summary": "[쿠팡] Commerce Strategy (사내변호사) at Coupang in Seoul."
   },
   {
     "title": "[Coupang] Camp Leader, Helper Leader In Taiwan",
@@ -16989,7 +17350,9 @@
     "first_published": "2025-03-25T06:14:13-04:00",
     "posted_date": "2026-06-18T15:04:23",
     "date_source": "estimated",
-    "city_normalized": "Taipei"
+    "city_normalized": "Taipei",
+    "en_title": "[Coupang] Camp Leader, Helper Leader In Taiwan",
+    "summary": "[Coupang] Camp Leader, Helper Leader In Taiwan at Coupang in Taipei."
   },
   {
     "title": "[Coupang] Principal Legal Counsel (AI & Product Legal)",
@@ -17023,7 +17386,9 @@
     "first_published": "2026-06-11T21:41:38-04:00",
     "posted_date": "2026-06-18T16:14:46",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "[Coupang] Principal Legal Counsel (AI & Product Legal)",
+    "summary": "[Coupang] Principal Legal Counsel (AI & Product Legal) at Coupang in Seoul."
   },
   {
     "title": "[쿠팡] Eats Ads Sales & Strategy Manager (Eats Ads SAM)",
@@ -17057,7 +17422,9 @@
     "first_published": "2026-05-28T22:13:48-04:00",
     "posted_date": "2026-06-19T06:54:24",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "[쿠팡] Eats Ads Sales & Strategy Manager (Eats Ads SAM)",
+    "summary": "[쿠팡] Eats Ads Sales & Strategy Manager (Eats Ads SAM) at Coupang in Seoul."
   },
   {
     "title": "[쿠팡] 쿠팡이츠 전략 파트너십 사업개발 전문가 (Eats Strategic Partnership) (5년 이상)",
@@ -17091,7 +17458,9 @@
     "first_published": "2026-06-22T19:29:52-04:00",
     "posted_date": "2026-06-19T07:29:35",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "[쿠팡] 쿠팡이츠 전략 파트너십 사업개발 전문가 (Eats Strategic Partnership) (5년 이상)",
+    "summary": "[쿠팡] 쿠팡이츠 전략 파트너십 사업개발 전문가 (Eats Strategic Partnership) (5년 이상) at Coupang in Seoul."
   },
   {
     "title": "Group Product Manager (Rocket Growth)",
@@ -17125,7 +17494,9 @@
     "first_published": "2026-05-17T22:45:47-04:00",
     "posted_date": "2026-06-19T08:04:46",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Group Product Manager (Rocket Growth)",
+    "summary": "Group Product Manager (Rocket Growth) at Coupang in Seoul."
   },
   {
     "title": "HR Program Manager",
@@ -17159,7 +17530,9 @@
     "first_published": "2026-05-25T20:23:27-04:00",
     "posted_date": "2026-06-19T08:39:57",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "HR Program Manager",
+    "summary": "HR Program Manager at Coupang in Tokyo."
   },
   {
     "title": "Manager, Back-end Engineering (New Fintech Product)",
@@ -17193,7 +17566,9 @@
     "first_published": "2025-12-15T06:32:17-05:00",
     "posted_date": "2026-06-19T09:15:08",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Manager, Back-end Engineering (New Fintech Product)",
+    "summary": "Manager, Back-end Engineering (New Fintech Product) at Coupang in Seoul."
   },
   {
     "title": "[쿠팡] 로켓배송 Premium Program Manager",
@@ -17227,7 +17602,9 @@
     "first_published": "2026-05-13T04:58:05-04:00",
     "posted_date": "2026-06-19T10:25:31",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "[쿠팡] 로켓배송 Premium Program Manager",
+    "summary": "[쿠팡] 로켓배송 Premium Program Manager at Coupang in Seoul."
   },
   {
     "title": " Principal, Compliance (Product Compliance – Policy)",
@@ -17261,7 +17638,9 @@
     "first_published": "2026-05-14T22:33:48-04:00",
     "posted_date": "2026-06-19T11:00:42",
     "date_source": "estimated",
-    "city_normalized": "Taipei"
+    "city_normalized": "Taipei",
+    "en_title": " Principal, Compliance (Product Compliance – Policy)",
+    "summary": " Principal, Compliance (Product Compliance – Policy) at Coupang in Taipei."
   },
   {
     "title": "Product Manager (Eats Quick Commerce)",
@@ -17295,7 +17674,9 @@
     "first_published": "2026-05-11T03:20:22-04:00",
     "posted_date": "2026-06-19T11:35:53",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Product Manager (Eats Quick Commerce)",
+    "summary": "Product Manager (Eats Quick Commerce) at Coupang in Seoul."
   },
   {
     "title": "Program Manager (OHL Growth Excellence: Price Charter)",
@@ -17329,7 +17710,9 @@
     "first_published": "2026-06-07T19:03:54-04:00",
     "posted_date": "2026-06-19T12:46:15",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Program Manager (OHL Growth Excellence: Price Charter)",
+    "summary": "Program Manager (OHL Growth Excellence: Price Charter) at Coupang in Seoul."
   },
   {
     "title": "[쿠팡]Selection Program Manager(12개월 계약직)",
@@ -17363,7 +17746,9 @@
     "first_published": "2026-06-09T21:10:34-04:00",
     "posted_date": "2026-06-19T13:21:26",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "[쿠팡]Selection Program Manager(12개월 계약직)",
+    "summary": "[쿠팡]Selection Program Manager(12개월 계약직) at Coupang in Seoul."
   },
   {
     "title": "Senior Contents Strategist",
@@ -17397,7 +17782,9 @@
     "first_published": "2025-11-06T03:51:27-05:00",
     "posted_date": "2026-06-19T13:56:38",
     "date_source": "estimated",
-    "city_normalized": "Taipei"
+    "city_normalized": "Taipei",
+    "en_title": "Senior Contents Strategist",
+    "summary": "Senior Contents Strategist at Coupang in Taipei."
   },
   {
     "title": "Senior Staff Back-end Engineer (New Fintech Product)",
@@ -17431,7 +17818,9 @@
     "first_published": "2026-04-06T01:37:50-04:00",
     "posted_date": "2026-06-19T15:07:00",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Senior Staff Back-end Engineer (New Fintech Product)",
+    "summary": "Senior Staff Back-end Engineer (New Fintech Product) at Coupang in Seoul."
   },
   {
     "title": "Senior Staff, Product Design (Core UX)",
@@ -17465,7 +17854,9 @@
     "first_published": "2026-06-01T05:03:28-04:00",
     "posted_date": "2026-06-19T15:42:11",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Senior Staff, Product Design (Core UX)",
+    "summary": "Senior Staff, Product Design (Core UX) at Coupang in Seoul."
   },
   {
     "title": "Staff Android Engineer (NEW Fintech Product)",
@@ -17499,7 +17890,9 @@
     "first_published": "2024-07-09T00:38:08-04:00",
     "posted_date": "2026-06-19T16:17:22",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Staff Android Engineer (NEW Fintech Product)",
+    "summary": "Staff Android Engineer (NEW Fintech Product) at Coupang in Seoul."
   },
   {
     "title": "Staff Back-end Engineer (New Fintech Product) ",
@@ -17533,7 +17926,9 @@
     "first_published": "2026-04-27T23:02:30-04:00",
     "posted_date": "2026-06-19T16:52:33",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Staff Back-end Engineer (New Fintech Product) ",
+    "summary": "Staff Back-end Engineer (New Fintech Product)  at Coupang in Seoul."
   },
   {
     "title": "Staff Data Scientist (Growth)",
@@ -17567,7 +17962,9 @@
     "first_published": "2026-03-12T04:02:27-04:00",
     "posted_date": "2026-06-19T17:27:44",
     "date_source": "estimated",
-    "city_normalized": "Taipei"
+    "city_normalized": "Taipei",
+    "en_title": "Staff Data Scientist (Growth)",
+    "summary": "Staff Data Scientist (Growth) at Coupang in Taipei."
   },
   {
     "title": "[쿠팡] 이츠 쇼핑/논푸드 고객사 영업 및 성장 관리 매니저 (Enterprise & Strategic partnership)",
@@ -17601,7 +17998,9 @@
     "first_published": "2026-06-24T05:20:32-04:00",
     "posted_date": "2026-06-21T06:59:37",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "[쿠팡] 이츠 쇼핑/논푸드 고객사 영업 및 성장 관리 매니저 (Enterprise & Strategic partnership)",
+    "summary": "[쿠팡] 이츠 쇼핑/논푸드 고객사 영업 및 성장 관리 매니저 (Enterprise & Strategic partnership) at Coupang in Seoul."
   },
   {
     "title": "Manager, Back-end Engineering (Global Operations Technology)",
@@ -17635,7 +18034,9 @@
     "first_published": "2024-07-26T01:41:53-04:00",
     "posted_date": "2026-06-21T08:45:10",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Manager, Back-end Engineering (Global Operations Technology)",
+    "summary": "Manager, Back-end Engineering (Global Operations Technology) at Coupang in Seoul."
   },
   {
     "title": "[Rocket Now] B2B Sales and Business Development Manager",
@@ -17669,7 +18070,9 @@
     "first_published": "2026-06-15T20:47:55-04:00",
     "posted_date": "2026-06-21T11:05:55",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "[Rocket Now] B2B Sales and Business Development Manager",
+    "summary": "[Rocket Now] B2B Sales and Business Development Manager at Coupang in Tokyo."
   },
   {
     "title": "(Shift) Customer Service Manager (TW Counie Operations)",
@@ -17703,7 +18106,9 @@
     "first_published": "2026-06-09T23:50:24-04:00",
     "posted_date": "2026-06-21T11:41:06",
     "date_source": "estimated",
-    "city_normalized": "Taipei"
+    "city_normalized": "Taipei",
+    "en_title": "(Shift) Customer Service Manager (TW Counie Operations)",
+    "summary": "(Shift) Customer Service Manager (TW Counie Operations) at Coupang in Taipei."
   },
   {
     "title": "Staff, Back-end engineer(Global Operations Technology)",
@@ -17737,7 +18142,9 @@
     "first_published": "2026-06-23T21:42:25-04:00",
     "posted_date": "2026-06-21T12:16:17",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Staff, Back-end engineer(Global Operations Technology)",
+    "summary": "Staff, Back-end engineer(Global Operations Technology) at Coupang in Seoul."
   },
   {
     "title": "[Coupang Eats] Senior, Business analyst",
@@ -18656,7 +19063,9 @@
     "first_published": "2026-06-23T03:44:35-04:00",
     "posted_date": "2026-06-19T20:23:40",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Field Technical Program Manager",
+    "summary": "Field Technical Program Manager at Databricks in Seoul."
   },
   {
     "title": "Lead Solutions Architect, Financial Services",
@@ -18690,7 +19099,9 @@
     "first_published": "2026-06-22T21:30:32-04:00",
     "posted_date": "2026-06-19T21:34:02",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Lead Solutions Architect, Financial Services",
+    "summary": "Lead Solutions Architect, Financial Services at Databricks in Tokyo."
   },
   {
     "title": "Lead Solutions Architect (Pre-sales) – Public Sector",
@@ -18724,7 +19135,9 @@
     "first_published": "2026-03-06T02:12:09-05:00",
     "posted_date": "2026-06-19T22:09:13",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Lead Solutions Architect (Pre-sales) – Public Sector",
+    "summary": "Lead Solutions Architect (Pre-sales) – Public Sector at Databricks in Tokyo."
   },
   {
     "title": "Retail & Consumer Goods APAC Leader ",
@@ -18758,7 +19171,9 @@
     "first_published": "2026-04-13T01:20:31-04:00",
     "posted_date": "2026-06-19T22:44:24",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Retail & Consumer Goods APAC Leader ",
+    "summary": "Retail & Consumer Goods APAC Leader  at Databricks in Tokyo."
   },
   {
     "title": "Senior Billing Operations Analyst",
@@ -18836,7 +19251,9 @@
     "first_published": "2025-09-30T00:15:38-04:00",
     "posted_date": "2026-06-20T01:05:09",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Strategic Account Executive",
+    "summary": "Strategic Account Executive at Datadog in Seoul."
   },
   {
     "title": "Strategic Account Executive, Public Sector Japan, FED",
@@ -18870,7 +19287,9 @@
     "first_published": "2026-01-07T01:00:56-05:00",
     "posted_date": "2026-06-20T01:40:20",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Strategic Account Executive, Public Sector Japan, FED",
+    "summary": "Strategic Account Executive, Public Sector Japan, FED at Datadog in Tokyo."
   },
   {
     "title": "Strategic Account Executive, Public Sector Japan, SLED",
@@ -18904,7 +19323,9 @@
     "first_published": "2025-12-05T04:18:59-05:00",
     "posted_date": "2026-06-20T02:15:31",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Strategic Account Executive, Public Sector Japan, SLED",
+    "summary": "Strategic Account Executive, Public Sector Japan, SLED at Datadog in Tokyo."
   },
   {
     "title": "Strategic Account Executive (Vietnam Market)",
@@ -18938,7 +19359,9 @@
     "first_published": "2026-01-08T06:29:34-05:00",
     "posted_date": "2026-06-20T02:50:42",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Strategic Account Executive (Vietnam Market)",
+    "summary": "Strategic Account Executive (Vietnam Market) at Datadog in Singapore."
   },
   {
     "title": "Lead Product Manager",
@@ -19138,7 +19561,9 @@
     "url_type": "search",
     "posted_date": "2026-06-05T16:16:04",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Senior Product Manager at FinPay",
+    "summary": "Senior Product Manager at FinPay at Finpay in Singapore."
   },
   {
     "title": "Senior Ocean Operations Associate",
@@ -19173,7 +19598,9 @@
     "english_friendly": true,
     "city_normalized": "Shanghai",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Staff Product Manager",
+    "summary": "Staff Product Manager at Flexport in Shanghai, China; Shenzhen, China."
   },
   {
     "title": "Senior Manager, Account Management",
@@ -19186,7 +19613,9 @@
     "description": "Senior account management at Flexport Shanghai. Cross-border logistics, enterprise client management.",
     "posted": "2026-06-25",
     "grade": "A-2",
-    "grade_note": "Strong fit - Senior Manager, Shanghai, cross-border logistics"
+    "grade_note": "Strong fit - Senior Manager, Shanghai, cross-border logistics",
+    "en_title": "Senior Manager, Account Management",
+    "summary": "Senior Manager, Account Management at Flexport in Shanghai. Senior account management at Flexport Shanghai."
   },
   {
     "title": "Senior Product Manager [ Fintech | Trading | Brokerage Platform]",
@@ -19855,7 +20284,7 @@
     "scanned_date": "2026-06-27",
     "source": "smartrecruiters_grab",
     "english_friendly": true,
-    "summary": "",
+    "summary": "Risk Policy & Strategy Manager at Grab in Jakarta, id.",
     "url_type": "search",
     "app_platform": "smartrecruiters",
     "app_difficulty": "medium",
@@ -19880,7 +20309,7 @@
     "scanned_date": "2026-06-27",
     "source": "smartrecruiters_grab",
     "english_friendly": true,
-    "summary": "",
+    "summary": "Team lead, GrabMart Merchant Strategy at Grab in Bangkok, th.",
     "url_type": "search",
     "app_platform": "smartrecruiters",
     "app_difficulty": "medium",
@@ -19963,7 +20392,8 @@
     "has_direct_link": true,
     "posted_date": "2026-06-06T04:34:58",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Staff Product Designer, Contractors at Gusto, Inc. in Denver, CO;San Francisco, CA;New York, NY;Los Angeles, CA;Seattle, WA;Toronto, Ontario, CAN - Remote."
   },
   {
     "title": "Senior Liabilities Products Manager",
@@ -20248,7 +20678,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-06T09:16:27",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "People Experience Program Manager - San Francisco at Instacart in San Francisco- Remote."
   },
   {
     "title": "Program Manager II",
@@ -20291,7 +20722,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-06T09:51:38",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Program Manager II at Instacart in Canada - Remote (ON, AB, BC, or NS Only)."
   },
   {
     "title": "Senior Product Manager, Fraud & Trust",
@@ -20334,7 +20766,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-06T10:26:49",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Senior Product Manager, Fraud & Trust at Instacart in United States - Remote."
   },
   {
     "title": "Senior Product Manager, In-Store Tasks",
@@ -20377,7 +20810,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-06T11:02:00",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Senior Product Manager, In-Store Tasks at Instacart in Canada - Remote (ON, AB, BC, or NS Only)."
   },
   {
     "title": "Senior Product Manager, Retailer Platform",
@@ -20420,7 +20854,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-06T11:37:11",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Senior Product Manager, Retailer Platform at Instacart in United States - Remote."
   },
   {
     "title": "Senior Product Manager, Shopping Experience",
@@ -20463,7 +20898,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-06T12:12:22",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Senior Product Manager, Shopping Experience at Instacart in United States - Remote."
   },
   {
     "title": "Senior Product Security Engineer II",
@@ -20506,7 +20942,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-06T12:47:33",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Senior Product Security Engineer II at Instacart in Canada - Remote (ON, AB, BC, or NS Only)."
   },
   {
     "title": "Senior Program Manager, Quality Assurance",
@@ -20549,7 +20986,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-06T13:22:45",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Senior Program Manager, Quality Assurance at Instacart in United States - Remote."
   },
   {
     "title": "Senior Strategic Financial Analyst – Growth",
@@ -20592,7 +21030,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-06T13:57:56",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Senior Strategic Financial Analyst – Growth at Instacart in United States - Remote."
   },
   {
     "title": "Senior Strategy & Planning Manager",
@@ -20635,7 +21074,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-06T14:33:07",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Senior Strategy & Planning Manager at Instacart in United States - Remote."
   },
   {
     "title": "Staff Product Designer - Shopping Experiences",
@@ -20678,7 +21118,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-06T15:08:18",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Staff Product Designer - Shopping Experiences at Instacart in United States - Remote."
   },
   {
     "title": "Program Manager II",
@@ -20693,7 +21134,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Program Manager II",
+    "summary": "Program Manager II at Instacart in United States - Remote."
   },
   {
     "title": "Senior Product Manager, AI",
@@ -20708,7 +21151,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Product Manager, AI",
+    "summary": "Senior Product Manager, AI at Instacart in Canada - Remote (ON, AB, BC, or NS Only)."
   },
   {
     "title": "Senior Product Manager, AI",
@@ -20723,7 +21168,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Product Manager, AI",
+    "summary": "Senior Product Manager, AI at Instacart in United States - Remote."
   },
   {
     "title": "Senior Product Manager, Fraud & Trust",
@@ -20738,7 +21185,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Product Manager, Fraud & Trust",
+    "summary": "Senior Product Manager, Fraud & Trust at Instacart in Canada - Remote (ON, AB, BC, or NS Only)."
   },
   {
     "title": "Senior Product Manager, In-Store Tasks",
@@ -20753,7 +21202,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Product Manager, In-Store Tasks",
+    "summary": "Senior Product Manager, In-Store Tasks at Instacart in United States - Remote."
   },
   {
     "title": "Senior Product Manager, Retailer Platform",
@@ -20768,7 +21219,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Product Manager, Retailer Platform",
+    "summary": "Senior Product Manager, Retailer Platform at Instacart in Canada - Remote (ON, AB, BC, or NS Only)."
   },
   {
     "title": "Senior Product Security Engineer II",
@@ -20783,7 +21236,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Product Security Engineer II",
+    "summary": "Senior Product Security Engineer II at Instacart in United States - Remote."
   },
   {
     "title": "Senior Program Manager, Quality Assurance",
@@ -20798,7 +21253,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Program Manager, Quality Assurance",
+    "summary": "Senior Program Manager, Quality Assurance at Instacart in Canada - Remote (ON, AB, BC, or NS Only)."
   },
   {
     "title": "Senior Strategic Financial Analyst – Growth",
@@ -20813,7 +21270,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Strategic Financial Analyst – Growth",
+    "summary": "Senior Strategic Financial Analyst – Growth at Instacart in Canada - Remote (ON, AB, BC, or NS Only)."
   },
   {
     "title": "Senior Strategy & Planning Manager",
@@ -20828,7 +21287,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Strategy & Planning Manager",
+    "summary": "Senior Strategy & Planning Manager at Instacart in Canada - Remote (ON, AB, BC, or NS Only)."
   },
   {
     "title": "Senior Technical Program Manager, Enterprise",
@@ -20843,7 +21304,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Technical Program Manager, Enterprise",
+    "summary": "Senior Technical Program Manager, Enterprise at Instacart in United States - Remote."
   },
   {
     "title": "Staff Product Designer - Shopping Experiences",
@@ -20858,7 +21321,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Staff Product Designer - Shopping Experiences",
+    "summary": "Staff Product Designer - Shopping Experiences at Instacart in Canada - Remote (ON, AB, BC, or NS Only)."
   },
   {
     "title": "Head Of Product Jobs in Hong Kong - Jun 2026",
@@ -20928,7 +21393,9 @@
     "url_type": "search",
     "posted_date": "2026-06-06T16:18:40",
     "date_source": "estimated",
-    "city_normalized": "Hong Kong"
+    "city_normalized": "Hong Kong",
+    "en_title": "Senior Product Owner Jobs in Hong Kong - Jun 2026",
+    "summary": "Senior Product Owner Jobs in Hong Kong - Jun 2026 at Jobsdb in Hong Kong."
   },
   {
     "title": "Senior Product Manager / Product Lead",
@@ -21465,7 +21932,9 @@
     "first_published": "2026-04-27T01:45:56-04:00",
     "posted_date": "2026-06-21T14:37:01",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Senior Commercial Growth Account Executive, Acquisition",
+    "summary": "Senior Commercial Growth Account Executive, Acquisition at MongoDB in Singapore."
   },
   {
     "title": "Senior Commercial Growth Account Executive, Acquisition ( Bahasa Speaker)",
@@ -21499,7 +21968,9 @@
     "first_published": "2026-04-28T22:23:47-04:00",
     "posted_date": "2026-06-21T15:12:13",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Senior Commercial Growth Account Executive, Acquisition ( Bahasa Speaker)",
+    "summary": "Senior Commercial Growth Account Executive, Acquisition ( Bahasa Speaker) at MongoDB in Singapore."
   },
   {
     "title": "Senior Enterprise Account Executive, Growth",
@@ -21533,7 +22004,9 @@
     "first_published": "2026-05-05T03:54:11-04:00",
     "posted_date": "2026-06-21T15:47:24",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Senior Enterprise Account Executive, Growth",
+    "summary": "Senior Enterprise Account Executive, Growth at MongoDB in Singapore."
   },
   {
     "title": "Senior/ Enterprise Account Executive - Strategic Account",
@@ -21567,7 +22040,9 @@
     "first_published": "2025-12-21T23:21:54-05:00",
     "posted_date": "2026-06-21T16:22:35",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Senior/ Enterprise Account Executive - Strategic Account",
+    "summary": "Senior/ Enterprise Account Executive - Strategic Account at MongoDB in Singapore."
   },
   {
     "title": "Senior Manager, Regional Marketing",
@@ -21601,7 +22076,9 @@
     "first_published": "2026-05-18T09:52:43-04:00",
     "posted_date": "2026-06-21T16:57:46",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Senior Manager, Regional Marketing",
+    "summary": "Senior Manager, Regional Marketing at MongoDB in Singapore."
   },
   {
     "title": "Senior Product Manager - Derivatives Risk",
@@ -22160,7 +22637,8 @@
     "has_direct_link": true,
     "posted_date": "2026-06-07T08:43:52",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "summary": "Junior Product Manager, DevOps and AI at OKX in Hong Kong, Hong Kong SAR; Singapore, Singapore."
   },
   {
     "title": "Senior Staff Software Engineer, Mobile Growth",
@@ -22203,7 +22681,8 @@
     "has_direct_link": true,
     "posted_date": "2026-06-07T09:19:03",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "summary": "Senior Staff Software Engineer, Mobile Growth at OKX in Singapore, Singapore."
   },
   {
     "title": "Ad Creative Strategist",
@@ -22237,7 +22716,9 @@
     "first_published": "2026-06-17T00:57:48-04:00",
     "posted_date": "2026-06-20T04:36:16",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Ad Creative Strategist",
+    "summary": "Ad Creative Strategist at OKX in Singapore."
   },
   {
     "title": "Administration Expert, Global Strategic & Digitalization COE",
@@ -22271,7 +22752,9 @@
     "first_published": "2024-04-10T01:24:50-04:00",
     "posted_date": "2026-06-20T05:11:27",
     "date_source": "estimated",
-    "city_normalized": "Hong Kong"
+    "city_normalized": "Hong Kong",
+    "en_title": "Administration Expert, Global Strategic & Digitalization COE",
+    "summary": "Administration Expert, Global Strategic & Digitalization COE at OKX in Hong Kong."
   },
   {
     "title": "Advanced Trading Team Lead",
@@ -22305,7 +22788,9 @@
     "first_published": "2026-06-08T21:30:03-04:00",
     "posted_date": "2026-06-20T05:46:38",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Advanced Trading Team Lead",
+    "summary": "Advanced Trading Team Lead at OKX in Singapore."
   },
   {
     "title": "AI Agent Product Expert (Middleware) ",
@@ -22339,7 +22824,9 @@
     "first_published": "2026-05-12T03:00:11-04:00",
     "posted_date": "2026-06-20T06:21:49",
     "date_source": "estimated",
-    "city_normalized": "Hong Kong"
+    "city_normalized": "Hong Kong",
+    "en_title": "AI Agent Product Expert (Middleware) ",
+    "summary": "AI Agent Product Expert (Middleware)  at OKX in Hong Kong."
   },
   {
     "title": "Frontend Business Lead ",
@@ -22373,7 +22860,9 @@
     "first_published": "2026-04-13T02:58:44-04:00",
     "posted_date": "2026-06-20T14:34:25",
     "date_source": "estimated",
-    "city_normalized": "APAC"
+    "city_normalized": "APAC",
+    "en_title": "Frontend Business Lead ",
+    "summary": "Frontend Business Lead  at OKX in APAC."
   },
   {
     "title": "Lead Product Designer",
@@ -22407,7 +22896,9 @@
     "first_published": "2024-11-20T22:14:50-05:00",
     "posted_date": "2026-06-20T16:19:58",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Lead Product Designer",
+    "summary": "Lead Product Designer at OKX in Singapore."
   },
   {
     "title": "Manager, Strategic Partnerships (Token Listing)",
@@ -22441,7 +22932,9 @@
     "first_published": "2026-04-22T00:44:08-04:00",
     "posted_date": "2026-06-20T16:55:10",
     "date_source": "estimated",
-    "city_normalized": "Hong Kong"
+    "city_normalized": "Hong Kong",
+    "en_title": "Manager, Strategic Partnerships (Token Listing)",
+    "summary": "Manager, Strategic Partnerships (Token Listing) at OKX in Hong Kong."
   },
   {
     "title": "Product Design Manager",
@@ -22475,7 +22968,9 @@
     "first_published": "2024-10-18T02:55:40-04:00",
     "posted_date": "2026-06-20T17:30:21",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Product Design Manager",
+    "summary": "Product Design Manager at OKX in Singapore."
   },
   {
     "title": "Affiliate Business Development Manager, Northeast Asia",
@@ -22509,7 +23004,9 @@
     "first_published": "2026-06-19T09:07:09-04:00",
     "posted_date": "2026-06-21T17:32:57",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "en_title": "Affiliate Business Development Manager, Northeast Asia",
+    "summary": "Affiliate Business Development Manager, Northeast Asia at OKX in Northeast Asia (Remote) ."
   },
   {
     "title": "Business Development Manager, Affiliate (Southeast Asia)",
@@ -22543,7 +23040,9 @@
     "first_published": "2026-04-23T03:05:37-04:00",
     "posted_date": "2026-06-21T18:08:08",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "en_title": "Business Development Manager, Affiliate (Southeast Asia)",
+    "summary": "Business Development Manager, Affiliate (Southeast Asia) at OKX in Southeast Asia (Remote)."
   },
   {
     "title": "Principal Product Manager, Affiliate & KOL - Onshore Markets",
@@ -22577,7 +23076,9 @@
     "first_published": "2026-06-18T21:58:40-04:00",
     "posted_date": "2026-06-21T19:18:30",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Principal Product Manager, Affiliate & KOL - Onshore Markets",
+    "summary": "Principal Product Manager, Affiliate & KOL - Onshore Markets at OKX in Singapore."
   },
   {
     "title": "Senior Manager, Web3 Partnerships",
@@ -22611,7 +23112,9 @@
     "first_published": "2026-06-05T08:05:12-04:00",
     "posted_date": "2026-06-21T21:39:15",
     "date_source": "estimated",
-    "city_normalized": "Hong Kong"
+    "city_normalized": "Hong Kong",
+    "en_title": "Senior Manager, Web3 Partnerships",
+    "summary": "Senior Manager, Web3 Partnerships at OKX in Hong Kong."
   },
   {
     "title": "Senior Manager, DeFi Lending Growth",
@@ -22626,7 +23129,9 @@
     "posted": "2026-06-05",
     "city_normalized": "Singapore",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Manager, DeFi Lending Growth",
+    "summary": "Senior Manager, DeFi Lending Growth at OKX in Singapore, Singapore. Greenhouse posting."
   },
   {
     "title": "Senior Manager, Web3 Growth",
@@ -22641,7 +23146,9 @@
     "posted": "2026-06-05",
     "city_normalized": "Singapore",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Manager, Web3 Growth",
+    "summary": "Senior Manager, Web3 Growth at OKX in Singapore, Singapore. Greenhouse posting."
   },
   {
     "title": "Senior Manager, Web3 Growth (Ecosystem)",
@@ -22656,7 +23163,9 @@
     "posted": "2026-06-05",
     "city_normalized": "Hong Kong",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Manager, Web3 Growth (Ecosystem)",
+    "summary": "Senior Manager, Web3 Growth (Ecosystem) at OKX in Hong Kong, Hong Kong SAR. Greenhouse posting."
   },
   {
     "title": "Senior Manager, Web3 Growth (Protocols)",
@@ -22671,7 +23180,9 @@
     "posted": "2026-06-05",
     "city_normalized": "Hong Kong",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Manager, Web3 Growth (Protocols)",
+    "summary": "Senior Manager, Web3 Growth (Protocols) at OKX in Hong Kong, Hong Kong SAR. Greenhouse posting."
   },
   {
     "title": "Senior Product Manager at PayAsia",
@@ -22697,7 +23208,9 @@
     "url_type": "search",
     "posted_date": "2026-06-07T10:29:25",
     "date_source": "estimated",
-    "city_normalized": "Hong Kong"
+    "city_normalized": "Hong Kong",
+    "en_title": "Senior Product Manager at PayAsia",
+    "summary": "Senior Product Manager at PayAsia at Payasia in Hong Kong."
   },
   {
     "title": "Escalation Fastlane Team Leader",
@@ -22731,7 +23244,9 @@
     "first_published": "2026-05-28T22:29:29-04:00",
     "posted_date": "2026-06-20T19:15:54",
     "date_source": "estimated",
-    "city_normalized": "Manila"
+    "city_normalized": "Manila",
+    "en_title": "Escalation Fastlane Team Leader",
+    "summary": "Escalation Fastlane Team Leader at Payoneer in Manila."
   },
   {
     "title": "Mass Service Team Leader",
@@ -22765,7 +23280,9 @@
     "first_published": "2026-05-25T04:03:08-04:00",
     "posted_date": "2026-06-20T19:51:05",
     "date_source": "estimated",
-    "city_normalized": "Shenzhen"
+    "city_normalized": "Shenzhen",
+    "en_title": "Mass Service Team Leader",
+    "summary": "Mass Service Team Leader at Payoneer in Shenzhen."
   },
   {
     "title": "Mid Market Sales Team Leader, APAC",
@@ -22799,7 +23316,9 @@
     "first_published": "2026-04-20T23:30:30-04:00",
     "posted_date": "2026-06-20T20:26:16",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Mid Market Sales Team Leader, APAC",
+    "summary": "Mid Market Sales Team Leader, APAC at Payoneer in Seoul."
   },
   {
     "title": "Ops Program Manager",
@@ -22833,7 +23352,9 @@
     "first_published": "2026-05-06T22:44:05-04:00",
     "posted_date": "2026-06-20T21:01:27",
     "date_source": "estimated",
-    "city_normalized": "Shanghai"
+    "city_normalized": "Shanghai",
+    "en_title": "Ops Program Manager",
+    "summary": "Ops Program Manager at Payoneer in Shanghai."
   },
   {
     "title": "Senior Business Development Representative",
@@ -22867,7 +23388,9 @@
     "first_published": "2026-05-17T22:55:58-04:00",
     "posted_date": "2026-06-21T22:14:26",
     "date_source": "estimated",
-    "city_normalized": "Shenzhen"
+    "city_normalized": "Shenzhen",
+    "en_title": "Senior Business Development Representative",
+    "summary": "Senior Business Development Representative at Payoneer in Shenzhen."
   },
   {
     "title": "Product Manager, Perpetuals",
@@ -23741,7 +24264,9 @@
     "url_type": "search",
     "posted_date": "2026-06-02T04:24:32",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Senior Product Manager - Singapore",
+    "summary": "Senior Product Manager - Singapore at Singapore in Singapore."
   },
   {
     "title": "Hong Kong Regulatory Compliance & Money Laundering Reporting Officer",
@@ -23846,7 +24371,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-07T21:02:46",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Commercial Solutions Program Manager at Stripe in Chicago, IL , Remote."
   },
   {
     "title": "Company Strategy & Operations",
@@ -23889,7 +24415,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-07T21:37:57",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Company Strategy & Operations at Stripe in San Francisco, Seattle, Chicago, US-remote, New York."
   },
   {
     "title": "Data Science Manager, Finance and Strategy",
@@ -23932,7 +24459,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-07T22:13:08",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Data Science Manager, Finance and Strategy at Stripe in Seattle, WA OR New York, NY OR Remote North America."
   },
   {
     "title": "Executive Journey Strategy Manager",
@@ -23975,7 +24503,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-07T22:48:19",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Executive Journey Strategy Manager at Stripe in San Francisco or US-Remote."
   },
   {
     "title": "Finance & Strategy Partner, Central Engineering",
@@ -24018,7 +24547,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-07T23:23:30",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Finance & Strategy Partner, Central Engineering at Stripe in Remote US, SF, SEA, NYC, CHI."
   },
   {
     "title": "People Solutions Program Manager",
@@ -24061,7 +24591,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-07T23:58:41",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "People Solutions Program Manager at Stripe in US-Remote; US-Chicago; US-Atlanta; CA-Toronto."
   },
   {
     "title": "Product Lead, Connect",
@@ -24104,7 +24635,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T00:33:52",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Product Lead, Connect at Stripe in San Francisco, New York City, Seattle, US Remote."
   },
   {
     "title": "Product Manager - Compliance, Bridge",
@@ -24147,7 +24679,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T01:09:04",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Product Manager - Compliance, Bridge at Stripe in New York, San Francisco or Remote."
   },
   {
     "title": "Product Manager, Ecosystem Risk",
@@ -24190,7 +24723,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T01:44:15",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Product Manager, Ecosystem Risk at Stripe in New-York, Atlanta, Remote, Toronto."
   },
   {
     "title": "Product Manager, Growth AI Outreach Motion",
@@ -24233,7 +24767,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T02:19:26",
     "date_source": "estimated",
-    "city_normalized": "Remote CA"
+    "city_normalized": "Remote CA",
+    "summary": "Product Manager, Growth AI Outreach Motion at Stripe in Toronto, Remote- Canada."
   },
   {
     "title": "Product Manager, Infrastructure",
@@ -24276,7 +24811,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T02:54:37",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Product Manager, Infrastructure at Stripe in Remote in the US."
   },
   {
     "title": "Product Manager, Link - Consumer",
@@ -24319,7 +24855,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T03:29:48",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Product Manager, Link - Consumer at Stripe in SF, SEA, NY, Remote-US."
   },
   {
     "title": "Product Manager, Payments",
@@ -24362,7 +24899,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T04:04:59",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Product Manager, Payments at Stripe in SF, NY, SEA, Remote-US."
   },
   {
     "title": "Product Marketing Manager, Growth",
@@ -24405,7 +24943,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T04:40:10",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Product Marketing Manager, Growth at Stripe in Remote in the US."
   },
   {
     "title": "Program Manager, GTM Planning",
@@ -24448,7 +24987,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T05:15:21",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Program Manager, GTM Planning at Stripe in US-Chicago, US-Remote."
   },
   {
     "title": "Program Manager, Risk Ops Enablement",
@@ -24491,7 +25031,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T05:50:33",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Program Manager, Risk Ops Enablement at Stripe in US-Remote."
   },
   {
     "title": "Program Manager, Security Business Enablement",
@@ -24534,7 +25075,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T06:25:44",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Program Manager, Security Business Enablement at Stripe in US - Remote."
   },
   {
     "title": "Program Manager, Solutions Architecture (GTM Transformation)",
@@ -24577,7 +25119,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T07:00:55",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Program Manager, Solutions Architecture (GTM Transformation) at Stripe in Chicago, Atlanta, US-Remote."
   },
   {
     "title": "Risk Strategist, User Risk Strategy",
@@ -24620,7 +25163,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T07:36:06",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Risk Strategist, User Risk Strategy at Stripe in Chicago, SEA, SF, NYC, US-Remote."
   },
   {
     "title": "Senior Staff Product Designer, Risk",
@@ -24663,7 +25207,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T08:11:17",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Senior Staff Product Designer, Risk at Stripe in Remote in the US."
   },
   {
     "title": "Staff Product Manager, Cards Monetization",
@@ -24706,7 +25251,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T08:46:28",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Staff Product Manager, Cards Monetization at Stripe in Seattle, San Francisco, New York, US - Remote."
   },
   {
     "title": "Staff Product Manager, Dashboard",
@@ -24749,7 +25295,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T09:21:39",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Staff Product Manager, Dashboard at Stripe in San Francisco, Seattle, NYC, Chicago, Atlanta, US Remote."
   },
   {
     "title": "Staff Product Manager, Enterprise (Industries)",
@@ -24792,7 +25339,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T09:56:51",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Staff Product Manager, Enterprise (Industries) at Stripe in San Francisco, Seattle, New York, Chicago, Atlanta, Remote."
   },
   {
     "title": "Staff Product Manager, Payments",
@@ -24835,7 +25383,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T10:32:02",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Staff Product Manager, Payments at Stripe in SF, SEA, NYC, Remote."
   },
   {
     "title": "Technical Program Manager, Core Infrastructure",
@@ -24878,7 +25427,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T11:07:13",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Technical Program Manager, Core Infrastructure at Stripe in Seattle, SF, Remote."
   },
   {
     "title": "Technical Program Manager,  Extensibility Programs",
@@ -24921,7 +25471,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T11:42:24",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Technical Program Manager,  Extensibility Programs at Stripe in Remote in the US, Chicago, Atlanta."
   },
   {
     "title": "Technical Program Manager,  Identity and Access Management Programs",
@@ -24964,7 +25515,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T12:17:35",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Technical Program Manager,  Identity and Access Management Programs at Stripe in Remote in the US, Chicago, Atlanta."
   },
   {
     "title": "Technical Program Manager, Service Infrastructure",
@@ -25007,7 +25559,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T12:52:46",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "Technical Program Manager, Service Infrastructure at Stripe in Seattle, San Francisco, Remote in the US."
   },
   {
     "title": "User Risk Strategist, Ecosystem Risk Strategy",
@@ -25050,7 +25603,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-08T13:27:57",
     "date_source": "estimated",
-    "city_normalized": "Remote US"
+    "city_normalized": "Remote US",
+    "summary": "User Risk Strategist, Ecosystem Risk Strategy at Stripe in US-Chicago; US-Atlanta; US-Remote."
   },
   {
     "title": "Strategy and Analytics Business Partner",
@@ -25108,7 +25662,9 @@
     "english_friendly": true,
     "city_normalized": "Remote US",
     "quality_score": 57,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Program Manager, Security Business Enablement",
+    "summary": "Program Manager, Security Business Enablement at Stripe in US-REMOTE."
   },
   {
     "title": "Head of Learning & Quality, Stripe Delivery Center",
@@ -25123,7 +25679,9 @@
     "posted": "2026-06-19",
     "city_normalized": "Bangalore",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Head of Learning & Quality, Stripe Delivery Center",
+    "summary": "Head of Learning & Quality, Stripe Delivery Center at Stripe in Bangalore. Greenhouse posting."
   },
   {
     "title": "Senior Procurement Manager (Cloud/AI)",
@@ -25225,7 +25783,9 @@
     "first_published": "2026-06-03T23:29:31-04:00",
     "posted_date": "2026-06-20T22:47:01",
     "date_source": "estimated",
-    "city_normalized": "Manila"
+    "city_normalized": "Manila",
+    "en_title": "Member Experience Team Lead",
+    "summary": "Member Experience Team Lead at Thunes in Manila."
   },
   {
     "title": "Technical Support Engineer Lead",
@@ -25259,7 +25819,9 @@
     "first_published": "2026-05-15T03:45:21-04:00",
     "posted_date": "2026-06-20T23:22:12",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Technical Support Engineer Lead",
+    "summary": "Technical Support Engineer Lead at Thunes in Singapore."
   },
   {
     "title": "Support Operations Manager - US hours",
@@ -25293,7 +25855,9 @@
     "first_published": "2026-06-05T02:23:37-04:00",
     "posted_date": "2026-06-21T23:24:48",
     "date_source": "estimated",
-    "city_normalized": "Manila"
+    "city_normalized": "Manila",
+    "en_title": "Support Operations Manager - US hours",
+    "summary": "Support Operations Manager - US hours at Thunes in Manila."
   },
   {
     "title": "Senior Product Manager",
@@ -25336,7 +25900,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-02T15:33:04",
     "date_source": "estimated",
-    "city_normalized": "Remote"
+    "city_normalized": "Remote",
+    "summary": "Senior Product Manager at Toptal in Remote."
   },
   {
     "title": "Senior Product Manager Stablecoin & Crypto",
@@ -25362,7 +25927,9 @@
     "url_type": "search",
     "posted_date": "2026-06-08T15:13:31",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Senior Product Manager Stablecoin & Crypto",
+    "summary": "Senior Product Manager Stablecoin & Crypto at TripleA in Singapore."
   },
   {
     "title": "Product Lead",
@@ -25431,7 +25998,9 @@
     "url_type": "search",
     "posted_date": "2026-06-02T05:34:54",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Senior Product Manager - Remote",
+    "summary": "Senior Product Manager - Remote at Turing in Singapore."
   },
   {
     "title": "Director, Product Management",
@@ -26088,7 +26657,9 @@
     "url_type": "search",
     "posted_date": "2026-06-02T06:10:05",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Product Manager Jobs in Singapore - 2026 - Wellfound",
+    "summary": "Product Manager Jobs in Singapore - 2026 - Wellfound at Wellfound in Singapore."
   },
   {
     "title": "Technical Product Manager Jobs in Singapore - 2026 - Wellfound",
@@ -26114,7 +26685,9 @@
     "url_type": "search",
     "posted_date": "2026-06-02T06:45:17",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Technical Product Manager Jobs in Singapore - 2026 - Wellfound",
+    "summary": "Technical Product Manager Jobs in Singapore - 2026 - Wellfound at Wellfound in Singapore."
   },
   {
     "title": "Senior Manager, Product – Payments Funds In (APAC)",
@@ -26231,7 +26804,9 @@
     "first_published": "2026-06-22T21:44:57-04:00",
     "posted_date": "2026-06-21T00:32:34",
     "date_source": "estimated",
-    "city_normalized": "Kuala Lumpur"
+    "city_normalized": "Kuala Lumpur",
+    "en_title": "Chinese Merchant Support Team Leader",
+    "summary": "Chinese Merchant Support Team Leader at Xendit in Kuala Lumpur, Malaysia."
   },
   {
     "title": "Merchant Ops Team Lead",
@@ -26265,7 +26840,9 @@
     "first_published": "2026-04-13T06:12:04-04:00",
     "posted_date": "2026-06-21T01:42:57",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Merchant Ops Team Lead",
+    "summary": "Merchant Ops Team Lead at Xendit in Bangkok."
   },
   {
     "title": "Sr./Product Manager, App Growth (Campaign/Loyalty Program)",
@@ -26893,7 +27470,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-09T18:12:03",
     "date_source": "estimated",
-    "city_normalized": "Shenzhen"
+    "city_normalized": "Shenzhen",
+    "summary": "医疗大模型/医疗智能体产品经理 - 有米科技 at 有米科技 in Shenzhen."
   },
   {
     "title": "AI产品经理 - 杭州星核引力人工智能科技",
@@ -26936,7 +27514,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-09T18:47:14",
     "date_source": "estimated",
-    "city_normalized": "Hangzhou"
+    "city_normalized": "Hangzhou",
+    "summary": "AI产品经理 - 杭州星核引力人工智能科技 at 杭州星核引力人工智能科技 in Hangzhou."
   },
   {
     "title": "AI产品经理（AI应用方向）(J12182)",
@@ -27066,7 +27645,9 @@
     "url_type": "search",
     "posted_date": "2026-06-10T08:16:30",
     "date_source": "estimated",
-    "city_normalized": "Hong Kong"
+    "city_normalized": "Hong Kong",
+    "en_title": "SeniorProduct Manager - Software",
+    "summary": "SeniorProduct Manager - Software at 某小型计算机软件公司 in Hong Kong."
   },
   {
     "title": "资深产品经理（出海首饰）",
@@ -27382,7 +27963,9 @@
     "url_type": "search",
     "posted_date": "2026-06-02T04:59:43",
     "date_source": "estimated",
-    "city_normalized": "Unknown"
+    "city_normalized": "Unknown",
+    "en_title": "Senior/SeniorProduct Manager -",
+    "summary": "Senior/SeniorProduct Manager - at 深圳素士科技股份有限公司深圳."
   },
   {
     "title": "HR AI Product Manager",
@@ -27408,7 +27991,9 @@
     "url_type": "search",
     "posted_date": "2026-06-12T04:50:36",
     "date_source": "estimated",
-    "city_normalized": "Unknown"
+    "city_normalized": "Unknown",
+    "en_title": "HR AI Product Manager",
+    "summary": "HR AI Product Manager at 猎聘."
   },
   {
     "title": "产品经理- 山西证券深圳招聘信息",
@@ -27451,7 +28036,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-12T05:25:47",
     "date_source": "estimated",
-    "city_normalized": "Unknown"
+    "city_normalized": "Unknown",
+    "summary": "产品经理- 山西证券深圳招聘信息 at 猎聘."
   },
   {
     "title": "产品经理招聘",
@@ -27494,7 +28080,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-12T06:00:58",
     "date_source": "estimated",
-    "city_normalized": "Unknown"
+    "city_normalized": "Unknown",
+    "summary": "产品经理招聘 at 猎聘."
   },
   {
     "title": "AI/大模型产品经理 - 百度",
@@ -27537,7 +28124,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-12T06:36:09",
     "date_source": "estimated",
-    "city_normalized": "Shenzhen"
+    "city_normalized": "Shenzhen",
+    "summary": "AI/大模型产品经理 - 百度 at 百度 in Shenzhen."
   },
   {
     "title": "账号资深产品经理 - 美团",
@@ -27580,7 +28168,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-12T07:11:20",
     "date_source": "estimated",
-    "city_normalized": "Beijing"
+    "city_normalized": "Beijing",
+    "summary": "账号资深产品经理 - 美团 at 美团 in Beijing."
   },
   {
     "title": "大模型评测产品经理 - 美团",
@@ -27623,7 +28212,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-12T07:46:32",
     "date_source": "estimated",
-    "city_normalized": "Hangzhou"
+    "city_normalized": "Hangzhou",
+    "summary": "大模型评测产品经理 - 美团 at 美团 in Hangzhou."
   },
   {
     "title": "QQ浏览器-高级增长产品经理(深圳) - 腾讯",
@@ -27717,7 +28307,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-12T09:32:05",
     "date_source": "estimated",
-    "city_normalized": "Beijing"
+    "city_normalized": "Beijing",
+    "summary": "资深产品经理招聘 - 腾讯 at 腾讯 in Beijing."
   },
   {
     "title": "元宝-大模型评测产品经理(北京/深圳) - 腾讯",
@@ -27760,7 +28351,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-12T10:07:16",
     "date_source": "estimated",
-    "city_normalized": "Shenzhen"
+    "city_normalized": "Shenzhen",
+    "summary": "元宝-大模型评测产品经理(北京/深圳) - 腾讯 at 腾讯 in Shenzhen."
   },
   {
     "title": "大模型策略产品经理 - 腾讯",
@@ -27803,7 +28395,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-12T10:42:27",
     "date_source": "estimated",
-    "city_normalized": "Shenzhen"
+    "city_normalized": "Shenzhen",
+    "summary": "大模型策略产品经理 - 腾讯 at 腾讯 in Shenzhen."
   },
   {
     "title": "AI产品经理-ASR方向(深圳) - BOSS直聘",
@@ -27948,7 +28541,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-12T14:13:34",
     "date_source": "estimated",
-    "city_normalized": "Shenzhen"
+    "city_normalized": "Shenzhen",
+    "summary": "AI产品经理（大模型/视觉/NLP/转运）- 顺丰科技 at 顺丰科技 in Shenzhen."
   },
   {
     "title": "建材产品经理 - 香港尚居綠色室内設計有限公司",
@@ -27991,7 +28585,8 @@
     "has_direct_link": false,
     "posted_date": "2026-06-12T14:48:45",
     "date_source": "estimated",
-    "city_normalized": "Shenzhen"
+    "city_normalized": "Shenzhen",
+    "summary": "建材产品经理 - 香港尚居綠色室内設計有限公司 at 香港尚居綠色室内設計有限公司 in Shenzhen."
   },
   {
     "title": "Payment & Product Partnerships Counsel - APAC",
@@ -28025,7 +28620,9 @@
     "first_published": "2026-03-31T07:33:04-04:00",
     "posted_date": "2026-06-17T00:57:20",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Payment & Product Partnerships Counsel - APAC",
+    "summary": "Payment & Product Partnerships Counsel - APAC at Adyen in Singapore."
   },
   {
     "title": "Product Operations Analyst",
@@ -28059,7 +28656,9 @@
     "first_published": "2024-10-28T06:26:18-04:00",
     "posted_date": "2026-06-17T16:12:09",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Product Operations Analyst",
+    "summary": "Product Operations Analyst at Agoda in Bangkok."
   },
   {
     "title": "Legal Operations Specialist (Bangkok-based, Relocation Provided)",
@@ -28093,7 +28692,9 @@
     "first_published": "2026-03-10T03:46:08-04:00",
     "posted_date": "2026-06-21T04:03:41",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Legal Operations Specialist (Bangkok-based, Relocation Provided)",
+    "summary": "Legal Operations Specialist (Bangkok-based, Relocation Provided) at Agoda in Bangkok."
   },
   {
     "title": "Treasury Operations & Cash Management Specialist (Bangkok Based, Relocation Provided)",
@@ -28127,7 +28728,9 @@
     "first_published": "2026-03-19T07:11:24-04:00",
     "posted_date": "2026-06-21T04:38:52",
     "date_source": "estimated",
-    "city_normalized": "Bangkok"
+    "city_normalized": "Bangkok",
+    "en_title": "Treasury Operations & Cash Management Specialist (Bangkok Based, Relocation Provided)",
+    "summary": "Treasury Operations & Cash Management Specialist (Bangkok Based, Relocation Provided) at Agoda in Bangkok."
   },
   {
     "title": "Test Booking Coordinator, Strategic Partnerships (10-month contract, Bangkok based)",
@@ -28142,7 +28745,9 @@
     "posted": "2026-06-17",
     "city_normalized": "Bangkok",
     "quality_score": 70,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Test Booking Coordinator, Strategic Partnerships (10-month contract, Bangkok based)",
+    "summary": "Test Booking Coordinator, Strategic Partnerships (10-month contract, Bangkok based) at Agoda in Bangkok, Thailand. Greenhouse posting."
   },
   {
     "title": "Market Manager - Acquisition",
@@ -28238,7 +28843,9 @@
     "first_published": "2026-06-01T12:29:46-04:00",
     "posted_date": "2026-06-18T09:12:32",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Regional Research Economist, Economic Research",
+    "summary": "Regional Research Economist, Economic Research at Anthropic in Singapore."
   },
   {
     "title": "Business Development Representative",
@@ -28272,7 +28879,9 @@
     "first_published": "2026-04-14T05:26:17-04:00",
     "posted_date": "2026-06-21T05:49:14",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Business Development Representative",
+    "summary": "Business Development Representative at Anthropic in Seoul."
   },
   {
     "title": "Partnerships Lead - ANZ",
@@ -28287,7 +28896,9 @@
     "posted": "2026-06-24",
     "city_normalized": "Sydney",
     "quality_score": 70,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Partnerships Lead - ANZ",
+    "summary": "Partnerships Lead - ANZ at Anthropic in Sydney, Australia. Greenhouse posting."
   },
   {
     "title": "Senior Compliance Manager, Afterpay ANZ",
@@ -28300,7 +28911,9 @@
     "description": "Senior compliance at Afterpay/Block ANZ. Financial services regulatory, payments/fintech.",
     "posted": "2026-04-01",
     "grade": "B",
-    "grade_note": "Good fit - fintech, payments, but compliance focus"
+    "grade_note": "Good fit - fintech, payments, but compliance focus",
+    "en_title": "Senior Compliance Manager, Afterpay ANZ",
+    "summary": "Senior Compliance Manager, Afterpay ANZ at Block (Square/Cash App) in Sydney, Australia. Senior compliance at Afterpay/Block ANZ."
   },
   {
     "title": "Senior Partnerships Manager, Australia",
@@ -28313,7 +28926,9 @@
     "description": "Senior partnerships at Block/Square Australia. Payments/fintech partnerships in ANZ.",
     "posted": "2026-06-20",
     "grade": "B",
-    "grade_note": "Good fit - payments/fintech partnerships, Melbourne"
+    "grade_note": "Good fit - payments/fintech partnerships, Melbourne",
+    "en_title": "Senior Partnerships Manager, Australia",
+    "summary": "Senior Partnerships Manager, Australia at Block (Square/Cash App) in Melbourne, Australia. Senior partnerships at Block/Square Australia."
   },
   {
     "title": "Senior Manager, Territory Sales (Based in Tokyo)",
@@ -28326,7 +28941,9 @@
     "description": "Senior territory sales at Cloudflare Japan. Enterprise sales for internet infrastructure/security.",
     "posted": "2026-05-15",
     "grade": "B",
-    "grade_note": "Good fit - Senior sales, Tokyo, tech infrastructure"
+    "grade_note": "Good fit - Senior sales, Tokyo, tech infrastructure",
+    "en_title": "Senior Manager, Territory Sales (Based in Tokyo)",
+    "summary": "Senior Manager, Territory Sales (Based in Tokyo) at Cloudflare in Tokyo, Japan. Senior territory sales at Cloudflare Japan."
   },
   {
     "title": "Group Product Manager, Compliance Automation",
@@ -28634,7 +29251,9 @@
     "description": "Senior account management at Coinbase Singapore. Crypto/fintech, APAC market.",
     "posted": "2026-05-20",
     "grade": "B",
-    "grade_note": "Good fit - Senior AM, Singapore, crypto/fintech"
+    "grade_note": "Good fit - Senior AM, Singapore, crypto/fintech",
+    "en_title": "Senior Account Manager",
+    "summary": "Senior Account Manager at Coinbase in Remote - Singapore. Senior account management at Coinbase Singapore."
   },
   {
     "title": "[쿠팡 Ads] Product Specialist (광고 프로덕트 전략 및 GTM 전문가)",
@@ -28668,7 +29287,9 @@
     "first_published": "2026-06-10T21:50:27-04:00",
     "posted_date": "2026-06-18T10:58:05",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "[쿠팡 Ads] Product Specialist (광고 프로덕트 전략 및 GTM 전문가)",
+    "summary": "[쿠팡 Ads] Product Specialist (광고 프로덕트 전략 및 GTM 전문가) at Coupang in Seoul."
   },
   {
     "title": "Back-end Engineer (Marketplace)",
@@ -28702,7 +29323,9 @@
     "first_published": "2026-06-05T03:31:09-04:00",
     "posted_date": "2026-06-18T12:43:39",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Back-end Engineer (Marketplace)",
+    "summary": "Back-end Engineer (Marketplace) at Coupang in Seoul."
   },
   {
     "title": "CRM Growth Marketer (Customer Growth Marketing)",
@@ -28736,7 +29359,9 @@
     "first_published": "2026-06-05T04:20:18-04:00",
     "posted_date": "2026-06-18T16:49:57",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "CRM Growth Marketer (Customer Growth Marketing)",
+    "summary": "CRM Growth Marketer (Customer Growth Marketing) at Coupang in Seoul."
   },
   {
     "title": "프로그램 매니저 (OHL Growth Excellence: 가격 전략 운영)",
@@ -28770,7 +29395,9 @@
     "first_published": "2026-06-07T19:17:53-04:00",
     "posted_date": "2026-06-19T09:50:20",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "프로그램 매니저 (OHL Growth Excellence: 가격 전략 운영)",
+    "summary": "프로그램 매니저 (OHL Growth Excellence: 가격 전략 운영) at Coupang in Seoul."
   },
   {
     "title": "[쿠팡] Program Management (Rocket Growth, 계약직)",
@@ -28804,7 +29431,9 @@
     "first_published": "2026-06-22T03:34:26-04:00",
     "posted_date": "2026-06-19T12:11:04",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "[쿠팡] Program Management (Rocket Growth, 계약직)",
+    "summary": "[쿠팡] Program Management (Rocket Growth, 계약직) at Coupang in Seoul."
   },
   {
     "title": "[쿠팡] 이츠 카탈로그 운영 전략 및 정책 관리 매니저 (Catalog Growth & Excellence) (경력 10년이상)",
@@ -28838,7 +29467,9 @@
     "first_published": "2026-06-24T03:31:28-04:00",
     "posted_date": "2026-06-21T06:24:26",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "[쿠팡] 이츠 카탈로그 운영 전략 및 정책 관리 매니저 (Catalog Growth & Excellence) (경력 10년이상)",
+    "summary": "[쿠팡] 이츠 카탈로그 운영 전략 및 정책 관리 매니저 (Catalog Growth & Excellence) (경력 10년이상) at Coupang in Seoul."
   },
   {
     "title": "Global Operations Technology(GOT) 개발자 집중 채용",
@@ -28872,7 +29503,9 @@
     "first_published": "2025-04-16T05:03:21-04:00",
     "posted_date": "2026-06-21T07:34:48",
     "date_source": "estimated",
-    "city_normalized": "Seoul"
+    "city_normalized": "Seoul",
+    "en_title": "Global Operations Technology(GOT) 개발자 집중 채용",
+    "summary": "Global Operations Technology(GOT) 개발자 집중 채용 at Coupang in Seoul."
   },
   {
     "title": "IP Operations Operator (Quality Assurance Specialist)",
@@ -28906,7 +29539,9 @@
     "first_published": "2026-01-29T03:53:58-05:00",
     "posted_date": "2026-06-21T08:09:59",
     "date_source": "estimated",
-    "city_normalized": "Taipei"
+    "city_normalized": "Taipei",
+    "en_title": "IP Operations Operator (Quality Assurance Specialist)",
+    "summary": "IP Operations Operator (Quality Assurance Specialist) at Coupang in Taipei."
   },
   {
     "title": "Operations Excellence Specialist (Hub Operations Management)",
@@ -28940,7 +29575,9 @@
     "first_published": "2026-04-29T06:45:37-04:00",
     "posted_date": "2026-06-21T09:20:21",
     "date_source": "estimated",
-    "city_normalized": "Taipei"
+    "city_normalized": "Taipei",
+    "en_title": "Operations Excellence Specialist (Hub Operations Management)",
+    "summary": "Operations Excellence Specialist (Hub Operations Management) at Coupang in Taoyuan, Taiwan."
   },
   {
     "title": "Quality Assurance Specialist - Andon Operations Trainer",
@@ -28974,7 +29611,9 @@
     "first_published": "2026-06-17T07:03:43-04:00",
     "posted_date": "2026-06-21T09:55:32",
     "date_source": "estimated",
-    "city_normalized": "Taipei"
+    "city_normalized": "Taipei",
+    "en_title": "Quality Assurance Specialist - Andon Operations Trainer",
+    "summary": "Quality Assurance Specialist - Andon Operations Trainer at Coupang in Taipei."
   },
   {
     "title": "[Rocket Now] B2B Enterprise Business Development Specialist",
@@ -29008,7 +29647,9 @@
     "first_published": "2026-05-28T23:50:10-04:00",
     "posted_date": "2026-06-21T10:30:43",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "[Rocket Now] B2B Enterprise Business Development Specialist",
+    "summary": "[Rocket Now] B2B Enterprise Business Development Specialist at Coupang in Tokyo."
   },
   {
     "title": "Field Engineering, AI/ML Product Specialist",
@@ -29042,7 +29683,9 @@
     "first_published": "2026-03-24T04:25:52-04:00",
     "posted_date": "2026-06-19T19:48:29",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Field Engineering, AI/ML Product Specialist",
+    "summary": "Field Engineering, AI/ML Product Specialist at Databricks in Singapore."
   },
   {
     "title": "Country Manager",
@@ -29055,7 +29698,9 @@
     "description": "Country Manager for Datadog Japan. Full P&L ownership, market leadership for observability platform.",
     "posted": "2026-06-15",
     "grade": "B",
-    "grade_note": "Good fit - GM role, but Tokyo (not priority city)"
+    "grade_note": "Good fit - GM role, but Tokyo (not priority city)",
+    "en_title": "Country Manager",
+    "summary": "Country Manager at Datadog in Tokyo, Japan. Country Manager for Datadog Japan."
   },
   {
     "title": "Head of Enterprise Sales, Japan",
@@ -29068,7 +29713,9 @@
     "description": "Head of enterprise sales at Datadog Japan. Leading sales team for observability/AI platform.",
     "posted": "2026-05-01",
     "grade": "B",
-    "grade_note": "Good fit - Head of Sales, Japan, AI/observability"
+    "grade_note": "Good fit - Head of Sales, Japan, AI/observability",
+    "en_title": "Head of Enterprise Sales, Japan",
+    "summary": "Head of Enterprise Sales, Japan at Datadog in Tokyo, Japan. Head of enterprise sales at Datadog Japan."
   },
   {
     "title": "Head of Channels & Alliances",
@@ -29081,7 +29728,9 @@
     "description": "Head of channels and alliances at Datadog Korea. Strategic partnerships in APAC.",
     "posted": "2026-04-01",
     "grade": "B",
-    "grade_note": "Good fit - partnerships leadership, but Seoul not priority"
+    "grade_note": "Good fit - partnerships leadership, but Seoul not priority",
+    "en_title": "Head of Channels & Alliances",
+    "summary": "Head of Channels & Alliances at Datadog in Seoul, South Korea. Head of channels and alliances at Datadog Korea."
   },
   {
     "title": "Senior Business Development Manager",
@@ -29094,7 +29743,9 @@
     "description": "Senior BD at Epic Games Shanghai. Gaming/metaverse partnerships in China.",
     "posted": "2026-06-20",
     "grade": "B",
-    "grade_note": "Good fit - Senior BD, Shanghai, gaming/metaverse"
+    "grade_note": "Good fit - Senior BD, Shanghai, gaming/metaverse",
+    "en_title": "Senior Business Development Manager",
+    "summary": "Senior Business Development Manager at Epic Games in Shanghai. Senior BD at Epic Games Shanghai."
   },
   {
     "title": "Senior Manager, Commercial Sales (Singapore)",
@@ -29107,7 +29758,9 @@
     "description": "Senior commercial sales at Figma Singapore. Design tool enterprise sales in APAC.",
     "posted": "2026-06-20",
     "grade": "B",
-    "grade_note": "Good fit - Senior Manager, Singapore, design tools"
+    "grade_note": "Good fit - Senior Manager, Singapore, design tools",
+    "en_title": "Senior Manager, Commercial Sales (Singapore)",
+    "summary": "Senior Manager, Commercial Sales (Singapore) at Figma in Singapore. Senior commercial sales at Figma Singapore."
   },
   {
     "title": "Ocean Operations Specialist",
@@ -29141,7 +29794,9 @@
     "first_published": "2026-06-10T01:52:50-04:00",
     "posted_date": "2026-06-21T12:51:28",
     "date_source": "estimated",
-    "city_normalized": "Taipei"
+    "city_normalized": "Taipei",
+    "en_title": "Ocean Operations Specialist",
+    "summary": "Ocean Operations Specialist at Flexport in Taipei."
   },
   {
     "title": "Senior Manager, FP&A",
@@ -29154,7 +29809,9 @@
     "description": "Senior FP&A at Flexport Singapore. Financial planning for APAC operations.",
     "posted": "2026-06-10",
     "grade": "B",
-    "grade_note": "Good fit but FP&A focus - less product/strategy alignment"
+    "grade_note": "Good fit but FP&A focus - less product/strategy alignment",
+    "en_title": "Senior Manager, FP&A",
+    "summary": "Senior Manager, FP&A at Flexport in Singapore. Senior FP&A at Flexport Singapore."
   },
   {
     "title": "Senior Manager, Ocean Gateway, Japan",
@@ -29167,7 +29824,9 @@
     "description": "Senior manager for ocean freight gateway at Flexport Japan. Cross-border logistics operations.",
     "posted": "2026-06-05",
     "grade": "B",
-    "grade_note": "Good fit - Senior Manager, Tokyo, logistics"
+    "grade_note": "Good fit - Senior Manager, Tokyo, logistics",
+    "en_title": "Senior Manager, Ocean Gateway, Japan",
+    "summary": "Senior Manager, Ocean Gateway, Japan at Flexport in Tokyo, Japan. Senior manager for ocean freight gateway at Flexport Japan."
   },
   {
     "title": "Senior Air Freight Manager, Taiwan",
@@ -29180,7 +29839,9 @@
     "description": "Senior air freight manager at Flexport Taiwan. Cross-border logistics operations.",
     "posted": "2026-04-01",
     "grade": "B",
-    "grade_note": "Good fit - Senior Manager, Taipei, logistics"
+    "grade_note": "Good fit - Senior Manager, Taipei, logistics",
+    "en_title": "Senior Air Freight Manager, Taiwan",
+    "summary": "Senior Air Freight Manager, Taiwan at Flexport in Taipei, Taiwan. Senior air freight manager at Flexport Taiwan."
   },
   {
     "title": "Regional Sales Director, ASEAN & Korea",
@@ -29193,7 +29854,9 @@
     "description": "Regional sales director at GitLab covering ASEAN and Korea. DevOps platform, remote-first.",
     "posted": "2026-06-25",
     "grade": "B",
-    "grade_note": "Good fit - Regional Director, Singapore, DevOps"
+    "grade_note": "Good fit - Regional Director, Singapore, DevOps",
+    "en_title": "Regional Sales Director, ASEAN & Korea",
+    "summary": "Regional Sales Director, ASEAN & Korea at GitLab in Remote, Singapore. Regional sales director at GitLab covering ASEAN and Korea."
   },
   {
     "title": "Senior Manager, CX Services Operations",
@@ -29368,7 +30031,9 @@
     "first_published": "2025-03-07T06:45:56-05:00",
     "posted_date": "2026-06-21T13:26:39",
     "date_source": "estimated",
-    "city_normalized": "Taipei"
+    "city_normalized": "Taipei",
+    "en_title": "Enterprise Account Executive, Growth",
+    "summary": "Enterprise Account Executive, Growth at MongoDB in Taipei."
   },
   {
     "title": "Enterprise Account Executive, Growth ( Bahasa Speaker)",
@@ -29402,7 +30067,9 @@
     "first_published": "2026-01-21T07:02:04-05:00",
     "posted_date": "2026-06-21T14:01:50",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Enterprise Account Executive, Growth ( Bahasa Speaker)",
+    "summary": "Enterprise Account Executive, Growth ( Bahasa Speaker) at MongoDB in Singapore."
   },
   {
     "title": "Account Executive, Business Growth Sales",
@@ -29436,7 +30103,9 @@
     "first_published": "2026-04-22T23:19:27.798+00:00",
     "posted_date": "2026-06-20T03:25:54",
     "date_source": "estimated",
-    "city_normalized": "Tokyo"
+    "city_normalized": "Tokyo",
+    "en_title": "Account Executive, Business Growth Sales",
+    "summary": "Account Executive, Business Growth Sales at Notion in Tokyo."
   },
   {
     "title": "Data Engineer, Product Data Development",
@@ -29470,7 +30139,9 @@
     "first_published": "2026-01-23T01:16:16-05:00",
     "posted_date": "2026-06-21T18:43:19",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Data Engineer, Product Data Development",
+    "summary": "Data Engineer, Product Data Development at OKX in Singapore."
   },
   {
     "title": "Security Operations Engineer",
@@ -29504,7 +30175,9 @@
     "first_published": "2026-06-10T03:25:33-04:00",
     "posted_date": "2026-06-21T21:04:04",
     "date_source": "estimated",
-    "city_normalized": "Hong Kong"
+    "city_normalized": "Hong Kong",
+    "en_title": "Security Operations Engineer",
+    "summary": "Security Operations Engineer at OKX in Hong Kong."
   },
   {
     "title": "Head of Fleet - SPX Express",
@@ -29581,7 +30254,9 @@
     "first_published": "2026-04-17T10:29:04-04:00",
     "posted_date": "2026-06-20T21:36:39",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Product Designer, Global",
+    "summary": "Product Designer, Global at Stripe in Singapore."
   },
   {
     "title": "Integration Reliability Engineer, Technical Operations",
@@ -29615,7 +30290,9 @@
     "first_published": "2026-06-09T05:26:02-04:00",
     "posted_date": "2026-06-21T22:49:37",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "Integration Reliability Engineer, Technical Operations",
+    "summary": "Integration Reliability Engineer, Technical Operations at Stripe in Singapore."
   },
   {
     "title": "Marketing Manager (KOL/Content)",
@@ -29674,11 +30351,13 @@
     "first_published": "2026-04-27T04:37:47-04:00",
     "posted_date": "2026-06-22T00:00:00",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "VP, Business Development ",
+    "summary": "VP, Business Development  at Thunes in Singapore."
   },
   {
     "title": "Senior Product Manager - Klook",
-    "company": "",
+    "company": "Unknown",
     "location": "Singapore",
     "grade": "C",
     "url": "https://builtin.com/job/senior-product-manager/8812888",
@@ -29730,7 +30409,7 @@
   },
   {
     "title": "Senior Product Manager - FX and Remittance - Xendit",
-    "company": "",
+    "company": "Unknown",
     "location": "Singapore",
     "grade": "C",
     "url": "https://builtin.com/job/pm-fx-and-remittance/7079101",
@@ -29791,7 +30470,9 @@
     "description": "Senior content management for APAC at Adyen. Fintech content strategy across Asia.",
     "posted": "2026-05-15",
     "grade": "C",
-    "grade_note": "Stretch - Content focus, Singapore, fintech"
+    "grade_note": "Stretch - Content focus, Singapore, fintech",
+    "en_title": "Senior Content Manager, APAC",
+    "summary": "Senior Content Manager, APAC at Adyen in Singapore. Senior content management for APAC at Adyen."
   },
   {
     "title": "Lead Partners program",
@@ -29806,7 +30487,9 @@
     "posted": "2026-06-09",
     "city_normalized": "Bangkok",
     "quality_score": 65,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Lead Partners program",
+    "summary": "Lead Partners program at Agoda in Bangkok, Thailand. Greenhouse posting."
   },
   {
     "title": "Partner Programs Specialist (Bangkok Based)",
@@ -29821,7 +30504,9 @@
     "posted": "2026-06-10",
     "city_normalized": "Bangkok",
     "quality_score": 65,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Partner Programs Specialist (Bangkok Based)",
+    "summary": "Partner Programs Specialist (Bangkok Based) at Agoda in Bangkok, Thailand. Greenhouse posting."
   },
   {
     "title": "Principal Google Workspace Administrator (Bangkok based, relocation provided)",
@@ -29836,7 +30521,9 @@
     "posted": "2026-06-04",
     "city_normalized": "Bangkok",
     "quality_score": 65,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Principal Google Workspace Administrator (Bangkok based, relocation provided)",
+    "summary": "Principal Google Workspace Administrator (Bangkok based, relocation provided) at Agoda in Bangkok, Thailand. Greenhouse posting."
   },
   {
     "title": "Senior Manager, Industrial Relations (Bangkok-based, Relocation Provided)",
@@ -29851,7 +30538,9 @@
     "posted": "2026-06-11",
     "city_normalized": "Bangkok",
     "quality_score": 65,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Manager, Industrial Relations (Bangkok-based, Relocation Provided)",
+    "summary": "Senior Manager, Industrial Relations (Bangkok-based, Relocation Provided) at Agoda in Bangkok, Thailand. Greenhouse posting."
   },
   {
     "title": "Senior Manager/Manager, Flights Supply - Malaysia Based",
@@ -29866,7 +30555,9 @@
     "posted": "2026-06-08",
     "city_normalized": "Kuala Lumpur",
     "quality_score": 65,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Manager/Manager, Flights Supply - Malaysia Based",
+    "summary": "Senior Manager/Manager, Flights Supply - Malaysia Based at Agoda in Kuala Lumpur, Malaysia. Greenhouse posting."
   },
   {
     "title": "Flights Strategic Project Manager, Travel Platform (Bangkok Based) (Relocation Provided)",
@@ -29882,7 +30573,7 @@
     "scanned_date": "2026-06-27",
     "source": "greenhouse_agoda",
     "english_friendly": true,
-    "summary": "",
+    "summary": "Flights Strategic Project Manager, Travel Platform (Bangkok Based) (Relocation Provided) at Agoda in Thailand.",
     "url_type": "direct",
     "app_platform": "greenhouse",
     "app_difficulty": "easy",
@@ -29907,7 +30598,7 @@
     "scanned_date": "2026-06-27",
     "source": "greenhouse_agoda",
     "english_friendly": true,
-    "summary": "",
+    "summary": "Senior Strategic Project Manager, Travel Platform (Bangkok Based) (Relocation Provided) at Agoda in Thailand.",
     "url_type": "direct",
     "app_platform": "greenhouse",
     "app_difficulty": "easy",
@@ -30211,7 +30902,9 @@
     "posted": "2026-06-22",
     "city_normalized": "Tokyo",
     "quality_score": 65,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "People Partner, Tokyo",
+    "summary": "People Partner, Tokyo at Anthropic in Tokyo, Japan. Greenhouse posting."
   },
   {
     "title": "Transaction Principal",
@@ -30226,7 +30919,9 @@
     "posted": "2026-06-03",
     "city_normalized": "Tokyo",
     "quality_score": 65,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Transaction Principal",
+    "summary": "Transaction Principal at Anthropic in Tokyo, Japan. Greenhouse posting."
   },
   {
     "title": "Senior Product Manager",
@@ -30395,7 +31090,9 @@
     "posted": "2026-06-01",
     "city_normalized": "Kuala Lumpur",
     "quality_score": 65,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Chief Product Officer",
+    "summary": "Chief Product Officer at Bybit in Abu Dhabi, UAE; Kuala Lumpur, Malaysia. Greenhouse posting."
   },
   {
     "title": "[Fiat] Principal Funds Product Specialist",
@@ -30410,7 +31107,9 @@
     "posted": "2026-06-04",
     "city_normalized": "Kuala Lumpur",
     "quality_score": 65,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "[Fiat] Principal Funds Product Specialist",
+    "summary": "[Fiat] Principal Funds Product Specialist at Bybit in Abu Dhabi, UAE; Kuala Lumpur, Malaysia. Greenhouse posting."
   },
   {
     "title": "Seller & Creator Operation Growth Manager - Global Payment",
@@ -30679,7 +31378,9 @@
     "source": "Liepin",
     "role_category": "strategy",
     "quality_score": 85,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "Operations",
+    "summary": "Operations at ByteDance in Shenzhen."
   },
   {
     "title": "商业化策略运营-CapCut",
@@ -30690,7 +31391,9 @@
     "source": "Liepin",
     "role_category": "strategy",
     "quality_score": 80,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "Operations-CapCut",
+    "summary": "Operations-CapCut at ByteDance in Shenzhen."
   },
   {
     "title": "商业化增长策略运营-CapCut",
@@ -30701,7 +31404,9 @@
     "source": "Liepin",
     "role_category": "growth",
     "quality_score": 78,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "Growth Operations-CapCut",
+    "summary": "Growth Operations-CapCut at ByteDance in Shenzhen."
   },
   {
     "title": "商业广告策略运营-CapCut",
@@ -30712,7 +31417,9 @@
     "source": "Liepin",
     "role_category": "strategy",
     "quality_score": 80,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "Operations-CapCut",
+    "summary": "Operations-CapCut at ByteDance in Shenzhen."
   },
   {
     "title": "Senior Director, Field Marketing, APAC",
@@ -30899,7 +31606,9 @@
     "description": "Senior customer experience at Figma Tokyo. Design platform customer success in Japan.",
     "posted": "2026-05-01",
     "grade": "C",
-    "grade_note": "Stretch - Customer experience focus, Tokyo"
+    "grade_note": "Stretch - Customer experience focus, Tokyo",
+    "en_title": "Senior Manager, Customer Experience & Solutions (Tokyo)",
+    "summary": "Senior Manager, Customer Experience & Solutions (Tokyo) at Figma in Tokyo, Japan. Senior customer experience at Figma Tokyo."
   },
   {
     "title": "Senior Sales Executive",
@@ -30912,7 +31621,9 @@
     "description": "Senior sales at Flexport Sydney. Enterprise logistics sales in ANZ.",
     "posted": "2026-06-01",
     "grade": "C",
-    "grade_note": "Stretch - Sales focused, Sydney"
+    "grade_note": "Stretch - Sales focused, Sydney",
+    "en_title": "Senior Sales Executive",
+    "summary": "Senior Sales Executive at Flexport in Sydney, Australia. Senior sales at Flexport Sydney."
   },
   {
     "title": "Senior Product Manager",
@@ -31241,7 +31952,7 @@
     "scanned_date": "2026-06-27",
     "source": "smartrecruiters_grab",
     "english_friendly": true,
-    "summary": "",
+    "summary": "Lead Technical Program Manager at Grab in Singapore, sg.",
     "url_type": "search",
     "app_platform": "smartrecruiters",
     "app_difficulty": "medium",
@@ -31266,7 +31977,7 @@
     "scanned_date": "2026-06-27",
     "source": "smartrecruiters_grab",
     "english_friendly": true,
-    "summary": "",
+    "summary": "Senior Manager, Mobility Marketplace, Thailand at Grab in Bangkok, th.",
     "url_type": "search",
     "app_platform": "smartrecruiters",
     "app_difficulty": "medium",
@@ -31338,7 +32049,9 @@
     "source": "Liepin",
     "role_category": "strategy",
     "quality_score": 88,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "SeniorManager-",
+    "summary": "SeniorManager- at Ipsos (益普索) in Shenzhen."
   },
   {
     "title": "Ai Product Manager Jobs in Hong Kong - Jun 2026",
@@ -32006,7 +32719,7 @@
     "scanned_date": "2026-06-27",
     "source": "greenhouse_payoneer",
     "english_friendly": true,
-    "summary": "",
+    "summary": "Online Acquisition Manager at Payoneer in Shanghai, China.",
     "url_type": "search",
     "app_platform": "company_portal",
     "app_difficulty": "hard",
@@ -32131,7 +32844,9 @@
     "description": "Lead advertising measurement at Reddit Australia. Ad tech, measurement strategy.",
     "posted": "2026-06-25",
     "grade": "C",
-    "grade_note": "Stretch - Ad tech measurement, Sydney"
+    "grade_note": "Stretch - Ad tech measurement, Sydney",
+    "en_title": "Lead, Advertising Measurement (Australia)",
+    "summary": "Lead, Advertising Measurement (Australia) at Reddit in Sydney, Australia. Lead advertising measurement at Reddit Australia."
   },
   {
     "title": "战略规划专家/高级战略分析师",
@@ -32142,7 +32857,9 @@
     "source": "Liepin",
     "role_category": "strategy",
     "quality_score": 90,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "Strategy /SeniorStrategyAnalysis",
+    "summary": "Strategy /SeniorStrategyAnalysis at Shenzhen Tech Co in Shenzhen-Nanshan."
   },
   {
     "title": "战略分析专家",
@@ -32153,7 +32870,9 @@
     "source": "Liepin",
     "role_category": "strategy",
     "quality_score": 88,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "StrategyAnalysis",
+    "summary": "StrategyAnalysis at Shenzhen Tech Co in Shenzhen-Nanshan."
   },
   {
     "title": "战略分析经理",
@@ -32164,7 +32883,9 @@
     "source": "Liepin",
     "role_category": "strategy",
     "quality_score": 82,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "StrategyAnalysisManager",
+    "summary": "StrategyAnalysisManager at Shenzhen Tech Co in Shenzhen-Nanshan."
   },
   {
     "title": "战略分析负责人",
@@ -32175,7 +32896,9 @@
     "source": "Liepin",
     "role_category": "strategy",
     "quality_score": 85,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "StrategyAnalysis",
+    "summary": "StrategyAnalysis at Shenzhen Tech Co in Shenzhen-Nanshan."
   },
   {
     "title": "高级战略分析师",
@@ -32186,7 +32909,9 @@
     "source": "Liepin",
     "role_category": "strategy",
     "quality_score": 82,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "SeniorStrategyAnalysis",
+    "summary": "SeniorStrategyAnalysis at Shenzhen Tech Co in Shenzhen-Nanshan."
   },
   {
     "title": "战略分析岗",
@@ -32197,7 +32922,9 @@
     "source": "Liepin",
     "role_category": "strategy",
     "quality_score": 80,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "StrategyAnalysis",
+    "summary": "StrategyAnalysis at Shenzhen Tech Co in Shenzhen-Baoan."
   },
   {
     "title": "战略分析专家",
@@ -32208,7 +32935,9 @@
     "source": "Liepin",
     "role_category": "strategy",
     "quality_score": 80,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "StrategyAnalysis",
+    "summary": "StrategyAnalysis at Shenzhen Tech Co in Shenzhen-Futian."
   },
   {
     "title": "行业分析/战略分析",
@@ -32219,7 +32948,9 @@
     "source": "Liepin",
     "role_category": "strategy",
     "quality_score": 78,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "Analysis/StrategyAnalysis",
+    "summary": "Analysis/StrategyAnalysis at Shenzhen Tech Co in Shenzhen-Baoan."
   },
   {
     "title": "Project Manager",
@@ -32601,7 +33332,9 @@
     "source": "Liepin",
     "role_category": "strategy",
     "quality_score": 82,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "Operations",
+    "summary": "Operations at 传音控股 (Transsion) in Shenzhen."
   },
   {
     "title": "产品商业化负责人",
@@ -32612,7 +33345,9 @@
     "source": "Liepin",
     "role_category": "strategy",
     "quality_score": 85,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "产品商业化负责人",
+    "summary": "产品商业化负责人 at 光像智汇 in Shenzhen."
   },
   {
     "title": "商业广告策略运营",
@@ -32623,7 +33358,9 @@
     "source": "Liepin",
     "role_category": "strategy",
     "quality_score": 75,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "Operations",
+    "summary": "Operations at 店小秘 in Shenzhen."
   },
   {
     "title": "商业化产品经理",
@@ -32634,7 +33371,9 @@
     "source": "Liepin",
     "role_category": "product",
     "quality_score": 78,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "Product Manager",
+    "summary": "Product Manager at 新国都 in Shenzhen."
   },
   {
     "title": "产品负责人（支付、sdk）- 杭州某大型游戏及IP生态平台",
@@ -32697,7 +33436,9 @@
     "source": "Liepin",
     "role_category": "product",
     "quality_score": 75,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "Product Manager",
+    "summary": "Product Manager at 梦马星辰 in Shenzhen."
   },
   {
     "title": "高级产品经理-AI芯片",
@@ -32708,7 +33449,9 @@
     "source": "51job",
     "role_category": "product",
     "quality_score": 78,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "SeniorProduct Manager-AI",
+    "summary": "SeniorProduct Manager-AI at 芯天下技术 in Shenzhen-Longgang."
   },
   {
     "title": "商业拓展经理-具身智能",
@@ -32719,7 +33462,9 @@
     "source": "Liepin",
     "role_category": "strategy",
     "quality_score": 80,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "Manager- Intelligent",
+    "summary": "Manager- Intelligent at 超维动力智能 in Shenzhen."
   },
   {
     "title": "商业化负责人",
@@ -32730,7 +33475,9 @@
     "source": "Liepin",
     "role_category": "strategy",
     "quality_score": 88,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "商业化负责人",
+    "summary": "商业化负责人 at 转转集团 (Zhuanzhuan) in Shenzhen."
   },
   {
     "title": "1688-策略产品负责人-杭州 - 阿里巴巴集团",
@@ -32793,7 +33540,9 @@
     "source": "51job",
     "role_category": "strategy",
     "quality_score": 78,
-    "grade": "C"
+    "grade": "C",
+    "en_title": "Analysis",
+    "summary": "Analysis at 顺丰同城物流 (SF Express) in Shenzhen-Nanshan."
   },
   {
     "title": "Principal Product Manager (Singapore Based)",
@@ -33073,7 +33822,9 @@
     "url_type": "search",
     "posted_date": "2026-06-14T11:22:51",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "VP Product - Singapore Remote",
+    "summary": "VP Product - Singapore Remote at Arc.dev in Singapore."
   },
   {
     "title": "Senior Wealth Management Product Manager (Insurance)",
@@ -33197,7 +33948,9 @@
     "url_type": "search",
     "posted_date": "2026-06-14T16:04:20",
     "date_source": "estimated",
-    "city_normalized": "Hong Kong"
+    "city_normalized": "Hong Kong",
+    "en_title": "Private Wealth - Global Product Strategy, Vice President/Principal",
+    "summary": "Private Wealth - Global Product Strategy, Vice President/Principal at Blackstone in Hong Kong."
   },
   {
     "title": "Senior Product Manager, TikTok E-commerce",
@@ -33244,7 +33997,7 @@
     "us_firm_apac": true,
     "stale": true,
     "stale_days": 7,
-    "en_title": "Senior Product Manager, Tik Tok E-commerce",
+    "en_title": "Senior Product Manager, TikTok E-commerce",
     "has_direct_link": false,
     "bing_fallback": "https://www.bing.com/search?q=ByteDance%20Senior%20Product%20Manager%2C%20Tik%20Tok%20E-commerce%20Shenzhen%20apply",
     "posted_date": "2026-06-14T16:39:31",
@@ -33327,7 +34080,9 @@
     "url_type": "search",
     "posted_date": "2026-06-15T11:25:27",
     "date_source": "estimated",
-    "city_normalized": "Hong Kong"
+    "city_normalized": "Hong Kong",
+    "en_title": "Executive Operating Partner",
+    "summary": "Executive Operating Partner at CBC Group (cbridgecap.com) in Hong Kong."
   },
   {
     "title": "Accounting Manager, GL Operations & Intercompany",
@@ -33956,7 +34711,9 @@
     "notes": "Staff PM, data connectors",
     "city_normalized": "Bangalore",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Staff Product Manager, Connectors",
+    "summary": "Staff Product Manager, Connectors at Fivetran in Bengaluru, India."
   },
   {
     "title": "Ocean Operations Associate",
@@ -34180,7 +34937,9 @@
     "url_type": "search",
     "posted_date": "2026-06-15T20:13:14",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "VP Product at GrowthAsia",
+    "summary": "VP Product at GrowthAsia at Growthasia in Singapore."
   },
   {
     "title": "Senior Product Manager, Huawei Cloud",
@@ -34635,7 +35394,9 @@
     "notes": "Remote-friendly, APAC timezones",
     "city_normalized": "Remote",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Senior Product Manager",
+    "summary": "Senior Product Manager at Lemon.io in Americas, Europe, Asia, Oceania (Remote)."
   },
   {
     "title": "Senior Product Manager, Meituan Waimai",
@@ -35018,7 +35779,9 @@
     "notes": "Principal level",
     "city_normalized": "Hyderabad, India",
     "quality_score": 55,
-    "quality_tier": "B"
+    "quality_tier": "B",
+    "en_title": "Principal Product Manager",
+    "summary": "Principal Product Manager at New Relic in Hyderabad, India."
   },
   {
     "title": "People Operations Generalist, Japan",
@@ -35290,7 +36053,9 @@
     "english_friendly": true,
     "city_normalized": "Singapore",
     "quality_score": 42,
-    "quality_tier": "C"
+    "quality_tier": "C",
+    "en_title": "VP Product - Singapore Remote",
+    "summary": "VP Product - Singapore Remote at Remote in Singapore."
   },
   {
     "title": "Head of Communications, APAC",
@@ -35612,7 +36377,9 @@
     "url_type": "search",
     "posted_date": "2026-06-16T20:15:51",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "en_title": "AVP/VP, Portfolio Development",
+    "summary": "AVP/VP, Portfolio Development at Temasek in Singapore."
   },
   {
     "title": "Senior Product Manager, WeChat Pay",
@@ -35756,7 +36523,9 @@
     "english_friendly": true,
     "city_normalized": "Singapore",
     "quality_score": 42,
-    "quality_tier": "C"
+    "quality_tier": "C",
+    "en_title": "VP Product - Singapore Remote",
+    "summary": "VP Product - Singapore Remote at Toptal in Singapore."
   },
   {
     "title": "VP Product - Remote Global",
@@ -35771,7 +36540,9 @@
     "english_friendly": true,
     "city_normalized": "Remote",
     "quality_score": 42,
-    "quality_tier": "C"
+    "quality_tier": "C",
+    "en_title": "VP Product - Remote Global",
+    "summary": "VP Product - Remote Global at Turing in Remote."
   },
   {
     "title": "Compliance Operations Specialist 1",
@@ -36057,7 +36828,9 @@
     "url_type": "search",
     "posted_date": "2026-06-16T22:36:35",
     "date_source": "estimated",
-    "city_normalized": "Shenzhen"
+    "city_normalized": "Shenzhen",
+    "en_title": "E-commerce Director/VP -",
+    "summary": "E-commerce Director/VP - at 河南江舸云科技 in Shenzhen."
   },
   {
     "title": "Senior Strategy Manager",
@@ -36217,6 +36990,8 @@
     "url": "https://careers.tencent.com/en-us/search.html?keyword=product&location=Singapore",
     "source": "Tencent Careers",
     "role_category": "product",
-    "quality_score": 78
+    "quality_score": 78,
+    "en_title": "Senior Compute Product Architect",
+    "summary": "Senior Compute Product Architect at Tencent in Singapore."
   }
 ]
