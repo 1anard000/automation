@@ -275,6 +275,9 @@ input, select { font: inherit; color: var(--text); }
   }
   .detail-panel { width: 100%; }
   .detail-meta { grid-template-columns: 1fr; }
+  .outreach-grid { grid-template-columns: 1fr; }
+  .tab-nav { overflow-x: auto; }
+  .tab-btn { white-space: nowrap; font-size: .82rem; padding: 8px 12px; }
 }
 @media (max-width: 480px) {
   .summary-grid { grid-template-columns: 1fr; }
@@ -292,6 +295,114 @@ input, select { font: inherit; color: var(--text); }
 .summary-card:nth-child(6) { animation-delay: .25s; }
 
 .contact-row { animation: fadeIn .2s ease both; }
+
+/* ── Tabs ─────────────────────────────────────────────────────── */
+.tab-nav {
+  display: flex; gap: 0; margin-bottom: 20px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+.tab-btn {
+  padding: 10px 18px; font-size: .88rem; font-weight: 500;
+  color: var(--text-muted); background: none; border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer; transition: var(--transition);
+}
+.tab-btn:hover { color: var(--text); }
+.tab-btn.active {
+  color: var(--accent); border-bottom-color: var(--accent);
+}
+
+/* ── Outreach Section ─────────────────────────────────────────── */
+.outreach-section { margin-bottom: 24px; }
+.outreach-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
+  margin-bottom: 16px;
+}
+.outreach-card {
+  background: var(--bg-card); border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg); padding: 20px;
+}
+
+/* Funnel */
+.funnel { display: flex; flex-direction: column; gap: 8px; }
+.funnel-row {
+  display: grid; grid-template-columns: 120px 1fr 40px;
+  align-items: center; gap: 12px;
+}
+.funnel-label { font-size: .85rem; color: var(--text); font-weight: 500; }
+.funnel-bar-wrap {
+  height: 24px; background: var(--bg-elevated); border-radius: 4px;
+  overflow: hidden;
+}
+.funnel-bar {
+  height: 100%; border-radius: 4px;
+  transition: width .5s ease;
+}
+.funnel-count {
+  font-size: .95rem; font-weight: 700; text-align: right;
+}
+
+/* Metrics Grid */
+.metrics-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
+}
+.metric-item { text-align: center; }
+.metric-value { font-size: 1.8rem; font-weight: 700; }
+.metric-label { font-size: .78rem; color: var(--text-muted); margin-top: 2px; }
+
+/* Stage Details */
+.stage-details { display: flex; flex-direction: column; gap: 16px; }
+.stage-group {
+  background: var(--bg-elevated); border-radius: var(--radius);
+  padding: 14px 16px;
+}
+.stage-header {
+  display: flex; align-items: center; gap: 8px; margin-bottom: 8px;
+}
+.stage-icon { font-size: 1.1rem; }
+.stage-name { font-weight: 600; color: var(--text-bright); }
+.stage-count { font-weight: 700; margin-left: auto; }
+.stage-desc { font-size: .78rem; color: var(--text-muted); margin-left: 8px; }
+.stage-contacts { display: flex; flex-direction: column; gap: 4px; }
+.stage-contact {
+  display: flex; align-items: center; gap: 10px; padding: 6px 10px;
+  border-radius: 6px; cursor: pointer; transition: var(--transition);
+}
+.stage-contact:hover { background: var(--bg-hover); }
+.sc-name { font-size: .88rem; color: var(--text-bright); font-weight: 500; }
+.sc-company { font-size: .82rem; color: var(--text-muted); }
+.sc-health { font-size: .78rem; font-weight: 600; margin-left: auto; }
+.stage-more { font-size: .78rem; color: var(--text-muted); padding: 4px 10px; }
+.stage-empty { font-size: .82rem; color: var(--text-muted); font-style: italic; }
+
+/* Follow-up List */
+.followup-list { display: flex; flex-direction: column; gap: 6px; }
+.followup-item {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 14px; background: var(--bg-elevated);
+  border-radius: var(--radius); border-left: 3px solid var(--accent);
+}
+.followup-item.overdue { border-left-color: var(--red); }
+.fu-contact { cursor: pointer; }
+.fu-name { font-weight: 500; color: var(--text-bright); }
+.fu-company { font-size: .82rem; color: var(--text-muted); margin-left: 8px; }
+.fu-meta { display: flex; gap: 12px; align-items: center; }
+.fu-overdue { font-size: .82rem; font-weight: 600; }
+.fu-date { font-size: .82rem; color: var(--text-muted); }
+
+/* Reminder Rows */
+.reminder-list { display: flex; flex-direction: column; gap: 6px; }
+.reminder-row {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 14px; background: var(--bg-elevated);
+  border-radius: var(--radius); border-left: 3px solid var(--yellow);
+}
+.reminder-row.overdue { border-left-color: var(--red); }
+.rr-task { font-size: .88rem; color: var(--text); flex: 1; }
+.rr-meta { display: flex; gap: 12px; font-size: .82rem; color: var(--text-muted); }
+
+/* Timeline extras */
+.tl-contact { font-size: .82rem; color: var(--accent); margin-bottom: 2px; }
 
 /* Loading */
 .loading {
@@ -321,18 +432,24 @@ input, select { font: inherit; color: var(--text); }
 <script>
 // ── State ────────────────────────────────────────────────────────
 let DATA = null;
+let OUTREACH = null;
 let sortField = 'name';
 let sortAsc = true;
 let searchQuery = '';
 let filterPriority = '';
 let filterStrength = '';
+let activeTab = 'contacts';
 
 // ── Load Data ────────────────────────────────────────────────────
 async function loadData() {
   try {
-    const resp = await fetch('crm-data.json');
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    DATA = await resp.json();
+    const [crmResp, outreachResp] = await Promise.all([
+      fetch('crm-data.json'),
+      fetch('outreach-analytics.json').catch(() => null)
+    ]);
+    if (!crmResp.ok) throw new Error(`HTTP ${crmResp.status}`);
+    DATA = await crmResp.json();
+    if (outreachResp && outreachResp.ok) OUTREACH = await outreachResp.json();
     render();
   } catch (e) {
     document.getElementById('loading').innerHTML =
@@ -393,6 +510,18 @@ function render() {
       ${renderSummaryCards(s)}
     </div>
 
+    <!-- Tab Navigation -->
+    <div class="tab-nav">
+      <button class="tab-btn ${activeTab==='contacts'?'active':''}" onclick="switchTab('contacts')">📇 Contacts</button>
+      <button class="tab-btn ${activeTab==='outreach'?'active':''}" onclick="switchTab('outreach')">🎯 Outreach Pipeline</button>
+      <button class="tab-btn ${activeTab==='followups'?'active':''}" onclick="switchTab('followups')">⏰ Follow-ups</button>
+      <button class="tab-btn ${activeTab==='timeline'?'active':''}" onclick="switchTab('timeline')">📜 Timeline</button>
+    </div>
+
+    ${activeTab === 'outreach' ? renderOutreachPipeline() : ''}
+    ${activeTab === 'followups' ? renderFollowUps() : ''}
+    ${activeTab === 'timeline' ? renderTimeline() : ''}
+    ${activeTab === 'contacts' ? `
     <div class="toolbar">
       <div class="search-box">
         <span class="icon">🔍</span>
@@ -430,6 +559,7 @@ function render() {
     <div style="text-align:center;padding:20px;font-size:.78rem;color:var(--text-muted);">
       ${contacts.length} contact${contacts.length!==1?'s':''} · Data exported from Career OS CRM
     </div>
+    ` : ''}
   `;
 
   // Focus search input
@@ -595,6 +725,197 @@ function openDetail(id) {
 function closeDetail() {
   document.getElementById('overlay').classList.remove('open');
   document.body.style.overflow = '';
+}
+
+// ── Tab Switching ───────────────────────────────────────────────
+function switchTab(tab) {
+  activeTab = tab;
+  render();
+}
+
+// ── Outreach Pipeline ──────────────────────────────────────────
+function renderOutreachPipeline() {
+  if (!OUTREACH) return '<div class="empty-state">Outreach analytics not loaded. Run outreach-tracker.py first.</div>';
+  const p = OUTREACH.pipeline;
+  const m = OUTREACH.metrics;
+  const funnel = p.funnel;
+  const maxCount = Math.max(...funnel.map(f => f.count), 1);
+
+  const stageColors = { 'Prospect': 'var(--text-muted)', 'Contacted': 'var(--accent)', 'Responded': 'var(--green)', 'Interview': 'var(--purple)' };
+  const stageIcons = { 'Prospect': '🔍', 'Contacted': '📧', 'Responded': '💬', 'Interview': '🎯' };
+
+  return `
+    <div class="outreach-section">
+      <div class="outreach-grid">
+        <!-- Funnel Chart -->
+        <div class="outreach-card">
+          <div class="section-title">Outreach Funnel</div>
+          <div class="funnel">
+            ${funnel.map(f => `
+              <div class="funnel-row">
+                <div class="funnel-label">${stageIcons[f.stage]} ${f.stage}</div>
+                <div class="funnel-bar-wrap">
+                  <div class="funnel-bar" style="width:${(f.count/maxCount)*100}%;background:${stageColors[f.stage]};"></div>
+                </div>
+                <div class="funnel-count" style="color:${stageColors[f.stage]};">${f.count}</div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+
+        <!-- Metrics -->
+        <div class="outreach-card">
+          <div class="section-title">Key Metrics</div>
+          <div class="metrics-grid">
+            <div class="metric-item">
+              <div class="metric-value" style="color:var(--accent);">${m.total_outreach}</div>
+              <div class="metric-label">Outreach Sent</div>
+            </div>
+            <div class="metric-item">
+              <div class="metric-value" style="color:var(--green);">${m.response_rate}%</div>
+              <div class="metric-label">Response Rate</div>
+            </div>
+            <div class="metric-item">
+              <div class="metric-value" style="color:var(--yellow);">${m.total_interactions}</div>
+              <div class="metric-label">Total Interactions</div>
+            </div>
+            <div class="metric-item">
+              <div class="metric-value" style="color:var(--red);">${OUTREACH.follow_ups.overdue_count}</div>
+              <div class="metric-label">Overdue Follow-ups</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stage Details -->
+      <div class="outreach-card" style="margin-top:16px;">
+        <div class="section-title">Pipeline Contacts by Stage</div>
+        <div class="stage-details">
+          ${Object.entries(p.stages).map(([stage, data]) => `
+            <div class="stage-group">
+              <div class="stage-header">
+                <span class="stage-icon">${stageIcons[stage] || '📋'}</span>
+                <span class="stage-name">${stage}</span>
+                <span class="stage-count" style="color:${stageColors[stage]};">${data.count}</span>
+                <span class="stage-desc">${data.description}</span>
+              </div>
+              ${data.contacts.length > 0 ? `
+                <div class="stage-contacts">
+                  ${data.contacts.slice(0, 5).map(c => `
+                    <div class="stage-contact" onclick="openDetail(${c.id})">
+                      <span class="sc-name">${escapeHtml(c.name)}</span>
+                      <span class="sc-company">${escapeHtml(c.company)}</span>
+                      ${c.health_score != null ? `<span class="sc-health" style="color:${healthColor(c.health_score)};">${c.health_score}</span>` : ''}
+                    </div>
+                  `).join('')}
+                  ${data.contacts.length > 5 ? `<div class="stage-more">+${data.contacts.length - 5} more</div>` : ''}
+                </div>
+              ` : '<div class="stage-empty">No contacts in this stage</div>'}
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+// ── Follow-ups ──────────────────────────────────────────────────
+function renderFollowUps() {
+  if (!OUTREACH) return '<div class="empty-state">Outreach analytics not loaded.</div>';
+  const overdue = OUTREACH.follow_ups.overdue;
+  const upcoming = OUTREACH.follow_ups.upcoming;
+  const reminders = OUTREACH.reminders;
+
+  return `
+    <div class="outreach-section">
+      <!-- Overdue Follow-ups -->
+      <div class="outreach-card">
+        <div class="section-title">🚨 Overdue Follow-ups (${overdue.length})</div>
+        ${overdue.length === 0 ? '<div class="empty-state">No overdue follow-ups — great job!</div>' : `
+          <div class="followup-list">
+            ${overdue.map(f => `
+              <div class="followup-item overdue">
+                <div class="fu-contact" onclick="openDetail(${f.contact_id})">
+                  <span class="fu-name">${escapeHtml(f.contact_name)}</span>
+                  <span class="fu-company">${escapeHtml(f.company)}</span>
+                </div>
+                <div class="fu-meta">
+                  <span class="fu-overdue" style="color:var(--red);">${f.days_overdue}d overdue</span>
+                  <span class="fu-date">Due: ${formatDate(f.follow_up_date)}</span>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        `}
+      </div>
+
+      <!-- Upcoming Follow-ups -->
+      <div class="outreach-card" style="margin-top:16px;">
+        <div class="section-title">📅 Upcoming Follow-ups (${upcoming.length})</div>
+        ${upcoming.length === 0 ? '<div class="empty-state">No upcoming follow-ups.</div>' : `
+          <div class="followup-list">
+            ${upcoming.map(f => `
+              <div class="followup-item">
+                <div class="fu-contact" onclick="openDetail(${f.contact_id})">
+                  <span class="fu-name">${escapeHtml(f.contact_name)}</span>
+                  <span class="fu-company">${escapeHtml(f.company)}</span>
+                </div>
+                <div class="fu-meta">
+                  <span class="fu-date">Due: ${formatDate(f.follow_up_date)}</span>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        `}
+      </div>
+
+      <!-- Pending Reminders -->
+      <div class="outreach-card" style="margin-top:16px;">
+        <div class="section-title">⏰ Pending Reminders (${reminders.pending_count})</div>
+        ${reminders.overdue.length === 0 ? '<div class="empty-state">No overdue reminders.</div>' : `
+          <div class="reminder-list">
+            ${reminders.overdue.map(r => `
+              <div class="reminder-row overdue">
+                <div class="rr-task">${escapeHtml(r.task)}</div>
+                <div class="rr-meta">
+                  <span style="color:var(--red);">${r.days_overdue}d overdue</span>
+                  <span>Due: ${formatDate(r.due_date)}</span>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        `}
+      </div>
+    </div>
+  `;
+}
+
+// ── Timeline ──────────────────────────────────────────────────
+function renderTimeline() {
+  if (!OUTREACH) return '<div class="empty-state">Outreach analytics not loaded.</div>';
+  const interactions = OUTREACH.recent_interactions;
+
+  return `
+    <div class="outreach-section">
+      <div class="outreach-card">
+        <div class="section-title">Recent Interactions (${interactions.length})</div>
+        <div class="timeline">
+          ${interactions.map(i => `
+            <div class="tl-item">
+              <div class="tl-dot ${i.type}"></div>
+              <div class="tl-content">
+                <div class="tl-type ${i.type}">${i.type} <span class="tl-sentiment ${i.sentiment}"></span></div>
+                <div class="tl-contact">${escapeHtml(i.contact_name)} · ${escapeHtml(i.company)}</div>
+                <div class="tl-summary">${escapeHtml(i.summary) || '<em style="color:var(--text-muted)">No summary</em>'}</div>
+                <div class="tl-date">${formatDate(i.date)}</div>
+                ${i.follow_up_needed ? `<div class="tl-followup">⏰ Follow-up${i.follow_up_date ? ' by ' + formatDate(i.follow_up_date) : ''}</div>` : ''}
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    </div>
+  `;
 }
 
 // ── Filtering & Sorting ──────────────────────────────────────────

@@ -328,7 +328,261 @@
       "follow_up_date": "2026-06-26"
     }
   ],
-  "outreach_log": [],
+  "outreach_log": [
+    {
+      "contact_id": 2,
+      "contact_name": "Michael Zhang",
+      "company": "OpenAI",
+      "job_title": "APAC Strategic Initiatives Lead, Global Affairs",
+      "job_location": "Singapore",
+      "outreach_date": "2026-06-22",
+      "method": "email",
+      "status": "sent",
+      "follow_up_date": "2026-07-06"
+    },
+    {
+      "contact_id": 3,
+      "contact_name": "Emily Watson",
+      "company": "Airwallex",
+      "job_title": "Senior Product Manager, Regulatory Reporting",
+      "job_location": "Singapore",
+      "outreach_date": "2026-06-29",
+      "method": "email",
+      "status": "sent",
+      "follow_up_date": "2026-07-04"
+    },
+    {
+      "contact_id": 3,
+      "contact_name": "Emily Watson",
+      "company": "Airwallex",
+      "job_title": "Associate Director, Product Strategy",
+      "job_location": "Singapore",
+      "outreach_date": "2026-06-29",
+      "method": "email",
+      "status": "sent",
+      "follow_up_date": "2026-07-03"
+    },
+    {
+      "contact_id": 4,
+      "contact_name": "David Liu",
+      "company": "ByteDance",
+      "job_title": "AI Product Manager - LLM Security Evaluation",
+      "job_location": "Singapore",
+      "outreach_date": "2026-06-18",
+      "method": "email",
+      "status": "sent",
+      "follow_up_date": "2026-07-05"
+    },
+    {
+      "contact_id": 4,
+      "contact_name": "David Liu",
+      "company": "ByteDance",
+      "job_title": "AI Product Manager (Evaluation) - Flow",
+      "job_location": "Singapore",
+      "outreach_date": "2026-06-28",
+      "method": "email",
+      "status": "sent",
+      "follow_up_date": "2026-07-04"
+    },
+    {
+      "contact_id": 6,
+      "contact_name": "Robert Kim",
+      "company": "Anthropic",
+      "job_title": "Head of Enterprise Sales - Industries, ANZ",
+      "job_location": "Sydney, Australia",
+      "outreach_date": "2026-06-22",
+      "method": "email",
+      "status": "sent",
+      "follow_up_date": "2026-07-03"
+    },
+    {
+      "contact_id": 6,
+      "contact_name": "Robert Kim",
+      "company": "Anthropic",
+      "job_title": "Data Center Facility Operations Lead",
+      "job_location": "Sydney, Australia",
+      "outreach_date": "2026-06-27",
+      "method": "email",
+      "status": "sent",
+      "follow_up_date": "2026-07-07"
+    },
+    {
+      "contact_id": 7,
+      "contact_name": "Amanda Foster",
+      "company": "Google",
+      "job_title": "Regional Product Lead, Foundational Measurement",
+      "job_location": "Singapore",
+      "outreach_date": "2026-06-16",
+      "method": "email",
+      "status": "sent",
+      "follow_up_date": "2026-07-03"
+    },
+    {
+      "contact_id": 7,
+      "contact_name": "Amanda Foster",
+      "company": "Google",
+      "job_title": "Senior Product Manager, Vulnerability Rewards Program",
+      "job_location": "Singapore",
+      "outreach_date": "2026-06-25",
+      "method": "email",
+      "status": "sent",
+      "follow_up_date": "2026-07-07"
+    },
+    {
+      "contact_id": 8,
+      "contact_name": "Thomas Anderson",
+      "company": "Meta",
+      "job_title": "Product Manager - Growth & Monetization",
+      "job_location": "Singapore",
+      "outreach_date": "2026-06-22",
+      "method": "email",
+      "status": "sent",
+      "follow_up_date": "2026-07-05"
+    },
+    {
+      "contact_id": 27,
+      "contact_name": "Amazon (Target Company)",
+      "company": "Amazon",
+      "job_title": "Senior Product Manager - AI, Amazon Global Selling - PMO",
+      "job_location": "Shenzhen, Guangdong, China",
+      "outreach_date": "2026-06-27",
+      "method": "other",
+      "status": "sent",
+      "follow_up_date": "2026-07-05"
+    },
+    {
+      "contact_id": 15,
+      "contact_name": "Binance (Target Company)",
+      "company": "Binance",
+      "job_title": "Product Manager - AI",
+      "job_location": "Hong Kong SAR",
+      "outreach_date": "2026-06-21",
+      "method": "other",
+      "status": "sent",
+      "follow_up_date": "2026-07-07"
+    },
+    {
+      "contact_id": 16,
+      "contact_name": "ByteDance (Target Company)",
+      "company": "ByteDance",
+      "job_title": "AI Product Manager - LLM Security Evaluation",
+      "job_location": "Singapore",
+      "outreach_date": "2026-06-22",
+      "method": "email",
+      "status": "sent",
+      "follow_up_date": "2026-07-09"
+    },
+    {
+      "contact_id": 22,
+      "contact_name": "Crypto.com (Target Company)",
+      "company": "Crypto.com",
+      "job_title": "Principal Product Manager - Verification & Activation(Exchange)",
+      "job_location": "Hong Kong",
+      "outreach_date": "2026-06-27",
+      "method": "email",
+      "status": "sent",
+      "follow_up_date": "2026-07-10"
+    },
+    {
+      "contact_id": 40,
+      "contact_name": "DBS Bank (Target Company)",
+      "company": "DBS Bank",
+      "job_title": "Senior Product Manager, Digital Banking",
+      "job_location": "Hong Kong",
+      "outreach_date": "2026-06-24",
+      "method": "email",
+      "status": "sent",
+      "follow_up_date": "2026-07-06"
+    },
+    {
+      "contact_id": 23,
+      "contact_name": "Google (Target Company)",
+      "company": "Google",
+      "job_title": "Regional Product Lead, Foundational Measurement",
+      "job_location": "Singapore",
+      "outreach_date": "2026-06-24",
+      "method": "other",
+      "status": "sent",
+      "follow_up_date": "2026-07-09"
+    },
+    {
+      "contact_id": 20,
+      "contact_name": "JD.COM (Target Company)",
+      "company": "JD.COM",
+      "job_title": "BNPL Product & Operations Lead (Europe Business)",
+      "job_location": "Hong Kong",
+      "outreach_date": "2026-06-25",
+      "method": "other",
+      "status": "sent",
+      "follow_up_date": "2026-07-05"
+    },
+    {
+      "contact_id": 11,
+      "contact_name": "OKX (Target Company)",
+      "company": "OKX",
+      "job_title": "Senior Product Manager, AI Gateway",
+      "job_location": "Shanghai",
+      "outreach_date": "2026-06-23",
+      "method": "email",
+      "status": "sent",
+      "follow_up_date": "2026-07-09"
+    },
+    {
+      "contact_id": 35,
+      "contact_name": "Shopee (Target Company)",
+      "company": "Shopee",
+      "job_title": "Senior Product Manager, Shopee Cross-border",
+      "job_location": "Hong Kong",
+      "outreach_date": "2026-06-21",
+      "method": "email",
+      "status": "sent",
+      "follow_up_date": "2026-07-08"
+    },
+    {
+      "contact_id": 12,
+      "contact_name": "Stripe (Target Company)",
+      "company": "Stripe",
+      "job_title": "Head of Platforms Sales, ANZ",
+      "job_location": "Sydney",
+      "outreach_date": "2026-06-26",
+      "method": "linkedin",
+      "status": "sent",
+      "follow_up_date": "2026-07-09"
+    },
+    {
+      "contact_id": 36,
+      "contact_name": "Tencent (Target Company)",
+      "company": "Tencent",
+      "job_title": "WeChat Pay - Senior Business Development Manager",
+      "job_location": "Hong Kong",
+      "outreach_date": "2026-06-25",
+      "method": "linkedin",
+      "status": "sent",
+      "follow_up_date": "2026-07-08"
+    },
+    {
+      "contact_id": 28,
+      "contact_name": "CASETiFY (Target Company)",
+      "company": "CASETiFY",
+      "job_title": "Senior Product Manager - Shenzhen",
+      "job_location": "Shenzhen, Guangdong, China",
+      "outreach_date": "2026-06-22",
+      "method": "linkedin",
+      "status": "sent",
+      "follow_up_date": "2026-07-06"
+    },
+    {
+      "contact_id": 13,
+      "contact_name": "Coinbase (Target Company)",
+      "company": "Coinbase",
+      "job_title": "Deputy Chief Regulatory Officer, Coinbase Derivatives",
+      "job_location": "Remote - USA",
+      "outreach_date": "2026-06-26",
+      "method": "email",
+      "status": "sent",
+      "follow_up_date": "2026-07-05"
+    }
+  ],
   "notes": "Contacts managed by Career OS. Updated Jun 27 (data cleanup: removed phantom Wellington/BlackRock/BNY entries, fixed duplicate Coupang). Key APAC contacts: David Liu (ByteDance, OVERDUE 12 DAYS), Emily Watson (Airwallex, OVERDUE 11 DAYS), Michael Zhang (OpenAI, OVERDUE 14 DAYS), Thomas Anderson (Meta, OVERDUE 8 DAYS), Amanda Foster (Google, OVERDUE 9 DAYS), Sarah Chen (NVIDIA, OVERDUE 11 DAYS), Lisa Wang (Sequoia, OVERDUE 3 DAYS). 5 placeholder contacts need replacing with real people. DB: 918 unique jobs. OKX: 57 roles (26 score-80+). THIS WEEK (Jun 27-Jul 3): 4 outreach + 3 OKX apps. Saturday: send David Liu WeChat (10 min) — breaks the zero. BREAK THE ZERO: Send David Liu message TODAY (10 min).",
   "research_queue": [
     {
@@ -342,7 +596,7 @@
       ],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=director%20strategy%20Mastercard%20Singapore&geoUrn=%5B%22102222073%22%5D",
       "notes": "Jul 5 CORRECTION: Only 1 role in database (score 80, not 100). Glassdoor link — may not be direct apply. Lower priority than Coupang/Datadog/Payoneer."
-      },
+    },
     {
       "company": "DBS Bank",
       "priority": 5,
@@ -392,7 +646,7 @@
       ],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20airwallex&geoUrn=%5B%22102222073%22%5D",
       "notes": "Jul 5 CORRECTION: Both score-80+ roles are STALE (pre-Jun 20). Emily Watson contact is overdue 11 days. Lower priority than fresh companies. Still worth asking for intros."
-      },
+    },
     {
       "company": "ByteDance",
       "priority": 13,
@@ -405,7 +659,7 @@
       ],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20bytedance%20global%20payment&geoUrn=%5B%22102222073%22%5D",
       "notes": "Jul 5 CORRECTION: All 3 score-80+ roles are STALE (pre-Jun 20). David Liu contact is overdue 12 days. Lower priority than fresh companies. Still worth reconnecting."
-      },
+    },
     {
       "company": "Crypto.com",
       "priority": 10,
@@ -444,7 +698,7 @@
       ],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20binance&geoUrn=%5B%22102222072%22%5D",
       "notes": "Jul 5 CORRECTION: All 5 score-80+ roles are STALE (pre-Jun 20). Verify roles still open before applying. Lower priority than fresh companies."
-      },
+    },
     {
       "company": "SymphonyAI",
       "priority": 13,

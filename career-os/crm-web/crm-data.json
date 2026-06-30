@@ -61,9 +61,29 @@
       "last_contact_date": "2026-04-17",
       "strength": "strong",
       "priority": "medium",
-      "interaction_count": 1,
-      "last_interaction_date": "2026-04-17",
+      "interaction_count": 3,
+      "last_interaction_date": "2026-06-25",
       "interactions": [
+        {
+          "id": 16,
+          "contact_id": 7,
+          "type": "email",
+          "date": "2026-06-25",
+          "summary": "Outreach about Senior Product Manager, Vulnerability Rewards Program (Singapore)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-05"
+        },
+        {
+          "id": 15,
+          "contact_id": 7,
+          "type": "email",
+          "date": "2026-06-16",
+          "summary": "Outreach about Regional Product Lead, Foundational Measurement (Singapore)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-03"
+        },
         {
           "id": 6,
           "contact_id": 7,
@@ -75,7 +95,17 @@
           "follow_up_date": null
         }
       ],
-      "reminders": []
+      "reminders": [
+        {
+          "id": 12,
+          "contact_id": 7,
+          "task": "Reconnect re: Google APAC strategy/ops roles",
+          "due_date": "2026-06-23",
+          "status": "pending",
+          "snooze_until": null,
+          "created_at": "2026-06-29 19:02:38"
+        }
+      ]
     },
     {
       "id": 27,
@@ -94,10 +124,31 @@
       "last_contact_date": null,
       "strength": "weak",
       "priority": "high",
-      "interaction_count": 0,
-      "last_interaction_date": null,
-      "interactions": [],
-      "reminders": []
+      "interaction_count": 1,
+      "last_interaction_date": "2026-06-27",
+      "interactions": [
+        {
+          "id": 18,
+          "contact_id": 27,
+          "type": "other",
+          "date": "2026-06-27",
+          "summary": "Initial outreach re: Senior Product Manager - AI, Amazon Global Selling - PMO (Shenzhen, Guangdong, China)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-07"
+        }
+      ],
+      "reminders": [
+        {
+          "id": 14,
+          "contact_id": 27,
+          "task": "Follow up on Senior Product Manager - AI, Amazon Global Selling - PMO application (Shenzhen, Guangdong, China)",
+          "due_date": "2026-07-06",
+          "status": "pending",
+          "snooze_until": null,
+          "created_at": "2026-06-29 19:02:38"
+        }
+      ]
     },
     {
       "id": 18,
@@ -138,10 +189,31 @@
       "last_contact_date": null,
       "strength": "weak",
       "priority": "high",
-      "interaction_count": 0,
-      "last_interaction_date": null,
-      "interactions": [],
-      "reminders": []
+      "interaction_count": 1,
+      "last_interaction_date": "2026-06-21",
+      "interactions": [
+        {
+          "id": 19,
+          "contact_id": 15,
+          "type": "other",
+          "date": "2026-06-21",
+          "summary": "Initial outreach re: Product Manager - AI (Hong Kong SAR)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-09"
+        }
+      ],
+      "reminders": [
+        {
+          "id": 15,
+          "contact_id": 15,
+          "task": "Follow up on Product Manager - AI application (Hong Kong SAR)",
+          "due_date": "2026-07-07",
+          "status": "pending",
+          "snooze_until": null,
+          "created_at": "2026-06-29 19:02:38"
+        }
+      ]
     },
     {
       "id": 16,
@@ -160,10 +232,31 @@
       "last_contact_date": null,
       "strength": "weak",
       "priority": "high",
-      "interaction_count": 0,
-      "last_interaction_date": null,
-      "interactions": [],
-      "reminders": []
+      "interaction_count": 1,
+      "last_interaction_date": "2026-06-22",
+      "interactions": [
+        {
+          "id": 20,
+          "contact_id": 16,
+          "type": "email",
+          "date": "2026-06-22",
+          "summary": "Initial outreach re: AI Product Manager - LLM Security Evaluation (Singapore)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-09"
+        }
+      ],
+      "reminders": [
+        {
+          "id": 16,
+          "contact_id": 16,
+          "task": "Follow up on AI Product Manager - LLM Security Evaluation application (Singapore)",
+          "due_date": "2026-07-08",
+          "status": "pending",
+          "snooze_until": null,
+          "created_at": "2026-06-29 19:02:38"
+        }
+      ]
     },
     {
       "id": 28,
@@ -182,9 +275,30 @@
       "last_contact_date": null,
       "strength": "weak",
       "priority": "high",
-      "interaction_count": 0,
-      "last_interaction_date": null,
-      "interactions": [],
+      "interaction_count": 2,
+      "last_interaction_date": "2026-06-22",
+      "interactions": [
+        {
+          "id": 29,
+          "contact_id": 28,
+          "type": "linkedin",
+          "date": "2026-06-22",
+          "summary": "Initial outreach re: Senior Product Manager - Shenzhen (Shenzhen, Guangdong, China)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-07"
+        },
+        {
+          "id": 33,
+          "contact_id": 28,
+          "type": "linkedin",
+          "date": "2026-06-20",
+          "summary": "Applied to Senior Product Manager - Supply Chain Management - Shenzhen (Grade: A-1)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-03"
+        }
+      ],
       "reminders": []
     },
     {
@@ -226,9 +340,20 @@
       "last_contact_date": null,
       "strength": "weak",
       "priority": "high",
-      "interaction_count": 0,
-      "last_interaction_date": null,
-      "interactions": [],
+      "interaction_count": 1,
+      "last_interaction_date": "2026-06-26",
+      "interactions": [
+        {
+          "id": 30,
+          "contact_id": 13,
+          "type": "email",
+          "date": "2026-06-26",
+          "summary": "Initial outreach re: Deputy Chief Regulatory Officer, Coinbase Derivatives (Remote - USA)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-10"
+        }
+      ],
       "reminders": []
     },
     {
@@ -270,10 +395,31 @@
       "last_contact_date": null,
       "strength": "weak",
       "priority": "high",
-      "interaction_count": 0,
-      "last_interaction_date": null,
-      "interactions": [],
-      "reminders": []
+      "interaction_count": 1,
+      "last_interaction_date": "2026-06-27",
+      "interactions": [
+        {
+          "id": 21,
+          "contact_id": 22,
+          "type": "email",
+          "date": "2026-06-27",
+          "summary": "Initial outreach re: Principal Product Manager - Verification & Activation(Exchange) (Hong Kong)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-08"
+        }
+      ],
+      "reminders": [
+        {
+          "id": 17,
+          "contact_id": 22,
+          "task": "Follow up on Principal Product Manager - Verification & Activation(Exchange) application (Hong Kong)",
+          "due_date": "2026-07-04",
+          "status": "pending",
+          "snooze_until": null,
+          "created_at": "2026-06-29 19:02:38"
+        }
+      ]
     },
     {
       "id": 40,
@@ -292,10 +438,31 @@
       "last_contact_date": null,
       "strength": "weak",
       "priority": "high",
-      "interaction_count": 0,
-      "last_interaction_date": null,
-      "interactions": [],
-      "reminders": []
+      "interaction_count": 1,
+      "last_interaction_date": "2026-06-24",
+      "interactions": [
+        {
+          "id": 22,
+          "contact_id": 40,
+          "type": "email",
+          "date": "2026-06-24",
+          "summary": "Initial outreach re: Senior Product Manager, Digital Banking (Hong Kong)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-07"
+        }
+      ],
+      "reminders": [
+        {
+          "id": 18,
+          "contact_id": 40,
+          "task": "Follow up on Senior Product Manager, Digital Banking application (Hong Kong)",
+          "due_date": "2026-07-05",
+          "status": "pending",
+          "snooze_until": null,
+          "created_at": "2026-06-29 19:02:38"
+        }
+      ]
     },
     {
       "id": 4,
@@ -314,9 +481,29 @@
       "last_contact_date": "2025-11-28",
       "strength": "weak",
       "priority": "medium",
-      "interaction_count": 1,
-      "last_interaction_date": "2025-11-28",
+      "interaction_count": 3,
+      "last_interaction_date": "2026-06-28",
       "interactions": [
+        {
+          "id": 12,
+          "contact_id": 4,
+          "type": "email",
+          "date": "2026-06-28",
+          "summary": "Outreach about AI Product Manager (Evaluation) - Flow (Singapore)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-03"
+        },
+        {
+          "id": 11,
+          "contact_id": 4,
+          "type": "email",
+          "date": "2026-06-18",
+          "summary": "Outreach about AI Product Manager - LLM Security Evaluation (Singapore)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-07"
+        },
         {
           "id": 7,
           "contact_id": 4,
@@ -337,6 +524,15 @@
           "status": "pending",
           "snooze_until": null,
           "created_at": "2026-06-15 19:03:16"
+        },
+        {
+          "id": 7,
+          "contact_id": 4,
+          "task": "URGENT: Reconnect via WeChat re: ByteDance TikTok E-commerce PM roles",
+          "due_date": "2026-06-23",
+          "status": "pending",
+          "snooze_until": null,
+          "created_at": "2026-06-29 19:02:38"
         }
       ]
     },
@@ -357,9 +553,39 @@
       "last_contact_date": "2026-02-16",
       "strength": "weak",
       "priority": "medium",
-      "interaction_count": 1,
-      "last_interaction_date": "2026-02-16",
+      "interaction_count": 4,
+      "last_interaction_date": "2026-06-29",
       "interactions": [
+        {
+          "id": 10,
+          "contact_id": 3,
+          "type": "email",
+          "date": "2026-06-29",
+          "summary": "Outreach about Associate Director, Product Strategy (Singapore)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-07"
+        },
+        {
+          "id": 9,
+          "contact_id": 3,
+          "type": "email",
+          "date": "2026-06-29",
+          "summary": "Outreach about Senior Product Manager, Regulatory Reporting (Singapore)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-06"
+        },
+        {
+          "id": 32,
+          "contact_id": 3,
+          "type": "linkedin",
+          "date": "2026-06-21",
+          "summary": "Applied to Director, Product Strategy - Singapore (Grade: A-1)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-04"
+        },
         {
           "id": 5,
           "contact_id": 3,
@@ -380,6 +606,15 @@
           "status": "pending",
           "snooze_until": null,
           "created_at": "2026-06-15 19:03:16"
+        },
+        {
+          "id": 8,
+          "contact_id": 3,
+          "task": "Follow up on Airwallex Director Product Strategy Payments role (SG)",
+          "due_date": "2026-06-26",
+          "status": "pending",
+          "snooze_until": null,
+          "created_at": "2026-06-29 19:02:38"
         }
       ]
     },
@@ -422,9 +657,20 @@
       "last_contact_date": null,
       "strength": "weak",
       "priority": "high",
-      "interaction_count": 0,
-      "last_interaction_date": null,
-      "interactions": [],
+      "interaction_count": 1,
+      "last_interaction_date": "2026-06-10",
+      "interactions": [
+        {
+          "id": 36,
+          "contact_id": 19,
+          "type": "linkedin",
+          "date": "2026-06-10",
+          "summary": "Applied to Director, Business Strategy & Development \u2013 IMG - Shanghai, Shanghai, China (Grade: A-1)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-04"
+        }
+      ],
       "reminders": []
     },
     {
@@ -444,9 +690,20 @@
       "last_contact_date": null,
       "strength": "weak",
       "priority": "high",
-      "interaction_count": 0,
-      "last_interaction_date": null,
-      "interactions": [],
+      "interaction_count": 1,
+      "last_interaction_date": "2026-06-24",
+      "interactions": [
+        {
+          "id": 23,
+          "contact_id": 23,
+          "type": "other",
+          "date": "2026-06-24",
+          "summary": "Initial outreach re: Regional Product Lead, Foundational Measurement (Singapore)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-06"
+        }
+      ],
       "reminders": []
     },
     {
@@ -488,9 +745,20 @@
       "last_contact_date": null,
       "strength": "weak",
       "priority": "high",
-      "interaction_count": 0,
-      "last_interaction_date": null,
-      "interactions": [],
+      "interaction_count": 1,
+      "last_interaction_date": "2026-06-12",
+      "interactions": [
+        {
+          "id": 37,
+          "contact_id": 32,
+          "type": "linkedin",
+          "date": "2026-06-12",
+          "summary": "Applied to Senior Manager of Frontline Incentive and Strategy - Shanghai, Shanghai, China (Grade: A-1)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-03"
+        }
+      ],
       "reminders": []
     },
     {
@@ -554,9 +822,20 @@
       "last_contact_date": null,
       "strength": "weak",
       "priority": "high",
-      "interaction_count": 0,
-      "last_interaction_date": null,
-      "interactions": [],
+      "interaction_count": 1,
+      "last_interaction_date": "2026-06-25",
+      "interactions": [
+        {
+          "id": 24,
+          "contact_id": 20,
+          "type": "other",
+          "date": "2026-06-25",
+          "summary": "Initial outreach re: BNPL Product & Operations Lead (Europe Business) (Hong Kong)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-08"
+        }
+      ],
       "reminders": []
     },
     {
@@ -647,6 +926,15 @@
       ],
       "reminders": [
         {
+          "id": 13,
+          "contact_id": 9,
+          "task": "Share Q2 metrics as promised. Ask about APAC portfolio companies",
+          "due_date": "2026-06-24",
+          "status": "pending",
+          "snooze_until": null,
+          "created_at": "2026-06-29 19:02:38"
+        },
+        {
           "id": 3,
           "contact_id": 9,
           "task": "Share Q2 metrics with Lisa for potential intro",
@@ -674,9 +962,29 @@
       "last_contact_date": "2026-05-02",
       "strength": "strong",
       "priority": "high",
-      "interaction_count": 1,
-      "last_interaction_date": "2026-05-02",
+      "interaction_count": 3,
+      "last_interaction_date": "2026-06-22",
       "interactions": [
+        {
+          "id": 8,
+          "contact_id": 2,
+          "type": "email",
+          "date": "2026-06-22",
+          "summary": "Outreach about APAC Strategic Initiatives Lead, Global Affairs (Singapore)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-04"
+        },
+        {
+          "id": 31,
+          "contact_id": 2,
+          "type": "linkedin",
+          "date": "2026-06-15",
+          "summary": "Applied to Account Director, Government - Singapore (Grade: A-1)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-04"
+        },
         {
           "id": 3,
           "contact_id": 2,
@@ -697,6 +1005,15 @@
           "status": "pending",
           "snooze_until": null,
           "created_at": "2026-06-15 19:03:16"
+        },
+        {
+          "id": 9,
+          "contact_id": 2,
+          "task": "OVERDUE: Send alignment paper + ask about OpenAI APAC expansion",
+          "due_date": "2026-06-21",
+          "status": "pending",
+          "snooze_until": null,
+          "created_at": "2026-06-29 19:02:38"
         }
       ]
     },
@@ -717,9 +1034,20 @@
       "last_contact_date": null,
       "strength": "weak",
       "priority": "high",
-      "interaction_count": 0,
-      "last_interaction_date": null,
-      "interactions": [],
+      "interaction_count": 1,
+      "last_interaction_date": "2026-06-23",
+      "interactions": [
+        {
+          "id": 25,
+          "contact_id": 11,
+          "type": "email",
+          "date": "2026-06-23",
+          "summary": "Initial outreach re: Senior Product Manager, AI Gateway (Shanghai)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-08"
+        }
+      ],
       "reminders": []
     },
     {
@@ -739,9 +1067,20 @@
       "last_contact_date": null,
       "strength": "weak",
       "priority": "high",
-      "interaction_count": 0,
-      "last_interaction_date": null,
-      "interactions": [],
+      "interaction_count": 1,
+      "last_interaction_date": "2026-06-12",
+      "interactions": [
+        {
+          "id": 34,
+          "contact_id": 34,
+          "type": "linkedin",
+          "date": "2026-06-12",
+          "summary": "Applied to Senior Strategy & BD Manager - Shanghai, Shanghai, China (Grade: A-1)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-05"
+        }
+      ],
       "reminders": []
     },
     {
@@ -783,9 +1122,30 @@
       "last_contact_date": "2026-06-08",
       "strength": "strong",
       "priority": "medium",
-      "interaction_count": 0,
-      "last_interaction_date": null,
-      "interactions": [],
+      "interaction_count": 2,
+      "last_interaction_date": "2026-06-27",
+      "interactions": [
+        {
+          "id": 14,
+          "contact_id": 6,
+          "type": "email",
+          "date": "2026-06-27",
+          "summary": "Outreach about Data Center Facility Operations Lead (Sydney, Australia)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-04"
+        },
+        {
+          "id": 13,
+          "contact_id": 6,
+          "type": "email",
+          "date": "2026-06-22",
+          "summary": "Outreach about Head of Enterprise Sales - Industries, ANZ (Sydney, Australia)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-05"
+        }
+      ],
       "reminders": []
     },
     {
@@ -828,6 +1188,15 @@
           "status": "pending",
           "snooze_until": null,
           "created_at": "2026-06-15 19:03:16"
+        },
+        {
+          "id": 11,
+          "contact_id": 1,
+          "task": "Follow up on NVIDIA partnership proposal + APAC strategy team",
+          "due_date": "2026-06-23",
+          "status": "pending",
+          "snooze_until": null,
+          "created_at": "2026-06-29 19:02:38"
         }
       ]
     },
@@ -848,9 +1217,20 @@
       "last_contact_date": null,
       "strength": "weak",
       "priority": "high",
-      "interaction_count": 0,
-      "last_interaction_date": null,
-      "interactions": [],
+      "interaction_count": 1,
+      "last_interaction_date": "2026-06-21",
+      "interactions": [
+        {
+          "id": 26,
+          "contact_id": 35,
+          "type": "email",
+          "date": "2026-06-21",
+          "summary": "Initial outreach re: Senior Product Manager, Shopee Cross-border (Hong Kong)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-06"
+        }
+      ],
       "reminders": []
     },
     {
@@ -870,9 +1250,20 @@
       "last_contact_date": null,
       "strength": "weak",
       "priority": "high",
-      "interaction_count": 0,
-      "last_interaction_date": null,
-      "interactions": [],
+      "interaction_count": 1,
+      "last_interaction_date": "2026-06-26",
+      "interactions": [
+        {
+          "id": 27,
+          "contact_id": 12,
+          "type": "linkedin",
+          "date": "2026-06-26",
+          "summary": "Initial outreach re: Head of Platforms Sales, ANZ (Sydney)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-07"
+        }
+      ],
       "reminders": []
     },
     {
@@ -892,9 +1283,20 @@
       "last_contact_date": null,
       "strength": "weak",
       "priority": "high",
-      "interaction_count": 0,
-      "last_interaction_date": null,
-      "interactions": [],
+      "interaction_count": 1,
+      "last_interaction_date": "2026-06-25",
+      "interactions": [
+        {
+          "id": 28,
+          "contact_id": 36,
+          "type": "linkedin",
+          "date": "2026-06-25",
+          "summary": "Initial outreach re: WeChat Pay - Senior Business Development Manager (Hong Kong)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-10"
+        }
+      ],
       "reminders": []
     },
     {
@@ -914,10 +1316,30 @@
       "last_contact_date": "2025-10-09",
       "strength": "weak",
       "priority": "low",
-      "interaction_count": 0,
-      "last_interaction_date": null,
-      "interactions": [],
+      "interaction_count": 1,
+      "last_interaction_date": "2026-06-22",
+      "interactions": [
+        {
+          "id": 17,
+          "contact_id": 8,
+          "type": "email",
+          "date": "2026-06-22",
+          "summary": "Outreach about Product Manager - Growth & Monetization (Singapore)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-05"
+        }
+      ],
       "reminders": [
+        {
+          "id": 10,
+          "contact_id": 8,
+          "task": "Reconnect after 8+ months. Ask about Meta APAC strategy/ops roles",
+          "due_date": "2026-06-21",
+          "status": "pending",
+          "snooze_until": null,
+          "created_at": "2026-06-29 19:02:38"
+        },
         {
           "id": 6,
           "contact_id": 8,
@@ -990,9 +1412,20 @@
       "last_contact_date": null,
       "strength": "weak",
       "priority": "high",
-      "interaction_count": 0,
-      "last_interaction_date": null,
-      "interactions": [],
+      "interaction_count": 1,
+      "last_interaction_date": "2026-06-11",
+      "interactions": [
+        {
+          "id": 35,
+          "contact_id": 39,
+          "type": "linkedin",
+          "date": "2026-06-11",
+          "summary": "Applied to Senior Regional Commercial Development Manager (Strategy/Planning) - Shanghai, Shanghai, China (Grade: A-1)",
+          "sentiment": "neutral",
+          "follow_up_needed": 1,
+          "follow_up_date": "2026-07-03"
+        }
+      ],
       "reminders": []
     },
     {
@@ -1106,6 +1539,24 @@
         "created_at": "2026-06-15 19:03:16"
       },
       {
+        "id": 9,
+        "contact_id": 2,
+        "task": "OVERDUE: Send alignment paper + ask about OpenAI APAC expansion",
+        "due_date": "2026-06-21",
+        "status": "pending",
+        "snooze_until": null,
+        "created_at": "2026-06-29 19:02:38"
+      },
+      {
+        "id": 10,
+        "contact_id": 8,
+        "task": "Reconnect after 8+ months. Ask about Meta APAC strategy/ops roles",
+        "due_date": "2026-06-21",
+        "status": "pending",
+        "snooze_until": null,
+        "created_at": "2026-06-29 19:02:38"
+      },
+      {
         "id": 1,
         "contact_id": 1,
         "task": "Follow up on NVIDIA partnership proposal",
@@ -1113,6 +1564,42 @@
         "status": "pending",
         "snooze_until": null,
         "created_at": "2026-06-15 19:03:16"
+      },
+      {
+        "id": 7,
+        "contact_id": 4,
+        "task": "URGENT: Reconnect via WeChat re: ByteDance TikTok E-commerce PM roles",
+        "due_date": "2026-06-23",
+        "status": "pending",
+        "snooze_until": null,
+        "created_at": "2026-06-29 19:02:38"
+      },
+      {
+        "id": 11,
+        "contact_id": 1,
+        "task": "Follow up on NVIDIA partnership proposal + APAC strategy team",
+        "due_date": "2026-06-23",
+        "status": "pending",
+        "snooze_until": null,
+        "created_at": "2026-06-29 19:02:38"
+      },
+      {
+        "id": 12,
+        "contact_id": 7,
+        "task": "Reconnect re: Google APAC strategy/ops roles",
+        "due_date": "2026-06-23",
+        "status": "pending",
+        "snooze_until": null,
+        "created_at": "2026-06-29 19:02:38"
+      },
+      {
+        "id": 13,
+        "contact_id": 9,
+        "task": "Share Q2 metrics as promised. Ask about APAC portfolio companies",
+        "due_date": "2026-06-24",
+        "status": "pending",
+        "snooze_until": null,
+        "created_at": "2026-06-29 19:02:38"
       },
       {
         "id": 6,
@@ -1124,6 +1611,15 @@
         "created_at": "2026-06-15 19:03:16"
       },
       {
+        "id": 8,
+        "contact_id": 3,
+        "task": "Follow up on Airwallex Director Product Strategy Payments role (SG)",
+        "due_date": "2026-06-26",
+        "status": "pending",
+        "snooze_until": null,
+        "created_at": "2026-06-29 19:02:38"
+      },
+      {
         "id": 3,
         "contact_id": 9,
         "task": "Share Q2 metrics with Lisa for potential intro",
@@ -1131,6 +1627,51 @@
         "status": "pending",
         "snooze_until": null,
         "created_at": "2026-06-15 19:03:16"
+      },
+      {
+        "id": 17,
+        "contact_id": 22,
+        "task": "Follow up on Principal Product Manager - Verification & Activation(Exchange) application (Hong Kong)",
+        "due_date": "2026-07-04",
+        "status": "pending",
+        "snooze_until": null,
+        "created_at": "2026-06-29 19:02:38"
+      },
+      {
+        "id": 18,
+        "contact_id": 40,
+        "task": "Follow up on Senior Product Manager, Digital Banking application (Hong Kong)",
+        "due_date": "2026-07-05",
+        "status": "pending",
+        "snooze_until": null,
+        "created_at": "2026-06-29 19:02:38"
+      },
+      {
+        "id": 14,
+        "contact_id": 27,
+        "task": "Follow up on Senior Product Manager - AI, Amazon Global Selling - PMO application (Shenzhen, Guangdong, China)",
+        "due_date": "2026-07-06",
+        "status": "pending",
+        "snooze_until": null,
+        "created_at": "2026-06-29 19:02:38"
+      },
+      {
+        "id": 15,
+        "contact_id": 15,
+        "task": "Follow up on Product Manager - AI application (Hong Kong SAR)",
+        "due_date": "2026-07-07",
+        "status": "pending",
+        "snooze_until": null,
+        "created_at": "2026-06-29 19:02:38"
+      },
+      {
+        "id": 16,
+        "contact_id": 16,
+        "task": "Follow up on AI Product Manager - LLM Security Evaluation application (Singapore)",
+        "due_date": "2026-07-08",
+        "status": "pending",
+        "snooze_until": null,
+        "created_at": "2026-06-29 19:02:38"
       }
     ]
   }
