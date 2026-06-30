@@ -532,6 +532,25 @@
       "dimension": "dashboard",
       "task": "Added data freshness indicator and data sources count to dashboard stat cards",
       "status": "completed"
+    },
+    {
+      "timestamp": "2026-07-01T03:00:00+08:00",
+      "dimension": "data_quality",
+      "task": "Fill 434 missing summaries + 353 missing en_titles + 5 missing company names in jobs-all.json",
+      "status": "in_progress",
+      "score_before": 10,
+      "score_after": "pending",
+      "subagent": "builder-data-quality-fill-gaps-0701",
+      "details": "1093 jobs, 40% missing summaries, 32% missing en_title. Sub-agent tasked with filling all gaps and rebuilding dashboard."
+    },
+    {
+      "timestamp": "2026-07-01T03:02:31.208670",
+      "dimension": "dashboard",
+      "task": "Add Date Posted column with freshness indicators (NEW/7-30d/30d+) and stat cards for job freshness tracking",
+      "status": "completed",
+      "score_before": 7,
+      "score_after": 8,
+      "subagent": "nightly-improver"
     }
   ],
   "current_scores": {
@@ -540,9 +559,10 @@
     "career_hub": 7,
     "scripts": 8,
     "coverage": 7,
-    "strategy": 7
+    "strategy": 7,
+    "crm": 7
   },
-  "last_run": "2026-06-30T00:01:00",
+  "last_run": "2026-07-01T03:00:00+08:00",
   "last_dimension": "dashboard",
   "last_task": "Full dashboard rebuild",
   "scores": {
