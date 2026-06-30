@@ -526,11 +526,17 @@
       "score_before": 10,
       "score_after": 10,
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-06-30T16:01:19.450766+00:00",
+      "dimension": "dashboard",
+      "task": "Added data freshness indicator and data sources count to dashboard stat cards",
+      "status": "completed"
     }
   ],
   "current_scores": {
     "data_quality": 10,
-    "dashboard": 7,
+    "dashboard": 8,
     "career_hub": 7,
     "scripts": 8,
     "coverage": 7,
@@ -548,7 +554,7 @@
     "coverage": 9,
     "crm": 7
   },
-  "last_improvement": "Removed 76 stale jobs (>30 days old), rebuilt dashboard: 1348→1272 jobs",
+  "last_improvement": "Added 'Last Updated' timestamp and '49 Data Sources' cards to dashboard stat cards",
   "entries": [
     {
       "date": "2026-06-19",
@@ -683,5 +689,5 @@
       "details": "System health check: data quality strong, all scripts working, 38 search sources active."
     }
   ],
-  "run_count": 1
+  "run_count": 2
 }
