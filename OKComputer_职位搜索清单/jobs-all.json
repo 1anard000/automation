@@ -36208,5 +36208,15 @@
     "status": "not_applied",
     "status_date": "2026-07-01",
     "stale": false
+  },
+  {
+    "title": "Senior Compute Product Architect",
+    "company": "Tencent",
+    "location": "Singapore",
+    "salary": "Not listed",
+    "url": "https://careers.tencent.com/en-us/search.html?keyword=product&location=Singapore",
+    "source": "Tencent Careers",
+    "role_category": "product",
+    "quality_score": 78
   }
 ]
