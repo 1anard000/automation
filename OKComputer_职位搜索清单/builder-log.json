@@ -572,9 +572,9 @@
     "python_scripts": 8,
     "strategy": 9,
     "coverage": 9,
-    "crm": 7
+    "crm": 9
   },
-  "last_improvement": "Added 'Last Updated' timestamp and '49 Data Sources' cards to dashboard stat cards",
+  "last_improvement": "2026-07-02: Regenerated CRM dashboard with current data (1042 jobs, 229 companies, top 30 companies shown)",
   "entries": [
     {
       "date": "2026-06-19",
