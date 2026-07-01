@@ -698,6 +698,30 @@
         "scripts": 8
       },
       "action": "Created grade-jobs.py, graded 69 jobs (new distribution: A-1=317, A-2=460, B=18, C=71, S-1=33), rebuilt dashboard"
+    },
+    {
+      "date": "2026-07-02T06:01:12.601009",
+      "dimension": "data_quality",
+      "task": "Removed 115 stale jobs (posted >30 days), refreshed career hub date (960 jobs)",
+      "status": "completed",
+      "scores_before": {
+        "dashboard": 9,
+        "career_hub": 8,
+        "data_quality": 10,
+        "python_scripts": 8,
+        "strategy": 9,
+        "coverage": 9,
+        "crm": 9
+      },
+      "scores_after": {
+        "dashboard": 9,
+        "career_hub": 8,
+        "data_quality": 10,
+        "python_scripts": 8,
+        "strategy": 9,
+        "coverage": 9,
+        "crm": 9
+      }
     }
   ],
   "improvements": [
