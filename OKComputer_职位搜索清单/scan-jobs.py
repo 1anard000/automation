@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Comprehensive job scanner - fetch from Greenhouse, Ashby, Lever boards and filter for APAC senior roles."""
 import json
+import os
 import urllib.request
 import re
 import sys
@@ -171,8 +172,14 @@ def main():
     except:
         pass
     
-    # Save
-    with open(existing_path, "w") as f:
+    # Save as scan-jobs.json (merge-jobs.py auto-picks up *-jobs.json)
+    scan_jobs_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "scan-jobs.json")
+    with open(scan_jobs_path, "w") as f:
+        json.dump(results, f, indent=2, ensure_ascii=False)
+    
+    # Also keep scan-latest.json for backward compat
+    latest_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "scan-latest.json")
+    with open(latest_path, "w") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
     
     print(f"\n{'='*60}")

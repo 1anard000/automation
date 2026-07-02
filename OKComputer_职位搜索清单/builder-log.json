@@ -568,25 +568,35 @@
       "score_before": 9,
       "score_after": 9,
       "subagent": "nightly-coverage-refresh"
+    },
+    {
+      "timestamp": "2026-07-03T03:00:00+08:00",
+      "dimension": "career_strategy",
+      "task": "Refresh career-strategy.md with current 967-job dataset (was 1348, stale cleanup)",
+      "status": "spawned",
+      "score_before": 9,
+      "score_after": "pending",
+      "subagent": "builder-strategy-refresh-0703",
+      "details": "Database shrunk from 1348→967 after stale cleanup. Strategy doc 4 days stale (Jun 29). Refreshing with current stats, sector heat map, salary benchmarks, and weekly action plan."
     }
   ],
   "current_scores": {
     "data_quality": 10,
-    "dashboard": 8,
-    "career_hub": 7,
+    "dashboard": 9,
+    "career_hub": 8,
     "scripts": 8,
-    "coverage": 8,
-    "strategy": 7,
-    "crm": 7
+    "coverage": 9,
+    "strategy": 9,
+    "crm": 9
   },
-  "last_run": "2026-07-02T03:00:00+08:00",
-  "last_dimension": "crm",
-  "last_task": "CRM contact enrichment",
+  "last_run": "2026-07-03T03:00:00+08:00",
+  "last_dimension": "career_strategy",
+  "last_task": "Refresh career-strategy.md",
   "scores": {
     "dashboard": 9,
     "career_hub": 9,
     "data_quality": 10,
-    "python_scripts": 8,
+    "python_scripts": 9,
     "strategy": 9,
     "coverage": 9,
     "crm": 9
