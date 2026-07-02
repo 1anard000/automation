@@ -584,7 +584,7 @@
   "last_task": "CRM contact enrichment",
   "scores": {
     "dashboard": 9,
-    "career_hub": 8,
+    "career_hub": 9,
     "data_quality": 10,
     "python_scripts": 8,
     "strategy": 9,
@@ -750,5 +750,14 @@
       "details": "System health check: data quality strong, all scripts working, 38 search sources active."
     }
   ],
-  "run_count": 3
+  "run_count": 3,
+  "changes": [
+    {
+      "date": "2026-07-03",
+      "dimension": "career_hub",
+      "action": "Added all 16 pipeline scripts to career-hub.html scripts section (was 4), fixed footer job count",
+      "score_before": 8,
+      "score_after": 9
+    }
+  ]
 }
