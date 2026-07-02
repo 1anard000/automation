@@ -31455,5 +31455,32 @@
     "summary": "Product Director for overseas smart hardware at a well-known company in Shenzhen. Salary: 60-90k/month. Cross-border hardware focus.",
     "en_title": "Product Director (Overseas Smart Hardware)",
     "city_normalized": "Shenzhen"
+  },
+  {
+    "title": "腾讯云音视频产品经理（海外增长策略）",
+    "en_title": "Tencent Cloud Audio/Video Product Manager (Overseas Growth Strategy)",
+    "company": "Tencent",
+    "location": "Shenzhen, China",
+    "city_normalized": "Shenzhen",
+    "url": "https://careers.tencent.com/en-us/jobdesc.html?postId=2061700924304437248",
+    "source": "tencent_careers",
+    "scanned_date": "2026-07-03",
+    "posted_date": "2026-06-09",
+    "category": "growth",
+    "role_type": "Product Management",
+    "english_friendly": false,
+    "quality_score": 75,
+    "quality_tier": "A-1",
+    "grade": "A-1",
+    "low_quality": false,
+    "status": "not_applied",
+    "status_date": "2026-07-03",
+    "has_direct_link": true,
+    "url_type": "direct",
+    "app_platform": "company_portal",
+    "app_difficulty": "medium",
+    "login_required": false,
+    "summary": "Tencent Cloud Audio/Video Product Manager (Overseas Growth Strategy) at Tencent in Shenzhen. CSIG Product team. >3 years experience. Overseas growth for PaaS & CDN products, SEO/GEO/SEM strategy, PLG/SLG funnel optimization.",
+    "platform": "Tencent Careers"
   }
 ]
