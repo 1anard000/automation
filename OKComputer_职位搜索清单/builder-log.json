@@ -578,6 +578,29 @@
       "score_after": "pending",
       "subagent": "builder-strategy-refresh-0703",
       "details": "Database shrunk from 1348→967 after stale cleanup. Strategy doc 4 days stale (Jun 29). Refreshing with current stats, sector heat map, salary benchmarks, and weekly action plan."
+    },
+    {
+      "timestamp": "2026-07-03T06:00:00+08:00",
+      "improvement": "Data cleanup: removed 8 stale jobs (>30d) and 5 exact duplicates, rebuilt dashboard",
+      "before": {
+        "jobs": 998,
+        "stale": 8,
+        "dupes": 5
+      },
+      "after": {
+        "jobs": 985,
+        "stale": 0,
+        "dupes": 0
+      },
+      "scores": {
+        "dashboard": 9,
+        "career_hub": 9,
+        "data_quality": 10,
+        "python_scripts": 9,
+        "strategy": 9,
+        "coverage": 9,
+        "crm": 9
+      }
     }
   ],
   "current_scores": {
