@@ -627,19 +627,28 @@
       "date": "2026-07-04T06:00:00+08:00",
       "summary": "Nightly scan: added 4 new jobs via Greenhouse scan (973 total). Dashboard rebuilt.",
       "improvement": "data_quality"
+    },
+    {
+      "timestamp": "2026-07-05T03:00:00+08:00",
+      "dimension": "crm",
+      "task": "Re-run CRM discovery pipeline — contacts.json stuck at 27 while discovery report found 93. Enriching with all hiring managers from 976-job database.",
+      "status": "in_progress",
+      "score_before": 5,
+      "subagent": "builder-crm-enrichment"
     }
   ],
   "current_scores": {
     "data_quality": 8,
-    "dashboard": 8,
-    "scripts": 7,
-    "coverage": 6,
-    "career_hub": 7,
-    "strategy": 6
+    "dashboard": 7,
+    "scripts": 9,
+    "coverage": 8,
+    "strategy": 7,
+    "crm": 5,
+    "automation": 7
   },
-  "last_run": "2026-07-04T06:00:00+08:00",
-  "last_dimension": "data_quality",
-  "last_task": "Greenhouse job scan + merge + dashboard rebuild",
+  "last_run": "2026-07-05T03:00:00+08:00",
+  "last_dimension": "crm",
+  "last_task": "CRM discovery pipeline re-run for contact enrichment",
   "scores": {
     "dashboard": 9,
     "career_hub": 9,
@@ -816,6 +825,13 @@
       "action": "Added all 16 pipeline scripts to career-hub.html scripts section (was 4), fixed footer job count",
       "score_before": 8,
       "score_after": 9
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-07-05",
+      "improvement": "Fixed stale coverage-report.json to match actual job data",
+      "details": "Rebuilt from jobs-all.json: 976 jobs, 47 sources, accurate age distribution"
     }
   ]
 }
