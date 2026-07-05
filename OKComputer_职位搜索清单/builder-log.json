@@ -635,6 +635,14 @@
       "status": "in_progress",
       "score_before": 5,
       "subagent": "builder-crm-enrichment"
+    },
+    {
+      "timestamp": "2026-07-06T00:01:48.482018",
+      "dimension": "crm",
+      "task": "CRM overhaul: data-driven dashboard + contacts.json + build-crm.py + manage-contacts.py",
+      "status": "completed",
+      "score_before": 5,
+      "score_after": 7
     }
   ],
   "current_scores": {
@@ -643,12 +651,12 @@
     "scripts": 9,
     "coverage": 8,
     "strategy": 7,
-    "crm": 5,
+    "crm": 7,
     "automation": 7
   },
-  "last_run": "2026-07-05T03:00:00+08:00",
+  "last_run": "2026-07-06T00:01:48.482025",
   "last_dimension": "crm",
-  "last_task": "CRM discovery pipeline re-run for contact enrichment",
+  "last_task": "CRM overhaul",
   "scores": {
     "dashboard": 9,
     "career_hub": 9,
@@ -728,7 +736,8 @@
     "strategy": 7,
     "jobs_total": 1086,
     "stale_purged": 0,
-    "notes": "1086 jobs, all graded, all with links. Career-hub footer fixed (stale count/dates). Dashboard and strategy still need work."
+    "notes": "1086 jobs, all graded, all with links. Career-hub footer fixed (stale count/dates). Dashboard and strategy still need work.",
+    "crm": 7
   },
   "log": [
     {
