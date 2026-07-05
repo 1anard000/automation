@@ -255,6 +255,15 @@
       "delta": "+1 (8→9)",
       "date": "2026-06-18 05:02",
       "details": "Fixed 411 missing en_title fields: 279 English titles copied directly, 132 Chinese titles translated using PM/strategy term dictionary. Fixed spacing issues in 51 fields. All 443 jobs now have en_title. Dashboard rebuilt."
+    },
+    {
+      "timestamp": "2026-07-06T06:01:06.302427",
+      "dimension": "data_quality",
+      "task": "Merge two job databases (root 1360 + OKComputer 1116) → 1563 unique jobs. Synced both locations.",
+      "status": "completed",
+      "score_before": 5,
+      "score_after": 7,
+      "subagent": "nightly-improver"
     }
   ],
   "current_scores": {
