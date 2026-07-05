@@ -643,6 +643,16 @@
       "status": "completed",
       "score_before": 5,
       "score_after": 7
+    },
+    {
+      "timestamp": "2026-07-06T03:00:00+08:00",
+      "dimension": "dashboard",
+      "task": "Full dashboard rebuild — modern lightweight design with 1116-job dataset",
+      "status": "in_progress",
+      "score_before": 7,
+      "score_after": "pending",
+      "subagent": "builder-dashboard-rebuild-0706",
+      "details": "Current dashboard 1MB bloated. Rebuilding with: dark theme, real-time search, grade/source/location filters, sort, pagination, grade distribution chart, source breakdown, CSV export, freshness indicators. Target <500KB."
     }
   ],
   "current_scores": {
@@ -654,9 +664,9 @@
     "crm": 7,
     "automation": 7
   },
-  "last_run": "2026-07-06T00:01:48.482025",
-  "last_dimension": "crm",
-  "last_task": "CRM overhaul",
+  "last_run": "2026-07-06T03:00:00",
+  "last_dimension": "coverage",
+  "last_task": "Refresh coverage report",
   "scores": {
     "dashboard": 9,
     "career_hub": 9,
@@ -841,6 +851,11 @@
       "date": "2026-07-05",
       "improvement": "Fixed stale coverage-report.json to match actual job data",
       "details": "Rebuilt from jobs-all.json: 976 jobs, 47 sources, accurate age distribution"
+    },
+    {
+      "date": "2026-07-06",
+      "improvement": "Regenerated coverage-report.json: 976→1116 jobs, 47 sources, 189 companies",
+      "details": "Updated from current jobs-all.json. Found 18 stale jobs (>30d) for future cleanup."
     }
   ]
 }
