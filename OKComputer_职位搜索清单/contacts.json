@@ -1,0 +1,6 @@
+{
+  "contacts": [],
+  "schema_version": 1,
+  "notes": "Track recruiter/hiring manager contacts per application. Fields: company, role, name, email, linkedin, phone, last_contact, status (initial|responded|interviewing|ghosted|declined), notes",
+  "created": "2026-07-06T00:00:00+08:00"
+}
