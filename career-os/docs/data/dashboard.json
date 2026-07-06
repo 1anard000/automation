@@ -1,83 +1,135 @@
 {
-  "generated_at": "2026-07-05T22:01:06.207063+00:00",
+  "generated_at": "2026-07-06T22:00:40.198637+00:00",
   "stats": {
-    "total_jobs": 570,
+    "total_jobs": 549,
     "jobs_by_location": {
-      "SG": 145,
-      "SZ": 93,
-      "Remote": 93,
+      "SG": 146,
       "HK": 92,
-      "Other": 72,
-      "BKK": 26,
-      "SH": 19,
-      "GZ": 17,
-      "Unknown": 13
+      "SZ": 79,
+      "Remote-US": 57,
+      "Seoul/KR": 29,
+      "Bangkok/TH": 26,
+      "Remote-Other": 24,
+      "Unknown": 13,
+      "Tokyo/JP": 13,
+      "SH": 11,
+      "Taipei/TW": 11,
+      "Remote-CA": 11,
+      "India": 9,
+      "GZ": 8,
+      "Hangzhou": 8,
+      "Beijing": 4,
+      "Sydney, Australia": 3,
+      "Hybrid": 2,
+      "Melbourne, Australia": 1,
+      "Hybrid - San Francisco": 1,
+      "Manila, Philippines": 1
     },
     "jobs_by_category": {
-      "PM": 386,
-      "Other": 76,
-      "Strategy": 67,
-      "Growth": 29,
-      "Fintech": 12
+      "Other/Uncategorized": 102,
+      "PM": 294,
+      "Strategy": 128,
+      "Growth": 25
+    },
+    "raw_category_counts": {
+      "general_pm": 212,
+      "strategy": 62,
+      "other": 57,
+      "uncategorized": 45,
+      "product": 37,
+      "growth": 25,
+      "ops": 25,
+      "cross_border": 21,
+      "ai_product": 16,
+      "fintech": 12,
+      "senior_pm": 12,
+      "operations": 8,
+      "gm": 6,
+      "product_management": 5,
+      "platform": 3,
+      "program": 2,
+      "general_manager": 1
     }
   },
-  "top_5_scored_jobs": [
+  "top_5_highest_scored": [
     {
+      "job_id": "59084d5f315e",
       "title": "Principal Product Manager (Singapore Based)",
       "company": "Agoda",
       "location": "Hong Kong",
-      "score": 100,
+      "quality_score": 100,
       "quality_tier": "A",
-      "category": "PM",
-      "job_id": "59084d5f315e",
-      "url": "https://hk.linkedin.com/jobs/view/principal-product-manager-singapore-based-at-agoda-4429535801"
+      "category": "general_pm",
+      "url": "https://hk.linkedin.com/jobs/view/principal-product-manager-singapore-based-at-agoda-4429535801",
+      "status": "not_applied",
+      "grade": "S-1"
     },
     {
+      "job_id": null,
       "title": "Head of Communications, APAC",
       "company": "Stripe",
       "location": "Singapore",
-      "score": 93,
+      "quality_score": 93,
       "quality_tier": "A",
-      "category": "PM",
-      "job_id": "",
-      "url": "https://stripe.com/jobs/search?gh_jid=7893199"
+      "category": "general_pm",
+      "url": "https://stripe.com/jobs/search?gh_jid=7893199",
+      "status": "",
+      "grade": "S-1"
     },
     {
+      "job_id": null,
       "title": "Senior Integration Reliability Engineer, Technical Operations",
       "company": "Stripe",
       "location": "Singapore",
-      "score": 91,
+      "quality_score": 91,
       "quality_tier": "A",
-      "category": "Other",
-      "job_id": "",
-      "url": "https://stripe.com/jobs/search?gh_jid=7457268"
+      "category": "ops",
+      "url": "https://stripe.com/jobs/search?gh_jid=7457268",
+      "status": "",
+      "grade": "S-1"
     },
     {
+      "job_id": "6d43b0be0641",
       "title": "Country Manager",
       "company": "Datadog",
       "location": "Tokyo",
-      "score": 90,
+      "quality_score": 90,
       "quality_tier": "A",
-      "category": "Other",
-      "job_id": "6d43b0be0641",
-      "url": "https://careers.datadoghq.com/detail/7975747/?gh_jid=7975747"
+      "category": "gm",
+      "url": "https://careers.datadoghq.com/detail/7975747/?gh_jid=7975747",
+      "status": "not_applied",
+      "grade": "S-1"
     },
     {
+      "job_id": "970f6d459177",
       "title": "Senior Strategy Project Manager, VIP/Institutions",
       "company": "OKX",
-      "location": "Hong Kong, Hong Kong SAR",
-      "score": 90,
+      "location": "Hong Kong",
+      "quality_score": 90,
       "quality_tier": "A",
-      "category": "Strategy",
-      "job_id": "970f6d459177",
-      "url": "https://job-boards.greenhouse.io/okx/jobs/7739163003"
+      "category": "strategy",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7739163003",
+      "status": "not_applied",
+      "grade": "S-1"
     }
   ],
   "category_counts": {
-    "PM": 386,
-    "Other": 76,
-    "Strategy": 67,
-    "Growth": 29,
-    "Fintech": 12
+    "general_pm": 212,
+    "strategy": 62,
+    "other": 57,
+    "uncategorized": 45,
+    "product": 37,
+    "growth": 25,
+    "ops": 25,
+    "cross_border": 21,
+    "ai_product": 16,
+    "fintech": 12,
+    "senior_pm": 12,
+    "operations": 8,
+    "gm": 6,
+    "product_management": 5,
+    "platform": 3,
+    "program": 2,
+    "general_manager": 1
   }
 }
