@@ -874,7 +874,7 @@
       "details": "System health check: data quality strong, all scripts working, 38 search sources active."
     }
   ],
-  "run_count": 3,
+  "run_count": 4,
   "changes": [
     {
       "date": "2026-07-03",
@@ -899,6 +899,11 @@
       "date": "2026-07-07",
       "improvement": "Filled 1611 data gaps in jobs-all.json (summaries, en_titles, grades, tiers, companies)",
       "details": "619 summaries, 547 en_titles, 126 grades, 310 tiers, 19 companies filled. 0 remaining gaps."
+    },
+    {
+      "date": "2026-07-08",
+      "improvement": "Fixed 19 jobs with missing company names (data quality cleanup)",
+      "details": "Tagged BOSS直聘 discovery entries as Confidential, Toptal/Turing generic listings as Confidential. All 1633 jobs now have company names."
     }
   ]
 }
