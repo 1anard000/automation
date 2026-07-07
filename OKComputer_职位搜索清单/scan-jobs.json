@@ -74,18 +74,6 @@
   {
     "title": "Director, People Business Partner",
     "company": "Affirm",
-    "location": "Remote Canada",
-    "salary": "",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7767434003",
-    "source": "greenhouse",
-    "role_type": "other",
-    "description": "Senior role at Affirm in Remote Canada.",
-    "grade": "",
-    "posted": "2026-06-15T16:19:56-04:00"
-  },
-  {
-    "title": "Director, People Business Partner",
-    "company": "Affirm",
     "location": "Remote US",
     "salary": "",
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7767432003",
@@ -94,6 +82,18 @@
     "description": "Senior role at Affirm in Remote US.",
     "grade": "",
     "posted": "2026-06-15T16:19:55-04:00"
+  },
+  {
+    "title": "Director, People Business Partner",
+    "company": "Affirm",
+    "location": "Remote Canada",
+    "salary": "",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7767434003",
+    "source": "greenhouse",
+    "role_type": "other",
+    "description": "Senior role at Affirm in Remote Canada.",
+    "grade": "",
+    "posted": "2026-06-15T16:19:56-04:00"
   },
   {
     "title": "Director, Product Management (Shopping & Offers)",
@@ -168,30 +168,6 @@
     "posted": "2026-07-02T05:44:30-04:00"
   },
   {
-    "title": "Senior Product Manager, Capital",
-    "company": "Affirm",
-    "location": "Remote Canada",
-    "salary": "",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7786009003",
-    "source": "greenhouse",
-    "role_type": "product",
-    "description": "Senior role at Affirm in Remote Canada.",
-    "grade": "",
-    "posted": "2026-07-01T13:48:59-04:00"
-  },
-  {
-    "title": "Senior Product Manager, Capital",
-    "company": "Affirm",
-    "location": "Remote US",
-    "salary": "",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7786007003",
-    "source": "greenhouse",
-    "role_type": "product",
-    "description": "Senior role at Affirm in Remote US.",
-    "grade": "",
-    "posted": "2026-07-01T13:48:58-04:00"
-  },
-  {
     "title": "Senior Product Manager, Credit & Pricing",
     "company": "Affirm",
     "location": "Remote US",
@@ -216,18 +192,6 @@
     "posted": "2026-06-29T16:51:03-04:00"
   },
   {
-    "title": "Senior Business Development Manager, Technology Partnerships",
-    "company": "Webflow",
-    "location": "CA Remote (BC & ON only); U.S. Remote",
-    "salary": "",
-    "url": "https://job-boards.greenhouse.io/webflow/jobs/7984702",
-    "source": "greenhouse",
-    "role_type": "bd",
-    "description": "Senior role at Webflow in CA Remote (BC & ON only); U.S. Remote.",
-    "grade": "",
-    "posted": "2026-06-05T14:04:32-04:00"
-  },
-  {
     "title": "Director, Major Sales",
     "company": "Vercel",
     "location": "Hybrid - New York City",
@@ -238,18 +202,6 @@
     "description": "Senior role at Vercel in Hybrid - New York City.",
     "grade": "",
     "posted": "2026-06-26T11:44:06-04:00"
-  },
-  {
-    "title": "Head of Workplace Strategy & Operations",
-    "company": "Vercel",
-    "location": "Hybrid - San Francisco",
-    "salary": "",
-    "url": "https://job-boards.greenhouse.io/vercel/jobs/6006177004",
-    "source": "greenhouse",
-    "role_type": "strategy",
-    "description": "Senior role at Vercel in Hybrid - San Francisco.",
-    "grade": "",
-    "posted": "2026-06-05T17:37:41-04:00"
   },
   {
     "title": "Head of Product - Business Lending",
@@ -384,6 +336,18 @@
     "posted": "2026-06-30T15:42:20-04:00"
   },
   {
+    "title": "Senior Program Manager, Enterprise Technology & AI",
+    "company": "Gitlab",
+    "location": "Remote, Bangalore",
+    "salary": "",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8584282002",
+    "source": "greenhouse",
+    "role_type": "program",
+    "description": "Senior role at Gitlab in Remote, Bangalore.",
+    "grade": "",
+    "posted": "2026-07-06T08:34:18-04:00"
+  },
+  {
     "title": "Director, EMEA Strategic Sales North",
     "company": "Twilio",
     "location": "Remote - United Kingdom",
@@ -442,6 +406,18 @@
     "description": "Senior role at Twilio in Remote - US.",
     "grade": "",
     "posted": "2026-06-16T18:20:26-04:00"
+  },
+  {
+    "title": "Senior GTM Business Architecture Manager",
+    "company": "Twilio",
+    "location": "Remote - US",
+    "salary": "",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8041943",
+    "source": "greenhouse",
+    "role_type": "gtm",
+    "description": "Senior role at Twilio in Remote - US.",
+    "grade": "",
+    "posted": "2026-07-06T19:18:29-04:00"
   },
   {
     "title": "Senior Price Realization Strategy Manager",
@@ -576,6 +552,18 @@
     "posted": "2026-06-17T08:16:46-04:00"
   },
   {
+    "title": "Senior Partner Program Manager - Strategic Initiatives",
+    "company": "Datadog",
+    "location": "California, USA, Remote; Colorado, USA, Remote; Massachusetts, USA, Remote; New York, New York, USA; New York, USA, Remote",
+    "salary": "",
+    "url": "https://careers.datadoghq.com/detail/7977339/?gh_jid=7977339",
+    "source": "greenhouse",
+    "role_type": "strategy",
+    "description": "Senior role at Datadog in California, USA, Remote; Colorado, USA, Remote; Massachusetts, USA, Remote; New York, New York, USA; New York, USA, Remote.",
+    "grade": "",
+    "posted": "2026-06-22T11:56:04-04:00"
+  },
+  {
     "title": "Deputy Chief Regulatory Officer, Coinbase Derivatives",
     "company": "Coinbase",
     "location": "Remote - USA",
@@ -636,6 +624,18 @@
     "posted": "2026-06-09T12:24:25-04:00"
   },
   {
+    "title": "Senior Product Manager, Help Center (CX Automation)",
+    "company": "Coinbase",
+    "location": "Remote - India",
+    "salary": "",
+    "url": "https://www.coinbase.com/careers/positions/8031208?gh_jid=8031208",
+    "source": "greenhouse",
+    "role_type": "product",
+    "description": "Senior role at Coinbase in Remote - India.",
+    "grade": "",
+    "posted": "2026-07-06T17:04:46-04:00"
+  },
+  {
     "title": "Senior Program Manager, Contracts & Analytics",
     "company": "Coinbase",
     "location": "Remote - USA",
@@ -658,29 +658,5 @@
     "description": "Senior role at Block in Melbourne, Australia.",
     "grade": "",
     "posted": "2026-06-23T17:44:01-04:00"
-  },
-  {
-    "title": "Principal, Marketing Architecture & Strategy",
-    "company": "Twilio",
-    "location": "Remote - US",
-    "salary": "",
-    "url": "https://job-boards.greenhouse.io/twilio/jobs/7968269",
-    "source": "greenhouse",
-    "role_type": "strategy",
-    "description": "Senior role at Twilio in Remote - US.",
-    "grade": "",
-    "posted": "2026-06-05T12:53:31-04:00"
-  },
-  {
-    "title": "Senior Director, Field Marketing, APAC",
-    "company": "Cloudflare",
-    "location": "Hybrid",
-    "salary": "",
-    "url": "https://boards.greenhouse.io/cloudflare/jobs/7955374?gh_jid=7955374",
-    "source": "greenhouse",
-    "role_type": "other",
-    "description": "Senior role at Cloudflare in Hybrid.",
-    "grade": "",
-    "posted": "2026-06-03T19:31:44-04:00"
   }
 ]
