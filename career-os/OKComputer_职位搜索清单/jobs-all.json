@@ -18177,5 +18177,53 @@
     "scanned_date": "2026-07-07",
     "source": "greenhouse",
     "yoe_note": "yoe-unspecified"
+  },
+  {
+    "title": "Product Manager / Director, Trading Products",
+    "company": "OKX",
+    "location": "Singapore, Singapore",
+    "grade": "A-1",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7712844003",
+    "role_type": "Product Management",
+    "salary": "",
+    "scanned_date": "2026-07-08",
+    "source": "greenhouse",
+    "yoe_note": "yoe-unspecified"
+  },
+  {
+    "title": "Technical Program Manager, Money-as-a-Service",
+    "company": "Stripe",
+    "location": "Remote in the US",
+    "grade": "A-2",
+    "url": "https://stripe.com/jobs/search?gh_jid=8042055",
+    "role_type": "Program Management",
+    "salary": "",
+    "scanned_date": "2026-07-08",
+    "source": "greenhouse",
+    "yoe_note": "yoe-unspecified"
+  },
+  {
+    "title": "Senior Product Manager, Help Center (CX Automation)",
+    "company": "Coinbase",
+    "location": "Remote - India",
+    "grade": "A-2",
+    "url": "https://www.coinbase.com/careers/positions/8031208?gh_jid=8031208",
+    "role_type": "Product Management",
+    "salary": "",
+    "scanned_date": "2026-07-08",
+    "source": "greenhouse",
+    "yoe_note": "yoe-soft:5-12"
+  },
+  {
+    "title": "Staff Technical Program Manager, CX Agent Experience",
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "grade": "A-2",
+    "url": "https://www.coinbase.com/careers/positions/8047657?gh_jid=8047657",
+    "role_type": "Program Management",
+    "salary": "",
+    "scanned_date": "2026-07-08",
+    "source": "greenhouse",
+    "yoe_note": "yoe-soft:8-15"
   }
 ]
