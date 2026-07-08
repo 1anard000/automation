@@ -36,7 +36,7 @@
     "posted": "2026-06-26T00:04:13-04:00"
   },
   {
-    "title": "Director, Integrated Marketing",
+    "title": "Director, Integrated Marketing- Mid Market",
     "company": "Pinterest",
     "location": "San Francisco, CA, US; Remote, US",
     "salary": "",
@@ -110,18 +110,6 @@
   {
     "title": "Director, Product Management (Shopping & Offers)",
     "company": "Affirm",
-    "location": "Remote Canada",
-    "salary": "",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7780492003",
-    "source": "greenhouse",
-    "role_type": "other",
-    "description": "Senior role at Affirm in Remote Canada.",
-    "grade": "",
-    "posted": "2026-06-25T20:48:46-04:00"
-  },
-  {
-    "title": "Director, Product Management (Shopping & Offers)",
-    "company": "Affirm",
     "location": "Remote US",
     "salary": "",
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7780490003",
@@ -132,16 +120,16 @@
     "posted": "2026-06-25T20:48:37-04:00"
   },
   {
-    "title": "Senior Director, Enterprise Risk Management",
+    "title": "Director, Product Management (Shopping & Offers)",
     "company": "Affirm",
-    "location": "Remote US",
+    "location": "Remote Canada",
     "salary": "",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7743208003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7780492003",
     "source": "greenhouse",
     "role_type": "other",
-    "description": "Senior role at Affirm in Remote US.",
+    "description": "Senior role at Affirm in Remote Canada.",
     "grade": "",
-    "posted": "2026-06-10T20:55:17-04:00"
+    "posted": "2026-06-25T20:48:46-04:00"
   },
   {
     "title": "Senior Director, Enterprise Risk Management",
@@ -154,6 +142,18 @@
     "description": "Senior role at Affirm in Remote Canada.",
     "grade": "",
     "posted": "2026-06-10T20:55:18-04:00"
+  },
+  {
+    "title": "Senior Director, Enterprise Risk Management",
+    "company": "Affirm",
+    "location": "Remote US",
+    "salary": "",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7743208003",
+    "source": "greenhouse",
+    "role_type": "other",
+    "description": "Senior role at Affirm in Remote US.",
+    "grade": "",
+    "posted": "2026-06-10T20:55:17-04:00"
   },
   {
     "title": "Senior Manager, Accounting Policy & Reporting",
@@ -182,18 +182,6 @@
   {
     "title": "Senior Product Manager, Credit & Pricing",
     "company": "Affirm",
-    "location": "Remote US",
-    "salary": "",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7773691003",
-    "source": "greenhouse",
-    "role_type": "product",
-    "description": "Senior role at Affirm in Remote US.",
-    "grade": "",
-    "posted": "2026-06-29T16:51:01-04:00"
-  },
-  {
-    "title": "Senior Product Manager, Credit & Pricing",
-    "company": "Affirm",
     "location": "Remote Canada",
     "salary": "",
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7773693003",
@@ -202,6 +190,18 @@
     "description": "Senior role at Affirm in Remote Canada.",
     "grade": "",
     "posted": "2026-06-29T16:51:03-04:00"
+  },
+  {
+    "title": "Senior Product Manager, Credit & Pricing",
+    "company": "Affirm",
+    "location": "Remote US",
+    "salary": "",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7773691003",
+    "source": "greenhouse",
+    "role_type": "product",
+    "description": "Senior role at Affirm in Remote US.",
+    "grade": "",
+    "posted": "2026-06-29T16:51:01-04:00"
   },
   {
     "title": "Director, Major Sales",
@@ -348,6 +348,18 @@
     "posted": "2026-06-30T15:42:20-04:00"
   },
   {
+    "title": "Senior Product Manager, Plan to Code",
+    "company": "Gitlab",
+    "location": "Remote, Canada; Remote, US",
+    "salary": "",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8597805002",
+    "source": "greenhouse",
+    "role_type": "product",
+    "description": "Senior role at Gitlab in Remote, Canada; Remote, US.",
+    "grade": "",
+    "posted": "2026-07-07T16:49:09-04:00"
+  },
+  {
     "title": "Senior Program Manager, Enterprise Technology & AI",
     "company": "Gitlab",
     "location": "Remote, Bangalore",
@@ -442,6 +454,30 @@
     "description": "Senior role at Twilio in Remote - US.",
     "grade": "",
     "posted": "2026-06-16T17:44:13-04:00"
+  },
+  {
+    "title": "Director, Enterprise Sales (AI & Digital Natives)",
+    "company": "Cloudflare",
+    "location": "Hybrid",
+    "salary": "",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8051548?gh_jid=8051548",
+    "source": "greenhouse",
+    "role_type": "other",
+    "description": "Senior role at Cloudflare in Hybrid.",
+    "grade": "",
+    "posted": "2026-07-08T13:24:18-04:00"
+  },
+  {
+    "title": "Director, Enterprise Sales (AI & Digital Natives)",
+    "company": "Cloudflare",
+    "location": "Hybrid",
+    "salary": "",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/8051547?gh_jid=8051547",
+    "source": "greenhouse",
+    "role_type": "other",
+    "description": "Senior role at Cloudflare in Hybrid.",
+    "grade": "",
+    "posted": "2026-07-08T13:24:08-04:00"
   },
   {
     "title": "Director of Talent Acquisition, APJC",
@@ -588,7 +624,7 @@
     "posted": "2026-06-11T17:26:18-04:00"
   },
   {
-    "title": "Senior Accounting and Regulatory Reporting Manager, Canada",
+    "title": "Head of Finance, Canada",
     "company": "Coinbase",
     "location": "Remote - Canada",
     "salary": "",
@@ -670,5 +706,329 @@
     "description": "Senior role at Block in Melbourne, Australia.",
     "grade": "",
     "posted": "2026-06-23T17:44:01-04:00"
+  },
+  {
+    "title": "Head of Communications, APAC",
+    "company": "Stripe",
+    "location": "Singapore",
+    "salary": "",
+    "url": "https://stripe.com/jobs/search?gh_jid=7684149",
+    "source": "greenhouse",
+    "role_type": "ops",
+    "description": "Head of communications for APAC at Stripe. Strategic communications leadership in fintech.",
+    "grade": "B",
+    "posted": "2026-03-01T00:00:00-04:00"
+  },
+  {
+    "title": "Principal, APAC Tax",
+    "company": "Airbnb",
+    "location": "Singapore",
+    "salary": "",
+    "url": "https://careers.airbnb.com/positions/8025609?gh_jid=8025609",
+    "source": "greenhouse",
+    "role_type": "ops",
+    "description": "Tax leadership for APAC at Airbnb. Cross-border regulatory expertise.",
+    "grade": "C",
+    "posted": "2026-06-20T00:00:00-04:00"
+  },
+  {
+    "title": "Head of Growth Marketing, Asia",
+    "company": "Airbnb",
+    "location": "Singapore",
+    "salary": "",
+    "url": "https://careers.airbnb.com/positions/7915871?gh_jid=7915871",
+    "source": "greenhouse",
+    "role_type": "strategy",
+    "description": "Growth marketing leadership for Asia at Airbnb. Market expansion, cross-border platform.",
+    "grade": "A-2",
+    "posted": "2026-04-01T00:00:00-04:00"
+  },
+  {
+    "title": "Senior Account Manager",
+    "company": "Coinbase",
+    "location": "Remote - Singapore",
+    "salary": "",
+    "url": "https://www.coinbase.com/careers/positions/7724783?gh_jid=7724783",
+    "source": "greenhouse",
+    "role_type": "bd",
+    "description": "Account management for Coinbase in Singapore. Crypto/fintech, institutional sales.",
+    "grade": "B",
+    "posted": "2026-02-01T00:00:00-05:00"
+  },
+  {
+    "title": "Senior Deal Desk Analyst",
+    "company": "Datadog",
+    "location": "Singapore",
+    "salary": "",
+    "url": "https://careers.datadoghq.com/detail/7906615/?gh_jid=7906615",
+    "source": "greenhouse",
+    "role_type": "ops",
+    "description": "Deal desk analyst at Datadog Singapore. SaaS operations, pricing strategy.",
+    "grade": "C",
+    "posted": "2026-04-01T00:00:00-04:00"
+  },
+  {
+    "title": "Senior Manager, Commercial Sales",
+    "company": "Figma",
+    "location": "Singapore",
+    "salary": "",
+    "url": "https://boards.greenhouse.io/figma/jobs/5995987004?gh_jid=5995987004",
+    "source": "greenhouse",
+    "role_type": "bd",
+    "description": "Commercial sales leadership at Figma Singapore. SaaS, design tools market.",
+    "grade": "B",
+    "posted": "2026-05-01T00:00:00-04:00"
+  },
+  {
+    "title": "Senior Sales Enablement Manager",
+    "company": "Figma",
+    "location": "Singapore",
+    "salary": "",
+    "url": "https://boards.greenhouse.io/figma/jobs/6005428004?gh_jid=6005428004",
+    "source": "greenhouse",
+    "role_type": "strategy",
+    "description": "Sales enablement at Figma Singapore. Strategy, go-to-market operations.",
+    "grade": "B",
+    "posted": "2026-06-01T00:00:00-04:00"
+  },
+  {
+    "title": "Senior Solutions Consultant",
+    "company": "Figma",
+    "location": "Singapore",
+    "salary": "",
+    "url": "https://boards.greenhouse.io/figma/jobs/6050054004?gh_jid=6050054004",
+    "source": "greenhouse",
+    "role_type": "bd",
+    "description": "Solutions consulting at Figma Singapore. Technical pre-sales, platform strategy.",
+    "grade": "C",
+    "posted": "2026-06-15T00:00:00-04:00"
+  },
+  {
+    "title": "Regional Sales Director, ASEAN & Korea",
+    "company": "GitLab",
+    "location": "Remote, Singapore",
+    "salary": "",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8476391002",
+    "source": "greenhouse",
+    "role_type": "bd",
+    "description": "Regional sales director covering ASEAN and Korea at GitLab. DevOps platform, cross-border expansion.",
+    "grade": "A-2",
+    "posted": "2026-03-29T01:53:21-04:00"
+  },
+  {
+    "title": "Senior Customer Success Manager",
+    "company": "Twilio",
+    "location": "Remote - Singapore",
+    "salary": "",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7903877",
+    "source": "greenhouse",
+    "role_type": "ops",
+    "description": "Customer success leadership at Twilio Singapore. API/platform, communications infrastructure.",
+    "grade": "B",
+    "posted": "2026-05-11T07:24:08-04:00"
+  },
+  {
+    "title": "Senior Strategic Account Executive",
+    "company": "Twilio",
+    "location": "Remote - Singapore",
+    "salary": "",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7588505",
+    "source": "greenhouse",
+    "role_type": "bd",
+    "description": "Strategic sales at Twilio Singapore. API platform, enterprise partnerships.",
+    "grade": "B",
+    "posted": "2026-02-12T06:14:25-05:00"
+  },
+  {
+    "title": "Director, Partner Account Manager - Accenture APJ",
+    "company": "Databricks",
+    "location": "Singapore",
+    "salary": "",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8439176002",
+    "source": "greenhouse",
+    "role_type": "bd",
+    "description": "Partner management leadership for Accenture partnership across APJ at Databricks. AI/data platform.",
+    "grade": "A-2",
+    "posted": "2026-03-09T14:28:00-04:00"
+  },
+  {
+    "title": "Strategic Enterprise Sales Leader",
+    "company": "Databricks",
+    "location": "Singapore",
+    "salary": "",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8399878002",
+    "source": "greenhouse",
+    "role_type": "bd",
+    "description": "Enterprise sales leadership at Databricks Singapore. AI/data platform, strategic accounts.",
+    "grade": "A-2",
+    "posted": "2026-04-06T21:36:40-04:00"
+  },
+  {
+    "title": "APJ Manufacturing & Automotive Industry GTM Leader",
+    "company": "Databricks",
+    "location": "Singapore / Seoul / Tokyo",
+    "salary": "",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8495065002",
+    "source": "greenhouse",
+    "role_type": "gtm",
+    "description": "GTM leader for manufacturing/auto industry across APJ at Databricks. AI platform go-to-market.",
+    "grade": "A-2",
+    "posted": "2026-04-21T00:51:23-04:00"
+  },
+  {
+    "title": "Head of Enterprise Sales, Japan",
+    "company": "Datadog",
+    "location": "Tokyo, Japan",
+    "salary": "",
+    "url": "https://careers.datadoghq.com/detail/7730200/?gh_jid=7730200",
+    "source": "greenhouse",
+    "role_type": "bd",
+    "description": "Enterprise sales leadership for Japan at Datadog. SaaS observability platform.",
+    "grade": "B",
+    "posted": "2026-02-01T00:00:00-05:00"
+  },
+  {
+    "title": "Senior Manager, Enterprise Sales",
+    "company": "Figma",
+    "location": "Tokyo, Japan",
+    "salary": "",
+    "url": "https://boards.greenhouse.io/figma/jobs/5753194004?gh_jid=5753194004",
+    "source": "greenhouse",
+    "role_type": "bd",
+    "description": "Enterprise sales at Figma Tokyo. Design tools, SaaS platform.",
+    "grade": "B",
+    "posted": "2026-03-01T00:00:00-05:00"
+  },
+  {
+    "title": "Senior Manager, Customer Experience & Solutions",
+    "company": "Figma",
+    "location": "Tokyo, Japan",
+    "salary": "",
+    "url": "https://boards.greenhouse.io/figma/jobs/5856821004?gh_jid=5856821004",
+    "source": "greenhouse",
+    "role_type": "ops",
+    "description": "Customer experience leadership at Figma Tokyo. Solutions, platform strategy.",
+    "grade": "B",
+    "posted": "2026-04-01T00:00:00-04:00"
+  },
+  {
+    "title": "Head of Marketing - Japan",
+    "company": "Databricks",
+    "location": "Tokyo, Japan",
+    "salary": "",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8493722002",
+    "source": "greenhouse",
+    "role_type": "strategy",
+    "description": "Marketing leadership for Japan at Databricks. AI/data platform, market strategy.",
+    "grade": "B",
+    "posted": "2026-04-12T20:16:43-04:00"
+  },
+  {
+    "title": "Business Operations and Growth Lead",
+    "company": "Airbnb",
+    "location": "Sydney, Australia",
+    "salary": "",
+    "url": "https://careers.airbnb.com/positions/7999656?gh_jid=7999656",
+    "source": "greenhouse",
+    "role_type": "ops",
+    "description": "Biz ops and growth leadership at Airbnb Sydney. Cross-border platform, market expansion.",
+    "grade": "A-2",
+    "posted": "2026-05-01T00:00:00-04:00"
+  },
+  {
+    "title": "Head of Platforms Sales, Australia and New Zealand",
+    "company": "Stripe",
+    "location": "Sydney",
+    "salary": "",
+    "url": "https://stripe.com/jobs/search?gh_jid=7760773",
+    "source": "greenhouse",
+    "role_type": "bd",
+    "description": "Platform sales leadership for ANZ at Stripe. Fintech, payments infrastructure.",
+    "grade": "A-2",
+    "posted": "2026-03-01T00:00:00-05:00"
+  },
+  {
+    "title": "Director, Lakebase Sales Specialists",
+    "company": "Databricks",
+    "location": "Sydney, Australia",
+    "salary": "",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569622002",
+    "source": "greenhouse",
+    "role_type": "bd",
+    "description": "Sales specialist director at Databricks Sydney. AI/data platform.",
+    "grade": "B",
+    "posted": "2026-06-10T01:05:27-04:00"
+  },
+  {
+    "title": "Senior Manager, Global Premier Support",
+    "company": "Databricks",
+    "location": "Sydney, Australia",
+    "salary": "",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8583146002",
+    "source": "greenhouse",
+    "role_type": "ops",
+    "description": "Global support leadership at Databricks Sydney. Customer success, platform operations.",
+    "grade": "B",
+    "posted": "2026-06-09T11:26:18-04:00"
+  },
+  {
+    "title": "Country Director, India",
+    "company": "Cloudflare",
+    "location": "Remote India",
+    "salary": "",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/7588061?gh_jid=7588061",
+    "source": "greenhouse",
+    "role_type": "gm",
+    "description": "Country director for India at Cloudflare. Market leadership, infrastructure platform.",
+    "grade": "B",
+    "posted": "2026-01-01T00:00:00-05:00"
+  },
+  {
+    "title": "Country Director, India",
+    "company": "Coinbase",
+    "location": "Remote - India",
+    "salary": "",
+    "url": "https://www.coinbase.com/careers/positions/7606826?gh_jid=7606826",
+    "source": "greenhouse",
+    "role_type": "gm",
+    "description": "Country director for India at Coinbase. Crypto/fintech, market entry.",
+    "grade": "B",
+    "posted": "2026-02-01T00:00:00-05:00"
+  },
+  {
+    "title": "Senior Program Manager, Enterprise Technology & AI",
+    "company": "GitLab",
+    "location": "Remote, Bangalore",
+    "salary": "",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8584282002",
+    "source": "greenhouse",
+    "role_type": "product",
+    "description": "Program management for enterprise AI at GitLab. DevOps platform, AI products.",
+    "grade": "B",
+    "posted": "2026-07-06T08:34:18-04:00"
+  },
+  {
+    "title": "Head of Channels & Alliances",
+    "company": "Datadog",
+    "location": "Seoul, South Korea",
+    "salary": "",
+    "url": "https://careers.datadoghq.com/detail/7687552/?gh_jid=7687552",
+    "source": "greenhouse",
+    "role_type": "bd",
+    "description": "Channels and alliances leadership at Datadog Seoul. Partner ecosystem, SaaS platform.",
+    "grade": "B",
+    "posted": "2026-01-01T00:00:00-05:00"
+  },
+  {
+    "title": "Senior Manager, Payroll Compliance & International Operations",
+    "company": "Figma",
+    "location": "Sydney, Australia",
+    "salary": "",
+    "url": "https://boards.greenhouse.io/figma/jobs/6013144004?gh_jid=6013144004",
+    "source": "greenhouse",
+    "role_type": "ops",
+    "description": "Payroll and international ops at Figma Sydney. Cross-border operations, compliance.",
+    "grade": "C",
+    "posted": "2026-06-01T00:00:00-04:00"
   }
 ]
