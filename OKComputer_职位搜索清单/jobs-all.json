@@ -49453,5 +49453,17 @@
     "discovered": "2026-07-05",
     "status": "not_applied",
     "status_date": "2026-07-05"
+  },
+  {
+    "title": "Strategy Manager",
+    "company": "Tencent (Level Infinite)",
+    "location": "Shenzhen / Shanghai",
+    "salary": "",
+    "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/China-Shenzhen/Strategy-Manager_R104647-2",
+    "source": "tencent_careers",
+    "role_type": "strategy",
+    "english_friendly": true,
+    "city_normalized": "Shenzhen",
+    "scanned_date": "2026-07-09"
   }
 ]
