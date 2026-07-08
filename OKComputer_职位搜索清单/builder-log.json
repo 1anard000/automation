@@ -701,6 +701,32 @@
       "score_after": "pending",
       "subagent": "builder-strategy-refresh-0708",
       "details": "Strategy doc 2 days stale, referencing 1116 jobs when we have 1649. Refreshing all stats, sector analysis, salary benchmarks, and weekly action plan."
+    },
+    {
+      "timestamp": "2026-07-09T03:01:15.431102",
+      "dimension": "crm",
+      "task": "Rebuild CRM dashboard (19KB→modern) + sync contacts.json (0→211 contacts)",
+      "status": "in_progress",
+      "scores_before": {
+        "dashboard": 9,
+        "career_hub": 8,
+        "data_quality": 10,
+        "python_scripts": 9,
+        "strategy": 9,
+        "coverage": 9,
+        "crm": 9
+      },
+      "scores_after": {},
+      "subagent": "builder-crm-dashboard-rebuild"
+    },
+    {
+      "timestamp": "2026-07-09T03:02:03.531570",
+      "dimension": "python_scripts",
+      "task": "Create weekly-trends.py — generates weekly market trends summary (MD + JSON) with A-1 highlights, company/category/source breakdowns",
+      "status": "completed",
+      "score_before": 7,
+      "score_after": 8,
+      "subagent": "nightly-improver"
     }
   ],
   "current_scores": {
@@ -892,9 +918,17 @@
       "date": "2026-07-08T03:00",
       "change": "Salary enrichment: 27% -> 100% coverage via location+seniority estimation",
       "script": "enrich-salary.py"
+    },
+    {
+      "date": "2026-07-09T03:01",
+      "action": "Rebuilding CRM dashboard with modern dark theme + syncing 211 contacts from CRM DB to public contacts.json",
+      "dimension": "crm",
+      "subagent": "builder-crm-dashboard-rebuild",
+      "score_before": 9,
+      "status": "in_progress"
     }
   ],
-  "run_count": 5,
+  "run_count": 6,
   "changes": [
     {
       "date": "2026-07-03",

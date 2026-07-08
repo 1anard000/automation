@@ -1,0 +1,400 @@
+{
+  "generated_at": "2026-07-09T03:02:00.029951",
+  "period_days": 7,
+  "total_jobs": 1500,
+  "recent_count": 17,
+  "a1_total": 397,
+  "a1_recent": 10,
+  "top_companies_recent": [
+    [
+      "Okx",
+      5
+    ],
+    [
+      "Coupang",
+      3
+    ],
+    [
+      "Tencent",
+      2
+    ],
+    [
+      "Agoda",
+      2
+    ],
+    [
+      "ByteDance",
+      2
+    ],
+    [
+      "Airwallex",
+      1
+    ],
+    [
+      "芯智控股",
+      1
+    ],
+    [
+      "赞德科技(深圳)有限公司",
+      1
+    ]
+  ],
+  "top_companies_all": [
+    [
+      "Agoda",
+      167
+    ],
+    [
+      "Coupang",
+      144
+    ],
+    [
+      "OKX",
+      108
+    ],
+    [
+      "Stripe",
+      67
+    ],
+    [
+      "ByteDance",
+      52
+    ],
+    [
+      "Coinbase",
+      43
+    ],
+    [
+      "",
+      35
+    ],
+    [
+      "Shopee",
+      32
+    ],
+    [
+      "Instacart",
+      28
+    ],
+    [
+      "Databricks",
+      27
+    ],
+    [
+      "Twilio",
+      23
+    ],
+    [
+      "Mercury",
+      20
+    ],
+    [
+      "Airwallex",
+      19
+    ],
+    [
+      "Datadog",
+      19
+    ],
+    [
+      "Airbnb",
+      16
+    ]
+  ],
+  "grades_recent": [
+    [
+      "A",
+      1
+    ],
+    [
+      "A-1",
+      10
+    ],
+    [
+      "A-2",
+      4
+    ],
+    [
+      "B+",
+      2
+    ]
+  ],
+  "grades_all": [
+    [
+      "",
+      26
+    ],
+    [
+      "?",
+      109
+    ],
+    [
+      "A",
+      8
+    ],
+    [
+      "A-1",
+      397
+    ],
+    [
+      "A-2",
+      617
+    ],
+    [
+      "B",
+      93
+    ],
+    [
+      "B+",
+      4
+    ],
+    [
+      "B-1",
+      75
+    ],
+    [
+      "C",
+      117
+    ],
+    [
+      "S-1",
+      51
+    ],
+    [
+      "Senior",
+      3
+    ]
+  ],
+  "categories_recent": [
+    [
+      "unknown",
+      12
+    ],
+    [
+      "growth",
+      2
+    ],
+    [
+      "product",
+      1
+    ],
+    [
+      "strategy",
+      1
+    ],
+    [
+      "AI",
+      1
+    ]
+  ],
+  "categories_all": [
+    [
+      "general_pm",
+      437
+    ],
+    [
+      "unknown",
+      280
+    ],
+    [
+      "strategy",
+      130
+    ],
+    [
+      "other",
+      107
+    ],
+    [
+      "product management",
+      83
+    ],
+    [
+      "ops",
+      66
+    ],
+    [
+      "product",
+      64
+    ],
+    [
+      "growth",
+      58
+    ],
+    [
+      "cross_border",
+      56
+    ],
+    [
+      "ai_product",
+      47
+    ],
+    [
+      "fintech",
+      32
+    ],
+    [
+      "strategy_ops",
+      32
+    ],
+    [
+      "operations",
+      16
+    ],
+    [
+      "business operations",
+      15
+    ],
+    [
+      "growth_expansion",
+      14
+    ]
+  ],
+  "sources_recent": [
+    [
+      "greenhouse_api",
+      10
+    ],
+    [
+      "tencent_careers",
+      2
+    ],
+    [
+      "liepin",
+      2
+    ],
+    [
+      "bytedance",
+      2
+    ],
+    [
+      "careers.airwallex.com",
+      1
+    ]
+  ],
+  "locations_recent": [
+    [
+      "Singapore",
+      4
+    ],
+    [
+      "Seoul",
+      2
+    ],
+    [
+      "Hong Kong",
+      2
+    ],
+    [
+      "深圳-南山区",
+      2
+    ],
+    [
+      "Bangkok",
+      2
+    ],
+    [
+      "深圳",
+      2
+    ],
+    [
+      "Shanghai",
+      1
+    ],
+    [
+      "Shenzhen",
+      1
+    ],
+    [
+      "Taipei",
+      1
+    ]
+  ],
+  "a1_recent_companies": [
+    [
+      "Okx",
+      3
+    ],
+    [
+      "Coupang",
+      2
+    ],
+    [
+      "Tencent",
+      2
+    ],
+    [
+      "Airwallex",
+      1
+    ],
+    [
+      "芯智控股",
+      1
+    ],
+    [
+      "赞德科技(深圳)有限公司",
+      1
+    ]
+  ],
+  "a1_recent_jobs": [
+    {
+      "title": "Senior Product Manager, Kai (AI assistant)",
+      "company": "Airwallex",
+      "location": "Singapore",
+      "url": "https://careers.airwallex.com/job/d1ed1a19-4e79-4dc1-843f-949da9a95cca/senior-product-manager-kai-ai-assistant/"
+    },
+    {
+      "title": "Principal, FP&A (Rocket Growth)",
+      "company": "Coupang",
+      "location": "Seoul, South Korea",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8037268"
+    },
+    {
+      "title": "Principal Product Manager (SCM Autonomation)",
+      "company": "Coupang",
+      "location": "Seoul, South Korea",
+      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8037587"
+    },
+    {
+      "title": "Principal / Senior Product Manager, Institution Onboarding Experience (KYB)",
+      "company": "Okx",
+      "location": "Singapore, Singapore",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/6584033003"
+    },
+    {
+      "title": "Principal / Senior Product Manager, Local Market & Growth (Latin America)",
+      "company": "Okx",
+      "location": "Singapore, Singapore",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7655609003"
+    },
+    {
+      "title": "Product Manager / Director, Structured Products",
+      "company": "Okx",
+      "location": "Hong Kong, Hong Kong SAR",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7792230003"
+    },
+    {
+      "title": "Senior Strategy Manager",
+      "company": "Tencent",
+      "location": "Shanghai, China",
+      "url": "https://careers.tencent.com/en-us/search.html?keyword=strategy&location=Shanghai"
+    },
+    {
+      "title": "腾讯云音视频产品经理（海外增长策略）",
+      "company": "Tencent",
+      "location": "Shenzhen, China",
+      "url": "https://careers.tencent.com/en-us/jobdesc.html?postId=2061700924304437248"
+    },
+    {
+      "title": "产品经理PM（展锐）",
+      "company": "芯智控股",
+      "location": "深圳-南山区",
+      "url": "https://www.liepin.com/job/1971178371.shtml"
+    },
+    {
+      "title": "高级产品经理 Product Manager (Banking)",
+      "company": "赞德科技(深圳)有限公司",
+      "location": "深圳-南山区",
+      "url": "https://www.liepin.com/job/1981270935.shtml"
+    }
+  ]
+}
