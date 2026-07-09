@@ -742,7 +742,7 @@
     "scripts": 9,
     "coverage": 10,
     "strategy": 7,
-    "crm": 7,
+    "crm": 8,
     "automation": 7
   },
   "last_run": "2026-07-10T03:00:00+08:00",
@@ -755,7 +755,7 @@
     "python_scripts": 9,
     "strategy": 9,
     "coverage": 10,
-    "crm": 9,
+    "crm": 8,
     "automation": 7
   },
   "last_improvement": "2026-07-02: Regenerated CRM dashboard with current data (1042 jobs, 229 companies, top 30 companies shown)",
@@ -817,6 +817,20 @@
       "date": "2026-06-26 06:01",
       "action": "Nightly improvement: verified data quality (1182 jobs, 38 sources, all graded), updated builder-log scores, refreshed coverage score to 8",
       "details": "Jobs: 0 stale, 1181/1182 have links, 1144/1182 have companies. Grade distribution: A-1=352, A-2=596, B-1=82, B=45, C=71, S-1=36"
+    },
+    {
+      "date": "2026-07-10 06:00",
+      "dimension": "crm",
+      "improvement": "Fixed CRM pipeline bug: \"prepared\" status mapped to \"not_applied\". Pipeline now shows 42 Not Applied instead of all zeros.",
+      "scores": {
+        "data_quality": 10,
+        "dashboard": 9,
+        "scripts": 9,
+        "coverage": 10,
+        "strategy": 7,
+        "crm": 8,
+        "automation": 7
+      }
     }
   ],
   "latest_scores": {
@@ -829,7 +843,7 @@
     "jobs_total": 1613,
     "stale_purged": 0,
     "notes": "1613 jobs, all graded, all with links. Dashboard + coverage synced Jul 10.",
-    "crm": 7
+    "crm": 8
   },
   "log": [
     {

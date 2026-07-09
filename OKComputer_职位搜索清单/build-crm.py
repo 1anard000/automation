@@ -54,6 +54,9 @@ def build_crm():
     statuses = {}
     for a in applications:
         s = a.get("status", "not_started")
+        # Map 'prepared' to 'not_applied' (cover letter ready, not yet sent)
+        if s == "prepared":
+            s = "not_applied"
         statuses[s] = statuses.get(s, 0) + 1
     
     # Grade distribution
@@ -137,6 +140,7 @@ h1{{font-size:28px;margin-bottom:4px;color:var(--text)}}
     stage_colors = {
         "not_started": ("#636e72", "📋"),
         "not_applied": ("#fdcb6e", "📝"),
+        "prepared": ("#fdcb6e", "📝"),
         "applied": ("#74b9ff", "📤"),
         "interviewing": ("#a29bfe", "🎤"),
         "offer": ("#00b894", "🎉"),
