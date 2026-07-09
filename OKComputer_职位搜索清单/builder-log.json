@@ -745,7 +745,7 @@
     "crm": 7,
     "automation": 7
   },
-  "last_run": "2026-07-08T03:00:35.772714",
+  "last_run": "2026-07-10T03:00:00+08:00",
   "last_dimension": "career_strategy",
   "last_task": "Refresh career-strategy.md",
   "scores": {
@@ -755,7 +755,8 @@
     "python_scripts": 9,
     "strategy": 9,
     "coverage": 10,
-    "crm": 9
+    "crm": 9,
+    "automation": 7
   },
   "last_improvement": "2026-07-02: Regenerated CRM dashboard with current data (1042 jobs, 229 companies, top 30 companies shown)",
   "entries": [
@@ -935,7 +936,7 @@
       "status": "in_progress"
     }
   ],
-  "run_count": 6,
+  "run_count": 7,
   "changes": [
     {
       "date": "2026-07-03",
@@ -965,6 +966,11 @@
       "date": "2026-07-08",
       "improvement": "Fixed 19 jobs with missing company names (data quality cleanup)",
       "details": "Tagged BOSS直聘 discovery entries as Confidential, Toptal/Turing generic listings as Confidential. All 1633 jobs now have company names."
+    },
+    {
+      "date": "2026-07-10",
+      "improvement": "Created merge-jobs.py + run-pipeline.sh for robust scraper consolidation",
+      "details": "Automated pipeline: scan all *-results.json, dedup, grade, merge into jobs-all.json. Addresses automation gap (only 1 cron visible, no merge script existed)."
     }
   ]
 }
