@@ -727,6 +727,13 @@
       "score_before": 7,
       "score_after": 8,
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-07-10T00:02:16.819317",
+      "dimension": "data_quality + coverage",
+      "task": "Sync dashboard stats and coverage report with actual 1613-job dataset",
+      "status": "completed",
+      "details": "Fixed dashboard: 1500→1613 total, A-1→A (516), A-2→A- (617), eng 996→1108, SG 296→319, SH 41→47, HK 124→163, SZ 157→217. Regenerated coverage-report.json: 1116→1613 jobs, 56 sources, 378 companies."
     }
   ],
   "current_scores": {
@@ -818,9 +825,9 @@
     "scripts": 8,
     "coverage": 10,
     "strategy": 7,
-    "jobs_total": 1614,
+    "jobs_total": 1613,
     "stale_purged": 0,
-    "notes": "1614 jobs, all graded, all with links. Dashboard rebuilt July 7. Strategy and CRM at 7.",
+    "notes": "1613 jobs, all graded, all with links. Dashboard + coverage synced Jul 10.",
     "crm": 7
   },
   "log": [
