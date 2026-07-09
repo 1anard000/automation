@@ -51573,5 +51573,21 @@
     "url_type": "direct",
     "app_platform": "greenhouse",
     "app_difficulty": "easy"
+  },
+  {
+    "title": "增长策略产品-番茄小说（深圳）",
+    "company": "ByteDance",
+    "location": "Shenzhen",
+    "salary": "",
+    "url": "https://jobs.bytedance.com/experienced/position/7572492747567974709/detail",
+    "source": "bytedance_careers",
+    "role_type": "growth",
+    "english_friendly": false,
+    "city_normalized": "Shenzhen",
+    "scanned_date": "2026-07-09",
+    "grade": "B+",
+    "description": "负责番茄系国内多端（番茄小说、红果短剧）的流量增长策略，为用户规模和增长效率负责。通过各种拉活手段，结合用户生命周期特征建立长效拉新促活机制。2年以上产品经验，熟悉各类用户增长手段。",
+    "has_direct_link": true,
+    "url_type": "direct"
   }
 ]
