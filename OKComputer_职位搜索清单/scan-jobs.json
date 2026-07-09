@@ -60,18 +60,6 @@
     "posted": "2026-06-23T11:17:00-04:00"
   },
   {
-    "title": "Senior Program Manager, OMX SOTO",
-    "company": "Chime",
-    "location": "Remote, USA",
-    "salary": "",
-    "url": "https://boards.greenhouse.io/chime/jobs/8609155002?gh_jid=8609155002",
-    "source": "greenhouse",
-    "role_type": "program",
-    "description": "Senior role at Chime in Remote, USA.",
-    "grade": "",
-    "posted": "2026-07-07T13:11:02-04:00"
-  },
-  {
     "title": "Director, Accounts Management",
     "company": "Affirm",
     "location": "Remote US",
@@ -86,18 +74,6 @@
   {
     "title": "Director, People Business Partner",
     "company": "Affirm",
-    "location": "Remote US",
-    "salary": "",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7767432003",
-    "source": "greenhouse",
-    "role_type": "other",
-    "description": "Senior role at Affirm in Remote US.",
-    "grade": "",
-    "posted": "2026-06-15T16:19:55-04:00"
-  },
-  {
-    "title": "Director, People Business Partner",
-    "company": "Affirm",
     "location": "Remote Canada",
     "salary": "",
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7767434003",
@@ -108,16 +84,16 @@
     "posted": "2026-06-15T16:19:56-04:00"
   },
   {
-    "title": "Director, Product Management (Shopping & Offers)",
+    "title": "Director, People Business Partner",
     "company": "Affirm",
     "location": "Remote US",
     "salary": "",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7780490003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7767432003",
     "source": "greenhouse",
     "role_type": "other",
     "description": "Senior role at Affirm in Remote US.",
     "grade": "",
-    "posted": "2026-06-25T20:48:37-04:00"
+    "posted": "2026-06-15T16:19:55-04:00"
   },
   {
     "title": "Director, Product Management (Shopping & Offers)",
@@ -132,16 +108,16 @@
     "posted": "2026-06-25T20:48:46-04:00"
   },
   {
-    "title": "Senior Director, Enterprise Risk Management",
+    "title": "Director, Product Management (Shopping & Offers)",
     "company": "Affirm",
-    "location": "Remote Canada",
+    "location": "Remote US",
     "salary": "",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7743210003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7780490003",
     "source": "greenhouse",
     "role_type": "other",
-    "description": "Senior role at Affirm in Remote Canada.",
+    "description": "Senior role at Affirm in Remote US.",
     "grade": "",
-    "posted": "2026-06-10T20:55:18-04:00"
+    "posted": "2026-06-25T20:48:37-04:00"
   },
   {
     "title": "Senior Director, Enterprise Risk Management",
@@ -154,6 +130,18 @@
     "description": "Senior role at Affirm in Remote US.",
     "grade": "",
     "posted": "2026-06-10T20:55:17-04:00"
+  },
+  {
+    "title": "Senior Director, Enterprise Risk Management",
+    "company": "Affirm",
+    "location": "Remote Canada",
+    "salary": "",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7743210003",
+    "source": "greenhouse",
+    "role_type": "other",
+    "description": "Senior role at Affirm in Remote Canada.",
+    "grade": "",
+    "posted": "2026-06-10T20:55:18-04:00"
   },
   {
     "title": "Senior Manager, Accounting Policy & Reporting",
@@ -540,18 +528,6 @@
     "posted": "2026-06-30T11:01:39-04:00"
   },
   {
-    "title": "Sales Director, Majors (TOLA)",
-    "company": "Cloudflare",
-    "location": "Hybrid",
-    "salary": "",
-    "url": "https://boards.greenhouse.io/cloudflare/jobs/7983529?gh_jid=7983529",
-    "source": "greenhouse",
-    "role_type": "other",
-    "description": "Senior role at Cloudflare in Hybrid.",
-    "grade": "",
-    "posted": "2026-06-08T16:12:36-04:00"
-  },
-  {
     "title": "Senior Director, GTM Intelligence",
     "company": "Cloudflare",
     "location": "Hybrid",
@@ -648,18 +624,6 @@
     "posted": "2026-06-29T13:40:57-04:00"
   },
   {
-    "title": "Senior Manager, Clearing Operations",
-    "company": "Coinbase",
-    "location": "Remote - USA",
-    "salary": "",
-    "url": "https://www.coinbase.com/careers/positions/7981394?gh_jid=7981394",
-    "source": "greenhouse",
-    "role_type": "ops",
-    "description": "Senior role at Coinbase in Remote - USA.",
-    "grade": "",
-    "posted": "2026-06-08T17:17:47-04:00"
-  },
-  {
     "title": "Senior Manager, Finance & Strategy",
     "company": "Coinbase",
     "location": "Remote - USA",
@@ -706,6 +670,42 @@
     "description": "Senior role at Block in Melbourne, Australia.",
     "grade": "",
     "posted": "2026-06-23T17:44:01-04:00"
+  },
+  {
+    "title": "Senior Program Manager, OMX SOTO",
+    "company": "Chime",
+    "location": "Remote, USA",
+    "salary": "",
+    "url": "https://boards.greenhouse.io/chime/jobs/8609155002?gh_jid=8609155002",
+    "source": "greenhouse",
+    "role_type": "program",
+    "description": "Senior role at Chime in Remote, USA.",
+    "grade": "",
+    "posted": "2026-07-07T13:11:02-04:00"
+  },
+  {
+    "title": "Sales Director, Majors (TOLA)",
+    "company": "Cloudflare",
+    "location": "Hybrid",
+    "salary": "",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/7983529?gh_jid=7983529",
+    "source": "greenhouse",
+    "role_type": "other",
+    "description": "Senior role at Cloudflare in Hybrid.",
+    "grade": "",
+    "posted": "2026-06-08T16:12:36-04:00"
+  },
+  {
+    "title": "Senior Manager, Clearing Operations",
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "salary": "",
+    "url": "https://www.coinbase.com/careers/positions/7981394?gh_jid=7981394",
+    "source": "greenhouse",
+    "role_type": "ops",
+    "description": "Senior role at Coinbase in Remote - USA.",
+    "grade": "",
+    "posted": "2026-06-08T17:17:47-04:00"
   },
   {
     "title": "Head of Communications, APAC",
