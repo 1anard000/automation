@@ -1,112 +1,83 @@
 {
-  "generated_at": "2026-07-09T22:00:54.558580+00:00",
+  "generated_at": "2026-07-10T22:00:34.463895+00:00",
   "stats": {
-    "total_jobs": 808,
+    "total_jobs": 675,
     "jobs_by_location": {
-      "SG": 219,
-      "Remote": 191,
-      "HK": 140,
-      "SZ": 96,
-      "Seoul, South Korea": 22,
-      "SH": 21,
-      "Unknown": 18,
-      "Bangkok, Thailand": 17,
-      "Tokyo, Japan": 10,
-      "GZ": 9,
-      "Hangzhou": 8,
-      "Tokyo": 7,
-      "Taipei": 7,
-      "Bangkok": 6,
-      "Taipei, Taiwan": 5,
-      "Seoul": 4,
-      "Beijing": 4,
-      "Sydney, Australia": 3,
-      "South Korea": 3,
-      "Bengaluru": 3,
-      "Hybrid": 2,
-      "Taiwan": 2,
-      "Bengaluru, India": 1,
-      "Bengaluru, Karnataka, India": 1,
-      "India": 1,
-      "Bangkok (Central World Office)": 1,
-      "Bangkok / Kuala Lumpur": 1,
-      "Melbourne, Australia": 1,
-      "Osaka, Japan": 1,
-      "Hybrid - San Francisco": 1,
-      "Bangkok, Thailand; Jakarta, Indonesia; Kuala Lumpur, Malaysia; Manila, Philippines": 1,
-      "Manila, Philippines": 1,
-      "Bengaluru, India; Mumbai, India": 1
+      "SG": 183,
+      "Remote": 153,
+      "HK": 111,
+      "SZ": 82,
+      "Other": 78,
+      "BKK": 26,
+      "GZ": 16,
+      "Unknown": 13,
+      "SH": 13
     },
     "jobs_by_category": {
-      "PM": 505,
-      "Strategy": 81,
-      "Ops": 61,
-      "Other": 57,
-      "Growth": 38,
-      "Unknown": 25,
-      "Cross-border": 22,
-      "Program": 9,
-      "GM": 7,
-      "VC/PE": 3
+      "PM": 438,
+      "Other": 117,
+      "Strategy": 76,
+      "Growth": 32,
+      "Fintech": 12
     }
   },
-  "top_5_jobs": [
+  "top_5_scored_jobs": [
     {
       "title": "Principal Product Manager (Singapore Based)",
       "company": "Agoda",
       "location": "Hong Kong",
-      "quality_score": 100,
+      "score": 100,
       "quality_tier": "A",
       "category": "PM",
-      "job_id": "59084d5f315e"
+      "job_id": "59084d5f315e",
+      "url": "https://hk.linkedin.com/jobs/view/principal-product-manager-singapore-based-at-agoda-4429535801"
     },
     {
       "title": "Head of Communications, APAC",
       "company": "Stripe",
       "location": "Singapore",
-      "quality_score": 93,
+      "score": 93,
       "quality_tier": "A",
       "category": "PM",
-      "job_id": ""
+      "job_id": "",
+      "url": "https://stripe.com/jobs/search?gh_jid=7893199"
     },
     {
       "title": "Senior Integration Reliability Engineer, Technical Operations",
       "company": "Stripe",
       "location": "Singapore",
-      "quality_score": 91,
+      "score": 91,
       "quality_tier": "A",
-      "category": "Ops",
-      "job_id": ""
+      "category": "Other",
+      "job_id": "",
+      "url": "https://stripe.com/jobs/search?gh_jid=7457268"
     },
     {
       "title": "Country Manager",
       "company": "Datadog",
       "location": "Tokyo",
-      "quality_score": 90,
+      "score": 90,
       "quality_tier": "A",
-      "category": "GM",
-      "job_id": "6d43b0be0641"
+      "category": "Other",
+      "job_id": "6d43b0be0641",
+      "url": "https://careers.datadoghq.com/detail/7975747/?gh_jid=7975747"
     },
     {
       "title": "Senior Strategy Project Manager, VIP/Institutions",
       "company": "OKX",
-      "location": "Hong Kong",
-      "quality_score": 90,
+      "location": "Hong Kong, Hong Kong SAR",
+      "score": 90,
       "quality_tier": "A",
       "category": "Strategy",
-      "job_id": "970f6d459177"
+      "job_id": "970f6d459177",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7739163003"
     }
   ],
   "category_counts": {
-    "PM": 505,
-    "Strategy": 81,
-    "Ops": 61,
-    "Other": 57,
-    "Growth": 38,
-    "Unknown": 25,
-    "Cross-border": 22,
-    "Program": 9,
-    "GM": 7,
-    "VC/PE": 3
+    "PM": 438,
+    "Other": 117,
+    "Strategy": 76,
+    "Growth": 32,
+    "Fintech": 12
   }
 }
