@@ -160,15 +160,44 @@ h1{{font-size:28px;margin-bottom:4px;color:var(--text)}}
   <button class="filter-btn" onclick="setFilter('applied',this)">Applied</button>
   <button class="filter-btn" onclick="setFilter('not_applied',this)">Not Applied</button>
   <button class="filter-btn" onclick="setFilter('contacted',this)">Contacted</button>
-  <button class="filter-btn" onclick="setFilter('interviewing',this)">Interviewing</button>
+  <button class="filter-btn" onclick="setFilter('interviewing',this">Interviewing</button>
 </div>
 
-<div class="company-grid">
+"""
+    grade_order = {"S": 0, "A": 1, "A-1": 1, "A-2": 1, "A-3": 1, "B": 2, "B-1": 2, "B-2": 2, "B-3": 2, "C": 3}
+    
+    # Priority Jobs section — S/A grade jobs that are most actionable
+    priority_jobs = []
+    for j in jobs:
+        g = j.get("grade", "")
+        if g in ("S", "A", "A-"):
+            # Check if already applied
+            is_applied = any(
+                a.get("company","") == j.get("company","") and a.get("job_title","") == j.get("title","")
+                for a in applications
+            )
+            if not is_applied:
+                priority_jobs.append(j)
+    priority_jobs.sort(key=lambda j: grade_order.get(j.get("grade","?"), 4))
+    priority_jobs = priority_jobs[:15]  # Top 15
+    
+    if priority_jobs:
+        html += '<div class="section-title">🎯 Top Priority — Apply Now</div>\n'
+        html += '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:8px;margin-bottom:24px">\n'
+        for j in priority_jobs:
+            title = j.get("title","?")[:50]
+            company = j.get("company","?")
+            link = j.get("url","#")
+            grade = j.get("grade","?")
+            city = j.get("city_normalized", j.get("location",""))[:20]
+            gc = grade[0] if grade and grade[0] in "SABC" else "C"
+            html += f'<div style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px;display:flex;align-items:center;gap:8px"><span class="badge badge-{gc}" style="min-width:28px;text-align:center">{grade}</span><div style="flex:1;min-width:0"><a href="{link}" target="_blank" style="color:var(--text);text-decoration:none;font-size:13px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block">{title}</a><div style="font-size:11px;color:var(--dim)">{company} · {city}</div></div></div>\n'
+        html += '</div>\n'
+    
+    html += """<div class="company-grid">
 """
     
     # Company cards — sorted by grade then by application status
-    grade_order = {"S": 0, "A": 1, "A-1": 1, "A-2": 1, "A-3": 1, "B": 2, "B-1": 2, "B-2": 2, "B-3": 2, "C": 3}
-    
     sorted_companies = sorted(companies.items(), key=lambda x: (
         min(grade_order.get(j.get("grade","?"), 4) for j in x[1]["jobs"]),
         -len(x[1]["applications"]),
@@ -185,11 +214,17 @@ h1{{font-size:28px;margin-bottom:4px;color:var(--text)}}
         best_grade = min(co_grades, key=lambda g: grade_order.get(g, 4))
         grade_badges = "".join(f'<span class="badge badge-{(g[0] if g and g[0] in "SABC" else "C")}">{g}</span>' for g in sorted(set(co_grades), key=lambda g: grade_order.get(g, 4)))
         
-        # Application status
+        # Application status (company-level summary)
         app_status = ""
         if co_apps:
             latest = co_apps[-1].get("status", "not_started")
             app_status = f'<span class="job-status status-{latest}">{latest.replace("_"," ").title()}</span>'
+        
+        # Build per-job application map
+        job_app_map = {}
+        for a in co_apps:
+            key = (a.get("company",""), a.get("job_title",""))
+            job_app_map[key] = a.get("status", "not_started")
         
         # Contact info
         contact_html = ""
@@ -224,7 +259,13 @@ h1{{font-size:28px;margin-bottom:4px;color:var(--text)}}
             link = j.get("url", "#")
             grade = j.get("grade", "?") or "?"
             gc = grade[0] if grade and grade[0] in "SABC" else "C"
-            html += f'    <div class="job-item"><a href="{link}" target="_blank" class="job-title">{title}</a><span class="badge badge-{gc}">{grade}</span></div>\n'
+            # Per-job application status
+            jkey = (co_name, j.get("title",""))
+            j_status = job_app_map.get(jkey, "")
+            status_html = f'<span class="job-status status-{j_status}">{j_status.replace("_"," ").title()}</span>' if j_status else ''
+            # Copy URL button
+            copy_btn = f'<button onclick="navigator.clipboard.writeText(\"{link}\");this.textContent=\"✓ Copied\";setTimeout(()=>this.textContent=\"📋\",1500)" style="background:none;border:1px solid var(--border);color:var(--dim);cursor:pointer;padding:2px 6px;border-radius:4px;font-size:10px;margin-left:4px" title="Copy URL">📋</button>'
+            html += f'    <div class="job-item"><a href="{link}" target="_blank" class="job-title">{title}</a>{status_html}<span class="badge badge-{gc}">{grade}</span>{copy_btn}</div>\n'
         
         html += '  </div>\n</div>\n'
     
