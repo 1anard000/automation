@@ -752,6 +752,21 @@
       "score_before": 6,
       "score_after": 7,
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-07-11T06:00:00+08:00",
+      "type": "nightly-improver",
+      "action": "maintenance-cleanup",
+      "result": {
+        "before": 1636,
+        "after": 1132,
+        "stale_removed": 513,
+        "en_titles_filled": 595,
+        "summaries_filled": 703,
+        "tiers_filled": 397,
+        "sources": 53,
+        "companies": 237
+      }
     }
   ],
   "current_scores": {
