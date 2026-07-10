@@ -743,6 +743,15 @@
       "score_before": 7,
       "score_after": 8,
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-07-11T03:01:13.070157",
+      "dimension": "data_quality",
+      "task": "Backfill missing scanned_date for 290 jobs — used discovered/posted/first_published where available, stamped today for the rest",
+      "status": "completed",
+      "score_before": 6,
+      "score_after": 7,
+      "subagent": "nightly-improver"
     }
   ],
   "current_scores": {

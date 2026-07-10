@@ -109,7 +109,8 @@
     "grade": "A",
     "posted": "2026-05-21",
     "city_normalized": "Singapore",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-05-21"
   },
   {
     "title": "Director, Accounts Management",
@@ -126,7 +127,8 @@
     "quality_tier": "B",
     "summary": "Director, Accounts Management at Affirm in Remote US.",
     "discovered": "2026-06-26",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-26"
   },
   {
     "title": "Director, Product Management (Shopping & Offers)",
@@ -143,7 +145,8 @@
     "quality_tier": "B",
     "summary": "Director, Product Management (Shopping & Offers) at Affirm in Remote US.",
     "discovered": "2026-06-25",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-25"
   },
   {
     "title": "Associate Director, Global People Services and Help Desk (Bangkok Based -Relocation provided)",
@@ -482,7 +485,8 @@
     "grade": "A",
     "posted": "2026-06-06",
     "city_normalized": "Shanghai",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-06"
   },
   {
     "title": "Senior Manager, Strategic Alliances – Financial Institutions",
@@ -496,7 +500,8 @@
     "grade": "A",
     "posted": "2026-06-06",
     "city_normalized": "Shanghai",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-06"
   },
   {
     "title": "Head of Growth Marketing,  Asia ",
@@ -650,7 +655,8 @@
     "grade": "A",
     "posted": "2026-06-02",
     "city_normalized": "Singapore",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-02"
   },
   {
     "title": "Head of Product - Remote",
@@ -1218,7 +1224,8 @@
     "date_source": "estimated",
     "city_normalized": "Tokyo",
     "salary": "(est) USD 25,000-40,000/mo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-05-29"
   },
   {
     "title": "Head of HR",
@@ -1232,7 +1239,8 @@
     "grade": "A",
     "posted": "2026-06-14",
     "city_normalized": "Hong Kong",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-14"
   },
   {
     "title": "Head of Organization Development",
@@ -1246,7 +1254,8 @@
     "grade": "A",
     "posted": "2026-05-10",
     "city_normalized": "Hong Kong",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-05-10"
   },
   {
     "title": "Head of Trading Technology",
@@ -1260,7 +1269,8 @@
     "grade": "A",
     "posted": "2026-05-22",
     "city_normalized": "Hong Kong",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-05-22"
   },
   {
     "title": "Senior Product Manager, TikTok Shop HK",
@@ -1890,7 +1900,8 @@
     "en_title": "Solutions Expert - Video Cloud",
     "city_normalized": "Singapore",
     "discovered": "2026-07-05",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "Merchant Financing Solution Manager - Global Payment",
@@ -1909,7 +1920,8 @@
     "en_title": "Merchant Financing Solution Manager - Global Payment",
     "city_normalized": "Singapore",
     "discovered": "2026-07-05",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "大模型应用产品经理-火山引擎 (LLM Applications PM)",
@@ -4549,7 +4561,7 @@
     "description": "Senior role at Databricks in Remote - New York.",
     "grade": "A",
     "posted": "2026-05-28T13:09:20-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-05-28",
     "summary": "Sr. Director, Enterprise - Retail Vertical - Strategic Accounts at Databricks in Remote - New York (strategy)",
     "location_norm": "",
     "english_friendly": "",
@@ -5165,7 +5177,8 @@
     "quality_score": 65,
     "quality_tier": "B",
     "summary": "Staff Product Manager at Flexport in Shenzhen.",
-    "discovered": "2026-06-18"
+    "discovered": "2026-06-18",
+    "scanned_date": "2026-06-18"
   },
   {
     "title": "VP, Risk Analytics Product Manager",
@@ -5473,7 +5486,8 @@
     "quality_tier": "B",
     "summary": "Senior Manager, Business Development at Gitlab in Remote, Germany; Remote, Ireland; Remote, Netherlands; Remote, United Kingdom.",
     "discovered": "2026-06-26",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-26"
   },
   {
     "title": "Senior Manager, Security Compliance",
@@ -5490,7 +5504,8 @@
     "quality_tier": "B",
     "summary": "Senior Manager, Security Compliance at Gitlab in Remote, US.",
     "discovered": "2026-06-30",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-30"
   },
   {
     "title": "Strategy Consultant/Senior Manager (Healthcare)",
@@ -6788,7 +6803,8 @@
     "quality_tier": "B",
     "summary": "Head of Product - Business Lending at Mercury in San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States.",
     "discovered": "2026-07-01",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-01"
   },
   {
     "title": "Senior Product Manager / Director – Card Issuance",
@@ -9482,7 +9498,8 @@
     "grade": "A",
     "posted": "2026-06-03",
     "city_normalized": "Singapore",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-03"
   },
   {
     "title": "Principal Product Manager, Affiliate & KOL - Onshore Markets",
@@ -9496,7 +9513,8 @@
     "grade": "A",
     "posted": "2026-06-18",
     "city_normalized": "Singapore",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-18"
   },
   {
     "title": "Product Operations Manager / Director, Institutional Product",
@@ -9510,7 +9528,8 @@
     "grade": "A",
     "posted": "2026-05-18",
     "city_normalized": "Singapore",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-05-18"
   },
   {
     "title": "Senior Manager, RWA Partnerships & Operations",
@@ -9524,7 +9543,8 @@
     "grade": "A",
     "posted": "2026-06-05",
     "city_normalized": "Singapore",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-05"
   },
   {
     "title": "Senior Manager, Web3 Partnerships",
@@ -9538,7 +9558,8 @@
     "grade": "A",
     "posted": "2026-06-05",
     "city_normalized": "Hong Kong",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-05"
   },
   {
     "title": "Senior Risk Manager, Trading (AI-Augmented Operations)",
@@ -9552,7 +9573,8 @@
     "grade": "A",
     "posted": "2026-04-28",
     "city_normalized": "Singapore",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-04-28"
   },
   {
     "title": "Product Lead - Pricing",
@@ -11161,7 +11183,8 @@
     "date_source": "estimated",
     "city_normalized": "Sydney",
     "salary": "(est) USD 25,000-40,000/mo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06"
   },
   {
     "title": "Full Stack Engineer, Growth",
@@ -11572,7 +11595,8 @@
     "grade": "A",
     "posted": "2026-06-26",
     "city_normalized": "Singapore",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-26"
   },
   {
     "title": "Product Lead, Project R.I.S.E",
@@ -12604,7 +12628,8 @@
     "summary": "Operative Product Manager at 伟创力研发 in 深圳. Salary: 2-3.5万·14薪",
     "en_title": "Operative Product Manager",
     "city_normalized": "Shenzhen",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "商业策略运营",
@@ -12673,7 +12698,8 @@
     "summary": "Senior IT Product Manager at 利华设计院 in 深圳·宝安区. Salary: 4-6万/月",
     "en_title": "Senior IT Product Manager",
     "city_normalized": "Shenzhen",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "Product Manager, Simulation Peripherals",
@@ -12691,7 +12717,8 @@
     "summary": "Product Manager, Simulation Peripherals at 可赛尔 in 深圳·南山区. Salary: 2-2.6万·13薪",
     "en_title": "Product Manager, Simulation Peripherals",
     "city_normalized": "Shenzhen",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "AI数据产品经理",
@@ -12709,7 +12736,8 @@
     "summary": "AI数据产品经理 at 嘉立创科技 in 深圳·福田区. Salary: 2-4万/月",
     "en_title": "AI Data Product Manager",
     "city_normalized": "Shenzhen",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "Product Manager 产品经理",
@@ -12727,7 +12755,8 @@
     "summary": "Product Manager at 太吉采购信息咨询 in 深圳·福田区. Salary: 2-2.5万·13薪",
     "en_title": "Product Manager",
     "city_normalized": "Shenzhen",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "Product Manager -Data &Insights",
@@ -12745,7 +12774,8 @@
     "summary": "Product Manager -Data &Insights at 太吉采购信息咨询 in 深圳·福田区. Salary: 2-2.8万·13薪",
     "en_title": "Product Manager - Data & Insights",
     "city_normalized": "Shenzhen",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "海外商业化产品经理",
@@ -12788,7 +12818,8 @@
     "summary": "Product Manager - Social App at 希贾兹管理咨询 in 深圳. Salary: 2-3万/月",
     "en_title": "Product Manager - Social App",
     "city_normalized": "Shenzhen",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "海外工具类产品负责人（IAP) 2C - 幂动科技",
@@ -13640,7 +13671,8 @@
     "summary": "市场经理（Product Manager）at 豪威科技 in 深圳. Salary: 2-3万·13薪",
     "en_title": "Market Manager (Product Manager)",
     "city_normalized": "Shenzhen",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "高级产品经理 Product Manager (Banking)",
@@ -13861,7 +13893,8 @@
     "summary": "AI Product Manager at Kingdee (HK-listed enterprise SaaS leader). AI product strategy, native product design, commercialization. 5+ years PM, GenAI/LLM experience required.",
     "discovered": "2026-07-05",
     "status": "not_applied",
-    "status_date": "2026-07-05"
+    "status_date": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "用户增长负责人",
@@ -13911,7 +13944,8 @@
     "summary": "Global ISV partner development at Alibaba Cloud. Cross-border partnerships, ecosystem building. 5+ years in partner/alliance management.",
     "discovered": "2026-07-05",
     "status": "not_applied",
-    "status_date": "2026-07-05"
+    "status_date": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "Product Manager / Product Director, Copy Trading / Trading Bot - P2P",
@@ -15077,7 +15111,7 @@
     "description": "Senior role at Affirm in Remote Canada.",
     "grade": "A-",
     "posted": "2026-05-29T19:22:49-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-05-29",
     "summary": "Director, Learning at Affirm in Remote Canada (other)",
     "location_norm": "",
     "english_friendly": "",
@@ -15125,7 +15159,7 @@
     "description": "Senior role at Affirm in Remote US.",
     "grade": "A-",
     "posted": "2026-06-15T16:19:55-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-15",
     "summary": "Director, People Business Partner at Affirm in Remote US (other)",
     "location_norm": "",
     "english_friendly": "",
@@ -15173,7 +15207,7 @@
     "description": "Senior role at Affirm in Remote Canada.",
     "grade": "A-",
     "posted": "2026-06-10T20:55:18-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-10",
     "summary": "Senior Director, Enterprise Risk Management at Affirm in Remote Canada (other)",
     "location_norm": "",
     "english_friendly": "",
@@ -15221,7 +15255,7 @@
     "description": "Senior role at Affirm in Remote US.",
     "grade": "A-",
     "posted": "2026-06-12T11:27:56-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-12",
     "summary": "Senior Manager, Accounting Policy & Reporting at Affirm in Remote US (other)",
     "location_norm": "",
     "english_friendly": "",
@@ -15273,7 +15307,8 @@
     "quality_tier": "B",
     "summary": "Senior Product Manager, Capital at Affirm in Remote Canada.",
     "discovered": "2026-07-01",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-01"
   },
   {
     "title": "Senior Product Manager, Credit & Pricing",
@@ -15290,7 +15325,8 @@
     "quality_tier": "B",
     "summary": "Senior Product Manager, Credit & Pricing at Affirm in Remote Canada.",
     "discovered": "2026-06-29",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-29"
   },
   {
     "title": "Analyst/Senior Analyst/Associate Manager, Corporate Strategy (Bangkok Based)",
@@ -17696,7 +17732,8 @@
     "grade": "A-",
     "posted": "2026-06-24",
     "city_normalized": "Bangkok",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-24"
   },
   {
     "title": "2026 - RTA - Senior Area Manager / Associate Director, Business Development - South Korea & APAC (Seoul Based)",
@@ -17710,7 +17747,8 @@
     "grade": "A-",
     "posted": "2026-06-24",
     "city_normalized": "Seoul",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-24"
   },
   {
     "title": "Senior Area Manager/Associate Director, Business Development - South Korea & APAC (Based in Seoul/Bangkok/Singapore) (Korean Speaking)",
@@ -17724,7 +17762,8 @@
     "grade": "A-",
     "posted": "2026-06-15",
     "city_normalized": "Seoul",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-15"
   },
   {
     "title": "Senior Product Manager (Japanese or Korean Speaking) – Bangkok or Tokyo Based",
@@ -17847,7 +17886,8 @@
     "posted_date": "2026-06-03T10:54:11",
     "date_source": "estimated",
     "city_normalized": "Sydney",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-11"
   },
   {
     "title": "Growth Marketing Lead, Japan",
@@ -18242,7 +18282,8 @@
     "date_source": "estimated",
     "city_normalized": "Sydney",
     "salary": "(est) USD 28,000-45,000/mo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-04-07"
   },
   {
     "title": "Head of Enterprise Sales - Industries, ANZ",
@@ -18264,7 +18305,8 @@
     "date_source": "estimated",
     "city_normalized": "Sydney",
     "salary": "(est) USD 28,000-45,000/mo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06"
   },
   {
     "title": "Data Center Facility Operations Lead",
@@ -18629,7 +18671,8 @@
     "posted_date": "2026-06-03T21:27:31",
     "date_source": "estimated",
     "city_normalized": "Sydney",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-01"
   },
   {
     "title": "Product Manager - Trading",
@@ -19488,7 +19531,8 @@
     "date_source": "estimated",
     "city_normalized": "Remote IN",
     "salary": "(est) USD 25,000-40,000/mo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-05-27"
   },
   {
     "title": "Director of Talent Acquisition, APJC",
@@ -19501,7 +19545,7 @@
     "description": "Senior role at Cloudflare in Hybrid.",
     "grade": "A-",
     "posted": "2026-06-18T15:38:09-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-18",
     "summary": "Director of Talent Acquisition, APJC at Cloudflare in Hybrid (other)",
     "location_norm": "",
     "english_friendly": "",
@@ -19549,7 +19593,7 @@
     "description": "Senior role at Cloudflare in Hybrid.",
     "grade": "A-",
     "posted": "2026-06-12T14:31:27-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-12",
     "summary": "Principal People Team Business Partner - M&A / Strategy at Cloudflare in Hybrid (strategy)",
     "location_norm": "",
     "english_friendly": "",
@@ -19597,7 +19641,7 @@
     "description": "Senior role at Cloudflare in Hybrid.",
     "grade": "A-",
     "posted": "2026-06-08T16:12:36-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-08",
     "summary": "Sales Director, Majors (TOLA) at Cloudflare in Hybrid (other)",
     "location_norm": "",
     "english_friendly": "",
@@ -19645,7 +19689,7 @@
     "description": "Senior role at Cloudflare in Hybrid.",
     "grade": "A-",
     "posted": "2026-06-03T19:31:44-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-03",
     "summary": "Senior Director, Field Marketing, APAC at Cloudflare in Hybrid (other)",
     "location_norm": "",
     "english_friendly": "",
@@ -19693,7 +19737,7 @@
     "description": "Senior role at Cloudflare in Hybrid.",
     "grade": "A-",
     "posted": "2026-06-16T11:31:25-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-16",
     "summary": "Senior Product Manager - Ad Fraud (Application Security) at Cloudflare in Hybrid (product)",
     "location_norm": "",
     "english_friendly": "",
@@ -19741,7 +19785,7 @@
     "description": "Senior role at Cloudflare in Hybrid.",
     "grade": "A-",
     "posted": "2026-06-09T15:20:33-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-09",
     "summary": "Territory Sales Director, NYC at Cloudflare in Hybrid (other)",
     "location_norm": "",
     "english_friendly": "",
@@ -19885,7 +19929,7 @@
     "description": "Senior role at Coinbase in Remote - USA.",
     "grade": "A-",
     "posted": "2026-06-11T17:26:18-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-11",
     "summary": "Deputy Chief Regulatory Officer, Coinbase Derivatives at Coinbase in Remote - USA (other)",
     "location_norm": "",
     "english_friendly": "",
@@ -19933,7 +19977,7 @@
     "description": "Senior role at Coinbase in Remote - USA.",
     "grade": "A-",
     "posted": "2026-06-09T12:24:25-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-09",
     "summary": "Senior Manager, Finance & Strategy at Coinbase in Remote - USA (strategy)",
     "location_norm": "",
     "english_friendly": "",
@@ -20073,7 +20117,8 @@
     "quality_tier": "B",
     "summary": "Senior Litigation Paralegal at Coinbase in Remote - USA.",
     "discovered": "2026-06-29",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-29"
   },
   {
     "title": "Senior Product Manager, Quantitative Copy Trading",
@@ -22973,7 +23018,8 @@
     "description": "GTM leader for manufacturing/auto industry across APJ at Databricks. AI platform go-to-market.",
     "grade": "A-",
     "posted": "2026-04-21T00:51:23-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-04-21"
   },
   {
     "title": "Senior Billing Operations Analyst",
@@ -22998,7 +23044,8 @@
     "posted_date": "2026-06-05T12:09:46",
     "date_source": "estimated",
     "city_normalized": "Tokyo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Regional Manager, Sales Engineering - Public Sector",
@@ -23400,7 +23447,8 @@
     "quality_score": 65,
     "quality_tier": "B",
     "summary": "Senior Manager, Commercial Sales (Singapore) at Figma in Singapore.",
-    "discovered": "2026-06-20"
+    "discovered": "2026-06-20",
+    "scanned_date": "2026-06-20"
   },
   {
     "title": "Senior Product Manager at FinPay",
@@ -23467,7 +23515,8 @@
     "summary": "Senior Manager, Account Management at Flexport in Shanghai. Senior account management at Flexport Shanghai.",
     "quality_score": 68,
     "quality_tier": "B",
-    "discovered": "2026-06-25"
+    "discovered": "2026-06-25",
+    "scanned_date": "2026-06-25"
   },
   {
     "title": "Senior Product Manager [ Fintech | Trading | Brokerage Platform]",
@@ -23700,7 +23749,8 @@
     "description": "Regional sales director covering ASEAN and Korea at GitLab. DevOps platform, cross-border expansion.",
     "grade": "A-",
     "posted": "2026-03-29T01:53:21-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-03-29"
   },
   {
     "title": "Principal Product Manager, AI Custom Models",
@@ -23724,7 +23774,8 @@
     "date_source": "estimated",
     "city_normalized": "Remote US",
     "salary": "(est) USD 20,000-30,000/mo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-05-27"
   },
   {
     "title": "Senior Director, Deal Desk",
@@ -23737,7 +23788,7 @@
     "description": "Senior role at Gitlab in Remote, US.",
     "grade": "A-",
     "posted": "2026-06-15T13:11:29-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-15",
     "summary": "Senior Director, Deal Desk at Gitlab in Remote, US (other)",
     "location_norm": "",
     "english_friendly": "",
@@ -23785,7 +23836,7 @@
     "description": "Senior role at Gitlab in Remote, US.",
     "grade": "A-",
     "posted": "2026-06-16T21:06:14-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-16",
     "summary": "Senior Director, Procurement at Gitlab in Remote, US (other)",
     "location_norm": "",
     "english_friendly": "",
@@ -25498,7 +25549,7 @@
     "description": "Senior role at Mercury in San Francisco, CA, New York, NY, Portland, OR, or Remote within United States.",
     "grade": "A-",
     "posted": "2026-06-02T18:08:44-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-02",
     "summary": "Deputy Chief Information Security Officer - Bank at Mercury in San Francisco, CA, New York, NY, Portland, OR, or Remote within United States (other)",
     "location_norm": "",
     "english_friendly": "",
@@ -25546,7 +25597,7 @@
     "description": "Senior role at Mercury in San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States.",
     "grade": "A-",
     "posted": "2026-06-18T19:24:50-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-18",
     "summary": "Head of Technical Program Management - Banking at Mercury in San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States (other)",
     "location_norm": "",
     "english_friendly": "",
@@ -25594,7 +25645,7 @@
     "description": "Senior role at Mercury in San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States.",
     "grade": "A-",
     "posted": "2026-06-03T18:44:32-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-03",
     "summary": "Senior Manager, Product Marketing - Growth & Revenue at Mercury in San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States (other)",
     "location_norm": "",
     "english_friendly": "",
@@ -25642,7 +25693,7 @@
     "description": "Senior role at Mercury in San Francisco, CA, New York, NY, Portland, OR, or Remote within United States.",
     "grade": "A-",
     "posted": "2026-05-28T12:31:06-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-05-28",
     "summary": "Senior People Partner - Legal, Compliance, & Risk at Mercury in San Francisco, CA, New York, NY, Portland, OR, or Remote within United States (other)",
     "location_norm": "",
     "english_friendly": "",
@@ -25690,7 +25741,7 @@
     "description": "Senior role at Mercury in San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States.",
     "grade": "A-",
     "posted": "2026-06-02T19:43:10-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-02",
     "summary": "Senior Recruiter - Compliance at Mercury in San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States (other)",
     "location_norm": "",
     "english_friendly": "",
@@ -25742,7 +25793,8 @@
     "quality_tier": "B",
     "summary": "Senior Financial Partnerships Manager - Lending at Mercury in San Francisco, CA, New York, NY, Portland, OR, or Remote within United States.",
     "discovered": "2026-06-24",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-24"
   },
   {
     "title": "Senior Product Partnerships Manager - Payroll",
@@ -25759,7 +25811,8 @@
     "quality_tier": "B",
     "summary": "Senior Product Partnerships Manager - Payroll at Mercury in San Francisco, CA, New York, NY, Portland, OR, or Remote within United States.",
     "discovered": "2026-06-29",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-29"
   },
   {
     "title": "Product Manager - Growth & Monetization",
@@ -27122,7 +27175,8 @@
     "grade": "A-",
     "posted": "2026-05-18",
     "city_normalized": "Singapore",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-05-18"
   },
   {
     "title": "Senior Product Designer, Trading",
@@ -27136,7 +27190,8 @@
     "grade": "A-",
     "posted": "2025-03-05",
     "city_normalized": "Singapore",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2025-03-05"
   },
   {
     "title": "Senior Product Designer, Wallets",
@@ -27150,7 +27205,8 @@
     "grade": "A-",
     "posted": "2025-04-16",
     "city_normalized": "Singapore",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2025-04-16"
   },
   {
     "title": "Growth & AI Initiatives Manager 增长与 AI 专项经理",
@@ -28488,7 +28544,8 @@
     "quality_score": 78,
     "posted_date": "2026-06-07T20:27:35",
     "date_source": "estimated",
-    "city_normalized": "Singapore"
+    "city_normalized": "Singapore",
+    "scanned_date": "2026-06"
   },
   {
     "title": "Commercial Solutions Program Manager",
@@ -29822,7 +29879,8 @@
     "grade": "A-",
     "posted": "2026-06-19",
     "city_normalized": "Bangalore",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-19"
   },
   {
     "title": "Head of Platforms Sales, Australia and New Zealand",
@@ -29836,7 +29894,8 @@
     "grade": "A-",
     "posted": "2026-03-31",
     "city_normalized": "Sydney",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-03-31"
   },
   {
     "title": "Senior Procurement Manager (Cloud/AI)",
@@ -30103,7 +30162,8 @@
     "date_source": "estimated",
     "city_normalized": "Remote IN",
     "salary": "(est) USD 25,000-40,000/mo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-10"
   },
   {
     "title": "Director, EMEA Strategic Sales North",
@@ -30116,7 +30176,7 @@
     "description": "Senior role at Twilio in Remote - United Kingdom.",
     "grade": "A-",
     "posted": "2026-06-18T11:23:42-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-18",
     "summary": "Director, EMEA Strategic Sales North at Twilio in Remote - United Kingdom (strategy)",
     "location_norm": "",
     "english_friendly": "",
@@ -30164,7 +30224,7 @@
     "description": "Senior role at Twilio in Remote - US.",
     "grade": "A-",
     "posted": "2026-06-12T13:33:33-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-12",
     "summary": "Director, R&D Finance at Twilio in Remote - US (other)",
     "location_norm": "",
     "english_friendly": "",
@@ -30212,7 +30272,7 @@
     "description": "Senior role at Twilio in Remote - US.",
     "grade": "A-",
     "posted": "2026-06-12T12:56:39-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-12",
     "summary": "Director, Sales Business Partner at Twilio in Remote - US (other)",
     "location_norm": "",
     "english_friendly": "",
@@ -30260,7 +30320,7 @@
     "description": "Senior role at Twilio in Remote - US.",
     "grade": "A-",
     "posted": "2026-06-05T12:53:31-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-05",
     "summary": "Principal, Marketing Architecture & Strategy at Twilio in Remote - US (strategy)",
     "location_norm": "",
     "english_friendly": "",
@@ -30308,7 +30368,7 @@
     "description": "Senior role at Twilio in Remote - US.",
     "grade": "A-",
     "posted": "2026-06-16T18:20:26-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-16",
     "summary": "Principal Price Realization Strategy Manager at Twilio in Remote - US (strategy)",
     "location_norm": "",
     "english_friendly": "",
@@ -30356,7 +30416,7 @@
     "description": "Senior role at Twilio in Remote - Canada.",
     "grade": "A-",
     "posted": "2026-06-01T18:00:16-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-01",
     "summary": "Senior Manager, GTMA Analysis and Compliance at Twilio in Remote - Canada (gtm)",
     "location_norm": "",
     "english_friendly": "",
@@ -30404,7 +30464,7 @@
     "description": "Senior role at Twilio in Remote - US.",
     "grade": "A-",
     "posted": "2026-06-16T17:44:13-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-16",
     "summary": "Senior Price Realization Strategy Manager at Twilio in Remote - US (strategy)",
     "location_norm": "",
     "english_friendly": "",
@@ -30564,7 +30624,7 @@
     "description": "Senior role at Vercel in Hybrid - San Francisco.",
     "grade": "A-",
     "posted": "2026-06-05T17:37:41-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-05",
     "summary": "Head of Workplace Strategy & Operations at Vercel in Hybrid - San Francisco (strategy)",
     "location_norm": "",
     "english_friendly": "",
@@ -30757,7 +30817,7 @@
     "description": "Senior role at Webflow in CA Remote (BC & ON only); U.S. Remote.",
     "grade": "A-",
     "posted": "2026-06-05T14:04:32-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-05",
     "summary": "Senior Business Development Manager, Technology Partnerships at Webflow in CA Remote (BC & ON only); U.S. Remote (bd)",
     "location_norm": "",
     "english_friendly": "",
@@ -30805,7 +30865,7 @@
     "description": "Senior role at Webflow in U.S. Remote.",
     "grade": "A-",
     "posted": "2026-06-06T00:57:27-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-06",
     "summary": "Senior Director, Customer Success at Webflow in U.S. Remote (other)",
     "location_norm": "",
     "english_friendly": "",
@@ -38363,7 +38423,8 @@
     "grade": "B",
     "posted": "2026-03-25",
     "city_normalized": "Mumbai",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-03-25"
   },
   {
     "title": "Product Operations Analyst",
@@ -38482,7 +38543,8 @@
     "grade": "B",
     "posted": "2026-01-05",
     "city_normalized": "Bangkok",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-01-05"
   },
   {
     "title": "Senior Manager, Flights Supply (Greater China)",
@@ -38678,7 +38740,8 @@
     "quality_score": 80,
     "quality_tier": "A",
     "summary": "Head of Growth Marketing, Asia at Airbnb in Singapore.",
-    "discovered": "2026-05-14"
+    "discovered": "2026-05-14",
+    "scanned_date": "2026-05-14"
   },
   {
     "title": "Account Executive - ASEAN",
@@ -38702,7 +38765,8 @@
     "posted_date": "2026-06-12T16:34:19",
     "date_source": "estimated",
     "city_normalized": "Sydney",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-12"
   },
   {
     "title": "Regional Research Economist, Economic Research",
@@ -38786,7 +38850,8 @@
     "grade": "B",
     "posted": "2026-06-24",
     "city_normalized": "Sydney",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-24"
   },
   {
     "title": "Senior Compliance Manager, Afterpay ANZ",
@@ -38804,7 +38869,8 @@
     "summary": "Senior Compliance Manager, Afterpay ANZ at Block (Square/Cash App) in Sydney, Australia. Senior compliance at Afterpay/Block ANZ.",
     "quality_score": 83,
     "quality_tier": "A",
-    "discovered": "2026-04-01"
+    "discovered": "2026-04-01",
+    "scanned_date": "2026-04-01"
   },
   {
     "title": "Senior Manager, Territory Sales (Based in Tokyo)",
@@ -38822,7 +38888,8 @@
     "summary": "Senior Manager, Territory Sales (Based in Tokyo) at Cloudflare in Tokyo, Japan. Senior territory sales at Cloudflare Japan.",
     "quality_score": 83,
     "quality_tier": "A",
-    "discovered": "2026-05-15"
+    "discovered": "2026-05-15",
+    "scanned_date": "2026-05-15"
   },
   {
     "title": "Group Product Manager, Compliance Automation",
@@ -39091,7 +39158,7 @@
     "description": "Senior role at Coinbase in Remote - USA.",
     "grade": "B",
     "posted": "2026-06-08T17:17:47-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-08",
     "summary": "Senior Manager, Clearing Operations at Coinbase in Remote - USA (ops)",
     "location_norm": "",
     "english_friendly": "",
@@ -39144,7 +39211,8 @@
     "summary": "Senior Account Manager at Coinbase in Remote - Singapore. Senior account management at Coinbase Singapore.",
     "quality_score": 83,
     "quality_tier": "A",
-    "discovered": "2026-05-20"
+    "discovered": "2026-05-20",
+    "scanned_date": "2026-05-20"
   },
   {
     "title": "[쿠팡 Ads] Product Specialist (광고 프로덕트 전략 및 GTM 전문가)",
@@ -39605,7 +39673,8 @@
     "description": "Marketing leadership for Japan at Databricks. AI/data platform, market strategy.",
     "grade": "B",
     "posted": "2026-04-12T20:16:43-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-04-12"
   },
   {
     "title": "Director, Lakebase Sales Specialists",
@@ -39618,7 +39687,8 @@
     "description": "Sales specialist director at Databricks Sydney. AI/data platform.",
     "grade": "B",
     "posted": "2026-06-10T01:05:27-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-10"
   },
   {
     "title": "Head of Enterprise Sales, Japan",
@@ -39631,7 +39701,8 @@
     "description": "Enterprise sales leadership for Japan at Datadog. SaaS observability platform.",
     "grade": "B",
     "posted": "2026-02-01T00:00:00-05:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-02-01"
   },
   {
     "title": "Head of Channels & Alliances",
@@ -39644,7 +39715,8 @@
     "description": "Channels and alliances leadership at Datadog Seoul. Partner ecosystem, SaaS platform.",
     "grade": "B",
     "posted": "2026-01-01T00:00:00-05:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-01-01"
   },
   {
     "title": "Senior Business Development Manager",
@@ -39662,7 +39734,8 @@
     "summary": "Senior Business Development Manager at Epic Games in Shanghai. Senior BD at Epic Games Shanghai.",
     "quality_score": 83,
     "quality_tier": "A",
-    "discovered": "2026-06-20"
+    "discovered": "2026-06-20",
+    "scanned_date": "2026-06-20"
   },
   {
     "title": "Senior Sales Enablement Manager",
@@ -39675,7 +39748,8 @@
     "description": "Sales enablement at Figma Singapore. Strategy, go-to-market operations.",
     "grade": "B",
     "posted": "2026-06-01T00:00:00-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-01"
   },
   {
     "title": "Senior Manager, Enterprise Sales",
@@ -39688,7 +39762,8 @@
     "description": "Enterprise sales at Figma Tokyo. Design tools, SaaS platform.",
     "grade": "B",
     "posted": "2026-03-01T00:00:00-05:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-03-01"
   },
   {
     "title": "Senior Manager, Customer Experience & Solutions",
@@ -39701,7 +39776,8 @@
     "description": "Customer experience leadership at Figma Tokyo. Solutions, platform strategy.",
     "grade": "B",
     "posted": "2026-04-01T00:00:00-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-04-01"
   },
   {
     "title": "Ocean Operations Specialist",
@@ -39754,7 +39830,8 @@
     "summary": "Senior Manager, FP&A at Flexport in Singapore. Senior FP&A at Flexport Singapore.",
     "quality_score": 83,
     "quality_tier": "A",
-    "discovered": "2026-06-10"
+    "discovered": "2026-06-10",
+    "scanned_date": "2026-06-10"
   },
   {
     "title": "Senior Manager, Ocean Gateway, Japan",
@@ -39772,7 +39849,8 @@
     "summary": "Senior Manager, Ocean Gateway, Japan at Flexport in Tokyo, Japan. Senior manager for ocean freight gateway at Flexport Japan.",
     "quality_score": 83,
     "quality_tier": "A",
-    "discovered": "2026-06-05"
+    "discovered": "2026-06-05",
+    "scanned_date": "2026-06-05"
   },
   {
     "title": "Senior Air Freight Manager, Taiwan",
@@ -39790,7 +39868,8 @@
     "summary": "Senior Air Freight Manager, Taiwan at Flexport in Taipei, Taiwan. Senior air freight manager at Flexport Taiwan.",
     "quality_score": 83,
     "quality_tier": "A",
-    "discovered": "2026-04-01"
+    "discovered": "2026-04-01",
+    "scanned_date": "2026-04-01"
   },
   {
     "title": "Senior Program Manager, Enterprise Technology & AI",
@@ -39803,7 +39882,8 @@
     "description": "Program management for enterprise AI at GitLab. DevOps platform, AI products.",
     "grade": "B",
     "posted": "2026-07-06T08:34:18-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-06"
   },
   {
     "title": "Senior Manager, CX Services Operations",
@@ -39816,7 +39896,7 @@
     "description": "Senior role at Gitlab in Remote, US.",
     "grade": "B",
     "posted": "2026-05-27T09:33:33-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-05-27",
     "summary": "Senior Manager, CX Services Operations at Gitlab in Remote, US (ops)",
     "location_norm": "",
     "english_friendly": "",
@@ -39864,7 +39944,7 @@
     "description": "Senior role at Gitlab in Remote, Ireland; Remote, Israel; Remote, United Kingdom.",
     "grade": "B",
     "posted": "2026-06-02T12:26:11-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-06-02",
     "summary": "Senior Product Manager, AI Platform Management at Gitlab in Remote, Ireland; Remote, Israel; Remote, United Kingdom (product)",
     "location_norm": "",
     "english_friendly": "",
@@ -39912,7 +39992,7 @@
     "description": "Senior role at Mercury in San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States.",
     "grade": "B",
     "posted": "2026-05-22T15:37:26-04:00",
-    "scanned_date": "",
+    "scanned_date": "2026-05-22",
     "summary": "Senior Privacy Program Manager at Mercury in San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States (program)",
     "location_norm": "",
     "english_friendly": "",
@@ -40136,7 +40216,8 @@
     "grade": "B",
     "posted": "2025-07-21",
     "city_normalized": "Hong Kong",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2025-07-21"
   },
   {
     "title": "Senior Manager / Director, Growth Operation",
@@ -40150,7 +40231,8 @@
     "grade": "B",
     "posted": "2026-05-08",
     "city_normalized": "Hong Kong",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-05-08"
   },
   {
     "title": "Senior Product Designer",
@@ -40164,7 +40246,8 @@
     "grade": "B",
     "posted": "2024-10-18",
     "city_normalized": "Singapore",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2024-10-18"
   },
   {
     "title": "Senior Product Designer, Cefi",
@@ -40178,7 +40261,8 @@
     "grade": "B",
     "posted": "2024-03-13",
     "city_normalized": "Hong Kong",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2024-03-13"
   },
   {
     "title": "Senior Product Designer, Chat Experience",
@@ -40192,7 +40276,8 @@
     "grade": "B",
     "posted": "2025-05-16",
     "city_normalized": "Singapore",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2025-05-16"
   },
   {
     "title": "Senior Product Designer, Pay",
@@ -40206,7 +40291,8 @@
     "grade": "B",
     "posted": "2026-05-13",
     "city_normalized": "Singapore",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-05-13"
   },
   {
     "title": "Senior Product Designer, User Growth",
@@ -40220,7 +40306,8 @@
     "grade": "B",
     "posted": "2025-05-20",
     "city_normalized": "Singapore",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2025-05-20"
   },
   {
     "title": "Principal/Senior Product Manager, Growth",
@@ -40613,7 +40700,8 @@
     "description": "Strategic sales at Twilio Singapore. API platform, enterprise partnerships.",
     "grade": "B",
     "posted": "2026-02-12T06:14:25-05:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-02-12"
   },
   {
     "title": "APAC Senior Regional Operations Manager, Uber Mobility",
@@ -41008,7 +41096,8 @@
     "grade": "C",
     "posted": "2026-05-13",
     "city_normalized": "Singapore",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-05-13"
   },
   {
     "title": "Senior Content Manager, APAC",
@@ -41026,7 +41115,8 @@
     "summary": "Senior Content Manager, APAC at Adyen in Singapore. Senior content management for APAC at Adyen.",
     "quality_score": 78,
     "quality_tier": "A",
-    "discovered": "2026-05-15"
+    "discovered": "2026-05-15",
+    "scanned_date": "2026-05-15"
   },
   {
     "title": "Associate Director - Data Analytics Customer Experience Group (Bangkok based, relocation provided)",
@@ -41040,7 +41130,8 @@
     "grade": "C",
     "posted": "2026-05-12",
     "city_normalized": "Bangkok",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-05-12"
   },
   {
     "title": "Associate Director - Flights Marketing (Bangkok-based, relocation provided)",
@@ -41054,7 +41145,8 @@
     "grade": "C",
     "posted": "2026-01-15",
     "city_normalized": "Bangkok",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-01-15"
   },
   {
     "title": "Manager/Senior Manager, Supply Analytics (Bangkok Based Relocation Benefits Provided)",
@@ -41068,7 +41160,8 @@
     "grade": "C",
     "posted": "2026-03-20",
     "city_normalized": "Bangkok",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-03-20"
   },
   {
     "title": "Manager/Senior Manager, Technical Account Management – Travel Distribution (Bangkok-based)",
@@ -41082,7 +41175,8 @@
     "grade": "C",
     "posted": "2026-05-16",
     "city_normalized": "New Delhi",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-05-16"
   },
   {
     "title": "Manager, Technical Partner API – Travel Distribution (Bangkok-based)",
@@ -41096,7 +41190,8 @@
     "grade": "C",
     "posted": "2026-05-16",
     "city_normalized": "Bangkok",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-05-16"
   },
   {
     "title": "Partner Onboarding Specialist - Tokyo, Japan (6 Month Contract)",
@@ -41110,7 +41205,8 @@
     "grade": "C",
     "posted": "2026-01-12",
     "city_normalized": "Tokyo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-01-12"
   },
   {
     "title": "Partner Programs Specialist (Bangkok Based)",
@@ -41124,7 +41220,8 @@
     "grade": "C",
     "posted": "2026-06-10",
     "city_normalized": "Bangkok",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-10"
   },
   {
     "title": "Principal Google Workspace Administrator (Bangkok based, relocation provided)",
@@ -41138,7 +41235,8 @@
     "grade": "C",
     "posted": "2026-06-04",
     "city_normalized": "Bangkok",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-04"
   },
   {
     "title": "Senior Manager/Associate Director, Supply Analytics (Bangkok-based, Relocation Benefits provided)",
@@ -41152,7 +41250,8 @@
     "grade": "C",
     "posted": "2025-06-03",
     "city_normalized": "Bangkok",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2025-06-03"
   },
   {
     "title": "Senior Manager, Employee Relations (Bangkok-based, Relocation Provided)",
@@ -41166,7 +41265,8 @@
     "grade": "C",
     "posted": "2026-03-12",
     "city_normalized": "Bangkok",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-03-12"
   },
   {
     "title": "Senior Manager, Engagement & Change Management – Bangkok",
@@ -41180,7 +41280,8 @@
     "grade": "C",
     "posted": "2026-03-04",
     "city_normalized": "Bangkok",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-03-04"
   },
   {
     "title": "Senior Manager, Flights Supply (Bangkok Based)",
@@ -41194,7 +41295,8 @@
     "grade": "C",
     "posted": "2026-04-29",
     "city_normalized": "Bangkok",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-04-29"
   },
   {
     "title": "Senior Manager, Industrial Relations (Bangkok-based, Relocation Provided)",
@@ -41208,7 +41310,8 @@
     "grade": "C",
     "posted": "2026-06-11",
     "city_normalized": "Bangkok",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-11"
   },
   {
     "title": "Senior Manager/Manager, Flights Supply - Malaysia Based",
@@ -41222,7 +41325,8 @@
     "grade": "C",
     "posted": "2026-06-08",
     "city_normalized": "Kuala Lumpur",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-08"
   },
   {
     "title": "Senior Manager, Supply Analytics (Bangkok Based Relocation Benefits Provided)",
@@ -41236,7 +41340,8 @@
     "grade": "C",
     "posted": "2026-05-29",
     "city_normalized": "Bangkok",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-05-29"
   },
   {
     "title": "Principal, APAC Tax",
@@ -41249,7 +41354,8 @@
     "description": "Tax leadership for APAC at Airbnb. Cross-border regulatory expertise.",
     "grade": "C",
     "posted": "2026-06-20T00:00:00-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-20"
   },
   {
     "title": "Associate Product Manager (Technical) at Alchemyst AI - Wellfound",
@@ -41488,7 +41594,8 @@
     "grade": "C",
     "posted": "2026-06-22",
     "city_normalized": "Tokyo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-22"
   },
   {
     "title": "Transaction Principal",
@@ -41502,7 +41609,8 @@
     "grade": "C",
     "posted": "2026-06-03",
     "city_normalized": "Tokyo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-03"
   },
   {
     "title": "Senior Product Manager",
@@ -41779,7 +41887,8 @@
     "grade": "C",
     "posted": "2026-06-01",
     "city_normalized": "Kuala Lumpur",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-01"
   },
   {
     "title": "ERM Director",
@@ -41793,7 +41902,8 @@
     "grade": "C",
     "posted": "2026-05-08",
     "city_normalized": "Kuala Lumpur",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-05-08"
   },
   {
     "title": "[Fiat] Principal Funds Product Specialist",
@@ -41807,7 +41917,8 @@
     "grade": "C",
     "posted": "2026-06-04",
     "city_normalized": "Kuala Lumpur",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-04"
   },
   {
     "title": "Growth Strategy Product Manager - Global Payment",
@@ -42189,7 +42300,8 @@
     "grade": "C",
     "en_title": "Operations",
     "summary": "Operations at ByteDance in Shenzhen.",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "商业化策略运营-CapCut",
@@ -42203,7 +42315,8 @@
     "grade": "C",
     "en_title": "Operations-CapCut",
     "summary": "Operations-CapCut at ByteDance in Shenzhen.",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "商业化增长策略运营-CapCut",
@@ -42217,7 +42330,8 @@
     "grade": "C",
     "en_title": "Growth Operations-CapCut",
     "summary": "Growth Operations-CapCut at ByteDance in Shenzhen.",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "商业广告策略运营-CapCut",
@@ -42231,7 +42345,8 @@
     "grade": "C",
     "en_title": "Operations-CapCut",
     "summary": "Operations-CapCut at ByteDance in Shenzhen.",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "Senior Product Manager, AI Transformation",
@@ -42402,7 +42517,8 @@
     "description": "Deal desk analyst at Datadog Singapore. SaaS operations, pricing strategy.",
     "grade": "C",
     "posted": "2026-04-01T00:00:00-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-04-01"
   },
   {
     "title": "Senior Manager, Customer Experience & Solutions (Tokyo)",
@@ -42420,7 +42536,8 @@
     "summary": "Senior Manager, Customer Experience & Solutions (Tokyo) at Figma in Tokyo, Japan. Senior customer experience at Figma Tokyo.",
     "quality_score": 78,
     "quality_tier": "A",
-    "discovered": "2026-05-01"
+    "discovered": "2026-05-01",
+    "scanned_date": "2026-05-01"
   },
   {
     "title": "Senior Solutions Consultant",
@@ -42433,7 +42550,8 @@
     "description": "Solutions consulting at Figma Singapore. Technical pre-sales, platform strategy.",
     "grade": "C",
     "posted": "2026-06-15T00:00:00-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-15"
   },
   {
     "title": "Senior Manager, Payroll Compliance & International Operations",
@@ -42446,7 +42564,8 @@
     "description": "Payroll and international ops at Figma Sydney. Cross-border operations, compliance.",
     "grade": "C",
     "posted": "2026-06-01T00:00:00-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-01"
   },
   {
     "title": "Senior Sales Executive",
@@ -42464,7 +42583,8 @@
     "summary": "Senior Sales Executive at Flexport in Sydney, Australia. Senior sales at Flexport Sydney.",
     "quality_score": 78,
     "quality_tier": "A",
-    "discovered": "2026-06-01"
+    "discovered": "2026-06-01",
+    "scanned_date": "2026-06-01"
   },
   {
     "title": "P2P Product Manager",
@@ -42871,7 +42991,8 @@
     "grade": "C",
     "en_title": "SeniorManager-",
     "summary": "SeniorManager- at Ipsos (益普索) in Shenzhen.",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "Buy Now, Pay Later (BNPL) Product & Operations Lead",
@@ -43470,7 +43591,8 @@
     "summary": "Lead, Advertising Measurement (Australia) at Reddit in Sydney, Australia. Lead advertising measurement at Reddit Australia.",
     "quality_score": 78,
     "quality_tier": "A",
-    "discovered": "2026-06-25"
+    "discovered": "2026-06-25",
+    "scanned_date": "2026-06-25"
   },
   {
     "title": "Product Manager (Digital Payment)",
@@ -43749,7 +43871,8 @@
     "grade": "C",
     "en_title": "Strategy /SeniorStrategyAnalysis",
     "summary": "Strategy /SeniorStrategyAnalysis at Shenzhen Tech Co in Shenzhen-Nanshan.",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "战略分析专家",
@@ -43763,7 +43886,8 @@
     "grade": "C",
     "en_title": "StrategyAnalysis",
     "summary": "StrategyAnalysis at Shenzhen Tech Co in Shenzhen-Nanshan.",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "战略分析经理",
@@ -43777,7 +43901,8 @@
     "grade": "C",
     "en_title": "StrategyAnalysisManager",
     "summary": "StrategyAnalysisManager at Shenzhen Tech Co in Shenzhen-Nanshan.",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "战略分析负责人",
@@ -43791,7 +43916,8 @@
     "grade": "C",
     "en_title": "StrategyAnalysis",
     "summary": "StrategyAnalysis at Shenzhen Tech Co in Shenzhen-Nanshan.",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "高级战略分析师",
@@ -43805,7 +43931,8 @@
     "grade": "C",
     "en_title": "SeniorStrategyAnalysis",
     "summary": "SeniorStrategyAnalysis at Shenzhen Tech Co in Shenzhen-Nanshan.",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "战略分析岗",
@@ -43819,7 +43946,8 @@
     "grade": "C",
     "en_title": "StrategyAnalysis",
     "summary": "StrategyAnalysis at Shenzhen Tech Co in Shenzhen-Baoan.",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "行业分析/战略分析",
@@ -43833,7 +43961,8 @@
     "grade": "C",
     "en_title": "Analysis/StrategyAnalysis",
     "summary": "Analysis/StrategyAnalysis at Shenzhen Tech Co in Shenzhen-Baoan.",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "SG Business Product Manager",
@@ -44274,7 +44403,8 @@
     "grade": "C",
     "posted": "2026-05-04",
     "city_normalized": "Bangalore",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-05-04"
   },
   {
     "title": "Associate/Senior Associate, Strategic Initiatives",
@@ -44502,7 +44632,8 @@
     "grade": "C",
     "posted": "2025-11-24",
     "city_normalized": "Singapore",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2025-11-24"
   },
   {
     "title": "商业策略运营",
@@ -44516,7 +44647,8 @@
     "grade": "C",
     "en_title": "Operations",
     "summary": "Operations at 传音控股 (Transsion) in Shenzhen.",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "产品商业化负责人",
@@ -44530,7 +44662,8 @@
     "grade": "C",
     "en_title": "产品商业化负责人",
     "summary": "产品商业化负责人 at 光像智汇 in Shenzhen.",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "商业化产品经理",
@@ -44544,7 +44677,8 @@
     "grade": "C",
     "en_title": "Product Manager",
     "summary": "Product Manager at 新国都 in Shenzhen.",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "高级产品经理 - 杭州",
@@ -44717,7 +44851,8 @@
     "grade": "C",
     "en_title": "Product Manager",
     "summary": "Product Manager at 梦马星辰 in Shenzhen.",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "高级产品经理-AI芯片",
@@ -44731,7 +44866,8 @@
     "grade": "C",
     "en_title": "SeniorProduct Manager-AI",
     "summary": "SeniorProduct Manager-AI at 芯天下技术 in Shenzhen-Longgang.",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "商业拓展经理-具身智能",
@@ -44745,7 +44881,8 @@
     "grade": "C",
     "en_title": "Manager- Intelligent",
     "summary": "Manager- Intelligent at 超维动力智能 in Shenzhen.",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "商业化负责人",
@@ -44759,7 +44896,8 @@
     "grade": "C",
     "en_title": "商业化负责人",
     "summary": "商业化负责人 at 转转集团 (Zhuanzhuan) in Shenzhen.",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "1688-策略产品负责人-杭州 - 阿里巴巴集团",
@@ -44826,7 +44964,8 @@
     "grade": "C",
     "en_title": "Analysis",
     "summary": "Analysis at 顺丰同城物流 (SF Express) in Shenzhen-Nanshan.",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "VP Product - Singapore Remote",
@@ -44905,7 +45044,8 @@
     "role_type": "other",
     "description": "Senior role at Adyen in Shanghai.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Manager MLRO, Compliance",
@@ -44922,7 +45062,8 @@
     "quality_tier": "B",
     "summary": "Senior Manager MLRO, Compliance at Affirm in Remote UK.",
     "discovered": "2026-07-02",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-02"
   },
   {
     "title": "Director, People Business Partner",
@@ -44935,7 +45076,8 @@
     "description": "Senior role at Affirm in Remote Canada.",
     "grade": "C",
     "posted": "2026-06-15T16:19:56-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-15"
   },
   {
     "title": "Director, Product Management (Shopping & Offers)",
@@ -44948,7 +45090,8 @@
     "description": "Senior role at Affirm in Remote Canada.",
     "grade": "C",
     "posted": "2026-06-25T20:48:46-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-25"
   },
   {
     "title": "Senior Director, Enterprise Risk Management",
@@ -44961,7 +45104,8 @@
     "description": "Senior role at Affirm in Remote US.",
     "grade": "C",
     "posted": "2026-06-10T20:55:17-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-10"
   },
   {
     "title": "Senior Product Manager, Credit & Pricing",
@@ -44974,7 +45118,8 @@
     "description": "Senior role at Affirm in Remote US.",
     "grade": "C",
     "posted": "2026-06-29T16:51:01-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-29"
   },
   {
     "title": "Principal Product Manager (Singapore Based)",
@@ -45187,7 +45332,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok, Thailand.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Account Receivable Senior Analyst (Bangkok based, Relocation Support Provided)",
@@ -45199,7 +45345,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok, Thailand.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Analyst/Senior Analyst, B2B Digital Marketing (Bangkok Based, relocation provided)",
@@ -45211,7 +45358,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Analyst/Senior Analyst, Brand Marketing (Bangkok Based, Relocation provided)",
@@ -45223,7 +45371,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Analyst/Senior Analyst, Customer Marketing  (Bangkok Based, Relocation provided)",
@@ -45235,7 +45384,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Analyst/ Senior Analyst, Marketing Innovation (Bangkok Based, relocation provided)",
@@ -45247,7 +45397,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Analyst/Senior Analyst, Meta Search Engine Marketing (Bangkok Based, Relocation provided)",
@@ -45259,7 +45410,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Analyst/ Senior Analyst, Pricing Marketing (Bangkok Based, relocation provided)",
@@ -45271,7 +45423,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Chargeback Senior Analyst",
@@ -45283,7 +45436,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok, Thailand.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Indirect Tax Compliance Manager/ Senior Specialist (Bangkok based, Relocation provided)",
@@ -45295,7 +45449,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok, Thailand.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Lead Software Engineer Back End (Singapore Based)",
@@ -45307,7 +45462,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Singapore.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Principal Software Engineer, Back End (AI-powered Data Querying) (Bangkok based, Relocation provided)",
@@ -45319,7 +45475,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok, Thailand.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Principal Software Engineer, Back End (Bangkok based, Relocation provided)",
@@ -45331,7 +45488,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok, Thailand.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Analyst, App Marketing (Bangkok Based, Relocation Provided)",
@@ -45343,7 +45501,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Analyst, Performance & Insights (Bangkok-based, Relocation Provided)",
@@ -45355,7 +45514,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok, Thailand.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Analyst (Supply Analytics, Bangkok-based, Relocation provided)",
@@ -45367,7 +45527,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Area Manager (Jakarta based)",
@@ -45379,7 +45540,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Jakarta, Jakarta, Indonesia.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Area Manager, Strategic Partnerships (Taiwan & China Financial institution partnerships) (Bangkok- or Shanghai-based, relocation provided)",
@@ -45391,7 +45553,8 @@
     "role_type": "strategy",
     "description": "Senior role at Agoda in Bangkok or Shanghai.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Engineering Manager (Bangkok based, relocation provided)",
@@ -45403,7 +45566,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok (Central World Office).",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Engineering Manager - Fintech (Bangkok based, relocation provided)",
@@ -45415,7 +45579,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok (Central World Office).",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Finance Project Manager – New Business Initiatives (Bangkok Based, Relocation Provided)",
@@ -45427,7 +45592,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok, Thailand.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Finance Project Manager - Tax Focused (Bangkok Based, Relocation Provided)",
@@ -45439,7 +45605,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok, Thailand.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Homes Manager, People Manager - Japan (Tokyo-Based)",
@@ -45451,7 +45618,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Tokyo, Japan.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Lead, Flights Supply (Greater China)",
@@ -45463,7 +45631,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Greater China.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Lead Software Engineer (Tax Solution), FinTech (Bangkok based, Relocation provided)",
@@ -45475,7 +45644,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok, Thailand.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Manager / Senior Area Manager, Strategic Partnerships (Taiwan & China Financial institution partnerships) (Bangkok- or Shanghai-based, relocation provided)",
@@ -45487,7 +45657,8 @@
     "role_type": "strategy",
     "description": "Senior role at Agoda in Bangkok or Shanghai.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Manager, Strategic Alliances – Financial Institutions (Bangkok- or Shanghai-based, relocation provided)",
@@ -45499,7 +45670,8 @@
     "role_type": "strategy",
     "description": "Senior role at Agoda in Bangkok or Shanghai.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Manager, Strategic Partnerships – Financial Institutions Taiwan & China (Bangkok- or Shanghai-based, relocation provided)",
@@ -45511,7 +45683,8 @@
     "role_type": "strategy",
     "description": "Senior role at Agoda in Bangkok or Shanghai.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Manager, Strategic Partnerships (Taiwan & China Financial institution partnerships) (Bangkok- or Shanghai-based, relocation provided)",
@@ -45523,7 +45696,8 @@
     "role_type": "strategy",
     "description": "Senior role at Agoda in Bangkok or Shanghai.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Motion Designer (AI-Enabled Creative Production) (Bangkok-based, relocation provided)",
@@ -45535,7 +45709,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Planner - Forecasting, WFM (Kuala Lumpur, Gurgaon, Pune Based - Relocation Provided)",
@@ -45547,7 +45722,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Kuala Lumpur, Gurgaon OR Pune.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Security Engineer (Bangkok Based, Relocation Provided)",
@@ -45559,7 +45735,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok, Thailand.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Security Operation Engineer",
@@ -45571,7 +45748,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok, Thailand.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior/Staff Data Engineer (BI Domain) - Bangkok based, relocation provided",
@@ -45583,7 +45761,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok, Thailand.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior/Staff Machine Learning Engineer - Bidding (Bangkok based, relocation provided)",
@@ -45595,7 +45774,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok (Central World Office).",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Strategic Account Manager (Tokyo-based)",
@@ -45607,7 +45787,8 @@
     "role_type": "strategy",
     "description": "Senior role at Agoda in Tokyo, Japan.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Visual Designer (Bangkok-based, relocation provided)",
@@ -45619,7 +45800,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "[Tax 2026] Indirect Tax Specialist/Senior Specialist",
@@ -45631,7 +45813,8 @@
     "role_type": "other",
     "description": "Senior role at Agoda in Bangkok, Thailand.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Lead Advanced Analytics, Marketplace",
@@ -45669,7 +45852,8 @@
     "role_type": "other",
     "description": "Senior role at Airbnb in Sydney, Australia.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Connectivity Partner Manager - Seoul, South Korea",
@@ -45681,7 +45865,8 @@
     "role_type": "other",
     "description": "Senior role at Airbnb in Seoul, South Korea.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Full-Stack Engineer, App Experience and Frameworks (Frontend-Heavy)",
@@ -45693,7 +45878,8 @@
     "role_type": "other",
     "description": "Senior role at Airbnb in China.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior iOS Engineer, Global Markets",
@@ -45705,7 +45891,8 @@
     "role_type": "other",
     "description": "Senior role at Airbnb in China.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior/ Manager, Machine Learning, Customer Support Engineering",
@@ -45717,7 +45904,8 @@
     "role_type": "other",
     "description": "Senior role at Airbnb in China.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Market Manager, Luxe - Thailand",
@@ -45729,7 +45917,8 @@
     "role_type": "other",
     "description": "Senior role at Airbnb in Bangkok, Thailand.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Software Engineer, Global Markets (Backend)",
@@ -45741,7 +45930,8 @@
     "role_type": "other",
     "description": "Senior role at Airbnb in China.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Product Director, Payment Fraud",
@@ -46485,7 +46675,8 @@
     "quality_tier": "B",
     "summary": "Head of Channel Sales at Block in Melbourne, Australia.",
     "discovered": "2026-06-23",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-23"
   },
   {
     "title": "Senior Compliance Manager, Financial Services Compliance, Afterpay ANZ",
@@ -46497,7 +46688,8 @@
     "role_type": "other",
     "description": "Senior role at Block in Sydney, Australia.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Lead, Australia Escalations Support (Square & Afterpay)",
@@ -46509,7 +46701,8 @@
     "role_type": "other",
     "description": "Senior role at Block in Melbourne, Australia.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Site Reliability Engineer",
@@ -46521,7 +46714,8 @@
     "role_type": "other",
     "description": "Senior role at Block in Melbourne, Australia.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Customer Success Manager",
@@ -46534,7 +46728,8 @@
     "description": "Senior role at Braze in Singapore.",
     "grade": "C",
     "posted": "2026-06-12T05:16:52-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-12"
   },
   {
     "title": "Senior Product Manager, TikTok E-commerce",
@@ -46692,7 +46887,8 @@
     "status_date": "2026-07-06",
     "grade": "C",
     "salary": "(est) USD 10,000-18,000/mo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-06"
   },
   {
     "title": "LLM训练产品经理-AI数据与安全",
@@ -46710,7 +46906,8 @@
     "status_date": "2026-07-06",
     "grade": "C",
     "salary": "(est) USD 10,000-18,000/mo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-06"
   },
   {
     "title": "AI Coding产品经理-TRAE",
@@ -46728,7 +46925,8 @@
     "status_date": "2026-07-06",
     "grade": "C",
     "salary": "(est) USD 10,000-18,000/mo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-06"
   },
   {
     "title": "AI策略产品经理-Dev Infra",
@@ -46746,7 +46944,8 @@
     "status_date": "2026-07-06",
     "grade": "C",
     "salary": "(est) USD 10,000-18,000/mo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-06"
   },
   {
     "title": "AI Coding产品经理（开发工具设计方向）-TRAE",
@@ -46764,7 +46963,8 @@
     "status_date": "2026-07-06",
     "grade": "C",
     "salary": "(est) USD 10,000-18,000/mo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-06"
   },
   {
     "title": "产品经理（People）-集团信息系统",
@@ -46782,7 +46982,8 @@
     "status_date": "2026-07-06",
     "grade": "C",
     "salary": "(est) USD 10,000-18,000/mo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-06"
   },
   {
     "title": "AI观测存储分析产品经理-Data",
@@ -46800,7 +47001,8 @@
     "status_date": "2026-07-06",
     "grade": "C",
     "salary": "(est) USD 10,000-18,000/mo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-06"
   },
   {
     "title": "Executive Operating Partner",
@@ -46839,7 +47041,8 @@
     "description": "Senior role at Chime in Remote, USA.",
     "grade": "C",
     "posted": "2026-07-07T13:11:02-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-07"
   },
   {
     "title": "ETF Strategist / Product Manager",
@@ -46885,7 +47088,8 @@
     "quality_tier": "B",
     "summary": "Director, Strategic Finance & Investor Relations at Cloudflare in Hybrid.",
     "discovered": "2026-06-30",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-30"
   },
   {
     "title": "Principal People Team Business Partner - GTM",
@@ -46902,7 +47106,8 @@
     "quality_tier": "B",
     "summary": "Principal People Team Business Partner - GTM at Cloudflare in Hybrid.",
     "discovered": "2026-06-22",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-22"
   },
   {
     "title": "Principal Sales Operations & Strategy Manager - Renewals & Business Development Teams",
@@ -46919,7 +47124,8 @@
     "quality_tier": "B",
     "summary": "Principal Sales Operations & Strategy Manager - Renewals & Business Development Teams at Cloudflare in Hybrid.",
     "discovered": "2026-06-30",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-30"
   },
   {
     "title": "Senior Director, GTM Intelligence",
@@ -46936,7 +47142,8 @@
     "quality_tier": "B",
     "summary": "Senior Director, GTM Intelligence at Cloudflare in Hybrid.",
     "discovered": "2026-06-25",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-25"
   },
   {
     "title": "Senior Product Manager - Ad Fraud and Identity Solutions",
@@ -46953,7 +47160,8 @@
     "quality_tier": "B",
     "summary": "Senior Product Manager - Ad Fraud and Identity Solutions at Cloudflare in Hybrid.",
     "discovered": "2026-06-16",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-16"
   },
   {
     "title": "Director, Enterprise Sales (AI & Digital Natives)",
@@ -46966,7 +47174,8 @@
     "description": "Senior role at Cloudflare in Hybrid.",
     "grade": "C",
     "posted": "2026-07-08T13:24:18-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-08"
   },
   {
     "title": "Accounting Manager, GL Operations & Intercompany",
@@ -47445,7 +47654,8 @@
     "quality_tier": "B",
     "summary": "Senior Accounting and Regulatory Reporting Manager, Canada at Coinbase in Remote - Canada.",
     "discovered": "2026-06-09",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-09"
   },
   {
     "title": "Senior Software Engineer - Trading",
@@ -47457,7 +47667,8 @@
     "role_type": "other",
     "description": "Senior role at Coinbase in Remote - Singapore.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Head of Finance, Canada",
@@ -47470,7 +47681,8 @@
     "description": "Senior role at Coinbase in Remote - Canada.",
     "grade": "C",
     "posted": "2026-06-09T14:08:22-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-09"
   },
   {
     "title": "Senior Product Manager, Help Center (CX Automation)",
@@ -47483,7 +47695,8 @@
     "description": "Senior role at Coinbase in Remote - India.",
     "grade": "C",
     "posted": "2026-07-06T17:04:46-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-06"
   },
   {
     "title": "Senior Product Manager(Card Issuing)",
@@ -47619,7 +47832,8 @@
     "low_quality": false,
     "stale": false,
     "salary": "(est) USD 18,000-28,000/mo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "Senior Product Manager",
@@ -47682,7 +47896,8 @@
     "role_type": "other",
     "description": "Senior role at Databricks in Singapore.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Software Engineer- Tokyo",
@@ -47694,7 +47909,8 @@
     "role_type": "other",
     "description": "Senior role at Databricks in Tokyo, Japan.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Country Manager",
@@ -47755,7 +47971,8 @@
     "quality_tier": "B",
     "summary": "Director, Security Channels (North America) at Datadog in Colorado, USA, Remote; Illinois, USA, Remote; New York, New York, USA; New York, USA, Remote; San Francisco, California, USA; Texas, USA, Remote.",
     "discovered": "2026-06-17",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-17"
   },
   {
     "title": "Senior Partner Program Manager - Strategic Initiatives",
@@ -47772,7 +47989,8 @@
     "quality_tier": "B",
     "summary": "Senior Partner Program Manager - Strategic Initiatives at Datadog in California, USA, Remote; Colorado, USA, Remote; Massachusetts, USA, Remote; New York, New York, USA; New York, USA, Remote.",
     "discovered": "2026-06-22",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-22"
   },
   {
     "title": "Senior Deal Desk Analyst",
@@ -47784,7 +48002,8 @@
     "role_type": "other",
     "description": "Senior role at Datadog in Singapore, Singapore.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Partner Enablement Manager",
@@ -47796,7 +48015,8 @@
     "role_type": "other",
     "description": "Senior role at Datadog in Tokyo, Japan.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior People Business Partner",
@@ -47808,7 +48028,8 @@
     "role_type": "other",
     "description": "Senior role at Datadog in Tokyo, Japan.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Partner Manager ANZ",
@@ -47820,7 +48041,8 @@
     "role_type": "other",
     "description": "Senior role at Elastic in Sydney, Australia.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Partner Manager, Korea",
@@ -47832,7 +48054,8 @@
     "role_type": "other",
     "description": "Senior role at Elastic in South Korea.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Sales Development Representative",
@@ -47844,7 +48067,8 @@
     "role_type": "other",
     "description": "Senior role at Elastic in Sydney, Australia.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Solution Architect, Thailand",
@@ -47856,7 +48080,8 @@
     "role_type": "other",
     "description": "Senior role at Elastic in Singapore.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Principal Product Manager",
@@ -47897,7 +48122,8 @@
     "role_type": "other",
     "description": "Senior role at Figma in Tokyo, Japan.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Manager, Enterprise Sales (Tokyo, Japan)",
@@ -47909,7 +48135,8 @@
     "role_type": "other",
     "description": "Senior role at Figma in Tokyo, Japan.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Sales Enablement Manager (Singapore)",
@@ -47921,7 +48148,8 @@
     "role_type": "other",
     "description": "Senior role at Figma in Singapore.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Sales Enablement Manager (Tokyo, Japan)",
@@ -47933,7 +48161,8 @@
     "role_type": "other",
     "description": "Senior role at Figma in Tokyo, Japan.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Solutions Consultant (Singapore)",
@@ -47945,7 +48174,8 @@
     "role_type": "other",
     "description": "Senior role at Figma in Singapore.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Staff Product Manager, Connectors",
@@ -47958,7 +48188,8 @@
     "notes": "Staff PM, data connectors",
     "city_normalized": "Bangalore",
     "salary": "(est) USD 18,000-28,000/mo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Ocean Operations Associate",
@@ -48117,7 +48348,8 @@
     "quality_tier": "B",
     "summary": "Director, Strategic Partnerships at Gitlab in Remote, US.",
     "discovered": "2026-07-02",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-02"
   },
   {
     "title": "Senior Director, Field CTOs",
@@ -48134,7 +48366,8 @@
     "quality_tier": "B",
     "summary": "Senior Director, Field CTOs at Gitlab in Remote, US.",
     "discovered": "2026-06-26",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-26"
   },
   {
     "title": "Regional Sales Director, ASEAN & Korea",
@@ -48146,7 +48379,8 @@
     "role_type": "expansion",
     "description": "Senior role at Gitlab in Remote, Singapore.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Product Manager, Plan to Code",
@@ -48159,7 +48393,8 @@
     "description": "Senior role at Gitlab in Remote, Canada; Remote, US.",
     "grade": "C",
     "posted": "2026-07-07T16:49:09-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-07"
   },
   {
     "title": "Senior Program Manager, Enterprise Technology & AI",
@@ -48172,7 +48407,8 @@
     "description": "Senior role at Gitlab in Remote, Bangalore.",
     "grade": "C",
     "posted": "2026-07-06T08:34:18-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-06"
   },
   {
     "title": "Foundation Engineering, DXR Product Management, Product Manager, Associate/VP",
@@ -48803,7 +49039,8 @@
     "notes": "Remote-friendly, APAC timezones",
     "city_normalized": "Remote",
     "salary": "(est) USD 18,000-28,000/mo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Product Manager, Meituan Waimai",
@@ -49178,7 +49415,8 @@
     "notes": "Principal level",
     "city_normalized": "Hyderabad, India",
     "salary": "(est) USD 18,000-28,000/mo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "People Operations Generalist, Japan",
@@ -49541,7 +49779,8 @@
     "quality_tier": "B",
     "summary": "Director, Technical Program Management-Monetization at Pinterest in San Francisco, CA, US; Remote, US.",
     "discovered": "2026-06-23",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-23"
   },
   {
     "title": "Director, Integrated Marketing",
@@ -49555,7 +49794,8 @@
     "grade": "C",
     "posted": "2026-07-03T13:00:33-04:00",
     "discovered": "2026-07-03",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-03"
   },
   {
     "title": "Lead Client Partner - Retail",
@@ -49567,7 +49807,8 @@
     "role_type": "other",
     "description": "Senior role at Pinterest in Sydney, AU.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Director, Integrated Marketing- Mid Market",
@@ -49580,7 +49821,8 @@
     "description": "Senior role at Pinterest in San Francisco, CA, US; Remote, US.",
     "grade": "C",
     "posted": "2026-07-03T13:00:33-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-03"
   },
   {
     "title": "Product Manager, Embedded Finance",
@@ -49766,7 +50008,8 @@
     "date_source": "estimated",
     "city_normalized": "Singapore",
     "salary": "(est) SGD 22,000-40,000/mo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06"
   },
   {
     "title": "Senior Integration Reliability Engineer, Technical Operations",
@@ -50085,7 +50328,8 @@
     "quality_tier": "B",
     "summary": "Chief Compliance Officer (APAC) at Stripe in Singapore.",
     "discovered": "2026-06-29",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-29"
   },
   {
     "title": "Head of Market Intelligence, Product Marketing",
@@ -50102,7 +50346,8 @@
     "quality_tier": "B",
     "summary": "Head of Market Intelligence, Product Marketing at Stripe in SF, Seattle, NYC, Chicago, Remote in the US.",
     "discovered": "2026-06-29",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-29"
   },
   {
     "title": "AVP/VP, Portfolio Development",
@@ -50246,7 +50491,8 @@
     "en_title": "Senior Compute Product Architect",
     "summary": "Senior Compute Product Architect at Tencent in Singapore.",
     "grade": "S",
-    "discovered": "2026-07-05"
+    "discovered": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "Strategy Manager",
@@ -50290,7 +50536,8 @@
     "status_date": "2026-07-06",
     "grade": "C",
     "salary": "(est) USD 10,000-18,000/mo",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-06"
   },
   {
     "title": "Senior Business Development Manager (AI/Gaming)",
@@ -50372,7 +50619,8 @@
     "role_type": "other",
     "description": "Senior role at Tripadvisor in Singapore/Japan.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "VP Product - Remote Global",
@@ -50645,7 +50893,8 @@
     "role_type": "other",
     "description": "Senior role at Twilio in Remote - Japan.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Customer Success Manager",
@@ -50657,7 +50906,8 @@
     "role_type": "other",
     "description": "Senior role at Twilio in Remote - Singapore.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior GTM Business Architecture Manager",
@@ -50670,7 +50920,8 @@
     "description": "Senior role at Twilio in Remote - US.",
     "grade": "C",
     "posted": "2026-07-06T19:18:29-04:00",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-06"
   },
   {
     "title": "Director, Major Sales",
@@ -50687,7 +50938,8 @@
     "quality_tier": "B",
     "summary": "Director, Major Sales at Vercel in Hybrid - New York City.",
     "discovered": "2026-06-26",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-06-26"
   },
   {
     "title": "Senior Manager, Solutions Architect",
@@ -50699,7 +50951,8 @@
     "role_type": "other",
     "description": "Senior role at Vercel in Remote - Australia.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Product Manager – Risk Products",
@@ -50733,7 +50986,8 @@
     "role_type": "other",
     "description": "Senior role at Xendit in Kuala Lumpur, Malaysia.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Senior Total Rewards Manager",
@@ -50745,7 +50999,8 @@
     "role_type": "other",
     "description": "Senior role at Xendit in Kuala Lumpur, Malaysia; Singapore, Singapore.",
     "grade": "C",
-    "salary_source": "estimation"
+    "salary_source": "estimation",
+    "scanned_date": "2026-07-11"
   },
   {
     "title": "Product Manager (CFD Trading APP)",
@@ -50872,7 +51127,8 @@
     "summary": "BD Manager for embodied AI startup. Strategic client development, ecosystem partnerships, market strategy for robotics/AI. 3+ years BD in robotics/AI, English working language preferred.",
     "discovered": "2026-07-05",
     "status": "not_applied",
-    "status_date": "2026-07-05"
+    "status_date": "2026-07-05",
+    "scanned_date": "2026-07-05"
   },
   {
     "title": "Strategy Manager",
