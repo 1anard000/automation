@@ -53577,5 +53577,19 @@
     "english_friendly": true,
     "city_normalized": "Shenzhen",
     "salary_source": "estimation"
+  },
+  {
+    "title": "直播间用户产品经理-抖音电商",
+    "company": "ByteDance",
+    "location": "Shenzhen",
+    "grade": "B",
+    "url": "https://jobs.bytedance.com/experienced/position/7641517040751659269/detail",
+    "role_type": "Product Management",
+    "salary": "Not listed (est. 25-40k RMB/mo)",
+    "scanned_date": "2026-07-11",
+    "source": "bytedance",
+    "english_friendly": false,
+    "city_normalized": "Shenzhen",
+    "salary_source": "estimation"
   }
 ]
