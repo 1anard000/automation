@@ -263,17 +263,17 @@
     "career_strategy": 8,
     "python_scripts": 7,
     "crm": 7,
-    "automation": 6,
+    "automation": 7,
     "coverage": 7
   },
-  "last_run": "2026-06-18 05:02",
-  "last_dimension": "data_quality",
-  "last_task": "Fill missing en_title for all 411 jobs",
+  "last_run": "2026-06-28 03:01",
+  "last_dimension": "automation",
+  "last_task": "Created run-pipeline.sh automation script",
   "scores": {
     "dashboard": 7,
     "career_hub": 7,
-    "data_quality": 8,
-    "python_scripts": 6,
+    "data_quality": 9,
+    "python_scripts": 7,
     "strategy": 7
   },
   "last_improvement": "2026-06-18: Refreshed career-strategy.md — updated from 288 to 443 jobs, added Shenzhen surge analysis, AI roles 3x growth, salary benchmarks",
@@ -282,6 +282,17 @@
       "date": "2026-06-20",
       "task": "Refresh career-strategy.md with 641-job dataset — Singapore now #1 market (209 roles), Airwallex expanded to 15, 17 perfect-score jobs remain",
       "subagent": "nightly-improver-20260620"
+    },
+    {
+      "date": "2026-06-28",
+      "task": "Created run-pipeline.sh — automated scan→grade→merge→build pipeline with --no-scan and --scan-only modes",
+      "subagent": "nightly-improver-20260628"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-28T06:00:00+08:00",
+      "action": "Removed 32 stale jobs (>30 days old), rebuilt dashboard. Score: data_quality 8→9, python_scripts 6→7."
     }
   ]
 }

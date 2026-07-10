@@ -3,20 +3,34 @@
 Greenhouse job board scraper.
 Scrapes public Greenhouse API for Senior PM/Strategy roles in target locations.
 """
-import json, sys, os, re
+import json, sys, os, re, time
 from urllib.request import urlopen, Request
 from urllib.error import URLError
 from datetime import datetime
 
-# Companies with Greenhouse boards relevant to [CANDIDATE]'s profile
+# Companies with Greenhouse boards — verified to have APAC roles
 COMPANIES = [
-    "okx", "agoda", "coinbase", "stripe", "databricks", "figma",
-    "postman", "anthropic", "bitmex", "brex", "flexport", "lyft",
-    "instacart", "gusto", "doordash",
+    # === APAC HQ / Major APAC presence ===
+    "agoda",                    # Travel, SG/BKK — 12 APAC roles
+    "okx",                      # Crypto exchange, HK — 225 APAC roles
+    "flexport",                 # Logistics, SZ/SG — 16 APAC roles
+    "coupang",                  # E-commerce, SH/Seoul — 20 APAC roles
+    "bitmex",                   # Crypto, HK — 4 APAC roles
+
+    # === Global with strong APAC offices ===
+    "stripe",                   # Payments, SG/JP — 117 APAC roles
+    "coinbase",                 # Crypto, SG — 117 APAC roles
+    "databricks",               # Data/AI, SG — 81 APAC roles
+    "twilio",                   # Comms, SG — 159 APAC roles
+    "anthropic",                # AI, SG — 41 APAC roles
+    "vercel",                   # Dev tools — 20 APAC roles
+    "postman",                  # API tools, SG — 12 APAC roles
+    "figma",                    # Design, SG — 6 APAC roles
+    "cloudflare",               # Infra, SG — 3 APAC roles
 ]
 
 # Location filters
-LOCATIONS = ["hong kong", "singapore", "shenzhen", "guangzhou", "remote"]
+LOCATIONS = ["hong kong", "singapore", "shenzhen", "guangzhou", "shanghai", "beijing", "remote"]
 
 # Title keywords that match [CANDIDATE]'s profile
 TITLE_KEYWORDS = [
@@ -28,15 +42,20 @@ TITLE_KEYWORDS = [
     "business strategy", "corporate strategy", "growth",
 ]
 
-def fetch_json(url, timeout=15):
-    """Fetch JSON from URL."""
-    try:
-        req = Request(url, headers={"User-Agent": "CareerOS/1.0"})
-        with urlopen(req, timeout=timeout) as resp:
-            return json.loads(resp.read().decode("utf-8"))
-    except (URLError, json.JSONDecodeError, OSError) as e:
-        print(f"  [WARN] Failed to fetch {url}: {e}", file=sys.stderr)
-        return None
+def fetch_json(url, timeout=15, retries=2):
+    """Fetch JSON from URL with retry."""
+    import random
+    for attempt in range(retries + 1):
+        try:
+            req = Request(url, headers={"User-Agent": "CareerOS/1.0"})
+            with urlopen(req, timeout=timeout) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except (URLError, json.JSONDecodeError, OSError) as e:
+            if attempt < retries:
+                time.sleep(2 + random.uniform(0, 1))
+            else:
+                print(f"  [WARN] Failed to fetch {url}: {e}", file=sys.stderr)
+                return None
 
 def location_matches(loc_name):
     """Check if location matches target regions."""

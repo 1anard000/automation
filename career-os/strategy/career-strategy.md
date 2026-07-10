@@ -132,39 +132,44 @@ Key finding: 6 resume clusters identified. Apply the same resume version to all 
 **6 batch application groups identified** — apply same resume to all jobs in a batch for efficiency.
 **31 high-visa-likelihood roles** identified (visa-friendly companies: Google, Airwallex, OKX, etc.)
 
-### Top Companies by Opportunity Density (REFRESHED June 26 — 899 Jobs Verified, Case Variants Merged)
-> **UPDATE:** OKX case variants merged ("OKX" + "Okx" = 26 score-80+). Coupang severely undercounted (was 3, actual 10). Thunes, CASETiFY, Adyen discovered as new targets.
+### Top Companies by Opportunity Density (LIVE June 27 — OKX Greenhouse API + Full DB)
+> **LIVE DATA UPDATE:** OKX Greenhouse API shows 275 total jobs (was 164 in previous scan — +68% growth). 118 PM/Director/VP roles. 98 in Singapore, 97 in Hong Kong. 15+ NEW PM/Director roles not previously tracked.
+> **Full details:** See `strategy/market-intelligence-jun27-live.md` (LIVE Greenhouse API data)
 
-| Company | Total Roles | High-Score (80+) | Key Roles | Cities |
-|---------|-------------|-----------------|-----------|--------|
-| **OKX** | **69** | **26** (+7 corrected) | VP AI Strategy (90), Institutional PM (88), MD Banking (86) | SG, HK, SH |
-| **Coupang** | **60** | **10** (+7 discovered) | Director P&PM SH (88), Principal BizOps SH (85), Director Growth Tokyo (82) | SH, Tokyo, Taipei |
-| **Agoda** | **42** | **7** (+3 discovered) | Principal PM (100, HK), Growth Team Tokyo (83), Strategic Partnerships (83) | HK, SG, Tokyo, SH, Bangkok |
-| **Stripe** | **46** | **6** (+3 discovered) | Head Comms APAC (93, SG), Integration Reliability (91, SG) | SG, Sydney |
-| **Binance** | **9** | **5** | Sr Payment PM LATAM (100, HK), Pay Lead (87, HK), Card PM (87, HK) | HK |
-| **Coins.ph** | **4** | **3** | Sr PM Card Issuing (100, HK), Principal PM AML (83, HK) | HK |
-| **ByteDance** | **37** | **3** | TikTok E-commerce PM (95, SZ), CapCut PM (95, SZ), TikTok Shop HK (87) | SZ, HK |
-| **JD.COM** | **—** | **2** (new) | BNPL Lead (100, HK), BNPL Lead Europe (87, HK) | HK |
-| **Payoneer** | **2** | **2** | Chief of Staff GTM China (92, SH), Growth Marketing (80, SH) | SH |
-| **Datadog** | **4** | **2** | Country Manager (90, Tokyo), Head Enterprise Sales (88, Tokyo) | Tokyo |
-| **Flexport** | **3** | **2** (+1 discovered) | Sr BD Omnichannel (85, SH), Staff PM (81, SZ) | SH, SZ |
-| **Thunes** | **—** | **2** (NEW) | Head of Product Core & Growth (86, SG), Product Director Payments (81, SG/BCN) | SG |
-| **CASETiFY** | **—** | **2** (NEW) | Sr PM Supply Chain (85, SZ), Sr PM (85, SZ) | SZ |
-| **Databricks** | **13** | **2** (+2 discovered) | Sr Director Enterprise Retail (85), Sr Manager Global Support (83) | SG, Sydney |
-| **Airwallex** | **13** | **2** | Sr PM Growth (80, SG), Sr PM (80, SG) | SG |
-| **Alibaba** | **—** | **2** | Sr PM Lazada (95, SZ), Sr PM Cloud (87, HK) | SZ, HK |
-| **Bank of China (HK)** | **—** | **2** | Sr Wealth Mgmt PM (100, HK), Transaction Banking PM (83, HK) | HK |
-| **Huawei** | **—** | **2** | Sr PM Cloud (95, SZ), Sr PM HarmonyOS (95, SZ) | SZ |
-| **Tencent** | **—** | **2** | Sr PM WeChat Pay (95, SZ), Sr PM Cloud (95, SZ) | SZ |
-| **Adyen** | **—** | **1** (NEW) | Head of Sales Singapore (81, SG) | SG |
-| **Anthropic** | **8** | **1** | Revenue Strategy Ops Lead (85, Tokyo) | Tokyo, SF |
-| **D.E. Shaw** | **1** | **1** | Sr PM Applied AI (85, HK) | HK |
-| **Google** | **6** | **1** | Regional Product Lead (80, SG) | SG |
-| **GitLab** | **1** | **1** | Regional Sales Director (85, SG) | SG |
-| **Notion** | **1** | **1** | Country Manager Singapore (82, SG) | SG |
-| **Wise** | **1** | **1** | Sr PM APAC Growth (82, SG) | SG |
-| **Mastercard** | **1** | **1** | Manager AI & Data Strategy (80, SG) | SG |
-| **Amazon** | **—** | **1** (new) | Sr PM AI Global Selling (80, SZ) | SZ |
+| Company | Total | A-1 | Key Roles | Cities | Notes |
+|---------|-------|-----|-----------|--------|-------|
+| **OKX** | **275** | **99+** | VP AI Strategy (HK/SG), Dir Global Payment Partnerships (HK/SG), Dir Institutional Product (HK/SG), Dir User Growth (HK/SG), Dir Pay & Card (SG) | HK, SG | **#1 by far. LIVE verified 275 jobs. 118 PM/Director roles.** |
+| **Coupang** | **143** | **52** | Director P&PM (SH), Principal BizOps (SH), Director Growth (Tokyo) | SH, Tokyo, Taipei | #2. Underexplored strategy hub. |
+| **Agoda** | **128** | **16** | Principal PM (HK), Growth Team (Tokyo), Strategic Partnerships (SH) | HK, SG, Tokyo, SH, Bangkok | Travel marketplace. |
+| **Stripe** | **65** | **12** | Head Comms APAC (SG), Integration Reliability (SG) | SG, Sydney | Payments. |
+| **ByteDance** | **37** | **14** | TikTok E-commerce PM (SZ), TikTok Shop HK, Merchant Financing (SG) | SZ, HK, SG | E-commerce + payments. |
+| **Shopee** | **32** | **11** | Cross-border PM (HK), AI Strategy PM (SG), SPayLater (SG) | SG, HK, Tokyo | Cross-border + AI. |
+| **Databricks** | **23** | **6** | Director Lakebase Sales (Tokyo), Partner Account Mgr (SG) | SG, Tokyo | Data/AI platform. |
+| **Airwallex** | **18** | — | Associate Director Product Strategy (SG) | SG, HK | Cross-border payments. |
+| **Datadog** | **11** | **4** | Head Enterprise Sales Japan (Tokyo), Director Public Sector (Tokyo) | Tokyo | Monitoring/AI. |
+| **Binance** | **9** | **5** | Sr Payment PM LATAM (HK), Pay Lead (HK), Card PM (HK) | HK | Crypto. |
+| **Flexport** | **9** | — | Sr BD Omnichannel (SH), Staff PM (SZ) | SH, SZ | Cross-border logistics. |
+| **Coins.ph** | 4 | 3 | Sr PM Card Issuing (HK), Cross-border PM (HK), Compliance PM (HK) | HK | Crypto payments. |
+| **Crypto.com** | **6** | **3** | Banking Engagement PM (HK), Onboarding PM (HK) | HK | Exchange. |
+| **UOB** | **4** | **4** | VP Digital Currency & Payments (SG) | SG | ALL A-1. Banking + crypto. |
+| **HSBC** | **6** | **4** | PM Digital Banking (HK), VP Wealth (SG) | HK, SH, SG | Banking giant. |
+| **Google** | **6** | **3** | Regional Product Lead (SG), Strategy Principal (SG) | SG, HK | Strategy + ops. |
+| **Bybit** | **6** | **3** | Head of HR (HK), Head of OD (HK), Head of Trading Tech (HK) | HK | NEW. Crypto exchange. |
+| **Xendit** | **10** | **5** | Product Manager, User & Accounts (SG) | SG | SE Asia payments. |
+| **Notion** | **5** | **2** | Country Manager Singapore (SG) | SG | Product-led. |
+| **OpenAI** | — | — | **APAC Strategic Initiatives Lead (SG)** — NEW | SG | AI company expanding APAC. |
+| **Anthropic** | **15** | — | Revenue Strategy Ops Lead (Tokyo) | Tokyo, SF | AI company. |
+| **Adyen** | **12** | — | Head of Sales Singapore (SG) | SG | Payments. |
+| **Grab** | **13** | — | Principal PM AI Enablement (SG), Head of Product Insurance (SG) | SG | SE Asia super-app. |
+| **CASETiFY** | **3** | **2** | Sr PM Supply Chain (SZ), Sr PM (SZ) | SZ | D2C tech brand. |
+| **Thunes** | **6** | **1** | BD Director (HK) | HK, SG | Payment infrastructure. |
+| **JD.COM** | **3** | **1** | BNPL Lead (HK) | HK | Fintech + commerce. |
+| **Payoneer** | **2** | — | Chief of Staff GTM China (SH), Growth Marketing (SH) | SH | Fintech GTM. |
+| **Mastercard** | — | — | Manager AI & Data Strategy (SG) | SG | AI + fintech. |
+| **Wise** | **1** | — | Sr PM APAC Growth (SG) | SG | Fintech growth. |
+| **GitLab** | **5** | — | Regional Sales Director ASEAN (SG) | SG | DevTools. |
+| **Amazon** | **5** | **1** | Sr PM AI Global Selling (SZ) | SZ | E-commerce + AI. |
+| **D.E. Shaw** | **1** | — | Sr PM Applied AI (HK) | HK | Hedge fund + AI. |
 
 ### NEW: Unscored Roles Rescanned (Jun 21)
 136 roles were added to the database without scoring. A quick-scan was run to identify high-value opportunities:
@@ -474,28 +479,44 @@ Local job database has **169 roles**, **12 score-80+ direct-apply jobs** that ha
 | **Alibaba** | 2 | HK(1), SZ(1) | Cloud + e-commerce |
 | **Payoneer** | 2 | SH(2) | Fintech GTM |
 
-### City Summary — Score 80+ (REFRESHED)
+### City Summary — A-1 Roles (REFRESHED June 27 — Full 1,358-Job DB)
 
-| City | Score 80+ | Score 100 | Direct-Apply | Key Theme |
-|------|-----------|-----------|-------------|-----------|
-| **Hong Kong** | **35+** | **8** | 16 | Crypto/fintech hub, score-100 goldmine, OKX dominant |
-| **Singapore** | **25+** | 0 | 6 | Strategy/director, Stripe + Thunes + Airwallex |
-| **Shenzhen** | **22+** | 0 | 7 | Cross-border PM + new CASETiFY + OSL/OKX roles |
-| **Shanghai** | **12+** | 0 | 7 | Coupang + Payoneer strategy hub |
-| **Tokyo** | **8+** | 0 | 6 | Datadog + Anthropic + Agoda — emerging, all English |
+| City | Total Jobs | A-1 | English % | Key Theme |
+|------|-----------|-----|-----------|-----------|
+| **Singapore** | **349** | **135** | ~90% | Largest market. Strategy + director hub. OKX, Google, ByteDance, Grab. |
+| **Shenzhen** | **195** | **38** | ~24% | High volume but language barrier. ByteDance, CASETiFY. |
+| **Hong Kong** | **170** | **85** | ~100% | Crypto/fintech hub. OKX dominant (99 A-1). Bybit new. |
+| **Seoul** | **106** | **30** | ~80% | NEW target city. Not previously tracked. |
+| **Bangkok** | **85** | **7** | ~70% | Agoda presence. |
+| **Tokyo** | **53** | **16** | 100% | Emerging. Datadog, Coupang, Databricks. |
+| **Shanghai** | **50** | **26** | ~83% | Strategy-heavy. Coupang, OKX, Agoda. |
+| **Taipei** | **40** | **15** | ~80% | Coupang. |
 
-### 🆕 NEW Discoveries (June 26 DB Analysis)
+### 🆕 NEW Discoveries (June 27 DB Analysis)
 
 **New Companies (not in previous strategy):**
-- **Thunes** — Payment infrastructure company. 2 score-80+ roles in SG: Head of Product Core & Growth (86), Product Director Business Payments (81). Cross-border payments focus — directly relevant.
-- **CASETiFY** — D2C tech brand. 2 score-85+ roles in SZ: Sr PM Supply Chain, Sr PM. Supply chain/ops focus.
-- **Adyen** — Payments company. 1 score-81 in SG: Head of Sales Singapore. Sales leadership.
-- **JD.COM** — 2 score-80+ in HK: BNPL Lead (100), BNPL Lead Europe (87). Fintech + commerce.
+- **Bybit** — Crypto exchange. 6 roles, 3 A-1 in HK: Head of HR, Head of OD, Head of Trading Tech. Signals HK crypto hiring is hot.
+- **OpenAI** — **APAC Strategic Initiatives Lead (SG)**. A-1. AI company expanding in APAC. NEW high-priority target.
+- **HSBC** — Banking giant. 6 roles, 4 A-1 in HK/SH/SG: PM Digital Banking, VP Wealth.
+- **UOB** — 4 roles, ALL A-1 in SG: VP Digital Currency & Payments. Banking + crypto intersection.
+- **Google** — 6 roles, 3 A-1 in SG/HK: Strategy and Operations Principal Lead, Regional Product Lead.
+- **Crypto.com** — 6 roles, 3 A-1 in HK: Banking Engagement PM, Onboarding PM.
+- **Bybit** — 6 roles, 3 A-1 in HK: Crypto exchange competitor.
+
+**Updated Companies (more roles than previously tracked):**
+- **OKX**: 164 total, 99 A-1 (was 102, 26 score-80+). Case variant merged.
+- **Coupang**: 143 total, 52 A-1 (was 60, 10 score-80+). More than doubled.
+- **Agoda**: 128 total, 16 A-1 (was 42, 7 score-80+). 3x more roles.
+- **Stripe**: 65 total, 12 A-1 (was 46, 6 score-80+). 40% more.
+- **ByteDance**: 37 total, 14 A-1 (was 37, 3 score-80+). More A-1 roles found.
+- **Shopee**: 32 total, 11 A-1 (was 30, 0 score-80+). New AI-focused roles.
 
 **New Cross-Border Roles:**
-- OSL (OKX) B2B Cross-Border Crypto Payments (SZ, 91) — top cross-border role in database
-- Shopee Cross-border PM (HK, 87)
-- Coins.ph Cross-border Payments PM (HK, 79)
+- Coins.ph Cross-border Payments Senior PM (HK, A-1)
+- OCBC Cross Border Payment PM (SG, A-1)
+- Shopee Senior PM, Cross-border (HK, A-1)
+- Bank of China Segment Manager, Cross Border (HK, A-1)
+- Crossborder Io Product Director (Remote, A-1)
 
 **Coupang Deep Dive (UNDEREXPLORED):**
 - 10 score-80+ roles across SH, Tokyo, Taipei — was only tracking 3

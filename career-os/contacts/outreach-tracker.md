@@ -1,9 +1,23 @@
 # Outreach Tracking — Career OS
 
-## 🚨 EXECUTION STATUS (July 5, 2026 — Updated by Career OS Cron)
+## 🚨 EXECUTION STATUS (June 27, 2026 — Saturday)
+**Status: ZERO execution. Database has 918 unique jobs. 7 overdue follow-ups. 0 applications. 0 outreach.**
 
-**Status: 22+ DAYS of zero execution. Database has 899 jobs (last scanned Jun 25 — NEEDS REFRESH). 25 fresh direct-apply score-80+ roles identified. #1 PRIORITY: Coupang (10 fresh roles, ZERO contacts). Start with ONE action TODAY — apply to Payoneer Chief of Staff (score 92, SH, direct).**
-### 📊 Cumulative Status (All-Time)
+### ⚡ TODAY'S ACTION (Jun 27 — Saturday, 10 minutes)
+**Goal: Send ONE message. Break the zero.**
+
+| Time | Action | Contact | Channel |
+|------|--------|---------|---------|
+| 10 min | Send WeChat reconnection | David Liu (ByteDance) | WeChat |
+
+**This is it. One message. 10 minutes. Then log it.**
+
+### 📋 TOMORROW (Jun 28 — Sunday)
+| Time | Action | Notes |
+|------|--------|-------|
+| 15 min | Apply: Payoneer Chief of Staff GTM China (SH, score 92, DIRECT) | Highest-score fresh role |
+
+### 📊 CUMULATIVE STATUS (All-Time)
 | Metric | Target (to date) | Actual | Status |
 |--------|-----------------|--------|--------|
 | Applications sent | 30+ | **0** | 🔴 CRITICAL |
@@ -381,6 +395,8 @@ OKX has **102 open roles** (26 score-80+, 13 direct-apply). See `strategy/okx-de
 | 2026-07-01 | **Strategy + Outreach refresh — DB growth analysis** | 1,211 jobs | Career OS | ✅ Done | Database grew 35% (899→1,211). Found 5 NEW OKX direct-apply Director roles (score 86-88) missed in previous analysis. Coupang doubled (60→126). Updated career-strategy.md with growth metrics, new OKX quick wins, company growth tracking. Updated outreach-tracker.md with Jul 1 week plan, revised overdue dates, new TODAY'S TOP 3. Web search billing unavailable — used local DB analysis. |
 | 2026-06-27 | **Outreach review — date sync to Jun 27 + weekly plan** | Career OS | Career OS | ✅ Done | Fixed duplicate header, updated all dates to Jun 27, recalculated overdue: David Liu (12d), Michael Zhang (14d), Emily Watson (11d), Thomas Anderson (8d), Sarah Chen (11d), Amanda Foster (9d), Lisa Wang (3d). Created Jun 27-Jul 3 weekly plan. Added Saturday focus: David Liu WeChat only (10 min). DB verified: 918 unique jobs. OKX 57 roles. |
 | 2026-07-05 | **Market Intelligence + Contact Mapping refresh** | Career OS | Career OS | ✅ Done | **KEY FINDING: Coupang is #1 hidden opportunity** — 10 score-80+ roles, ALL FRESH, 4 direct-apply, ZERO contacts. Created market-intelligence-jul5.md with "Golden 25" fresh direct-apply list. Updated contacts.json: Coupang → priority 1, added Datadog/Payoneer/Anthropic, deprecated phantom companies (Wellington/BlackRock/BNY — 0 jobs in DB). Updated outreach tracker: Jul 5-11 plan with 21 apps + 2 contact maps. TODAY'S TOP 3: Payoneer Chief of Staff (92), OKX VP AI (90), Datadog Country Manager (90). Web tools billing unavailable — used local DB analysis. |
+| 2026-06-27 | **Market Intelligence — Full DB scan (1,358 jobs)** | 1,358 jobs | Career OS | ✅ Done | **MAJOR FINDINGS:** Full workspace DB has 1,358 jobs (was 899). Uses letter grades (A-1=top). OKX case variant merged: 164 total, 99 A-1. Coupang more than doubled: 143 roles, 52 A-1. Agoda 3x: 128 roles, 16 A-1. NEW: OpenAI APAC Strategic Initiatives Lead (SG), Bybit (3 A-1 HK), HSBC (4 A-1), UOB (4 A-1 ALL), Google (3 A-1 SG). Seoul: 106 jobs, 30 A-1 — new 6th target city. Created market-intelligence-jun27.md. Updated career-strategy.md company density table + city summary + NEW Discoveries. Web search billing unavailable — used local DB analysis. |
+| 2026-06-27 | **🔴 LIVE OKX Greenhouse API scrape — 275 jobs (+68%)** | OKX (275 jobs) | Career OS | ✅ Done | **LIVE DATA:** Scraped OKX Greenhouse API via curl. Total jumped from 164→275 (+68%). 118 PM/Director/VP roles. 98 in Singapore, 97 in Hong Kong. **15+ NEW PM/Director roles not previously tracked:** Global Payment Partnerships (HK/SG), Institutional Product (HK/SG), Institutional Growth (HK/SG), Fiat (SG), User Growth (HK/SG), VIP Growth (HK/SG), Pay & Card (SG), AI Trading (HK/SG), Core Trading (HK/SG), Financial Products (HK/SG), Trading Infrastructure (HK/SG), Managing Director Banking Partnerships (SG). **KEY INSIGHT:** Global Payment Partnerships is THE perfect-fit role — cross-border payments at crypto company. Created market-intelligence-jun27-live.md. Updated career-strategy.md OKX row (164→275). |
 
 ---
 

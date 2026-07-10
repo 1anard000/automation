@@ -329,20 +329,8 @@
     }
   ],
   "outreach_log": [],
-  "notes": "Contacts managed by Career OS. Updated Jun 27. Key APAC contacts: David Liu (ByteDance, OVERDUE 12 DAYS), Emily Watson (Airwallex, OVERDUE 11 DAYS), Michael Zhang (OpenAI, OVERDUE 14 DAYS), Thomas Anderson (Meta, OVERDUE 8 DAYS), Amanda Foster (Google, OVERDUE 9 DAYS), Sarah Chen (NVIDIA, OVERDUE 11 DAYS), Lisa Wang (Sequoia, OVERDUE 3 DAYS). 5 placeholder contacts need replacing with real people. 8 companies have NO contacts — Wellington, Mastercard, BlackRock, BNY have score-100 Director roles. DB: 918 unique jobs. OKX: 57 roles (26 score-80+). THIS WEEK (Jun 27-Jul 3): 4 outreach + 3 OKX apps. Saturday: send David Liu WeChat (10 min) — breaks the zero. See hiring-manager-research-guide.md for search URLs. BREAK THE ZERO: Send David Liu message TODAY (10 min).",
+  "notes": "Contacts managed by Career OS. Updated Jun 27 (data cleanup: removed phantom Wellington/BlackRock/BNY entries, fixed duplicate Coupang). Key APAC contacts: David Liu (ByteDance, OVERDUE 12 DAYS), Emily Watson (Airwallex, OVERDUE 11 DAYS), Michael Zhang (OpenAI, OVERDUE 14 DAYS), Thomas Anderson (Meta, OVERDUE 8 DAYS), Amanda Foster (Google, OVERDUE 9 DAYS), Sarah Chen (NVIDIA, OVERDUE 11 DAYS), Lisa Wang (Sequoia, OVERDUE 3 DAYS). 5 placeholder contacts need replacing with real people. DB: 918 unique jobs. OKX: 57 roles (26 score-80+). THIS WEEK (Jun 27-Jul 3): 4 outreach + 3 OKX apps. Saturday: send David Liu WeChat (10 min) — breaks the zero. BREAK THE ZERO: Send David Liu message TODAY (10 min).",
   "research_queue": [
-    {
-      "company": "Wellington Management",
-      "priority": 99,
-      "roles_to_find": [
-        "Director Product Strategy APAC"
-      ],
-      "cities": [
-        "Singapore"
-      ],
-      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20Wellington%20Management%20Singapore&geoUrn=%5B%22102222073%22%5D",
-      "notes": "Jul 5 CORRECTION: This role does NOT exist in the database. 0 jobs found for Wellington. Remove from priority queue. Was phantom entry from earlier analysis."
-      },
     {
       "company": "Mastercard",
       "priority": 10,
@@ -354,30 +342,6 @@
       ],
       "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=director%20strategy%20Mastercard%20Singapore&geoUrn=%5B%22102222073%22%5D",
       "notes": "Jul 5 CORRECTION: Only 1 role in database (score 80, not 100). Glassdoor link — may not be direct apply. Lower priority than Coupang/Datadog/Payoneer."
-      },
-    {
-      "company": "BlackRock",
-      "priority": 99,
-      "roles_to_find": [
-        "Aladdin Product Solutions Director"
-      ],
-      "cities": [
-        "Singapore"
-      ],
-      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20BlackRock%20Aladdin&geoUrn=%5B%22102222073%22%5D",
-      "notes": "Jul 5 CORRECTION: This role does NOT exist in the database. 0 jobs found for BlackRock. Remove from priority queue. Was phantom entry."
-      },
-    {
-      "company": "BNY",
-      "priority": 99,
-      "roles_to_find": [
-        "Director Commercial PM Custody Platform"
-      ],
-      "cities": [
-        "Singapore"
-      ],
-      "linkedin_search": "https://www.linkedin.com/search/results/people/?keywords=product%20director%20BNY%20custody&geoUrn=%5B%22102222073%22%5D",
-      "notes": "Jul 5 CORRECTION: This role does NOT exist in the database. 0 jobs found for BNY. Remove from priority queue. Was phantom entry."
       },
     {
       "company": "DBS Bank",
@@ -641,15 +605,6 @@
     }
   ],
   "contact_targets": {
-    "coupang": {
-      "current": 0,
-      "target": 3,
-      "roles": [
-        "Director Product & Program Management",
-        "Principal Business Strategy & Ops",
-        "Director Growth Marketing"
-      ]
-    },
     "datadog": {
       "current": 0,
       "target": 2,
@@ -673,39 +628,12 @@
         "Revenue Strategy & Ops Lead Japan"
       ]
     },
-    "wellington_management": {
-      "current": 0,
-      "target": 2,
-      "_deprecated": true,
-      "_deprecated_reason": "Jul 5: No jobs in database. Phantom entry.",
-      "roles": [
-        "Director Product Strategy APAC"
-      ]
-    },
     "mastercard": {
       "current": 0,
       "target": 2,
       "_note": "Only 1 role in database (score 80). Lower priority.",
       "roles": [
         "Director AI & Data Strategy"
-      ]
-    },
-    "blackrock": {
-      "current": 0,
-      "target": 2,
-      "_deprecated": true,
-      "_deprecated_reason": "Jul 5: No jobs in database. Phantom entry.",
-      "roles": [
-        "Aladdin Product Solutions Director"
-      ]
-    },
-    "bny": {
-      "current": 0,
-      "target": 2,
-      "_deprecated": true,
-      "_deprecated_reason": "Jul 5: No jobs in database. Phantom entry.",
-      "roles": [
-        "Director Commercial PM Custody"
       ]
     },
     "dbs_bank": {

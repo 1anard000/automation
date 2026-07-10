@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-06-27T22:00:33.872188+00:00",
+  "stats": {
+    "total_jobs": 514,
+    "jobs_by_location": {
+      "SZ": 76,
+      "HK": 79,
+      "GZ": 7,
+      "SH": 9,
+      "SG": 133,
+      "Other": 210
+    },
+    "jobs_by_category": {
+      "PM": 282,
+      "Strategy": 113,
+      "Growth": 40,
+      "Fintech": 12,
+      "Other": 67
+    }
+  },
+  "top_5_jobs": [
+    {
+      "title": "Principal Product Manager (Singapore Based)",
+      "company": "Agoda",
+      "location": "Hong Kong",
+      "quality_score": 100,
+      "quality_tier": "A",
+      "category": "general_pm",
+      "job_id": "59084d5f315e",
+      "url": "https://hk.linkedin.com/jobs/view/principal-product-manager-singapore-based-at-agoda-4429535801"
+    },
+    {
+      "title": "Head of Communications, APAC",
+      "company": "Stripe",
+      "location": "Singapore",
+      "quality_score": 93,
+      "quality_tier": "A",
+      "category": "general_pm",
+      "job_id": "",
+      "url": "https://stripe.com/jobs/search?gh_jid=7893199"
+    },
+    {
+      "title": "Senior Integration Reliability Engineer, Technical Operations",
+      "company": "Stripe",
+      "location": "Singapore",
+      "quality_score": 91,
+      "quality_tier": "A",
+      "category": "ops",
+      "job_id": "",
+      "url": "https://stripe.com/jobs/search?gh_jid=7457268"
+    },
+    {
+      "title": "Country Manager",
+      "company": "Datadog",
+      "location": "Tokyo",
+      "quality_score": 90,
+      "quality_tier": "A",
+      "category": "gm",
+      "job_id": "6d43b0be0641",
+      "url": "https://careers.datadoghq.com/detail/7975747/?gh_jid=7975747"
+    },
+    {
+      "title": "Senior Strategy Project Manager, VIP/Institutions",
+      "company": "OKX",
+      "location": "Hong Kong",
+      "quality_score": 90,
+      "quality_tier": "A",
+      "category": "strategy",
+      "job_id": "970f6d459177",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7739163003"
+    }
+  ],
+  "category_counts": {
+    "other": 67,
+    "general_pm": 212,
+    "fintech": 12,
+    "product": 37,
+    "strategy": 62,
+    "growth": 25,
+    "cross_border": 21,
+    "ops": 25,
+    "gm": 6,
+    "ai_product": 16,
+    "product_management": 5,
+    "senior_pm": 12,
+    "general_manager": 1,
+    "operations": 8,
+    "platform": 3,
+    "program": 2
+  }
+}
