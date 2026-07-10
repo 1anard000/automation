@@ -61,12 +61,14 @@ hr{border:none;border-top:1px solid #30363d;margin:40px 0}
 <div class="nav-title">📋 Interview Prep</div>
 <div class="nav-section">Core</div>
 <a href="#legend">Legend / Key</a>
-<a href="#business">The Business (30 sec)</a>
+<a href="#business">The Business</a>
 <a href="#opening">Opening</a>
 <div class="nav-section">Strategy</div>
 <a href="#product">Product Strategy</a>
+<a href="#differentiator">Differentiator</a>
 <a href="#gtm">GTM Strategy</a>
 <a href="#geography">Geography</a>
+<a href="#pricing">Pricing</a>
 <div class="nav-section">Competition</div>
 <a href="#competitive">Competitive Landscape</a>
 <a href="#five-forces">Porter's Five Forces</a>
@@ -81,7 +83,7 @@ hr{border:none;border-top:1px solid #30363d;margin:40px 0}
 <main>
 
 <h1>Dify.ai GTM Interview — Complete Prep</h1>
-<p style="color:#8b949e;font-style:italic">Full hour with CFO. Topics: product vision + market expansion. Simplified with rule of three.</p>
+<p style="color:#8b949e;font-style:italic">Full hour with CFO. Topics: product vision + market expansion.</p>
 
 <div class="highlight">
 <span class="metric"><strong>130K+</strong> GitHub Stars</span>
@@ -91,224 +93,296 @@ hr{border:none;border-top:1px solid #30363d;margin:40px 0}
 <span class="metric"><strong>$30M</strong> Series Pre-A</span>
 </div>
 
+<div class="highlight" style="text-align:center">
+<strong style="color:#58a6ff">Quick Jump:</strong>
+<a href="#business">Business</a> · <a href="#opening">Opening</a> · <a href="#product">Product Strategy</a> · <a href="#differentiator">Differentiator</a> · <a href="#gtm">GTM</a> · <a href="#geography">Geography</a> · <a href="#competitive">Competitive</a> · <a href="#five-forces">Porter's</a> · <a href="#background">Background</a> · <a href="#unit">Unit Economics</a> · <a href="#risks">Risks</a> · <a href="#questions">Questions</a> · <a href="#checklist">Checklist</a>
+</div>
+
 <hr>
 
 <h2 id="legend">Legend / Key</h2>
 
 <div class="legend">
 <div class="legend-title">Color Coding</div>
-<div class="legend-item"><span class="tag tag-green">Strong</span> Strength / advantage</div>
-<div class="legend-item"><span class="tag tag-yellow">Medium</span> Moderate / mixed</div>
-<div class="legend-item"><span class="tag tag-red">Weak</span> Risk / threat</div>
-<div class="legend-item"><span class="tag tag-blue">Info</span> Context / reference</div>
+<div class="legend-item"><span class="tag tag-green">Strong</span> Strength</div>
+<div class="legend-item"><span class="tag tag-yellow">Medium</span> Mixed</div>
+<div class="legend-item"><span class="tag tag-red">Weak</span> Risk</div>
+<div class="legend-item"><span class="tag tag-blue">Info</span> Reference</div>
 </div>
 
 <div class="legend">
 <div class="legend-title">Formatting</div>
-<div class="legend-item">🟢 <strong>Green boxes</strong> = Your talking points</div>
-<div class="legend-item">🟡 <strong>Yellow boxes (q)</strong> = Interview questions</div>
-<div class="legend-item">🔴 <strong>Red boxes</strong> = Risks / weak spots</div>
-<div class="legend-item">📊 <strong>Tables</strong> = Data / comparisons</div>
+<div class="legend-item">🟢 Boxes = Talking points</div>
+<div class="legend-item">🟡 Boxes = Interview questions</div>
+<div class="legend-item">🔴 Boxes = Risks / weak spots</div>
+<div class="legend-item">📊 Tables = Data / comparisons</div>
 </div>
 
 <hr>
 
-<h2 id="business">The Business — 30 Seconds</h2>
+<h2 id="business">The Business — What Dify Is</h2>
 
-<div class="three">
-<h4>What Dify is (3 points):</h4>
-<ol>
-<li><strong>Open-source platform</strong> for building AI agent workflows visually — no code required</li>
-<li><strong>Sits between AI models</strong> (GPT, Claude, Llama) <strong>and business systems</strong> (CRM, databases)</li>
-<li><strong>280+ enterprise customers</strong> including Maersk, Adobe, Novartis, Deloitte, PayPal</li>
-</ol>
-</div>
+<p><strong>One sentence:</strong> Dify is an open-source platform that lets teams build, deploy, and operate AI agent workflows visually — without writing code from scratch.</p>
 
-<div class="three">
-<h4>How Dify makes money (3 tiers):</h4>
-<ol>
-<li><strong>Community Edition</strong> — free, self-hosted. Top of funnel. No revenue.</li>
-<li><strong>Dify Cloud</strong> — managed SaaS. $590-$1,590/yr. Subscription revenue.</li>
-<li><strong>Enterprise</strong> — custom ($50-200K+/yr). SSO, VPC, audit, SLAs. High-ACV contracts.</li>
-</ol>
-</div>
+<p><strong>What it does:</strong> Sits between AI models (GPT, Claude, Llama, Qwen, DeepSeek) and business systems (CRM, databases, support tools). Provides a visual drag-and-drop builder for AI workflows, RAG pipelines (connecting AI to company data), agent creation, and production deployment.</p>
 
-<p><strong>Same model as GitHub:</strong> Open-source core drives adoption. Managed cloud and enterprise features drive revenue. GitHub converted 180M free users → $2B+ ARR. Dify has 1.4M installations.</p>
+<p><strong>Who uses it:</strong> Maersk, Adobe, Google, PayPal, Novartis, Deloitte, Mercedes-Benz, McDonald's, Volvo, ETS, Anker — 280+ enterprise customers across logistics, pharma, automotive, education, professional services, and tech.</p>
+
+<p><strong>Founded:</strong> March 2023 by Luyu Zhang (Forbes: "middle school dropout who built an AI startup"). Entity: LangGenius, Inc., Menlo Park, CA. Offices: SF Bay Area, Tokyo, Shanghai, Suzhou. Team: ~50-100 employees. "Over 60% of codebase built by LLMs."</p>
+
+<h3>Business Model (Open-Core)</h3>
+
+<table>
+<tr><th>Tier</th><th>Price</th><th>What</th><th>Revenue Type</th></tr>
+<tr><td><strong>Community Edition</strong></td><td>Free</td><td>Full core features, self-hosted, unlimited. Top of funnel.</td><td>None — adoption driver</td></tr>
+<tr><td><strong>Cloud Sandbox</strong></td><td>Free</td><td>200 messages/mo, 1 member, 5 apps</td><td>None — gets users hooked</td></tr>
+<tr><td><strong>Cloud Professional</strong></td><td>$590/yr</td><td>5K messages/mo, 3 members, 50 apps</td><td>Subscription</td></tr>
+<tr><td><strong>Cloud Team</strong></td><td>$1,590/yr</td><td>10K messages/mo, 50 members, 200 apps</td><td>Subscription</td></tr>
+<tr><td><strong>Enterprise</strong></td><td>Custom ($50-200K+/yr)</td><td>SSO, VPC, audit, SLAs, dedicated support</td><td>High-ACV contract</td></tr>
+</table>
+
+<p><strong>How Dify makes money:</strong> Same model as GitHub. Open-source core drives adoption. Managed cloud and enterprise compliance features drive revenue. The Community Edition is free — enterprises pay for convenience, compliance, and support. GitHub converted 180M free users into $2B+ ARR. Dify has 1.4M installations.</p>
+
+<p><strong>Key risk:</strong> The Community Edition is powerful enough that enterprises can self-host for free. Dify needs to make Cloud so good (auto-updates, integrations, support) that enterprises choose managed over self-hosted. GitHub solved this same problem by making the cloud version the superior experience.</p>
+
+<p><strong>Important note:</strong> Dify is under the <code>langgenius</code> GitHub org. LangGenius is Dify's company name. It is NOT related to LangChain (which is <code>langchain-ai</code>, a separate company). They are competitors, not the same thing.</p>
 
 <hr>
 
 <h2 id="opening">Opening — "Tell me about yourself and why Dify?"</h2>
 
+<p>This is your narrative arc. Lead with this.</p>
+
 <blockquote>
 <p>"Three roles converge at Dify:</p>
-<p><strong>Amazon</strong> — I helped APAC sellers across Southeast Asia, Korea, and Taiwan reach Western consumers. That's GTM for Asian companies going international. Dify faces the same trust gap.</p>
-<p><strong>GitHub/Microsoft</strong> — I watched open-source PLG convert to enterprise revenue. I was there when Copilot launched — an AI product on an open-source platform. That's exactly what Dify is building.</p>
-<p><strong>Salesforce</strong> — I learned how enterprises buy software. The committee decision, the security reviews, the compliance gates.</p>
-<p>I was originally skeptical of AI platforms — the model layer has unsustainable economics. But Palantir's thesis convinced me. Karp said models produce 'strings of text' without enterprise grounding. What you need is an 'intermediate representation of the enterprise that AI can interact with.' That's Dify."</p>
+<p><strong>Amazon Global Selling</strong> — I helped APAC sellers across Southeast Asia, Korea, and Taiwan reach Western consumers on Amazon's marketplace. That's GTM for Asian companies going international. I understand the trust gap — compliance, data sovereignty, cultural differences. Dify faces the exact same challenge: a Chinese-founded platform trying to win Western enterprise trust.</p>
+<p><strong>GitHub/Microsoft</strong> — I was on the developer platform team. I watched the PLG playbook work in real time: developers adopt for free, bring to work, enterprise follows. I was there when Copilot launched — an AI product layer on an open-source platform. That's exactly what Dify is building. I understand the unit economics, the conversion dynamics, and the enterprise sales motion.</p>
+<p><strong>Salesforce</strong> — I learned how enterprises actually buy software. The procurement cycles, the security reviews, the compliance requirements. At Salesforce, the partner ecosystem (Accenture, Deloitte, PwC) drove more enterprise adoption than direct sales. Dify needs the same.</p>
+<p>Dify sits at the intersection: a platform going global (Amazon), built on open-source (GitHub), selling to enterprises (Salesforce). That's why I reached out.</p>
+<p>I was originally skeptical of AI platforms — at GitHub I saw the unit economics up close, and the model layer has unsustainable economics. But Palantir's thesis convinced me. Karp said models are commoditizing — 'winners and losers swap places every six months' — and that models alone produce 'strings of text' without enterprise grounding. What you need is an 'intermediate representation of the enterprise that AI can interact with.' That's what Dify is building."</p>
 </blockquote>
 
-<hr>
-
-<h2 id="product">Product Strategy — 3 Points</h2>
-
-<div class="three">
-<h4>Where Dify is going (3 layers):</h4>
-<ol>
-<li><strong>Build</strong> (today) — Visual workflow builder, RAG pipelines, agent creation. ✅ Shipped.</li>
-<li><strong>Collaborate</strong> (next 12mo) — Team workspaces, Human Input Node, audit trails. 🔄 In progress.</li>
-<li><strong>Ecosystem</strong> (18-36mo) — Creator Center, Template Marketplace, third-party integrations. 🔄 Early.</li>
-</ol>
-</div>
-
-<div class="three">
-<h4>What makes Dify defensible (3 moats):</h4>
-<ol>
-<li><strong>Open-source trust</strong> — Enterprises audit the code, self-host, no vendor lock-in. Critical for Chinese-origin company going West.</li>
-<li><strong>Model-agnostic</strong> — Any LLM. More valuable as models fragment. Lets enterprises optimize cost.</li>
-<li><strong>Data grounding</strong> — MongoDB + Voyage AI integrations create switching costs. Model-agnosticism is table stakes; data-agnosticism is the next moat.</li>
-</ol>
-</div>
-
-<div class="three">
-<h4>Product strategy talking points (3):</h4>
-<ol>
-<li><strong>Absorb frameworks, don't compete.</strong> Git → GitHub. LangChain → Dify. Frameworks commoditize. Platforms compound. But the window is closing — LangChain is building its own platform (LangGraph).</li>
-<li><strong>Human Input Node = Trojan Horse for governance.</strong> Workflows pause for human review → audit trails → compliance without heavy RBAC. Bottom-up governance.</li>
-<li><strong>Content-led enterprise motion.</strong> Three research pieces in 6 weeks targeting IT leaders. Not blog posts — sales enablement material for CIOs.</li>
-</ol>
-</div>
+<p><span class="bg-link">Background links:</span> Amazon AGS (APAC → Western trust gap) → GitHub (PLG + Copilot) → Salesforce (enterprise buying + partner ecosystem).</p>
 
 <hr>
 
-<h2 id="gtm">GTM Strategy — 3 Motions</h2>
+<h2 id="product">Product Strategy — Where Dify Is Going</h2>
+
+<h3>The Vision</h3>
+<p>Dify's vision should be: <strong>the operating system for AI-native work.</strong> Not just a workflow builder — the platform where every team builds, deploys, and manages AI agents. Like how GitHub went from "a place to host code" to "the operating system for software development."</p>
+
+<h3>Three Layers of the Vision</h3>
+
+<table>
+<tr><th>Layer</th><th>Timeframe</th><th>What It Means</th><th>Dify's Progress</th></tr>
+<tr><td><strong>1. Build</strong></td><td>Today</td><td>Visual workflow builder, agent creation, RAG pipelines. Core product.</td><td>✅ Shipped and strong</td></tr>
+<tr><td><strong>2. Collaborate</strong></td><td>Next 12 months</td><td>Team workspaces, RBAC, approval chains, audit trails. Enterprise governance.</td><td>🔄 v1.14.1 (team assets) + Human Input Node shipped</td></tr>
+<tr><td><strong>3. Ecosystem</strong></td><td>18-36 months</td><td>Creator Center, Template Marketplace, third-party integrations, revenue sharing.</td><td>🔄 Creator Center launched May 2026. Early.</td></tr>
+</table>
+
+<p><strong>Key insight:</strong> Layers 2 and 3 are happening simultaneously, not sequentially. Team collaboration (v1.14.1) and marketplace (May 2026) shipped within a week of each other. With $30M in fresh capital, Dify can parallelize. The 12-month sequencing in the original plan was too conservative.</p>
+
+<h3>Product Strategy Talking Points</h3>
 
 <div class="three">
-<h4>Motion 1: PLG (months 1-3)</h4>
+<h4>3 key product strategy moves:</h4>
 <ol>
-<li>Generous free tier drives developer adoption (130K+ GitHub stars)</li>
-<li>Developers bring tool to work → team adopts → enterprise needs compliance</li>
-<li>Key metric: free → paid conversion rate (target: 2-5%)</li>
+<li><strong>Absorb frameworks, don't compete.</strong> Git → GitHub. LangChain → Dify. Frameworks commoditize (LangChain, CrewAI, AutoGen all converging on similar features). Platforms compound (GitHub won by owning the ecosystem around Git, not by being a better Git client). Dify should make LangChain invisible behind its visual interface. But the window is closing — LangGraph Platform is building cloud-hosted agent deployment.</li>
+<li><strong>Human Input Node = Trojan Horse for governance.</strong> By letting workflows pause for human review, Dify builds audit trails and approval chains without requiring heavy RBAC infrastructure first. This is bottom-up governance — the same pattern GitHub used. Enterprises adopt the workflow first, then discover they need governance, then upgrade to Enterprise tier.</li>
+<li><strong>Data grounding is the real moat.</strong> The MongoDB + Voyage AI integration (Jun 2026) shows where Dify is going — native integrations to enterprise data sources. Every data connection creates switching costs. Model-agnosticism is table stakes now; data-agnosticism is the next moat. This is harder to replicate than a visual workflow builder.</li>
+</ol>
+</div>
+
+<h3>Content-Led Enterprise Motion</h3>
+<p>Dify published three research pieces in May-June 2026 targeting IT leaders specifically:</p>
+<ul>
+<li>"From AI Experiment to Enterprise Platform" — 5-stage framework for enterprise AI adoption</li>
+<li>"Why Enterprise AI Workflows Keep Breaking" — centralized AI workflow platform positioning</li>
+<li>"Build AI Applications, Not Platform Underneath" — IT leader guide</li>
+</ul>
+<p>These aren't blog posts — they're enterprise sales enablement material designed to be shared with CIOs and CTOs by sales teams. This signals a content-led enterprise motion emerging alongside PLG.</p>
+
+<hr>
+
+<h2 id="differentiator">Unique Differentiator — Why Dify Wins</h2>
+
+<div class="three">
+<h4>Dify's 3 defensible moats:</h4>
+<ol>
+<li><strong>Open-source trust</strong> <span class="tag tag-green">Strong</span> — Enterprises can audit the code, self-host, avoid vendor lock-in. For a Chinese-origin company going West, this is the single most powerful argument against the geopolitical risk objection. Closed-source competitors (Coze, Microsoft, Google) ask enterprises to trust a black box. Dify says: "read the code yourself." Competitors can't retroactively open-source.</li>
+<li><strong>Model-agnostic</strong> <span class="tag tag-yellow">Medium</span> — Works with any LLM (OpenAI, Anthropic, Llama, Qwen, DeepSeek). More valuable as models fragment. Lets enterprises optimize for cost — cheap model for simple tasks, expensive model for complex ones. If locked into Microsoft Copilot Studio, you're stuck with Azure OpenAI. Dify lets you switch. But: others can add model support too.</li>
+<li><strong>Data integrations</strong> <span class="tag tag-green">Strong</span> — Native RAG pipeline, MongoDB + Voyage AI integration. Every enterprise data source connected to Dify makes migration harder. This is the real switching cost — harder to replicate than a visual builder. n8n has more integrations (400+), but Dify's RAG pipeline is deeper and AI-native.</li>
+</ol>
+</div>
+
+<h3>The Palantir Thesis (Use Once in Interview)</h3>
+
+<blockquote>
+<p>"Palantir's thesis convinced me. Karp said models are commoditizing — 'winners and losers swap places every six months.' Shyam Sankar, Palantir's CTO, said: 'Chat was always a dead end. We viewed LLMs as a new runtime for AI labor. To capture the productive value of this AI labor, you need an intermediate representation of your enterprise that AI can interact with.' That's what Dify is building — the intermediate representation that tethers models to real business workflows."</p>
+</blockquote>
+
+<p><strong>Important:</strong> Use this quote ONCE — in the opening or when discussing product vision. Don't repeat it 4 times. Lead with your own GitHub Copilot observation (model layer has bad unit economics), then cite Karp as corroboration.</p>
+
+<h3>Future-Looking Movement</h3>
+<p>Dify is moving from <strong>"workflow builder"</strong> to <strong>"AI operating system"</strong>:</p>
+<ul>
+<li><strong>Today:</strong> Build and deploy AI workflows (visual builder, RAG, agents)</li>
+<li><strong>Next:</strong> Team collaboration + marketplace ecosystem (shared workflows, templates, revenue sharing)</li>
+<li><strong>Future:</strong> The platform where every team's AI agents live, interact, and evolve — the "operating system for AI-native work"</li>
+</ul>
+
+<hr>
+
+<h2 id="gtm">GTM Strategy — Three Motions</h2>
+
+<p>Dify's GTM has three motions, sequenced over 12 months. Each builds on the previous.</p>
+
+<div class="three">
+<h4>Motion 1: PLG (Product-Led Growth) — Months 1-3</h4>
+<ol>
+<li><strong>Top of funnel:</strong> GitHub stars (130K+), Docker pulls, developer community. Free tier drives adoption.</li>
+<li><strong>Conversion trigger:</strong> Need team features, more messages, compliance (SSO, audit). The developer builds the workflow, then the team adopts, then IT discovers shadow usage, then enterprise compliance gate kicks in.</li>
+<li><strong>Key metric:</strong> Free → paid conversion rate. Target: 2-5% (GitHub benchmark). Measure current rate, identify drop-off points, run experiments.</li>
+</ol>
+<p><strong>The play:</strong> "Your developers are already using Dify. Let's make it official with enterprise features." This is the exact play GitHub used. The developer IS the distribution channel.</p>
+</div>
+
+<div class="three">
+<h4>Motion 2: Enterprise Sales — Months 3-9</h4>
+<ol>
+<li><strong>Sales play:</strong> Identify enterprises where developers already use Dify's free tier → reach IT/compliance → offer Enterprise trial → convert.</li>
+<li><strong>Different buyers, different value props:</strong> Developers want the visual builder. IT leaders want governance and compliance. CFOs want ROI and cost control. Business users want "use AI without code" via Human Input Node.</li>
+<li><strong>Remove objections, don't create desire.</strong> At Salesforce, I learned enterprise sales is about removing objections. The desire is already there — developers want AI tools. The objections are: security, compliance, governance, support. Dify's enterprise tier addresses all of these.</li>
 </ol>
 </div>
 
 <div class="three">
-<h4>Motion 2: Enterprise Sales (months 3-9)</h4>
+<h4>Motion 3: Partner Channel — Months 6-12</h4>
 <ol>
-<li>Sales play: "Your developers are already using Dify. Let's make it official."</li>
-<li>Different buyers need different value props (developer ≠ IT leader ≠ CFO)</li>
-<li>Remove objections: security, compliance, governance, support</li>
-</ol>
-</div>
-
-<div class="three">
-<h4>Motion 3: Partner Channel (months 6-12)</h4>
-<ol>
-<li>APAC: System integrators (Accenture, Deloitte, PwC — already using Dify)</li>
-<li>US: AI consultancies and developer agencies</li>
-<li>Partner margin: 30-40% wholesale discount</li>
+<li><strong>APAC:</strong> System integrators (Accenture, Deloitte, PwC — all already using Dify). They have existing enterprise relationships and are trusted advisors. If Dify is their recommended platform, that's instant pipeline.</li>
+<li><strong>US:</strong> AI consultancies and developer agencies. Different motion — developer advocacy and PLG.</li>
+<li><strong>Margin:</strong> 30-40% wholesale discount for resellers. At Salesforce, the partner ecosystem drove more enterprise adoption than direct sales. Partners have existing relationships — they're the trusted advisor.</li>
 </ol>
 </div>
 
 <h3>Customer Segments</h3>
 
 <table>
-<tr><th>Segment</th><th>Buyer</th><th>Value Prop</th><th>Price</th></tr>
-<tr><td>Developers</td><td>Individual</td><td>"Build AI workflows faster"</td><td>Free → $590/yr</td></tr>
-<tr><td>Tech Teams</td><td>Eng Manager</td><td>"Deploy AI with team collaboration"</td><td>$1,590/yr</td></tr>
-<tr><td>Enterprise</td><td>CIO / CTO</td><td>"AI governance with compliance"</td><td>$50-200K/yr</td></tr>
-<tr><td>Regulated</td><td>CISO</td><td>"Self-host. Data never leaves."</td><td>$100K+/yr</td></tr>
+<tr><th>Segment</th><th>Buyer</th><th>Value Prop</th><th>Price Point</th></tr>
+<tr><td><strong>Developers / Startups</strong></td><td>Individual developer</td><td>"Build AI workflows faster with visual builder"</td><td>Free → $590/yr</td></tr>
+<tr><td><strong>Tech Teams (SMB)</strong></td><td>Engineering manager</td><td>"Deploy AI with team collaboration"</td><td>$1,590/yr</td></tr>
+<tr><td><strong>Enterprise IT</strong></td><td>CIO / VP Engineering</td><td>"Enterprise AI governance with compliance and audit"</td><td>$50-200K/yr</td></tr>
+<tr><td><strong>Business Users</strong></td><td>Department head / COO</td><td>"Use AI without code — Human Input Node lets you participate"</td><td>Part of Enterprise</td></tr>
+<tr><td><strong>Regulated Industries</strong></td><td>CISO / Compliance</td><td>"Self-host on your infrastructure. Data never leaves."</td><td>$100K+/yr</td></tr>
 </table>
+
+<p><strong>Key insight:</strong> The developer who builds the workflow is NOT the person who signs the check. You need different value propositions for different buyers. At Salesforce, I learned that enterprise buying is a committee decision — the developer, the IT leader, the CISO, and the CFO all have veto power. Dify needs to speak to all of them.</p>
 
 <hr>
 
-<h2 id="geography">Geographic Expansion — 3 Priorities</h2>
+<h2 id="geography">Geographic Expansion — Three Priorities</h2>
 
 <div class="three">
 <h4>Priority 1: Deepen China/APAC</h4>
 <ol>
-<li>Dify is already strong here. Opportunity: more enterprise customers, more verticals.</li>
-<li>Japan is the best beachhead beyond China — mature AI market, values self-hosting.</li>
-<li>Sales motion: relationship-driven. System integrators are the channel.</li>
+<li><strong>China:</strong> Dify is already strong. Opportunity: deeper penetration — more enterprise customers, more vertical solutions. Sales motion: relationship-driven. System integrators and consulting firms are the channel. Shanghai/Suzhou team handles this.</li>
+<li><strong>Japan:</strong> Most mature enterprise AI market in Asia (~$15B, growing 25%+ CAGR). Dify's Tokyo office is the right beachhead. Japanese enterprises value self-hosting (data sovereignty), compliance, and long-term vendor relationships. But: sales cycles are 12-18 months.</li>
+<li><strong>Korea:</strong> Chaebols (Samsung, LG, SK) investing heavily in AI infrastructure. Faster sales cycles than Japan. Good secondary market.</li>
 </ol>
 </div>
 
 <div class="three">
 <h4>Priority 2: US Enterprise</h4>
 <ol>
-<li>Trust gap is #1 challenge. SOC 2/GDPR are foundation, but trust = reference customers.</li>
-<li>Land 3-5 design partners at discount for case studies. One local person.</li>
-<li>Need US-based leadership, support, data residency to address geopolitical concerns.</li>
+<li><strong>Trust gap is #1 challenge.</strong> For a Chinese-origin platform going West, SOC 2 and GDPR are the foundation — but trust is built through reference customers, not certifications. You need 3-5 Western enterprise logos that you can point to.</li>
+<li><strong>Entry strategy:</strong> Land 3-5 US design partners at a discount in exchange for case studies. One person in the US for in-person meetings. Enterprise AI conferences (Gartner, Forrester). Western enterprises buy from companies they've met in person.</li>
+<li><strong>Geopolitical mitigation:</strong> Open-source transparency (audit the code), self-hosted option (data never leaves their infrastructure), US/EU data residency, US-based leadership and support. Need to address this proactively, not wait for objections.</li>
 </ol>
 </div>
 
 <div class="three">
-<h4>Priority 3: Europe + Emerging</h4>
+<h4>Priority 3: Europe + Emerging Markets</h4>
 <ol>
-<li>GDPR-compliant out of the box. Self-hosted fits German Mittelstand.</li>
-<li>Korea: fast conversion, chaebols investing heavily in AI.</li>
-<li>Middle East: Saudi $40B AI fund, UAE AI ministry. Worth watching.</li>
+<li><strong>Europe (DACH, Nordics):</strong> GDPR-compliant out of the box. Self-hosted fits German Mittelstand (mid-market manufacturers) who are underserved and data-sovereignty-conscious.</li>
+<li><strong>Southeast Asia:</strong> Singapore as hub. Indonesia and Vietnam fastest-growing from low base. Fragmented but emerging.</li>
+<li><strong>Middle East:</strong> Saudi Arabia's $40B AI fund, UAE AI ministry. Government-backed demand. Not in current plan but worth watching as a high-growth opportunity.</li>
 </ol>
 </div>
+
+<p><strong>Key stat:</strong> The international enterprise AI platform market is roughly 8-10x China's, but China is more competitive (Alibaba Cloud, Baidu, Tencent, ByteDance all have competing platforms). International markets have fewer entrenched competitors — that's why the growth ceiling is higher.</p>
 
 <hr>
 
-<h2 id="competitive">Competitive Landscape — 3 Layers</h2>
+<h2 id="pricing">Pricing Strategy</h2>
 
-<p>The competitive landscape has three layers. Each is a different type of threat.</p>
+<ul>
+<li><strong>Self-serve tiers</strong> (Sandbox, Professional, Team): Same price globally. Don't discount — it devalues the product. $590/yr is accessible anywhere.</li>
+<li><strong>Enterprise:</strong> Regional pricing. US/EU enterprises expect $50-200K+/yr for enterprise AI platforms. APAC has different price sensitivity.</li>
+<li><strong>Partners:</strong> 30-40% wholesale discount for resellers and service partners. Incentivizes them to sell Dify.</li>
+<li><strong>Free tier:</strong> Same everywhere — don't restrict by geography. GitHub's global free tier drove 180M users.</li>
+</ul>
+
+<p><strong>CFO insight:</strong> Mid-market enterprise AI budgets are typically $1-10M annually, with 20-30% going to platform/tooling. A $50-200K Dify enterprise contract is a fraction of their AI budget — the challenge isn't price, it's proving ROI over PoC-stage alternatives.</p>
+
+<hr>
+
+<h2 id="competitive">Competitive Landscape — Three Layers</h2>
+
+<p>The competitive landscape has three distinct layers. Each represents a different type of threat.</p>
 
 <div class="three">
-<h4>Layer 1: Platform Competitors (big companies)</h4>
+<h4>Layer 1: Platform Competitors (big companies, direct competitors)</h4>
 <ol>
-<li><strong>n8n</strong> — 196K stars (more than Dify). Open-source, visual, 400+ integrations. But: not AI-native (AI is add-on). <span class="tag tag-red">Biggest direct threat.</span></li>
-<li><strong>Google Gemini EAP</strong> — Enterprise benchmark (80% Codability). Deepest security. But: Google-locked, not accessible.</li>
-<li><strong>Microsoft Copilot Studio</strong> — Dominant by distribution (Office 365 bundle). But: Azure-locked, proprietary.</li>
+<li><strong>n8n</strong> <span class="tag tag-red">Biggest threat</span> — 196K GitHub stars (more than Dify's 130K). Open-source, visual, 400+ integrations, self-hosted AI kit with Ollama. Independent 2026 report scored n8n higher than Dify on both Codability (72% vs 59%) and Enterprise readiness (54% vs 46%). <strong>But:</strong> Not AI-native — AI is an add-on, not the core. Dify's advantage: deeper AI capabilities (RAG pipelines, agent orchestration).</li>
+<li><strong>Google Gemini EAP</strong> <span class="tag tag-yellow">Enterprise benchmark</span> — Rebranded from Vertex AI. Scores 80% Codability, 74% Enterprise (highest in market). Includes Agent Gateway, Model Armor (content security), SPIFFE-based Agent Identity. <strong>But:</strong> Google-locked (only Gemini models), not accessible to non-engineers, requires Python knowledge.</li>
+<li><strong>Microsoft Copilot Studio</strong> <span class="tag tag-yellow">Distribution advantage</span> — Dominant by distribution (bundles with Office 365). Every enterprise already has Microsoft. <strong>But:</strong> Azure-locked (only Azure OpenAI), proprietary, no self-hosted option.</li>
 </ol>
 </div>
 
 <div class="three">
-<h4>Layer 2: Framework Competitors (moving up)</h4>
+<h4>Layer 2: Framework Competitors (moving up into Dify's territory)</h4>
 <ol>
-<li><strong>LangChain / LangGraph</strong> — 141K stars. Now brands as "agent engineering platform" (not just framework). LangGraph Platform = cloud-hosted agent deployment. Moving into Dify's territory.</li>
-<li>Dify should absorb LangChain (like GitHub absorbed Git), not compete. But the window is closing.</li>
-<li>Frameworks commoditize — LangChain, CrewAI, AutoGen all converging. Platforms compound.</li>
+<li><strong>LangChain / LangGraph</strong> <span class="tag tag-yellow">Evolving threat</span> — 141K GitHub stars. Now brands itself as "The agent engineering platform" (not just a framework). LangGraph (36.8K stars) offers cloud-hosted agent deployment — they're moving up the stack into Dify's territory. <strong>Dify's strategy:</strong> Absorb LangChain (like GitHub absorbed Git). Make LangChain invisible behind Dify's visual interface. But the window is closing — LangGraph Platform is building its own platform capabilities.</li>
+<li><strong>CrewAI</strong> <span class="tag tag-blue">Niche</span> — Multi-agent framework. Smaller but growing. Less enterprise traction than LangChain.</li>
 </ol>
+<p><strong>Key distinction:</strong> Dify and LangChain are completely separate companies with separate codebases. Dify is built by LangGenius (langgenius on GitHub). LangChain is built by LangChain AI (langchain-ai on GitHub). They are competitors, not the same thing.</p>
 </div>
 
 <div class="three">
-<h4>Layer 3: AI Coding Agents (different category)</h4>
+<h4>Layer 3: AI Coding Agents (different category — not direct competitors)</h4>
 <ol>
-<li><strong>Claude Code</strong> — Anthropic's coding agent. Proprietary, cloud-only, locked to Claude. Not a Dify competitor — it's a developer tool, not a workflow platform.</li>
-<li><strong>Cursor</strong> — AI code editor. Same — developer productivity tool, not workflow orchestration.</li>
-<li><strong>GitHub Copilot</strong> — AI pair programmer. Complementary to Dify (helps build workflows), not competing.</li>
+<li><strong>Claude Code</strong> — Anthropic's coding agent. Proprietary, cloud-only, locked to Claude models. Cannot be self-hosted. It's a developer tool for writing code, not a platform for deploying workflows. <strong>Not a Dify competitor.</strong></li>
+<li><strong>Cursor</strong> — AI code editor. Same — developer productivity tool, not workflow orchestration. <strong>Not a Dify competitor.</strong></li>
+<li><strong>GitHub Copilot</strong> — AI pair programmer. Complementary to Dify (helps developers build workflows faster), not competing with Dify. <strong>Not a Dify competitor.</strong></li>
 </ol>
-<p><em>These are tools for developers writing code. Dify is a platform for teams deploying AI workflows. Different layers.</em></p>
+<p><strong>The distinction:</strong> AI coding agents are tools for developers writing code. Dify is a platform for teams deploying AI workflows. Different layers of the stack. Claude Code could help you BUILD a Dify workflow, but it can't REPLACE Dify.</p>
 </div>
 
 <h3>Also: Acquired Competitors</h3>
-<p>Flowise → Workday. Stack AI → Asana. Pipedream → Workday. <strong>3 of 8 competitors just acquired.</strong> Consolidation validates the space. Dify is one of the last independent open-source AI platforms with enterprise traction.</p>
+<p>Flowise → Workday. Stack AI → Asana. Pipedream → Workday. <strong>3 of 8 competitors just acquired.</strong> This consolidation validates the space — enterprise AI platforms are strategic acquisition targets. Dify is one of the last independent open-source AI platforms with enterprise traction. The Salesforce acquisition of Fin (Intercom's AI) for $3.6B further validates the market.</p>
 
 <h3>Also: China Competitor</h3>
-<p><strong>Coze (ByteDance)</strong> — Multi-agent, enterprise edition, desktop/mobile. Most dangerous in China. But: not open-source, geopolitical risk limits Western adoption.</p>
+<p><strong>Coze (ByteDance)</strong> — Multi-agent collaboration, enterprise edition, desktop/mobile apps, Claude Code + Codex CLI integration, specialized agents (coding, video, legal). Most dangerous competitor in China. <strong>But:</strong> Not open-source, geopolitical risk limits Western adoption (coze.com redirects to coze.cn by region).</p>
 
 <hr>
 
 <h2 id="five-forces">Porter's Five Forces</h2>
 
 <table>
-<tr><th>Force</th><th>Level</th><th>3-Word Summary</th></tr>
-<tr><td><strong>New Entrants</strong></td><td><span class="tag tag-yellow">Medium</span></td><td>Easy to start, hard to scale</td></tr>
-<tr><td><strong>Supplier Power</strong></td><td><span class="tag tag-green">Low</span></td><td>Models commoditizing fast</td></tr>
-<tr><td><strong>Buyer Power</strong></td><td><span class="tag tag-yellow">Medium-High</span></td><td>Many alternatives exist</td></tr>
-<tr><td><strong>Substitutes</strong></td><td><span class="tag tag-red">High</span></td><td>Hyperscalers + DIY solutions</td></tr>
-<tr><td><strong>Rivalry</strong></td><td><span class="tag tag-red">High</span></td><td>Intense but market growing</td></tr>
+<tr><th>Force</th><th>Level</th><th>What It Means</th></tr>
+<tr><td><strong>New Entrants</strong></td><td><span class="tag tag-yellow">Medium</span></td><td>Low capital to build tools, but Dify's community (130K stars) + enterprise traction (280 customers) takes years to replicate. First-mover advantage in open-source AI platform space.</td></tr>
+<tr><td><strong>Supplier Power</strong></td><td><span class="tag tag-green">Low</span></td><td>Models commoditizing fast ("winners swap every 6 months" — Karp). Dify is model-agnostic — can swap providers. Token costs declining thousandfold. Suppliers have no lock-in power.</td></tr>
+<tr><td><strong>Buyer Power</strong></td><td><span class="tag tag-yellow">Medium-High</span></td><td>Many alternatives exist (n8n, LangChain, hyperscalers). Switching costs need strengthening through ecosystem and data integrations. Self-hosted option weakens pricing power.</td></tr>
+<tr><td><strong>Substitutes</strong></td><td><span class="tag tag-red">High</span></td><td>DIY solutions (LangChain + engineers), hyperscaler platforms (AWS Bedrock, Google Gemini EAP, MS Copilot Studio), acquired platforms (Workday, Asana). "Good enough" from your cloud provider is a real threat.</td></tr>
+<tr><td><strong>Rivalry</strong></td><td><span class="tag tag-red">High</span></td><td>Intense competition (n8n, LangChain, Google, Microsoft, Coze). But market growing 30%+ CAGR — growing pie supports multiple winners. Three competitors just acquired, shrinking the field.</td></tr>
 </table>
 
 <div class="three">
-<h4>What this means (3 points):</h4>
+<h4>What this means (3 strategic implications):</h4>
 <ol>
-<li><strong>Market is growing fast</strong> (30%+ CAGR) — growing pie supports multiple winners.</li>
-<li><strong>Model-agnosticism is the strongest defensive position</strong> — suppliers have no lock-in power.</li>
-<li><strong>Key risk: substitutes.</strong> "Good enough" from AWS/Google/Microsoft is a real threat. Dify wins on flexibility, accessibility, and open-source trust.</li>
+<li><strong>Market growth is favorable.</strong> 30%+ CAGR means the pie is growing fast enough to support multiple winners. Dify doesn't need to beat everyone — it needs to be one of the top 2-3 platforms.</li>
+<li><strong>Model-agnosticism is the strongest defensive position.</strong> Supplier power is low because models commoditize. Dify can swap models freely. Locked-in competitors (Google, Microsoft) can't.</li>
+<li><strong>Key risk is substitutes.</strong> "Good enough" from AWS/Google/Microsoft is the biggest threat. Dify wins on: flexibility (any model), accessibility (visual builder for non-engineers), open-source trust (self-host, audit code, no lock-in).</li>
 </ol>
 </div>
 
@@ -317,19 +391,31 @@ hr{border:none;border-top:1px solid #30363d;margin:40px 0}
 <h2 id="background">Your Background → Dify's Needs</h2>
 
 <div class="three">
-<h4>Three roles, one story (3 points):</h4>
+<h4>Three roles, one story:</h4>
 <ol>
-<li><strong>Amazon AGS</strong> → Dify's international expansion. Same pattern: Asian company → Western enterprise. Trust gap is identical.</li>
-<li><strong>GitHub/Microsoft</strong> → Dify's PLG + open-core model. I watched the conversion playbook from inside. Copilot = AI on open-source.</li>
-<li><strong>Salesforce</strong> → Dify's enterprise sales. I know how enterprises buy. Committee decision, compliance gates, partner ecosystem.</li>
+<li><strong>Amazon AGS</strong> → Dify's international expansion. Same pattern: Asian company → Western enterprise. Trust gap is identical. I helped APAC sellers across SEA, Korea, Taiwan reach Western consumers. Dify faces the same challenge.</li>
+<li><strong>GitHub/Microsoft</strong> → Dify's PLG + open-core model. I watched the conversion playbook from inside. Free tier → developers bring to work → enterprise compliance gate → Enterprise contract. Copilot = AI on open-source platform. Exact parallel.</li>
+<li><strong>Salesforce</strong> → Dify's enterprise sales + partner ecosystem. I know how enterprises buy — committee decision, compliance gates, security reviews. Partner ecosystem (Accenture, Deloitte, PwC) drove more revenue than direct sales.</li>
 </ol>
 </div>
 
+<h3>Specific Stories to Prepare</h3>
+
+<table>
+<tr><th>Dify Need</th><th>Your Story</th><th>What to Say</th></tr>
+<tr><td>International trust gap</td><td>Amazon AGS — helping APAC sellers reach Western consumers</td><td>"Going international isn't about translating your product — it's about rebuilding trust. Compliance, reference customers, local presence."</td></tr>
+<tr><td>PLG → Enterprise conversion</td><td>GitHub — watching Copilot launch, developer adoption → enterprise</td><td>"The developer IS the distribution channel. Best enterprise sales play: 'Your developers are already using us.'"</td></tr>
+<tr><td>Enterprise buying cycles</td><td>Salesforce — committee decisions, security reviews</td><td>"Enterprise buying is a committee decision. The product that wins removes the most objections."</td></tr>
+<tr><td>Partner ecosystem</td><td>Salesforce — partners driving more revenue than direct sales</td><td>"Partners are trusted advisors with existing relationships. If Dify is their recommended platform, that's instant pipeline."</td></tr>
+<tr><td>Marketplace dynamics</td><td>GitHub — Actions marketplace creating switching costs</td><td>"More templates → more users → more creators → more templates. The platform with the most creators wins."</td></tr>
+<tr><td>Token economics</td><td>GitHub — seeing Copilot's unit economics firsthand</td><td>"I saw the model layer has unsustainable economics. The platform layer is where the margin lives."</td></tr>
+</table>
+
 <div class="risk">
-<h4>⚠️ Weak Spots (prepare for these):</h4>
-<p><strong>1. Strategy/ops, not quota-carrying.</strong> Reframe: "I designed the GTM system, not ran the plays." Be specific about your Copilot contribution.</p>
-<p><strong>2. No early-stage experience.</strong> Acknowledge: "I've seen what good looks like at scale. I want to build it from scratch."</p>
-<p><strong>3. No direct AI platform GTM.</strong> Be specific about what you actually did at each company — don't overclaim.</p>
+<h4>⚠️ Weak Spots — Prepare for These Questions:</h4>
+<p><strong>1. "What was your quota? How many deals did you close?"</strong> Your roles were strategy/ops, not quota-carrying GTM. Reframe: "I designed the GTM system, not ran the plays. I built the incentive structures and sales strategy that the field team executed." Be specific about your Copilot contribution — what exactly did you do?</p>
+<p><strong>2. "Can you operate without infrastructure?"</strong> Amazon, Microsoft, Salesforce are large public companies. Dify is 50-100 people. Acknowledge directly: "I've seen what good looks like at scale. I want to be the one who builds it from scratch."</p>
+<p><strong>3. "What was your specific role in the Copilot launch?"</strong> Be honest and specific. Don't overclaim. "I was on the strategy team" is fine. "I led the Copilot launch" is not, if it's not true. Authenticity builds trust with a CFO.</p>
 </div>
 
 <hr>
@@ -337,52 +423,72 @@ hr{border:none;border-top:1px solid #30363d;margin:40px 0}
 <h2 id="unit">Unit Economics</h2>
 
 <table>
-<tr><th>Metric</th><th>Palantir Benchmark</th><th>Dify Target</th></tr>
-<tr><td>Gross margin</td><td>~82%</td><td>70-80%</td></tr>
-<tr><td>NRR</td><td>~120%+</td><td>120%+</td></tr>
-<tr><td>US Commercial growth</td><td>54% YoY</td><td>Proves the market exists</td></tr>
+<tr><th>Metric</th><th>Palantir Benchmark</th><th>Dify Target</th><th>Notes</th></tr>
+<tr><td><strong>Gross margin</strong></td><td>~82%</td><td>70-80%</td><td>Model costs passed through (BYOK). Higher than model-layer companies.</td></tr>
+<tr><td><strong>NRR</strong></td><td>~120%+</td><td>120%+</td><td>Seat expansion + tier upgrades. Requires flywheel to work.</td></tr>
+<tr><td><strong>Free → Paid</strong></td><td>GitHub: 2-5%</td><td>2-5%</td><td>GitLab: ~2-3%. Notion: ~4-5%.</td></tr>
+<tr><td><strong>CAC payback (self-serve)</strong></td><td>&lt;6 months</td><td>&lt;6 months</td><td>PLG = lower CAC than outbound sales.</td></tr>
+<tr><td><strong>CAC payback (enterprise)</strong></td><td>&lt;12 months</td><td>&lt;12 months</td><td>Longer cycle but higher ACV.</td></tr>
+<tr><td><strong>LTV/CAC</strong></td><td>3:1+</td><td>3:1+</td><td>Best-in-class for SaaS.</td></tr>
+<tr><td><strong>Rule of 40</strong></td><td>Palantir: 47%</td><td>Growth + margin ≥ 40%</td><td>If growing 100%+, can operate at -60% margins.</td></tr>
 </table>
+
+<p><strong>Palantir comparison:</strong> $2.87B revenue (FY2024), 82% gross margins, US Commercial growing 54% YoY. This proves the AI orchestration platform market is real and growing at scale. Palantir went from ~$1.9B (2022) → $2.3B (2023) → $2.87B (2024) on the AI platform thesis.</p>
+
+<p><strong>Open-source monetization pattern:</strong> Cloud revenue eventually becomes 60-80% of total. Every successful open-source company followed this: GitLab (~$600M ARR), Elastic (~$1.3B), HashiCorp (~$600M, acquired by IBM for $6.4B), Confluent (~$900M), Databricks (~$2.4B). The ones that succeeded made cloud the primary product.</p>
 
 <div class="three">
 <h4>3 things the CFO cares about:</h4>
 <ol>
-<li><strong>Cloud vs. self-hosted mix.</strong> Successful open-source companies (Databricks, Confluent, Elastic) get 60-80% from cloud. Where is Dify?</li>
-<li><strong>Free → paid conversion.</strong> GitHub benchmark: 2-5%. What's Dify's actual rate?</li>
-<li><strong>GTM investment efficiency.</strong> Rule of 40: growth rate + profit margin ≥ 40%. Palantir hits 47%.</li>
+<li><strong>Cloud vs. self-hosted mix.</strong> What % of revenue comes from cloud? In companies that scaled successfully, cloud becomes 60-80%. Where is Dify on that trajectory?</li>
+<li><strong>Free → paid conversion rate.</strong> What's the actual rate? What are the drop-off points? This is the number that tells you if PLG is working.</li>
+<li><strong>GTM investment efficiency.</strong> Where does the next dollar go — people, demand gen, or partner enablement? Rule of 40: growth rate + profit margin ≥ 40%.</li>
 </ol>
 </div>
 
 <div class="risk">
 <h4>⚠️ Monetization risk:</h4>
-<p>HashiCorp struggled with open-source monetization → acquired by IBM for $6.4B. Dify needs cloud-first strategy to avoid the same fate.</p>
+<p>HashiCorp struggled with open-source monetization and was acquired by IBM for $6.4B. Confluent and Databricks succeeded by making cloud the primary product. Dify needs cloud-first strategy to avoid the HashiCorp fate.</p>
 </div>
 
 <hr>
 
 <h2 id="risks">Risk Factors — "What Could Go Wrong?"</h2>
 
+<p>A CFO will ask this. Prepare honest answers with mitigations.</p>
+
 <div class="three">
-<h4>Top 3 risks (with mitigations):</h4>
+<h4>Top 3 risks:</h4>
 <ol>
-<li><strong>Community Edition cannibalization</strong> — Enterprises self-host for free. <em>Mitigation:</em> Make Cloud so good they choose managed. GitHub playbook.</li>
-<li><strong>n8n overtaking Dify</strong> — More stars, higher scores. <em>Mitigation:</em> Double down on AI-native (RAG, agents) where n8n is weaker.</li>
-<li><strong>Hyperscaler "good enough"</strong> — AWS/Google/MS bundle AI workflows. <em>Mitigation:</em> Model-agnosticism + open-source trust. Enterprises don't want lock-in.</li>
+<li><strong>Community Edition cannibalization.</strong> Enterprises self-host for free and never pay. <em>Mitigation:</em> Make Cloud so good (auto-updates, integrations, support, monitoring) that enterprises choose managed. GitHub solved this exact problem — the cloud version became the superior experience.</li>
+<li><strong>n8n overtaking Dify.</strong> n8n has more GitHub stars (196K vs 130K) and higher independent scores. <em>Mitigation:</em> Double down on AI-native capabilities (RAG pipelines, agent orchestration) where n8n is weaker. n8n is general automation; Dify is AI-native. Different positioning.</li>
+<li><strong>Hyperscaler "good enough."</strong> AWS Bedrock, Google Gemini EAP, Microsoft Copilot Studio all offer "good enough" AI workflow capabilities bundled with their existing enterprise relationships. <em>Mitigation:</em> Model-agnosticism (pick cheapest model per task), visual builder (non-engineers can use), open-source trust (self-host, audit code). Enterprises don't want lock-in — that's Dify's counter.</li>
 </ol>
 </div>
+
+<h3>Additional Risks</h3>
+<table>
+<tr><th>Risk</th><th>Mitigation</th></tr>
+<tr><td><strong>LangChain builds competing platform</strong></td><td>Accelerate visual builder + data integrations before LangGraph Platform catches up. Window is closing.</td></tr>
+<tr><td><strong>China geopolitical risk</strong></td><td>Open-source transparency, self-hosted option, US/EU data residency, US-based leadership. Address proactively.</td></tr>
+<tr><td><strong>Open-source monetization failure</strong></td><td>Cloud-first strategy. Don't repeat HashiCorp's mistake of letting self-hosted cannibalize cloud.</td></tr>
+</table>
 
 <hr>
 
 <h2 id="questions">Questions to Ask the CFO</h2>
 
-<p>Pick 3-4:</p>
+<p>Pick 3-4 based on conversation flow:</p>
 
 <ol>
-<li>"What's the biggest gap in Dify's GTM today — awareness, conversion, or sales capacity?"</li>
-<li>"What's the cloud vs. self-hosted revenue mix? Where is Dify on the Databricks trajectory?"</li>
-<li>"With 3 competitors acquired — is Dify thinking about M&A or building independent?"</li>
-<li>"What does the GTM team look like today? Am I the first dedicated hire?"</li>
-<li>"What's the most successful enterprise deal? What did the sales process look like?"</li>
-<li>"How does the CFO think about GTM vs R&D investment?"</li>
+<li><strong>"What's the biggest gap in Dify's GTM today?</strong> Is it awareness, conversion, or enterprise sales capacity?"</li>
+<li><strong>"What's the cloud vs. self-hosted revenue mix?</strong> Where is Dify on the Databricks/Confluent trajectory — the path where cloud becomes 60-80% of revenue?"</li>
+<li><strong>"With Flowise, Stack AI, and Pipedream all acquired — is Dify thinking about M&A, or building an independent company?"</strong></li>
+<li><strong>"What does the GTM team look like today? Am I the first dedicated GTM hire?"</strong></li>
+<li><strong>"What's the most successful enterprise deal you've closed? What did the sales process look like?"</strong></li>
+<li><strong>"How does the CFO think about GTM investment vs R&D? Where should the next dollar go?"</strong></li>
+<li><strong>"How do you think about the n8n competitive dynamic?</strong> They have more GitHub stars and higher independent scores. What's Dify's counter?"</strong></li>
+<li><strong>"What's the open-source to cloud conversion rate today? Where do users drop off?"</strong></li>
 </ol>
 
 <hr>
@@ -391,27 +497,31 @@ hr{border:none;border-top:1px solid #30363d;margin:40px 0}
 
 <table>
 <tr><th>Task</th><th>Time</th><th>Priority</th></tr>
-<tr><td>Practice narrative arc out loud (5 min)</td><td>30 min</td><td><span class="tag tag-red">CRITICAL</span></td></tr>
+<tr><td>Practice narrative arc out loud (5 min version)</td><td>30 min</td><td><span class="tag tag-red">CRITICAL</span></td></tr>
 <tr><td>Sign up for Dify, build a workflow</td><td>2 hours</td><td><span class="tag tag-red">CRITICAL</span></td></tr>
-<tr><td>Read 2 enterprise blog posts</td><td>1 hour</td><td><span class="tag tag-yellow">HIGH</span></td></tr>
-<tr><td>Practice all sections out loud</td><td>1 hour</td><td><span class="tag tag-yellow">HIGH</span></td></tr>
-<tr><td>Pick 3 CFO questions</td><td>15 min</td><td><span class="tag tag-blue">MEDIUM</span></td></tr>
+<tr><td>Read "From AI Experiment to Enterprise Platform"</td><td>30 min</td><td><span class="tag tag-yellow">HIGH</span></td></tr>
+<tr><td>Read "Why Enterprise AI Workflows Keep Breaking"</td><td>30 min</td><td><span class="tag tag-yellow">HIGH</span></td></tr>
+<tr><td>Practice all answer sections out loud</td><td>1 hour</td><td><span class="tag tag-yellow">HIGH</span></td></tr>
+<tr><td>Pick 3-4 questions for the CFO</td><td>15 min</td><td><span class="tag tag-blue">MEDIUM</span></td></tr>
 </table>
+
+<p style="text-align:center;margin-top:40px"><a href="#legend">↑ Back to Top</a></p>
 
 <hr>
 
 <h2>Key Concepts Quick Reference</h2>
 
 <table>
-<tr><th>Concept</th><th>Your Soundbite</th></tr>
-<tr><td><strong>Palantir Thesis</strong></td><td>"Karp said models produce 'strings of text.' Dify is the intermediate representation."</td></tr>
-<tr><td><strong>GitHub Absorption</strong></td><td>"GitHub didn't compete with Git — absorbed it. Dify should absorb LangChain."</td></tr>
-<tr><td><strong>PLG → Enterprise</strong></td><td>"I watched this exact playbook at GitHub."</td></tr>
-<tr><td><strong>Model-Agnostic = Cost</strong></td><td>"Token costs declining. Dify lets enterprises optimize."</td></tr>
-<tr><td><strong>Data Grounding Moat</strong></td><td>"Model-agnosticism is table stakes. Data-agnosticism is the next moat."</td></tr>
+<tr><th>Concept</th><th>Meaning</th><th>Your Soundbite</th></tr>
+<tr><td><strong>Palantir Thesis</strong></td><td>Models commoditizing. "Winners swap every 6 months." Need "intermediate representation."</td><td>"Karp said models produce 'strings of text.' Dify is the intermediate representation."</td></tr>
+<tr><td><strong>GitHub Absorption</strong></td><td>GitHub didn't compete with Git — absorbed it.</td><td>"Dify should absorb LangChain, not compete."</td></tr>
+<tr><td><strong>PLG → Enterprise</strong></td><td>Free tier → developers bring to work → enterprise compliance gates.</td><td>"I watched this exact playbook at GitHub."</td></tr>
+<tr><td><strong>Model-Agnostic = Cost</strong></td><td>Pick cheapest model per task. Avoid lock-in.</td><td>"Token costs declining. Dify lets enterprises optimize."</td></tr>
+<tr><td><strong>Data Grounding Moat</strong></td><td>Native integrations create switching costs.</td><td>"Model-agnosticism is table stakes. Data-agnosticism is the next moat."</td></tr>
+<tr><td><strong>Three Competitive Layers</strong></td><td>Platforms (n8n, Google, MS) → Frameworks (LangChain) → AI Coding Agents (Claude Code)</td><td>"Claude Code helps you build Dify workflows. It can't replace Dify."</td></tr>
 </table>
 
-<p style="color:#484f58;margin-top:40px;font-size:0.85rem">Links: <a href="https://dify.ai">Homepage</a> · <a href="https://dify.ai/pricing">Pricing</a> · <a href="https://dify.ai/blog">Blog</a> · <a href="https://github.com/langgenius/dify">GitHub</a></p>
+<p style="color:#484f58;margin-top:40px;font-size:0.85rem">Links: <a href="https://dify.ai">Homepage</a> · <a href="https://dify.ai/pricing">Pricing</a> · <a href="https://dify.ai/blog">Blog</a> · <a href="https://dify.ai/partners">Partners</a> · <a href="https://github.com/langgenius/dify">GitHub</a></p>
 
 </main>
 </div>
