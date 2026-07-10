@@ -734,6 +734,15 @@
       "task": "Sync dashboard stats and coverage report with actual 1613-job dataset",
       "status": "completed",
       "details": "Fixed dashboard: 1500→1613 total, A-1→A (516), A-2→A- (617), eng 996→1108, SG 296→319, SH 41→47, HK 124→163, SZ 157→217. Regenerated coverage-report.json: 1116→1613 jobs, 56 sources, 378 companies."
+    },
+    {
+      "timestamp": "2026-07-11T00:00:00+08:00",
+      "dimension": "crm",
+      "task": "CRM upgrade: priority jobs section, per-job status indicators, copy URL buttons",
+      "status": "completed",
+      "score_before": 7,
+      "score_after": 8,
+      "subagent": "nightly-improver"
     }
   ],
   "current_scores": {
