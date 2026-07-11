@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Scrape Ashby career pages for APAC product/strategy roles."""
 import json
+import os
 import urllib.request
 import sys
 from datetime import datetime, timedelta
@@ -128,10 +129,11 @@ def main():
     print(f"\nChecked {checked} Ashby companies, found {len(results)} matching jobs")
     
     # Save
-    with open("/Users/iancolrick/.openclaw/workspace/OKComputer_职位搜索清单/scan-latest.json", "w") as f:
+    out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "scan-ashby.json")
+    with open(out_path, "w") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
     
-    print(f"Saved {len(results)} jobs to scan-latest.json")
+    print(f"Saved {len(results)} jobs to scan-ashby.json")
 
 
 if __name__ == "__main__":

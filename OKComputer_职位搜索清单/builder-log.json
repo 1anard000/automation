@@ -767,6 +767,16 @@
         "sources": 53,
         "companies": 237
       }
+    },
+    {
+      "timestamp": "2026-07-12T03:01:02.757665",
+      "dimension": "automation",
+      "task": "Create 3 missing cron jobs: Job Scanner (2x/day), Career Strategist (weekly), Daily Brief (daily)",
+      "status": "in_progress",
+      "score_before": 7,
+      "score_after": "pending",
+      "subagent": "builder-automation-crons-0712",
+      "details": "Only 1 cron existed (this builder). Adding the 3 core automation jobs that were described but never created."
     }
   ],
   "current_scores": {
@@ -778,8 +788,8 @@
     "crm": 8,
     "automation": 7
   },
-  "last_run": "2026-07-10T03:00:00+08:00",
-  "last_dimension": "strategy",
+  "last_run": "2026-07-12T03:01:02.757675",
+  "last_dimension": "automation",
   "last_task": "Refresh career-strategy.md",
   "scores": {
     "dashboard": 9,
