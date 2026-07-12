@@ -11,7 +11,7 @@ with open(jobs_path) as f:
     jobs = json.load(f)
 
 original_count = len(jobs)
-today = datetime.date(2026, 7, 4)
+today = datetime.date.today()
 removed = []
 kept = []
 
