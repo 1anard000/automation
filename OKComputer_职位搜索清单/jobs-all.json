@@ -33121,5 +33121,97 @@
     "quality_tier": "B",
     "english_friendly": true,
     "description": "Product manager for UK market at Shenzhen-based e-cigarette company. Cross-border, international expansion."
+  },
+  {
+    "title": "Head of Wholesale, NEA (VIP)",
+    "company": "OKX",
+    "location": "Singapore, Singapore",
+    "salary": "",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7559098003",
+    "source": "greenhouse",
+    "role_type": "other",
+    "description": "OKX commercial director NEA. 10+ years crypto/tradfi. Partnership + client development. Near fit (10yr).",
+    "grade": "B",
+    "posted": "2025-12-30",
+    "grade_score": 6,
+    "grade_notes": [
+      "SG",
+      "Head",
+      "Fintech",
+      "Near-10yr"
+    ]
+  },
+  {
+    "title": "Product Manager / Director, Core Trading",
+    "company": "OKX",
+    "location": "Singapore, Singapore",
+    "salary": "",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7782665003",
+    "source": "greenhouse",
+    "role_type": "product",
+    "description": "OKX core trading product. Trading infrastructure products.",
+    "grade": "A-1",
+    "posted": "2026-06-23",
+    "grade_score": 10,
+    "grade_notes": [
+      "SG",
+      "Product",
+      "Director",
+      "Fintech"
+    ]
+  },
+  {
+    "title": "Product Manager / Director, Structured Products",
+    "company": "OKX",
+    "location": "Hong Kong, Hong Kong SAR",
+    "salary": "",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7792230003",
+    "source": "greenhouse",
+    "role_type": "product",
+    "description": "Greenhouse posting. Location: Hong Kong, Hong Kong SAR.",
+    "grade": "A-2",
+    "posted": "2026-07-02",
+    "grade_score": 9,
+    "grade_notes": [
+      "HK",
+      "Product",
+      "Director"
+    ]
+  },
+  {
+    "title": "Product Manager / Product Director, Copy Trading / Trading Bot",
+    "company": "OKX",
+    "location": "Hong Kong, Hong Kong SAR",
+    "salary": "",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/6679538003",
+    "source": "greenhouse",
+    "role_type": "product",
+    "description": "Greenhouse posting. Location: Hong Kong, Hong Kong SAR.",
+    "grade": "A-2",
+    "posted": "2025-08-11",
+    "grade_score": 9,
+    "grade_notes": [
+      "HK",
+      "Product",
+      "Director"
+    ]
+  },
+  {
+    "title": "Product Operations Manager / Director, Institutional Product",
+    "company": "OKX",
+    "location": "Hong Kong, Hong Kong SAR",
+    "salary": "",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7738701003",
+    "source": "greenhouse",
+    "role_type": "strategy",
+    "description": "Greenhouse posting. Location: Hong Kong, Hong Kong SAR.",
+    "grade": "A-2",
+    "posted": "2026-05-18",
+    "grade_score": 8,
+    "grade_notes": [
+      "HK",
+      "Strategy",
+      "Director"
+    ]
   }
 ]
