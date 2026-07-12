@@ -1,92 +1,104 @@
 {
-  "generated_at": "2026-07-12T06:00:23.007137",
+  "generated_at": "2026-07-12T22:00:31.697036+00:00",
   "stats": {
     "total_jobs": 699,
     "jobs_by_location": {
-      "SZ": 99,
-      "Other": 117,
-      "HK": 111,
-      "SG": 182,
-      "Remote": 153,
-      "SH": 20,
-      "GZ": 17
+      "SZ": 91,
+      "Other": 364,
+      "HK": 88,
+      "SG": 138,
+      "SH": 14,
+      "GZ": 4
     },
     "jobs_by_category": {
-      "PM": 468,
-      "Growth": 40,
-      "Strategy": 74,
-      "cross_border": 20,
+      "other": 170,
+      "general_pm": 250,
+      "fintech": 12,
+      "product": 50,
+      "strategy": 67,
+      "growth": 27,
+      "cross_border": 21,
       "ops": 48,
       "gm": 6,
-      "Other": 28,
+      "ai_product": 16,
+      "product_management": 5,
+      "senior_pm": 12,
       "general_manager": 1,
-      "operations": 7,
-      "ai_product": 3,
+      "operations": 8,
+      "platform": 3,
       "program": 2,
-      "platform": 1,
       "vc_pe": 1
-    },
-    "jobs_by_status": {
-      "not_applied": 477,
-      "unknown": 200,
-      "": 22
     }
   },
-  "top_5_highest_scored": [
+  "category_counts": {
+    "other": 170,
+    "general_pm": 250,
+    "fintech": 12,
+    "product": 50,
+    "strategy": 67,
+    "growth": 27,
+    "cross_border": 21,
+    "ops": 48,
+    "gm": 6,
+    "ai_product": 16,
+    "product_management": 5,
+    "senior_pm": 12,
+    "general_manager": 1,
+    "operations": 8,
+    "platform": 3,
+    "program": 2,
+    "vc_pe": 1
+  },
+  "top_5_scored_jobs": [
     {
       "title": "Principal Product Manager (Singapore Based)",
       "company": "Agoda",
-      "location": "HK",
+      "location": "Hong Kong",
       "quality_score": 100,
-      "url": "https://hk.linkedin.com/jobs/view/principal-product-manager-singapore-based-at-agoda-4429535801",
-      "category": "PM"
+      "quality_tier": "A",
+      "role_type": "Product Management",
+      "job_id": "59084d5f315e",
+      "category": "general_pm"
     },
     {
       "title": "Head of Communications, APAC",
       "company": "Stripe",
-      "location": "SG",
+      "location": "Singapore",
       "quality_score": 93,
-      "url": "https://stripe.com/jobs/search?gh_jid=7893199",
-      "category": "PM"
+      "quality_tier": "A",
+      "role_type": "Other",
+      "job_id": "",
+      "category": "general_pm"
     },
     {
       "title": "Senior Integration Reliability Engineer, Technical Operations",
       "company": "Stripe",
-      "location": "SG",
+      "location": "Singapore",
       "quality_score": 91,
-      "url": "https://stripe.com/jobs/search?gh_jid=7457268",
+      "quality_tier": "A",
+      "role_type": "",
+      "job_id": "",
       "category": "ops"
     },
     {
       "title": "Country Manager",
       "company": "Datadog",
-      "location": "Other",
+      "location": "Tokyo",
       "quality_score": 90,
-      "url": "https://careers.datadoghq.com/detail/7975747/?gh_jid=7975747",
+      "quality_tier": "A",
+      "role_type": "General Manager",
+      "job_id": "6d43b0be0641",
       "category": "gm"
     },
     {
       "title": "Senior Strategy Project Manager, VIP/Institutions",
       "company": "OKX",
-      "location": "HK",
+      "location": "Hong Kong",
       "quality_score": 90,
-      "url": "https://job-boards.greenhouse.io/okx/jobs/7739163003",
-      "category": "Strategy"
+      "quality_tier": "A",
+      "role_type": "Strategy/Ops",
+      "job_id": "970f6d459177",
+      "category": "strategy"
     }
-  ],
-  "category_counts": {
-    "PM": 468,
-    "Growth": 40,
-    "Strategy": 74,
-    "cross_border": 20,
-    "ops": 48,
-    "gm": 6,
-    "Other": 28,
-    "general_manager": 1,
-    "operations": 7,
-    "ai_product": 3,
-    "program": 2,
-    "platform": 1,
-    "vc_pe": 1
-  }
+  ]
 }
