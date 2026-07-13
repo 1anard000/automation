@@ -1,23 +1,23 @@
 # 📊 Weekly Career Strategy Intelligence
-**Generated:** Monday, July 13, 2026 4:00 AM CST
+**Generated:** Tuesday, July 14, 2026 6:00 AM CST
 **Coverage period:** Week of July 13 – July 19, 2026
-**Data source:** jobs-all.json (1,180 positions, deduplicated/cleaned)
-**Previous report:** July 8 (1,649 positions pre-cleanup)
+**Data source:** jobs-all.json (1,138 positions, deduplicated/cleaned)
+**Previous report:** July 13 (1,180 positions)
 
-> 🔄 **Database cleanup: 1,180 positions (from 1,649).** Deduplication and grading overhaul applied. Grade system now uses A/A-/B/C/S tiers. OKX remains the dominant employer (183 combined roles). Web search was unavailable this cycle — analysis based on job database + market knowledge.
+> 🔄 **Nightly update: 1,138 positions.** 4 new roles added (OKX DEX Trading PM, OKX User Center PM ×2, Stripe TAM Greater China). Deduplication continues to tighten database. Grade system uses A/A-/B/C/S tiers. OKX remains the dominant employer. Web search was unavailable — analysis based on job database + market knowledge.
 
 ---
 
 ## 📊 Market Pulse
 
-### Database Snapshot (July 13)
+### Database Snapshot (July 14)
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| Total tracked roles | 1,180 | Post-cleanup, deduplicated |
-| OKX (all variants) | 183 | 15.5% of database — dominant |
-| Agoda (all variants) | 179 | 15.2% — #2 |
-| Coupang | 171 | 14.5% — #3 |
+| Total tracked roles | 1,138 | Post-cleanup, deduplicated |
+| OKX (all variants) | 180 | 15.8% of database — dominant |
+| Agoda (all variants) | 177 | 15.6% — #2 |
+| Coupang | 171 | 15.0% — #3 |
 | Top 3 combined | 533 | 45.2% of all roles |
 
 ### Sector Heat Map (July 13)

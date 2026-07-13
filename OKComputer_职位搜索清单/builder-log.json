@@ -823,12 +823,12 @@
     "career_hub": 9,
     "data_quality": 10,
     "python_scripts": 9,
-    "strategy": 8,
+    "strategy": 9,
     "coverage": 10,
     "crm": 8,
     "automation": 8
   },
-  "last_improvement": "Pipeline run: 1180→1265 jobs, +85 net, filled gaps in 260 fields",
+  "last_improvement": "2026-07-14: Updated career-strategy.md with July 14 data (1,138 roles, 4 new OKX/Stripe hires)",
   "entries": [
     {
       "date": "2026-06-19",
