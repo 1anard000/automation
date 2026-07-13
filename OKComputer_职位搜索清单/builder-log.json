@@ -816,7 +816,7 @@
     "strategy": 8,
     "coverage": 10,
     "crm": 8,
-    "automation": 7
+    "automation": 8
   },
   "last_improvement": "Pipeline run: 1180→1265 jobs, +85 net, filled gaps in 260 fields",
   "entries": [
@@ -896,6 +896,13 @@
       "date": "2026-07-12",
       "dimension": "strategy",
       "improvement": "Added Market Intel section to career-hub.html with data-driven insights: top hiring companies, hot locations, sector trends, and database stats. Derived from actual job data analysis.",
+      "score_before": 7,
+      "score_after": 8
+    },
+    {
+      "date": "2026-07-14",
+      "dimension": "automation",
+      "improvement": "Added --report flag to auto-maintain.py: generates weekly-summary.md with grade distribution, top companies, quality tiers, source breakdown, and recent additions. Full pipeline integration.",
       "score_before": 7,
       "score_after": 8
     }
