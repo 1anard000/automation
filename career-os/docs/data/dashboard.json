@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-07-14T06:00:34+08:00",
+  "generated_at": "2026-07-18T06:00:26+08:00",
   "stats": {
-    "total": 550,
-    "total_all": 676,
-    "jobs_last_7d": 37,
-    "jobs_last_24h": 1,
-    "direct_links": 550
+    "total": 556,
+    "total_all": 682,
+    "jobs_last_7d": 10,
+    "jobs_last_24h": 6,
+    "direct_links": 556
   },
   "by_city": {
-    "Singapore": 112,
+    "Singapore": 113,
     "Shenzhen": 74,
-    "Hong Kong": 66,
+    "Hong Kong": 67,
     "Guangzhou": 16,
     "Shanghai": 12,
     "Beijing": 4
   },
   "by_category": {
     "Other": 247,
-    "PM": 154,
+    "PM": 157,
     "Strategy": 81,
-    "Growth": 35,
-    "Program": 33
+    "Program": 36,
+    "Growth": 35
   },
   "top_5": [
     {
@@ -71,10 +71,10 @@
   ],
   "category_counts": {
     "Other": 247,
-    "PM": 154,
+    "PM": 157,
     "Strategy": 81,
-    "Growth": 35,
-    "Program": 33
+    "Program": 36,
+    "Growth": 35
   },
   "error": null
 }
