@@ -19,7 +19,7 @@ def build_crm():
     contacts = load("contacts.json") or {"contacts": []}
     
     applications = apps.get("applications", [])
-    contact_list = contacts.get("contacts", [])
+    contact_list = contacts.get("contacts", []) if isinstance(contacts, dict) else contacts
     
     # Build company index from jobs
     companies = {}
