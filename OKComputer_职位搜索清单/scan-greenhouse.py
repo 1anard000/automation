@@ -52,10 +52,14 @@ EXCLUDE = [
 ]
 
 def is_apac(loc):
+    if not loc:
+        return False
     loc_lower = loc.lower()
     return any(c in loc_lower for c in APAC_CITIES)
 
 def is_senior(title):
+    if not title:
+        return False
     t = title.lower()
     # Must NOT be in exclude list
     for ex in EXCLUDE:

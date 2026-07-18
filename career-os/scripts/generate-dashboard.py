@@ -100,16 +100,10 @@ def main():
         if scanned >= day_ago:
             jobs_24h += 1
 
-    # Top 5 by grade (A-1 > A-2) then by source reliability
-    grade_order = {"S-1": 0, "A-1": 1, "A-2": 2, "B-1": 3, "B-2": 4}
-    source_order = {"greenhouse": 0, "ashby": 1, "boss_zhipin": 2, "liepin": 3,
-                    "indeed": 4, "jobsdb": 5}
-
+    # Top 5 highest-scored jobs (by quality_score descending)
     def sort_key(j):
-        grade = grade_order.get(j.get("grade", "A-2"), 5)
-        source = source_order.get(j.get("source", ""), 10)
-        has_url = 0 if j.get("url") else 1
-        return (has_url, grade, source)
+        score = j.get("quality_score") or 0
+        return -score  # descending
 
     top_jobs = sorted(jobs, key=sort_key)[:5]
     top_5 = []
@@ -119,6 +113,7 @@ def main():
             "company": j.get("company", ""),
             "location": normalize_location(j.get("location", "")),
             "grade": j.get("grade", ""),
+            "quality_score": j.get("quality_score"),
             "url": j.get("url", ""),
             "source": j.get("source", ""),
         })

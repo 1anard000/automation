@@ -44,11 +44,36 @@ def build_html(jobs):
         if j.get("english_friendly"):
             eng_count += 1
 
+    # Freshness stats
+    from datetime import datetime, timedelta
+    now_dt = datetime.now()
+    cutoff_7 = now_dt - timedelta(days=7)
+    cutoff_30 = now_dt - timedelta(days=30)
+    fresh_7d = 0
+    fresh_30d = 0
+    stale_count = 0
+    for j in jobs:
+        d = j.get('date_posted') or j.get('posted_date')
+        if d:
+            try:
+                dt = datetime.fromisoformat(d.replace('Z', '+00:00'))
+                if dt > cutoff_7:
+                    fresh_7d += 1
+                elif dt > cutoff_30:
+                    fresh_30d += 1
+                else:
+                    stale_count += 1
+            except:
+                pass
+
     stat_cards = [
         ('totalCount', str(len(jobs)), 'Total Roles', '', '#38bdf8'),
         ('a1Count', str(grade_counts.get('A-1', 0)), 'A-1 Perfect', 'a1', '#4ade80'),
         ('a2Count', str(grade_counts.get('A-2', 0)), 'A-2 Strong', '', '#60a5fa'),
         ('engCount', str(eng_count), 'English Friendly', '', '#fbbf24'),
+        ('fresh7', str(fresh_7d), 'Past 7 Days', 'fresh7', '#34d399'),
+        ('fresh30', str(fresh_30d), '7-30 Days', 'fresh30', '#fbbf24'),
+        ('stale', str(stale_count), '30+ Days', 'stale', '#f87171'),
     ]
     # Add top cities
     city_colors = {
@@ -145,6 +170,12 @@ a:hover{{text-decoration:underline}}
 .tier-b{{color:#60a5fa}}
 .tier-c{{color:#fbbf24}}
 .tier-d{{color:#f87171}}
+.fresh-badge{{display:inline-block;padding:1px 6px;border-radius:4px;font-size:0.6rem;font-weight:700;margin-left:3px}}
+.fresh-new{{background:#064e3b;color:#4ade80;border:1px solid #065f46}}
+.fresh-old{{background:#450a0a;color:#fca5a5;border:1px solid #991b1b}}
+.stat-card.fresh7 .num{{color:#34d399}}
+.stat-card.fresh30 .num{{color:#fbbf24}}
+.stat-card.stale .num{{color:#f87171;font-size:1rem}}
 .url-quality{{margin:12px 0;padding:10px 16px;background:#1e293b;border-radius:8px;border:1px solid #334155;font-size:0.8rem;color:#94a3b8}}
 .url-quality .good{{color:#4ade80}}
 .url-quality .bad{{color:#f87171}}
@@ -182,9 +213,10 @@ a:hover{{text-decoration:underline}}
   <th onclick="sortTable(1)">Title <span class="arrow"></span></th>
   <th onclick="sortTable(2)">Company <span class="arrow"></span></th>
   <th onclick="sortTable(3)">Location <span class="arrow"></span></th>
-  <th onclick="sortTable(4)" class="hide-mobile">Category <span class="arrow"></span></th>
-  <th onclick="sortTable(5)" class="hide-mobile">Apply <span class="arrow"></span></th>
-  <th onclick="sortTable(6)" class="hide-mobile">Salary <span class="arrow"></span></th>
+  <th onclick="sortTable(4)" class="hide-mobile">Posted <span class="arrow"></span></th>
+  <th onclick="sortTable(5)" class="hide-mobile">Category <span class="arrow"></span></th>
+  <th onclick="sortTable(6)" class="hide-mobile">Apply <span class="arrow"></span></th>
+  <th onclick="sortTable(7)" class="hide-mobile">Salary <span class="arrow"></span></th>
   <th>Link</th>
   <th>Search</th>
 </tr>
@@ -211,6 +243,21 @@ function renderTable(data) {{
     const catLabel = (j.category || '').replace(/_/g, ' ');
     const engBadge = j.english_friendly ? '<span class="badge badge-en">EN</span>' : '';
     const enTitle = j.en_title ? `<div class="en-title">${{j.en_title}}</div>` : '';
+    // Date posted with freshness indicator
+    let dateHtml = '—';
+    const dp = j.date_posted || j.posted_date;
+    if (dp) {{
+      try {{
+        const dt = new Date(dp);
+        const now = new Date();
+        const diffMs = now - dt;
+        const diffDays = Math.floor(diffMs / (1000*60*60*24));
+        const dateStr = dt.toLocaleDateString('en-US', {{month:'short', day:'numeric'}});
+        if (diffDays < 7) dateHtml = `<span style="color:#34d399">${{dateStr}} <span class="fresh-badge fresh-new">NEW</span></span>`;
+        else if (diffDays < 30) dateHtml = `<span style="color:#fbbf24">${{dateStr}}</span>`;
+        else dateHtml = `<span style="color:#f87171">${{dateStr}} <span class="fresh-badge fresh-old">${{diffDays}}d</span></span>`;
+      }} catch(e) {{ dateHtml = `<span style="color:#94a3b8">${{dp}}</span>`; }}
+    }}
     const diffClass = j.app_difficulty === 'easy' ? 'diff-easy' : j.app_difficulty === 'medium' ? 'diff-medium' : 'diff-hard';
     const diffLabel = j.app_difficulty === 'easy' ? '⚡ Quick' : j.app_difficulty === 'medium' ? '📋 Medium' : '⏳ Hard';
     const qualityTier = j.quality_tier || '';
@@ -233,6 +280,7 @@ function renderTable(data) {{
       <td><strong>${{j.title}}</strong>${{engBadge}}${{enTitle}}</td>
       <td>${{j.company}}</td>
       <td><span class="city-tag">${{j.city_normalized || j.location}}</span></td>
+      <td class="hide-mobile">${{dateHtml}}</td>
       <td class="hide-mobile"><span class="cat-tag ${{cc}}">${{catLabel}}</span></td>
       <td class="hide-mobile"><span class="${{diffClass}}">${{diffLabel}}</span></td>
       <td class="hide-mobile" style="color:#94a3b8;font-size:0.7rem">${{j.salary||'—'}}</td>
@@ -266,11 +314,12 @@ function filterData() {{
 let sortCol = -1, sortAsc = true;
 function sortTable(col) {{
   if (sortCol === col) sortAsc = !sortAsc; else {{ sortCol = col; sortAsc = true; }}
-  const keys = ['grade','title','company','location','category','salary'];
+  const keys = ['grade','title','company','location','date_posted','category','salary'];
   const order = {{'S-1':-1,'A-1':0,'A-2':1,'B':2,'C':3}};
   jobs.sort((a,b) => {{
     let va = a[keys[col]] || '', vb = b[keys[col]] || '';
     if (col === 0) {{ va = order[va]||9; vb = order[vb]||9; }}
+    if (col === 4 && keys[col] === 'date_posted') {{ va = a.date_posted||a.posted_date||''; vb = b.date_posted||b.posted_date||''; }}
     if (va < vb) return sortAsc ? -1 : 1;
     if (va > vb) return sortAsc ? 1 : -1;
     return 0;

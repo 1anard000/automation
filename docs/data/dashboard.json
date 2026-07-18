@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-07-17T19:02:11.286981+00:00",
+  "stats": {
+    "total_jobs": 1054,
+    "jobs_by_location": {
+      "Other": 325,
+      "SG": 258,
+      "HK": 124,
+      "BKK": 120,
+      "Remote": 117,
+      "SZ": 75,
+      "SH": 31,
+      "GZ": 4
+    },
+    "jobs_by_category": {
+      "Other": 450,
+      "PM": 383,
+      "Strategy": 147,
+      "Growth": 67,
+      "Fintech": 7
+    }
+  },
+  "top_5_scored_jobs": [
+    {
+      "title": "Principal Product Manager (Singapore Based)",
+      "company": "Agoda",
+      "location": "Hong Kong",
+      "score": 100,
+      "quality_tier": "A",
+      "category": "PM",
+      "job_id": "59084d5f315e",
+      "url": "https://hk.linkedin.com/jobs/view/principal-product-manager-singapore-based-at-agoda-4429535801"
+    },
+    {
+      "title": "Senior Wealth Management Product Manager (Insurance)",
+      "company": "Bank of China (Hong Kong)",
+      "location": "Hong Kong",
+      "score": 100,
+      "quality_tier": "A",
+      "category": "PM",
+      "job_id": "7a29931d08e9",
+      "url": "https://hk.linkedin.com/jobs/view/senior-wealth-management-product-manager-insurance-at-bank-of-china-hong-kong-4427700410"
+    },
+    {
+      "title": "Senior Payment Product Manager - LATAM",
+      "company": "Binance",
+      "location": "Hong Kong",
+      "score": 100,
+      "quality_tier": "A",
+      "category": "Fintech",
+      "job_id": "e77723e3d38e",
+      "url": "https://hk.linkedin.com/jobs/view/senior-payment-product-manager-latam-at-binance-4416774768"
+    },
+    {
+      "title": "Senior Product Manager(Card Issuing)",
+      "company": "Coins.ph",
+      "location": "Hong Kong",
+      "score": 100,
+      "quality_tier": "A",
+      "category": "Fintech",
+      "job_id": "eb5aa9343b95",
+      "url": "https://hk.linkedin.com/jobs/view/senior-product-manager-card-issuing-at-coins-ph-4428395652"
+    },
+    {
+      "title": "Senior Product Manager - Derivatives Risk",
+      "company": "Futu Holdings Limited",
+      "location": "Hong Kong",
+      "score": 100,
+      "quality_tier": "A",
+      "category": "PM",
+      "job_id": "1e02dbf6e553",
+      "url": "https://hk.linkedin.com/jobs/view/senior-product-manager-derivatives-risk-at-futu-holdings-limited-4426473257"
+    }
+  ],
+  "category_counts": {
+    "Other": 450,
+    "PM": 383,
+    "Strategy": 147,
+    "Growth": 67,
+    "Fintech": 7
+  }
+}

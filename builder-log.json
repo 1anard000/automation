@@ -255,6 +255,33 @@
       "delta": "+1 (8→9)",
       "date": "2026-06-18 05:02",
       "details": "Fixed 411 missing en_title fields: 279 English titles copied directly, 132 Chinese titles translated using PM/strategy term dictionary. Fixed spacing issues in 51 fields. All 443 jobs now have en_title. Dashboard rebuilt."
+    },
+    {
+      "timestamp": "2026-07-06T06:01:06.302427",
+      "dimension": "data_quality",
+      "task": "Merge two job databases (root 1360 + OKComputer 1116) → 1563 unique jobs. Synced both locations.",
+      "status": "completed",
+      "score_before": 5,
+      "score_after": 7,
+      "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-07-09T00:03:15.824008",
+      "dimension": "data_quality",
+      "task": "Deduplicate jobs database — removed 114 exact duplicates from 1651→1537 (OKComputer) and cleaned root jobs-all.json",
+      "status": "completed",
+      "score_before": 7,
+      "score_after": 8,
+      "subagent": "nightly-improver-dedup"
+    },
+    {
+      "timestamp": "2026-07-13T00:00:45.513873+08:00",
+      "dimension": "data_quality",
+      "task": "Nightly purge: removed 46 stale jobs (>30 days old) from 1320→1274",
+      "status": "completed",
+      "score_before": 8,
+      "score_after": 8,
+      "subagent": "nightly-improver-stale-purge"
     }
   ],
   "current_scores": {
@@ -266,17 +293,17 @@
     "automation": 7,
     "coverage": 7
   },
-  "last_run": "2026-06-28 03:01",
-  "last_dimension": "automation",
-  "last_task": "Created run-pipeline.sh automation script",
+  "last_run": "2026-07-09",
+  "last_dimension": "Data Quality",
+  "last_task": "Normalized grade schema: unified 1283 inconsistent grades to S/A/A-/B/B+/C (was ?/empty/A-1/A-2/Senior/etc)",
   "scores": {
     "dashboard": 7,
-    "career_hub": 7,
+    "career_hub": 8,
     "data_quality": 9,
     "python_scripts": 7,
     "strategy": 7
   },
-  "last_improvement": "2026-06-18: Refreshed career-strategy.md — updated from 288 to 443 jobs, added Shenzhen surge analysis, AI roles 3x growth, salary benchmarks",
+  "last_improvement": "Normalized grade schema: unified 1283 inconsistent grades to S/A/A-/B/B+/C (was ?/empty/A-1/A-2/Senior/etc)",
   "log": [
     {
       "date": "2026-06-20",
@@ -287,6 +314,11 @@
       "date": "2026-06-28",
       "task": "Created run-pipeline.sh — automated scan→grade→merge→build pipeline with --no-scan and --scan-only modes",
       "subagent": "nightly-improver-20260628"
+    },
+    {
+      "date": "2026-07-09",
+      "task": "Normalized grade schema: unified 1283 inconsistent grades to S/A/A-/B/B+/C (was ?/empty/A-1/A-2/Senior/etc)",
+      "subagent": "nightly-improver-20260709"
     }
   ],
   "history": [

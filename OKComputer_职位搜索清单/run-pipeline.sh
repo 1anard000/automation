@@ -32,13 +32,21 @@ else
     log "⏭️  Step 1/4: Skipping scan (--no-scan)"
 fi
 
+# ── Step 1b: Scan Ashby boards ──
+log "🔍 Step 1b/5: Scanning Ashby boards..."
+if python3 scrape-ashby.py 2>&1 | tee -a "$LOG_FILE"; then
+    log "✅ Ashby scan complete"
+else
+    log "⚠️  Ashby scan failed or partial — continuing"
+fi
+
 if [ "$SCAN_ONLY" = true ]; then
     log "🏁 Scan-only mode, done."
     exit 0
 fi
 
 # ── Step 2: Grade ──
-log "📊 Step 2/4: Grading and deduplicating scan results..."
+log "📊 Step 2/5: Grading and deduplicating scan results..."
 if python3 grade-scan.py 2>&1 | tee -a "$LOG_FILE"; then
     log "✅ Grading complete"
 else
@@ -47,22 +55,24 @@ else
 fi
 
 # ── Step 3: Merge into jobs-all.json ──
-log "🔗 Step 3/4: Merging new jobs into master database..."
+log "🔗 Step 3/5: Merging new jobs into master database..."
 if python3 -c "
-import json, os
+import json, os, glob
 
-SCAN = 'scan-latest.json'
+SCAN_FILES = ['scan-latest.json', 'scan-ashby.json']
 MASTER = 'jobs-all.json'
 
-if not os.path.exists(SCAN):
-    print('No scan-latest.json found, skipping merge')
-    exit(0)
-
-with open(SCAN) as f:
-    new_jobs = json.load(f)
+new_jobs = []
+for sf in SCAN_FILES:
+    if os.path.exists(sf):
+        with open(sf) as f:
+            data = json.load(f)
+            if data:
+                new_jobs.extend(data)
+                print(f'  Loaded {len(data)} jobs from {sf}')
 
 if not new_jobs:
-    print('No new jobs to merge')
+    print('No scan files found, skipping merge')
     exit(0)
 
 master = []
@@ -95,7 +105,7 @@ else
 fi
 
 # ── Step 4: Build Dashboard ──
-log "🖥️  Step 4/4: Building dashboard..."
+log "🖥️  Step 4/5: Building dashboard..."
 if python3 build-dashboard.py 2>&1 | tee -a "$LOG_FILE"; then
     log "✅ Dashboard built: dashboard.html"
 else

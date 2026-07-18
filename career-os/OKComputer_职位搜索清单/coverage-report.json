@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-07-10T03:03:26.566492",
+  "total_jobs": 808,
+  "by_grade": {
+    "A-1": 261,
+    "A-2": 367,
+    "B": 14,
+    "C": 38,
+    "S-1": 15,
+    "": 23,
+    "B-1": 90
+  },
+  "by_tier": {
+    "": 571,
+    "T2": 48,
+    "T3": 81,
+    "T1": 108
+  },
+  "by_source": {
+    "boss-zhilian-discovery": 26,
+    "hired": 3,
+    "toptal": 3,
+    "arc": 4,
+    "turing": 3,
+    "liepin": 64,
+    "company_site": 37,
+    "greenhouse": 311,
+    "diversified": 25,
+    "linkedin": 103,
+    "wellfound-enhanced": 6,
+    "jobsdb": 7,
+    "vc-pe": 6,
+    "ByteDance Careers": 2,
+    "google_careers": 3,
+    "web": 2,
+    "Tencent Careers": 5,
+    "wellfound": 3,
+    "indeed-jobsdb": 1,
+    "meta_careers": 2,
+    "amazon_jobs": 2,
+    "glassdoor": 2,
+    "web_search": 5,
+    "company": 1,
+    "indeed": 3,
+    "boss-zhilian-websearch": 34,
+    "ashby": 2,
+    "agent-discovery": 4,
+    "careers_site": 9,
+    "builtin": 10,
+    "web_scrape": 120
+  },
+  "by_status": {
+    "not_applied": 613,
+    "": 195
+  },
+  "with_url": 808,
+  "with_company": 767,
+  "with_en_title": 702,
+  "with_summary": 626
+}

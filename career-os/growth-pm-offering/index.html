@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Growth PM as a Service — 中国App出海增长顾问</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0d1117;--bg-secondary:#161b22;--bg-tertiary:#21262d;
+  --border:#30363d;--text:#e6edf3;--text-secondary:#8b949e;--text-muted:#484f58;
+  --accent:#58a6ff;--accent-hover:#79c0ff;--green:#3fb950;--purple:#bc8cff;
+  --orange:#d29922;--pink:#f778ba;--radius:12px;--radius-sm:8px;
+}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{color:var(--accent-hover)}
+.container{max-width:1100px;margin:0 auto;padding:0 24px}
+h1,h2,h3,h4{font-weight:600;line-height:1.3}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(13,17,23,.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+nav .container{display:flex;align-items:center;justify-content:space-between;height:56px}
+nav .logo{font-weight:700;font-size:18px;color:var(--text);letter-spacing:-.5px}
+nav .logo span{color:var(--accent)}
+nav ul{display:flex;gap:24px;list-style:none}
+nav ul a{color:var(--text-secondary);font-size:14px;font-weight:500;transition:color .2s}
+nav ul a:hover{color:var(--text)}
+nav .cta-nav{background:var(--accent);color:var(--bg)!important;padding:6px 16px;border-radius:6px;font-weight:600}
+nav .cta-nav:hover{background:var(--accent-hover)}
+
+/* HERO */
+.hero{padding:140px 0 100px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-200px;left:50%;transform:translateX(-50%);width:600px;height:600px;background:radial-gradient(circle,rgba(88,166,255,.08) 0%,transparent 70%);pointer-events:none}
+.hero .badge{display:inline-block;padding:4px 14px;border:1px solid var(--border);border-radius:20px;font-size:13px;color:var(--text-secondary);margin-bottom:24px;background:var(--bg-secondary)}
+.hero .badge .dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--green);margin-right:6px;vertical-align:middle}
+.hero h1{font-size:clamp(36px,5vw,56px);letter-spacing:-1.5px;margin-bottom:20px;background:linear-gradient(135deg,var(--text) 0%,var(--text-secondary) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero h1 em{font-style:normal;-webkit-text-fill-color:var(--accent)}
+.hero p{font-size:18px;color:var(--text-secondary);max-width:600px;margin:0 auto 36px;line-height:1.7}
+.hero .actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 28px;border-radius:var(--radius-sm);font-size:15px;font-weight:600;cursor:pointer;border:none;transition:all .2s}
+.btn-primary{background:var(--accent);color:var(--bg)}.btn-primary:hover{background:var(--accent-hover);color:var(--bg);transform:translateY(-1px)}
+.btn-secondary{background:var(--bg-secondary);color:var(--text);border:1px solid var(--border)}.btn-secondary:hover{border-color:var(--text-muted);transform:translateY(-1px)}
+
+/* SECTIONS */
+section{padding:80px 0}
+.section-label{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:var(--accent);margin-bottom:12px}
+.section-title{font-size:clamp(28px,3.5vw,40px);letter-spacing:-1px;margin-bottom:16px}
+.section-desc{font-size:16px;color:var(--text-secondary);max-width:640px;margin-bottom:48px;line-height:1.7}
+
+/* STATS */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px;margin:60px 0}
+.stat{text-align:center;padding:32px;background:var(--bg-secondary);border:1px solid var(--border);border-radius:var(--radius)}
+.stat .num{font-size:36px;font-weight:700;color:var(--accent);letter-spacing:-1px}
+.stat .label{font-size:14px;color:var(--text-secondary);margin-top:4px}
+
+/* WHY */
+.why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.why-card{padding:28px;background:var(--bg-secondary);border:1px solid var(--border);border-radius:var(--radius);transition:border-color .2s}
+.why-card:hover{border-color:var(--text-muted)}
+.why-card .icon{font-size:28px;margin-bottom:12px}
+.why-card h3{font-size:16px;margin-bottom:8px}
+.why-card p{font-size:14px;color:var(--text-secondary);line-height:1.6}
+
+/* PRICING */
+.pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;align-items:start}
+.price-card{padding:32px;background:var(--bg-secondary);border:1px solid var(--border);border-radius:var(--radius);position:relative;transition:all .2s}
+.price-card:hover{border-color:var(--text-muted);transform:translateY(-2px)}
+.price-card.featured{border-color:var(--accent);background:linear-gradient(180deg,rgba(88,166,255,.04) 0%,var(--bg-secondary) 100%)}
+.price-card.featured::before{content:'推荐';position:absolute;top:-12px;right:20px;background:var(--accent);color:var(--bg);font-size:12px;font-weight:700;padding:2px 10px;border-radius:10px}
+.price-card .tier{font-size:13px;font-weight:600;color:var(--text-secondary);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px}
+.price-card .price{font-size:32px;font-weight:700;margin-bottom:4px}
+.price-card .price-note{font-size:13px;color:var(--text-muted);margin-bottom:20px}
+.price-card .divider{height:1px;background:var(--border);margin:20px 0}
+.price-card ul{list-style:none;margin-bottom:24px}
+.price-card ul li{padding:6px 0;font-size:14px;color:var(--text-secondary);display:flex;align-items:flex-start;gap:8px}
+.price-card ul li::before{content:'✓';color:var(--green);font-weight:700;flex-shrink:0;margin-top:1px}
+.price-card .btn{width:100%;justify-content:center}
+
+/* TIMELINE */
+.timeline{position:relative;padding-left:40px}
+.timeline::before{content:'';position:absolute;left:15px;top:0;bottom:0;width:2px;background:var(--border)}
+.tl-item{position:relative;margin-bottom:40px}
+.tl-item::before{content:'';position:absolute;left:-29px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--accent);border:3px solid var(--bg)}
+.tl-item h3{font-size:20px;margin-bottom:4px}
+.tl-item .tl-label{font-size:13px;color:var(--accent);font-weight:600;margin-bottom:12px}
+.tl-item p{color:var(--text-secondary);font-size:15px;margin-bottom:8px}
+.tl-item ul{list-style:none;margin-top:8px}
+.tl-item ul li{font-size:14px;color:var(--text-secondary);padding:3px 0;padding-left:20px;position:relative}
+.tl-item ul li::before{content:'→';position:absolute;left:0;color:var(--text-muted)}
+
+/* PORTER */
+.porter-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.porter-card{padding:24px;background:var(--bg-secondary);border:1px solid var(--border);border-radius:var(--radius);text-align:center}
+.porter-card .force{font-size:14px;font-weight:700;color:var(--purple);text-transform:uppercase;letter-spacing:1px;margin-bottom:12px}
+.porter-card h4{font-size:15px;margin-bottom:8px}
+.porter-card p{font-size:13px;color:var(--text-secondary);line-height:1.5}
+.porter-card .threat{display:inline-block;margin-top:10px;padding:2px 10px;border-radius:10px;font-size:12px;font-weight:600}
+.threat-low{background:rgba(63,185,80,.15);color:var(--green)}
+.threat-med{background:rgba(210,153,34,.15);color:var(--orange)}
+
+/* CASE STUDIES */
+.case-placeholder{text-align:center;padding:60px 40px;background:var(--bg-secondary);border:1px dashed var(--border);border-radius:var(--radius)}
+.case-placeholder .icon{font-size:48px;margin-bottom:16px}
+.case-placeholder h3{font-size:20px;margin-bottom:8px}
+.case-placeholder p{color:var(--text-secondary)}
+
+/* FAQ */
+.faq-item{border-bottom:1px solid var(--border);padding:20px 0}
+.faq-item h4{font-size:16px;margin-bottom:8px;color:var(--text)}
+.faq-item p{font-size:14px;color:var(--text-secondary);line-height:1.7}
+
+/* CONTACT */
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+.contact-card{padding:32px;background:var(--bg-secondary);border:1px solid var(--border);border-radius:var(--radius);text-align:center}
+.contact-card .qr-placeholder{width:160px;height:160px;margin:0 auto 16px;background:var(--bg-tertiary);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;font-size:14px;color:var(--text-muted);border:1px dashed var(--border)}
+.contact-card h3{font-size:16px;margin-bottom:8px}
+.contact-card p{font-size:14px;color:var(--text-secondary)}
+
+/* FOOTER */
+footer{padding:40px 0;text-align:center;border-top:1px solid var(--border)}
+footer p{font-size:13px;color:var(--text-muted)}
+
+/* DIVIDER */
+.section-divider{height:1px;background:linear-gradient(90deg,transparent,var(--border),transparent);margin:0}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  nav ul{display:none}
+  .hero{padding:120px 0 60px}
+  .hero h1{font-size:32px}
+  section{padding:60px 0}
+  .timeline{padding-left:30px}
+  .timeline::before{left:10px}
+  .tl-item::before{left:-24px;width:10px;height:10px}
+  .pricing-grid{grid-template-columns:1fr}
+  .porter-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:480px){
+  .container{padding:0 16px}
+  .porter-grid{grid-template-columns:1fr}
+  .stats{grid-template-columns:1fr 1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="container">
+    <div class="logo">growth<span>pm</span>.sh</div>
+    <ul>
+      <li><a href="#services">服务</a></li>
+      <li><a href="#pricing">定价</a></li>
+      <li><a href="#process">流程</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact" class="cta-nav">预约咨询</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="badge"><span class="dot"></span>Shanghai · 全球视野</div>
+    <h1>让中国App<br><em>征服海外市场</em></h1>
+    <p>Growth PM as a Service — 你不需要招一个全职的增长PM。<br>我来帮你做好出海增长，从0到1。</p>
+    <div class="actions">
+      <a href="#contact" class="btn btn-primary">预约免费诊断 →</a>
+      <a href="#pricing" class="btn btn-secondary">查看定价</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="num">8+</div><div class="label">年海外产品经验</div></div>
+      <div class="stat"><div class="num">5</div><div class="label">Amazon 工作年数</div></div>
+      <div class="stat"><div class="num">3</div><div class="label">Fortune 500 公司</div></div>
+      <div class="stat"><div class="num">双语</div><div class="label">中英文母语级</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+    <div class="section-label">服务概览</div>
+    <h2 class="section-title">Growth PM as a Service</h2>
+    <p class="section-desc">你有一个好产品，想出海但不知道从哪开始？我帮你做增长策略、用户获取、数据分析、ASO优化 — 所有海外增长PM该做的事。</p>
+
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="icon">🎯</div>
+        <h3>用户获取策略</h3>
+        <p>制定针对欧美、东南亚等目标市场的获客方案，从付费投放到有机增长，帮你找到最高效的渠道。</p>
+      </div>
+      <div class="why-card">
+        <div class="icon">📱</div>
+        <h3>App Store 优化</h3>
+        <p>关键词策略、截图优化、本地化文案 — 提升自然下载量，降低获客成本。</p>
+      </div>
+      <div class="why-card">
+        <div class="icon">📊</div>
+        <h3>数据分析体系</h3>
+        <p>搭建核心指标体系，设置数据埋点，建立增长实验框架 — 用数据驱动决策。</p>
+      </div>
+      <div class="why-card">
+        <div class="icon">🧪</div>
+        <h3>增长实验</h3>
+        <p>每周设计并执行A/B测试，持续优化转化漏斗，从注册到留存全链路提升。</p>
+      </div>
+      <div class="why-card">
+        <div class="icon">💬</div>
+        <h3>英语客服体系</h3>
+        <p>帮你搭建英语用户支持流程，设置FAQ、邮件模板、反馈收集机制。</p>
+      </div>
+      <div class="why-card">
+        <div class="icon">🌐</div>
+        <h3>多市场扩展</h3>
+        <p>从单一市场到全球布局 — 本地化策略、文化适配、合规要求一站搞定。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="container">
+    <div class="section-label">定价方案</div>
+    <h2 class="section-title">选择适合你的方案</h2>
+    <p class="section-desc">从免费诊断开始，逐步升级。不绑长期合同，按月灵活调整。</p>
+
+    <div class="pricing-grid">
+      <!-- Free -->
+      <div class="price-card">
+        <div class="tier">Diagnostic 诊断</div>
+        <div class="price">免费</div>
+        <div class="price-note">Free · 30分钟</div>
+        <div class="divider"></div>
+        <ul>
+          <li>30分钟视频/电话咨询</li>
+          <li>出海就绪度快速评估</li>
+          <li>产品海外市场机会判断</li>
+          <li>初步增长建议</li>
+          <li>确定下一步方向</li>
+        </ul>
+        <a href="#contact" class="btn btn-secondary">预约免费诊断</a>
+      </div>
+
+      <!-- Starter -->
+      <div class="price-card">
+        <div class="tier">Starter 入门</div>
+        <div class="price">¥3,000</div>
+        <div class="price-note">一次性 · 3-5个工作日交付</div>
+        <div class="divider"></div>
+        <ul>
+          <li>完整 App Store 审计报告</li>
+          <li>竞品分析（3-5个竞品）</li>
+          <li>3条可执行的增长建议</li>
+          <li>关键词 & ASO 优化方案</li>
+          <li>目标市场用户画像</li>
+          <li>60分钟汇报 + Q&A</li>
+        </ul>
+        <a href="#contact" class="btn btn-secondary">开始入门</a>
+      </div>
+
+      <!-- Growth PM -->
+      <div class="price-card featured">
+        <div class="tier">Growth PM 增长</div>
+        <div class="price">¥8,000<span style="font-size:16px;font-weight:400;color:var(--text-muted)">/月</span></div>
+        <div class="price-note">按月付费 · 随时可停</div>
+        <div class="divider"></div>
+        <ul>
+          <li>全权负责国际增长</li>
+          <li>获客漏斗设计与优化</li>
+          <li>App Store 持续优化</li>
+          <li>数据埋点 & 分析体系搭建</li>
+          <li>每周增长实验计划</li>
+          <li>英语客服流程搭建</li>
+          <li>周报 + 月度复盘</li>
+          <li>随时微信/Slack沟通</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">立即开始</a>
+      </div>
+
+      <!-- Scale -->
+      <div class="price-card">
+        <div class="tier">Scale 规模化</div>
+        <div class="price">¥15,000<span style="font-size:16px;font-weight:400;color:var(--text-muted)">/月</span></div>
+        <div class="price-note">按月付费 · 含团队资源</div>
+        <div class="divider"></div>
+        <ul>
+          <li>包含 Growth PM 全部服务</li>
+          <li>配备执行团队支持</li>
+          <li>多市场扩展策略</li>
+          <li>内容营销方案执行</li>
+          <li>社交媒体运营指导</li>
+          <li>KOL/网红营销对接</li>
+          <li>优先响应 · 专属通道</li>
+        </ul>
+        <a href="#contact" class="btn btn-secondary">联系咨询</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="container">
+    <div class="section-label">执行框架</div>
+    <h2 class="section-title">90天出海增长计划</h2>
+    <p class="section-desc">经过验证的三阶段框架，从基础搭建到持续优化，稳步推进。</p>
+
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-label">Month 1 · 第一个月</div>
+        <h3>🏗️ Foundation 基础搭建</h3>
+        <p>把地基打好，不做空中楼阁。</p>
+        <ul>
+          <li>产品出海就绪度全面诊断</li>
+          <li>目标市场调研 & 用户画像建立</li>
+          <li>竞品深度分析（直接竞品 + 间接竞品）</li>
+          <li>核心指标体系搭建 & 数据埋点</li>
+          <li>App Store 基础优化（标题、描述、关键词、截图）</li>
+          <li>英语版本体验优化建议</li>
+          <li>增长策略文档 & Roadmap 制定</li>
+        </ul>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-label">Month 2 · 第二个月</div>
+        <h3>🚀 Launch 正式启动</h3>
+        <p>开始获取用户，快速验证。</p>
+        <ul>
+          <li>首批获客渠道上线测试</li>
+          <li>ASO 迭代优化（基于第一月数据）</li>
+          <li>落地页/商店页面 A/B 测试</li>
+          <li>用户反馈收集机制上线</li>
+          <li>英语客服流程搭建 & 培训</li>
+          <li>首批增长实验执行 & 复盘</li>
+          <li>周报机制启动</li>
+        </ul>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-label">Month 3 · 第三个月</div>
+        <h3>📈 Optimize 持续优化</h3>
+        <p>数据驱动，放大有效策略。</p>
+        <ul>
+          <li>漏斗分析 & 转化率优化</li>
+          <li>高效渠道加大投入</li>
+          <li>用户留存策略实施</li>
+          <li>多市场扩展评估（如适用）</li>
+          <li>增长飞轮模型建立</li>
+          <li>90天复盘报告 & 下阶段规划</li>
+          <li>决定是否继续合作 / 转为自运营</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- WHY IAN -->
+<section id="why">
+  <div class="container">
+    <div class="section-label">为什么选择我</div>
+    <h2 class="section-title">懂产品 · 懂增长 · 懂中美</h2>
+    <p class="section-desc">不只是咨询顾问 — 我是真正做过增长PM的人。</p>
+
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="icon">🟡</div>
+        <h3>Amazon · 5年+</h3>
+        <p>在Amazon负责消费者产品增长，深入理解北美用户行为、获客渠道和转化优化。经历Amazon级别的增长方法论训练。</p>
+      </div>
+      <div class="why-card">
+        <div class="icon">⚫</div>
+        <h3>GitHub / Microsoft</h3>
+        <p>在GitHub（Microsoft旗下）参与开发者产品，理解全球化产品的增长挑战，以及如何在不同文化背景下做用户增长。</p>
+      </div>
+      <div class="why-card">
+        <div class="icon">🔵</div>
+        <h3>Salesforce</h3>
+        <p>企业级SaaS产品经验，理解B2B获客、用户生命周期管理和数据驱动增长的方法论。</p>
+      </div>
+      <div class="why-card">
+        <div class="icon">🌏</div>
+        <h3>跨境商业实战</h3>
+        <p>深度理解中美两个市场的商业逻辑、用户习惯差异和文化鸿沟。不只是语言翻译，而是产品本地化。</p>
+      </div>
+      <div class="why-card">
+        <div class="icon">🗣️</div>
+        <h3>中英双语母语级</h3>
+        <p>可以直接和你的团队用中文沟通，同时用native-level英语搞定海外市场的一切 — 文案、客服、PR。</p>
+      </div>
+      <div class="why-card">
+        <div class="icon">📍</div>
+        <h3>常驻上海</h3>
+        <p>人在上海，随时可以线下见面沟通。了解中国创业团队的工作方式和痛点，无缝融入你的团队。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- PORTER'S FIVE FORCES -->
+<section id="porter">
+  <div class="container">
+    <div class="section-label">竞争分析</div>
+    <h2 class="section-title">Porter's Five Forces · 竞争护城河</h2>
+    <p class="section-desc">为什么这个定位是可持续的 — 用经典的五力模型来分析。</p>
+
+    <div class="porter-grid">
+      <div class="porter-card">
+        <div class="force">新进入者威胁</div>
+        <h4>Threat of New Entrants</h4>
+        <p>需要同时具备美国大厂PM经验 + 中文沟通 + 上海落地能力。候选人池极小。</p>
+        <span class="threat threat-low">威胁: 低</span>
+      </div>
+      <div class="porter-card">
+        <div class="force">替代品威胁</div>
+        <h4>Threat of Substitutes</h4>
+        <p>传统咨询公司缺乏实战经验；广告代理只管投放；招全职PM成本3-5倍且周期长。</p>
+        <span class="threat threat-low">威胁: 低</span>
+      </div>
+      <div class="porter-card">
+        <div class="force">买方议价能力</div>
+        <h4>Buyer Power</h4>
+        <p>创始人急需出海但缺乏能力，免费诊断降低决策门槛，效果可见后付费意愿强。</p>
+        <span class="threat threat-med">威胁: 中低</span>
+      </div>
+      <div class="porter-card">
+        <div class="force">供应商议价能力</div>
+        <h4>Supplier Power</h4>
+        <p>核心供给是个人IP和经验，无需外部供应商依赖，边际成本极低。</p>
+        <span class="threat threat-low">威胁: 极低</span>
+      </div>
+      <div class="porter-card">
+        <div class="force">行业内竞争</div>
+        <h4>Industry Rivalry</h4>
+        <p>「Growth PM as a Service」是新品类，目前没有直接竞争对手在做同样的事。</p>
+        <span class="threat threat-low">威胁: 低</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- CASE STUDIES -->
+<section id="cases">
+  <div class="container">
+    <div class="section-label">案例</div>
+    <h2 class="section-title">客户案例</h2>
+    <div class="case-placeholder">
+      <div class="icon">📊</div>
+      <h3>Coming Soon · 即将上线</h3>
+      <p>正在积累第一批客户案例，很快会在这里展示真实的增长数据和故事。<br>想成为第一个案例？<a href="#contact">联系我们</a>享受首批客户特别优惠。</p>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="container">
+    <div class="section-label">常见问题</div>
+    <h2 class="section-title">FAQ</h2>
+
+    <div class="faq-item">
+      <h4>我们产品还在早期阶段，适合找你吗？</h4>
+      <p>适合。越早介入越好 — 很多出海问题是产品层面的（本地化、支付、合规），越晚改成本越高。建议先做免费诊断，我帮你判断现在是不是合适的时机。</p>
+    </div>
+    <div class="faq-item">
+      <h4>为什么不直接招一个全职的增长PM？</h4>
+      <p>一个有海外经验的增长PM在上海年薪至少60-100万，加上社保、管理成本更高。而且招人周期长（2-3个月），你需要的是立刻开始。我的服务让你用1/3的成本获得80%的效果，等验证跑通了再考虑招人。</p>
+    </div>
+    <div class="faq-item">
+      <h4>你同时服务几个客户？</h4>
+      <p>我严格控制同时服务的客户数量在3-5个以内，确保每个客户都能获得高质量的关注。Growth PM和Scale方案的客户优先级最高。</p>
+    </div>
+    <div class="faq-item">
+      <h4>我们的产品是B2B的，你能帮忙吗？</h4>
+      <p>可以，但我的核心优势在消费者App。如果你是B2B SaaS出海，建议先做个诊断聊聊，看看是否匹配。我在Salesforce的B2B经验可以帮到你。</p>
+    </div>
+    <div class="faq-item">
+      <h4>合作流程是怎样的？</h4>
+      <p>第一步：预约免费30分钟诊断。第二步：我出一份评估报告和建议方案。第三步：你选择合适的tier开始合作。第四步：90天框架启动。全程微信/Slack保持沟通。</p>
+    </div>
+    <div class="faq-item">
+      <h4>不满意可以退款吗？</h4>
+      <p>Starter方案交付后不满意可退50%。月度方案随时可停，下月不再扣费。我靠口碑和续费赚钱，不会绑你合同。</p>
+    </div>
+    <div class="faq-item">
+      <h4>你能帮我们做投放吗？</h4>
+      <p>我可以帮你制定投放策略、选渠道、设定KPI、审核广告素材，但实际的投放执行（如Facebook Ads操作）建议交给专业的投放代理或内部运营。我的价值在策略层面。</p>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="section-label">联系我们</div>
+    <h2 class="section-title">开始你的出海之旅</h2>
+    <p class="section-desc">扫码或发邮件，30分钟免费诊断，零风险了解你的出海机会。</p>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="qr-placeholder">WeChat QR<br>二维码占位</div>
+        <h3>微信联系</h3>
+        <p>扫码添加微信，备注「出海咨询」<br>通常2小时内回复</p>
+      </div>
+      <div class="contact-card">
+        <div class="qr-placeholder" style="font-size:36px">✉️</div>
+        <h3>邮件联系</h3>
+        <p><a href="mailto:ian@growthpm.sh">ian@growthpm.sh</a><br>适合详细项目描述</p>
+      </div>
+      <div class="contact-card">
+        <div class="qr-placeholder" style="font-size:36px">📅</div>
+        <h3>直接预约</h3>
+        <p>选择时间，直接进入30分钟<br>免费诊断通话</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p>© 2026 growthpm.sh · Built by Ian in Shanghai · 帮中国App走向世界</p>
+  </div>
+</footer>
+
+</body>
+</html>
