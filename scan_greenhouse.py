@@ -1,103 +1,119 @@
 #!/usr/bin/env python3
-"""Scan Greenhouse boards API for target companies."""
+"""Scan Greenhouse boards for OKX, Stripe, Airwallex, Coupang, Agoda"""
 import json
 import urllib.request
-from datetime import datetime
+import urllib.error
+import sys
+from datetime import datetime, timezone
 
-with open('/Users/iancolrick/.openclaw/workspace/existing_urls.json') as f:
-    existing_urls = set(json.load(f))
-
-companies = {
-    'adyen': 'Adyen',
-    'agoda': 'Agoda',
-    'okx': 'OKX',
-    'stripe': 'Stripe',
-    'coupang': 'Coupang',
-    'mercury': 'Mercury',
-    'vercel': 'Vercel',
-    'figma': 'Figma',
-    'anthropic': 'Anthropic',
-    'coinbase': 'Coinbase',
-    'flexport': 'Flexport',
-    'reddit': 'Reddit',
-    'airbnb': 'Airbnb',
-    'gitlab': 'GitLab',
-    'affirm': 'Affirm',
-    'bybit': 'Bybit',
-    'chime': 'Chime',
-    'xendit': 'Xendit',
-    'tripadvisor': 'TripAdvisor',
+COMPANIES = {
+    "okx": "OKX",
+    "stripe": "Stripe",
+    "airwallex": "Airwallex",
+    "coupang": "Coupang",
+    "agoda": "Agoda",
+    "affirm": "Affirm",
+    "airbnb": "Airbnb",
+    "anthropic": "Anthropic",
+    "rippling": "Rippling",
+    "ramp": "Ramp",
 }
 
-keywords = [
-    'product manager', 'product lead', 'senior product',
-    'strategy', 'strategic',
-    'bizops', 'business operations',
-    'growth', 'general manager',
-    'senior manager', 'director of product',
-    'head of product', 'head of growth', 'head of strategy',
-    'commercial manager', 'gm ',
-]
+# Load existing URLs
+existing_path = "/Users/iancolrick/.openclaw/workspace/OKComputer_职位搜索清单/jobs-all.json"
+with open(existing_path) as f:
+    existing_jobs = json.load(f)
 
-target_locations = ['shenzhen', 'hong kong', 'hk', 'singapore', 'guangzhou', 'shanghai', 'remote', 'asia', 'apac', 'greater china', 'bangkok', 'tokyo']
-
-skip_words = ['director', 'vp ', 'vice president', 'intern', 'internship', 'legal', 'counsel', 'recruiter', 'talent']
+existing_urls = set(j.get("url", "") for j in existing_jobs)
+existing_titles = set()
+for j in existing_jobs:
+    key = (j.get("company", ""), j.get("title", ""), j.get("url", ""))
+    existing_titles.add(key)
 
 new_jobs = []
-scanned = 0
-errors = []
+keywords_pm = ["product manager", "product", "strategy", "bizops", "business operations",
+               "growth", "general manager", "commercial", "partnerships", "GM",
+               "head of", "senior manager", "lead", "director of product"]
+keywords_skip = ["intern", "internship", "interns", "vice president", "managing director",
+                 "vp of", "c-level", "chief ", "staff engineer", "distinguished"]
 
-for company_slug, company_name in companies.items():
+for company_slug, company_name in COMPANIES.items():
+    url = f"https://boards-api.greenhouse.io/v1/jobs/{company_slug}?content=true"
     try:
-        url = f"https://boards-api.greenhouse.io/v1/boards/{company_slug}/jobs"
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read().decode())
-        jobs = data.get('jobs', [])
-        scanned += 1
-        print(f"[{scanned}/{len(companies)}] {company_name}: {len(jobs)} jobs", flush=True)
-        
-        for j in jobs:
-            title = j.get('title', '')
-            title_lower = title.lower()
-            loc = j.get('location', {}).get('name', '').lower()
-            abs_url = j.get('absolute_url', '')
-            
-            if abs_url.rstrip('/') in existing_urls:
-                continue
-            
-            title_match = any(k in title_lower for k in keywords)
-            loc_match = any(l in loc for l in target_locations) or loc == ''
-            
-            if title_match and loc_match:
-                if any(s in title_lower for s in skip_words):
-                    continue
-                
-                new_jobs.append({
-                    'title': title,
-                    'company': company_name,
-                    'location': j.get('location', {}).get('name', ''),
-                    'url': abs_url,
-                    'source': 'greenhouse_api',
-                    'posted': j.get('first_published', ''),
-                    'updated': j.get('updated_at', ''),
-                    'scanned_date': datetime.now().strftime('%Y-%m-%d'),
-                })
     except Exception as e:
-        errors.append(f"{company_name}: {e}")
+        print(f"  ⚠ Failed to fetch {company_name}: {e}")
+        continue
 
-print(f"\n=== RESULTS ===")
-print(f"Scanned: {scanned}/{len(companies)}")
-print(f"New jobs found: {len(new_jobs)}")
-print(f"Errors: {len(errors)}")
-for err in errors:
-    print(f"  ERR: {err}")
+    jobs = data.get("jobs", [])
+    print(f"  📋 {company_name}: {len(jobs)} total jobs")
+    found = 0
 
+    for job in jobs:
+        title = job.get("title", "")
+        location = job.get("location", {}).get("name", "")
+        job_id = job.get("id", "")
+        job_url = f"https://boards-api.greenhouse.io/{company_slug}/jobs/{job_id}#app"
+        posted_at = job.get("updated_at", job.get("created_at", ""))
+
+        title_lower = title.lower()
+
+        # Skip irrelevant roles
+        if any(skip in title_lower for skip in keywords_skip):
+            continue
+
+        # Check if matches PM/Strategy profile
+        is_match = any(kw in title_lower for kw in keywords_pm)
+
+        # Focus on APAC locations
+        location_lower = location.lower()
+        apac_keywords = ["shenzhen", "hong kong", "hk", "guangzhou", "shanghai",
+                         "singapore", "bangkok", "tokyo", "seoul", "asia",
+                         "taipei", "malaysia", "indonesia", "philippines"]
+        is_apac = any(kw in location_lower for kw in apac_keywords)
+
+        # For APAC matches or strategy roles anywhere
+        if not is_match:
+            continue
+
+        # Check if new
+        if job_url in existing_urls:
+            continue
+        if (company_name, title, job_url) in existing_titles:
+            continue
+
+        found += 1
+        new_jobs.append({
+            "title": title,
+            "company": company_name,
+            "location": location,
+            "url": job_url,
+            "source": "greenhouse_api",
+            "salary": "Not listed",
+            "scanned_date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+            "posted_date": posted_at,
+            "quality_score": 75 if is_apac else 65,
+            "quality_tier": "B",
+            "grade": "B",
+            "english_friendly": True,
+            "platform": "Greenhouse",
+            "low_quality": False,
+        })
+
+    print(f"     → {found} new matching jobs")
+
+# Save new jobs
+print(f"\n=== Total new jobs found: {len(new_jobs)} ===")
 for j in new_jobs:
-    print(f"\n📌 {j['title']} @ {j['company']}")
-    print(f"   📍 {j['location']}")
-    print(f"   🔗 {j['url']}")
-    print(f"   📅 Posted: {j['posted'][:10] if j['posted'] else 'unknown'}")
+    print(f"  📌 {j['title']} @ {j['company']} | {j['location']}")
 
-with open('/Users/iancolrick/.openclaw/workspace/new_greenhouse_jobs.json', 'w') as f:
-    json.dump(new_jobs, f, indent=2)
+# Append to existing
+if new_jobs:
+    existing_jobs.extend(new_jobs)
+    with open(existing_path, 'w', encoding='utf-8') as f:
+        json.dump(existing_jobs, f, indent=2, ensure_ascii=False)
+    print(f"\n✅ Saved {len(new_jobs)} new jobs to database (total: {len(existing_jobs)})")
+else:
+    print("\nℹ️  No new jobs to add")
