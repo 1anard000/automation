@@ -1,80 +1,107 @@
 {
-  "generated_at": "2026-07-18T06:00:26+08:00",
+  "generated_at": "2026-07-19T00:00:00Z",
   "stats": {
-    "total": 556,
-    "total_all": 682,
-    "jobs_last_7d": 10,
-    "jobs_last_24h": 6,
-    "direct_links": 556
+    "total_jobs": 683,
+    "jobs_by_location": {
+      "SZ": 67,
+      "Other": 382,
+      "HK": 87,
+      "SG": 138,
+      "SH": 6,
+      "GZ": 3
+    },
+    "jobs_by_category": {
+      "other": 57,
+      "PM": 333,
+      "fintech": 12,
+      "Strategy": 67,
+      "Growth": 27,
+      "cross_border": 21,
+      "ops": 48,
+      "gm": 6,
+      "general_manager": 1,
+      "unknown": 97,
+      "operations": 8,
+      "platform": 3,
+      "program": 2,
+      "vc_pe": 1
+    }
   },
-  "by_city": {
-    "Singapore": 113,
-    "Shenzhen": 74,
-    "Hong Kong": 67,
-    "Guangzhou": 16,
-    "Shanghai": 12,
-    "Beijing": 4
-  },
-  "by_category": {
-    "Other": 247,
-    "PM": 157,
-    "Strategy": 81,
-    "Program": 36,
-    "Growth": 35
-  },
-  "top_5": [
+  "top_5_jobs": [
     {
+      "quality_score": 100,
+      "title": "Principal Product Manager (Singapore Based)",
+      "company": "Agoda",
+      "location": "Hong Kong",
+      "job_id": "59084d5f315e",
+      "category": "general_pm",
+      "role_type": "Product Management",
+      "status": "not_applied",
+      "url": "https://hk.linkedin.com/jobs/view/principal-product-manager-singapore-based-at-agoda-4429535801"
+    },
+    {
+      "quality_score": 93,
       "title": "Head of Communications, APAC",
       "company": "Stripe",
       "location": "Singapore",
-      "grade": "S-1",
-      "quality_score": 93,
-      "url": "https://stripe.com/jobs/search?gh_jid=7893199",
-      "source": "greenhouse"
+      "job_id": "",
+      "category": "general_pm",
+      "role_type": "Other",
+      "status": "",
+      "url": "https://stripe.com/jobs/search?gh_jid=7893199"
     },
     {
+      "quality_score": 91,
       "title": "Senior Integration Reliability Engineer, Technical Operations",
       "company": "Stripe",
       "location": "Singapore",
-      "grade": "S-1",
-      "quality_score": 91,
-      "url": "https://stripe.com/jobs/search?gh_jid=7457268",
-      "source": "greenhouse"
+      "job_id": "",
+      "category": "ops",
+      "role_type": "",
+      "status": "",
+      "url": "https://stripe.com/jobs/search?gh_jid=7457268"
     },
     {
+      "quality_score": 90,
       "title": "Country Manager",
       "company": "Datadog",
-      "location": "",
-      "grade": "S-1",
-      "quality_score": 90,
-      "url": "https://careers.datadoghq.com/detail/7975747/?gh_jid=7975747",
-      "source": "greenhouse"
+      "location": "Tokyo",
+      "job_id": "6d43b0be0641",
+      "category": "gm",
+      "role_type": "General Manager",
+      "status": "not_applied",
+      "url": "https://careers.datadoghq.com/detail/7975747/?gh_jid=7975747"
     },
     {
+      "quality_score": 90,
       "title": "Senior Strategy Project Manager, VIP/Institutions",
       "company": "OKX",
-      "location": "Hong Kong",
-      "grade": "S-1",
-      "quality_score": 90,
-      "url": "https://job-boards.greenhouse.io/okx/jobs/7739163003",
-      "source": "greenhouse"
-    },
-    {
-      "title": "Vice President, AI Strategy & Transformation",
-      "company": "OKX",
-      "location": "Hong Kong",
-      "grade": "S-1",
-      "quality_score": 90,
-      "url": "https://job-boards.greenhouse.io/okx/jobs/7684888003",
-      "source": "greenhouse"
+      "location": "Hong Kong, Hong Kong SAR",
+      "job_id": "970f6d459177",
+      "category": "strategy",
+      "role_type": "Strategy/Ops",
+      "status": "not_applied",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7739163003"
     }
   ],
   "category_counts": {
-    "Other": 247,
-    "PM": 157,
-    "Strategy": 81,
-    "Program": 36,
-    "Growth": 35
-  },
-  "error": null
+    "other": 57,
+    "general_pm": 250,
+    "fintech": 12,
+    "product": 50,
+    "strategy": 67,
+    "growth": 27,
+    "cross_border": 21,
+    "ops": 48,
+    "gm": 6,
+    "ai_product": 16,
+    "product_management": 5,
+    "senior_pm": 12,
+    "general_manager": 1,
+    "unknown": 97,
+    "operations": 8,
+    "platform": 3,
+    "program": 2,
+    "vc_pe": 1
+  }
 }
