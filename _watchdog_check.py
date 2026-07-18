@@ -1,11 +1,13 @@
 import json, sys
 try:
-    with open("/Users/iancolrick/.openclaw/workspace/OKComputer_职位搜索清单/jobs-all.json") as f:
+    with open("/Users/iancolrick/.openclaw/workspace/OKComputer_\u804c\u4f4d\u641c\u7d22\u6e05\u5355/jobs-all.json") as f:
         data = json.load(f)
     count = len(data)
+    print(f"JOB_COUNT={count}")
     if count > 400:
-        print(f"OK:{count}")
+        print("OK")
     else:
-        print(f"FAIL:only_{count}_jobs")
+        print(f"TOO_FEW_JOBS")
 except Exception as e:
-    print(f"FAIL:{e}")
+    print(f"ERROR: {e}")
+    sys.exit(1)
