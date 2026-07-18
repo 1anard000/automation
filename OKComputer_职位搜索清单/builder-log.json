@@ -804,6 +804,15 @@
       "score_after": "pending",
       "subagent": "builder-grade-normalization-0714",
       "details": "Role-based grades (Director, Lead PM, Senior PM, etc.) mixed with letter grades. 598 jobs missing quality_score."
+    },
+    {
+      "timestamp": "2026-07-19T00:01:25.420008+08:00",
+      "dimension": "data_quality",
+      "task": "Normalize OKX/Okx company names + remove 117 exact-title duplicates (1161→1044 jobs)",
+      "status": "completed",
+      "score_before": 10,
+      "score_after": 10,
+      "subagent": "nightly-improver"
     }
   ],
   "current_scores": {
