@@ -1,10 +1,10 @@
 # 📊 Weekly Career Strategy Intelligence
-**Generated:** Tuesday, July 14, 2026 6:00 AM CST
-**Coverage period:** Week of July 13 – July 19, 2026
-**Data source:** jobs-all.json (1,138 positions, deduplicated/cleaned)
-**Previous report:** July 13 (1,180 positions)
+**Generated:** Monday, July 20, 2026 3:00 AM CST (Nightly Improver)
+**Coverage period:** Week of July 14 – July 20, 2026
+**Data source:** jobs-all.json (1,372 positions, deduplicated/cleaned)
+**Previous report:** July 14 (1,138 positions)
 
-> 🔄 **Nightly update: 1,138 positions.** 4 new roles added (OKX DEX Trading PM, OKX User Center PM ×2, Stripe TAM Greater China). Deduplication continues to tighten database. Grade system uses A/A-/B/C/S tiers. OKX remains the dominant employer. Web search was unavailable — analysis based on job database + market knowledge.
+> 🔄 **Nightly update: 1,372 positions** (+234, +20.6% WoW). Anthropic enters top 5 with 101 roles. Stripe surges to 161 jobs. Freshness data missing — `date_posted` field not populated across database. Grade system: A/A-/B/C/S tiers. 988 roles marked English-friendly (72%).
 
 ---
 
@@ -14,33 +14,37 @@
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| Total tracked roles | 1,138 | Post-cleanup, deduplicated |
-| OKX (all variants) | 180 | 15.8% of database — dominant |
-| Agoda (all variants) | 177 | 15.6% — #2 |
-| Coupang | 171 | 15.0% — #3 |
-| Top 3 combined | 533 | 45.2% of all roles |
+| Total tracked roles | 1,372 | Post-cleanup, deduplicated (+234 WoW) |
+| OKX (all variants) | 236 | 17.2% of database — dominant |
+| Coupang | 205 | 14.9% — #2 |
+| Agoda (all variants) | 199 | 14.5% — #3 (incl. lowercase dupes) |
+| Stripe | 161 | 11.7% — #4, surging |
+| Anthropic | 101 | 7.4% — #5, NEW ENTRANT |
+| Top 5 combined | 902 | 65.8% of all roles |
 
-### Sector Heat Map (July 13)
+### Sector Heat Map (July 20)
 
 | Sector | Est. Roles | Key Employers | Heat | Fit |
 |--------|-----------|---------------|------|-----|
-| 🔥 **Crypto/Web3** | ~314 | OKX (183), Coinbase (28), Binance (8), Crypto.com (14) | 🔥🔥🔥 | ✅ **#1 hiring sector** |
-| 🔥 **Cross-border E-commerce** | ~373 | Coupang (171), Shopee (30), ByteDance (58), Stripe (29) | 🔥🔥🔥 | ✅ Core strength |
-| 🔥 **Travel/Marketplace** | ~224 | Agoda (179), Airbnb (10), Grab (13) | 🔥🔥 | ✅ Marketplace strategy |
-| 🔵 **Cross-border Payments** | ~60+ | Stripe (29), Airwallex (20), Adyen (11), Payoneer (7) | 🔥🔥 | ✅ Fintech core |
-| 🔵 **AI/Product** | ~85+ | ByteDance (58), Databricks (19), Anthropic (8) | 🔥🔥 | ✅ High-value combo |
-| 🟡 **Enterprise SaaS** | ~67 | Twilio (20), Datadog (18), Figma (11), GitLab (11) | 🔵 | ⚠️ Lower A-1 density |
-| 🟢 **Fintech (non-crypto)** | ~40+ | Affirm (8), Mercury (17), Xendit (9) | 🔵 | ✅ Payments adjacent |
+| 🔥 **Crypto/Web3** | ~290 | OKX (236), Coinbase (27) | 🔥🔥🔥 | ✅ **#1 hiring sector** |
+| 🔥 **AI/ML Product** | ~130+ | Anthropic (101), ByteDance (30), Databricks (7) | 🔥🔥🔥 | ✅ **NEW — Explosive growth** |
+| 🔥 **Cross-border E-commerce** | ~265 | Coupang (205), Shopee (est. 30), ByteDance (30) | 🔥🔥🔥 | ✅ Core strength |
+| 🔥 **Travel/Marketplace** | ~240 | Agoda (199), Airbnb (38) | 🔥🔥 | ✅ Marketplace strategy |
+| 🔵 **Cross-border Payments** | ~220+ | Stripe (161), Airwallex (14), Adyen (est. 11) | 🔥🔥 | ✅ Fintech core — Stripe surging |
+| 🔵 **Fintech (non-crypto)** | ~80+ | Affirm (58), Mercury (16), Twilio (22) | 🔵 | ✅ Payments adjacent |
+| 🟡 **Enterprise SaaS** | ~70 | Datadog (14), MongoDB (est. 10) | 🔵 | ⚠️ Lower A-1 density |
 
 ### What's Hot Right Now
 
-1. **Crypto/Web3 is overwhelmingly #1** — OKX alone (183 roles) equals the entire previous crypto sector. They're building across AI, payments, trading, KYB, DeFi. The breadth is unmatched.
+1. **Crypto/Web3 remains #1** — OKX at 236 roles (+56 WoW) continues to dominate. Breadth across AI, payments, trading, KYB, DeFi is unmatched. Coupang (205) and Agoda (199) round out the top 3.
 
-2. **AI product roles are proliferating** — OKX's VP AI Strategy & Transformation, Sr. PM Conversational AI Chatbot, Sr. PM DevOps and AI, Sr. PM AI Gateway roles signal AI-first product strategy across crypto.
+2. **🤖 AI/ML is the breakout story** — Anthropic enters at 101 roles, making AI the #4 sector overnight. Combined with ByteDance AI roles and Databricks, this sector now rivals crypto in volume. The candidate's AI product experience positions well here.
 
-3. **Cross-border payments infrastructure** — Stripe (29), Airwallex (20), Adyen (11) all scaling. Cross-border payments remains the intersection of the candidate's core strengths.
+3. **Stripe surges to 161 roles** — Cross-border payments infrastructure is heating up. Stripe alone is now larger than many entire sectors. Airwallex (14) adds fintech depth.
 
-4. **Director-level roles are concentrated at OKX** — 20+ PM/Director roles across trading, payments, growth, institutional products. OKX is the single most important employer to target.
+4. **Director-level roles concentrated at OKX** — 20+ PM/Director roles across trading, payments, growth, institutional products. OKX remains the single most important employer to target.
+
+5. **⚠️ Data quality alert:** `date_posted` field is empty across all 1,372 jobs. Freshness tracking is broken — cannot identify recent vs stale postings. This needs fixing.
 
 ### What's Cooling
 
