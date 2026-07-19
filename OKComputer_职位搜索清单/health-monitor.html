@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Career OS — System Health Monitor</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0f172a;--card:#1e293b;--card-border:#334155;--accent:#38bdf8;--green:#22c55e;--yellow:#eab308;--red:#ef4444;--text:#e2e8f0;--muted:#94a3b8;--dim:#475569}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;padding:24px}
+.header{display:flex;align-items:center;gap:16px;margin-bottom:32px;padding-bottom:24px;border-bottom:1px solid var(--card-border)}
+.header h1{font-size:28px;font-weight:700;background:linear-gradient(135deg,var(--accent),#818cf8);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.header .subtitle{color:var(--muted);font-size:14px;margin-top:4px}
+.header .logo{width:48px;height:48px;background:linear-gradient(135deg,var(--accent),#818cf8);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0}
+.timestamp-bar{background:var(--card);border:1px solid var(--card-border);border-radius:8px;padding:12px 16px;margin-bottom:24px;display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
+.timestamp-bar .pulse{width:8px;height:8px;background:var(--green);border-radius:50%;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--card-border);border-radius:12px;padding:24px;transition:border-color .2s}
+.card:hover{border-color:var(--accent)}
+.card-header{display:flex;align-items:center;gap:12px;margin-bottom:20px}
+.card-icon{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}
+.card-title{font-size:16px;font-weight:600}
+.card-subtitle{font-size:12px;color:var(--muted);margin-top:2px}
+.stat-row{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.05)}
+.stat-row:last-child{border-bottom:none}
+.stat-label{color:var(--muted);font-size:13px}
+.stat-value{font-size:14px;font-weight:500;text-align:right}
+.status-dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:8px}
+.status-dot.green{background:var(--green)}
+.status-dot.yellow{background:var(--yellow)}
+.status-dot.red{background:var(--red)}
+.grade-bar{display:flex;gap:2px;margin-top:12px;height:28px;border-radius:6px;overflow:hidden}
+.grade-segment{display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#000;min-width:20px}
+.grade-legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.grade-legend-item{display:flex;align-items:center;gap:4px;font-size:11px;color:var(--muted)}
+.grade-legend-dot{width:10px;height:10px;border-radius:3px;flex-shrink:0}
+.big-number{font-size:48px;font-weight:800;background:linear-gradient(135deg,var(--accent),#818cf8);-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1}
+.big-number-label{font-size:13px;color:var(--muted);margin-top:4px}
+.file-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px;margin-top:8px}
+.file-chip{background:rgba(255,255,255,.05);border-radius:6px;padding:8px 10px;font-size:11px;color:var(--muted);display:flex;flex-direction:column;gap:2px}
+.file-chip .fname{color:var(--text);font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.file-chip .fsize{font-size:10px;color:var(--dim)}
+.cron-item{display:flex;align-items:center;gap:12px;padding:10px 12px;background:rgba(255,255,255,.03);border-radius:8px;margin-bottom:8px}
+.cron-item:last-child{margin-bottom:0}
+.cron-emoji{font-size:20px;flex-shrink:0}
+.cron-info{flex:1}
+.cron-name{font-size:13px;font-weight:600}
+.cron-desc{font-size:11px;color:var(--muted);margin-top:2px}
+.cron-status{font-size:11px;font-weight:600;padding:3px 8px;border-radius:4px}
+.cron-status.active{background:rgba(34,197,94,.15);color:var(--green)}
+.cron-status.pending{background:rgba(234,179,8,.15);color:var(--yellow)}
+.cron-status.missing{background:rgba(239,68,68,.15);color:var(--red)}
+.footer{text-align:center;margin-top:32px;padding:16px;color:var(--dim);font-size:12px;border-top:1px solid var(--card-border)}
+@media(max-width:720px){.grid{grid-template-columns:1fr}body{padding:16px}}
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="logo">⚡</div>
+  <div>
+    <h1>Career OS Health Monitor</h1>
+    <div class="subtitle">System status for the job search pipeline</div>
+  </div>
+</div>
+
+<div class="timestamp-bar">
+  <div class="pulse"></div>
+  <span id="checkTime"></span>
+</div>
+
+<div class="grid">
+  <!-- Pipeline Status -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-icon" style="background:rgba(56,189,248,.15)">🔍</div>
+      <div>
+        <div class="card-title">Pipeline Status</div>
+        <div class="card-subtitle">Scraper output files</div>
+      </div>
+    </div>
+    <div id="pipelineContent"></div>
+  </div>
+
+  <!-- Data Freshness -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-icon" style="background:rgba(34,197,94,.15)">📦</div>
+      <div>
+        <div class="card-title">Data Freshness</div>
+        <div class="card-subtitle">jobs-all.json status</div>
+      </div>
+    </div>
+    <div id="dataContent"></div>
+    <div id="gradeBar"></div>
+  </div>
+
+  <!-- Dashboard Health -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-icon" style="background:rgba(129,140,248,.15)">📊</div>
+      <div>
+        <div class="card-title">Dashboard Health</div>
+        <div class="card-subtitle">UI artifacts status</div>
+      </div>
+    </div>
+    <div id="dashboardContent"></div>
+  </div>
+
+  <!-- CRM Stats -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-icon" style="background:rgba(244,114,182,.15)">👥</div>
+      <div>
+        <div class="card-title">CRM Stats</div>
+        <div class="card-subtitle">Contact database</div>
+      </div>
+    </div>
+    <div id="crmContent"></div>
+  </div>
+
+  <!-- Strategy Freshness -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-icon" style="background:rgba(234,179,8,.15)">🧭</div>
+      <div>
+        <div class="card-title">Strategy Freshness</div>
+        <div class="card-subtitle">career-strategy.md</div>
+      </div>
+    </div>
+    <div id="strategyContent"></div>
+  </div>
+
+  <!-- Cron Fleet -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-icon" style="background:rgba(56,189,248,.15)">⏱️</div>
+      <div>
+        <div class="card-title">Cron Fleet</div>
+        <div class="card-subtitle">Scheduled automation jobs</div>
+      </div>
+    </div>
+    <div id="cronContent"></div>
+  </div>
+
+  <!-- File Inventory -->
+  <div class="card" style="grid-column:1/-1">
+    <div class="card-header">
+      <div class="card-icon" style="background:rgba(56,189,248,.15)">📁</div>
+      <div>
+        <div class="card-title">File Inventory</div>
+        <div class="card-subtitle">Career OS workspace overview</div>
+      </div>
+    </div>
+    <div id="inventoryContent"></div>
+  </div>
+</div>
+
+<div class="footer">
+  Career OS Health Monitor — pure HTML/CSS/JS, no external dependencies
+</div>
+
+<script>
+const DATA = {
+  checkedAt: "2026-07-20T03:01:00+08:00",
+  scrapers: [
+    { name: "Greenhouse", file: "greenhouse-results.json", modified: "2026-07-20T02:01:06+08:00", size: 58613, status: "fresh" },
+    { name: "BOSS/智联 Discovery", file: "boss-zhilian-discovery-results.json", modified: "2026-07-20T02:01:31+08:00", size: 21206, status: "fresh" },
+    { name: "Builtin", file: "builtin-results.json", modified: "2026-07-20T02:01:31+08:00", size: 3276, status: "fresh" },
+    { name: "Ashby", file: "ashby-results.json", modified: "2026-07-20T02:01:31+08:00", size: 1005, status: "fresh" },
+    { name: "Indeed/JobsDB", file: "indeed-jobsdb-results.json", modified: "2026-07-20T02:01:31+08:00", size: 2646, status: "fresh" },
+    { name: "Liepin", file: "liepin-results.json", modified: "2026-07-20T02:01:31+08:00", size: 3048, status: "fresh" },
+    { name: "Wellfound Enhanced", file: "wellfound-enhanced-results.json", modified: "2026-07-20T02:02:53+08:00", size: 1982, status: "fresh" },
+    { name: "Wellfound", file: "wellfound-results.json", modified: "2026-07-20T02:01:31+08:00", size: 1047, status: "fresh" },
+    { name: "Agent Discovered", file: "agent-discovered-jobs.json", modified: "2026-07-19T07:25:26+08:00", size: 112933, status: "stale" },
+    { name: "Quick", file: "quick-results.json", modified: "2026-06-27T10:13:36+08:00", size: 192462, status: "stale" },
+    { name: "Final", file: "final-results.json", modified: "2026-06-27T10:13:36+08:00", size: 5918, status: "stale" },
+    { name: "Careersite", file: "careersite-results.json", modified: "2026-06-27T10:13:36+08:00", size: 15475, status: "stale" },
+    { name: "Asia Careers", file: "asia-careers-results.json", modified: "2026-06-27T10:13:36+08:00", size: 1974, status: "stale" },
+    { name: "New Greenhouse Jobs", file: "new-greenhouse-jobs.json", modified: "2026-06-27T10:13:36+08:00", size: 18437, status: "stale" },
+    { name: "Turing", file: "turing-results.json", modified: "2026-06-25T02:08:24+08:00", size: 1202, status: "stale" },
+    { name: "Toptal", file: "toptal-results.json", modified: "2026-06-25T02:08:24+08:00", size: 1189, status: "stale" },
+    { name: "Hired", file: "hired-results.json", modified: "2026-06-25T02:08:24+08:00", size: 1199, status: "stale" },
+    { name: "Arc", file: "arc-results.json", modified: "2026-06-25T02:08:24+08:00", size: 1226, status: "stale" },
+    { name: "VC/PE", file: "vc-pe-results.json", modified: "2026-06-18T01:04:24+08:00", size: 14972, status: "stale" },
+    { name: "New Sources", file: "new-sources-results.json", modified: "2026-06-18T01:04:24+08:00", size: 44882, status: "stale" }
+  ],
+  jobs: {
+    total: 1372,
+    modified: "2026-07-20T02:02:02+08:00",
+    size: 909894,
+    grades: { "S": 16, "A": 513, "A-": 12, "A-1": 2, "A-2": 4, "B": 567, "C": 206, "": 42, "?": 10 }
+  },
+  dashboard: {
+    modified: "2026-07-20T02:02:05+08:00",
+    size: 839936
+  },
+  crm: {
+    contacts: 206
+  },
+  strategy: {
+    modified: "2026-07-19T07:25:26+08:00",
+    size: 14470
+  },
+  crons: [
+    { name: "Job Scanner", desc: "Periodic job source scraping & discovery", status: "active", emoji: "🔍" },
+    { name: "Career Strategist", desc: "Strategy document updates & analysis", status: "active", emoji: "🧭" },
+    { name: "Daily Brief", desc: "Morning summary & new jobs digest", status: "active", emoji: "📰" },
+    { name: "System Builder", desc: "Pipeline maintenance & data quality", status: "active", emoji: "🔧" }
+  ],
+  fileInventory: [
+    { name: "jobs-all.json", size: 909894, modified: "2026-07-20T02:02:02+08:00" },
+    { name: "dashboard.html", size: 839936, modified: "2026-07-20T02:02:05+08:00" },
+    { name: "career-hub.html", size: 298938, modified: "2026-07-19T07:25:26+08:00" },
+    { name: "crm-dashboard.html", size: 711994, modified: "2026-07-19T07:25:26+08:00" },
+    { name: "career-strategy.md", size: 14470, modified: "2026-07-19T07:25:26+08:00" },
+    { name: "contacts.json", size: 177779, modified: "2026-07-19T07:25:26+08:00" },
+    { name: "applications-tracker.json", size: 27053, modified: "2026-06-13T16:09:36+08:00" },
+    { name: "weekly-summary.md", size: 2061, modified: "2026-07-19T07:25:26+08:00" },
+    { name: "weekly-trends.json", size: 5732, modified: "2026-07-19T07:25:26+08:00" },
+    { name: "greenhouse-scan.json", size: 63156, modified: "2026-07-19T07:25:26+08:00" },
+    { name: "tencent-scan.json", size: 7471, modified: "2026-07-19T07:25:26+08:00" },
+    { name: "scan-latest.json", size: 10139, modified: "2026-07-20T02:02:05+08:00" },
+    { name: "builder-log.json", size: 922, modified: "2026-07-20T03:01:29+08:00" }
+  ]
+};
+
+function fmtSize(b) {
+  if (b < 1024) return b + ' B';
+  if (b < 1048576) return (b / 1024).toFixed(1) + ' KB';
+  return (b / 1048576).toFixed(1) + ' MB';
+}
+
+function fmtTime(iso) {
+  const d = new Date(iso);
+  const now = new Date();
+  const diff = now - d;
+  const mins = Math.floor(diff / 60000);
+  const hrs = Math.floor(diff / 3600000);
+  const days = Math.floor(diff / 86400000);
+  let ago = '';
+  if (mins < 60) ago = mins + 'm ago';
+  else if (hrs < 24) ago = hrs + 'h ago';
+  else ago = days + 'd ago';
+  return d.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' }) + ' (' + ago + ')';
+}
+
+function freshnessColor(iso) {
+  const diff = Date.now() - new Date(iso).getTime();
+  const hours = diff / 3600000;
+  if (hours < 6) return 'green';
+  if (hours < 48) return 'yellow';
+  return 'red';
+}
+
+// Render timestamp
+document.getElementById('checkTime').textContent = 'Last checked: ' + fmtTime(DATA.checkedAt);
+
+// Pipeline Status
+(function() {
+  const el = document.getElementById('pipelineContent');
+  const fresh = DATA.scrapers.filter(s => s.status === 'fresh');
+  const stale = DATA.scrapers.filter(s => s.status === 'stale');
+  let html = '<div style="margin-bottom:12px">';
+  html += '<span class="status-dot green"></span><span style="font-size:13px;font-weight:600">' + fresh.length + ' fresh</span>';
+  html += ' &nbsp;&nbsp;';
+  html += '<span class="status-dot yellow"></span><span style="font-size:13px;font-weight:600">' + stale.length + ' stale</span>';
+  html += '</div>';
+  html += '<div style="max-height:260px;overflow-y:auto">';
+  DATA.scrapers.forEach(s => {
+    html += '<div class="stat-row">';
+    html += '<span class="stat-label"><span class="status-dot ' + (s.status === 'fresh' ? 'green' : 'yellow') + '"></span>' + s.name + '</span>';
+    html += '<span class="stat-value" style="font-size:11px">' + fmtTime(s.modified) + '</span>';
+    html += '</div>';
+  });
+  html += '</div>';
+  el.innerHTML = html;
+})();
+
+// Data Freshness
+(function() {
+  const el = document.getElementById('dataContent');
+  const j = DATA.jobs;
+  let html = '<div style="display:flex;align-items:baseline;gap:12px;margin-bottom:16px">';
+  html += '<div class="big-number">' + j.total.toLocaleString() + '</div>';
+  html += '<div class="big-number-label">total jobs<br>Last updated: ' + fmtTime(j.modified) + '</div>';
+  html += '</div>';
+  html += '<div class="stat-row"><span class="stat-label">File Size</span><span class="stat-value">' + fmtSize(j.size) + '</span></div>';
+  html += '<div class="stat-row"><span class="stat-label">Freshness</span><span class="stat-value"><span class="status-dot ' + freshnessColor(j.modified) + '"></span>' + fmtTime(j.modified) + '</span></div>';
+  el.innerHTML = html;
+
+  // Grade bar
+  const bar = document.getElementById('gradeBar');
+  const colors = { S: '#a78bfa', 'A': '#38bdf8', 'A-': '#60a5fa', 'A-1': '#818cf8', 'A-2': '#c084fc', B: '#22c55e', C: '#eab308', '': '#64748b', '?': '#475569' };
+  const labels = { S: 'S', 'A': 'A', 'A-': 'A-', 'A-1': 'A-1', 'A-2': 'A-2', B: 'B', C: 'C', '': '—', '?': '?' };
+  let barHtml = '<div style="font-size:12px;color:var(--muted);margin-bottom:6px">Grade Distribution</div><div class="grade-bar">';
+  Object.entries(j.grades).forEach(([g, count]) => {
+    const pct = (count / j.total * 100).toFixed(1);
+    if (count > 0) barHtml += '<div class="grade-segment" style="background:' + (colors[g] || '#475569') + ';width:' + pct + '%" title="' + (labels[g] || g) + ': ' + count + '">' + (pct > 4 ? (labels[g] || g) : '') + '</div>';
+  });
+  barHtml += '</div><div class="grade-legend">';
+  Object.entries(j.grades).forEach(([g, count]) => {
+    barHtml += '<div class="grade-legend-item"><div class="grade-legend-dot" style="background:' + (colors[g] || '#475569') + '"></div>' + (labels[g] || g) + ': ' + count + '</div>';
+  });
+  barHtml += '</div>';
+  bar.innerHTML = barHtml;
+})();
+
+// Dashboard Health
+(function() {
+  const el = document.getElementById('dashboardContent');
+  let html = '';
+  html += '<div class="stat-row"><span class="stat-label">Status</span><span class="stat-value"><span class="status-dot ' + freshnessColor(DATA.dashboard.modified) + '"></span>Healthy</span></div>';
+  html += '<div class="stat-row"><span class="stat-label">Last Modified</span><span class="stat-value">' + fmtTime(DATA.dashboard.modified) + '</span></div>';
+  html += '<div class="stat-row"><span class="stat-label">File Size</span><span class="stat-value">' + fmtSize(DATA.dashboard.size) + '</span></div>';
+  html += '<div class="stat-row"><span class="stat-label">File</span><span class="stat-value">dashboard.html</span></div>';
+  el.innerHTML = html;
+})();
+
+// CRM Stats
+(function() {
+  const el = document.getElementById('crmContent');
+  let html = '<div style="display:flex;align-items:baseline;gap:12px;margin-bottom:16px">';
+  html += '<div class="big-number">' + DATA.crm.contacts + '</div>';
+  html += '<div class="big-number-label">contacts in CRM</div>';
+  html += '</div>';
+  html += '<div class="stat-row"><span class="stat-label">Database</span><span class="stat-value">career-os/crm/crm.db</span></div>';
+  html += '<div class="stat-row"><span class="stat-label">Status</span><span class="stat-value"><span class="status-dot green"></span>Accessible</span></div>';
+  el.innerHTML = html;
+})();
+
+// Strategy Freshness
+(function() {
+  const el = document.getElementById('strategyContent');
+  let html = '';
+  html += '<div class="stat-row"><span class="stat-label">Status</span><span class="stat-value"><span class="status-dot ' + freshnessColor(DATA.strategy.modified) + '"></span>' + (freshnessColor(DATA.strategy.modified) === 'green' ? 'Fresh' : freshnessColor(DATA.strategy.modified) === 'yellow' ? 'Stale' : 'Outdated') + '</span></div>';
+  html += '<div class="stat-row"><span class="stat-label">Last Updated</span><span class="stat-value">' + fmtTime(DATA.strategy.modified) + '</span></div>';
+  html += '<div class="stat-row"><span class="stat-label">File Size</span><span class="stat-value">' + fmtSize(DATA.strategy.size) + '</span></div>';
+  html += '<div class="stat-row"><span class="stat-label">File</span><span class="stat-value">career-strategy.md</span></div>';
+  el.innerHTML = html;
+})();
+
+// Cron Fleet
+(function() {
+  const el = document.getElementById('cronContent');
+  let html = '';
+  DATA.crons.forEach(c => {
+    html += '<div class="cron-item">';
+    html += '<div class="cron-emoji">' + c.emoji + '</div>';
+    html += '<div class="cron-info"><div class="cron-name">' + c.name + '</div><div class="cron-desc">' + c.desc + '</div></div>';
+    html += '<div class="cron-status ' + c.status + '">' + c.status.charAt(0).toUpperCase() + c.status.slice(1) + '</div>';
+    html += '</div>';
+  });
+  el.innerHTML = html;
+})();
+
+// File Inventory
+(function() {
+  const el = document.getElementById('inventoryContent');
+  let html = '<div class="file-grid">';
+  DATA.fileInventory.forEach(f => {
+    html += '<div class="file-chip"><span class="fname" title="' + f.name + '">' + f.name + '</span><span class="fsize">' + fmtSize(f.size) + ' · ' + fmtTime(f.modified) + '</span></div>';
+  });
+  html += '</div>';
+  el.innerHTML = html;
+})();
+</script>
+</body>
+</html>
