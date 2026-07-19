@@ -25966,5 +25966,47 @@
     "english_friendly": true,
     "platform": "Greenhouse",
     "low_quality": false
+  },
+  {
+    "title": "Senior Anti-Fraud Strategy Engineer",
+    "company": "Tencent",
+    "location": "Singapore",
+    "salary": "(est) SGD 10,000-18,000/mo",
+    "url": "https://tencent.wd1.myworkdayjobs.com/en-us/Tencent_Careers/job/Singapore-CapitaSky/Senior-Anti-Fraud-Strategy-Engineer_R107742-1",
+    "source": "tencent-careers",
+    "role_type": "Strategy",
+    "english_friendly": true,
+    "quality_score": 85,
+    "quality_tier": "A",
+    "status": "not_applied",
+    "scanned_date": "2026-07-19"
+  },
+  {
+    "title": "AI用户产品经理-抖音",
+    "company": "ByteDance",
+    "location": "Shenzhen",
+    "salary": "(est) RMB 25,000-45,000/mo",
+    "url": "https://jobs.bytedance.com/experienced/position/7658231130722519349/detail",
+    "source": "bytedance-careers",
+    "role_type": "Product Manager",
+    "english_friendly": false,
+    "quality_score": 78,
+    "quality_tier": "B",
+    "status": "not_applied",
+    "scanned_date": "2026-07-19"
+  },
+  {
+    "title": "高级产品经理（增长/商业化）",
+    "company": "Insta360",
+    "location": "Shenzhen",
+    "salary": "RMB 40,000-70,000/mo·16薪",
+    "url": "https://www.liepin.com/job/1979538563.shtml",
+    "source": "liepin",
+    "role_type": "Product Manager",
+    "english_friendly": true,
+    "quality_score": 90,
+    "quality_tier": "A",
+    "status": "not_applied",
+    "scanned_date": "2026-07-19"
   }
 ]
