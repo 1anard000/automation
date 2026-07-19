@@ -832,7 +832,7 @@
     "coverage": 10,
     "strategy": 8,
     "crm": 8,
-    "automation": 7
+    "automation": 8
   },
   "last_run": "2026-07-19T03:00:00+08:00",
   "last_dimension": "data_quality",
@@ -947,6 +947,20 @@
       "action": "stale_job_cleanup",
       "removed": 48,
       "total": 1353
+    },
+    {
+      "date": "2026-07-19T16:01:23.609615+00:00",
+      "dimension": "data_quality",
+      "improvement": "Regenerated coverage-report.json from live data: 1363 jobs, 33 sources, 109 companies. Was stale (1054 jobs from Jul 18).",
+      "score_before": 10,
+      "score_after": 10
+    },
+    {
+      "date": "2026-07-19T16:01:23.609869+00:00",
+      "dimension": "automation",
+      "improvement": "Regenerated stale coverage-report.json (was 2 days old). System now has: nightly-improver cron, auto-maintain pipeline, coverage-report auto-regen.",
+      "score_before": 7,
+      "score_after": 8
     }
   ],
   "latest_scores": {
@@ -1125,8 +1139,8 @@
   ],
   "lastCleanup": "2026-07-12T19:00:29Z",
   "totalJobs": 1180,
-  "last_updated": "2026-07-18T22:00:57.131643+00:00",
+  "last_updated": "2026-07-19T16:01:23.609874+00:00",
   "last_scan": "2026-07-18T06:00:56.275767",
-  "total_jobs": 1353,
+  "total_jobs": 1363,
   "last_scan_new": 16
 }
