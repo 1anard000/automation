@@ -26280,5 +26280,41 @@
     "status": "not_applied",
     "status_date": "2026-07-05",
     "scanned_date": "2026-07-05"
+  },
+  {
+    "company": "OKX",
+    "title": "AI Application Architect",
+    "location": "Singapore, Singapore",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7761002003",
+    "id": 7761002003,
+    "posted": "2026-07-09T22:33:50-04:00",
+    "source": "greenhouse_api"
+  },
+  {
+    "company": "OKX",
+    "title": "Senior Product Manager, DevOps and AI",
+    "location": "Singapore, Singapore",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7699601003",
+    "id": 7699601003,
+    "posted": "2026-07-01T01:05:34-04:00",
+    "source": "greenhouse_api"
+  },
+  {
+    "company": "Stripe",
+    "title": "Engineering Manager, Payments",
+    "location": "Singapore",
+    "url": "https://stripe.com/jobs/search?gh_jid=8009622",
+    "id": 8009622,
+    "posted": "2026-07-07T04:25:34-04:00",
+    "source": "greenhouse_api"
+  },
+  {
+    "company": "Stripe",
+    "title": "Payment Performance Specialist",
+    "location": "Singapore",
+    "url": "https://stripe.com/jobs/search?gh_jid=8068669",
+    "id": 8068669,
+    "posted": "2026-07-16T21:39:23-04:00",
+    "source": "greenhouse_api"
   }
 ]
