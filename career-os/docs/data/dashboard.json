@@ -1,107 +1,89 @@
 {
-  "generated_at": "2026-07-19T00:00:00Z",
+  "generated_at": "2026-07-19T22:00:40.418477+00:00",
   "stats": {
-    "total_jobs": 683,
-    "jobs_by_location": {
-      "SZ": 67,
-      "Other": 382,
-      "HK": 87,
-      "SG": 138,
-      "SH": 6,
-      "GZ": 3
+    "total_jobs": 707,
+    "by_location": {
+      "SZ": 99,
+      "Other": 117,
+      "HK": 112,
+      "SG": 184,
+      "Remote": 158,
+      "SH": 20,
+      "GZ": 17
     },
-    "jobs_by_category": {
-      "other": 57,
-      "PM": 333,
-      "fintech": 12,
-      "Strategy": 67,
-      "Growth": 27,
-      "cross_border": 21,
-      "ops": 48,
-      "gm": 6,
-      "general_manager": 1,
-      "unknown": 97,
-      "operations": 8,
-      "platform": 3,
-      "program": 2,
-      "vc_pe": 1
+    "by_category": {
+      "PM": 469,
+      "Growth": 32,
+      "Strategy": 77,
+      "Other": 129
     }
   },
-  "top_5_jobs": [
+  "top_5_scored": [
     {
-      "quality_score": 100,
       "title": "Principal Product Manager (Singapore Based)",
       "company": "Agoda",
-      "location": "Hong Kong",
+      "location": "HK",
+      "quality_score": 100,
+      "quality_tier": "A",
+      "category": "PM",
       "job_id": "59084d5f315e",
-      "category": "general_pm",
-      "role_type": "Product Management",
       "status": "not_applied",
-      "url": "https://hk.linkedin.com/jobs/view/principal-product-manager-singapore-based-at-agoda-4429535801"
+      "url": "https://hk.linkedin.com/jobs/view/principal-product-manager-singapore-based-at-agoda-4429535801",
+      "role_type": "Product Management"
     },
     {
-      "quality_score": 93,
       "title": "Head of Communications, APAC",
       "company": "Stripe",
-      "location": "Singapore",
+      "location": "SG",
+      "quality_score": 93,
+      "quality_tier": "A",
+      "category": "PM",
       "job_id": "",
-      "category": "general_pm",
-      "role_type": "Other",
       "status": "",
-      "url": "https://stripe.com/jobs/search?gh_jid=7893199"
+      "url": "https://stripe.com/jobs/search?gh_jid=7893199",
+      "role_type": "Other"
     },
     {
-      "quality_score": 91,
       "title": "Senior Integration Reliability Engineer, Technical Operations",
       "company": "Stripe",
-      "location": "Singapore",
+      "location": "SG",
+      "quality_score": 91,
+      "quality_tier": "A",
+      "category": "Other",
       "job_id": "",
-      "category": "ops",
-      "role_type": "",
       "status": "",
-      "url": "https://stripe.com/jobs/search?gh_jid=7457268"
+      "url": "https://stripe.com/jobs/search?gh_jid=7457268",
+      "role_type": ""
     },
     {
-      "quality_score": 90,
       "title": "Country Manager",
       "company": "Datadog",
-      "location": "Tokyo",
+      "location": "Other",
+      "quality_score": 90,
+      "quality_tier": "A",
+      "category": "Other",
       "job_id": "6d43b0be0641",
-      "category": "gm",
-      "role_type": "General Manager",
       "status": "not_applied",
-      "url": "https://careers.datadoghq.com/detail/7975747/?gh_jid=7975747"
+      "url": "https://careers.datadoghq.com/detail/7975747/?gh_jid=7975747",
+      "role_type": "General Manager"
     },
     {
+      "title": "Senior Business Development Manager (AI/Gaming)",
+      "company": "Tencent (IEG)",
+      "location": "SZ",
       "quality_score": 90,
-      "title": "Senior Strategy Project Manager, VIP/Institutions",
-      "company": "OKX",
-      "location": "Hong Kong, Hong Kong SAR",
-      "job_id": "970f6d459177",
-      "category": "strategy",
-      "role_type": "Strategy/Ops",
-      "status": "not_applied",
-      "url": "https://job-boards.greenhouse.io/okx/jobs/7739163003"
+      "quality_tier": "A",
+      "category": "Other",
+      "job_id": "",
+      "status": "",
+      "url": "https://careers.tencent.com/en-us/search.html?keyword=product+manager&location=Shenzhen",
+      "role_type": ""
     }
   ],
   "category_counts": {
-    "other": 57,
-    "general_pm": 250,
-    "fintech": 12,
-    "product": 50,
-    "strategy": 67,
-    "growth": 27,
-    "cross_border": 21,
-    "ops": 48,
-    "gm": 6,
-    "ai_product": 16,
-    "product_management": 5,
-    "senior_pm": 12,
-    "general_manager": 1,
-    "unknown": 97,
-    "operations": 8,
-    "platform": 3,
-    "program": 2,
-    "vc_pe": 1
+    "PM": 469,
+    "Growth": 32,
+    "Strategy": 77,
+    "Other": 129
   }
 }
