@@ -12,7 +12,7 @@
         "coverage": 6
       },
       "overall": 3.0,
-      "improvement": "Initial assessment \u2014 skeleton state",
+      "improvement": "Initial assessment — skeleton state",
       "subagent": null
     },
     {
@@ -43,6 +43,21 @@
       },
       "overall": 4.3,
       "improvement": "Refreshed career-strategy.md with current data: 1,372 jobs (+234 WoW). Anthropic enters top 5 (101 roles). Stripe surges to 161. Updated sector heat map, company rankings, and flagged date_posted data quality issue.",
+      "subagent": null
+    },
+    {
+      "timestamp": "2026-07-20T06:00:40.775583+08:00",
+      "scores": {
+        "data_quality": 8,
+        "dashboard": 7,
+        "career_strategy": 6,
+        "python_scripts": 8,
+        "crm": 1,
+        "automation": 5,
+        "coverage": 7
+      },
+      "overall": 6.0,
+      "improvement": "Purged 206 stale jobs (>30 days old) from 1,376 down to 1,170. Improved data freshness. All python scripts validated.",
       "subagent": null
     }
   ]
