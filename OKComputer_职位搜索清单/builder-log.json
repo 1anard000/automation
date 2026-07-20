@@ -12,7 +12,7 @@
         "coverage": 6
       },
       "overall": 3.0,
-      "improvement": "Initial assessment — skeleton state",
+      "improvement": "Initial assessment \u2014 skeleton state",
       "subagent": null
     },
     {
@@ -72,7 +72,7 @@
         "coverage": 7
       },
       "overall": 6.4,
-      "improvement": "CRM improvement: auto-flagged 32 expired applications (deadlines passed), added review_summary metadata, 10 active apps remain. CRM score 1→4.",
+      "improvement": "CRM improvement: auto-flagged 32 expired applications (deadlines passed), added review_summary metadata, 10 active apps remain. CRM score 1\u21924.",
       "subagent": "nightly-improver"
     },
     {
@@ -87,7 +87,7 @@
         "coverage": 7
       },
       "overall": 6.4,
-      "improvement": "CRM enrichment: spawning sub-agent to auto-classify contacts by role type (recruiter/hiring_manager/peer/executive/mentor), detect company domains from emails, and compute relationship health scores based on interaction recency. Expected CRM boost 4→6.",
+      "improvement": "CRM enrichment: spawning sub-agent to auto-classify contacts by role type (recruiter/hiring_manager/peer/executive/mentor), detect company domains from emails, and compute relationship health scores based on interaction recency. Expected CRM boost 4\u21926.",
       "subagent": "builder-crm-enrichment-1721482800"
     },
     {
@@ -104,6 +104,19 @@
       "overall": 6.7,
       "improvement": "Added Step 5 (data quality cleanup) to run-pipeline.sh: auto-dedup URLs, normalize grades, fill missing dates, purge stale jobs (>60d). Pipeline now self-maintains data quality.",
       "subagent": null
+    },
+    {
+      "timestamp": "2026-07-21T06:00:34.415508",
+      "scores": {
+        "data_quality": 8,
+        "dashboard": 7,
+        "career_strategy": 6,
+        "python_scripts": 8,
+        "crm": 6,
+        "automation": 7,
+        "coverage": 7
+      },
+      "notes": "Nightly: rebuilt CRM dashboard from 1183 jobs (was 3-day stale at 152 companies)"
     }
   ]
 }
