@@ -59,6 +59,21 @@
       "overall": 6.0,
       "improvement": "Purged 206 stale jobs (>30 days old) from 1,376 down to 1,170. Improved data freshness. All python scripts validated.",
       "subagent": null
+    },
+    {
+      "timestamp": "2026-07-21T00:00:43.030597",
+      "scores": {
+        "data_quality": 8,
+        "dashboard": 7,
+        "career_strategy": 6,
+        "python_scripts": 8,
+        "crm": 4,
+        "automation": 5,
+        "coverage": 7
+      },
+      "overall": 6.4,
+      "improvement": "CRM improvement: auto-flagged 32 expired applications (deadlines passed), added review_summary metadata, 10 active apps remain. CRM score 1→4.",
+      "subagent": "nightly-improver"
     }
   ]
 }
