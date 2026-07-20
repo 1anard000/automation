@@ -22,7 +22,7 @@ done
 
 # ── Step 1: Scan ──
 if [ "$NO_SCAN" = false ]; then
-    log "📡 Step 1/4: Scanning Greenhouse boards..."
+    log "📡 Step 1/6: Scanning Greenhouse boards..."
     if python3 scan-greenhouse.py 2>&1 | tee -a "$LOG_FILE"; then
         log "✅ Scan complete"
     else
@@ -33,7 +33,7 @@ else
 fi
 
 # ── Step 1b: Scan Ashby boards ──
-log "🔍 Step 1b/5: Scanning Ashby boards..."
+log "🔍 Step 1b/6: Scanning Ashby boards..."
 if python3 scrape-ashby.py 2>&1 | tee -a "$LOG_FILE"; then
     log "✅ Ashby scan complete"
 else
@@ -46,7 +46,7 @@ if [ "$SCAN_ONLY" = true ]; then
 fi
 
 # ── Step 2: Grade ──
-log "📊 Step 2/5: Grading and deduplicating scan results..."
+log "📊 Step 2/6: Grading and deduplicating scan results..."
 if python3 grade-scan.py 2>&1 | tee -a "$LOG_FILE"; then
     log "✅ Grading complete"
 else
@@ -55,7 +55,7 @@ else
 fi
 
 # ── Step 3: Merge into jobs-all.json ──
-log "🔗 Step 3/5: Merging new jobs into master database..."
+log "🔗 Step 3/6: Merging new jobs into master database..."
 if python3 -c "
 import json, os, glob
 
@@ -105,11 +105,78 @@ else
 fi
 
 # ── Step 4: Build Dashboard ──
-log "🖥️  Step 4/5: Building dashboard..."
+log "🖥️  Step 4/6: Building dashboard..."
 if python3 build-dashboard.py 2>&1 | tee -a "$LOG_FILE"; then
     log "✅ Dashboard built: dashboard.html"
 else
     log "⚠️  Dashboard build failed"
+fi
+
+# ── Step 5: Data Quality Cleanup ──
+log "🧹 Step 5/6: Data quality cleanup..."
+if python3 -c "
+import json, os
+from datetime import datetime, timedelta
+
+MASTER = 'jobs-all.json'
+if not os.path.exists(MASTER):
+    print('No master file, skipping cleanup')
+    exit(0)
+
+with open(MASTER) as f:
+    jobs = json.load(f)
+
+original = len(jobs)
+
+# 1. Dedup by URL (keep first occurrence)
+seen_urls = set()
+deduped = []
+for j in jobs:
+    url = j.get('url','')
+    if url and url in seen_urls:
+        continue
+    if url:
+        seen_urls.add(url)
+    deduped.append(j)
+jobs = deduped
+
+# 2. Normalize grade format: A-1 → A-, A-2 → A-
+for j in jobs:
+    g = j.get('grade','')
+    if g and g.startswith('A-') and len(g) > 2:
+        j['grade'] = 'A-'
+
+# 3. Fill missing scanned_date from git (default to today)
+today = datetime.now().strftime('%Y-%m-%d')
+for j in jobs:
+    if not j.get('scanned_date'):
+        j['scanned_date'] = today
+
+# 4. Remove jobs with posted date > 60 days ago
+now = datetime.now()
+cleaned = []
+removed = 0
+for j in jobs:
+    posted = j.get('posted','')
+    if posted:
+        try:
+            d = datetime.fromisoformat(posted.replace('Z',''))
+            if (now - d).days > 60:
+                removed += 1
+                continue
+        except:
+            pass
+    cleaned.append(j)
+jobs = cleaned
+
+with open(MASTER, 'w') as f:
+    json.dump(jobs, f, indent=2, ensure_ascii=False)
+
+print(f'Cleanup: {original} → {len(jobs)} jobs (removed {original - len(jobs)}: {removed} stale + {original - len(jobs) - removed} URL dupes)')
+" 2>&1 | tee -a "$LOG_FILE"; then
+    log "✅ Data quality cleanup complete"
+else
+    log "⚠️  Cleanup failed"
 fi
 
 log "🏁 Pipeline complete at $TIMESTAMP"

@@ -74,6 +74,36 @@
       "overall": 6.4,
       "improvement": "CRM improvement: auto-flagged 32 expired applications (deadlines passed), added review_summary metadata, 10 active apps remain. CRM score 1→4.",
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-07-21T03:00:00+08:00",
+      "scores": {
+        "data_quality": 8,
+        "dashboard": 7,
+        "career_strategy": 6,
+        "python_scripts": 8,
+        "crm": 4,
+        "automation": 5,
+        "coverage": 7
+      },
+      "overall": 6.4,
+      "improvement": "CRM enrichment: spawning sub-agent to auto-classify contacts by role type (recruiter/hiring_manager/peer/executive/mentor), detect company domains from emails, and compute relationship health scores based on interaction recency. Expected CRM boost 4→6.",
+      "subagent": "builder-crm-enrichment-1721482800"
+    },
+    {
+      "timestamp": "2026-07-21T03:03:28.176411+08:00",
+      "scores": {
+        "data_quality": 8,
+        "dashboard": 7,
+        "career_strategy": 6,
+        "python_scripts": 8,
+        "crm": 4,
+        "automation": 7,
+        "coverage": 7
+      },
+      "overall": 6.7,
+      "improvement": "Added Step 5 (data quality cleanup) to run-pipeline.sh: auto-dedup URLs, normalize grades, fill missing dates, purge stale jobs (>60d). Pipeline now self-maintains data quality.",
+      "subagent": null
     }
   ]
 }
