@@ -12,7 +12,7 @@
         "coverage": 6
       },
       "overall": 3.0,
-      "improvement": "Initial assessment \u2014 skeleton state",
+      "improvement": "Initial assessment — skeleton state",
       "subagent": null
     },
     {
@@ -72,7 +72,7 @@
         "coverage": 7
       },
       "overall": 6.4,
-      "improvement": "CRM improvement: auto-flagged 32 expired applications (deadlines passed), added review_summary metadata, 10 active apps remain. CRM score 1\u21924.",
+      "improvement": "CRM improvement: auto-flagged 32 expired applications (deadlines passed), added review_summary metadata, 10 active apps remain. CRM score 1→4.",
       "subagent": "nightly-improver"
     },
     {
@@ -87,7 +87,7 @@
         "coverage": 7
       },
       "overall": 6.4,
-      "improvement": "CRM enrichment: spawning sub-agent to auto-classify contacts by role type (recruiter/hiring_manager/peer/executive/mentor), detect company domains from emails, and compute relationship health scores based on interaction recency. Expected CRM boost 4\u21926.",
+      "improvement": "CRM enrichment: spawning sub-agent to auto-classify contacts by role type (recruiter/hiring_manager/peer/executive/mentor), detect company domains from emails, and compute relationship health scores based on interaction recency. Expected CRM boost 4→6.",
       "subagent": "builder-crm-enrichment-1721482800"
     },
     {
@@ -130,6 +130,36 @@
         "coverage": 7
       },
       "improvement": "Career strategy refresh: updated job count (1,372→1,196), shifted action plan to July 22-26, added pending A-1 applications list, next report July 27.",
+      "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-07-22T03:01:17.100188",
+      "scores": {
+        "data_quality": 8,
+        "dashboard": 7,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 5,
+        "automation": 7,
+        "coverage": 7
+      },
+      "overall": 7.0,
+      "improvement": "CRM enrichment: all 206 contacts have role_type=unknown. Spawning sub-agent to classify by role (recruiter/hiring_manager/peer/executive/mentor), extract company domains, compute relationship scores. Expected CRM boost 5→7.",
+      "subagent": "builder-crm-classify-1721486400"
+    },
+    {
+      "timestamp": "2026-07-22T03:02:36.511271+08:00",
+      "scores": {
+        "data_quality": 8,
+        "dashboard": 7,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 7,
+        "coverage": 7
+      },
+      "overall": 7.3,
+      "improvement": "CRM enrichment complete: classified 206 contacts (154 recruiter/ATS, 42 company entries, 3 hiring managers, 7 unknown). Computed relationship scores (avg 28/100). CRM score 5→7.",
       "subagent": "nightly-improver"
     }
   ]

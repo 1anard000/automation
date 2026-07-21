@@ -22,7 +22,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 76,
@@ -48,7 +50,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 50,
@@ -73,7 +77,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 42,
@@ -100,7 +106,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 46,
@@ -125,7 +133,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 53,
@@ -151,7 +161,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 3,
@@ -176,7 +188,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 29,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "hiring_manager",
+    "relationship_score": 40
   },
   {
     "id": 160,
@@ -201,7 +215,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 26,
@@ -224,7 +240,9 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 25
   },
   {
     "id": 77,
@@ -250,7 +268,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 27,
@@ -275,7 +295,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 185,
@@ -300,7 +322,9 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 78,
@@ -326,7 +350,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 54,
@@ -352,7 +378,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 6,
@@ -375,7 +403,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 92,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "unknown",
+    "relationship_score": 50
   },
   {
     "id": 55,
@@ -401,7 +431,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 56,
@@ -427,7 +459,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 79,
@@ -453,7 +487,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 161,
@@ -478,7 +514,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 80,
@@ -504,7 +542,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 162,
@@ -529,7 +569,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 18,
@@ -552,7 +594,9 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 25
   },
   {
     "id": 15,
@@ -577,7 +621,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 163,
@@ -602,7 +648,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 186,
@@ -627,7 +675,9 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 187,
@@ -652,7 +702,9 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 154,
@@ -678,7 +730,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 57,
@@ -704,7 +758,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 16,
@@ -729,7 +785,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 4,
@@ -754,7 +812,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 13,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "hiring_manager",
+    "relationship_score": 40
   },
   {
     "id": 28,
@@ -779,7 +839,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 188,
@@ -804,7 +866,9 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 58,
@@ -830,7 +894,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 81,
@@ -856,7 +922,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 29,
@@ -881,7 +949,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 44,
@@ -908,7 +978,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 13,
@@ -933,7 +1005,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 30,
@@ -956,7 +1030,9 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 25
   },
   {
     "id": 82,
@@ -982,7 +1058,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 41,
@@ -1008,7 +1086,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 22,
@@ -1033,7 +1113,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 40,
@@ -1058,7 +1140,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 83,
@@ -1084,7 +1168,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 84,
@@ -1110,7 +1196,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 47,
@@ -1136,7 +1224,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 48,
@@ -1161,7 +1251,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 85,
@@ -1187,7 +1279,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 155,
@@ -1213,7 +1307,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 86,
@@ -1239,7 +1335,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 87,
@@ -1265,7 +1363,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 88,
@@ -1291,7 +1391,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 89,
@@ -1317,7 +1419,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 31,
@@ -1342,7 +1446,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 189,
@@ -1367,7 +1473,9 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 59,
@@ -1393,7 +1501,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 190,
@@ -1418,7 +1528,9 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 19,
@@ -1443,7 +1555,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 90,
@@ -1469,7 +1583,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 91,
@@ -1495,7 +1611,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 164,
@@ -1520,7 +1638,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 92,
@@ -1546,7 +1666,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 156,
@@ -1572,7 +1694,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 60,
@@ -1598,7 +1722,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 7,
@@ -1621,7 +1747,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 79,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "unknown",
+    "relationship_score": 50
   },
   {
     "id": 23,
@@ -1646,7 +1774,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 52,
@@ -1671,7 +1801,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 49,
@@ -1696,7 +1828,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 191,
@@ -1721,7 +1855,9 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 17,
@@ -1746,7 +1882,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 32,
@@ -1771,7 +1909,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 165,
@@ -1796,7 +1936,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 33,
@@ -1819,7 +1961,9 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 25
   },
   {
     "id": 93,
@@ -1845,7 +1989,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 94,
@@ -1871,7 +2017,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 192,
@@ -1896,7 +2044,9 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 14,
@@ -1921,7 +2071,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 166,
@@ -1946,7 +2098,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 20,
@@ -1969,7 +2123,9 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 25
   },
   {
     "id": 95,
@@ -1995,7 +2151,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 61,
@@ -2021,7 +2179,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 62,
@@ -2047,7 +2207,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 96,
@@ -2073,7 +2235,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 97,
@@ -2099,7 +2263,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 193,
@@ -2124,7 +2290,9 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 98,
@@ -2150,7 +2318,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 194,
@@ -2175,7 +2345,9 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 45,
@@ -2201,7 +2373,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 99,
@@ -2227,7 +2401,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 8,
@@ -2250,7 +2426,9 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 0,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "unknown",
+    "relationship_score": 30
   },
   {
     "id": 100,
@@ -2276,7 +2454,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 63,
@@ -2302,7 +2482,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 101,
@@ -2328,7 +2510,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 64,
@@ -2354,7 +2538,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 1,
@@ -2380,7 +2566,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 100,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "hiring_manager",
+    "relationship_score": 60
   },
   {
     "id": 195,
@@ -2405,7 +2593,9 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 65,
@@ -2431,7 +2621,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 66,
@@ -2457,7 +2649,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 11,
@@ -2482,7 +2676,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 67,
@@ -2508,7 +2704,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 2,
@@ -2533,7 +2731,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 100,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "unknown",
+    "relationship_score": 60
   },
   {
     "id": 167,
@@ -2558,7 +2758,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 102,
@@ -2584,7 +2786,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 103,
@@ -2610,7 +2814,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 104,
@@ -2636,7 +2842,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 34,
@@ -2661,7 +2869,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 105,
@@ -2687,7 +2897,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 196,
@@ -2712,7 +2924,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 168,
@@ -2737,7 +2951,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 106,
@@ -2763,7 +2979,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 107,
@@ -2789,7 +3007,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 108,
@@ -2815,7 +3035,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 109,
@@ -2841,7 +3063,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 169,
@@ -2866,7 +3090,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 68,
@@ -2892,7 +3118,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 110,
@@ -2918,7 +3146,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 111,
@@ -2944,7 +3174,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 170,
@@ -2969,7 +3201,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 24,
@@ -2994,7 +3228,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 69,
@@ -3020,7 +3256,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 112,
@@ -3046,7 +3284,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 113,
@@ -3072,7 +3312,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 114,
@@ -3098,7 +3340,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 9,
@@ -3123,7 +3367,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 100,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "unknown",
+    "relationship_score": 60
   },
   {
     "id": 171,
@@ -3148,7 +3394,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 35,
@@ -3173,7 +3421,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 12,
@@ -3198,7 +3448,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 172,
@@ -3223,7 +3475,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 36,
@@ -3248,7 +3502,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 70,
@@ -3274,7 +3530,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 5,
@@ -3299,7 +3557,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 100,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "unknown",
+    "relationship_score": 60
   },
   {
     "id": 115,
@@ -3325,7 +3585,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 71,
@@ -3351,7 +3613,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 72,
@@ -3377,7 +3641,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 116,
@@ -3403,7 +3669,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 117,
@@ -3429,7 +3697,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 73,
@@ -3455,7 +3725,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 43,
@@ -3481,7 +3753,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 157,
@@ -3507,7 +3781,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 173,
@@ -3532,7 +3808,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 118,
@@ -3558,7 +3836,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 119,
@@ -3584,7 +3864,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 120,
@@ -3610,7 +3892,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 37,
@@ -3635,7 +3919,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 121,
@@ -3661,7 +3947,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 38,
@@ -3686,7 +3974,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 122,
@@ -3712,7 +4002,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 123,
@@ -3738,7 +4030,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 51,
@@ -3763,7 +4057,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 10,
@@ -3786,7 +4082,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 38,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "unknown",
+    "relationship_score": 30
   },
   {
     "id": 124,
@@ -3812,7 +4110,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 125,
@@ -3838,7 +4138,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 126,
@@ -3864,7 +4166,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 39,
@@ -3889,7 +4193,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 127,
@@ -3915,7 +4221,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 128,
@@ -3941,7 +4249,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 129,
@@ -3967,7 +4277,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 130,
@@ -3993,7 +4305,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 131,
@@ -4019,7 +4333,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 206,
@@ -4045,7 +4361,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 174,
@@ -4070,7 +4388,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 175,
@@ -4095,7 +4415,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 205,
@@ -4121,7 +4443,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 132,
@@ -4147,7 +4471,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 133,
@@ -4173,7 +4499,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 202,
@@ -4199,7 +4527,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 200,
@@ -4225,7 +4555,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 201,
@@ -4251,7 +4583,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 203,
@@ -4277,7 +4611,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 134,
@@ -4303,7 +4639,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 176,
@@ -4328,7 +4666,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 135,
@@ -4354,7 +4694,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 177,
@@ -4379,7 +4721,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 136,
@@ -4405,7 +4749,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 137,
@@ -4431,7 +4777,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 178,
@@ -4456,7 +4804,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 138,
@@ -4482,7 +4832,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 139,
@@ -4508,7 +4860,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 140,
@@ -4534,7 +4888,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 197,
@@ -4560,7 +4916,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 158,
@@ -4586,7 +4944,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 141,
@@ -4612,7 +4972,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 142,
@@ -4638,7 +5000,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 198,
@@ -4664,7 +5028,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 159,
@@ -4690,7 +5056,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 179,
@@ -4715,7 +5083,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 199,
@@ -4740,7 +5110,9 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 143,
@@ -4766,7 +5138,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 144,
@@ -4792,7 +5166,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 145,
@@ -4818,7 +5194,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 146,
@@ -4844,7 +5222,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 147,
@@ -4870,7 +5250,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 148,
@@ -4896,7 +5278,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 149,
@@ -4922,7 +5306,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 150,
@@ -4948,7 +5334,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 180,
@@ -4973,7 +5361,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 74,
@@ -4999,7 +5389,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 204,
@@ -5025,7 +5417,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 151,
@@ -5051,7 +5445,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 75,
@@ -5077,7 +5473,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 181,
@@ -5102,7 +5500,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 182,
@@ -5127,7 +5527,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 21,
@@ -5152,7 +5554,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false
+    "_is_org": false,
+    "role_type": "company_entry",
+    "relationship_score": 35
   },
   {
     "id": 183,
@@ -5177,7 +5581,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 184,
@@ -5202,7 +5608,9 @@
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 152,
@@ -5228,7 +5636,9 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   },
   {
     "id": 153,
@@ -5254,6 +5664,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
-    "_is_org": true
+    "_is_org": true,
+    "role_type": "recruiter",
+    "relationship_score": 25
   }
 ]
