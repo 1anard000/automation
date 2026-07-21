@@ -23,8 +23,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "unknown",
+    "relationship_score": 10,
+    "company_domain": "aiagroup.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 76,
@@ -51,8 +53,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 35,
+    "company_domain": "adyen.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 50,
@@ -78,8 +82,10 @@
     "_priority": "high",
     "_health_score": 30,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 20,
+    "company_domain": "affirm.com",
+    "last_seen": "2026-07-02"
   },
   {
     "id": 42,
@@ -107,8 +113,10 @@
     "_priority": "high",
     "_health_score": 30,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 20,
+    "company_domain": "agoda.com",
+    "last_seen": "2026-07-02"
   },
   {
     "id": 46,
@@ -134,8 +142,10 @@
     "_priority": "high",
     "_health_score": 30,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 20,
+    "company_domain": "airbnb.com",
+    "last_seen": "2026-07-02"
   },
   {
     "id": 53,
@@ -162,8 +172,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "airwallex.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 3,
@@ -189,8 +201,10 @@
     "_priority": "medium",
     "_health_score": 29,
     "_is_org": false,
-    "role_type": "hiring_manager",
-    "relationship_score": 40
+    "role_type": "executive",
+    "relationship_score": 30,
+    "company_domain": "airwallex.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 160,
@@ -216,8 +230,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "alchemy.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 26,
@@ -241,8 +257,10 @@
     "_priority": "low",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 10,
+    "company_domain": "alibaba.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 77,
@@ -269,8 +287,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "alikeaudience.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 27,
@@ -296,8 +316,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "unknown",
+    "relationship_score": 10,
+    "company_domain": "amazon.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 185,
@@ -323,8 +345,10 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "ambition.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 78,
@@ -351,8 +375,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "antgroup.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 54,
@@ -379,8 +405,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "anthropic.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 6,
@@ -405,7 +433,9 @@
     "_health_score": 92,
     "_is_org": false,
     "role_type": "unknown",
-    "relationship_score": 50
+    "relationship_score": 45,
+    "company_domain": "anthropic.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 55,
@@ -432,8 +462,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "arcdev.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 56,
@@ -460,8 +492,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "asiacloud.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 79,
@@ -488,8 +522,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "atsnew.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 161,
@@ -515,8 +551,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "avepoint.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 80,
@@ -543,8 +581,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "avenirgroup.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 162,
@@ -570,8 +610,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "baincapital.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 18,
@@ -595,8 +637,10 @@
     "_priority": "low",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 10,
+    "company_domain": "bankofchina.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 15,
@@ -622,8 +666,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 10,
+    "company_domain": "binance.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 163,
@@ -649,8 +695,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "biogen.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 186,
@@ -676,8 +724,10 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "blackstone.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 187,
@@ -703,8 +753,10 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "block.xyz",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 154,
@@ -731,8 +783,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "block.xyz",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 57,
@@ -759,8 +813,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "bybit.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 16,
@@ -786,8 +842,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 10,
+    "company_domain": "bytedance.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 4,
@@ -813,8 +871,10 @@
     "_priority": "medium",
     "_health_score": 13,
     "_is_org": false,
-    "role_type": "hiring_manager",
-    "relationship_score": 40
+    "role_type": "executive",
+    "relationship_score": 30,
+    "company_domain": "bytedance.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 28,
@@ -840,8 +900,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "unknown",
+    "relationship_score": 10,
+    "company_domain": "casetify.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 188,
@@ -867,8 +929,10 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "cbcgroup.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 58,
@@ -895,8 +959,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "capco.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 81,
@@ -923,8 +989,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "ceffu.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 29,
@@ -950,8 +1018,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "unknown",
+    "relationship_score": 10,
+    "company_domain": "citi.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 44,
@@ -979,8 +1049,10 @@
     "_priority": "high",
     "_health_score": 30,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 20,
+    "company_domain": "cloudflare.com",
+    "last_seen": "2026-07-02"
   },
   {
     "id": 13,
@@ -1006,8 +1078,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 10,
+    "company_domain": "coinbase.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 30,
@@ -1031,8 +1105,10 @@
     "_priority": "low",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 25
+    "role_type": "executive",
+    "relationship_score": 10,
+    "company_domain": "coinsph.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 82,
@@ -1059,8 +1135,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "confidential.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 41,
@@ -1087,8 +1165,10 @@
     "_priority": "high",
     "_health_score": 30,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 20,
+    "company_domain": "coupang.com",
+    "last_seen": "2026-07-02"
   },
   {
     "id": 22,
@@ -1114,8 +1194,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 10,
+    "company_domain": "crypto.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 40,
@@ -1141,8 +1223,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "unknown",
+    "relationship_score": 10,
+    "company_domain": "dbs.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 83,
@@ -1169,8 +1253,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "x.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 84,
@@ -1197,8 +1283,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "dsv.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 47,
@@ -1225,8 +1313,10 @@
     "_priority": "high",
     "_health_score": 30,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 20,
+    "company_domain": "databricks.com",
+    "last_seen": "2026-07-02"
   },
   {
     "id": 48,
@@ -1252,8 +1342,10 @@
     "_priority": "high",
     "_health_score": 30,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 20,
+    "company_domain": "datadog.com",
+    "last_seen": "2026-07-02"
   },
   {
     "id": 85,
@@ -1280,8 +1372,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "eamesconsulting.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 155,
@@ -1308,8 +1402,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "epicgames.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 86,
@@ -1336,8 +1432,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "ethosbeathchapman.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 87,
@@ -1364,8 +1462,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "x.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 88,
@@ -1392,8 +1492,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "figma.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 89,
@@ -1420,8 +1522,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "finpay.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 31,
@@ -1447,8 +1551,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "unknown",
+    "relationship_score": 10,
+    "company_domain": "firstdigital.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 189,
@@ -1474,8 +1580,10 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "fivetran.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 59,
@@ -1502,8 +1610,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "flexport.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 190,
@@ -1529,8 +1639,10 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "futuholdingslimited.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 19,
@@ -1556,8 +1668,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "unknown",
+    "relationship_score": 10,
+    "company_domain": "gehealthcare.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 90,
@@ -1584,8 +1698,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "grit.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 91,
@@ -1612,8 +1728,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "gate.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 164,
@@ -1639,8 +1757,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "gemini.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 92,
@@ -1667,8 +1787,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "getgocarsharing.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 156,
@@ -1695,8 +1817,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "gitlab.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 60,
@@ -1723,8 +1847,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "gitlab.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 7,
@@ -1749,7 +1875,9 @@
     "_health_score": 79,
     "_is_org": false,
     "role_type": "unknown",
-    "relationship_score": 50
+    "relationship_score": 45,
+    "company_domain": "google.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 23,
@@ -1775,8 +1903,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 10,
+    "company_domain": "google.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 52,
@@ -1802,8 +1932,10 @@
     "_priority": "high",
     "_health_score": 30,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "hiring_manager",
+    "relationship_score": 35,
+    "company_domain": "govtechsingapore.com",
+    "last_seen": "2026-07-02"
   },
   {
     "id": 49,
@@ -1829,8 +1961,10 @@
     "_priority": "high",
     "_health_score": 30,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 20,
+    "company_domain": "grab.com",
+    "last_seen": "2026-07-02"
   },
   {
     "id": 191,
@@ -1856,8 +1990,10 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "growthasia.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 17,
@@ -1883,8 +2019,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 10,
+    "company_domain": "gustoinc.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 32,
@@ -1910,8 +2048,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "unknown",
+    "relationship_score": 10,
+    "company_domain": "hsbc.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 165,
@@ -1937,8 +2077,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "ai",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 33,
@@ -1962,8 +2104,10 @@
     "_priority": "low",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 10,
+    "company_domain": "huawei.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 93,
@@ -1990,8 +2134,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "iggroup.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 94,
@@ -2018,8 +2164,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "indeed.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 192,
@@ -2045,8 +2193,10 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "ingrammicro.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 14,
@@ -2072,8 +2222,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 10,
+    "company_domain": "instacart.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 166,
@@ -2099,8 +2251,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "ipsos.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 20,
@@ -2124,8 +2278,10 @@
     "_priority": "low",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 10,
+    "company_domain": "jd.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 95,
@@ -2152,8 +2308,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "dbs.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 61,
@@ -2180,8 +2338,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "klook.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 62,
@@ -2208,8 +2368,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "kong.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 96,
@@ -2236,8 +2398,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "lalamove.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 97,
@@ -2264,8 +2428,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "landtransportauthority.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 193,
@@ -2291,8 +2457,10 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "lemonio.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 98,
@@ -2319,8 +2487,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "matchmove.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 194,
@@ -2346,8 +2516,10 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "meituan.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 45,
@@ -2374,8 +2546,10 @@
     "_priority": "high",
     "_health_score": 30,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 20,
+    "company_domain": "mercury.com",
+    "last_seen": "2026-07-02"
   },
   {
     "id": 99,
@@ -2402,8 +2576,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "meta.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 8,
@@ -2428,7 +2604,9 @@
     "_health_score": 0,
     "_is_org": false,
     "role_type": "unknown",
-    "relationship_score": 30
+    "relationship_score": 30,
+    "company_domain": "meta.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 100,
@@ -2455,8 +2633,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "microsoft.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 63,
@@ -2483,8 +2663,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "dbs.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 101,
@@ -2511,8 +2693,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "moomoosg.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 64,
@@ -2539,8 +2723,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "x.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 1,
@@ -2567,8 +2753,10 @@
     "_priority": "high",
     "_health_score": 100,
     "_is_org": false,
-    "role_type": "hiring_manager",
-    "relationship_score": 60
+    "role_type": "executive",
+    "relationship_score": 45,
+    "company_domain": "nvidia.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 195,
@@ -2594,8 +2782,10 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "newrelic.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 65,
@@ -2622,8 +2812,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "notion.so",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 66,
@@ -2650,8 +2842,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "ocbc.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 11,
@@ -2677,8 +2871,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 10,
+    "company_domain": "okx.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 67,
@@ -2705,8 +2901,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "okx.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 2,
@@ -2733,7 +2931,9 @@
     "_health_score": 100,
     "_is_org": false,
     "role_type": "unknown",
-    "relationship_score": 60
+    "relationship_score": 30,
+    "company_domain": "openai.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 167,
@@ -2759,8 +2959,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "paypal.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 102,
@@ -2787,8 +2989,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "payasia.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 103,
@@ -2815,8 +3019,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "payoneer.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 104,
@@ -2843,8 +3049,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "pepperstone.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 34,
@@ -2870,8 +3078,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "unknown",
+    "relationship_score": 10,
+    "company_domain": "philips.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 105,
@@ -2898,8 +3108,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "pingan.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 196,
@@ -2925,8 +3137,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "pinterest.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 168,
@@ -2952,8 +3166,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "plaudai.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 106,
@@ -2980,8 +3196,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "postman.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 107,
@@ -3008,8 +3226,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "productmanagerpaymentfinance.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 108,
@@ -3036,8 +3256,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "propertygurugroup.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 109,
@@ -3064,8 +3286,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "prudentialhongkong.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 169,
@@ -3091,8 +3315,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "qlubsingapore.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 68,
@@ -3119,8 +3345,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "qualcomm.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 110,
@@ -3147,8 +3375,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "randstadsingapore.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 111,
@@ -3175,8 +3405,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "reap.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 170,
@@ -3202,8 +3434,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "reddit.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 24,
@@ -3229,8 +3463,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "unknown",
+    "relationship_score": 10,
+    "company_domain": "redotpay.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 69,
@@ -3257,8 +3493,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "remote.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 112,
@@ -3285,8 +3523,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "roboticscompany.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 113,
@@ -3313,8 +3553,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "sea.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 114,
@@ -3341,8 +3583,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "sealimited.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 9,
@@ -3368,8 +3612,10 @@
     "_priority": "high",
     "_health_score": 100,
     "_is_org": false,
-    "role_type": "unknown",
-    "relationship_score": 60
+    "role_type": "executive",
+    "relationship_score": 30,
+    "company_domain": "sequoiacap.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 171,
@@ -3395,8 +3641,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "shenzhentechco.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 35,
@@ -3422,8 +3670,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 10,
+    "company_domain": "shopee.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 12,
@@ -3449,8 +3699,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 10,
+    "company_domain": "stripe.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 172,
@@ -3476,8 +3728,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "temasek.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 36,
@@ -3503,8 +3757,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "unknown",
+    "relationship_score": 10,
+    "company_domain": "tencent.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 70,
@@ -3531,8 +3787,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "tencent.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 5,
@@ -3559,7 +3817,9 @@
     "_health_score": 100,
     "_is_org": false,
     "role_type": "unknown",
-    "relationship_score": 60
+    "relationship_score": 30,
+    "company_domain": "tesla.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 115,
@@ -3586,8 +3846,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "thebankofeastasia.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 71,
@@ -3614,8 +3876,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "thunes.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 72,
@@ -3642,8 +3906,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "toptal.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 116,
@@ -3670,8 +3936,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "triplea.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 117,
@@ -3698,8 +3966,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "trustbanksingapore.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 73,
@@ -3726,8 +3996,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "turing.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 43,
@@ -3754,8 +4026,10 @@
     "_priority": "high",
     "_health_score": 30,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 20,
+    "company_domain": "twilio.com",
+    "last_seen": "2026-07-02"
   },
   {
     "id": 157,
@@ -3782,8 +4056,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "unknown.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 173,
@@ -3809,8 +4085,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "unknown.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 118,
@@ -3837,8 +4115,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "unnamedcompany.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 119,
@@ -3865,8 +4145,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "vercel.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 120,
@@ -3893,8 +4175,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "virtuos.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 37,
@@ -3920,8 +4204,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 10,
+    "company_domain": "visa.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 121,
@@ -3948,8 +4234,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "wtmicroelectronics.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 38,
@@ -3975,8 +4263,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 10,
+    "company_domain": "walmart.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 122,
@@ -4003,8 +4293,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "webflow.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 123,
@@ -4031,8 +4323,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "westernunion.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 51,
@@ -4058,8 +4352,10 @@
     "_priority": "high",
     "_health_score": 30,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "executive",
+    "relationship_score": 20,
+    "company_domain": "x.com",
+    "last_seen": "2026-07-02"
   },
   {
     "id": 10,
@@ -4083,8 +4379,10 @@
     "_priority": "medium",
     "_health_score": 38,
     "_is_org": false,
-    "role_type": "unknown",
-    "relationship_score": 30
+    "role_type": "executive",
+    "relationship_score": 30,
+    "company_domain": "ycombinator.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 124,
@@ -4111,8 +4409,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "dtcpay.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 125,
@@ -4139,8 +4439,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "foodpanda.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 126,
@@ -4167,8 +4469,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": "qlub.com",
+    "last_seen": "2026-07-04"
   },
   {
     "id": 39,
@@ -4194,8 +4498,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "unknown",
+    "relationship_score": 10,
+    "company_domain": "thelegogroup.com",
+    "last_seen": "2026-06-15"
   },
   {
     "id": 127,
@@ -4222,8 +4528,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 128,
@@ -4250,8 +4558,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 129,
@@ -4278,8 +4588,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 130,
@@ -4306,8 +4618,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 131,
@@ -4334,8 +4648,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 206,
@@ -4362,8 +4678,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 174,
@@ -4389,8 +4707,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 175,
@@ -4416,8 +4736,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 205,
@@ -4444,8 +4766,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 132,
@@ -4472,8 +4796,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 133,
@@ -4500,8 +4826,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 202,
@@ -4528,8 +4856,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 200,
@@ -4556,8 +4886,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 201,
@@ -4584,8 +4916,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 203,
@@ -4612,8 +4946,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 134,
@@ -4640,8 +4976,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 176,
@@ -4667,8 +5005,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 135,
@@ -4695,8 +5035,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 177,
@@ -4722,8 +5064,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 136,
@@ -4750,8 +5094,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 137,
@@ -4778,8 +5124,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 178,
@@ -4805,8 +5153,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 138,
@@ -4833,8 +5183,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 139,
@@ -4861,8 +5213,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 140,
@@ -4889,8 +5243,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 197,
@@ -4917,8 +5273,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 158,
@@ -4945,8 +5303,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 141,
@@ -4973,8 +5333,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 142,
@@ -5001,8 +5363,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 198,
@@ -5029,8 +5393,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 159,
@@ -5057,8 +5423,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 179,
@@ -5084,8 +5452,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 199,
@@ -5111,8 +5481,10 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 143,
@@ -5139,8 +5511,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 144,
@@ -5167,8 +5541,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 145,
@@ -5195,8 +5571,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 146,
@@ -5223,8 +5601,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 147,
@@ -5251,8 +5631,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 148,
@@ -5279,8 +5661,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 149,
@@ -5307,8 +5691,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 150,
@@ -5335,8 +5721,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 180,
@@ -5362,8 +5750,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 74,
@@ -5390,8 +5780,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 204,
@@ -5418,8 +5810,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 151,
@@ -5446,8 +5840,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 75,
@@ -5474,8 +5870,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 181,
@@ -5501,8 +5899,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 182,
@@ -5528,8 +5928,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 21,
@@ -5555,8 +5957,10 @@
     "_priority": "high",
     "_health_score": 20,
     "_is_org": false,
-    "role_type": "company_entry",
-    "relationship_score": 35
+    "role_type": "unknown",
+    "relationship_score": 10,
+    "company_domain": null,
+    "last_seen": "2026-06-15"
   },
   {
     "id": 183,
@@ -5582,8 +5986,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 184,
@@ -5609,8 +6015,10 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 152,
@@ -5637,8 +6045,10 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   },
   {
     "id": 153,
@@ -5665,7 +6075,9 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "recruiter",
-    "relationship_score": 25
+    "role_type": "unknown",
+    "relationship_score": 20,
+    "company_domain": null,
+    "last_seen": "2026-07-04"
   }
 ]
