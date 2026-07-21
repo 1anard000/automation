@@ -117,6 +117,20 @@
         "coverage": 7
       },
       "notes": "Nightly: rebuilt CRM dashboard from 1183 jobs (was 3-day stale at 152 companies)"
+    },
+    {
+      "timestamp": "2026-07-22T00:00:00",
+      "scores": {
+        "data_quality": 8,
+        "dashboard": 7,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 6,
+        "automation": 7,
+        "coverage": 7
+      },
+      "improvement": "Career strategy refresh: updated job count (1,372→1,196), shifted action plan to July 22-26, added pending A-1 applications list, next report July 27.",
+      "subagent": "nightly-improver"
     }
   ]
 }

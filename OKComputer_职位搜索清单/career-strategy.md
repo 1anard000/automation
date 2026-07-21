@@ -1,8 +1,8 @@
 # 📊 Weekly Career Strategy Intelligence
-**Generated:** Monday, July 20, 2026 4:00 AM CST
-**Coverage period:** Week of July 14 – July 20, 2026
-**Data source:** jobs-all.json (1,372 positions)
-**Previous report:** July 14 (1,372 positions)
+**Generated:** Wednesday, July 22, 2026 12:00 AM CST
+**Coverage period:** Week of July 14 – July 22, 2026
+**Data source:** jobs-all.json (1,196 positions)
+**Previous report:** July 20 (1,372 positions)
 
 > ⚠️ Web search blocked by DuckDuckGo bot detection this cycle. Market intelligence derived from database analysis + domain knowledge. Salary benchmarks and external market signals based on known data points.
 
@@ -10,11 +10,11 @@
 
 ## 📊 Market Pulse
 
-### Database Snapshot (July 20)
+### Database Snapshot (July 22)
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| Total tracked roles | 1,372 | Stable WoW |
+| Total tracked roles | 1,196 | Down 176 WoW (stale job purge) |
 | A-1 roles | 2 | Circle + Gemini Director roles (Singapore) |
 | A-tier roles | 513 | Senior/lead/director level |
 | B-tier roles | 567 | Mid-senior level |
@@ -158,50 +158,39 @@ In this database:
 
 ---
 
-## 🗓️ Action Plan: July 20–26
+## 🗓️ Action Plan: July 22–26 (Updated)
 
-### 🔴 Monday: Tier 1 Applications (5 roles)
+### 🟡 Wednesday July 22: Quick Wins + Network
 
-- [ ] **Circle — Director, Policy and Regulatory Strategy, APAC (SG)** — Score 87. A-1 grade. Web3 regulatory strategy.
-- [ ] **Gemini — Director, Strategy (APAC) (SG)** — Score 85. A-1 grade. Crypto exchange expansion.
-- [ ] **OKX — Product Director, Pay & Card (SG)** — Score 87. Cross-border payments.
-- [ ] **OKX — Principal/Senior PM, AI and Agent (SG/HK)** — Score 86. AI + crypto intersection.
-- [ ] **Flexport — Staff Product Manager (HK/SZ/SH)** — Score 85. Cross-border logistics.
-
-### 🟡 Tuesday: Tier 2 Applications (5-7 roles)
-
-- [ ] **OKX — PM/Director, Core Trading (SG/HK)** — Score 83.
-- [ ] **OKX — PM/Director, User Growth (SG/HK)** — Score 82.
-- [ ] **OKX — Principal/Senior PM, AI & Web3 Wallet (SG/HK)** — Score 82.
-- [ ] **Stripe — Account Executive, Cross Border China (SG)** — Score 81. $218K-328K.
-- [ ] **Agoda — Principal Product Manager (SG)** — Score 80.
-- [ ] **ByteDance — Payment Solution PM, Global Payment (SG)** — Score 79.
-- [ ] **Thunes — BD Director (HK)** — Score 77.
-
-### 🟢 Wednesday: LinkedIn + Network
-
-- [ ] Update headline to **"Product Director | AI + Cross-border Commerce | APAC"**
+- [ ] **LinkedIn update** — Headline to "Product Director | AI + Cross-border Commerce | APAC"
 - [ ] Add AI keywords: LLM, recommendation engine, fraud detection, personalization, AI agents
 - [ ] Update location preference: "Open to Singapore, Hong Kong, Shenzhen, Shanghai"
 - [ ] Set "Open to Work" (recruiters only)
 - [ ] Identify hiring managers at Circle, Gemini, OKX Pay & Card team
-- [ ] Research Circle's APAC regulatory strategy (recent $4.4B SPAC, USDC expansion)
 
-### 🔵 Thursday: Pipeline + Research
+### 🔵 Thursday July 23: Pipeline + Research
 
-- [ ] Deep-dive Circle product org — regulatory strategy team structure, recent APAC moves
-- [ ] Research Gemini's APAC expansion plans (post-FTX landscape)
-- [ ] Explore OKX AI strategy — VP-level AI hiring signals major investment
-- [ ] Research Stripe's cross-border China product (perfect domain overlap)
+- [ ] **Circle** — Research APAC regulatory strategy, identify Director-level contacts
+- [ ] **Gemini** — Research APAC expansion plans (post-FTX landscape)
+- [ ] **OKX** — Explore AI strategy, VP-level hiring signals
+- [ ] **Stripe** — Research cross-border China product (perfect domain overlap)
 - [ ] Batch-apply remaining Tier 2-3 roles
 
-### 🟣 Friday: Preparation + Follow-up
+### 🟣 Friday July 24: Preparation + Follow-up
 
 - [ ] Prepare Circle-specific talking points: regulatory strategy + stablecoin + APAC market intelligence
 - [ ] Prepare Gemini-specific talking points: crypto exchange strategy + growth in APAC
 - [ ] Draft tailored cover narratives: "regulatory strategy" (Circle) vs "exchange growth" (Gemini) vs "payments product" (OKX/Stripe)
 - [ ] Follow up on any recruiter responses
 - [ ] Review all applications — confirm submissions
+
+### 📌 Still Pending (from earlier this week)
+
+- [ ] **Circle — Director, Policy and Regulatory Strategy, APAC (SG)** — Score 87. A-1 grade. Apply ASAP.
+- [ ] **Gemini — Director, Strategy (APAC) (SG)** — Score 85. A-1 grade. Apply ASAP.
+- [ ] **OKX — Product Director, Pay & Card (SG)** — Score 87. Apply ASAP.
+- [ ] **OKX — Principal/Senior PM, AI and Agent (SG/HK)** — Score 86. Apply ASAP.
+- [ ] **Flexport — Staff Product Manager (HK/SZ/SH)** — Score 85. Apply ASAP.
 
 ---
 
