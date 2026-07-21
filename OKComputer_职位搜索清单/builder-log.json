@@ -161,6 +161,21 @@
       "overall": 7.3,
       "improvement": "CRM enrichment complete: classified 206 contacts (154 recruiter/ATS, 42 company entries, 3 hiring managers, 7 unknown). Computed relationship scores (avg 28/100). CRM score 5→7.",
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-07-22T06:00:41.256897",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 7,
+        "career_strategy": 6,
+        "python_scripts": 8,
+        "crm": 4,
+        "automation": 5,
+        "coverage": 7
+      },
+      "overall": 6.6,
+      "improvement": "Deduplicated 178 jobs (1212→1034) by removing title+company duplicates. All remaining jobs have title, company, url, and grade. Zero dupes remain. Data quality 8→9.",
+      "subagent": "nightly-improver"
     }
   ]
 }
