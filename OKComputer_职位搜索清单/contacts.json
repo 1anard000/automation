@@ -22,8 +22,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "unknown",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "aiagroup.com",
     "last_seen": "2026-06-15"
@@ -53,7 +53,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 35,
     "company_domain": "adyen.com",
     "last_seen": "2026-07-04"
@@ -81,8 +81,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 20,
     "company_domain": "affirm.com",
     "last_seen": "2026-07-02"
@@ -112,8 +112,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 20,
     "company_domain": "agoda.com",
     "last_seen": "2026-07-02"
@@ -141,8 +141,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 20,
     "company_domain": "airbnb.com",
     "last_seen": "2026-07-02"
@@ -172,7 +172,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "airwallex.com",
     "last_seen": "2026-07-04"
@@ -202,7 +202,7 @@
     "_health_score": 29,
     "_is_org": false,
     "role_type": "executive",
-    "relationship_score": 30,
+    "relationship_score": 50,
     "company_domain": "airwallex.com",
     "last_seen": "2026-06-15"
   },
@@ -230,7 +230,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "alchemy.com",
     "last_seen": "2026-07-04"
@@ -256,8 +256,8 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "unknown",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "alibaba.com",
     "last_seen": "2026-06-15"
@@ -287,7 +287,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "alikeaudience.com",
     "last_seen": "2026-07-04"
@@ -315,8 +315,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "unknown",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "amazon.com",
     "last_seen": "2026-06-15"
@@ -345,7 +345,7 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "ambition.com",
     "last_seen": "2026-07-04"
@@ -375,7 +375,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "antgroup.com",
     "last_seen": "2026-07-04"
@@ -405,7 +405,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "anthropic.com",
     "last_seen": "2026-07-04"
@@ -432,8 +432,8 @@
     "_priority": "medium",
     "_health_score": 92,
     "_is_org": false,
-    "role_type": "unknown",
-    "relationship_score": 45,
+    "role_type": "peer",
+    "relationship_score": 65,
     "company_domain": "anthropic.com",
     "last_seen": "2026-06-15"
   },
@@ -462,7 +462,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "arcdev.com",
     "last_seen": "2026-07-04"
@@ -492,7 +492,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "asiacloud.com",
     "last_seen": "2026-07-04"
@@ -522,7 +522,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "atsnew.com",
     "last_seen": "2026-07-04"
@@ -551,7 +551,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "avepoint.com",
     "last_seen": "2026-07-04"
@@ -581,7 +581,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "avenirgroup.com",
     "last_seen": "2026-07-04"
@@ -610,7 +610,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "baincapital.com",
     "last_seen": "2026-07-04"
@@ -636,8 +636,8 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "unknown",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "bankofchina.com",
     "last_seen": "2026-06-15"
@@ -665,8 +665,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "binance.com",
     "last_seen": "2026-06-15"
@@ -695,7 +695,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "biogen.com",
     "last_seen": "2026-07-04"
@@ -724,7 +724,7 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "blackstone.com",
     "last_seen": "2026-07-04"
@@ -753,7 +753,7 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "block.xyz",
     "last_seen": "2026-07-04"
@@ -783,7 +783,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "block.xyz",
     "last_seen": "2026-07-04"
@@ -813,7 +813,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "bybit.com",
     "last_seen": "2026-07-04"
@@ -841,8 +841,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "bytedance.com",
     "last_seen": "2026-06-15"
@@ -872,7 +872,7 @@
     "_health_score": 13,
     "_is_org": false,
     "role_type": "executive",
-    "relationship_score": 30,
+    "relationship_score": 50,
     "company_domain": "bytedance.com",
     "last_seen": "2026-06-15"
   },
@@ -899,8 +899,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "unknown",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "casetify.com",
     "last_seen": "2026-06-15"
@@ -929,7 +929,7 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "cbcgroup.com",
     "last_seen": "2026-07-04"
@@ -959,7 +959,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "capco.com",
     "last_seen": "2026-07-04"
@@ -989,7 +989,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "ceffu.com",
     "last_seen": "2026-07-04"
@@ -1017,8 +1017,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "unknown",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "citi.com",
     "last_seen": "2026-06-15"
@@ -1048,8 +1048,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 20,
     "company_domain": "cloudflare.com",
     "last_seen": "2026-07-02"
@@ -1077,8 +1077,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "coinbase.com",
     "last_seen": "2026-06-15"
@@ -1104,8 +1104,8 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "coinsph.com",
     "last_seen": "2026-06-15"
@@ -1135,7 +1135,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "confidential.com",
     "last_seen": "2026-07-04"
@@ -1164,8 +1164,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 20,
     "company_domain": "coupang.com",
     "last_seen": "2026-07-02"
@@ -1193,8 +1193,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "crypto.com",
     "last_seen": "2026-06-15"
@@ -1222,8 +1222,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "unknown",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "dbs.com",
     "last_seen": "2026-06-15"
@@ -1253,7 +1253,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "x.com",
     "last_seen": "2026-07-04"
@@ -1283,7 +1283,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "dsv.com",
     "last_seen": "2026-07-04"
@@ -1312,8 +1312,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 20,
     "company_domain": "databricks.com",
     "last_seen": "2026-07-02"
@@ -1341,8 +1341,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 20,
     "company_domain": "datadog.com",
     "last_seen": "2026-07-02"
@@ -1372,7 +1372,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "eamesconsulting.com",
     "last_seen": "2026-07-04"
@@ -1402,7 +1402,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "epicgames.com",
     "last_seen": "2026-07-04"
@@ -1432,7 +1432,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "ethosbeathchapman.com",
     "last_seen": "2026-07-04"
@@ -1462,7 +1462,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "x.com",
     "last_seen": "2026-07-04"
@@ -1492,7 +1492,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "figma.com",
     "last_seen": "2026-07-04"
@@ -1522,7 +1522,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "finpay.com",
     "last_seen": "2026-07-04"
@@ -1550,8 +1550,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "unknown",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "firstdigital.com",
     "last_seen": "2026-06-15"
@@ -1580,7 +1580,7 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "fivetran.com",
     "last_seen": "2026-07-04"
@@ -1610,7 +1610,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "flexport.com",
     "last_seen": "2026-07-04"
@@ -1639,7 +1639,7 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "futuholdingslimited.com",
     "last_seen": "2026-07-04"
@@ -1667,8 +1667,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "unknown",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "gehealthcare.com",
     "last_seen": "2026-06-15"
@@ -1698,7 +1698,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "grit.com",
     "last_seen": "2026-07-04"
@@ -1728,7 +1728,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "gate.com",
     "last_seen": "2026-07-04"
@@ -1757,7 +1757,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "gemini.com",
     "last_seen": "2026-07-04"
@@ -1787,7 +1787,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "getgocarsharing.com",
     "last_seen": "2026-07-04"
@@ -1817,7 +1817,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "gitlab.com",
     "last_seen": "2026-07-04"
@@ -1847,7 +1847,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "gitlab.com",
     "last_seen": "2026-07-04"
@@ -1874,8 +1874,8 @@
     "_priority": "medium",
     "_health_score": 79,
     "_is_org": false,
-    "role_type": "unknown",
-    "relationship_score": 45,
+    "role_type": "peer",
+    "relationship_score": 65,
     "company_domain": "google.com",
     "last_seen": "2026-06-15"
   },
@@ -1902,8 +1902,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "google.com",
     "last_seen": "2026-06-15"
@@ -1931,8 +1931,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false,
-    "role_type": "hiring_manager",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 35,
     "company_domain": "govtechsingapore.com",
     "last_seen": "2026-07-02"
@@ -1960,8 +1960,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 20,
     "company_domain": "grab.com",
     "last_seen": "2026-07-02"
@@ -1990,7 +1990,7 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "growthasia.com",
     "last_seen": "2026-07-04"
@@ -2018,8 +2018,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "gustoinc.com",
     "last_seen": "2026-06-15"
@@ -2047,8 +2047,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "unknown",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "hsbc.com",
     "last_seen": "2026-06-15"
@@ -2077,7 +2077,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "ai",
     "last_seen": "2026-07-04"
@@ -2103,8 +2103,8 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "unknown",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "huawei.com",
     "last_seen": "2026-06-15"
@@ -2134,7 +2134,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "iggroup.com",
     "last_seen": "2026-07-04"
@@ -2164,7 +2164,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "indeed.com",
     "last_seen": "2026-07-04"
@@ -2193,7 +2193,7 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "ingrammicro.com",
     "last_seen": "2026-07-04"
@@ -2221,8 +2221,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "instacart.com",
     "last_seen": "2026-06-15"
@@ -2251,7 +2251,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "ipsos.com",
     "last_seen": "2026-07-04"
@@ -2277,8 +2277,8 @@
     "_source": "crm-db",
     "_priority": "low",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "unknown",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "jd.com",
     "last_seen": "2026-06-15"
@@ -2308,7 +2308,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "dbs.com",
     "last_seen": "2026-07-04"
@@ -2338,7 +2338,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "klook.com",
     "last_seen": "2026-07-04"
@@ -2368,7 +2368,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "kong.com",
     "last_seen": "2026-07-04"
@@ -2398,7 +2398,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "lalamove.com",
     "last_seen": "2026-07-04"
@@ -2428,7 +2428,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "landtransportauthority.com",
     "last_seen": "2026-07-04"
@@ -2457,7 +2457,7 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "lemonio.com",
     "last_seen": "2026-07-04"
@@ -2487,7 +2487,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "matchmove.com",
     "last_seen": "2026-07-04"
@@ -2516,7 +2516,7 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "meituan.com",
     "last_seen": "2026-07-04"
@@ -2545,8 +2545,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 20,
     "company_domain": "mercury.com",
     "last_seen": "2026-07-02"
@@ -2576,7 +2576,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "meta.com",
     "last_seen": "2026-07-04"
@@ -2603,8 +2603,8 @@
     "_priority": "low",
     "_health_score": 0,
     "_is_org": false,
-    "role_type": "unknown",
-    "relationship_score": 30,
+    "role_type": "peer",
+    "relationship_score": 50,
     "company_domain": "meta.com",
     "last_seen": "2026-06-15"
   },
@@ -2633,7 +2633,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "microsoft.com",
     "last_seen": "2026-07-04"
@@ -2663,7 +2663,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "dbs.com",
     "last_seen": "2026-07-04"
@@ -2693,7 +2693,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "moomoosg.com",
     "last_seen": "2026-07-04"
@@ -2723,7 +2723,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "x.com",
     "last_seen": "2026-07-04"
@@ -2754,7 +2754,7 @@
     "_health_score": 100,
     "_is_org": false,
     "role_type": "executive",
-    "relationship_score": 45,
+    "relationship_score": 65,
     "company_domain": "nvidia.com",
     "last_seen": "2026-06-15"
   },
@@ -2782,7 +2782,7 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "newrelic.com",
     "last_seen": "2026-07-04"
@@ -2812,7 +2812,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "notion.so",
     "last_seen": "2026-07-04"
@@ -2842,7 +2842,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "ocbc.com",
     "last_seen": "2026-07-04"
@@ -2870,8 +2870,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "okx.com",
     "last_seen": "2026-06-15"
@@ -2901,7 +2901,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "okx.com",
     "last_seen": "2026-07-04"
@@ -2930,8 +2930,8 @@
     "_priority": "high",
     "_health_score": 100,
     "_is_org": false,
-    "role_type": "unknown",
-    "relationship_score": 30,
+    "role_type": "peer",
+    "relationship_score": 50,
     "company_domain": "openai.com",
     "last_seen": "2026-06-15"
   },
@@ -2959,7 +2959,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "paypal.com",
     "last_seen": "2026-07-04"
@@ -2989,7 +2989,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "payasia.com",
     "last_seen": "2026-07-04"
@@ -3019,7 +3019,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "payoneer.com",
     "last_seen": "2026-07-04"
@@ -3049,7 +3049,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "pepperstone.com",
     "last_seen": "2026-07-04"
@@ -3077,8 +3077,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "unknown",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "philips.com",
     "last_seen": "2026-06-15"
@@ -3108,7 +3108,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "pingan.com",
     "last_seen": "2026-07-04"
@@ -3137,7 +3137,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "pinterest.com",
     "last_seen": "2026-07-04"
@@ -3166,7 +3166,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "plaudai.com",
     "last_seen": "2026-07-04"
@@ -3196,7 +3196,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "postman.com",
     "last_seen": "2026-07-04"
@@ -3226,7 +3226,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "productmanagerpaymentfinance.com",
     "last_seen": "2026-07-04"
@@ -3256,7 +3256,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "propertygurugroup.com",
     "last_seen": "2026-07-04"
@@ -3286,7 +3286,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "prudentialhongkong.com",
     "last_seen": "2026-07-04"
@@ -3315,7 +3315,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "qlubsingapore.com",
     "last_seen": "2026-07-04"
@@ -3345,7 +3345,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "qualcomm.com",
     "last_seen": "2026-07-04"
@@ -3375,7 +3375,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "randstadsingapore.com",
     "last_seen": "2026-07-04"
@@ -3405,7 +3405,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "reap.com",
     "last_seen": "2026-07-04"
@@ -3434,7 +3434,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "reddit.com",
     "last_seen": "2026-07-04"
@@ -3462,8 +3462,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "unknown",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "redotpay.com",
     "last_seen": "2026-06-15"
@@ -3493,7 +3493,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "remote.com",
     "last_seen": "2026-07-04"
@@ -3523,7 +3523,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "roboticscompany.com",
     "last_seen": "2026-07-04"
@@ -3553,7 +3553,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "sea.com",
     "last_seen": "2026-07-04"
@@ -3583,7 +3583,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "sealimited.com",
     "last_seen": "2026-07-04"
@@ -3613,7 +3613,7 @@
     "_health_score": 100,
     "_is_org": false,
     "role_type": "executive",
-    "relationship_score": 30,
+    "relationship_score": 50,
     "company_domain": "sequoiacap.com",
     "last_seen": "2026-06-15"
   },
@@ -3641,7 +3641,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "shenzhentechco.com",
     "last_seen": "2026-07-04"
@@ -3669,8 +3669,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "shopee.com",
     "last_seen": "2026-06-15"
@@ -3698,8 +3698,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "stripe.com",
     "last_seen": "2026-06-15"
@@ -3728,7 +3728,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "temasek.com",
     "last_seen": "2026-07-04"
@@ -3756,8 +3756,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "unknown",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "tencent.com",
     "last_seen": "2026-06-15"
@@ -3787,7 +3787,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "tencent.com",
     "last_seen": "2026-07-04"
@@ -3816,8 +3816,8 @@
     "_priority": "high",
     "_health_score": 100,
     "_is_org": false,
-    "role_type": "unknown",
-    "relationship_score": 30,
+    "role_type": "peer",
+    "relationship_score": 50,
     "company_domain": "tesla.com",
     "last_seen": "2026-06-15"
   },
@@ -3846,7 +3846,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "thebankofeastasia.com",
     "last_seen": "2026-07-04"
@@ -3876,7 +3876,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "thunes.com",
     "last_seen": "2026-07-04"
@@ -3906,7 +3906,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "toptal.com",
     "last_seen": "2026-07-04"
@@ -3936,7 +3936,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "triplea.com",
     "last_seen": "2026-07-04"
@@ -3966,7 +3966,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "trustbanksingapore.com",
     "last_seen": "2026-07-04"
@@ -3996,7 +3996,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "turing.com",
     "last_seen": "2026-07-04"
@@ -4025,8 +4025,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 20,
     "company_domain": "twilio.com",
     "last_seen": "2026-07-02"
@@ -4056,7 +4056,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "unknown.com",
     "last_seen": "2026-07-04"
@@ -4085,7 +4085,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "unknown.com",
     "last_seen": "2026-07-04"
@@ -4115,7 +4115,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "unnamedcompany.com",
     "last_seen": "2026-07-04"
@@ -4145,7 +4145,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "vercel.com",
     "last_seen": "2026-07-04"
@@ -4175,7 +4175,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "virtuos.com",
     "last_seen": "2026-07-04"
@@ -4203,8 +4203,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "visa.com",
     "last_seen": "2026-06-15"
@@ -4234,7 +4234,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "wtmicroelectronics.com",
     "last_seen": "2026-07-04"
@@ -4262,8 +4262,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "walmart.com",
     "last_seen": "2026-06-15"
@@ -4293,7 +4293,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "webflow.com",
     "last_seen": "2026-07-04"
@@ -4323,7 +4323,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "westernunion.com",
     "last_seen": "2026-07-04"
@@ -4351,8 +4351,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 30,
-    "_is_org": false,
-    "role_type": "executive",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 20,
     "company_domain": "x.com",
     "last_seen": "2026-07-02"
@@ -4380,7 +4380,7 @@
     "_health_score": 38,
     "_is_org": false,
     "role_type": "executive",
-    "relationship_score": 30,
+    "relationship_score": 50,
     "company_domain": "ycombinator.com",
     "last_seen": "2026-06-15"
   },
@@ -4409,7 +4409,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "dtcpay.com",
     "last_seen": "2026-07-04"
@@ -4439,7 +4439,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "foodpanda.com",
     "last_seen": "2026-07-04"
@@ -4469,7 +4469,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "qlub.com",
     "last_seen": "2026-07-04"
@@ -4497,8 +4497,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "unknown",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "thelegogroup.com",
     "last_seen": "2026-06-15"
@@ -4528,7 +4528,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -4558,7 +4558,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -4588,7 +4588,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -4618,7 +4618,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -4648,7 +4648,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -4678,7 +4678,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -4707,7 +4707,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -4736,7 +4736,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -4766,7 +4766,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -4796,7 +4796,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -4826,7 +4826,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -4856,7 +4856,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -4886,7 +4886,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -4916,7 +4916,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -4946,7 +4946,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -4976,7 +4976,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5005,7 +5005,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5035,7 +5035,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5064,7 +5064,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5094,7 +5094,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5124,7 +5124,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5153,7 +5153,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5183,7 +5183,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5213,7 +5213,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5243,7 +5243,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5273,7 +5273,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5303,7 +5303,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5333,7 +5333,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5363,7 +5363,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5393,7 +5393,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5423,7 +5423,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5452,7 +5452,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5481,7 +5481,7 @@
     "_priority": "low",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5511,7 +5511,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5541,7 +5541,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5571,7 +5571,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5601,7 +5601,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5631,7 +5631,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5661,7 +5661,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5691,7 +5691,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5721,7 +5721,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5750,7 +5750,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5780,7 +5780,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5810,7 +5810,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5840,7 +5840,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5870,7 +5870,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5899,7 +5899,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5928,7 +5928,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -5956,8 +5956,8 @@
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
-    "_is_org": false,
-    "role_type": "unknown",
+    "_is_org": true,
+    "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": null,
     "last_seen": "2026-06-15"
@@ -5986,7 +5986,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -6015,7 +6015,7 @@
     "_priority": "medium",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -6045,7 +6045,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
@@ -6075,7 +6075,7 @@
     "_priority": "high",
     "_health_score": 50,
     "_is_org": true,
-    "role_type": "unknown",
+    "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
     "last_seen": "2026-07-04"
