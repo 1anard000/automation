@@ -26,7 +26,14 @@
     "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "aiagroup.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 76,
@@ -54,9 +61,29 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 35,
+    "relationship_score": 41,
     "company_domain": "adyen.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 3,
+    "top_jobs": [
+      {
+        "title": "Product Manager - Payments",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Compliance Advisory Officer",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Regulatory Counsel",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 3 open positions",
+    "priority": "low"
   },
   {
     "id": 50,
@@ -83,9 +110,29 @@
     "_health_score": 30,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 20,
+    "relationship_score": 40,
     "company_domain": "affirm.com",
-    "last_seen": "2026-07-02"
+    "last_seen": "2026-07-02",
+    "matching_jobs": 25,
+    "top_jobs": [
+      {
+        "title": "Director, Product Management (Shopping & Offers)",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Manager MLRO, Compliance",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Product Manager, Credit & Pricing",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 25 open positions",
+    "priority": "high"
   },
   {
     "id": 42,
@@ -114,9 +161,29 @@
     "_health_score": 30,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 20,
+    "relationship_score": 40,
     "company_domain": "agoda.com",
-    "last_seen": "2026-07-02"
+    "last_seen": "2026-07-02",
+    "matching_jobs": 105,
+    "top_jobs": [
+      {
+        "title": "AI and Automation Team Lead (Bangkok Based, Relocation Provided)",
+        "grade": "A"
+      },
+      {
+        "title": "Head of Global Communications (Bangkok-based)",
+        "grade": "A"
+      },
+      {
+        "title": "Platform Architect (Tax), FinTech (Bangkok based, Relocation provided)",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 105 open positions",
+    "priority": "high"
   },
   {
     "id": 46,
@@ -143,9 +210,29 @@
     "_health_score": 30,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 20,
+    "relationship_score": 40,
     "company_domain": "airbnb.com",
-    "last_seen": "2026-07-02"
+    "last_seen": "2026-07-02",
+    "matching_jobs": 22,
+    "top_jobs": [
+      {
+        "title": "Senior Business Operations and Growth Lead",
+        "grade": "A"
+      },
+      {
+        "title": "Lead Advanced Analytics, Marketplace",
+        "grade": "B"
+      },
+      {
+        "title": "Brand Media Lead",
+        "grade": "B"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 22 open positions",
+    "priority": "medium"
   },
   {
     "id": 53,
@@ -173,9 +260,29 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 40,
     "company_domain": "airwallex.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 15,
+    "top_jobs": [
+      {
+        "title": "Senior Product Manager, Kai (AI assistant)",
+        "grade": "A"
+      },
+      {
+        "title": "Director, Product Strategy",
+        "grade": "A-"
+      },
+      {
+        "title": "Product Director, Payment Fraud",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 15 open positions",
+    "priority": "high"
   },
   {
     "id": 3,
@@ -204,7 +311,14 @@
     "role_type": "executive",
     "relationship_score": 50,
     "company_domain": "airwallex.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 160,
@@ -233,7 +347,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "alchemy.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 26,
@@ -260,7 +381,14 @@
     "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "alibaba.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 77,
@@ -290,7 +418,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "alikeaudience.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 27,
@@ -317,9 +452,25 @@
     "_health_score": 20,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 10,
+    "relationship_score": 14,
     "company_domain": "amazon.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 2,
+    "top_jobs": [
+      {
+        "title": "Senior Product Manager - AI, Amazon Global Selling - PMO",
+        "grade": "A-"
+      },
+      {
+        "title": "Senior Product Manager - AI, Amazon Global Selling",
+        "grade": "A-1"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 2 open positions",
+    "priority": "medium"
   },
   {
     "id": 185,
@@ -348,7 +499,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "ambition.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 78,
@@ -378,7 +536,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "antgroup.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 54,
@@ -406,9 +571,29 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 40,
     "company_domain": "anthropic.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 94,
+    "top_jobs": [
+      {
+        "title": "Head of APAC Accounting",
+        "grade": "A"
+      },
+      {
+        "title": "Finance & Strategy, GTM - Korea",
+        "grade": "A"
+      },
+      {
+        "title": "Product Support Specialist (Singapore)",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 94 open positions",
+    "priority": "high"
   },
   {
     "id": 6,
@@ -435,7 +620,14 @@
     "role_type": "peer",
     "relationship_score": 65,
     "company_domain": "anthropic.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 55,
@@ -463,9 +655,25 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 24,
     "company_domain": "arcdev.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 2,
+    "top_jobs": [
+      {
+        "title": "Head of Product - Remote",
+        "grade": "A"
+      },
+      {
+        "title": "Product Director - Remote Global | Arc",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 2 open positions",
+    "priority": "high"
   },
   {
     "id": 56,
@@ -493,9 +701,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": "asiacloud.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "Head of Product at AsiaCloud",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "medium"
   },
   {
     "id": 79,
@@ -525,7 +745,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "atsnew.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 161,
@@ -554,7 +781,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "avepoint.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 80,
@@ -584,7 +818,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "avenirgroup.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 162,
@@ -613,7 +854,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "baincapital.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 18,
@@ -640,7 +888,14 @@
     "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "bankofchina.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 15,
@@ -669,7 +924,14 @@
     "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "binance.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 163,
@@ -698,7 +960,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "biogen.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 186,
@@ -727,7 +996,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "blackstone.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 187,
@@ -754,9 +1030,29 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 28,
     "company_domain": "block.xyz",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 4,
+    "top_jobs": [
+      {
+        "title": "Head of Channel Sales",
+        "grade": "S"
+      },
+      {
+        "title": "Senior Compliance Manager, Financial Services Compliance, Afterpay ANZ",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Lead, Australia Escalations Support (Square & Afterpay)",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 4 open positions",
+    "priority": "medium"
   },
   {
     "id": 154,
@@ -784,9 +1080,29 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 28,
     "company_domain": "block.xyz",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 4,
+    "top_jobs": [
+      {
+        "title": "Head of Channel Sales",
+        "grade": "S"
+      },
+      {
+        "title": "Senior Compliance Manager, Financial Services Compliance, Afterpay ANZ",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Lead, Australia Escalations Support (Square & Afterpay)",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 4 open positions",
+    "priority": "medium"
   },
   {
     "id": 57,
@@ -814,9 +1130,29 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 28,
     "company_domain": "bybit.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 4,
+    "top_jobs": [
+      {
+        "title": "Country Manager, Thailand",
+        "grade": "A-"
+      },
+      {
+        "title": "CEO, Singapore",
+        "grade": "B"
+      },
+      {
+        "title": "Chief Product Officer",
+        "grade": "B"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 4 open positions",
+    "priority": "medium"
   },
   {
     "id": 16,
@@ -843,9 +1179,29 @@
     "_health_score": 20,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 10,
+    "relationship_score": 30,
     "company_domain": "bytedance.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 35,
+    "top_jobs": [
+      {
+        "title": "印尼中小商家策略Leader-TikTok Shop",
+        "grade": "A"
+      },
+      {
+        "title": "国际化商业策略产品经理-端变现",
+        "grade": "A"
+      },
+      {
+        "title": "国际投放增长运营专家-飞书",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 35 open positions",
+    "priority": "high"
   },
   {
     "id": 4,
@@ -874,7 +1230,14 @@
     "role_type": "executive",
     "relationship_score": 50,
     "company_domain": "bytedance.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 28,
@@ -903,7 +1266,14 @@
     "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "casetify.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 188,
@@ -932,7 +1302,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "cbcgroup.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 58,
@@ -962,7 +1339,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "capco.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 81,
@@ -992,7 +1376,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "ceffu.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 29,
@@ -1021,7 +1412,14 @@
     "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "citi.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 44,
@@ -1050,9 +1448,29 @@
     "_health_score": 30,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 20,
+    "relationship_score": 32,
     "company_domain": "cloudflare.com",
-    "last_seen": "2026-07-02"
+    "last_seen": "2026-07-02",
+    "matching_jobs": 6,
+    "top_jobs": [
+      {
+        "title": "Director, Strategic Finance & Investor Relations",
+        "grade": "S"
+      },
+      {
+        "title": "Principal Sales Operations & Strategy Manager - Renewals & Business Development Teams",
+        "grade": "S"
+      },
+      {
+        "title": "Senior Director, GTM Intelligence",
+        "grade": "S"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 6 open positions",
+    "priority": "high"
   },
   {
     "id": 13,
@@ -1079,9 +1497,29 @@
     "_health_score": 20,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 10,
+    "relationship_score": 30,
     "company_domain": "coinbase.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 25,
+    "top_jobs": [
+      {
+        "title": "Senior Litigation Paralegal",
+        "grade": "A"
+      },
+      {
+        "title": "Accounting Manager, GL Operations & Intercompany",
+        "grade": "B"
+      },
+      {
+        "title": "Country Director, India",
+        "grade": "B"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 25 open positions",
+    "priority": "medium"
   },
   {
     "id": 30,
@@ -1108,7 +1546,14 @@
     "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "coinsph.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 82,
@@ -1136,9 +1581,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": "confidential.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "Director, Product Strategy & Growth",
+        "grade": "A-"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "medium"
   },
   {
     "id": 41,
@@ -1166,9 +1623,29 @@
     "_health_score": 30,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 20,
+    "relationship_score": 40,
     "company_domain": "coupang.com",
-    "last_seen": "2026-07-02"
+    "last_seen": "2026-07-02",
+    "matching_jobs": 105,
+    "top_jobs": [
+      {
+        "title": "Category growth Onsite Merchandiser",
+        "grade": "A"
+      },
+      {
+        "title": "Group Product Manager (Retail Product)",
+        "grade": "A"
+      },
+      {
+        "title": "Group Product Manager – Settlement & Policies",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 105 open positions",
+    "priority": "high"
   },
   {
     "id": 22,
@@ -1197,7 +1674,14 @@
     "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "crypto.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 40,
@@ -1226,7 +1710,14 @@
     "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "dbs.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 83,
@@ -1256,7 +1747,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "x.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 84,
@@ -1286,7 +1784,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "dsv.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 47,
@@ -1314,9 +1819,29 @@
     "_health_score": 30,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 20,
+    "relationship_score": 26,
     "company_domain": "databricks.com",
-    "last_seen": "2026-07-02"
+    "last_seen": "2026-07-02",
+    "matching_jobs": 3,
+    "top_jobs": [
+      {
+        "title": "Senior Technical Solutions Engineer (Platform)",
+        "grade": "B"
+      },
+      {
+        "title": "Senior Software Engineer- Singapore",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Software Engineer- Tokyo",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 3 open positions",
+    "priority": "low"
   },
   {
     "id": 48,
@@ -1343,9 +1868,29 @@
     "_health_score": 30,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 20,
+    "relationship_score": 28,
     "company_domain": "datadog.com",
-    "last_seen": "2026-07-02"
+    "last_seen": "2026-07-02",
+    "matching_jobs": 4,
+    "top_jobs": [
+      {
+        "title": "Senior Deal Desk Analyst",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Partner Enablement Manager",
+        "grade": "C"
+      },
+      {
+        "title": "Senior People Business Partner",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 4 open positions",
+    "priority": "low"
   },
   {
     "id": 85,
@@ -1375,7 +1920,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "eamesconsulting.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 155,
@@ -1405,7 +1957,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "epicgames.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 86,
@@ -1435,7 +1994,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "ethosbeathchapman.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 87,
@@ -1465,7 +2031,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "x.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 88,
@@ -1493,9 +2066,29 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 30,
     "company_domain": "figma.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 5,
+    "top_jobs": [
+      {
+        "title": "Senior Manager, Customer Experience & Solutions (Tokyo, Japan)",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Manager, Enterprise Sales (Tokyo, Japan)",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Sales Enablement Manager (Singapore)",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 5 open positions",
+    "priority": "low"
   },
   {
     "id": 89,
@@ -1525,7 +2118,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "finpay.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 31,
@@ -1554,7 +2154,14 @@
     "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "firstdigital.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 189,
@@ -1581,9 +2188,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": "fivetran.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "Staff Product Manager, Connectors",
+        "grade": "B"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "low"
   },
   {
     "id": 59,
@@ -1611,9 +2230,29 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 28,
     "company_domain": "flexport.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 4,
+    "top_jobs": [
+      {
+        "title": "Staff Product Manager",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Manager, Account Management",
+        "grade": "A"
+      },
+      {
+        "title": "Staff Product Manager ",
+        "grade": "A-"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 4 open positions",
+    "priority": "high"
   },
   {
     "id": 190,
@@ -1642,7 +2281,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "futuholdingslimited.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 19,
@@ -1671,7 +2317,14 @@
     "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "gehealthcare.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 90,
@@ -1701,7 +2354,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "grit.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 91,
@@ -1731,7 +2391,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "gate.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 164,
@@ -1760,7 +2427,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "gemini.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 92,
@@ -1790,7 +2464,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "getgocarsharing.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 156,
@@ -1818,9 +2499,25 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 24,
     "company_domain": "gitlab.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 2,
+    "top_jobs": [
+      {
+        "title": "Senior Program Manager, Enterprise Technology & AI",
+        "grade": "B"
+      },
+      {
+        "title": "Senior Solutions Architect - AI & Platforms SME",
+        "grade": "B"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 2 open positions",
+    "priority": "low"
   },
   {
     "id": 60,
@@ -1848,9 +2545,29 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 40,
     "company_domain": "gitlab.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 11,
+    "top_jobs": [
+      {
+        "title": "Director, Strategic Partnerships",
+        "grade": "S"
+      },
+      {
+        "title": "Senior Director, Field CTOs",
+        "grade": "S"
+      },
+      {
+        "title": "Senior Manager, Business Development",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 11 open positions",
+    "priority": "high"
   },
   {
     "id": 7,
@@ -1877,7 +2594,14 @@
     "role_type": "peer",
     "relationship_score": 65,
     "company_domain": "google.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 23,
@@ -1906,7 +2630,14 @@
     "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "google.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 52,
@@ -1933,9 +2664,21 @@
     "_health_score": 30,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 35,
+    "relationship_score": 37,
     "company_domain": "govtechsingapore.com",
-    "last_seen": "2026-07-02"
+    "last_seen": "2026-07-02",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "Principal / Lead Product Manager, Solutions Management (Product Strategy Office)",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "low"
   },
   {
     "id": 49,
@@ -1962,9 +2705,29 @@
     "_health_score": 30,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 20,
+    "relationship_score": 30,
     "company_domain": "grab.com",
-    "last_seen": "2026-07-02"
+    "last_seen": "2026-07-02",
+    "matching_jobs": 5,
+    "top_jobs": [
+      {
+        "title": "Associate, Strategic Insights and Analytics",
+        "grade": "C"
+      },
+      {
+        "title": "Lead Technical Program Manager",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Manager, Mobility Marketplace, Thailand",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 5 open positions",
+    "priority": "low"
   },
   {
     "id": 191,
@@ -1993,7 +2756,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "growthasia.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 17,
@@ -2022,7 +2792,14 @@
     "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "gustoinc.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 32,
@@ -2051,7 +2828,14 @@
     "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "hsbc.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 165,
@@ -2080,7 +2864,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "ai",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 33,
@@ -2107,7 +2898,14 @@
     "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "huawei.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 93,
@@ -2137,7 +2935,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "iggroup.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 94,
@@ -2167,7 +2972,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "indeed.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 192,
@@ -2196,7 +3008,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "ingrammicro.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 14,
@@ -2223,9 +3042,29 @@
     "_health_score": 20,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 10,
+    "relationship_score": 30,
     "company_domain": "instacart.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 12,
+    "top_jobs": [
+      {
+        "title": "Principal Product Manager, AI",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Product Manager, AI",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Technical Program Manager, Enterprise",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 12 open positions",
+    "priority": "high"
   },
   {
     "id": 166,
@@ -2254,7 +3093,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "ipsos.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 20,
@@ -2281,7 +3127,14 @@
     "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "jd.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 95,
@@ -2311,7 +3164,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "dbs.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 61,
@@ -2341,7 +3201,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "klook.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 62,
@@ -2369,9 +3236,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": "kong.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "Head of Product - Hong Kong",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "medium"
   },
   {
     "id": 96,
@@ -2401,7 +3280,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "lalamove.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 97,
@@ -2431,7 +3317,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "landtransportauthority.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 193,
@@ -2458,9 +3351,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": "lemonio.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "Senior Product Manager",
+        "grade": "B"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "low"
   },
   {
     "id": 98,
@@ -2490,7 +3395,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "matchmove.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 194,
@@ -2519,7 +3431,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "meituan.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 45,
@@ -2547,9 +3466,29 @@
     "_health_score": 30,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 20,
+    "relationship_score": 40,
     "company_domain": "mercury.com",
-    "last_seen": "2026-07-02"
+    "last_seen": "2026-07-02",
+    "matching_jobs": 15,
+    "top_jobs": [
+      {
+        "title": "Head of Product - Business Lending",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Financial Partnerships Manager - Lending",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Product Partnerships Manager - Payroll",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 15 open positions",
+    "priority": "high"
   },
   {
     "id": 99,
@@ -2577,9 +3516,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": "meta.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "Director, Product Management - APAC Products",
+        "grade": "A-"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "medium"
   },
   {
     "id": 8,
@@ -2606,7 +3557,14 @@
     "role_type": "peer",
     "relationship_score": 50,
     "company_domain": "meta.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 100,
@@ -2634,9 +3592,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": "microsoft.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "Training Manager",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "low"
   },
   {
     "id": 63,
@@ -2666,7 +3636,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "dbs.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 101,
@@ -2696,7 +3673,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "moomoosg.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 64,
@@ -2726,7 +3710,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "x.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 1,
@@ -2756,7 +3747,14 @@
     "role_type": "executive",
     "relationship_score": 65,
     "company_domain": "nvidia.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 195,
@@ -2783,9 +3781,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": "newrelic.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "Principal Product Manager",
+        "grade": "B"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "low"
   },
   {
     "id": 65,
@@ -2813,9 +3823,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": "notion.so",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "People Operations Generalist, Japan",
+        "grade": "B"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "low"
   },
   {
     "id": 66,
@@ -2845,7 +3867,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "ocbc.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 11,
@@ -2872,9 +3901,29 @@
     "_health_score": 20,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 10,
+    "relationship_score": 30,
     "company_domain": "okx.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 114,
+    "top_jobs": [
+      {
+        "title": "Principal/Senior Product Manager, AI & Web3 Wallet",
+        "grade": "A"
+      },
+      {
+        "title": "Principal / Senior Product Manager, APAC Growth",
+        "grade": "A"
+      },
+      {
+        "title": "Principal / Senior Product Manager, Latin America Growth",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 114 open positions",
+    "priority": "high"
   },
   {
     "id": 67,
@@ -2902,9 +3951,25 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 24,
     "company_domain": "okx.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 2,
+    "top_jobs": [
+      {
+        "title": "Senior Product Manager, Agent QA & Localization Quality",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Risk Manager, Trading (AI-Augmented Operations)",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 2 open positions",
+    "priority": "high"
   },
   {
     "id": 2,
@@ -2933,7 +3998,14 @@
     "role_type": "peer",
     "relationship_score": 50,
     "company_domain": "openai.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 167,
@@ -2962,7 +4034,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "paypal.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 102,
@@ -2992,7 +4071,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "payasia.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 103,
@@ -3020,9 +4106,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": "payoneer.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "Online Acquisition Manager",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "low"
   },
   {
     "id": 104,
@@ -3050,9 +4148,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": "pepperstone.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "Product Manager, Onboarding",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "low"
   },
   {
     "id": 34,
@@ -3079,9 +4189,21 @@
     "_health_score": 20,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 10,
+    "relationship_score": 12,
     "company_domain": "philips.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "Senior Product Manager",
+        "grade": "B"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "low"
   },
   {
     "id": 105,
@@ -3111,7 +4233,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "pingan.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 196,
@@ -3138,9 +4267,29 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 36,
     "company_domain": "pinterest.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 8,
+    "top_jobs": [
+      {
+        "title": "Director, Technical Program Management-Monetization",
+        "grade": "S"
+      },
+      {
+        "title": "Lead Client Account Manager - Greater China Region",
+        "grade": "A"
+      },
+      {
+        "title": "Lead Client Partner - Greater China Region",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 8 open positions",
+    "priority": "high"
   },
   {
     "id": 168,
@@ -3169,7 +4318,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "plaudai.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 106,
@@ -3199,7 +4355,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "postman.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 107,
@@ -3229,7 +4392,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "productmanagerpaymentfinance.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 108,
@@ -3259,7 +4429,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "propertygurugroup.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 109,
@@ -3289,7 +4466,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "prudentialhongkong.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 169,
@@ -3318,7 +4502,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "qlubsingapore.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 68,
@@ -3348,7 +4539,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "qualcomm.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 110,
@@ -3378,7 +4576,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "randstadsingapore.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 111,
@@ -3406,9 +4611,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": "reap.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "Product Manager, Embedded Finance",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "low"
   },
   {
     "id": 170,
@@ -3435,9 +4652,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": "reddit.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "Lead, Advertising Measurement (Australia)",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "low"
   },
   {
     "id": 24,
@@ -3464,9 +4693,21 @@
     "_health_score": 20,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 10,
+    "relationship_score": 12,
     "company_domain": "redotpay.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "Product Manager (Fiat)",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "low"
   },
   {
     "id": 69,
@@ -3494,9 +4735,25 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 24,
     "company_domain": "remote.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 2,
+    "top_jobs": [
+      {
+        "title": "VP Product - Singapore Remote",
+        "grade": "S"
+      },
+      {
+        "title": "Product Director - APAC Remote",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 2 open positions",
+    "priority": "high"
   },
   {
     "id": 112,
@@ -3526,7 +4783,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "roboticscompany.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 113,
@@ -3556,7 +4820,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "sea.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 114,
@@ -3586,7 +4857,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "sealimited.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 9,
@@ -3615,7 +4893,14 @@
     "role_type": "executive",
     "relationship_score": 50,
     "company_domain": "sequoiacap.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 171,
@@ -3642,9 +4927,29 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 34,
     "company_domain": "shenzhentechco.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 7,
+    "top_jobs": [
+      {
+        "title": "战略规划专家/高级战略分析师",
+        "grade": "C"
+      },
+      {
+        "title": "战略分析专家",
+        "grade": "C"
+      },
+      {
+        "title": "战略分析经理",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 7 open positions",
+    "priority": "low"
   },
   {
     "id": 35,
@@ -3671,9 +4976,25 @@
     "_health_score": 20,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 10,
+    "relationship_score": 14,
     "company_domain": "shopee.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 2,
+    "top_jobs": [
+      {
+        "title": "Product Manager - Return & Refund, Regional Operations",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Business Analyst, Fintech Strategic Planning",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 2 open positions",
+    "priority": "low"
   },
   {
     "id": 12,
@@ -3700,9 +5021,29 @@
     "_health_score": 20,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 10,
+    "relationship_score": 30,
     "company_domain": "stripe.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 147,
+    "top_jobs": [
+      {
+        "title": "Head of Market Intelligence, Product Marketing",
+        "grade": "S"
+      },
+      {
+        "title": "Chief Compliance Officer (APAC)",
+        "grade": "S"
+      },
+      {
+        "title": "Full Stack Engineer, Growth",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 147 open positions",
+    "priority": "high"
   },
   {
     "id": 172,
@@ -3731,7 +5072,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "temasek.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 36,
@@ -3758,9 +5106,29 @@
     "_health_score": 20,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 10,
+    "relationship_score": 30,
     "company_domain": "tencent.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 28,
+    "top_jobs": [
+      {
+        "title": "Senior Compute Product Architect",
+        "grade": "S"
+      },
+      {
+        "title": "Strategic Investment Manager",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Business Development Manager",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 28 open positions",
+    "priority": "high"
   },
   {
     "id": 70,
@@ -3788,9 +5156,29 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 40,
     "company_domain": "tencent.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 28,
+    "top_jobs": [
+      {
+        "title": "Senior Compute Product Architect",
+        "grade": "S"
+      },
+      {
+        "title": "Strategic Investment Manager",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Business Development Manager",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 28 open positions",
+    "priority": "high"
   },
   {
     "id": 5,
@@ -3819,7 +5207,14 @@
     "role_type": "peer",
     "relationship_score": 50,
     "company_domain": "tesla.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 115,
@@ -3849,7 +5244,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "thebankofeastasia.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 71,
@@ -3877,9 +5279,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": "thunes.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "Head of Product - Core & Growth",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "low"
   },
   {
     "id": 72,
@@ -3907,9 +5321,29 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 26,
     "company_domain": "toptal.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 3,
+    "top_jobs": [
+      {
+        "title": "VP Product - Singapore Remote",
+        "grade": "S"
+      },
+      {
+        "title": "Head of Product",
+        "grade": "A"
+      },
+      {
+        "title": "Product Director - APAC",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 3 open positions",
+    "priority": "high"
   },
   {
     "id": 116,
@@ -3939,7 +5373,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "triplea.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 117,
@@ -3969,7 +5410,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "trustbanksingapore.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 73,
@@ -3997,9 +5445,29 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 26,
     "company_domain": "turing.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 3,
+    "top_jobs": [
+      {
+        "title": "VP Product - Remote Global",
+        "grade": "S"
+      },
+      {
+        "title": "Head of Product",
+        "grade": "A"
+      },
+      {
+        "title": "Product Director - Remote",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 3 open positions",
+    "priority": "high"
   },
   {
     "id": 43,
@@ -4027,9 +5495,29 @@
     "_health_score": 30,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 20,
+    "relationship_score": 40,
     "company_domain": "twilio.com",
-    "last_seen": "2026-07-02"
+    "last_seen": "2026-07-02",
+    "matching_jobs": 19,
+    "top_jobs": [
+      {
+        "title": "Senior Manager, Talent Acquisition - GTM & Marketing, Americas",
+        "grade": "A-"
+      },
+      {
+        "title": "Compliance Operations Specialist 1",
+        "grade": "B"
+      },
+      {
+        "title": "Fast Track Operations Specialist 2",
+        "grade": "B"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 19 open positions",
+    "priority": "medium"
   },
   {
     "id": 157,
@@ -4057,9 +5545,29 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 28,
     "company_domain": "unknown.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 4,
+    "top_jobs": [
+      {
+        "title": "全球GTM增长负责人",
+        "grade": "B"
+      },
+      {
+        "title": "产品策划-商业化方向",
+        "grade": "B"
+      },
+      {
+        "title": "海外品牌GTM（北美/欧洲）-硬核C端消费电子",
+        "grade": "B"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 4 open positions",
+    "priority": "low"
   },
   {
     "id": 173,
@@ -4086,9 +5594,29 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 28,
     "company_domain": "unknown.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 4,
+    "top_jobs": [
+      {
+        "title": "全球GTM增长负责人",
+        "grade": "B"
+      },
+      {
+        "title": "产品策划-商业化方向",
+        "grade": "B"
+      },
+      {
+        "title": "海外品牌GTM（北美/欧洲）-硬核C端消费电子",
+        "grade": "B"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 4 open positions",
+    "priority": "low"
   },
   {
     "id": 118,
@@ -4118,7 +5646,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "unnamedcompany.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 119,
@@ -4146,9 +5681,25 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 24,
     "company_domain": "vercel.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 2,
+    "top_jobs": [
+      {
+        "title": "Director, Major Sales",
+        "grade": "S"
+      },
+      {
+        "title": "Senior Manager, Solutions Architect",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 2 open positions",
+    "priority": "medium"
   },
   {
     "id": 120,
@@ -4178,7 +5729,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "virtuos.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 37,
@@ -4205,9 +5763,29 @@
     "_health_score": 20,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 10,
+    "relationship_score": 16,
     "company_domain": "visa.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 3,
+    "top_jobs": [
+      {
+        "title": "Director, Corporate Strategy - Asia Pacific",
+        "grade": "A-"
+      },
+      {
+        "title": "Director, Account Executive, AP Fintech & Strategic Partners",
+        "grade": "A-"
+      },
+      {
+        "title": "Senior Director, Corporate Strategy, Asia Pacific",
+        "grade": "A-"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 3 open positions",
+    "priority": "high"
   },
   {
     "id": 121,
@@ -4237,7 +5815,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "wtmicroelectronics.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 38,
@@ -4266,7 +5851,14 @@
     "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "walmart.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 122,
@@ -4296,7 +5888,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "webflow.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 123,
@@ -4326,7 +5925,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "westernunion.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 51,
@@ -4353,9 +5959,29 @@
     "_health_score": 30,
     "_is_org": true,
     "role_type": "company_target",
-    "relationship_score": 20,
+    "relationship_score": 26,
     "company_domain": "x.com",
-    "last_seen": "2026-07-02"
+    "last_seen": "2026-07-02",
+    "matching_jobs": 3,
+    "top_jobs": [
+      {
+        "title": "Product Manager – Risk Products",
+        "grade": "B"
+      },
+      {
+        "title": "Senior Merchant Ops Analyst",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Total Rewards Manager",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 3 open positions",
+    "priority": "low"
   },
   {
     "id": 10,
@@ -4382,7 +6008,14 @@
     "role_type": "executive",
     "relationship_score": 50,
     "company_domain": "ycombinator.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 124,
@@ -4412,7 +6045,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "dtcpay.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 125,
@@ -4442,7 +6082,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "foodpanda.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 126,
@@ -4472,7 +6119,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": "qlub.com",
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 39,
@@ -4501,7 +6155,14 @@
     "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": "thelegogroup.com",
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 127,
@@ -4531,7 +6192,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 128,
@@ -4561,7 +6229,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 129,
@@ -4591,7 +6266,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 130,
@@ -4621,7 +6303,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 131,
@@ -4651,7 +6340,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 206,
@@ -4681,7 +6377,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 174,
@@ -4710,7 +6413,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 175,
@@ -4737,9 +6447,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "产品商业化负责人",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "low"
   },
   {
     "id": 205,
@@ -4769,7 +6491,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 132,
@@ -4799,7 +6528,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 133,
@@ -4829,7 +6565,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 202,
@@ -4859,7 +6602,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 200,
@@ -4889,7 +6639,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 201,
@@ -4919,7 +6676,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 203,
@@ -4949,7 +6713,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 134,
@@ -4979,7 +6750,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 176,
@@ -5008,7 +6786,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 135,
@@ -5038,7 +6823,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 177,
@@ -5065,9 +6857,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "商业化产品经理",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "low"
   },
   {
     "id": 136,
@@ -5097,7 +6901,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 137,
@@ -5127,7 +6938,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 178,
@@ -5156,7 +6974,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 138,
@@ -5186,7 +7011,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 139,
@@ -5216,7 +7048,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 140,
@@ -5246,7 +7085,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 197,
@@ -5274,9 +7120,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "产品总监/VP（海外）",
+        "grade": "B"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "low"
   },
   {
     "id": 158,
@@ -5306,7 +7164,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 141,
@@ -5336,7 +7201,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 142,
@@ -5366,7 +7238,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 198,
@@ -5394,9 +7273,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "产品负责人/AI-基础大模型部（LLM产品）",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "medium"
   },
   {
     "id": 159,
@@ -5424,9 +7315,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "产品总监（出海智能硬件）",
+        "grade": "B"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "low"
   },
   {
     "id": 179,
@@ -5453,9 +7356,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "商业化策略产品经理",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "low"
   },
   {
     "id": 199,
@@ -5484,7 +7399,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 143,
@@ -5514,7 +7436,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 144,
@@ -5544,7 +7473,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 145,
@@ -5574,7 +7510,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 146,
@@ -5604,7 +7547,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 147,
@@ -5634,7 +7584,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 148,
@@ -5662,9 +7619,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "配送策略产品经理",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "medium"
   },
   {
     "id": 149,
@@ -5694,7 +7663,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 150,
@@ -5724,7 +7700,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 180,
@@ -5751,9 +7734,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "高级产品经理-AI芯片",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "low"
   },
   {
     "id": 74,
@@ -5781,9 +7776,21 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 22,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 1,
+    "top_jobs": [
+      {
+        "title": "产品经理PM（展锐）",
+        "grade": "A"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 1 open positions",
+    "priority": "medium"
   },
   {
     "id": 204,
@@ -5813,7 +7820,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 151,
@@ -5843,7 +7857,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 75,
@@ -5873,7 +7894,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 181,
@@ -5900,9 +7928,25 @@
     "_health_score": 50,
     "_is_org": true,
     "role_type": "company_ats",
-    "relationship_score": 20,
+    "relationship_score": 24,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 2,
+    "top_jobs": [
+      {
+        "title": "商业拓展经理/高级经理（具身智能方向）",
+        "grade": "B"
+      },
+      {
+        "title": "商业拓展经理-具身智能",
+        "grade": "C"
+      }
+    ],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "Review 2 open positions",
+    "priority": "low"
   },
   {
     "id": 182,
@@ -5931,7 +7975,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 21,
@@ -5960,7 +8011,14 @@
     "role_type": "company_target",
     "relationship_score": 10,
     "company_domain": null,
-    "last_seen": "2026-06-15"
+    "last_seen": "2026-06-15",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 183,
@@ -5989,7 +8047,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 184,
@@ -6018,7 +8083,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 152,
@@ -6048,7 +8120,14 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   },
   {
     "id": 153,
@@ -6078,6 +8157,13 @@
     "role_type": "company_ats",
     "relationship_score": 20,
     "company_domain": null,
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-04",
+    "matching_jobs": 0,
+    "top_jobs": [],
+    "application_status": "not_applied",
+    "applied_date": null,
+    "last_followup": null,
+    "next_action": "No active openings",
+    "priority": "low"
   }
 ]
