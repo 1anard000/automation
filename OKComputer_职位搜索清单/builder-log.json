@@ -206,6 +206,21 @@
       "overall": 6.9,
       "improvement": "Refreshed career-hub.html: removed 367 stale jobs (1346→979), synced embedded data with current jobs-all.json. Hub was 4 days stale. CRM bumped 2→3 after last run's sub-agent work.",
       "subagent": null
+    },
+    {
+      "timestamp": "2026-07-23T06:00:52.669699",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 7,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 5,
+        "automation": 7,
+        "coverage": 7
+      },
+      "overall": 7.1,
+      "improvement": "CRM actionable: added application_status, priority, next_action, and job matching to all 206 contacts. 22 high-priority companies identified (2+ A/S grade openings). CRM score 3→5.",
+      "subagent": "nightly-improver"
     }
   ]
 }
