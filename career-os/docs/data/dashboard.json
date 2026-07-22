@@ -1,53 +1,69 @@
 {
-  "generated_at": "2026-07-21T22:00:50.265953+00:00",
+  "generated_at": "2026-07-22T22:01:06.686195+00:00",
   "stats": {
-    "total_jobs": 686,
+    "total_jobs": 694,
     "jobs_by_location": {
-      "SG": 185,
-      "Remote": 160,
-      "HK": 113,
-      "SZ": 82,
-      "Bangkok": 26,
-      "Seoul": 26,
-      "Other": 20,
-      "Japan": 16,
-      "GZ": 16,
-      "Taipei": 14,
-      "SH": 13,
-      "India": 7,
-      "Australia": 4,
-      "Beijing": 4
+      "Singapore (SG)": 186,
+      "Remote": 167,
+      "Hong Kong (HK)": 113,
+      "Shenzhen (SZ)": 82,
+      "Seoul, South Korea": 22,
+      "Bangkok, Thailand": 17,
+      "Unknown": 13,
+      "Shanghai (SH)": 13,
+      "Tokyo, Japan": 8,
+      "Guangzhou (GZ)": 8,
+      "Hangzhou": 8,
+      "Tokyo": 7,
+      "Taipei": 7,
+      "Bangkok": 6,
+      "Taipei, Taiwan": 5,
+      "Seoul": 4,
+      "Beijing": 4,
+      "Sydney, Australia": 3,
+      "South Korea": 3,
+      "Bengaluru": 3,
+      "Hybrid": 2,
+      "Taiwan": 2,
+      "Bengaluru, India": 1,
+      "Bengaluru, Karnataka, India": 1,
+      "India": 1,
+      "Bangkok (Central World Office)": 1,
+      "Bangkok / Kuala Lumpur": 1,
+      "Melbourne, Australia": 1,
+      "Osaka, Japan": 1,
+      "Hybrid - San Francisco": 1,
+      "Bangkok, Thailand; Jakarta, Indonesia; Kuala Lumpur, Malaysia; Manila, Philippines": 1,
+      "Manila, Philippines": 1,
+      "Bengaluru, India; Mumbai, India": 1
     },
     "jobs_by_category": {
-      "general_pm": 250,
-      "uncategorized": 100,
-      "strategy": 67,
+      "Product Management": 396,
+      "Strategy": 124,
       "other": 57,
-      "product": 50,
-      "ops": 48,
-      "growth": 27,
+      "Growth": 31,
       "cross_border": 21,
-      "ai_product": 16,
-      "fintech": 12,
-      "senior_pm": 12,
+      "unknown": 17,
+      "Program Management": 14,
+      "Fintech": 12,
       "operations": 8,
       "gm": 6,
-      "product_management": 5,
       "platform": 3,
       "program": 2,
       "general_manager": 1,
+      "Cross-border/Platform": 1,
       "vc_pe": 1
     }
   },
-  "top_5_scored": [
+  "top_5_scored_jobs": [
     {
       "title": "Principal Product Manager (Singapore Based)",
       "company": "Agoda",
       "location": "Hong Kong",
       "quality_score": 100,
       "category": "general_pm",
-      "url": "https://hk.linkedin.com/jobs/view/principal-product-manager-singapore-based-at-agoda-4429535801",
-      "job_id": "59084d5f315e"
+      "job_id": "59084d5f315e",
+      "url": "https://hk.linkedin.com/jobs/view/principal-product-manager-singapore-based-at-agoda-4429535801"
     },
     {
       "title": "Head of Communications, APAC",
@@ -55,8 +71,8 @@
       "location": "Singapore",
       "quality_score": 93,
       "category": "general_pm",
-      "url": "https://stripe.com/jobs/search?gh_jid=7893199",
-      "job_id": ""
+      "job_id": "",
+      "url": "https://stripe.com/jobs/search?gh_jid=7893199"
     },
     {
       "title": "Senior Integration Reliability Engineer, Technical Operations",
@@ -64,8 +80,8 @@
       "location": "Singapore",
       "quality_score": 91,
       "category": "ops",
-      "url": "https://stripe.com/jobs/search?gh_jid=7457268",
-      "job_id": ""
+      "job_id": "",
+      "url": "https://stripe.com/jobs/search?gh_jid=7457268"
     },
     {
       "title": "Country Manager",
@@ -73,8 +89,8 @@
       "location": "Tokyo",
       "quality_score": 90,
       "category": "gm",
-      "url": "https://careers.datadoghq.com/detail/7975747/?gh_jid=7975747",
-      "job_id": "6d43b0be0641"
+      "job_id": "6d43b0be0641",
+      "url": "https://careers.datadoghq.com/detail/7975747/?gh_jid=7975747"
     },
     {
       "title": "Senior Strategy Project Manager, VIP/Institutions",
@@ -82,28 +98,25 @@
       "location": "Hong Kong",
       "quality_score": 90,
       "category": "strategy",
-      "url": "https://job-boards.greenhouse.io/okx/jobs/7739163003",
-      "job_id": "970f6d459177"
+      "job_id": "970f6d459177",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7739163003"
     }
   ],
   "category_counts": {
-    "general_pm": 250,
-    "uncategorized": 100,
-    "strategy": 67,
+    "Product Management": 396,
+    "Strategy": 124,
     "other": 57,
-    "product": 50,
-    "ops": 48,
-    "growth": 27,
+    "Growth": 31,
     "cross_border": 21,
-    "ai_product": 16,
-    "fintech": 12,
-    "senior_pm": 12,
+    "unknown": 17,
+    "Program Management": 14,
+    "Fintech": 12,
     "operations": 8,
     "gm": 6,
-    "product_management": 5,
     "platform": 3,
     "program": 2,
     "general_manager": 1,
+    "Cross-border/Platform": 1,
     "vc_pe": 1
   }
 }
