@@ -1,115 +1,95 @@
-#!/usr/bin/env python3
-"""Scan Greenhouse boards for target companies"""
 import json
 import urllib.request
-from datetime import datetime, timezone
 
-COMPANIES = {
-    "okx": "OKX",
-    "stripe": "Stripe",
-    "airwallex": "Airwallex",
-    "coupang": "Coupang",
-    "agoda": "Agoda",
-    "affirm": "Affirm",
-    "airbnb": "Airbnb",
-    "anthropic": "Anthropic",
-    "rippling": "Rippling",
-    "ramp": "Ramp",
-}
+companies = ['okx', 'stripe', 'coupang', 'flexport']
+existing_urls = set()
 
-existing_path = "/Users/iancolrick/.openclaw/workspace/OKComputer_职位搜索清单/jobs-all.json"
-with open(existing_path) as f:
-    existing_jobs = json.load(f)
+# Load existing jobs
+with open('/Users/iancolrick/.openclaw/workspace/OKComputer_职位搜索清单/jobs-all.json', 'r') as f:
+    existing = json.load(f)
+    for j in existing:
+        existing_urls.add(j.get('url', ''))
 
-existing_urls = set(j.get("url", "") for j in existing_jobs)
-existing_titles = set()
-for j in existing_jobs:
-    key = (j.get("company", ""), j.get("title", ""), j.get("url", ""))
-    existing_titles.add(key)
+print(f"Existing jobs: {len(existing)}")
 
 new_jobs = []
-keywords_pm = ["product manager", "product", "strategy", "bizops", "business operations",
-               "growth", "general manager", "commercial", "partnerships", "GM",
-               "head of", "senior manager", "lead", "director of product",
-               "marketplace", "monetization", "fintech", "cross-border"]
-keywords_skip = ["intern", "internship", "interns", "vice president", "managing director",
-                 "vp of", "c-level", "chief ", "staff engineer", "distinguished",
-                 "software engineer", "data engineer", "frontend", "backend", "devops",
-                 "designer", "recruiter", "recruiting", "talent acquisition",
-                 "legal counsel", "paralegal", "accountant"]
 
-for company_slug, company_name in COMPANIES.items():
-    url = f"https://boards-api.greenhouse.io/v1/boards/{company_slug}/jobs?content=true"
+for company in companies:
+    url = f"https://boards-api.greenhouse.io/v1/boards/{company}/jobs?content=true"
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read().decode())
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        resp = urllib.request.urlopen(req, timeout=20)
+        data = json.loads(resp.read())
+        jobs = data.get('jobs', [])
+        print(f"\n{company}: {len(jobs)} total jobs")
+        
+        company_new = 0
+        for j in jobs:
+            title = j.get('title', '')
+            location = j.get('location', {}).get('name', '')
+            updated = j.get('updated_at', '')
+            job_id = j.get('id', '')
+            job_url = f"https://boards.greenhouse.io/{company}/jobs/{job_id}"
+            
+            # Check alternate URL formats in existing
+            alt_url = j.get('absolute_url', '')
+            if job_url in existing_urls or alt_url in existing_urls:
+                continue
+            
+            # Also check by job ID pattern
+            id_found = False
+            for eu in existing_urls:
+                if str(job_id) in eu:
+                    id_found = True
+                    break
+            if id_found:
+                continue
+            
+            # Filter by location
+            loc_lower = location.lower()
+            is_target_loc = any(k in loc_lower for k in [
+                'shenzhen', 'hong kong', 'guangzhou', 'shanghai', 'singapore', 
+                'remote', 'asia', 'apac', 'china', 'hk', 'sg'
+            ])
+            
+            # Filter by title (PM, strategy, bizops, growth, GM)
+            title_lower = title.lower()
+            is_target_role = any(k in title_lower for k in [
+                'product manager', 'product director', 'product management',
+                'strategy', 'bizops', 'growth', 'general manager',
+                'business development', 'head of product', 'lead product',
+                'staff product', 'principal product', 'senior product',
+                'commercial', 'partnership', 'business operations'
+            ])
+            
+            # Skip Director/VP/Managing Director
+            skip_titles = ['vice president', 'managing director']
+            is_skip = any(k in title_lower for k in skip_titles)
+            
+            if is_target_loc and is_target_role and not is_skip:
+                company_new += 1
+                new_jobs.append({
+                    'title': title,
+                    'company': company.capitalize(),
+                    'location': location,
+                    'salary': 'Not listed',
+                    'url': job_url,
+                    'source': 'greenhouse_api',
+                    'role_type': 'Product Management',
+                    'scanned_date': '2026-07-23',
+                    'posted_date': updated
+                })
+                print(f"  NEW: {title} | {location} | {updated[:10] if updated else 'N/A'}")
+        
+        print(f"  ({company_new} new from {company})")
+                
     except Exception as e:
-        print(f"  ⚠ Failed to fetch {company_name}: {e}")
-        continue
+        print(f"  ERROR fetching {company}: {e}")
 
-    jobs = data.get("jobs", [])
-    print(f"  📋 {company_name}: {len(jobs)} total jobs")
-    found = 0
-
-    for job in jobs:
-        title = job.get("title", "")
-        location = job.get("location", {}).get("name", "")
-        job_id = job.get("id", "")
-        job_url = f"https://boards.greenhouse.io/{company_slug}/jobs/{job_id}#app"
-        posted_at = job.get("updated_at", job.get("created_at", ""))
-
-        title_lower = title.lower()
-
-        if any(skip in title_lower for skip in keywords_skip):
-            continue
-
-        is_match = any(kw in title_lower for kw in keywords_pm)
-
-        location_lower = location.lower()
-        apac_keywords = ["shenzhen", "hong kong", "hk", "guangzhou", "shanghai",
-                         "singapore", "bangkok", "tokyo", "seoul", "asia",
-                         "taipei", "malaysia", "indonesia", "philippines",
-                         "greater china", "apac", "asia pacific"]
-        is_apac = any(kw in location_lower for kw in apac_keywords)
-
-        if not is_match:
-            continue
-
-        if job_url in existing_urls:
-            continue
-        if (company_name, title, job_url) in existing_titles:
-            continue
-
-        found += 1
-        new_jobs.append({
-            "title": title,
-            "company": company_name,
-            "location": location,
-            "url": job_url,
-            "source": "greenhouse_api",
-            "salary": "Not listed",
-            "scanned_date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-            "posted_date": posted_at,
-            "quality_score": 75 if is_apac else 65,
-            "quality_tier": "B" if not is_apac else "A",
-            "grade": "B" if not is_apac else "A",
-            "english_friendly": True,
-            "platform": "Greenhouse",
-            "low_quality": False,
-        })
-
-    print(f"     → {found} new matching jobs")
-
-print(f"\n=== Total new jobs found: {len(new_jobs)} ===")
+print(f"\n--- TOTAL NEW JOBS FOUND: {len(new_jobs)} ---")
 for j in new_jobs:
-    apac = "⭐" if any(kw in j["location"].lower() for kw in ["shenzhen", "hong kong", "singapore", "guangzhou", "shanghai"]) else "  "
-    print(f"  {apac} {j['title']} @ {j['company']} | {j['location']}")
+    print(f"  {j['company']} | {j['title']} | {j['location']} | {j['url']}")
 
-if new_jobs:
-    existing_jobs.extend(new_jobs)
-    with open(existing_path, 'w', encoding='utf-8') as f:
-        json.dump(existing_jobs, f, indent=2, ensure_ascii=False)
-    print(f"\n✅ Saved {len(new_jobs)} new jobs to database (total: {len(existing_jobs)})")
-else:
-    print("\nℹ️  No new jobs to add")
+# Save to temp file
+with open('/Users/iancolrick/.openclaw/workspace/new_jobs_greenhouse.json', 'w') as f:
+    json.dump(new_jobs, f, indent=2, ensure_ascii=False)
