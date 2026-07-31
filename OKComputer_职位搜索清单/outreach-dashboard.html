@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Outreach Pipeline Dashboard</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0f172a;color:#e2e8f0;padding:16px}
+.header{text-align:center;padding:20px 0}
+.header h1{font-size:1.8rem;background:linear-gradient(135deg,#38bdf8,#818cf8);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.header .subtitle{color:#94a3b8;font-size:0.9rem;margin-top:4px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin:20px 0}
+.stat-card{background:#1e293b;border-radius:12px;padding:16px;text-align:center;border:1px solid #334155}
+.stat-card .num{font-size:2rem;font-weight:700;color:#38bdf8}
+.stat-card .label{font-size:0.7rem;color:#94a3b8;text-transform:uppercase;letter-spacing:1px;margin-top:4px}
+.stat-card.green .num{color:#4ade80}
+.stat-card.purple .num{color:#a78bfa}
+.stat-card.orange .num{color:#fb923c}
+.stat-card.pink .num{color:#f472b6}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0;align-items:center}
+.filters select,.filters input{background:#1e293b;border:1px solid #334155;color:#e2e8f0;padding:8px 12px;border-radius:8px;font-size:0.85rem}
+.filters input{flex:1;min-width:200px}
+.filters select{min-width:140px}
+.count{color:#94a3b8;font-size:0.85rem;margin:8px 0}
+table{width:100%;border-collapse:collapse;font-size:0.82rem}
+thead{position:sticky;top:0;z-index:10}
+th{background:#1e293b;padding:8px 10px;text-align:left;font-weight:600;color:#94a3b8;text-transform:uppercase;font-size:0.65rem;letter-spacing:1px;cursor:pointer;border-bottom:2px solid #334155;user-select:none}
+th:hover{color:#e2e8f0}
+th .arrow{margin-left:4px;font-size:0.6rem}
+td{padding:8px 10px;border-bottom:1px solid #1e293b;vertical-align:middle}
+tr:hover{background:#1e293b}
+.badge{display:inline-block;padding:3px 10px;border-radius:20px;font-size:0.65rem;font-weight:700;text-transform:uppercase}
+.badge-s{background:#3b0764;color:#c084fc;border:1px solid #6b21a8}
+.badge-a{background:#064e3b;color:#4ade80;border:1px solid #065f46}
+.badge-not_started{background:#334155;color:#94a3b8;border:1px solid #475569}
+.badge-in_progress{background:#422006;color:#fbbf24;border:1px solid #854d0e}
+.badge-contacted{background:#1e3a5f;color:#60a5fa;border:1px solid #1e40af}
+.badge-follow_up{background:#064e3b;color:#4ade80;border:1px solid #065f46}
+.priority-bar{height:6px;border-radius:3px;background:#334155;overflow:hidden;min-width:60px}
+.priority-fill{height:100%;border-radius:3px;transition:width 0.3s}
+a{color:#38bdf8;text-decoration:none}
+a:hover{text-decoration:underline}
+.grades{display:flex;flex-wrap:wrap;gap:3px}
+.grade-tag{display:inline-block;padding:2px 6px;border-radius:4px;font-size:0.6rem;font-weight:600}
+.grade-s{background:#3b0764;color:#c084fc}
+.grade-a{background:#064e3b;color:#4ade80}
+.grade-b{background:#422006;color:#fbbf24}
+.job-list{max-height:200px;overflow-y:auto;font-size:0.75rem;line-height:1.6}
+.job-item{padding:2px 0;border-bottom:1px solid #1e293b}
+.job-item:last-child{border:none}
+.expand-btn{background:none;border:none;color:#38bdf8;cursor:pointer;font-size:0.8rem;padding:2px 6px}
+.target-tag{display:inline-block;padding:1px 6px;border-radius:4px;font-size:0.6rem;background:#7c3aed;color:#ede9fe;margin-left:4px}
+.email-tag{display:inline-block;padding:1px 6px;border-radius:4px;font-size:0.6rem;background:#065f46;color:#86efac;margin-left:4px}
+.progress-ring{display:inline-flex;align-items:center;gap:4px}
+.ring{width:32px;height:32px;border-radius:50%;background:conic-gradient(#38bdf8 var(--pct),#334155 0);display:flex;align-items:center;justify-content:center;font-size:0.6rem;font-weight:700}
+.ring-inner{width:24px;height:24px;border-radius:50%;background:#0f172a;display:flex;align-items:center;justify-content:center}
+@media(max-width:768px){
+  table{font-size:0.7rem}
+  td,th{padding:5px 6px}
+  .stats{grid-template-columns:repeat(3,1fr)}
+  .hide-mobile{display:none}
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>🚀 Outreach Pipeline</h1>
+  <div class="subtitle">Generated: Friday, July 31, 2026 — Career OS CRM</div>
+</div>
+
+<div class="stats" id="statsRow"></div>
+
+<div class="filters">
+  <input type="text" id="searchBox" placeholder="🔍 Search company...">
+  <select id="statusFilter">
+    <option value="all">All Status</option>
+    <option value="not_started">Not Started</option>
+    <option value="in_progress">In Progress</option>
+    <option value="contacted">Contacted</option>
+    <option value="follow_up">Follow Up</option>
+  </select>
+  <select id="sortBy">
+    <option value="priority">Sort: Priority</option>
+    <option value="openings">Sort: Openings</option>
+    <option value="sgrade">Sort: S-Grade Count</option>
+    <option value="name">Sort: Name</option>
+  </select>
+</div>
+
+<div class="count" id="countLabel"></div>
+
+<table>
+<thead>
+<tr>
+  <th>#</th>
+  <th>Company</th>
+  <th>A/S Openings</th>
+  <th>Grades</th>
+  <th>Priority</th>
+  <th>Status</th>
+  <th>Next Action</th>
+  <th class="hide-mobile">Contacts</th>
+</tr>
+</thead>
+<tbody id="tableBody"></tbody>
+</table>
+
+<script>
+const DATA = [{"rank": 1, "company": "Coupang", "total_openings": 81, "s_count": 0, "a_count": 81, "grade_breakdown": "A×78, A-×3", "priority_score": 688, "is_target": true, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Coupang (Target Company)", "email": null, "role": "Director, Advertising Growth & Marketing; Director, Catalog Operations; +63 more"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Category growth Onsite Merchandiser", "grade": "A", "location": "Taipei, Taiwan", "role_type": ""}, {"title": "Group Product Manager (Retail Product)", "grade": "A", "location": "Seoul, South Korea", "role_type": ""}, {"title": "Group Product Manager – Settlement & Policies", "grade": "A", "location": "Seoul, South Korea", "role_type": ""}, {"title": "[Growth Engineering] Staff Back-end Engineer I", "grade": "A", "location": "Shanghai, China", "role_type": ""}, {"title": "[쿠팡] 로켓배송 프리미엄 카테고리 Growth PM", "grade": "A", "location": "Seoul, South Korea", "role_type": ""}]}, {"rank": 2, "company": "OKX", "total_openings": 52, "s_count": 0, "a_count": 52, "grade_breakdown": "A×48, A-×4", "priority_score": 456, "is_target": true, "has_email": false, "has_real_contact": false, "contacts": [{"name": "OKX (Target Company)", "email": null, "role": "15 open roles: BD/Partnerships, Growth, Product Management, Strategy/Ops"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Principal/Senior Product Manager, AI & Web3 Wallet", "grade": "A", "location": "Singapore, Singapore", "role_type": ""}, {"title": "Principal / Senior Product Manager, APAC Growth", "grade": "A", "location": "Hong Kong, Hong Kong SAR", "role_type": ""}, {"title": "Principal / Senior Product Manager, Latin America Growth", "grade": "A", "location": "Hong Kong, Hong Kong SAR", "role_type": ""}, {"title": "Senior Manager / Director, Growth Operation", "grade": "A", "location": "Hong Kong, Hong Kong SAR", "role_type": ""}, {"title": "Senior Growth Manager, SEA", "grade": "A", "location": "Singapore, Singapore", "role_type": ""}]}, {"rank": 3, "company": "Agoda", "total_openings": 36, "s_count": 0, "a_count": 36, "grade_breakdown": "A×35, A-×1", "priority_score": 328, "is_target": true, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Agoda (Target Company)", "email": null, "role": "Associate Director, People Services; Associate Director, Strategic Accounts; +37 more"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "AI and Automation Team Lead (Bangkok Based, Relocation Provided)", "grade": "A", "location": "Bangkok", "role_type": ""}, {"title": "Head of Global Communications (Bangkok-based)", "grade": "A", "location": "Bangkok", "role_type": ""}, {"title": "Platform Architect (Tax), FinTech (Bangkok based, Relocation provided)", "grade": "A", "location": "Bangkok, Thailand", "role_type": ""}, {"title": "Senior Manager, Receivables Strategy & Transformations (Bangkok Based - Relocation Provided)", "grade": "A", "location": "Bangkok", "role_type": ""}, {"title": "Senior Specialist, B2B Content Strategy & Insights (Bangkok Based, relocation provided)", "grade": "A", "location": "Bangkok", "role_type": ""}]}, {"rank": 4, "company": "ByteDance", "total_openings": 17, "s_count": 0, "a_count": 17, "grade_breakdown": "A×17", "priority_score": 211, "is_target": true, "has_email": true, "has_real_contact": true, "contacts": [{"name": "ByteDance (Target Company)", "email": null, "role": "4 open roles: Product Management, Strategy/Ops"}, {"name": "David Liu", "email": "david.liu@bytedance.com", "role": "Engineering Director"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Indonesia SME Strategy Leader - TikTok Shop", "grade": "A", "location": "深圳", "role_type": "strategy"}, {"title": "International Business Strategy PM - Monetization", "grade": "A", "location": "北京", "role_type": "product"}, {"title": "International Growth Operations Expert - Feishu", "grade": "A", "location": "深圳", "role_type": "growth"}, {"title": "Solutions Expert - Video Cloud", "grade": "A", "location": "Singapore", "role_type": "Product Management"}, {"title": "AI策略Product Manager - AI创新业务", "grade": "A", "location": "Shanghai", "role_type": "Product Management"}]}, {"rank": 5, "company": "Stripe", "total_openings": 8, "s_count": 2, "a_count": 6, "grade_breakdown": "S×2, A×4, A-×2", "priority_score": 104, "is_target": true, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Stripe (Target Company)", "email": null, "role": "11 open roles: Product Management, Program Management, Strategy/Ops"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Head of Market Intelligence, Product Marketing", "grade": "S", "location": "SF, Seattle, NYC, Chicago, Remote in the US", "role_type": "other"}, {"title": "Chief Compliance Officer (APAC)", "grade": "S", "location": "Singapore", "role_type": "other"}, {"title": "Full Stack Engineer, Growth", "grade": "A", "location": "Singapore", "role_type": ""}, {"title": "Head of Marketing, Southeast Asia", "grade": "A", "location": "Singapore", "role_type": ""}, {"title": "Head of Sales, Stripe Billing - APAC", "grade": "A", "location": "Singapore", "role_type": "gm"}]}, {"rank": 6, "company": "Tencent", "total_openings": 8, "s_count": 1, "a_count": 7, "grade_breakdown": "S×1, A×6, A-×1", "priority_score": 97, "is_target": true, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Tencent (Target Company)", "email": null, "role": "2 open roles: Product Management"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Senior Compute Product Architect", "grade": "S", "location": "Singapore", "role_type": ""}, {"title": "Strategic Investment Manager", "grade": "A", "location": "China-Shenzhen", "role_type": "strategy"}, {"title": "Senior Business Development Manager", "grade": "A", "location": "China-Shenzhen", "role_type": "bd"}, {"title": "Senior Strategy Manager", "grade": "A", "location": "Shanghai", "role_type": "Strategy/Ops"}, {"title": "Strategy Manager", "grade": "A", "location": "Shenzhen", "role_type": "Strategy"}]}, {"rank": 7, "company": "Anthropic", "total_openings": 4, "s_count": 0, "a_count": 4, "grade_breakdown": "A×4", "priority_score": 75, "is_target": false, "has_email": true, "has_real_contact": true, "contacts": [{"name": "Anthropic (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}, {"name": "Robert Kim", "email": "r.kim@anthropic.com", "role": "Research Engineer"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Head of APAC Accounting", "grade": "A", "location": "Singapore", "role_type": ""}, {"title": "Finance & Strategy, GTM - Korea", "grade": "A", "location": "Seoul, South Korea", "role_type": ""}, {"title": "Product Support Specialist (Singapore)", "grade": "A", "location": "Singapore", "role_type": ""}, {"title": "Product Support Specialist (Singapore - Weekend Coverage)", "grade": "A", "location": "Singapore", "role_type": ""}]}, {"rank": 8, "company": "Cloudflare", "total_openings": 4, "s_count": 3, "a_count": 1, "grade_breakdown": "S×3, A-×1", "priority_score": 71, "is_target": true, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Cloudflare (Target Company)", "email": null, "role": "Director of Talent Acquisition APJC; Principal People BP M&A; +4 more"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Director, Strategic Finance & Investor Relations", "grade": "S", "location": "Hybrid", "role_type": "strategy"}, {"title": "Principal Sales Operations & Strategy Manager - Renewals & Business Development Teams", "grade": "S", "location": "Hybrid", "role_type": "strategy"}, {"title": "Senior Director, GTM Intelligence", "grade": "S", "location": "Hybrid", "role_type": "gtm"}, {"title": "Senior Principal, Sales Compensation Design & Strategy", "grade": "A-", "location": "Remote", "role_type": "strategy"}]}, {"rank": 9, "company": "Gitlab", "total_openings": 5, "s_count": 2, "a_count": 3, "grade_breakdown": "S×2, A×2, A-×1", "priority_score": 64, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Gitlab (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Director, Strategic Partnerships", "grade": "S", "location": "Remote, US", "role_type": "strategy"}, {"title": "Senior Director, Field CTOs", "grade": "S", "location": "Remote, US", "role_type": "other"}, {"title": "Senior Manager, Business Development", "grade": "A", "location": "Remote, Germany; Remote, Ireland; Remote, Netherlands; Remote, United Kingdom", "role_type": "bd"}, {"title": "Senior Manager, Security Compliance", "grade": "A", "location": "Remote, US", "role_type": "other"}, {"title": "Director, Customer Experience Strategy", "grade": "A-", "location": "Remote, US", "role_type": "strategy"}]}, {"rank": 10, "company": "Affirm", "total_openings": 5, "s_count": 0, "a_count": 5, "grade_breakdown": "A×5", "priority_score": 60, "is_target": true, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Affirm (Target Company)", "email": null, "role": "Senior Product Manager; Staff Software Engineer; +2 more"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Director, Product Management (Shopping & Offers)", "grade": "A", "location": "Remote US", "role_type": "other"}, {"title": "Senior Manager MLRO, Compliance", "grade": "A", "location": "Remote UK", "role_type": "other"}, {"title": "Senior Product Manager, Credit & Pricing", "grade": "A", "location": "Remote Canada", "role_type": "product"}, {"title": "Director, Accounts Management", "grade": "A", "location": "Remote US", "role_type": "other"}, {"title": "Senior Product Manager, Capital", "grade": "A", "location": "Remote Canada", "role_type": "product"}]}, {"rank": 11, "company": "Airwallex", "total_openings": 2, "s_count": 0, "a_count": 2, "grade_breakdown": "A×1, A-×1", "priority_score": 55, "is_target": false, "has_email": true, "has_real_contact": true, "contacts": [{"name": "Airwallex (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}, {"name": "Emily Watson", "email": "emily.w@airwallex.com", "role": "Head of Product"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Senior Product Manager, Kai (AI assistant)", "grade": "A", "location": "Singapore", "role_type": "Product Management"}, {"title": "Director, Product Strategy", "grade": "A-", "location": "Singapore", "role_type": "Product Management"}]}, {"rank": 12, "company": "Meta", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A-×1", "priority_score": 45, "is_target": false, "has_email": true, "has_real_contact": true, "contacts": [{"name": "Meta (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}, {"name": "Thomas Anderson", "email": "t.anderson@meta.com", "role": "Research Scientist"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Director, Product Management - APAC Products", "grade": "A-", "location": "Singapore", "role_type": "Product Management"}]}, {"rank": 13, "company": "Instacart", "total_openings": 3, "s_count": 0, "a_count": 3, "grade_breakdown": "A×3", "priority_score": 40, "is_target": true, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Instacart (Target Company)", "email": null, "role": "7 open roles: Growth, Product Management, Program Management, Strategy/Ops"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Principal Product Manager, AI", "grade": "A", "location": "Remote", "role_type": "Product Management"}, {"title": "Senior Product Manager, AI", "grade": "A", "location": "Remote", "role_type": "Product Management"}, {"title": "Senior Technical Program Manager, Enterprise", "grade": "A", "location": "Remote", "role_type": "Program Management"}]}, {"rank": 14, "company": "Mercury", "total_openings": 3, "s_count": 0, "a_count": 3, "grade_breakdown": "A×3", "priority_score": 40, "is_target": true, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Mercury (Target Company)", "email": null, "role": "Deputy CISO - Bank; Head of TPM Banking; +4 more"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Head of Product - Business Lending", "grade": "A", "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States", "role_type": "other"}, {"title": "Senior Financial Partnerships Manager - Lending", "grade": "A", "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within United States", "role_type": "bd"}, {"title": "Senior Product Partnerships Manager - Payroll", "grade": "A", "location": "San Francisco, CA, New York, NY, Portland, OR, or Remote within United States", "role_type": "bd"}]}, {"rank": 15, "company": "Visa", "total_openings": 3, "s_count": 0, "a_count": 3, "grade_breakdown": "A-×3", "priority_score": 40, "is_target": true, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Visa (Target Company)", "email": null, "role": "2 open roles: BD/Partnerships, Strategy"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Director, Corporate Strategy - Asia Pacific", "grade": "A-", "location": "Singapore, Singapore", "role_type": "strategy"}, {"title": "Director, Account Executive, AP Fintech & Strategic Partners", "grade": "A-", "location": "Singapore", "role_type": "BD/Partnerships"}, {"title": "Senior Director, Corporate Strategy, Asia Pacific", "grade": "A-", "location": "Singapore", "role_type": "Strategy/Ops"}]}, {"rank": 16, "company": "Agoda", "total_openings": 3, "s_count": 0, "a_count": 3, "grade_breakdown": "A-×3", "priority_score": 40, "is_target": true, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Agoda (Target Company)", "email": null, "role": "Associate Director, People Services; Associate Director, Strategic Accounts; +37 more"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Manager/Senior Manager, Corporate Strategy (Bangkok Based)", "grade": "A-", "location": "Bangkok", "role_type": "strategy"}, {"title": "Senior Manager- Accounts Receivable Operations (Bangkok Based - Relocation Provided)", "grade": "A-", "location": "Bangkok", "role_type": "other"}, {"title": " Senior Manager, Business Strategy & Analytics (Strategic Partnerships) (Bangkok based)", "grade": "A-", "location": "Bangkok, Thailand", "role_type": "strategy"}]}, {"rank": 17, "company": "Pinterest", "total_openings": 3, "s_count": 1, "a_count": 2, "grade_breakdown": "S×1, A×2", "priority_score": 37, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Pinterest (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Director, Technical Program Management-Monetization", "grade": "S", "location": "San Francisco, CA, US; Remote, US", "role_type": "other"}, {"title": "Lead Client Account Manager - Greater China Region", "grade": "A", "location": "Singapore, SG", "role_type": "other"}, {"title": "Lead Client Partner - Greater China Region", "grade": "A", "location": "Singapore, SG", "role_type": "other"}]}, {"rank": 18, "company": "Toptal", "total_openings": 3, "s_count": 1, "a_count": 2, "grade_breakdown": "S×1, A×2", "priority_score": 37, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Toptal (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "VP Product - Singapore Remote", "grade": "S", "location": "Singapore", "role_type": "Product Management"}, {"title": "Head of Product", "grade": "A", "location": "Remote", "role_type": "Product Management"}, {"title": "Product Director - APAC", "grade": "A", "location": "Singapore", "role_type": "Product Management"}]}, {"rank": 19, "company": "Turing", "total_openings": 3, "s_count": 1, "a_count": 2, "grade_breakdown": "S×1, A×2", "priority_score": 37, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Turing (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "VP Product - Remote Global", "grade": "S", "location": "Remote", "role_type": "Product Management"}, {"title": "Head of Product", "grade": "A", "location": "Remote", "role_type": "Product Management"}, {"title": "Product Director - Remote", "grade": "A", "location": "Remote", "role_type": "Product Management"}]}, {"rank": 20, "company": "Remote", "total_openings": 2, "s_count": 1, "a_count": 1, "grade_breakdown": "S×1, A×1", "priority_score": 27, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Remote (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "VP Product - Singapore Remote", "grade": "S", "location": "Singapore", "role_type": "Product Management"}, {"title": "Product Director - APAC Remote", "grade": "A", "location": "Remote", "role_type": "Product Management"}]}, {"rank": 21, "company": "Amazon", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A-1×1", "priority_score": 20, "is_target": true, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Amazon (Target Company)", "email": null, "role": "2 open roles: Product Management"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Senior Product Manager - AI, Amazon Global Selling", "grade": "A-1", "location": "Shenzhen", "role_type": "Product Management"}]}, {"rank": 22, "company": "Flexport", "total_openings": 2, "s_count": 0, "a_count": 2, "grade_breakdown": "A×2", "priority_score": 20, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Flexport (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Staff Product Manager", "grade": "A", "location": "Hong Kong; Shanghai, China; Shenzhen, China", "role_type": "Product Management"}, {"title": "Senior Manager, Account Management", "grade": "A", "location": "Shanghai", "role_type": "BD/Partnerships"}]}, {"rank": 23, "company": "ShopBack", "total_openings": 2, "s_count": 0, "a_count": 2, "grade_breakdown": "A-×1, A-2×1", "priority_score": 20, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Senior Product Manager", "grade": "A-", "location": "Shenzhen", "role_type": "Product Management"}, {"title": "Senior / Product Manager - Deal Discovery & Checkout", "grade": "A-2", "location": "Shenzhen", "role_type": "Product Management"}]}, {"rank": 24, "company": "Airbnb", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A×1", "priority_score": 20, "is_target": true, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Airbnb (Target Company)", "email": null, "role": "Senior Product Manager; Staff Engineer; +2 more"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Senior Business Operations and Growth Lead", "grade": "A", "location": "Tokyo", "role_type": "Bizops"}]}, {"rank": 25, "company": "Arc.dev", "total_openings": 2, "s_count": 0, "a_count": 2, "grade_breakdown": "A×2", "priority_score": 20, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Arc.dev (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Head of Product - Remote", "grade": "A", "location": "Remote", "role_type": "Product Management"}, {"title": "Product Director - Remote Global | Arc", "grade": "A", "location": "Remote", "role_type": "Product Management"}]}, {"rank": 26, "company": "Arm中国", "total_openings": 2, "s_count": 0, "a_count": 2, "grade_breakdown": "A×2", "priority_score": 20, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Senior Product Manager (Edge, Robotics, AI)", "grade": "A", "location": "Shenzhen", "role_type": "Product Management"}, {"title": "Senior Product Manager (Neoverse)", "grade": "A", "location": "Shenzhen", "role_type": "Product Management"}]}, {"rank": 27, "company": "Coinbase", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A×1", "priority_score": 20, "is_target": true, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Coinbase (Target Company)", "email": null, "role": "9 open roles: Product Management, Program Management, Strategy/Ops"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Senior Litigation Paralegal", "grade": "A", "location": "Remote - USA", "role_type": "other"}]}, {"rank": 28, "company": "OKX", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A-×1", "priority_score": 20, "is_target": true, "has_email": false, "has_real_contact": false, "contacts": [{"name": "OKX (Target Company)", "email": null, "role": "15 open roles: BD/Partnerships, Growth, Product Management, Strategy/Ops"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "(Senior) Product Director, Local Growth", "grade": "A-", "location": "Singapore", "role_type": "Product Management"}]}, {"rank": 29, "company": "Twilio", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A-×1", "priority_score": 20, "is_target": true, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Twilio (Target Company)", "email": null, "role": "Director, Product Management (Flex); Director, EMEA Sales; +6 more"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Senior Manager, Talent Acquisition - GTM & Marketing, Americas", "grade": "A-", "location": "Remote - US", "role_type": "gtm"}]}, {"rank": 30, "company": "Okx", "total_openings": 2, "s_count": 0, "a_count": 2, "grade_breakdown": "A×2", "priority_score": 20, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Okx (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Senior Product Manager, Agent QA & Localization Quality", "grade": "A", "location": "Singapore, Singapore", "role_type": "unknown"}, {"title": "Senior Risk Manager, Trading (AI-Augmented Operations)", "grade": "A", "location": "Singapore, Singapore", "role_type": "unknown"}]}, {"rank": 31, "company": "Block", "total_openings": 1, "s_count": 1, "a_count": 0, "grade_breakdown": "S×1", "priority_score": 17, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Block (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Head of Channel Sales", "grade": "S", "location": "Melbourne, Australia", "role_type": "other"}]}, {"rank": 32, "company": "Vercel", "total_openings": 1, "s_count": 1, "a_count": 0, "grade_breakdown": "S×1", "priority_score": 17, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Vercel (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Director, Major Sales", "grade": "S", "location": "Hybrid - New York City", "role_type": "other"}]}, {"rank": 33, "company": "Amazon Global Selling", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A-1×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Senior Product Manager - AI", "grade": "A-1", "location": "Shenzhen", "role_type": "Product Management"}]}, {"rank": 34, "company": "Gemini (Crypto Exchange)", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A-1×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Director, Strategy (APAC)", "grade": "A-1", "location": "Singapore", "role_type": "Strategy/Ops"}]}, {"rank": 35, "company": "BNY", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A-2×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Director of Product Commercialization, APAC Lead", "grade": "A-2", "location": "Singapore", "role_type": "Product Management"}]}, {"rank": 36, "company": "Coins.xyz Brasil", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A-2×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Senior Product Manager(Card Issuing)", "grade": "A-2", "location": "Hong Kong", "role_type": "Product Management"}]}, {"rank": 37, "company": "Mastercard", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A-2×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Director, Product Management", "grade": "A-2", "location": "Singapore", "role_type": "Product Management"}]}, {"rank": 38, "company": "Wati", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A-2×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Staff/ Lead Product Manager", "grade": "A-2", "location": "Shenzhen", "role_type": "Product Management"}]}, {"rank": 39, "company": "Anchorage Digital", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A-×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "APAC Regional Lead, Stablecoin Solutions", "grade": "A-", "location": "Singapore", "role_type": "BD/Partnerships"}]}, {"rank": 40, "company": "Asiacloud", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Asiacloud (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Head of Product at AsiaCloud", "grade": "A", "location": "Hong Kong", "role_type": "Product Management"}]}, {"rank": 41, "company": "Aspire", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A-×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Senior Product Manager - Local Payments", "grade": "A-", "location": "Shenzhen", "role_type": "Product Management"}]}, {"rank": 42, "company": "Bybit", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A-×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Bybit (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Country Manager, Thailand", "grade": "A-", "location": "APAC - Remote", "role_type": "gm"}]}, {"rank": 43, "company": "Confidential", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A-×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Confidential (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Director, Product Strategy & Growth", "grade": "A-", "location": "Singapore", "role_type": "Product Management"}]}, {"rank": 44, "company": "Kong", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Kong (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Head of Product - Hong Kong", "grade": "A", "location": "Hong Kong", "role_type": "Product Management"}]}, {"rank": 45, "company": "Spotify", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A-×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Head, Markets Strategy & Operations APAC", "grade": "A-", "location": "Singapore", "role_type": "Strategy/Ops"}]}, {"rank": 46, "company": "Tencent (Level Infinite)", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [{"name": "Tencent (Level Infinite) (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Senior Strategy Manager", "grade": "A", "location": "Shanghai", "role_type": "Strategy"}]}, {"rank": 47, "company": "Wellington Management", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A-×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Director, Product Strategy, APAC", "grade": "A-", "location": "Singapore", "role_type": "Product Management"}]}, {"rank": 48, "company": "某深圳知名上市公司", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [{"name": "某深圳知名上市公司 (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Product Lead - AI Foundation LLM Products", "grade": "A", "location": "Shenzhen", "role_type": ""}]}, {"rank": 49, "company": "深圳纳欣科技有限公司", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A-×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "系统AI产品经理 (AI OS Product Manager)", "grade": "A-", "location": "深圳-福田区", "role_type": "Product Manager"}]}, {"rank": 50, "company": "猎头推荐-通信设备", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A-×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "产品经理Product Manager", "grade": "A-", "location": "深圳", "role_type": "Product Manager"}]}, {"rank": 51, "company": "美团", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [{"name": "美团 (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Delivery Strategy Product Manager - Meituan", "grade": "A", "location": "深圳", "role_type": "strategy"}]}, {"rank": 52, "company": "芯智控股", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [{"name": "芯智控股 (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Product Manager PM（展锐）", "grade": "A", "location": "深圳-南山区", "role_type": ""}]}, {"rank": 53, "company": "萌时科技", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Principal Product Manager - CPO Strategy & Special Projects", "grade": "A", "location": "Shenzhen", "role_type": "Product Management"}]}, {"rank": 54, "company": "赞德科技(深圳)有限公司", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [{"name": "赞德科技(深圳)有限公司 (Recruiting)", "email": null, "role": "Organization — Career Opportunities"}], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Senior Product Manager Product Manager (Banking)", "grade": "A", "location": "深圳-南山区", "role_type": ""}]}, {"rank": 55, "company": "金蝶 (Kingdee)", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "AI Product Manager - Kingdee (Listed HK 0268)", "grade": "A", "location": "Shenzhen", "role_type": "product"}]}, {"rank": 56, "company": "阿里巴巴 (Alibaba Cloud)", "total_openings": 1, "s_count": 0, "a_count": 1, "grade_breakdown": "A×1", "priority_score": 10, "is_target": false, "has_email": false, "has_real_contact": false, "contacts": [], "outreach_status": "not_started", "next_action": "Research company & prepare outreach template", "top_jobs": [{"title": "Alibaba Cloud - Global ISV Partner Development Expert", "grade": "A", "location": "Shenzhen", "role_type": "partnerships"}]}];
+
+function renderStats() {
+  const total = DATA.length;
+  const totalOpenings = DATA.reduce((s,e) => s + e.total_openings, 0);
+  const totalS = DATA.reduce((s,e) => s + e.s_count, 0);
+  const totalA = DATA.reduce((s,e) => s + e.a_count, 0);
+  const withEmail = DATA.filter(e => e.has_email).length;
+  const withTarget = DATA.filter(e => e.is_target).length;
+  const contacted = DATA.filter(e => e.outreach_status !== 'not_started').length;
+  const notStarted = DATA.filter(e => e.outreach_status === 'not_started').length;
+
+  document.getElementById('statsRow').innerHTML = `
+    <div class="stat-card"><div class="num">${total}</div><div class="label">Companies</div></div>
+    <div class="stat-card green"><div class="num">${totalOpenings}</div><div class="label">A/S Openings</div></div>
+    <div class="stat-card purple"><div class="num">${totalS}</div><div class="label">S-Grade</div></div>
+    <div class="stat-card orange"><div class="num">${totalA}</div><div class="label">A-Grade</div></div>
+    <div class="stat-card pink"><div class="num">${withEmail}</div><div class="label">Have Email</div></div>
+    <div class="stat-card"><div class="num">${withTarget}</div><div class="label">Target Companies</div></div>
+    <div class="stat-card green"><div class="num">${contacted}</div><div class="label">In Pipeline</div></div>
+    <div class="stat-card"><div class="num">${notStarted}</div><div class="label">Not Started</div></div>
+  `;
+}
+
+function gradeColor(g) {
+  if (g.startsWith('S')) return 'grade-s';
+  if (g.startsWith('A')) return 'grade-a';
+  return 'grade-b';
+}
+
+function priorityColor(score, max) {
+  const pct = Math.min(score / max * 100, 100);
+  if (pct > 75) return '#4ade80';
+  if (pct > 50) return '#fbbf24';
+  if (pct > 25) return '#f472b6';
+  return '#94a3b8';
+}
+
+function statusBadge(s) {
+  return `<span class="badge badge-${s}">${s.replace(/_/g,' ')}</span>`;
+}
+
+function expandJobs(idx) {
+  const el = document.getElementById('jobs-' + idx);
+  if (el.style.display === 'none') {
+    el.style.display = 'block';
+  } else {
+    el.style.display = 'none';
+  }
+}
+
+function renderTable(data) {
+  const maxPriority = Math.max(...data.map(e => e.priority_score));
+  const tbody = document.getElementById('tableBody');
+  tbody.innerHTML = data.map((e, i) => {
+    const gradesHtml = e.grade_breakdown.split(', ').map(g => {
+      const parts = g.split('×');
+      return `<span class="grade-tag ${gradeColor(parts[0])}">${g}</span>`;
+    }).join('');
+    
+    const jobsHtml = e.top_jobs.map(j => 
+      `<div class="job-item"><span class="grade-tag ${gradeColor(j.grade)}" style="margin-right:4px">${j.grade}</span>${j.title} <span style="color:#64748b">@ ${j.location}</span></div>`
+    ).join('');
+
+    const maxBar = Math.max(...data.map(x => x.priority_score));
+    const barPct = (e.priority_score / maxBar * 100).toFixed(0);
+    const barColor = priorityColor(e.priority_score, maxBar);
+
+    const contactsInfo = e.contacts.length > 0 
+      ? e.contacts.map(c => `${c.name}${c.email ? ' 📧' : ''}`).join('<br>')
+      : '<span style="color:#64748b">No contacts</span>';
+
+    return `<tr>
+      <td style="color:#64748b">${e.rank}</td>
+      <td>
+        <strong>${e.company}</strong>
+        ${e.is_target ? '<span class="target-tag">TARGET</span>' : ''}
+        ${e.has_email ? '<span class="email-tag">📧 HAS EMAIL</span>' : ''}
+        <br><span style="color:#64748b;font-size:0.7rem">${e.total_openings} A/S openings</span>
+      </td>
+      <td>
+        ${e.s_count > 0 ? `<span class="badge badge-s" style="margin-right:3px">S×${e.s_count}</span>` : ''}
+        <span class="badge badge-a">A×${e.a_count}</span>
+      </td>
+      <td><div class="grades">${gradesHtml}</div></td>
+      <td>
+        <div class="priority-bar"><div class="priority-fill" style="width:${barPct}%;background:${barColor}"></div></div>
+        <span style="font-size:0.7rem;color:#94a3b8">${e.priority_score}</span>
+      </td>
+      <td>${statusBadge(e.outreach_status)}</td>
+      <td style="font-size:0.75rem;color:#94a3b8;max-width:180px">${e.next_action}</td>
+      <td class="hide-mobile" style="font-size:0.75rem">${contactsInfo}</td>
+    </tr>
+    <tr id="jobs-${i}" style="display:none;background:#0c1322">
+      <td colspan="8">
+        <div style="padding:8px">
+          <strong style="color:#38bdf8">Top Openings:</strong>
+          <div class="job-list" style="margin-top:6px">${jobsHtml || 'No details'}</div>
+        </div>
+      </td>
+    </tr>`;
+  }).join('');
+}
+
+function applyFilters() {
+  const search = document.getElementById('searchBox').value.toLowerCase();
+  const status = document.getElementById('statusFilter').value;
+  const sortBy = document.getElementById('sortBy').value;
+
+  let filtered = DATA.filter(e => {
+    if (search && !e.company.toLowerCase().includes(search)) return false;
+    if (status !== 'all' && e.outreach_status !== status) return false;
+    return true;
+  });
+
+  if (sortBy === 'openings') filtered.sort((a,b) => b.total_openings - a.total_openings);
+  else if (sortBy === 'sgrade') filtered.sort((a,b) => b.s_count - a.s_count || b.a_count - a.a_count);
+  else if (sortBy === 'name') filtered.sort((a,b) => a.company.localeCompare(b.company));
+  else filtered.sort((a,b) => b.priority_score - a.priority_score);
+
+  document.getElementById('countLabel').textContent = `Showing ${filtered.length} of ${DATA.length} companies`;
+  renderTable(filtered);
+}
+
+renderStats();
+applyFilters();
+
+document.getElementById('searchBox').addEventListener('input', applyFilters);
+document.getElementById('statusFilter').addEventListener('change', applyFilters);
+document.getElementById('sortBy').addEventListener('change', applyFilters);
+</script>
+</body>
+</html>
