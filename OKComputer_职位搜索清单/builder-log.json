@@ -236,6 +236,21 @@
       "overall": 7.3,
       "improvement": "Dashboard rebuilt with scanned_date fallback for freshness stats (887 jobs had no posted_date). Freshness now shows 458 jobs in 7-30d range vs previously 0. Dashboard score 7→8.",
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-08-01T00:01:46.536358",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 7,
+        "coverage": 7
+      },
+      "overall": 7.6,
+      "improvement": "CRM enriched: 8 contacts linked to applications with statuses (prospect/expired/prepared), 7 follow-up dates set. New enrich-crm.py script for ongoing cross-referencing. Dashboard regenerated.",
+      "subagent": null
     }
   ]
 }

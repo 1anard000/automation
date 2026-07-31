@@ -29,11 +29,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 76,
@@ -79,11 +80,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 3 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 50,
@@ -128,11 +130,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 25 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 42,
@@ -179,11 +182,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 105 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 46,
@@ -228,11 +232,12 @@
         "grade": "B"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 22 open positions",
-    "priority": "medium"
+    "priority": "medium",
+    "status": "prospect"
   },
   {
     "id": 53,
@@ -254,7 +259,7 @@
     "apac_relevant": false,
     "follow_up_needed": false,
     "follow_up_action": null,
-    "follow_up_date": null,
+    "follow_up_date": "2026-06-14",
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 50,
@@ -263,7 +268,7 @@
     "relationship_score": 40,
     "company_domain": "airwallex.com",
     "last_seen": "2026-07-04",
-    "matching_jobs": 15,
+    "matching_jobs": 5,
     "top_jobs": [
       {
         "title": "Senior Product Manager, Kai (AI assistant)",
@@ -278,11 +283,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "expired",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 15 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "expired"
   },
   {
     "id": 3,
@@ -303,7 +309,7 @@
     "apac_relevant": false,
     "follow_up_needed": false,
     "follow_up_action": null,
-    "follow_up_date": null,
+    "follow_up_date": "2026-06-14",
     "_source": "crm-db",
     "_priority": "medium",
     "_health_score": 29,
@@ -312,13 +318,14 @@
     "relationship_score": 60,
     "company_domain": "airwallex.com",
     "last_seen": "2026-06-15",
-    "matching_jobs": 0,
+    "matching_jobs": 5,
     "top_jobs": [],
-    "application_status": "researching",
+    "application_status": "expired",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "expired"
   },
   {
     "id": 160,
@@ -350,11 +357,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 26,
@@ -384,11 +392,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 77,
@@ -421,11 +430,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 27,
@@ -466,11 +476,12 @@
         "grade": "A-1"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 2 open positions",
-    "priority": "medium"
+    "priority": "medium",
+    "status": "prospect"
   },
   {
     "id": 185,
@@ -502,11 +513,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 78,
@@ -539,11 +551,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 54,
@@ -589,11 +602,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 94 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 6,
@@ -623,11 +637,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "researching",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 55,
@@ -669,11 +684,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 2 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 56,
@@ -711,11 +727,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "medium"
+    "priority": "medium",
+    "status": "prospect"
   },
   {
     "id": 79,
@@ -748,11 +765,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 161,
@@ -784,11 +802,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 80,
@@ -821,11 +840,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 162,
@@ -857,11 +877,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 18,
@@ -891,11 +912,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 15,
@@ -927,11 +949,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 163,
@@ -963,11 +986,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 186,
@@ -999,11 +1023,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 187,
@@ -1048,11 +1073,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 4 open positions",
-    "priority": "medium"
+    "priority": "medium",
+    "status": "prospect"
   },
   {
     "id": 154,
@@ -1098,11 +1124,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 4 open positions",
-    "priority": "medium"
+    "priority": "medium",
+    "status": "prospect"
   },
   {
     "id": 57,
@@ -1148,11 +1175,12 @@
         "grade": "B"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 4 open positions",
-    "priority": "medium"
+    "priority": "medium",
+    "status": "prospect"
   },
   {
     "id": 16,
@@ -1197,11 +1225,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 35 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 4,
@@ -1233,11 +1262,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "researching",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 28,
@@ -1267,13 +1297,14 @@
     "relationship_score": 10,
     "company_domain": "casetify.com",
     "last_seen": "2026-06-15",
-    "matching_jobs": 0,
+    "matching_jobs": 2,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prepared",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prepared"
   },
   {
     "id": 188,
@@ -1305,11 +1336,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 58,
@@ -1342,11 +1374,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 81,
@@ -1379,11 +1412,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 29,
@@ -1415,11 +1449,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 44,
@@ -1466,11 +1501,12 @@
         "grade": "S"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 6 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 13,
@@ -1515,11 +1551,12 @@
         "grade": "B"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 25 open positions",
-    "priority": "medium"
+    "priority": "medium",
+    "status": "prospect"
   },
   {
     "id": 30,
@@ -1549,11 +1586,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 82,
@@ -1591,11 +1629,12 @@
         "grade": "A-"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "medium"
+    "priority": "medium",
+    "status": "prospect"
   },
   {
     "id": 41,
@@ -1641,11 +1680,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 105 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 22,
@@ -1677,11 +1717,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 40,
@@ -1713,11 +1754,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 83,
@@ -1750,11 +1792,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 84,
@@ -1787,11 +1830,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 47,
@@ -1837,11 +1881,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 3 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 48,
@@ -1886,11 +1931,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 4 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 85,
@@ -1923,11 +1969,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 155,
@@ -1960,11 +2007,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 86,
@@ -1997,11 +2045,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 87,
@@ -2034,11 +2083,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 88,
@@ -2084,11 +2134,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 5 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 89,
@@ -2121,11 +2172,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 31,
@@ -2157,11 +2209,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 189,
@@ -2198,11 +2251,12 @@
         "grade": "B"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 59,
@@ -2248,11 +2302,12 @@
         "grade": "A-"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 4 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 190,
@@ -2284,11 +2339,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 19,
@@ -2309,7 +2365,7 @@
     "apac_relevant": false,
     "follow_up_needed": false,
     "follow_up_action": null,
-    "follow_up_date": null,
+    "follow_up_date": "2026-06-14",
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
@@ -2318,13 +2374,14 @@
     "relationship_score": 10,
     "company_domain": "gehealthcare.com",
     "last_seen": "2026-06-15",
-    "matching_jobs": 0,
+    "matching_jobs": 3,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "expired",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "expired"
   },
   {
     "id": 90,
@@ -2357,11 +2414,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 91,
@@ -2394,11 +2452,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 164,
@@ -2430,11 +2489,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 92,
@@ -2467,11 +2527,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 156,
@@ -2513,11 +2574,12 @@
         "grade": "B"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 2 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 60,
@@ -2563,11 +2625,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 11 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 7,
@@ -2597,11 +2660,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "researching",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 23,
@@ -2633,11 +2697,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 52,
@@ -2674,11 +2739,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 49,
@@ -2723,11 +2789,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 5 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 191,
@@ -2759,11 +2826,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 17,
@@ -2795,11 +2863,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 32,
@@ -2820,7 +2889,7 @@
     "apac_relevant": false,
     "follow_up_needed": false,
     "follow_up_action": null,
-    "follow_up_date": null,
+    "follow_up_date": "2026-06-14",
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
@@ -2829,13 +2898,14 @@
     "relationship_score": 10,
     "company_domain": "hsbc.com",
     "last_seen": "2026-06-15",
-    "matching_jobs": 0,
+    "matching_jobs": 1,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "expired",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "expired"
   },
   {
     "id": 165,
@@ -2867,11 +2937,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 33,
@@ -2901,11 +2972,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 93,
@@ -2938,11 +3010,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 94,
@@ -2975,11 +3048,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 192,
@@ -3011,11 +3085,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 14,
@@ -3060,11 +3135,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 12 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 166,
@@ -3096,11 +3172,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 20,
@@ -3130,11 +3207,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 95,
@@ -3167,11 +3245,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 61,
@@ -3204,11 +3283,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 62,
@@ -3246,11 +3326,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "medium"
+    "priority": "medium",
+    "status": "prospect"
   },
   {
     "id": 96,
@@ -3283,11 +3364,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 97,
@@ -3320,11 +3402,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 193,
@@ -3361,11 +3444,12 @@
         "grade": "B"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 98,
@@ -3398,11 +3482,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 194,
@@ -3434,11 +3519,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 45,
@@ -3484,11 +3570,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 15 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 99,
@@ -3526,11 +3613,12 @@
         "grade": "A-"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "medium"
+    "priority": "medium",
+    "status": "prospect"
   },
   {
     "id": 8,
@@ -3560,11 +3648,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "researching",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 100,
@@ -3602,11 +3691,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 63,
@@ -3639,11 +3729,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 101,
@@ -3676,11 +3767,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 64,
@@ -3713,11 +3805,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 1,
@@ -3750,11 +3843,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "researching",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 195,
@@ -3791,11 +3885,12 @@
         "grade": "B"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 65,
@@ -3833,11 +3928,12 @@
         "grade": "B"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 66,
@@ -3870,11 +3966,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 11,
@@ -3919,11 +4016,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 114 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 67,
@@ -3965,11 +4063,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 2 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 2,
@@ -3990,7 +4089,7 @@
     "apac_relevant": false,
     "follow_up_needed": false,
     "follow_up_action": null,
-    "follow_up_date": null,
+    "follow_up_date": "2026-06-14",
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 100,
@@ -3999,13 +4098,14 @@
     "relationship_score": 60,
     "company_domain": "openai.com",
     "last_seen": "2026-06-15",
-    "matching_jobs": 0,
+    "matching_jobs": 7,
     "top_jobs": [],
-    "application_status": "researching",
+    "application_status": "expired",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "expired"
   },
   {
     "id": 167,
@@ -4037,11 +4137,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 102,
@@ -4074,11 +4175,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 103,
@@ -4116,11 +4218,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 104,
@@ -4158,11 +4261,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 34,
@@ -4183,7 +4287,7 @@
     "apac_relevant": false,
     "follow_up_needed": false,
     "follow_up_action": null,
-    "follow_up_date": null,
+    "follow_up_date": "2026-06-14",
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
@@ -4199,11 +4303,12 @@
         "grade": "B"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "expired",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "expired"
   },
   {
     "id": 105,
@@ -4236,11 +4341,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 196,
@@ -4285,11 +4391,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 8 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 168,
@@ -4321,11 +4428,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 106,
@@ -4358,11 +4466,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 107,
@@ -4395,11 +4504,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 108,
@@ -4432,11 +4542,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 109,
@@ -4469,11 +4580,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 169,
@@ -4505,11 +4617,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 68,
@@ -4542,11 +4655,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 110,
@@ -4579,11 +4693,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 111,
@@ -4621,11 +4736,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 170,
@@ -4662,11 +4778,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 24,
@@ -4703,11 +4820,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 69,
@@ -4749,11 +4867,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 2 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 112,
@@ -4786,11 +4905,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 113,
@@ -4823,11 +4943,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 114,
@@ -4860,11 +4981,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 9,
@@ -4896,11 +5018,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "researching",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 171,
@@ -4945,11 +5068,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 7 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 35,
@@ -4990,11 +5114,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 2 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 12,
@@ -5039,11 +5164,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 147 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 172,
@@ -5075,11 +5201,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 36,
@@ -5124,11 +5251,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 28 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 70,
@@ -5174,11 +5302,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 28 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 5,
@@ -5210,11 +5339,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "researching",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 115,
@@ -5247,11 +5377,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 71,
@@ -5289,11 +5420,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 72,
@@ -5339,11 +5471,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 3 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 116,
@@ -5376,11 +5509,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 117,
@@ -5413,11 +5547,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 73,
@@ -5463,11 +5598,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 3 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 43,
@@ -5513,11 +5649,12 @@
         "grade": "B"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 19 open positions",
-    "priority": "medium"
+    "priority": "medium",
+    "status": "prospect"
   },
   {
     "id": 157,
@@ -5563,11 +5700,12 @@
         "grade": "B"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 4 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 173,
@@ -5612,11 +5750,12 @@
         "grade": "B"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 4 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 118,
@@ -5649,11 +5788,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 119,
@@ -5695,11 +5835,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 2 open positions",
-    "priority": "medium"
+    "priority": "medium",
+    "status": "prospect"
   },
   {
     "id": 120,
@@ -5732,11 +5873,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 37,
@@ -5781,11 +5923,12 @@
         "grade": "A-"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 3 open positions",
-    "priority": "high"
+    "priority": "high",
+    "status": "prospect"
   },
   {
     "id": 121,
@@ -5818,11 +5961,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 38,
@@ -5854,11 +5998,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 122,
@@ -5891,11 +6036,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 123,
@@ -5928,11 +6074,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 51,
@@ -5977,11 +6124,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 3 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 10,
@@ -6011,11 +6159,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "researching",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 124,
@@ -6048,11 +6197,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 125,
@@ -6085,11 +6235,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 126,
@@ -6122,11 +6273,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 39,
@@ -6147,7 +6299,7 @@
     "apac_relevant": false,
     "follow_up_needed": false,
     "follow_up_action": null,
-    "follow_up_date": null,
+    "follow_up_date": "2026-06-14",
     "_source": "crm-db",
     "_priority": "high",
     "_health_score": 20,
@@ -6156,13 +6308,14 @@
     "relationship_score": 10,
     "company_domain": "thelegogroup.com",
     "last_seen": "2026-06-15",
-    "matching_jobs": 0,
+    "matching_jobs": 1,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "expired",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "expired"
   },
   {
     "id": 127,
@@ -6195,11 +6348,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 128,
@@ -6232,11 +6386,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 129,
@@ -6269,11 +6424,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 130,
@@ -6306,11 +6462,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 131,
@@ -6343,11 +6500,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 206,
@@ -6380,11 +6538,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 174,
@@ -6416,11 +6575,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 175,
@@ -6457,11 +6617,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 205,
@@ -6494,11 +6655,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 132,
@@ -6531,11 +6693,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 133,
@@ -6568,11 +6731,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 202,
@@ -6605,11 +6769,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 200,
@@ -6642,11 +6807,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 201,
@@ -6679,11 +6845,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 203,
@@ -6716,11 +6883,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 134,
@@ -6753,11 +6921,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 176,
@@ -6789,11 +6958,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 135,
@@ -6826,11 +6996,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 177,
@@ -6867,11 +7038,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 136,
@@ -6904,11 +7076,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 137,
@@ -6941,11 +7114,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 178,
@@ -6977,11 +7151,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 138,
@@ -7014,11 +7189,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 139,
@@ -7051,11 +7227,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 140,
@@ -7088,11 +7265,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 197,
@@ -7130,11 +7308,12 @@
         "grade": "B"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 158,
@@ -7167,11 +7346,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 141,
@@ -7204,11 +7384,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 142,
@@ -7241,11 +7422,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 198,
@@ -7283,11 +7465,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "medium"
+    "priority": "medium",
+    "status": "prospect"
   },
   {
     "id": 159,
@@ -7325,11 +7508,12 @@
         "grade": "B"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 179,
@@ -7366,11 +7550,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 199,
@@ -7402,11 +7587,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 143,
@@ -7439,11 +7625,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 144,
@@ -7476,11 +7663,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 145,
@@ -7513,11 +7701,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 146,
@@ -7550,11 +7739,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 147,
@@ -7587,11 +7777,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 148,
@@ -7629,11 +7820,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "medium"
+    "priority": "medium",
+    "status": "prospect"
   },
   {
     "id": 149,
@@ -7666,11 +7858,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 150,
@@ -7703,11 +7896,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 180,
@@ -7744,11 +7938,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 74,
@@ -7786,11 +7981,12 @@
         "grade": "A"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 1 open positions",
-    "priority": "medium"
+    "priority": "medium",
+    "status": "prospect"
   },
   {
     "id": 204,
@@ -7823,11 +8019,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 151,
@@ -7860,11 +8057,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 75,
@@ -7897,11 +8095,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 181,
@@ -7942,11 +8141,12 @@
         "grade": "C"
       }
     ],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "Review 2 open positions",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 182,
@@ -7978,11 +8178,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 21,
@@ -8014,11 +8215,12 @@
     "last_seen": "2026-06-15",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 183,
@@ -8050,11 +8252,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 184,
@@ -8086,11 +8289,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 152,
@@ -8123,11 +8327,12 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   },
   {
     "id": 153,
@@ -8160,10 +8365,11 @@
     "last_seen": "2026-07-04",
     "matching_jobs": 0,
     "top_jobs": [],
-    "application_status": "not_applied",
+    "application_status": "prospect",
     "applied_date": null,
     "last_followup": null,
     "next_action": "No active openings",
-    "priority": "low"
+    "priority": "low",
+    "status": "prospect"
   }
 ]
