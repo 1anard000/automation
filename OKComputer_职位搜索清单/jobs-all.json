@@ -18075,5 +18075,61 @@
     "status": "not_applied",
     "status_date": "2026-07-05",
     "scanned_date": "2026-07-22"
+  },
+  {
+    "title": "Growth Marketing Manager, Greater China",
+    "company": "Stripe",
+    "location": "Singapore",
+    "url": "https://stripe.com/jobs/search?gh_jid=8078168",
+    "source": "greenhouse_stripe",
+    "salary": "Not listed",
+    "scanned_date": "2026-08-01",
+    "status": "not_applied",
+    "status_date": "2026-08-01",
+    "quality_score": 65,
+    "quality_tier": "B",
+    "grade": "B"
+  },
+  {
+    "title": "Head of Self-Serve Paid Media",
+    "company": "Stripe",
+    "location": "San Francisco, New York, Seattle, Chicago, Atlanta, Remote in the US, Toronto, Remote in Canada",
+    "url": "https://stripe.com/jobs/search?gh_jid=8068521",
+    "source": "greenhouse_stripe",
+    "salary": "Not listed",
+    "scanned_date": "2026-08-01",
+    "status": "not_applied",
+    "status_date": "2026-08-01",
+    "quality_score": 65,
+    "quality_tier": "B",
+    "grade": "B"
+  },
+  {
+    "title": "Product Marketing Manager, Startup Segment",
+    "company": "Stripe",
+    "location": "San Francisco, Seattle, NYC, Chicago, Remote in the US, Toronto",
+    "url": "https://stripe.com/jobs/search?gh_jid=8097731",
+    "source": "greenhouse_stripe",
+    "salary": "Not listed",
+    "scanned_date": "2026-08-01",
+    "status": "not_applied",
+    "status_date": "2026-08-01",
+    "quality_score": 65,
+    "quality_tier": "B",
+    "grade": "B"
+  },
+  {
+    "title": "Product Strategy & Operations APAC",
+    "company": "Stripe",
+    "location": "Singapore",
+    "url": "https://stripe.com/jobs/search?gh_jid=8081423",
+    "source": "greenhouse_stripe",
+    "salary": "Not listed",
+    "scanned_date": "2026-08-01",
+    "status": "not_applied",
+    "status_date": "2026-08-01",
+    "quality_score": 65,
+    "quality_tier": "B",
+    "grade": "B"
   }
 ]
