@@ -53,7 +53,7 @@ def build_html(jobs):
     fresh_30d = 0
     stale_count = 0
     for j in jobs:
-        d = j.get('date_posted') or j.get('posted_date')
+        d = j.get('date_posted') or j.get('posted_date') or j.get('scanned_date')
         if d:
             try:
                 dt = datetime.fromisoformat(d.replace('Z', '+00:00'))
@@ -245,7 +245,7 @@ function renderTable(data) {{
     const enTitle = j.en_title ? `<div class="en-title">${{j.en_title}}</div>` : '';
     // Date posted with freshness indicator
     let dateHtml = '—';
-    const dp = j.date_posted || j.posted_date;
+    const dp = j.date_posted || j.posted_date || j.scanned_date;
     if (dp) {{
       try {{
         const dt = new Date(dp);
@@ -319,7 +319,7 @@ function sortTable(col) {{
   jobs.sort((a,b) => {{
     let va = a[keys[col]] || '', vb = b[keys[col]] || '';
     if (col === 0) {{ va = order[va]||9; vb = order[vb]||9; }}
-    if (col === 4 && keys[col] === 'date_posted') {{ va = a.date_posted||a.posted_date||''; vb = b.date_posted||b.posted_date||''; }}
+    if (col === 4 && keys[col] === 'date_posted') {{ va = a.date_posted||a.posted_date||a.scanned_date||''; vb = b.date_posted||b.posted_date||b.scanned_date||''; }}
     if (va < vb) return sortAsc ? -1 : 1;
     if (va > vb) return sortAsc ? 1 : -1;
     return 0;

@@ -221,6 +221,21 @@
       "overall": 7.1,
       "improvement": "CRM actionable: added application_status, priority, next_action, and job matching to all 206 contacts. 22 high-priority companies identified (2+ A/S grade openings). CRM score 3→5.",
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-07-31T21:07:04.474272+08:00",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 5,
+        "automation": 7,
+        "coverage": 7
+      },
+      "overall": 7.3,
+      "improvement": "Dashboard rebuilt with scanned_date fallback for freshness stats (887 jobs had no posted_date). Freshness now shows 458 jobs in 7-30d range vs previously 0. Dashboard score 7→8.",
+      "subagent": "nightly-improver"
     }
   ]
 }
