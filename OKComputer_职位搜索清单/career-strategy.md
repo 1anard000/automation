@@ -1,54 +1,54 @@
 # 📊 Weekly Career Strategy Intelligence
-**Generated:** Wednesday, July 22, 2026 12:00 AM CST
-**Coverage period:** Week of July 14 – July 22, 2026
-**Data source:** jobs-all.json (1,196 positions)
-**Previous report:** July 20 (1,372 positions)
+**Generated:** Friday, July 31, 2026 9:08 PM CST
+**Coverage period:** Week of July 28 – August 1, 2026
+**Data source:** jobs-all.json (1,016 positions)
+**Previous report:** July 22 (1,196 positions)
 
-> ⚠️ Web search blocked by DuckDuckGo bot detection this cycle. Market intelligence derived from database analysis + domain knowledge. Salary benchmarks and external market signals based on known data points.
+> ⚠️ Web search services unavailable this cycle. Market intelligence derived from database analysis + domain knowledge. Salary benchmarks and external market signals based on known data points.
 
 ---
 
 ## 📊 Market Pulse
 
-### Database Snapshot (July 22)
+### Database Snapshot (July 31)
 
-| Metric | Value | Notes |
-|--------|-------|-------|
-| Total tracked roles | 1,196 | Down 176 WoW (stale job purge) |
-| A-1 roles | 2 | Circle + Gemini Director roles (Singapore) |
-| A-tier roles | 513 | Senior/lead/director level |
-| B-tier roles | 567 | Mid-senior level |
-| English-friendly | 988 (72%) | Strong for international candidates |
-| Roles in target cities | 267 | English-friendly + senior in SG/HK/SZ/SH/Bangkok |
+| Metric | Value | Change | Notes |
+|--------|-------|--------|-------|
+| Total tracked roles | 1,016 | ↓180 | Stale roles pruned; still massive pipeline |
+| A-1 roles | 3 | ↑1 | New Amazon Global Selling AI PM (SZ) |
+| A-tier roles | 233 | ↓80 | Quality filter tightened |
+| B-tier roles | 466 | ↓101 | |
+| English-friendly | ~72% | — | Stable |
+| Roles in target cities | ~280+ | — | SG/HK/SZ/SH + Bangkok |
 
-### Sector Heat Map (July 20)
+### Sector Heat Map (July 31)
 
 | Sector | Est. Roles | Key Employers | Heat | Fit |
 |--------|-----------|---------------|------|-----|
-| 🔥 **Crypto/Web3** | ~380 | OKX (139), Circle, Gemini | 🔥🔥🔥 | ✅ **#1 hiring sector** — massive OKX volume |
-| 🔥 **Travel/Marketplace** | ~240 | Agoda (92), Airbnb, Booking | 🔥🔥🔥 | ✅ **#2 — Agoda is APAC hiring machine** |
-| 🔥 **Cross-border E-commerce** | ~200 | Coupang (160), ByteDance | 🔥🔥 | ✅ Core strength — Coupang dominates Seoul |
-| 🔵 **Cross-border Payments/Fintech** | ~150 | Stripe (11), Affirm (58 remote), Payoneer, Xendit | 🔥🔥 | ✅ Strong — Stripe, Affirm, Thunes |
-| 🔵 **AI/ML Product** | ~100 | Anthropic (5), ByteDance (30), Agoda AI | 🔥🔥 | ✅ **Growing fast** — AI PM roles emerging |
-| 🟡 **Enterprise SaaS** | ~70 | Datadog (9), MongoDB (5), Databricks (7) | 🔵 | ⚠️ Limited APAC senior roles |
+| 🔥 **Crypto/Web3** | ~280+ | OKX (151), Coinbase (25), Gemini | 🔥🔥🔥 | ✅ **#1 — still dominant** |
+| 🔥 **Travel/Marketplace** | ~125 | Agoda (105+), Airbnb (22) | 🔥🔥 | ✅ Agoda expanding Bangkok/SG |
+| 🔥 **Cross-border E-commerce** | ~180 | Coupang (105), Flexport, ShopBack | 🔥🔥 | ✅ Coupang still massive (Seoul focus) |
+| 🔵 **Cross-border Payments/Fintech** | ~175 | Stripe (148), Airwallex (15), Affirm (25 remote) | 🔥🔥 | ✅ **Stripe surging — 148 roles!** |
+| 🔵 **AI/ML Product** | ~130 | Anthropic (94), ByteDance (35), Tencent (29) | 🔥🔥🔥 | ✅ **Anthropic explosion — 94 roles!** |
+| 🟡 **Enterprise SaaS** | ~60 | Datadog, MongoDB, Databricks | 🔵 | ⚠️ Limited APAC senior roles |
 
 ### What's Hot This Week
 
-1. **OKX at 139 roles** — Still the dominant employer. PM/Director roles across trading, payments, AI, compliance, growth. Singapore and Hong Kong both strong.
+1. **Stripe at 148 roles** — Massive jump from 11 last week. Singapore is a key hub. Multiple senior PM/Head roles including Head of Sales (Stripe Billing) APAC and Account Executive Cross Border China.
 
-2. **Agoda at 92 roles** — The APAC travel play. Fintech, strategic partnerships, supply analytics, product management. Bangkok-centric but strong Shanghai/SG optionality.
+2. **Anthropic at 94 roles** — Explosion in hiring. Head of APAC Accounting (Singapore), Commercial Counsel (APAC), plus multiple US-based roles. AI company establishing APAC presence — signals regional expansion.
 
-3. **Coupang at 160 roles** — Seoul-dominated but massive. If willing to consider Seoul, this is the single biggest opportunity pool.
+3. **OKX at 151 roles** — Still the single largest employer. 60+ PM/Director-level roles across Singapore and Hong Kong. AI + crypto intersection remains the hottest product category.
 
-4. **Stripe surging** — 11 roles in Singapore, including Account Executive Cross Border China ($218K-328K OTE). Cross-border China focus = perfect domain fit.
+4. **Amazon Global Selling A-1** — New Senior Product Manager - AI role in Shenzhen. This is THE cross-border + AI combo role. Posted 18 hours ago at last scan — apply immediately.
 
-5. **Anthropic expanding APAC** — 5 roles including Commercial Counsel (SG), Head of APAC Accounting (SG). AI company establishing regional presence.
+5. **Coupang expanding Taipei** — Multiple Senior PM roles in Taipei (retail, growth, selection). If open to Taiwan, this is a new frontier.
 
 ### What's Cooling
 
-- **Coinbase** — Zero A-1 roles. Junior/mid only.
-- **Remote US roles** — Affirm (58 roles) but all remote US/Canada/UK. No APAC presence.
-- **Bangkok (non-Agoda)** — 127 total roles but concentrated at Agoda. Limited other employers.
+- **Coinbase** — 25 roles but almost entirely engineering/operations. Zero PM Director-level in APAC.
+- **Affirm** — 25 roles but all remote US/Canada/UK. No APAC presence.
+- **Airwallex** — 15 roles but heavily weighted to C-grade. Limited senior product roles.
 
 ---
 
@@ -58,36 +58,36 @@
 
 | # | Company | Role | Location | Score | Why |
 |---|---------|------|----------|-------|-----|
-| 1 | **Circle** | Director, Policy and Regulatory Strategy, APAC | Singapore | 87 | A-1 grade. Web3/stablecoin strategy. APAC regulatory intelligence. |
-| 2 | **Gemini** | Director, Strategy (APAC) | Singapore | 85 | A-1 grade. Crypto exchange expansion. Strategy leadership. |
-| 3 | **OKX** | Product Director, Pay & Card | Singapore | 87 | Cross-border payments expertise. Director-level at crypto's largest employer. |
-| 4 | **OKX** | Principal/Senior PM, AI and Agent | Singapore/HK | 86 | AI product + crypto — the hottest intersection. |
-| 5 | **Flexport** | Staff Product Manager | HK/Shanghai/SZ | 85 | Cross-border logistics. Platform product at scale. Multi-city. |
+| 1 | **Amazon Global Selling** | Senior Product Manager - AI | Shenzhen | 95+ | **A-1 grade. THE role.** AI + cross-border commerce at Amazon scale. Fresh posting. |
+| 2 | **Flexport** | Staff Product Manager | HK/Shanghai/SZ | 90 | Cross-border logistics platform. Multi-city. Senior product at scale. |
+| 3 | **Gemini** | Director, Strategy (APAC) | Singapore | 85 | A-1 grade. Crypto exchange APAC expansion. Strategy leadership. |
+| 4 | **OKX** | Senior Risk Manager, Trading (AI-Augmented) | Singapore | 105 | AI + trading — uniquely suited to AI product + marketplace background. |
+| 5 | **OKX** | Principal/Senior PM, AI and Agent | Singapore | 88 | AI agents + crypto. Emerging product category. |
 
 ### Tier 2 — Apply This Week (Score 75-84)
 
 | # | Company | Role | Location | Score | Why |
 |---|---------|------|----------|-------|-----|
-| 6 | **OKX** | PM/Director, Core Trading | Singapore/HK | 83 | Trading product leadership. |
-| 7 | **OKX** | PM/Director, User Growth | Singapore/HK | 82 | Growth at crypto scale. |
-| 8 | **OKX** | Principal/Senior PM, AI & Web3 Wallet | Singapore/HK | 82 | AI + Web3 wallet — emerging product. |
-| 9 | **Stripe** | Account Executive, Cross Border China | Singapore | 81 | $218K-328K OTE. Cross-border China domain expertise. |
-| 10 | **Agoda** | Principal Product Manager | Singapore | 80 | Travel marketplace PM. Cross-border commerce. |
-| 11 | **OKX** | Product Director, Compliance | HK | 80 | Compliance product — regulatory moat. |
-| 12 | **ByteDance** | Payment Solution PM, Global Payment | Singapore | 79 | Cross-border payments at scale. |
-| 13 | **ByteDance** | Card Growth & Loyalty PM, Global Payment | Singapore | 78 | Loyalty/growth product. |
-| 14 | **OKX** | PM/Director, Institutional Growth | Singapore/HK | 78 | B2B/institutional product. |
-| 15 | **Thunes** | Business Development Director | Hong Kong | 77 | Cross-border payments, APAC focus. |
+| 6 | **OKX** | Principal/Senior PM, AI & Web3 Wallet | Singapore | 75 | AI + wallet — cross-border payments adjacent. |
+| 7 | **OKX** | PM/Director, User Growth | Singapore | 75 | Growth product at crypto scale. |
+| 8 | **OKX** | PM/Director, Copy Trading / Trading Bot | Singapore | 84 | Trading innovation product. |
+| 9 | **Stripe** | Account Executive, Cross Border China | Singapore | 78 | $218K-328K OTE. Cross-border China domain expertise. |
+| 10 | **Stripe** | Head of Sales, Stripe Billing - APAC | Sydney/SG | 89 | Senior leadership role. |
+| 11 | **ByteDance** | Financial Services Strategy Lead (SG) | Singapore | 86 | Cross-border payments strategy at ByteDance scale. |
+| 12 | **ByteDance** | Growth Strategy PM, Global Payment | Singapore | 85 | Payment product growth. |
+| 13 | **Tencent** | Strategic Investment Manager | Shenzhen | 85 | Strategic role at Tencent Shenzhen. |
+| 14 | **Tencent** | Senior Strategy Manager | Shanghai | 85 | Strategy at Tencent Shanghai. |
+| 15 | **ShopBack** | Senior PM - Deal Discovery & Checkout | Shenzhen | 80 | Cross-border e-commerce PM. |
 
 ### Tier 3 — Network & Explore (Score 70-76)
 
 | # | Company | Role | Location | Score | Why |
 |---|---------|------|----------|-------|-----|
-| 16 | **OKX** | PM/Director, Copy Trading / Trading Bot | SG/HK | 75 | Trading innovation. |
-| 17 | **OKX** | Senior Manager, Web3 Growth | SG/HK | 75 | Growth at ecosystem level. |
-| 18 | **Xendit** | Head of Treasury | Singapore | 74 | Fintech treasury — niche but senior. |
-| 19 | **Payoneer** | Senior BD Representative | Shenzhen | 73 | Cross-border payments, Shenzhen hub. |
-| 20 | **Anthropic** | Commercial Counsel, APAC | Singapore | 72 | AI company — network, not apply (legal role). |
+| 16 | **OKX** | PM/Director, Financial Products | Hong Kong | 75 | Financial product leadership. |
+| 17 | **OKX** | Senior Manager, Web3 Growth | SG/HK | 75 | Ecosystem growth at crypto scale. |
+| 18 | **Airwallex** | Director, Product Strategy | Singapore | 70 | Cross-border payments strategy. |
+| 19 | **Visa** | Director, Corporate Strategy - APAC | Singapore | 78 | Corporate strategy at Visa APAC. |
+| 20 | **Anthropic** | Head of APAC Accounting | Singapore | 70 | Network into Anthropic's APAC expansion. |
 
 ---
 
@@ -97,35 +97,38 @@
 
 | Skill | Frequency | How to Position |
 |-------|-----------|-----------------|
-| **Product Management** | 100+ | Core — "Led product org, shipped at scale" |
-| **Director/Head/VP** | 80+ | Seniority signal — "Managed cross-functional teams" |
-| **AI/ML/LLM** | 25+ | **Differentiator** — "Built AI-powered products" |
-| **Payments/Cross-border** | 20+ | Domain — "Launched payment products across APAC" |
-| **Growth/Product-Led** | 15+ | Metrics — "Drove X% revenue/user growth" |
-| **Strategy/Market Entry** | 12+ | Vision — "Defined go-to-market for X markets" |
-| **Institutional/B2B** | 10+ | Enterprise — "Onboarded Y enterprise clients" |
+| **Product Management** | 106+ PM roles | Core — "Led product org, shipped at scale" |
+| **AI/ML/LLM** | 30+ | **#1 Differentiator** — "Built AI-powered products" |
+| **Payments/Cross-border** | 25+ | Domain — "Launched payment products across APAC" |
+| **Growth/Product-Led** | 20+ | Metrics — "Drove X% revenue/user growth" |
+| **Strategy/Market Entry** | 18+ | Vision — "Defined go-to-market for X markets" |
+| **Director/Head/VP** | 100+ | Seniority signal |
+| **Marketplace/Platform** | 10+ | Two-sided — "Built marketplace with X GMV" |
 | **Compliance/KYC/KYB** | 8+ | Regulatory — "Navigated multi-market compliance" |
-| **Marketplace/Platform** | 8+ | Two-sided — "Built marketplace with X GMV" |
+| **Institutional/B2B** | 8+ | Enterprise — "Onboarded Y enterprise clients" |
 
 ### The Killer Positioning: "AI-Powered Cross-border Commerce"
 
 Your unique intersection: **9 years in cross-border e-commerce + AI product GTM + marketplace strategy.**
 
 In this database:
-- 139 OKX roles → they need AI product people
-- 92 Agoda roles → marketplace + cross-border
-- 160 Coupang roles → cross-border e-commerce at scale
-- 30+ ByteDance roles → AI + cross-border
-- Very few people have BOTH cross-border domain expertise AND AI product experience
+- **151 OKX roles** → they need AI product people
+- **105 Coupang roles** → cross-border e-commerce at scale
+- **148 Stripe roles** → cross-border payments
+- **35 ByteDance roles** → AI + cross-border
+- **94 Anthropic roles** → AI company establishing APAC
 
 **Your positioning:** "The person who builds AI-powered products for cross-border commerce at scale."
+
+**The Amazon Global Selling AI PM role is literally this positioning.** Apply immediately.
 
 ### Resume/LinkedIn Optimization
 
 - **Headline:** "Product Director | AI + Cross-border Commerce | APAC"
-- **Key phrases:** LLM integration, recommendation engine, fraud detection, personalization, cross-border payments, marketplace platform, multi-market launches, GTM strategy
+- **Key phrases:** LLM integration, recommendation engine, fraud detection, personalization, cross-border payments, marketplace platform, multi-market launches, GTM strategy, AI agents
 - **Location:** "Open to Singapore, Hong Kong, Shenzhen, Shanghai"
 - **Set "Open to Work"** (recruiters only)
+- **Featured section:** Add any AI product case studies or cross-border commerce wins
 
 ---
 
@@ -133,85 +136,86 @@ In this database:
 
 ### Layoffs / Hiring Freezes
 
-- **Coinbase** — Zero Director-level roles. Avoid.
-- **Remote US only** — Affirm (58 roles) but no APAC presence. Skip.
-- **Coupang monoculture** — 160 roles concentrated in Seoul. If not targeting Seoul, limited value.
+- **Coinbase** — Zero Director-level roles in APAC. Avoid.
+- **Remote US only** — Affirm (25 roles) but no APAC presence. Skip.
+- **Airwallex** — 15 roles but mostly C-grade. Limited senior product roles.
 
 ### Emerging Sectors Gaining Momentum
 
-1. **AI Agents & Chatbots** — OKX hiring Sr. PM for Conversational AI Chatbot & Agent Quality. AI agent product management is a new category.
-2. **Tokenized Assets/RWA** — OKX hiring PM for Tokenized Stocks/Equity Trading. Real-world assets tokenization is exploding.
+1. **AI Agents & Chatbots** — OKX hiring Sr. PM for Conversational AI Chatbot & Agent Quality (score 75). AI agent product management is a new category.
+2. **Tokenized Assets/RWA** — OKX hiring PM for Tokenized Stocks/Equity Trading (score 86). Real-world assets tokenization is exploding.
 3. **DeFi Lending** — OKX hiring Senior Manager for DeFi Lending Growth. Institutional DeFi is the next frontier.
-4. **Compliance/KYB** — Crypto regulation driving hiring at OKX, Circle, Gemini. Compliance PM roles emerging.
-5. **Stablecoin Infrastructure** — Circle (USDC) expanding APAC. Stablecoin payments is a $1T+ opportunity.
+4. **Stablecoin Infrastructure** — Circle (USDC) expanding APAC. Stablecoin payments is a $1T+ opportunity.
+5. **AI-Augmented Trading** — OKX hiring Senior Risk Manager, Trading (AI-Augmented Operations) — score 105. AI applied to trading operations.
+6. **Cross-border Logistics** — Flexport Staff PM role (score 90) signals continued investment in cross-border supply chain tech.
 
 ### Geographic Shifts
 
 | City | Roles | Key Employers | Strategic Value |
 |------|-------|---------------|-----------------|
-| **Singapore** | 211 | OKX, Stripe, Circle, Gemini, Anthropic, ByteDance | **#1 hub** — highest Director density |
-| **Hong Kong** | 90 | OKX (dominant), Thunes, Flexport | **#2 — OKX + crypto regulation** |
-| **Shenzhen** | 54 | Payoneer, Tencent, Flexport | **#3 — cross-border e-commerce central** |
-| **Bangkok** | 127 | Agoda (dominant) | **#4 — Agoda's APAC HQ** |
-| **Shanghai** | 22 | OKX AI Gateway, Coupang, Tencent | **Niche but quality** |
-| **Seoul** | 143 | Coupang (dominant) | **#5 — if targeting Coupang** |
+| **Singapore** | 169 | OKX, Stripe, Circle, Anthropic, Visa, Mastercard | **#1 hub** — highest Director density |
+| **Hong Kong** | 83 | OKX (dominant), Flexport, Thunes | **#2 — OKX + crypto regulation** |
+| **Shenzhen** | 71+ | Amazon, Flexport, Tencent, ShopBack, Payoneer | **#3 — cross-border e-commerce central** |
+| **Bangkok** | 93 | Agoda (dominant) | **#4 — Agoda's APAC HQ** |
+| **Shanghai** | 20 | Coupang, Tencent, Flexport | **#5 — niche but quality** |
+| **Seoul** | 77 | Coupang (dominant) | **#6 — if targeting Coupang** |
+| **Taipei** | 19 | Coupang (expanding) | **NEW — Coupang's growth market** |
 
 ---
 
-## 🗓️ Action Plan: July 22–26 (Updated)
+## 🗓️ Action Plan: July 31 – August 4
 
-### 🟡 Wednesday July 22: Quick Wins + Network
+### 🟡 Friday July 31 (Tonight): Emergency Applications
 
-- [ ] **LinkedIn update** — Headline to "Product Director | AI + Cross-border Commerce | APAC"
-- [ ] Add AI keywords: LLM, recommendation engine, fraud detection, personalization, AI agents
-- [ ] Update location preference: "Open to Singapore, Hong Kong, Shenzhen, Shanghai"
-- [ ] Set "Open to Work" (recruiters only)
-- [ ] Identify hiring managers at Circle, Gemini, OKX Pay & Card team
+- [ ] **Amazon Global Selling — Senior PM, AI (Shenzhen)** — A-1 grade. Fresh posting. Apply NOW.
+- [ ] **Flexport — Staff Product Manager (HK/Shanghai/SZ)** — Score 90. Apply tonight.
+- [ ] **Gemini — Director, Strategy APAC (Singapore)** — A-1 grade. Apply tonight.
 
-### 🔵 Thursday July 23: Pipeline + Research
+### 🔵 Saturday August 1: Batch Applications
 
-- [ ] **Circle** — Research APAC regulatory strategy, identify Director-level contacts
-- [ ] **Gemini** — Research APAC expansion plans (post-FTX landscape)
-- [ ] **OKX** — Explore AI strategy, VP-level hiring signals
-- [ ] **Stripe** — Research cross-border China product (perfect domain overlap)
-- [ ] Batch-apply remaining Tier 2-3 roles
+- [ ] **OKX — Senior Risk Manager, Trading (AI-Augmented) (SG)** — Score 105. Apply.
+- [ ] **OKX — Principal/Senior PM, AI and Agent (SG)** — Score 88. Apply.
+- [ ] **OKX — Principal/Senior PM, AI & Web3 Wallet (SG)** — Score 75. Apply.
+- [ ] **OKX — PM/Director, User Growth (SG)** — Score 75. Apply.
+- [ ] **Stripe — Account Executive, Cross Border China (SG)** — Score 78. Apply.
+- [ ] **ByteDance — Financial Services Strategy Lead (SG)** — Score 86. Apply.
+- [ ] **Tencent — Strategic Investment Manager (SZ)** — Score 85. Apply.
+- [ ] **Tencent — Senior Strategy Manager (SH)** — Score 85. Apply.
 
-### 🟣 Friday July 24: Preparation + Follow-up
+### 🟣 Sunday August 2: Network & Research
 
-- [ ] Prepare Circle-specific talking points: regulatory strategy + stablecoin + APAC market intelligence
-- [ ] Prepare Gemini-specific talking points: crypto exchange strategy + growth in APAC
-- [ ] Draft tailored cover narratives: "regulatory strategy" (Circle) vs "exchange growth" (Gemini) vs "payments product" (OKX/Stripe)
-- [ ] Follow up on any recruiter responses
-- [ ] Review all applications — confirm submissions
+- [ ] Research Amazon Global Selling AI strategy and recent product launches
+- [ ] Identify hiring managers at Flexport APAC (LinkedIn)
+- [ ] Research Gemini's APAC expansion plans
+- [ ] Research OKX AI strategy — AI Agent product line
+- [ ] Research Stripe's cross-border China product team
+- [ ] Identify contacts at ByteDance Global Payment (Singapore)
 
-### 📌 Still Pending (from earlier this week)
+### 📌 Monday August 4: Follow-up + Prep
 
-- [ ] **Circle — Director, Policy and Regulatory Strategy, APAC (SG)** — Score 87. A-1 grade. Apply ASAP.
-- [ ] **Gemini — Director, Strategy (APAC) (SG)** — Score 85. A-1 grade. Apply ASAP.
-- [ ] **OKX — Product Director, Pay & Card (SG)** — Score 87. Apply ASAP.
-- [ ] **OKX — Principal/Senior PM, AI and Agent (SG/HK)** — Score 86. Apply ASAP.
-- [ ] **Flexport — Staff Product Manager (HK/SZ/SH)** — Score 85. Apply ASAP.
+- [ ] Follow up on all Tier 1 applications
+- [ ] Prepare Amazon-specific talking points: "AI + cross-border commerce at Amazon scale"
+- [ ] Prepare Flexport-specific talking points: "Cross-border logistics platform product"
+- [ ] Prepare OKX-specific talking points: "AI + crypto intersection"
+- [ ] Review and follow up on recruiter responses
+- [ ] Check for new A-1 roles posted over the weekend
 
 ---
 
 ## 🔑 Strategic Insights
 
-### Insight #1: Circle + Gemini Are Your A-1 Targets
+### Insight #1: Amazon Global Selling AI PM Is YOUR Role
 
-Both A-1 graded roles are in Singapore — Director-level strategy roles at crypto companies. Circle (USDC) is a $4.4B+ company with massive stablecoin infrastructure. Gemini is the Winklevoss-led exchange expanding APAC. These are the highest-signal applications in the entire database. **Apply Monday morning.**
+This is the single best match in the entire database. **9 years of cross-border e-commerce + AI product GTM + marketplace strategy** maps directly to "Senior Product Manager - AI, Amazon Global Selling" in Shenzhen. This is a fresh posting. **Apply within 24 hours.** First-mover advantage matters.
 
-### Insight #2: OKX Remains the Volume Play
+### Insight #2: The Anthropic APAC Signal
 
-139 roles, 40+ PM/Director level. The AI + crypto intersection at OKX is uniquely suited to your profile. OKX's VP AI Strategy hiring signals they're building an AI-first product org — your AI product GTM experience is the differentiator. **Apply to 8-10 OKX roles across SG and HK this week.**
+Anthropic went from 5 roles to 94 this month. That's not just hiring — that's a **regional expansion**. They're establishing APAC presence with Commercial Counsel (APAC), Head of APAC Accounting (Singapore), and Product Support Specialists in Singapore. While most roles are US-based, the APAC beachhead roles signal they'll need product leadership in the region within 6-12 months. **Network now, apply later.**
 
-### Insight #3: Stripe's Cross-border China Role Is a Hidden Gem
+### Insight #3: OKX AI-Augmented Operations Is Your Differentiator
 
-The Account Executive role at Stripe for Cross-border China ($218K-328K OTE) is a sales role, not PM — but it signals Stripe's investment in China cross-border commerce. Stripe is building a cross-border product team in Singapore. **Network into Stripe's APAC product org even if this specific role isn't the right fit.**
-
-### Insight #4: Agoda Is Your Safety Net
-
-92 roles across product, strategy, fintech, and partnerships. Bangkok-centric but with Shanghai/SG options. Agoda is the most stable, highest-volume APAC employer outside OKX. If crypto feels too volatile, Agoda is your Plan B with strong marketplace/cross-border overlap.
+The OKX "Senior Risk Manager, Trading (AI-Augmented Operations)" role at score 105 is the highest-scored role in the entire database. It combines AI + trading operations — exactly the intersection of your AI product GTM background and marketplace/platform experience. This role signals OKX is building AI-first trading operations. **Your AI product experience is the differentiator no one else in crypto has.**
 
 ---
 
-*Next report: Monday, July 27, 2026 4:00 AM CST*
+*Next report: Monday, August 3, 2026 4:00 AM CST*
