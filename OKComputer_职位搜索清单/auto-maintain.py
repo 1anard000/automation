@@ -669,6 +669,35 @@ def main():
             graded_count += 1
     log(f"  Graded {graded_count} previously ungraded jobs", dry_run)
 
+    # ── Step 3b: Normalize non-standard grades ──────────────────────────────
+    STANDARD_GRADES = {'S', 'A', 'A-', 'A-1', 'A-2', 'B', 'B+', 'C'}
+    GRADE_MAP = {
+        'senior pm': 'A', 'senior product manager': 'A',
+        'staff pm': 'A', 'staff product manager': 'A',
+        'principal pm': 'A', 'principal product manager': 'A',
+        'senior principal pm': 'A-1', 'senior principal product manager': 'A-1',
+        'lead pm': 'A', 'lead product manager': 'A',
+        'director': 'A-1', 'director of product': 'A-1',
+        'senior/director': 'A-1', 'senior or director': 'A-1',
+        'senior/principal pm': 'A', 'senior or principal pm': 'A',
+        'senior pm / product lead': 'A',
+        'pm': 'B+', 'product manager': 'B+',
+        'senior': 'A-', 'senior product': 'A-',
+    }
+    normalized_count = 0
+    for j in existing:
+        g = j.get('grade', '')
+        if g and g not in STANDARD_GRADES:
+            mapped = GRADE_MAP.get(g.lower().strip())
+            if mapped:
+                j['grade'] = mapped
+                normalized_count += 1
+            else:
+                # Fallback: re-grade from title
+                j['grade'] = grade_job(j)
+                normalized_count += 1
+    log(f"  Normalized {normalized_count} non-standard grades", dry_run)
+
     # Show grade distribution
     grades = Counter(j.get("grade", "?") for j in existing)
     log(f"  Grade distribution: {dict(sorted(grades.items()))}", dry_run)
