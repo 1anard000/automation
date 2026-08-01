@@ -13,7 +13,7 @@ import json
 import sys
 from datetime import datetime, timedelta
 
-DATA_FILE = 'OKComputer_职位搜索清单/jobs-all.json'
+DATA_FILE = 'jobs-all.json'
 
 def parse_date(s):
     if not s:
@@ -58,7 +58,7 @@ def main():
             continue
 
         # Try other fields
-        for field in ('created_at', 'fetched_at', 'scraped_at'):
+        for field in ('created_at', 'fetched_at', 'scraped_at', 'scanned_date'):
             alt = j.get(field)
             if alt and parse_date(alt):
                 j['posted_date'] = alt
