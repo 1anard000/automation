@@ -18131,5 +18131,101 @@
     "quality_score": 65,
     "quality_tier": "B",
     "grade": "B"
+  },
+  {
+    "title": "Staff Product Manager, Global Expansion",
+    "company": "Stripe",
+    "location": "Bengaluru",
+    "salary": "Not listed",
+    "url": "https://stripe.com/jobs/search?gh_jid=7570242",
+    "source": "greenhouse",
+    "role_type": "Product Management",
+    "description": "Staff PM for Global Expansion at Stripe. Cross-border payments focus. Senior IC role.",
+    "grade": "A-1",
+    "scanned_date": "2026-08-01"
+  },
+  {
+    "title": "Product Manager, Risk & Compliance",
+    "company": "Stripe",
+    "location": "Bengaluru",
+    "salary": "Not listed",
+    "url": "https://stripe.com/jobs/search?gh_jid=7625842",
+    "source": "greenhouse",
+    "role_type": "Product Management",
+    "description": "PM for Risk & Compliance at Stripe. Fintech/payments focus.",
+    "grade": "A-2",
+    "scanned_date": "2026-08-01"
+  },
+  {
+    "title": "Strategic Programs Lead, New Markets",
+    "company": "Stripe",
+    "location": "Singapore",
+    "salary": "Not listed",
+    "url": "https://stripe.com/jobs/search?gh_jid=7977676",
+    "source": "greenhouse",
+    "role_type": "Strategy/Ops",
+    "description": "Strategic Programs Lead for New Markets at Stripe. Expansion and strategy focus.",
+    "grade": "A-1",
+    "scanned_date": "2026-08-01"
+  },
+  {
+    "title": "Head of Marketing, Southeast Asia",
+    "company": "Stripe",
+    "location": "Singapore",
+    "salary": "Not listed",
+    "url": "https://stripe.com/jobs/search?gh_jid=8059299",
+    "source": "greenhouse",
+    "role_type": "Growth/Marketing",
+    "description": "Head of Marketing for SEA at Stripe. Regional marketing leadership.",
+    "grade": "A-2",
+    "scanned_date": "2026-08-01"
+  },
+  {
+    "title": "Finance and Strategy Specialist",
+    "company": "Stripe",
+    "location": "Bengaluru",
+    "salary": "Not listed",
+    "url": "https://stripe.com/jobs/search?gh_jid=7597613",
+    "source": "greenhouse",
+    "role_type": "Strategy/Ops",
+    "description": "Finance & Strategy role at Stripe. Cross-functional strategy work.",
+    "grade": "B+",
+    "scanned_date": "2026-08-01"
+  },
+  {
+    "title": "Strategy and Analytics Business Partner",
+    "company": "Stripe",
+    "location": "Bengaluru",
+    "salary": "Not listed",
+    "url": "https://stripe.com/jobs/search?gh_jid=7813411",
+    "source": "greenhouse",
+    "role_type": "Strategy/Ops",
+    "description": "Strategy & Analytics Business Partner at Stripe. Data-driven strategy role.",
+    "grade": "B+",
+    "scanned_date": "2026-08-01"
+  },
+  {
+    "title": "Head of Finance Operations",
+    "company": "Stripe",
+    "location": "Bengaluru",
+    "salary": "Not listed",
+    "url": "https://stripe.com/jobs/search?gh_jid=7950828",
+    "source": "greenhouse",
+    "role_type": "Operations",
+    "description": "Head of Finance Ops at Stripe. Financial operations leadership.",
+    "grade": "B+",
+    "scanned_date": "2026-08-01"
+  },
+  {
+    "title": "Operations Manager, Stripe Delivery Centre",
+    "company": "Stripe",
+    "location": "Bengaluru",
+    "salary": "Not listed",
+    "url": "https://stripe.com/jobs/search?gh_jid=8053011",
+    "source": "greenhouse",
+    "role_type": "Operations",
+    "description": "Operations Manager at Stripe Delivery Centre. Operations leadership.",
+    "grade": "B",
+    "scanned_date": "2026-08-01"
   }
 ]
