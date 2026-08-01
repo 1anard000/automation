@@ -282,5 +282,22 @@
       "improvement": "Coverage improvement: replaced 30 dead Greenhouse boards with 7 verified working ones (brex, airtable, n26, mixpanel, amplitude, calendly, remote). Updated stale coverage-report.json (was 12 days old).",
       "subagent": "nightly-improver"
     }
+  ],
+  "log": [
+    {
+      "timestamp": "2026-08-02T00:01:44.998326",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 7,
+        "coverage": 8
+      },
+      "overall": 7.7,
+      "improvement": "Data cleanup: removed 102 stale jobs (>30 days old). Jobs 1068→966. Primarily expired Agoda, Anthropic, and other listings. Database is now current.",
+      "subagent": "nightly-improver"
+    }
   ]
 }
