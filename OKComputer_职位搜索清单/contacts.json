@@ -34,7 +34,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 76,
@@ -85,7 +90,28 @@
     "last_followup": null,
     "next_action": "Review 3 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 14,
+    "top_jobs_from_database": [
+      {
+        "title": "Head of Sales, Singapore",
+        "grade": "B"
+      },
+      {
+        "title": "Marketing Lead APAC",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Content Manager, APAC",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C",
+      "B"
+    ]
   },
   {
     "id": 50,
@@ -135,7 +161,28 @@
     "last_followup": null,
     "next_action": "Review 25 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 25,
+    "top_jobs_from_database": [
+      {
+        "title": "Director, Platform Accounts Management",
+        "grade": "B"
+      },
+      {
+        "title": "Affirm Bank Compliance Lead, CRA and Complaints",
+        "grade": "B"
+      },
+      {
+        "title": "Analytics Lead, Full Stack",
+        "grade": "B"
+      }
+    ],
+    "job_grades_found": [
+      "A",
+      "B"
+    ]
   },
   {
     "id": 42,
@@ -187,7 +234,32 @@
     "last_followup": null,
     "next_action": "Review 105 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 158,
+    "top_jobs_from_database": [
+      {
+        "title": "Senior Product Manager (China-Based)",
+        "grade": "A-1"
+      },
+      {
+        "title": "Product Operations Analyst",
+        "grade": "A-1"
+      },
+      {
+        "title": "Senior Product Manager (Japanese Speaking) – Bangkok or Tokyo Based",
+        "grade": "A-1"
+      }
+    ],
+    "job_grades_found": [
+      "A-",
+      "A-2",
+      "C",
+      "B",
+      "A",
+      "A-1"
+    ]
   },
   {
     "id": 46,
@@ -237,7 +309,29 @@
     "last_followup": null,
     "next_action": "Review 22 open positions",
     "priority": "medium",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 24,
+    "top_jobs_from_database": [
+      {
+        "title": "Lead Advanced Analytics, Marketplace",
+        "grade": "B"
+      },
+      {
+        "title": "Brand Media Lead",
+        "grade": "B"
+      },
+      {
+        "title": "Counsel, Commercial & Partnerships",
+        "grade": "B"
+      }
+    ],
+    "job_grades_found": [
+      "C",
+      "A",
+      "B"
+    ]
   },
   {
     "id": 53,
@@ -288,7 +382,29 @@
     "last_followup": null,
     "next_action": "Review 15 open positions",
     "priority": "high",
-    "status": "expired"
+    "status": "expired",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 15,
+    "top_jobs_from_database": [
+      {
+        "title": "Product Director, Payment Fraud",
+        "grade": "C"
+      },
+      {
+        "title": "Product Lead, Payment Fraud",
+        "grade": "C"
+      },
+      {
+        "title": "Manager, Operations Strategy (Market Insights/User Research)",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "A-",
+      "C",
+      "A"
+    ]
   },
   {
     "id": 3,
@@ -325,7 +441,23 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "expired"
+    "status": "expired",
+    "category": "person",
+    "is_person": true,
+    "matching_a_s_jobs": [
+      {
+        "title": "Director, Product Strategy",
+        "grade": "A-",
+        "location": "Singapore",
+        "url": "https://hk.linkedin.com/company/airwallex"
+      },
+      {
+        "title": "Senior Product Manager, Kai (AI assistant)",
+        "grade": "A",
+        "location": "Singapore",
+        "url": "https://careers.airwallex.com/job/d1ed1a19-4e79-4dc1-843f-949da9a95cca/senior-product-manager-kai-ai-assistant/"
+      }
+    ]
   },
   {
     "id": 160,
@@ -362,7 +494,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 26,
@@ -397,7 +534,19 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "阿里云智能-全球ISV合作伙伴拓展专家",
+        "grade": "A"
+      }
+    ],
+    "job_grades_found": [
+      "A"
+    ]
   },
   {
     "id": 77,
@@ -435,7 +584,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 27,
@@ -481,7 +635,28 @@
     "last_followup": null,
     "next_action": "Review 2 open positions",
     "priority": "medium",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 3,
+    "top_jobs_from_database": [
+      {
+        "title": "Senior Product Manager - AI, Amazon Global Selling",
+        "grade": "A-1"
+      },
+      {
+        "title": "Senior Product Manager, AI - Amazon Global Selling",
+        "grade": "A-2"
+      },
+      {
+        "title": "Senior Product Manager, AGS",
+        "grade": "A-2"
+      }
+    ],
+    "job_grades_found": [
+      "A-2",
+      "A-1"
+    ]
   },
   {
     "id": 185,
@@ -518,7 +693,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 78,
@@ -556,7 +736,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 54,
@@ -607,7 +792,28 @@
     "last_followup": null,
     "next_action": "Review 94 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 91,
+    "top_jobs_from_database": [
+      {
+        "title": "Applied AI Architect, Commercial",
+        "grade": "B"
+      },
+      {
+        "title": "Applied AI Architect, Partnerships ",
+        "grade": "B"
+      },
+      {
+        "title": "Business System Analyst Lead, Opportunity Acceleration",
+        "grade": "B"
+      }
+    ],
+    "job_grades_found": [
+      "A",
+      "B"
+    ]
   },
   {
     "id": 6,
@@ -642,7 +848,35 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "category": "person",
+    "is_person": true,
+    "matching_a_s_jobs": [
+      {
+        "title": "Head of APAC Accounting",
+        "grade": "A",
+        "location": "Singapore",
+        "url": "https://boards.greenhouse.io/anthropic/jobs/5191636008#app"
+      },
+      {
+        "title": "Finance & Strategy, GTM - Korea",
+        "grade": "A",
+        "location": "Seoul, South Korea",
+        "url": "https://boards.greenhouse.io/anthropic/jobs/5079133008#app"
+      },
+      {
+        "title": "Product Support Specialist (Singapore)",
+        "grade": "A",
+        "location": "Singapore",
+        "url": "https://boards.greenhouse.io/anthropic/jobs/5186852008#app"
+      },
+      {
+        "title": "Product Support Specialist (Singapore - Weekend Coverage)",
+        "grade": "A",
+        "location": "Singapore",
+        "url": "https://boards.greenhouse.io/anthropic/jobs/5186965008#app"
+      }
+    ]
   },
   {
     "id": 55,
@@ -689,7 +923,23 @@
     "last_followup": null,
     "next_action": "Review 2 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 2,
+    "top_jobs_from_database": [
+      {
+        "title": "Head of Product - Remote",
+        "grade": "A"
+      },
+      {
+        "title": "Product Director - Remote Global | Arc",
+        "grade": "A"
+      }
+    ],
+    "job_grades_found": [
+      "A"
+    ]
   },
   {
     "id": 56,
@@ -732,7 +982,19 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "medium",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Head of Product at AsiaCloud",
+        "grade": "A"
+      }
+    ],
+    "job_grades_found": [
+      "A"
+    ]
   },
   {
     "id": 79,
@@ -770,7 +1032,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 161,
@@ -807,7 +1074,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 80,
@@ -845,7 +1117,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 162,
@@ -882,7 +1159,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 18,
@@ -917,7 +1199,19 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Head of Product - Hong Kong",
+        "grade": "A"
+      }
+    ],
+    "job_grades_found": [
+      "A"
+    ]
   },
   {
     "id": 15,
@@ -954,7 +1248,19 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Senior Product Manager (Marketplace)",
+        "grade": "A-1"
+      }
+    ],
+    "job_grades_found": [
+      "A-1"
+    ]
   },
   {
     "id": 163,
@@ -991,7 +1297,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 186,
@@ -1028,7 +1339,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 187,
@@ -1078,7 +1394,28 @@
     "last_followup": null,
     "next_action": "Review 4 open positions",
     "priority": "medium",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 4,
+    "top_jobs_from_database": [
+      {
+        "title": "Senior Compliance Manager, Financial Services Compliance, Afterpay ANZ",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Lead, Australia Escalations Support (Square & Afterpay)",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Site Reliability Engineer",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "S",
+      "C"
+    ]
   },
   {
     "id": 154,
@@ -1129,7 +1466,28 @@
     "last_followup": null,
     "next_action": "Review 4 open positions",
     "priority": "medium",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 4,
+    "top_jobs_from_database": [
+      {
+        "title": "Senior Compliance Manager, Financial Services Compliance, Afterpay ANZ",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Lead, Australia Escalations Support (Square & Afterpay)",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Site Reliability Engineer",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "S",
+      "C"
+    ]
   },
   {
     "id": 57,
@@ -1180,7 +1538,29 @@
     "last_followup": null,
     "next_action": "Review 4 open positions",
     "priority": "medium",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 10,
+    "top_jobs_from_database": [
+      {
+        "title": "CEO, Singapore",
+        "grade": "B"
+      },
+      {
+        "title": "Chief Product Officer",
+        "grade": "B"
+      },
+      {
+        "title": "Country Manager, Thailand",
+        "grade": "A-"
+      }
+    ],
+    "job_grades_found": [
+      "A-",
+      "C",
+      "B"
+    ]
   },
   {
     "id": 16,
@@ -1230,7 +1610,29 @@
     "last_followup": null,
     "next_action": "Review 35 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 35,
+    "top_jobs_from_database": [
+      {
+        "title": "直播间用户产品经理-抖音电商",
+        "grade": "B"
+      },
+      {
+        "title": "AI创作者产品经理-剪映CapCut",
+        "grade": "B"
+      },
+      {
+        "title": "营销产品经理（投放优化方向）-技术中台",
+        "grade": "B"
+      }
+    ],
+    "job_grades_found": [
+      "C",
+      "A",
+      "B"
+    ]
   },
   {
     "id": 4,
@@ -1267,7 +1669,71 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "category": "person",
+    "is_person": true,
+    "matching_a_s_jobs": [
+      {
+        "title": "印尼中小商家策略Leader-TikTok Shop",
+        "grade": "A",
+        "location": "深圳",
+        "url": "https://jobs.bytedance.com/experienced/position/7587708292272523525/detail"
+      },
+      {
+        "title": "国际化商业策略产品经理-端变现",
+        "grade": "A",
+        "location": "北京",
+        "url": "https://jobs.bytedance.com/experienced/position/7651506597759895861/detail"
+      },
+      {
+        "title": "国际投放增长运营专家-飞书",
+        "grade": "A",
+        "location": "深圳",
+        "url": "https://jobs.bytedance.com/experienced/position/7444766987085023506/detail"
+      },
+      {
+        "title": "Solutions Expert - Video Cloud",
+        "grade": "A",
+        "location": "Singapore",
+        "url": "https://jobs.bytedance.com/en/position?keywords=产品经理&location="
+      },
+      {
+        "title": "AI策略产品经理 - AI创新业务",
+        "grade": "A",
+        "location": "上海",
+        "url": "https://jobs.bytedance.com/experienced/position/7374629302891825459/detail"
+      },
+      {
+        "title": "AI产品经理 - ArkClaw",
+        "grade": "A",
+        "location": "上海",
+        "url": "https://jobs.bytedance.com/experienced/position/7615915798603827509/detail"
+      },
+      {
+        "title": "Card Growth & Loyalty Product Manager - Global Payment",
+        "grade": "A",
+        "location": "Singapore",
+        "url": "https://jobs.bytedance.com/en-us/position/7649027923437078789"
+      },
+      {
+        "title": "TikTok LIVE - Product Manager - Revenue Product",
+        "grade": "A",
+        "location": "Singapore",
+        "url": "https://jobs.bytedance.com/en-us/position/6982089818411108621"
+      },
+      {
+        "title": "Payment Solution Product Manager - Global Payment",
+        "grade": "A",
+        "location": "Singapore",
+        "url": "https://jobs.bytedance.com/en-us/position/7658118846353721605"
+      },
+      {
+        "title": "Product Manager, Risk Strategy and Operation, BRIC",
+        "grade": "A",
+        "location": "Singapore",
+        "url": "https://jobs.bytedance.com/en-us/position/7056993801428142343"
+      }
+    ]
   },
   {
     "id": 28,
@@ -1304,7 +1770,19 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prepared"
+    "status": "prepared",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Senior Product Manager - Shenzhen",
+        "grade": "A-2"
+      }
+    ],
+    "job_grades_found": [
+      "A-2"
+    ]
   },
   {
     "id": 188,
@@ -1341,7 +1819,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 58,
@@ -1379,7 +1862,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 81,
@@ -1417,7 +1905,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 29,
@@ -1454,7 +1947,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 44,
@@ -1506,7 +2004,29 @@
     "last_followup": null,
     "next_action": "Review 6 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 6,
+    "top_jobs_from_database": [
+      {
+        "title": "Director, Enterprise Sales (AI & Digital Natives)",
+        "grade": "C"
+      },
+      {
+        "title": "Digital Communications Director",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Principal, Sales Compensation Design & Strategy",
+        "grade": "A-"
+      }
+    ],
+    "job_grades_found": [
+      "S",
+      "A-",
+      "C"
+    ]
   },
   {
     "id": 13,
@@ -1556,7 +2076,29 @@
     "last_followup": null,
     "next_action": "Review 25 open positions",
     "priority": "medium",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 5,
+    "top_jobs_from_database": [
+      {
+        "title": "Creative Director",
+        "grade": "B"
+      },
+      {
+        "title": "Senior Software Engineer - Trading",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Product Manager, Help Center (CX Automation)",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C",
+      "A",
+      "B"
+    ]
   },
   {
     "id": 30,
@@ -1591,7 +2133,19 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Cross-border Payments Senior Product Manager",
+        "grade": "A-2"
+      }
+    ],
+    "job_grades_found": [
+      "A-2"
+    ]
   },
   {
     "id": 82,
@@ -1634,7 +2188,19 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "medium",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Director, Product Strategy & Growth",
+        "grade": "A-"
+      }
+    ],
+    "job_grades_found": [
+      "A-"
+    ]
   },
   {
     "id": 41,
@@ -1685,7 +2251,32 @@
     "last_followup": null,
     "next_action": "Review 105 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 136,
+    "top_jobs_from_database": [
+      {
+        "title": "Principal, Account Management",
+        "grade": "A-1"
+      },
+      {
+        "title": "Principal, Brand Management",
+        "grade": "A-1"
+      },
+      {
+        "title": "Principal, Brand Management (Beauty)",
+        "grade": "A-1"
+      }
+    ],
+    "job_grades_found": [
+      "A-",
+      "A-2",
+      "C",
+      "B",
+      "A",
+      "A-1"
+    ]
   },
   {
     "id": 22,
@@ -1722,7 +2313,19 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Product Director, Core Banking and Payments",
+        "grade": "A-1"
+      }
+    ],
+    "job_grades_found": [
+      "A-1"
+    ]
   },
   {
     "id": 40,
@@ -1759,7 +2362,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 83,
@@ -1797,7 +2405,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 84,
@@ -1835,7 +2448,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 47,
@@ -1886,7 +2504,23 @@
     "last_followup": null,
     "next_action": "Review 3 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 2,
+    "top_jobs_from_database": [
+      {
+        "title": "Senior Software Engineer- Singapore",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Software Engineer- Tokyo",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C"
+    ]
   },
   {
     "id": 48,
@@ -1936,7 +2570,27 @@
     "last_followup": null,
     "next_action": "Review 4 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 4,
+    "top_jobs_from_database": [
+      {
+        "title": "Senior Deal Desk Analyst",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Partner Enablement Manager",
+        "grade": "C"
+      },
+      {
+        "title": "Senior People Business Partner",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C"
+    ]
   },
   {
     "id": 85,
@@ -1974,7 +2628,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 155,
@@ -2012,7 +2671,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 86,
@@ -2050,7 +2714,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 87,
@@ -2088,7 +2757,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 88,
@@ -2139,7 +2813,27 @@
     "last_followup": null,
     "next_action": "Review 5 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 5,
+    "top_jobs_from_database": [
+      {
+        "title": "Senior Manager, Customer Experience & Solutions (Tokyo, Japan)",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Manager, Enterprise Sales (Tokyo, Japan)",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Sales Enablement Manager (Singapore)",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C"
+    ]
   },
   {
     "id": 89,
@@ -2177,7 +2871,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 31,
@@ -2214,7 +2913,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 189,
@@ -2256,7 +2960,19 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Staff Product Manager, Connectors",
+        "grade": "B"
+      }
+    ],
+    "job_grades_found": [
+      "B"
+    ]
   },
   {
     "id": 59,
@@ -2307,7 +3023,29 @@
     "last_followup": null,
     "next_action": "Review 4 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 4,
+    "top_jobs_from_database": [
+      {
+        "title": "Staff Product Manager ",
+        "grade": "A-2"
+      },
+      {
+        "title": "Senior Business Development Manager, Omnichannel",
+        "grade": "C"
+      },
+      {
+        "title": "Staff Product Manager",
+        "grade": "A"
+      }
+    ],
+    "job_grades_found": [
+      "C",
+      "A-2",
+      "A"
+    ]
   },
   {
     "id": 190,
@@ -2344,7 +3082,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 19,
@@ -2381,7 +3124,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "expired"
+    "status": "expired",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 90,
@@ -2419,7 +3167,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 91,
@@ -2457,7 +3210,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 164,
@@ -2494,7 +3252,19 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Director, Strategy (APAC)",
+        "grade": "A-1"
+      }
+    ],
+    "job_grades_found": [
+      "A-1"
+    ]
   },
   {
     "id": 92,
@@ -2532,7 +3302,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 156,
@@ -2579,7 +3354,31 @@
     "last_followup": null,
     "next_action": "Review 2 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 12,
+    "top_jobs_from_database": [
+      {
+        "title": "Senior Program Manager, Enterprise Technology & AI",
+        "grade": "B"
+      },
+      {
+        "title": "Regional Sales Director, ASEAN & Korea",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Product Manager, Plan to Code",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "S",
+      "A-",
+      "C",
+      "A",
+      "B"
+    ]
   },
   {
     "id": 60,
@@ -2630,7 +3429,31 @@
     "last_followup": null,
     "next_action": "Review 11 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 12,
+    "top_jobs_from_database": [
+      {
+        "title": "Senior Program Manager, Enterprise Technology & AI",
+        "grade": "B"
+      },
+      {
+        "title": "Regional Sales Director, ASEAN & Korea",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Product Manager, Plan to Code",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "S",
+      "A-",
+      "C",
+      "A",
+      "B"
+    ]
   },
   {
     "id": 7,
@@ -2665,7 +3488,17 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "category": "person",
+    "is_person": true,
+    "matching_a_s_jobs": [
+      {
+        "title": "Head of Strategic SMB Partnerships, JAPAC",
+        "grade": "A-1",
+        "location": "Singapore",
+        "url": "https://www.linkedin.com/jobs/view/head-of-strategic-smb-partnerships-japac-at-google"
+      }
+    ]
   },
   {
     "id": 23,
@@ -2702,7 +3535,19 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Head of Strategic SMB Partnerships, JAPAC",
+        "grade": "A-1"
+      }
+    ],
+    "job_grades_found": [
+      "A-1"
+    ]
   },
   {
     "id": 52,
@@ -2744,7 +3589,19 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Principal / Lead Product Manager, Solutions Management (Product Strategy Office)",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C"
+    ]
   },
   {
     "id": 49,
@@ -2794,7 +3651,27 @@
     "last_followup": null,
     "next_action": "Review 5 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 5,
+    "top_jobs_from_database": [
+      {
+        "title": "Associate, Strategic Insights and Analytics",
+        "grade": "C"
+      },
+      {
+        "title": "Lead Technical Program Manager",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Manager, Mobility Marketplace, Thailand",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C"
+    ]
   },
   {
     "id": 191,
@@ -2831,7 +3708,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 17,
@@ -2868,7 +3750,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 32,
@@ -2905,7 +3792,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "expired"
+    "status": "expired",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 165,
@@ -2942,7 +3834,19 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Head of Product - Hong Kong",
+        "grade": "A"
+      }
+    ],
+    "job_grades_found": [
+      "A"
+    ]
   },
   {
     "id": 33,
@@ -2977,7 +3881,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 93,
@@ -3015,7 +3924,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 94,
@@ -3053,7 +3967,19 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "产品经理",
+        "grade": "B"
+      }
+    ],
+    "job_grades_found": [
+      "B"
+    ]
   },
   {
     "id": 192,
@@ -3090,7 +4016,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 14,
@@ -3140,7 +4071,27 @@
     "last_followup": null,
     "next_action": "Review 12 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 3,
+    "top_jobs_from_database": [
+      {
+        "title": "Principal Product Manager, AI",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Product Manager, AI",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Technical Program Manager, Enterprise",
+        "grade": "A"
+      }
+    ],
+    "job_grades_found": [
+      "A"
+    ]
   },
   {
     "id": 166,
@@ -3177,7 +4128,19 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "咨询高级经理-商业策略咨询",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C"
+    ]
   },
   {
     "id": 20,
@@ -3212,7 +4175,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 95,
@@ -3250,7 +4218,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 61,
@@ -3288,7 +4261,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 62,
@@ -3331,7 +4309,19 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "medium",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Head of Product - Hong Kong",
+        "grade": "A"
+      }
+    ],
+    "job_grades_found": [
+      "A"
+    ]
   },
   {
     "id": 96,
@@ -3369,7 +4359,19 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Senior Product Manager / Product Lead",
+        "grade": "A-2"
+      }
+    ],
+    "job_grades_found": [
+      "A-2"
+    ]
   },
   {
     "id": 97,
@@ -3407,7 +4409,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 193,
@@ -3449,7 +4456,19 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Senior Product Manager",
+        "grade": "B"
+      }
+    ],
+    "job_grades_found": [
+      "B"
+    ]
   },
   {
     "id": 98,
@@ -3487,7 +4506,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 194,
@@ -3524,7 +4548,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 45,
@@ -3575,7 +4604,28 @@
     "last_followup": null,
     "next_action": "Review 15 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 4,
+    "top_jobs_from_database": [
+      {
+        "title": "Senior Strategic Partnerships Manager - Enterprise",
+        "grade": "C"
+      },
+      {
+        "title": "Head of Product - Business Lending",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Financial Partnerships Manager - Lending",
+        "grade": "A"
+      }
+    ],
+    "job_grades_found": [
+      "C",
+      "A"
+    ]
   },
   {
     "id": 99,
@@ -3618,7 +4668,19 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "medium",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Director, Product Management - APAC Products",
+        "grade": "A-"
+      }
+    ],
+    "job_grades_found": [
+      "A-"
+    ]
   },
   {
     "id": 8,
@@ -3653,7 +4715,17 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "category": "person",
+    "is_person": true,
+    "matching_a_s_jobs": [
+      {
+        "title": "Director, Product Management - APAC Products",
+        "grade": "A-",
+        "location": "Singapore",
+        "url": "https://www.linkedin.com/company/meta"
+      }
+    ]
   },
   {
     "id": 100,
@@ -3696,7 +4768,19 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Training Manager",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C"
+    ]
   },
   {
     "id": 63,
@@ -3734,7 +4818,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 101,
@@ -3772,7 +4861,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 64,
@@ -3810,7 +4904,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 1,
@@ -3848,7 +4947,10 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "category": "person",
+    "is_person": true,
+    "matching_a_s_jobs": []
   },
   {
     "id": 195,
@@ -3890,7 +4992,19 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Principal Product Manager",
+        "grade": "B"
+      }
+    ],
+    "job_grades_found": [
+      "B"
+    ]
   },
   {
     "id": 65,
@@ -3933,7 +5047,12 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 66,
@@ -3971,7 +5090,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 11,
@@ -4021,7 +5145,33 @@
     "last_followup": null,
     "next_action": "Review 114 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 191,
+    "top_jobs_from_database": [
+      {
+        "title": "(Senior) Product Director, Local Growth",
+        "grade": "A-1"
+      },
+      {
+        "title": "Principal / Senior Product Manager, AI and Agent",
+        "grade": "A-1"
+      },
+      {
+        "title": "Growth Product Manager, Listing Campaign",
+        "grade": "A-1"
+      }
+    ],
+    "job_grades_found": [
+      "A-",
+      "A-2",
+      "C",
+      "B+",
+      "B",
+      "A",
+      "A-1"
+    ]
   },
   {
     "id": 67,
@@ -4068,7 +5218,33 @@
     "last_followup": null,
     "next_action": "Review 2 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 191,
+    "top_jobs_from_database": [
+      {
+        "title": "(Senior) Product Director, Local Growth",
+        "grade": "A-1"
+      },
+      {
+        "title": "Principal / Senior Product Manager, AI and Agent",
+        "grade": "A-1"
+      },
+      {
+        "title": "Growth Product Manager, Listing Campaign",
+        "grade": "A-1"
+      }
+    ],
+    "job_grades_found": [
+      "A-",
+      "A-2",
+      "C",
+      "B+",
+      "B",
+      "A",
+      "A-1"
+    ]
   },
   {
     "id": 2,
@@ -4105,7 +5281,10 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "expired"
+    "status": "expired",
+    "category": "person",
+    "is_person": true,
+    "matching_a_s_jobs": []
   },
   {
     "id": 167,
@@ -4142,7 +5321,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 102,
@@ -4180,7 +5364,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 103,
@@ -4223,7 +5412,19 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Online Acquisition Manager",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C"
+    ]
   },
   {
     "id": 104,
@@ -4266,7 +5467,19 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Product Manager, Onboarding",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C"
+    ]
   },
   {
     "id": 34,
@@ -4308,7 +5521,19 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "low",
-    "status": "expired"
+    "status": "expired",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Senior Product Manager",
+        "grade": "B"
+      }
+    ],
+    "job_grades_found": [
+      "B"
+    ]
   },
   {
     "id": 105,
@@ -4346,7 +5571,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 196,
@@ -4396,7 +5626,29 @@
     "last_followup": null,
     "next_action": "Review 8 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 8,
+    "top_jobs_from_database": [
+      {
+        "title": "Director, Integrated Marketing",
+        "grade": "C"
+      },
+      {
+        "title": "Lead Client Partner - Retail",
+        "grade": "C"
+      },
+      {
+        "title": "Chief of Staff, Marketing",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "S",
+      "C",
+      "A"
+    ]
   },
   {
     "id": 168,
@@ -4433,7 +5685,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 106,
@@ -4471,7 +5728,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 107,
@@ -4509,7 +5771,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 108,
@@ -4547,7 +5814,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 109,
@@ -4585,7 +5857,19 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Head of Product - Hong Kong",
+        "grade": "A"
+      }
+    ],
+    "job_grades_found": [
+      "A"
+    ]
   },
   {
     "id": 169,
@@ -4622,7 +5906,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 68,
@@ -4660,7 +5949,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 110,
@@ -4698,7 +5992,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 111,
@@ -4741,7 +6040,24 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 2,
+    "top_jobs_from_database": [
+      {
+        "title": "Senior Product Manager, Corporate Cards (Reap Card)",
+        "grade": "A-2"
+      },
+      {
+        "title": "Product Manager, Embedded Finance",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C",
+      "A-2"
+    ]
   },
   {
     "id": 170,
@@ -4783,7 +6099,12 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 24,
@@ -4825,7 +6146,24 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 2,
+    "top_jobs_from_database": [
+      {
+        "title": "Senior Product Manager, Payment",
+        "grade": "A-2"
+      },
+      {
+        "title": "Product Manager (Fiat)",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C",
+      "A-2"
+    ]
   },
   {
     "id": 69,
@@ -4872,7 +6210,24 @@
     "last_followup": null,
     "next_action": "Review 2 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 2,
+    "top_jobs_from_database": [
+      {
+        "title": "Product Director - APAC Remote",
+        "grade": "A"
+      },
+      {
+        "title": "VP Product - Singapore Remote",
+        "grade": "S"
+      }
+    ],
+    "job_grades_found": [
+      "S",
+      "A"
+    ]
   },
   {
     "id": 112,
@@ -4910,7 +6265,19 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Director, Product Strategy & Growth",
+        "grade": "A-"
+      }
+    ],
+    "job_grades_found": [
+      "A-"
+    ]
   },
   {
     "id": 113,
@@ -4948,7 +6315,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 114,
@@ -4986,7 +6358,23 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 2,
+    "top_jobs_from_database": [
+      {
+        "title": "Product Manager - Return & Refund, Regional Operations",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Business Analyst, Fintech Strategic Planning",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C"
+    ]
   },
   {
     "id": 9,
@@ -5023,7 +6411,10 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "category": "person",
+    "is_person": true,
+    "matching_a_s_jobs": []
   },
   {
     "id": 171,
@@ -5073,7 +6464,27 @@
     "last_followup": null,
     "next_action": "Review 7 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 7,
+    "top_jobs_from_database": [
+      {
+        "title": "战略规划专家/高级战略分析师",
+        "grade": "C"
+      },
+      {
+        "title": "战略分析专家",
+        "grade": "C"
+      },
+      {
+        "title": "战略分析经理",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C"
+    ]
   },
   {
     "id": 35,
@@ -5119,7 +6530,23 @@
     "last_followup": null,
     "next_action": "Review 2 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 2,
+    "top_jobs_from_database": [
+      {
+        "title": "Product Manager - Return & Refund, Regional Operations",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Business Analyst, Fintech Strategic Planning",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C"
+    ]
   },
   {
     "id": 12,
@@ -5169,7 +6596,34 @@
     "last_followup": null,
     "next_action": "Review 147 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 179,
+    "top_jobs_from_database": [
+      {
+        "title": "Staff Product Manager, Global Expansion",
+        "grade": "A-1"
+      },
+      {
+        "title": "Strategic Programs Lead, New Markets",
+        "grade": "A-1"
+      },
+      {
+        "title": "Head of Sales, Stripe Billing - APAC",
+        "grade": "A-1"
+      }
+    ],
+    "job_grades_found": [
+      "S",
+      "A-",
+      "A-2",
+      "C",
+      "B+",
+      "B",
+      "A",
+      "A-1"
+    ]
   },
   {
     "id": 172,
@@ -5206,7 +6660,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 36,
@@ -5256,7 +6715,32 @@
     "last_followup": null,
     "next_action": "Review 28 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 29,
+    "top_jobs_from_database": [
+      {
+        "title": "Tencent Cloud – Regional Product Operations Specialist",
+        "grade": "B"
+      },
+      {
+        "title": "Marketing Manager",
+        "grade": "B"
+      },
+      {
+        "title": "Senior Procurement Manager",
+        "grade": "B"
+      }
+    ],
+    "job_grades_found": [
+      "S",
+      "A-",
+      "C",
+      "B+",
+      "A",
+      "B"
+    ]
   },
   {
     "id": 70,
@@ -5307,7 +6791,24 @@
     "last_followup": null,
     "next_action": "Review 28 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 2,
+    "top_jobs_from_database": [
+      {
+        "title": "Strategy Manager",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Strategy Manager",
+        "grade": "A"
+      }
+    ],
+    "job_grades_found": [
+      "C",
+      "A"
+    ]
   },
   {
     "id": 5,
@@ -5344,7 +6845,10 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "category": "person",
+    "is_person": true,
+    "matching_a_s_jobs": []
   },
   {
     "id": 115,
@@ -5382,7 +6886,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 71,
@@ -5425,7 +6934,19 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Head of Product - Core & Growth",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C"
+    ]
   },
   {
     "id": 72,
@@ -5476,7 +6997,28 @@
     "last_followup": null,
     "next_action": "Review 3 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 3,
+    "top_jobs_from_database": [
+      {
+        "title": "Head of Product",
+        "grade": "A"
+      },
+      {
+        "title": "Product Director - APAC",
+        "grade": "A"
+      },
+      {
+        "title": "VP Product - Singapore Remote",
+        "grade": "S"
+      }
+    ],
+    "job_grades_found": [
+      "S",
+      "A"
+    ]
   },
   {
     "id": 116,
@@ -5514,7 +7056,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 117,
@@ -5552,7 +7099,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 73,
@@ -5603,7 +7155,28 @@
     "last_followup": null,
     "next_action": "Review 3 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 3,
+    "top_jobs_from_database": [
+      {
+        "title": "Head of Product",
+        "grade": "A"
+      },
+      {
+        "title": "Product Director - Remote",
+        "grade": "A"
+      },
+      {
+        "title": "VP Product - Remote Global",
+        "grade": "S"
+      }
+    ],
+    "job_grades_found": [
+      "S",
+      "A"
+    ]
   },
   {
     "id": 43,
@@ -5654,7 +7227,29 @@
     "last_followup": null,
     "next_action": "Review 19 open positions",
     "priority": "medium",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 8,
+    "top_jobs_from_database": [
+      {
+        "title": "Director, New Business",
+        "grade": "B"
+      },
+      {
+        "title": "Principal Presales Engineer",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Customer Success Manager",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "A-",
+      "C",
+      "B"
+    ]
   },
   {
     "id": 157,
@@ -5705,7 +7300,19 @@
     "last_followup": null,
     "next_action": "Review 4 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "产品经理",
+        "grade": "B"
+      }
+    ],
+    "job_grades_found": [
+      "B"
+    ]
   },
   {
     "id": 173,
@@ -5755,7 +7362,19 @@
     "last_followup": null,
     "next_action": "Review 4 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "产品经理",
+        "grade": "B"
+      }
+    ],
+    "job_grades_found": [
+      "B"
+    ]
   },
   {
     "id": 118,
@@ -5793,7 +7412,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 119,
@@ -5840,7 +7464,24 @@
     "last_followup": null,
     "next_action": "Review 2 open positions",
     "priority": "medium",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 2,
+    "top_jobs_from_database": [
+      {
+        "title": "Senior Manager, Solutions Architect",
+        "grade": "C"
+      },
+      {
+        "title": "Director, Major Sales",
+        "grade": "S"
+      }
+    ],
+    "job_grades_found": [
+      "S",
+      "C"
+    ]
   },
   {
     "id": 120,
@@ -5878,7 +7519,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 37,
@@ -5928,7 +7574,27 @@
     "last_followup": null,
     "next_action": "Review 3 open positions",
     "priority": "high",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 3,
+    "top_jobs_from_database": [
+      {
+        "title": "Director, Corporate Strategy - Asia Pacific",
+        "grade": "A-"
+      },
+      {
+        "title": "Director, Account Executive, AP Fintech & Strategic Partners",
+        "grade": "A-"
+      },
+      {
+        "title": "Senior Director, Corporate Strategy, Asia Pacific",
+        "grade": "A-"
+      }
+    ],
+    "job_grades_found": [
+      "A-"
+    ]
   },
   {
     "id": 121,
@@ -5966,7 +7632,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 38,
@@ -6003,7 +7674,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 122,
@@ -6041,7 +7717,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 123,
@@ -6079,7 +7760,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 51,
@@ -6129,7 +7815,30 @@
     "last_followup": null,
     "next_action": "Review 3 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 11,
+    "top_jobs_from_database": [
+      {
+        "title": "Product Manager – Risk Products",
+        "grade": "A-1"
+      },
+      {
+        "title": "Financial Operations - Cross-Border Ops Lead",
+        "grade": "A-2"
+      },
+      {
+        "title": "Financial Operations Lead - DragonPay Team",
+        "grade": "A-2"
+      }
+    ],
+    "job_grades_found": [
+      "B+",
+      "C",
+      "A-2",
+      "A-1"
+    ]
   },
   {
     "id": 10,
@@ -6164,7 +7873,10 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "category": "person",
+    "is_person": true,
+    "matching_a_s_jobs": []
   },
   {
     "id": 124,
@@ -6202,7 +7914,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 125,
@@ -6240,7 +7957,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 126,
@@ -6278,7 +8000,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 39,
@@ -6315,7 +8042,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "expired"
+    "status": "expired",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 127,
@@ -6353,7 +8085,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 128,
@@ -6391,7 +8128,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 129,
@@ -6429,7 +8171,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 130,
@@ -6467,7 +8214,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 131,
@@ -6505,7 +8257,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 206,
@@ -6543,7 +8300,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 174,
@@ -6580,7 +8342,19 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "商业策略运营",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C"
+    ]
   },
   {
     "id": 175,
@@ -6622,7 +8396,19 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "产品商业化负责人",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C"
+    ]
   },
   {
     "id": 205,
@@ -6660,7 +8446,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 132,
@@ -6698,7 +8489,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 133,
@@ -6736,7 +8532,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 202,
@@ -6774,7 +8575,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 200,
@@ -6812,7 +8618,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 201,
@@ -6850,7 +8661,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 203,
@@ -6888,7 +8704,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 134,
@@ -6926,7 +8747,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 176,
@@ -6963,7 +8789,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 135,
@@ -7001,7 +8832,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 177,
@@ -7043,7 +8879,19 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "商业化产品经理",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C"
+    ]
   },
   {
     "id": 136,
@@ -7081,7 +8929,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 137,
@@ -7119,7 +8972,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 178,
@@ -7156,7 +9014,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 138,
@@ -7194,7 +9057,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 139,
@@ -7232,7 +9100,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 140,
@@ -7270,7 +9143,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 197,
@@ -7313,7 +9191,12 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 158,
@@ -7351,7 +9234,19 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "全球GTM增长负责人",
+        "grade": "B"
+      }
+    ],
+    "job_grades_found": [
+      "B"
+    ]
   },
   {
     "id": 141,
@@ -7389,7 +9284,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 142,
@@ -7427,7 +9327,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 198,
@@ -7470,7 +9375,12 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "medium",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 159,
@@ -7513,7 +9423,12 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 179,
@@ -7555,7 +9470,19 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "商业化策略产品经理",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C"
+    ]
   },
   {
     "id": 199,
@@ -7592,7 +9519,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 143,
@@ -7630,7 +9562,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 144,
@@ -7668,7 +9605,30 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 8,
+    "top_jobs_from_database": [
+      {
+        "title": "全球GTM增长负责人",
+        "grade": "B"
+      },
+      {
+        "title": "产品经理（英国区域）",
+        "grade": "B"
+      },
+      {
+        "title": "高级产品经理（小家电/厨电类/环境类）",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "A-",
+      "C",
+      "A",
+      "B"
+    ]
   },
   {
     "id": 145,
@@ -7706,7 +9666,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 146,
@@ -7744,7 +9709,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 147,
@@ -7782,7 +9752,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 148,
@@ -7825,7 +9800,19 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "medium",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "配送策略产品经理",
+        "grade": "A"
+      }
+    ],
+    "job_grades_found": [
+      "A"
+    ]
   },
   {
     "id": 149,
@@ -7863,7 +9850,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 150,
@@ -7901,7 +9893,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 180,
@@ -7943,7 +9940,19 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "高级产品经理-AI芯片",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C"
+    ]
   },
   {
     "id": 74,
@@ -7986,7 +9995,19 @@
     "last_followup": null,
     "next_action": "Review 1 open positions",
     "priority": "medium",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "产品经理PM（展锐）",
+        "grade": "A"
+      }
+    ],
+    "job_grades_found": [
+      "A"
+    ]
   },
   {
     "id": 204,
@@ -8024,7 +10045,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 151,
@@ -8062,7 +10088,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 75,
@@ -8100,7 +10131,19 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "高级产品经理 Product Manager (Banking)",
+        "grade": "A"
+      }
+    ],
+    "job_grades_found": [
+      "A"
+    ]
   },
   {
     "id": 181,
@@ -8146,7 +10189,24 @@
     "last_followup": null,
     "next_action": "Review 2 open positions",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 2,
+    "top_jobs_from_database": [
+      {
+        "title": "商业拓展经理/高级经理（具身智能方向）",
+        "grade": "B"
+      },
+      {
+        "title": "商业拓展经理-具身智能",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C",
+      "B"
+    ]
   },
   {
     "id": 182,
@@ -8183,7 +10243,19 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "商业化负责人",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C"
+    ]
   },
   {
     "id": 21,
@@ -8220,7 +10292,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_company": true,
+    "category": "target",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 183,
@@ -8257,7 +10334,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 184,
@@ -8294,7 +10376,19 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "商业分析负责人",
+        "grade": "C"
+      }
+    ],
+    "job_grades_found": [
+      "C"
+    ]
   },
   {
     "id": 152,
@@ -8332,7 +10426,12 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   },
   {
     "id": 153,
@@ -8370,6 +10469,11 @@
     "last_followup": null,
     "next_action": "No active openings",
     "priority": "low",
-    "status": "prospect"
+    "status": "prospect",
+    "is_system": true,
+    "category": "ats",
+    "total_jobs_in_database": 0,
+    "top_jobs_from_database": [],
+    "job_grades_found": []
   }
 ]
