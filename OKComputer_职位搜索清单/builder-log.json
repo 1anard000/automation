@@ -296,6 +296,21 @@
       "overall": 7.9,
       "improvement": "Backfilled posted_date for all 992 jobs (was missing for 460). Fixed backfill-dates.py to use correct field names and scanned_date as fallback. All jobs now have dates, enabling staleness detection.",
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-08-03T03:02:51.501418",
+      "scores": {
+        "data_quality": 9.5,
+        "dashboard": 8,
+        "career_strategy": 8.5,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 7,
+        "coverage": 8
+      },
+      "overall": 8.0,
+      "improvement": "Refreshed career-strategy.md with current data: 1132 jobs (\u2191103 from Aug 1), updated company rankings (Stripe now #1 at 179 roles), fresh Aug openings section, sector heat map, and strategic recommendations.",
+      "subagent": "nightly-improver"
     }
   ],
   "log": [
@@ -343,6 +358,22 @@
       "overall": 7.9,
       "improvement": "Added grade normalization to auto-maintain.py: converts non-standard grades (Senior PM, Director, Lead PM, Staff PM, etc.) to standard S/A/B/C scale. Fixed 35 jobs with odd grades from vc-fintech-results.json. Pipeline now produces clean grade distribution.",
       "dim_improved": "automation"
+    },
+    {
+      "timestamp": "2026-08-03T03:00:00",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 8,
+        "coverage": 8
+      },
+      "overall": 7.9,
+      "improvement": "CRM enrichment: 206 contacts but 154 are ATS system entries (not real people), only 10 real humans. Spawning sub-agent to categorize contacts, add is_system/is_company flags, cross-reference with job data, and compute enrichment quality score. Expected CRM boost 7\u21928.",
+      "subagent": "builder-crm-enrich-1754173200",
+      "dim_improved": "crm"
     }
   ]
 }
