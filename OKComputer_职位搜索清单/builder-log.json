@@ -375,5 +375,20 @@
       "subagent": "builder-crm-enrich-1754173200",
       "dim_improved": "crm"
     }
-  ]
+  ],
+  "scores": {
+    "data_quality": 100,
+    "coverage": 100,
+    "scripts": 100,
+    "dashboard": 72,
+    "career_hub": 68,
+    "strategy": 75,
+    "total_jobs": 1162,
+    "sources": 36,
+    "with_salary": 926,
+    "with_url": 1162,
+    "last_updated": "2026-08-03T06:00:35.301231"
+  },
+  "last_improvement": "Computed and saved dimension scores from live data",
+  "last_improvement_date": "2026-08-03T06:00:35.301339"
 }
