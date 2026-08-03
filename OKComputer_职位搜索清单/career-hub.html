@@ -116,46 +116,60 @@ nav a:hover,nav a.active{color:var(--text);background:rgba(108,92,231,.12)}
 </div>
 
 <div class="section-title" id="market-intel">🧠 Market Intel — Data-Driven Insights</div>
-<div style="max-width:1200px;margin:0 auto 1.5rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem">
-  <div class="stat" style="text-align:left;padding:1rem 1.2rem">
-    <div style="font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:.5rem;font-weight:600">🏆 Top Hires (by volume)</div>
-    <div style="font-size:.82rem;line-height:1.8">
-      <div><span style="color:var(--accent)">Stripe</span> — 159 roles</div>
-      <div><span style="color:var(--accent)">OKX</span> — 142 roles</div>
-      <div><span style="color:var(--accent)">Agoda</span> — 135 roles</div>
-      <div><span style="color:var(--accent)">Coupang</span> — 105 roles</div>
-      <div><span style="color:var(--accent)">Anthropic</span> — 91 roles</div>
+<div style="max-width:1200px;margin:0 auto 1.5rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem" id="intelGrid"></div>
+<script>
+function renderIntel() {
+  const companies = {};
+  const locations = {};
+  const sectors = {};
+  const aGrades = ['S','S-1','A-1','A','A-2','A-','B+'];
+  let aCount = 0, remoteCount = 0;
+  JOBS.forEach(j => {
+    if (j.c) companies[j.c] = (companies[j.c]||0)+1;
+    if (j.l) {
+      const city = j.l.split(',')[0].trim();
+      if (!['Remote','remote','N/A',''].includes(city)) locations[city] = (locations[city]||0)+1;
+    }
+    if (j.r && j.r !== 'unknown' && j.r !== '') {
+      const sec = j.r.charAt(0).toUpperCase() + j.r.slice(1);
+      sectors[sec] = (secters[sec]||0)+1;
+    }
+    if (aGrades.includes(j.g)) aCount++;
+    if (j.l && /remote/i.test(j.l)) remoteCount++;
+  });
+  const topCompanies = Object.entries(companies).sort((a,b)=>b[1]-a[1]).slice(0,5);
+  const topLocations = Object.entries(locations).sort((a,b)=>b[1]-a[1]).slice(0,5);
+  const topSectors = Object.entries(sectors).sort((a,b)=>b[1]-a[1]).slice(0,5);
+  const totalCompanies = Object.keys(companies).length;
+  const totalSources = [...new Set(JOBS.map(j=>j.s))].length;
+  const pct = totalCompanies ? ((aCount/JOBS.length)*100).toFixed(1) : '—';
+  document.getElementById('intelGrid').innerHTML = `
+    <div class="stat" style="text-align:left;padding:1rem 1.2rem">
+      <div style="font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:.5rem;font-weight:600">🏆 Top Hires (by volume)</div>
+      <div style="font-size:.82rem;line-height:1.8">${topCompanies.map(([n,c])=>`<div><span style="color:var(--accent)">${n}</span> — ${c} roles</div>`).join('')}</div>
     </div>
-  </div>
-  <div class="stat" style="text-align:left;padding:1rem 1.2rem">
-    <div style="font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:.5rem;font-weight:600">📍 Hot Locations</div>
-    <div style="font-size:.82rem;line-height:1.8">
-      <div><span style="color:var(--accent2)">Singapore</span> — 189 jobs (19%)</div>
-      <div><span style="color:var(--accent2)">Bangkok</span> — 109 jobs (11%)</div>
-      <div><span style="color:var(--accent2)">Shenzhen</span> — 96 jobs (10%)</div>
-      <div><span style="color:var(--accent2)">San Francisco</span> — 93 jobs (9%)</div>
-      <div><span style="color:var(--accent2)">Seoul</span> — 78 jobs (8%)</div>
+    <div class="stat" style="text-align:left;padding:1rem 1.2rem">
+      <div style="font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:.5rem;font-weight:600">📍 Hot Locations</div>
+      <div style="font-size:.82rem;line-height:1.8">${topLocations.map(([n,c])=>`<div><span style="color:var(--accent2)">${n}</span> — ${c} jobs</div>`).join('')}</div>
     </div>
-  </div>
-  <div class="stat" style="text-align:left;padding:1rem 1.2rem">
-    <div style="font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:.5rem;font-weight:600">🔥 Sector Trends</div>
-    <div style="font-size:.82rem;line-height:1.8">
-      <div><span style="color:var(--accent3)">Crypto/Fintech</span> dominates — OKX, Stripe, Airwallex</div>
-      <div><span style="color:var(--accent3)">E-commerce</span> surging — Coupang, Agoda, Shopee</div>
-      <div><span style="color:var(--accent3)">AI/Product</span> growing — Anthropic, ByteDance</div>
-      <div><span style="color:var(--accent3)">Remote-friendly</span> — 123 remote roles (12%)</div>
+    <div class="stat" style="text-align:left;padding:1rem 1.2rem">
+      <div style="font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:.5rem;font-weight:600">🔥 Sectors</div>
+      <div style="font-size:.82rem;line-height:1.8">${topSectors.map(([n,c])=>`<div><span style="color:var(--accent3)">${n}</span> — ${c} roles</div>`).join('')}</div>
     </div>
-  </div>
-  <div class="stat" style="text-align:left;padding:1rem 1.2rem">
-    <div style="font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:.5rem;font-weight:600">📊 Database Stats</div>
-    <div style="font-size:.82rem;line-height:1.8">
-      <div><span style="color:var(--accent)">992</span> total jobs tracked</div>
-      <div><span style="color:var(--accent)">138</span> unique companies</div>
-      <div><span style="color:var(--accent)">36</span> data sources</div>
-      <div><span style="color:var(--accent)">336</span> A-grade or higher roles (34%)</div>
+    <div class="stat" style="text-align:left;padding:1rem 1.2rem">
+      <div style="font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:.5rem;font-weight:600">📊 Database Stats</div>
+      <div style="font-size:.82rem;line-height:1.8">
+        <div><span style="color:var(--accent)">${JOBS.length.toLocaleString()}</span> total jobs tracked</div>
+        <div><span style="color:var(--accent)">${totalCompanies}</span> unique companies</div>
+        <div><span style="color:var(--accent)">${totalSources}</span> data sources</div>
+        <div><span style="color:var(--accent)">${aCount}</span> A-grade+ roles (${pct}%)</div>
+        <div><span style="color:var(--accent)">${remoteCount}</span> remote roles</div>
+      </div>
     </div>
-  </div>
-</div>
+  `;
+}
+renderIntel();
+</script>
 
 <div class="section-title" id="filters">🔍 Job Search & Filters</div>
 <div class="filters">
