@@ -19258,5 +19258,31 @@
     "posted_date": "2026-07-01T01:05:06-04:00",
     "grade": "B-2",
     "description": ""
+  },
+  {
+    "title": "Product Director, Internal HR & Finance Systems",
+    "company": "OKX",
+    "location": "Singapore, Singapore",
+    "salary": "Not listed",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7773206003",
+    "source": "greenhouse_api",
+    "role_type": "product_management",
+    "description": "Greenhouse listing for OKX in Singapore, Singapore",
+    "scanned_date": "2026-08-03",
+    "posted_date": "2026-08-03T21:40:56.592278",
+    "grade": "A-1"
+  },
+  {
+    "title": "Product Director, Internal HR & Finance Systems",
+    "company": "OKX",
+    "location": "Hong Kong, Hong Kong SAR",
+    "salary": "Not listed",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7773207003",
+    "source": "greenhouse_api",
+    "role_type": "product_management",
+    "description": "Greenhouse listing for OKX in Hong Kong, Hong Kong SAR",
+    "scanned_date": "2026-08-03",
+    "posted_date": "2026-08-03T21:40:56.592278",
+    "grade": "A-1"
   }
 ]
