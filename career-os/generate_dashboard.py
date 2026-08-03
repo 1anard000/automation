@@ -12,8 +12,8 @@ with open(jobs_path, 'r', encoding='utf-8') as f:
 # Stats
 total = len(jobs)
 
-# Count by location
-loc_counts = {}
+# Count by location (only tracking SZ/HK/GZ/SH/SG)
+loc_counts = {'SZ': 0, 'HK': 0, 'GZ': 0, 'SH': 0, 'SG': 0, 'Other': 0}
 for j in jobs:
     loc = j.get('location', '') or j.get('location_norm', '') or 'Unknown'
     loc_norm = loc.upper().replace(' ', '')
@@ -28,14 +28,23 @@ for j in jobs:
     elif 'SINGAPORE' in loc_norm or '新加坡' in loc:
         loc_key = 'SG'
     else:
-        loc_key = loc[:20] if loc else 'Unknown'
+        loc_key = 'Other'
     loc_counts[loc_key] = loc_counts.get(loc_key, 0) + 1
 
-# Count by category
-cat_counts = {}
+# Count by category (only tracking PM/Strategy/Growth)
+cat_counts = {'PM': 0, 'Strategy': 0, 'Growth': 0, 'Other': 0}
 for j in jobs:
     cat = j.get('category', 'Unknown')
-    cat_counts[cat] = cat_counts.get(cat, 0) + 1
+    cat_norm = str(cat).lower()
+    if cat_norm in ('general_pm', 'product', 'product_management', 'senior_pm', 'ai_product', 'platform', 'program'):
+        cat_key = 'PM'
+    elif cat_norm == 'strategy':
+        cat_key = 'Strategy'
+    elif cat_norm == 'growth':
+        cat_key = 'Growth'
+    else:
+        cat_key = 'Other'
+    cat_counts[cat_key] = cat_counts.get(cat_key, 0) + 1
 
 # Top 5 by quality_score
 scored = []
