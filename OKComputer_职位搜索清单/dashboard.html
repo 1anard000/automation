@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>APAC Senior Roles Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0f172a;color:#e2e8f0;padding:16px}
@@ -98,6 +99,21 @@ a:hover{text-decoration:underline}
 <div class="stat-card"><div class="num" id="szCount">44</div><div class="label">Shenzhen</div></div>
 <div class="stat-card"><div class="num" id="cbCount">2</div><div class="label">Cross Border</div></div>
 <div class="stat-card"><div class="num" id="stratCount">23</div><div class="label">Strategy</div></div>
+</div>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px;margin:16px 0">
+  <div style="background:#1e293b;border-radius:12px;padding:16px;border:1px solid #334155">
+    <h3 style="color:#94a3b8;font-size:0.75rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px">Top Companies</h3>
+    <canvas id="companyChart" height="200"></canvas>
+  </div>
+  <div style="background:#1e293b;border-radius:12px;padding:16px;border:1px solid #334155">
+    <h3 style="color:#94a3b8;font-size:0.75rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px">Grade Distribution</h3>
+    <canvas id="gradeChart" height="200"></canvas>
+  </div>
+  <div style="background:#1e293b;border-radius:12px;padding:16px;border:1px solid #334155">
+    <h3 style="color:#94a3b8;font-size:0.75rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px">Locations</h3>
+    <canvas id="locationChart" height="200"></canvas>
+  </div>
 </div>
 
 <div class="filters">
@@ -233,6 +249,63 @@ function sortTable(col) {
 
 ['search','filterGrade','filterCity','filterCategory','filterDifficulty','filterEnglish'].forEach(id => document.getElementById(id).addEventListener('input', filterData));
 renderTable(jobs);
+
+// === CHARTS ===
+const companyCtx = document.getElementById('companyChart');
+if (companyCtx) {
+  const coCounts = {};
+  allJobs.forEach(j => { const c = j.company||'Unknown'; coCounts[c] = (coCounts[c]||0)+1; });
+  const sorted = Object.entries(coCounts).sort((a,b)=>b[1]-a[1]).slice(0,10);
+  new Chart(companyCtx, {
+    type: 'bar',
+    data: {
+      labels: sorted.map(s=>s[0]),
+      datasets: [{ data: sorted.map(s=>s[1]), backgroundColor: ['#38bdf8','#818cf8','#4ade80','#f472b6','#fb923c','#a78bfa','#2dd4bf','#fbbf24','#f87171','#34d399'], borderRadius: 6, borderSkipped: false }]
+    },
+    options: { indexAxis:'y', plugins:{legend:{display:false}}, scales:{x:{ticks:{color:'#94a3b8'},grid:{color:'#334155'}},y:{ticks:{color:'#e2e8f0',font:{size:11}},grid:{display:false}}} }
+  });
+}
+
+const gradeCtx = document.getElementById('gradeChart');
+if (gradeCtx) {
+  const gCounts = {};
+  allJobs.forEach(j => { const g = j.grade||'?'; gCounts[g] = (gCounts[g]||0)+1; });
+  const gOrder = ['S','A','A-','A-1','A-2','B','B+','C','?'];
+  const gLabels = gOrder.filter(g=>gCounts[g]);
+  const gData = gLabels.map(g=>gCounts[g]);
+  const gColors = ['#c084fc','#4ade80','#86efac','#34d399','#2dd4bf','#60a5fa','#93c5fd','#fbbf24','#64748b'];
+  new Chart(gradeCtx, {
+    type: 'doughnut',
+    data: {
+      labels: gLabels,
+      datasets: [{ data: gData, backgroundColor: gColors.slice(0,gLabels.length), borderWidth: 0 }]
+    },
+    options: { plugins:{legend:{position:'right',labels:{color:'#e2e8f0',padding:8,font:{size:11}}}} }
+  });
+}
+
+const locCtx = document.getElementById('locationChart');
+if (locCtx) {
+  const cities = ['Singapore','Hong Kong','Remote','Bangkok','Seoul','Shenzhen','Taipei','Tokyo','Shanghai','Other'];
+  const lCounts = {};
+  allJobs.forEach(j => {
+    const loc = (j.location||'').toLowerCase();
+    let found = false;
+    for (const city of cities.slice(0,-1)) { if (loc.includes(city.toLowerCase())) { lCounts[city]=(lCounts[city]||0)+1; found=true; break; } }
+    if (!found) lCounts['Other']=(lCounts['Other']||0)+1;
+  });
+  const lLabels = cities.filter(c=>lCounts[c]);
+  const lData = lLabels.map(c=>lCounts[c]);
+  const lColors = ['#f472b6','#a78bfa','#38bdf8','#fb923c','#f87171','#2dd4bf','#fbbf24','#c084fc','#818cf8','#64748b'];
+  new Chart(locCtx, {
+    type: 'bar',
+    data: {
+      labels: lLabels,
+      datasets: [{ data: lData, backgroundColor: lColors.slice(0,lLabels.length), borderRadius: 6, borderSkipped: false }]
+    },
+    options: { plugins:{legend:{display:false}}, scales:{x:{ticks:{color:'#94a3b8',maxRotation:45},grid:{display:false}},y:{ticks:{color:'#94a3b8'},grid:{color:'#334155'}}} }
+  });
+}
 </script>
 </body>
 </html>

@@ -12,7 +12,7 @@
         "coverage": 6
       },
       "overall": 3.0,
-      "improvement": "Initial assessment \u2014 skeleton state",
+      "improvement": "Initial assessment — skeleton state",
       "subagent": null
     },
     {
@@ -72,7 +72,7 @@
         "coverage": 7
       },
       "overall": 6.4,
-      "improvement": "CRM improvement: auto-flagged 32 expired applications (deadlines passed), added review_summary metadata, 10 active apps remain. CRM score 1\u21924.",
+      "improvement": "CRM improvement: auto-flagged 32 expired applications (deadlines passed), added review_summary metadata, 10 active apps remain. CRM score 1→4.",
       "subagent": "nightly-improver"
     },
     {
@@ -87,7 +87,7 @@
         "coverage": 7
       },
       "overall": 6.4,
-      "improvement": "CRM enrichment: spawning sub-agent to auto-classify contacts by role type (recruiter/hiring_manager/peer/executive/mentor), detect company domains from emails, and compute relationship health scores based on interaction recency. Expected CRM boost 4\u21926.",
+      "improvement": "CRM enrichment: spawning sub-agent to auto-classify contacts by role type (recruiter/hiring_manager/peer/executive/mentor), detect company domains from emails, and compute relationship health scores based on interaction recency. Expected CRM boost 4→6.",
       "subagent": "builder-crm-enrichment-1721482800"
     },
     {
@@ -129,7 +129,7 @@
         "automation": 7,
         "coverage": 7
       },
-      "improvement": "Career strategy refresh: updated job count (1,372\u21921,196), shifted action plan to July 22-26, added pending A-1 applications list, next report July 27.",
+      "improvement": "Career strategy refresh: updated job count (1,372→1,196), shifted action plan to July 22-26, added pending A-1 applications list, next report July 27.",
       "subagent": "nightly-improver"
     },
     {
@@ -144,7 +144,7 @@
         "coverage": 7
       },
       "overall": 7.0,
-      "improvement": "CRM enrichment: all 206 contacts have role_type=unknown. Spawning sub-agent to classify by role (recruiter/hiring_manager/peer/executive/mentor), extract company domains, compute relationship scores. Expected CRM boost 5\u21927.",
+      "improvement": "CRM enrichment: all 206 contacts have role_type=unknown. Spawning sub-agent to classify by role (recruiter/hiring_manager/peer/executive/mentor), extract company domains, compute relationship scores. Expected CRM boost 5→7.",
       "subagent": "builder-crm-classify-1721486400"
     },
     {
@@ -159,7 +159,7 @@
         "coverage": 7
       },
       "overall": 7.3,
-      "improvement": "CRM enrichment complete: classified 206 contacts (154 recruiter/ATS, 42 company entries, 3 hiring managers, 7 unknown). Computed relationship scores (avg 28/100). CRM score 5\u21927.",
+      "improvement": "CRM enrichment complete: classified 206 contacts (154 recruiter/ATS, 42 company entries, 3 hiring managers, 7 unknown). Computed relationship scores (avg 28/100). CRM score 5→7.",
       "subagent": "nightly-improver"
     },
     {
@@ -174,7 +174,7 @@
         "coverage": 7
       },
       "overall": 6.6,
-      "improvement": "Deduplicated 178 jobs (1212\u21921034) by removing title+company duplicates. All remaining jobs have title, company, url, and grade. Zero dupes remain. Data quality 8\u21929.",
+      "improvement": "Deduplicated 178 jobs (1212→1034) by removing title+company duplicates. All remaining jobs have title, company, url, and grade. Zero dupes remain. Data quality 8→9.",
       "subagent": "nightly-improver"
     },
     {
@@ -189,7 +189,7 @@
         "coverage": 7
       },
       "overall": 6.7,
-      "improvement": "CRM critical issue: 196 of 206 contacts are company placeholders (no email, names like \"Anthropic (Recruiting)\"). Only 10 real people. Previous CRM score of 7 was inflated. Spawning sub-agent to classify real vs org contacts, fix role_types, boost relationship scores for real contacts. Expected CRM boost 2\u21925.",
+      "improvement": "CRM critical issue: 196 of 206 contacts are company placeholders (no email, names like \"Anthropic (Recruiting)\"). Only 10 real people. Previous CRM score of 7 was inflated. Spawning sub-agent to classify real vs org contacts, fix role_types, boost relationship scores for real contacts. Expected CRM boost 2→5.",
       "subagent": "builder-crm-rebuild-1721685600"
     },
     {
@@ -204,7 +204,7 @@
         "coverage": 7
       },
       "overall": 6.9,
-      "improvement": "Refreshed career-hub.html: removed 367 stale jobs (1346\u2192979), synced embedded data with current jobs-all.json. Hub was 4 days stale. CRM bumped 2\u21923 after last run's sub-agent work.",
+      "improvement": "Refreshed career-hub.html: removed 367 stale jobs (1346→979), synced embedded data with current jobs-all.json. Hub was 4 days stale. CRM bumped 2→3 after last run's sub-agent work.",
       "subagent": null
     },
     {
@@ -219,7 +219,7 @@
         "coverage": 7
       },
       "overall": 7.1,
-      "improvement": "CRM actionable: added application_status, priority, next_action, and job matching to all 206 contacts. 22 high-priority companies identified (2+ A/S grade openings). CRM score 3\u21925.",
+      "improvement": "CRM actionable: added application_status, priority, next_action, and job matching to all 206 contacts. 22 high-priority companies identified (2+ A/S grade openings). CRM score 3→5.",
       "subagent": "nightly-improver"
     },
     {
@@ -234,7 +234,7 @@
         "coverage": 7
       },
       "overall": 7.3,
-      "improvement": "Dashboard rebuilt with scanned_date fallback for freshness stats (887 jobs had no posted_date). Freshness now shows 458 jobs in 7-30d range vs previously 0. Dashboard score 7\u21928.",
+      "improvement": "Dashboard rebuilt with scanned_date fallback for freshness stats (887 jobs had no posted_date). Freshness now shows 458 jobs in 7-30d range vs previously 0. Dashboard score 7→8.",
       "subagent": "nightly-improver"
     },
     {
@@ -264,7 +264,7 @@
         "coverage": 7
       },
       "overall": 7.6,
-      "improvement": "Career strategy refresh: last updated Jul 22 (10 days stale). Spawning sub-agent to rebuild with current data (1,029 jobs, updated company rankings, sector trends, 2-week action plan). Expected boost 7\u21928.",
+      "improvement": "Career strategy refresh: last updated Jul 22 (10 days stale). Spawning sub-agent to rebuild with current data (1,029 jobs, updated company rankings, sector trends, 2-week action plan). Expected boost 7→8.",
       "subagent": "builder-strategy-refresh-1754002800"
     },
     {
@@ -309,7 +309,7 @@
         "coverage": 8
       },
       "overall": 8.0,
-      "improvement": "Refreshed career-strategy.md with current data: 1132 jobs (\u2191103 from Aug 1), updated company rankings (Stripe now #1 at 179 roles), fresh Aug openings section, sector heat map, and strategic recommendations.",
+      "improvement": "Refreshed career-strategy.md with current data: 1132 jobs (↑103 from Aug 1), updated company rankings (Stripe now #1 at 179 roles), fresh Aug openings section, sector heat map, and strategic recommendations.",
       "subagent": "nightly-improver"
     },
     {
@@ -324,9 +324,24 @@
         "coverage": 8
       },
       "overall": 7.4,
-      "improvement": "Career hub rebuild: career-hub.html stale (992 jobs vs 1279 in JSON). Spawning sub-agent to rebuild with current data, modern filters, company leaderboard, and location charts. Expected career_hub boost 68\u219285+.",
+      "improvement": "Career hub rebuild: career-hub.html stale (992 jobs vs 1279 in JSON). Spawning sub-agent to rebuild with current data, modern filters, company leaderboard, and location charts. Expected career_hub boost 68→85+.",
       "subagent": "builder-career-hub-rebuild",
       "dim_improved": "career_hub"
+    },
+    {
+      "timestamp": "2026-08-04T06:01:52.000566",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8.5,
+        "career_strategy": 7.5,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 7,
+        "coverage": 8
+      },
+      "overall": 7.7,
+      "improvement": "Added Chart.js visualizations to dashboard: company bar chart, grade doughnut chart, location bar chart. Dashboard now has interactive visual analytics instead of just text stats.",
+      "subagent": "nightly-improver"
     }
   ],
   "log": [
@@ -342,7 +357,7 @@
         "coverage": 8
       },
       "overall": 7.7,
-      "improvement": "Data cleanup: removed 102 stale jobs (>30 days old). Jobs 1068\u2192966. Primarily expired Agoda, Anthropic, and other listings. Database is now current.",
+      "improvement": "Data cleanup: removed 102 stale jobs (>30 days old). Jobs 1068→966. Primarily expired Agoda, Anthropic, and other listings. Database is now current.",
       "subagent": "nightly-improver"
     },
     {
@@ -387,21 +402,21 @@
         "coverage": 8
       },
       "overall": 7.9,
-      "improvement": "CRM enrichment: 206 contacts but 154 are ATS system entries (not real people), only 10 real humans. Spawning sub-agent to categorize contacts, add is_system/is_company flags, cross-reference with job data, and compute enrichment quality score. Expected CRM boost 7\u21928.",
+      "improvement": "CRM enrichment: 206 contacts but 154 are ATS system entries (not real people), only 10 real humans. Spawning sub-agent to categorize contacts, add is_system/is_company flags, cross-reference with job data, and compute enrichment quality score. Expected CRM boost 7→8.",
       "subagent": "builder-crm-enrich-1754173200",
       "dim_improved": "crm"
     },
     {
       "timestamp": "2026-08-04T00:02:35.238441",
       "type": "data_cleanup",
-      "summary": "Removed 13 duplicate URL entries from jobs-all.json (1164\u21921151). Regenerated dashboard.html."
+      "summary": "Removed 13 duplicate URL entries from jobs-all.json (1164→1151). Regenerated dashboard.html."
     }
   ],
   "scores": {
     "data_quality": 100,
     "coverage": 100,
     "scripts": 100,
-    "dashboard": 72,
+    "dashboard": 85,
     "career_hub": 68,
     "strategy": 75,
     "total_jobs": 1151,
@@ -410,6 +425,6 @@
     "with_url": 1162,
     "last_updated": "2026-08-04T03:03:08.098559"
   },
-  "last_improvement": "Career hub rebuild: career-hub.html stale (992 jobs vs 1279 in JSON). Spawning sub-agent to rebuild with current data, modern filters, company leaderboard, and location charts. Expected career_hub boost 68\u219285+.",
-  "last_improvement_date": "2026-08-04T03:03:08.098561"
+  "last_improvement": "Added Chart.js visualizations to dashboard: company bar chart, grade doughnut chart, location bar chart.",
+  "last_improvement_date": "2026-08-04T06:01:52.000566"
 }
