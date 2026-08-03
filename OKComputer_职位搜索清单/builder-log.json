@@ -311,6 +311,22 @@
       "overall": 8.0,
       "improvement": "Refreshed career-strategy.md with current data: 1132 jobs (\u2191103 from Aug 1), updated company rankings (Stripe now #1 at 179 roles), fresh Aug openings section, sector heat map, and strategic recommendations.",
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-08-04T03:03:08.098554",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 7.2,
+        "career_strategy": 7.5,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 7,
+        "coverage": 8
+      },
+      "overall": 7.4,
+      "improvement": "Career hub rebuild: career-hub.html stale (992 jobs vs 1279 in JSON). Spawning sub-agent to rebuild with current data, modern filters, company leaderboard, and location charts. Expected career_hub boost 68\u219285+.",
+      "subagent": "builder-career-hub-rebuild",
+      "dim_improved": "career_hub"
     }
   ],
   "log": [
@@ -386,14 +402,14 @@
     "coverage": 100,
     "scripts": 100,
     "dashboard": 72,
-    "career_hub": 75,
+    "career_hub": 68,
     "strategy": 75,
     "total_jobs": 1151,
     "sources": 36,
     "with_salary": 926,
     "with_url": 1162,
-    "last_updated": "2026-08-04T03:00:00"
+    "last_updated": "2026-08-04T03:03:08.098559"
   },
-  "last_improvement": "Removed 13 duplicate URL entries from jobs-all.json (1164\u21921151). Regenerated dashboard.html.",
-  "last_improvement_date": "2026-08-04T00:02:35.238442"
+  "last_improvement": "Career hub rebuild: career-hub.html stale (992 jobs vs 1279 in JSON). Spawning sub-agent to rebuild with current data, modern filters, company leaderboard, and location charts. Expected career_hub boost 68\u219285+.",
+  "last_improvement_date": "2026-08-04T03:03:08.098561"
 }
