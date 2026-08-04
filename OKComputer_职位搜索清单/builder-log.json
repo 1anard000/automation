@@ -342,6 +342,20 @@
       "overall": 7.7,
       "improvement": "Added Chart.js visualizations to dashboard: company bar chart, grade doughnut chart, location bar chart. Dashboard now has interactive visual analytics instead of just text stats.",
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-08-05T04:24:28",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8.5,
+        "career_strategy": 8.5,
+        "python_scripts": 8,
+        "crm": 8,
+        "automation": 7,
+        "coverage": 8
+      },
+      "improvement": "CRM dashboard refresh: rebuilt crm-dashboard.html with current 1315 jobs cross-referenced against 206 contacts. 27 target companies with 948 matching roles. 45 ATS entries tracked. Added relationship health indicators, tabbed view (Companies/ATS/Contacts), search/filter functionality. Enriched contacts.json with open_roles_count. CRM score 7→8.",
+      "subagent": "builder-crm-dashboard-refresh"
     }
   ],
   "log": [
@@ -410,6 +424,35 @@
       "timestamp": "2026-08-04T00:02:35.238441",
       "type": "data_cleanup",
       "summary": "Removed 13 duplicate URL entries from jobs-all.json (1164→1151). Regenerated dashboard.html."
+    },
+    {
+      "timestamp": "2026-08-05T04:20:00",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8.5,
+        "career_strategy": 8.5,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 7,
+        "coverage": 8
+      },
+      "overall": 7.6,
+      "improvement": "CRM dashboard refresh: CRM dashboard stale (Aug 1). Spawning sub-agent to rebuild with current 1315 jobs cross-referenced against 206 contacts. Expected CRM boost 7→8.",
+      "subagent": "builder-crm-dashboard-refresh",
+      "dim_improved": "crm"
+    },
+    {
+      "timestamp": "2026-08-05T04:24:28",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8.5,
+        "career_strategy": 8.5,
+        "python_scripts": 8,
+        "crm": 8,
+        "automation": 7,
+        "coverage": 8
+      },
+      "summary": "CRM dashboard rebuilt: 27 target companies with 948 matching roles, 45 ATS entries, 10 real contacts with relationship health scores. Dashboard has tabbed Companies/ATS/Contacts views, search/filter, grade breakdowns, and health indicators."
     }
   ],
   "scores": {
@@ -419,12 +462,13 @@
     "dashboard": 85,
     "career_hub": 68,
     "strategy": 75,
-    "total_jobs": 1151,
-    "sources": 36,
+    "total_jobs": 1315,
+    "sources": 37,
     "with_salary": 926,
     "with_url": 1162,
-    "last_updated": "2026-08-04T03:03:08.098559"
+    "last_updated": "2026-08-05T04:20:00",
+    "crm": 8
   },
-  "last_improvement": "Added Chart.js visualizations to dashboard: company bar chart, grade doughnut chart, location bar chart.",
-  "last_improvement_date": "2026-08-04T06:01:52.000566"
+  "last_improvement": "CRM dashboard refresh: rebuilt crm-dashboard.html with current 1315 jobs cross-referenced against 206 contacts.",
+  "last_improvement_date": "2026-08-05T04:24:28"
 }
