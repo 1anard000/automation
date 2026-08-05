@@ -386,6 +386,21 @@
       "overall": 6.4,
       "improvement": "Purged 1 stale job (>30d), rebuilt dashboard. 1306 jobs across 45 sources, 161 companies. CRM remains low-priority target (206 contacts, low email/linkedin fill rate).",
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-08-06T03:14:14.401515",
+      "scores": {
+        "data_quality": 9.5,
+        "dashboard": 8.5,
+        "career_strategy": 7.5,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 8,
+        "coverage": 8
+      },
+      "overall": 8.0,
+      "improvement": "Purged 58 stale jobs (>30d, mostly crypto: Crypto.com 11, OKX 7, Binance 5). 1306→1248. Fresh pipeline. Dashboard rebuilt.",
+      "subagent": "nightly-improver"
     }
   ],
   "log": [
@@ -483,6 +498,11 @@
         "coverage": 8
       },
       "summary": "CRM dashboard rebuilt: 27 target companies with 948 matching roles, 45 ATS entries, 10 real contacts with relationship health scores. Dashboard has tabbed Companies/ATS/Contacts views, search/filter, grade breakdowns, and health indicators."
+    },
+    {
+      "timestamp": "2026-08-06T03:14:14.401515",
+      "type": "data_cleanup",
+      "summary": "Removed 58 stale jobs (>30 days). 1306→1248."
     }
   ],
   "scores": {
@@ -492,11 +512,11 @@
     "dashboard": 85,
     "career_hub": 85,
     "strategy": 75,
-    "total_jobs": 1462,
+    "total_jobs": 1248,
     "sources": 37,
     "with_salary": 926,
     "with_url": 1162,
-    "last_updated": "2026-08-06T00:03:36.306890",
+    "last_updated": "2026-08-06T03:14:14.401515",
     "crm": 8
   },
   "last_improvement": "CRM dashboard refresh: rebuilt crm-dashboard.html with current 1315 jobs cross-referenced against 206 contacts.",
