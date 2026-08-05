@@ -371,6 +371,21 @@
       "overall": 8.4,
       "improvement": "Ran auto-maintain pipeline: merged 209 jobs from source files, deduped 52, filled 930 en_titles + 948 summaries + 522 quality_tiers, removed 24 stale jobs. Net +133 jobs (1141→1274). 45 sources, 161 companies. Dashboard rebuilt.",
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-08-06T03:09:16.074218+08:00",
+      "scores": {
+        "data_quality": 8,
+        "dashboard": 7,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 3,
+        "automation": 5,
+        "coverage": 7
+      },
+      "overall": 6.4,
+      "improvement": "Purged 1 stale job (>30d), rebuilt dashboard. 1306 jobs across 45 sources, 161 companies. CRM remains low-priority target (206 contacts, low email/linkedin fill rate).",
+      "subagent": "nightly-improver"
     }
   ],
   "log": [
