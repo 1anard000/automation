@@ -356,6 +356,21 @@
       },
       "improvement": "CRM dashboard refresh: rebuilt crm-dashboard.html with current 1315 jobs cross-referenced against 206 contacts. 27 target companies with 948 matching roles. 45 ATS entries tracked. Added relationship health indicators, tabbed view (Companies/ATS/Contacts), search/filter functionality. Enriched contacts.json with open_roles_count. CRM score 7→8.",
       "subagent": "builder-crm-dashboard-refresh"
+    },
+    {
+      "timestamp": "2026-08-06T00:23:33.655372",
+      "scores": {
+        "data_quality": 9.5,
+        "dashboard": 8.5,
+        "career_strategy": 8.5,
+        "python_scripts": 8,
+        "crm": 8,
+        "automation": 8,
+        "coverage": 8
+      },
+      "overall": 8.4,
+      "improvement": "Ran auto-maintain pipeline: merged 209 jobs from source files, deduped 52, filled 930 en_titles + 948 summaries + 522 quality_tiers, removed 24 stale jobs. Net +133 jobs (1141→1274). 45 sources, 161 companies. Dashboard rebuilt.",
+      "subagent": "nightly-improver"
     }
   ],
   "log": [
