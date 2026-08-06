@@ -1,7 +1,7 @@
 # 📊 Weekly Career Strategy Intelligence
-**Generated:** Thursday, August 06, 2026 03:03 AM CST
-**Data source:** jobs-all.json (1307 positions)
-**Previous report:** August 3, 2026
+**Generated:** Friday, August 07, 2026 06:00 AM CST
+**Data source:** jobs-all.json (1309 positions)
+**Previous report:** August 6, 2026
 
 ---
 
@@ -11,15 +11,15 @@
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| Total tracked roles | 1307 | Healthy pipeline |
+| Total tracked roles | 1309 | Healthy pipeline |
 | S-tier roles | 14 | Ultra-premium (1%) |
 | A-1 roles | 0 | Dream roles (0%) |
 | A-2 roles | 0 | Excellent (0%) |
 | A-tier (total) | 396 | Strong candidates |
 | B-tier roles | 571 | Selective application zone |
-| Roles with salary data | ~883 | Good transparency |
+| Roles with salary data | ~889 | Good transparency |
 | English-friendly roles | 568 | (43%) |
-| New this week | 0 | Fresh pipeline |
+| New this week | 0 | ⚠️ Scan needed — API is live |
 
 ### 🏙️ City Distribution (Target Markets)
 
@@ -116,17 +116,35 @@
 
 ### 🆕 This Week's New Roles
 
-No new positions this week.
-
+No new positions this week. **Action needed:** Run `scan-greenhouse.py` to refresh pipeline — API confirmed live (Anthropic returned 395 jobs).
 
 ---
 
-### 🎯 Recommended Actions This Week
+### 🎯 Focus This Week: High-Impact Applications
 
-1. **Review S/A-1 grades** — 14 ultra-high-priority roles need immediate attention
-2. **Focus on English-friendly** — 568 roles across 180 cities
-3. **New pipeline** — 0 fresh roles to evaluate
-4. **Salary benchmarking** — 883 roles with compensation data for negotiation prep
+**Priority 1 — S-Tier (14 roles, apply NOW):**
+- Review all 14 S-grade roles immediately — these are ultra-premium matches
+- Target: OKX, Stripe, Anthropic (largest pools with S-tier potential)
+
+**Priority 2 — English-friendly pipeline (568 roles):**
+- Singapore leads with 73 English-friendly roles (120+96 combined)
+- Seoul: 39 English-friendly — strong for crypto/fintech
+- Remote: 14 roles — highest English ratio (82%)
+
+**Priority 3 — Sector targeting:**
+- **Crypto/Web3 (266 roles):** OKX (188) + Bybit (23) = dominant. Apply to OKX Senior PM roles first.
+- **Cross-border Payments (276 roles):** Stripe (183) + Airwallex (18) + Adyen (13). Stripe has volume; Airwallex has APAC focus.
+- **AI/ML Product (118 roles):** Anthropic (90) is the clear leader. High bar but massive pipeline.
+
+**Negotiation prep:** 889 roles with salary data — benchmark before any offer.
+
+---
+
+### ⚡ Quick Wins
+
+1. **Deduplicate company names** — "OKX" vs "okx", "agoda" vs "Agoda" in top employers table
+2. **Run greenhouse scan** — 0 new jobs this week is abnormal; API is live
+3. **Cover letter templates** — 14 S-tier roles need tailored applications
 
 ---
 
