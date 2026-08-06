@@ -26,9 +26,10 @@ WORKSPACE = Path(__file__).resolve().parents[1]  # scrapers/ -> career-os/
 EXISTING_JOBS = WORKSPACE / "OKComputer_职位搜索清单" / "jobs-all.json"
 DISCOVERED = WORKSPACE / "scrapers" / "agent-discovered-jobs.json"
 
+# Only these specific target cities, plus broad APAC/SEA regional roles
 TARGET_GEOS = {
     "shenzhen", "hong kong", "guangzhou", "shanghai", "singapore",
-    "apac", "asia", "hongkong"
+    "apac", "asia pacific", "southeast asia", "sea ", "greater china"
 }
 
 ROLE_KEYWORDS = {
