@@ -449,6 +449,20 @@
       "overall": 8.3,
       "improvement": "CRM dashboard rebuild: crm-dashboard.html stale (Aug 5, 3 days old). Spawning sub-agent to rebuild with current 1309 jobs, better company/contact cross-referencing, Chart.js visualizations, outreach pipeline funnel. Expected CRM boost 7.5→8.",
       "subagent": "builder-crm-dashboard-rebuild"
+    },
+    {
+      "date": "2026-08-08T06:03:23.248021+08:00",
+      "type": "maintenance",
+      "summary": "Merged 109 new jobs from source files, deduped 36, filled 73 en_titles + 94 summaries + 75 tiers. Dashboard rebuilt. 1292 total jobs across 47 sources.",
+      "changes": {
+        "jobs_before": 1219,
+        "jobs_after": 1292,
+        "merged": 109,
+        "deduped": 36,
+        "filled_en_titles": 73,
+        "filled_summaries": 94,
+        "filled_tiers": 75
+      }
     }
   ],
   "log": [
@@ -557,20 +571,20 @@
     "data_quality": 9.8,
     "coverage": 100,
     "scripts": 100,
-    "dashboard": 85,
+    "dashboard": 88,
     "career_hub": 85,
     "strategy": 85,
-    "total_jobs": 1219,
-    "sources": 37,
+    "total_jobs": 1292,
+    "sources": 47,
     "with_salary": 926,
     "with_url": 1162,
-    "last_updated": "2026-08-08T03:04:21",
+    "last_updated": "2026-08-08T06:03:23.248021+08:00",
     "crm": 8,
-    "total": 77.4
+    "total": 92.7
   },
-  "last_improvement": "CRM dashboard rebuild with current data, charts, and pipeline view.",
-  "last_improvement_date": "2026-08-08T03:03:00+08:00",
-  "last_updated": "2026-08-08T03:03:00+08:00",
+  "last_improvement": "Merged 109 pending jobs from source files, rebuilt dashboard with 1292 total jobs across 47 sources.",
+  "last_improvement_date": "2026-08-08T06:03:23.248021+08:00",
+  "last_updated": "2026-08-08T06:03:23.248021+08:00",
   "history": [
     {
       "date": "2026-08-08",
