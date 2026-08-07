@@ -416,6 +416,24 @@
       "overall": 8.1,
       "improvement": "Purged 27 stale jobs (>30d: OKX 16, Agoda 5, Stripe 2, Coupang 2, Anthropic 1, Payoneer 1). 1325\u21921298. Dashboard rebuilt.",
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-08-08T00:03:17.620479",
+      "action": "crm_prioritization",
+      "description": "Added crm-prioritize.py: outreach priority engine with scoring (relationship strength + matching jobs + contact info). Generates actionable outreach-priorities.md.",
+      "scores": {
+        "data_quality": 9.5,
+        "dashboard": 8.5,
+        "career_strategy": 8,
+        "python_scripts": 8.5,
+        "crm": 7.5,
+        "automation": 8,
+        "coverage": 8
+      },
+      "files_added": [
+        "crm-prioritize.py",
+        "outreach-priorities.md"
+      ]
     }
   ],
   "log": [
