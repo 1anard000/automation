@@ -21119,5 +21119,29 @@
     "scanned_date": "2026-08-07",
     "source": "greenhouse",
     "yoe_note": "yoe-unspecified"
+  },
+  {
+    "title": "Technical Program Manager, Extensibility Platform (CA)",
+    "company": "Stripe",
+    "location": "Toronto, Remote Canada ",
+    "grade": "A-2",
+    "url": "https://stripe.com/jobs/search?gh_jid=8114397",
+    "role_type": "Program Management",
+    "salary": "",
+    "scanned_date": "2026-08-08",
+    "source": "greenhouse",
+    "yoe_note": "yoe-unspecified"
+  },
+  {
+    "title": "Sr. Principal Product Manager",
+    "company": "Twilio",
+    "location": "Remote - US",
+    "grade": "A-1",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8108776",
+    "role_type": "Product Management",
+    "salary": "",
+    "scanned_date": "2026-08-08",
+    "source": "greenhouse",
+    "yoe_note": "yoe-soft:5-12"
   }
 ]
