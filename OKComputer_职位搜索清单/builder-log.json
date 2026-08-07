@@ -434,6 +434,21 @@
         "crm-prioritize.py",
         "outreach-priorities.md"
       ]
+    },
+    {
+      "timestamp": "2026-08-08T03:03:00+08:00",
+      "scores": {
+        "data_quality": 9.5,
+        "dashboard": 8.5,
+        "career_strategy": 8,
+        "python_scripts": 8.5,
+        "crm": 7.5,
+        "automation": 8,
+        "coverage": 8
+      },
+      "overall": 8.3,
+      "improvement": "CRM dashboard rebuild: crm-dashboard.html stale (Aug 5, 3 days old). Spawning sub-agent to rebuild with current 1309 jobs, better company/contact cross-referencing, Chart.js visualizations, outreach pipeline funnel. Expected CRM boost 7.5\u21928.",
+      "subagent": "builder-crm-dashboard-rebuild"
     }
   ],
   "log": [
@@ -553,7 +568,7 @@
     "crm": 8,
     "total": 77.4
   },
-  "last_improvement": "CRM dashboard refresh: rebuilt crm-dashboard.html with current 1315 jobs cross-referenced against 206 contacts.",
-  "last_improvement_date": "2026-08-05T04:24:28",
-  "last_updated": "2026-08-05T06:00:00"
+  "last_improvement": "CRM dashboard rebuild with current data, charts, and pipeline view.",
+  "last_improvement_date": "2026-08-08T03:03:00+08:00",
+  "last_updated": "2026-08-08T03:03:00+08:00"
 }
