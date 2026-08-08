@@ -74,6 +74,7 @@ a:hover{text-decoration:underline}
   table{font-size:0.7rem}
   td,th{padding:5px 6px}
   .stats{grid-template-columns:repeat(3,1fr)}
+  .charts{grid-template-columns:1fr!important}
   .hide-mobile{display:none}
 }
 </style>
@@ -98,6 +99,17 @@ a:hover{text-decoration:underline}
 <div class="stat-card"><div class="num" id="szCount">43</div><div class="label">Shenzhen</div></div>
 <div class="stat-card"><div class="num" id="cbCount">2</div><div class="label">Cross Border</div></div>
 <div class="stat-card"><div class="num" id="stratCount">20</div><div class="label">Strategy</div></div>
+</div>
+
+<div class="charts" style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0">
+<div style="background:#1e293b;border-radius:12px;padding:16px;border:1px solid #334155">
+<div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px">Grade Distribution</div>
+<div id="gradeChart" style="display:flex;flex-direction:column;gap:6px"></div>
+</div>
+<div style="background:#1e293b;border-radius:12px;padding:16px;border:1px solid #334155">
+<div style="font-size:0.75rem;color:#94a3b8;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px">Top Cities</div>
+<div id="cityChart" style="display:flex;flex-direction:column;gap:6px"></div>
+</div>
 </div>
 
 <div class="filters">
@@ -231,6 +243,43 @@ function sortTable(col) {
   filterData();
 }
 
+function renderCharts() {
+  // Grade distribution
+  const grades = {};
+  jobs.forEach(j => { const g = j.grade || '?'; grades[g] = (grades[g]||0) + 1; });
+  const gradeOrder = ['A-1','A-2','A','A-','B+','B','C','D','S'];
+  const gradeColors = {'A-1':'#4ade80','A-2':'#34d399','A':'#22d3ee','A-':'#60a5fa','B+':'#a78bfa','B':'#fbbf24','C':'#fb923c','D':'#f87171','S':'#c084fc','?':'#64748b'};
+  const sortedGrades = gradeOrder.filter(g => grades[g]).sort((a,b) => grades[b]-grades[a]);
+  const maxGrade = Math.max(...Object.values(grades));
+  document.getElementById('gradeChart').innerHTML = sortedGrades.map(g => {
+    const pct = (grades[g]/maxGrade*100).toFixed(0);
+    const color = gradeColors[g] || '#64748b';
+    return `<div style="display:flex;align-items:center;gap:8px">
+      <span style="width:36px;font-size:0.7rem;color:#94a3b8;text-align:right;font-weight:600">${g}</span>
+      <div style="flex:1;background:#0f172a;border-radius:4px;height:18px;overflow:hidden">
+        <div style="width:${pct}%;background:${color};height:100%;border-radius:4px;transition:width 0.3s"></div>
+      </div>
+      <span style="width:30px;font-size:0.7rem;color:${color};font-weight:700">${grades[g]}</span>
+    </div>`;
+  }).join('');
+  // City distribution (top 8)
+  const cities = {};
+  jobs.forEach(j => { const c = (j.city_normalized || j.location || '?').split(',')[0].trim(); cities[c] = (cities[c]||0) + 1; });
+  const sortedCities = Object.entries(cities).sort((a,b) => b[1]-a[1]).slice(0,8);
+  const maxCity = sortedCities[0]?.[1] || 1;
+  const cityColors = ['#38bdf8','#818cf8','#f472b6','#fb923c','#4ade80','#a78bfa','#2dd4bf','#fbbf24'];
+  document.getElementById('cityChart').innerHTML = sortedCities.map(([c,n], i) => {
+    const pct = (n/maxCity*100).toFixed(0);
+    return `<div style="display:flex;align-items:center;gap:8px">
+      <span style="width:80px;font-size:0.7rem;color:#94a3b8;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" title="${c}">${c}</span>
+      <div style="flex:1;background:#0f172a;border-radius:4px;height:18px;overflow:hidden">
+        <div style="width:${pct}%;background:${cityColors[i%8]};height:100%;border-radius:4px;transition:width 0.3s"></div>
+      </div>
+      <span style="width:30px;font-size:0.7rem;color:${cityColors[i%8]};font-weight:700">${n}</span>
+    </div>`;
+  }).join('');
+}
+renderCharts();
 ['search','filterGrade','filterCity','filterCategory','filterDifficulty','filterEnglish'].forEach(id => document.getElementById(id).addEventListener('input', filterData));
 renderTable(jobs);
 </script>
