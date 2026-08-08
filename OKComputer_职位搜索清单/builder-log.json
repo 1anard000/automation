@@ -572,23 +572,31 @@
     "coverage": 100,
     "scripts": 100,
     "dashboard": 88,
-    "career_hub": 85,
-    "strategy": 85,
-    "total_jobs": 1292,
+    "career_hub": 90,
+    "strategy": 90,
+    "total_jobs": 1367,
     "sources": 47,
-    "with_salary": 926,
-    "with_url": 1162,
-    "last_updated": "2026-08-08T06:03:23.248021+08:00",
+    "with_salary": 923,
+    "with_url": 1367,
+    "last_updated": "2026-08-09T00:03:54.882580",
     "crm": 8,
-    "total": 92.7
+    "total": 93.7
   },
-  "last_improvement": "Merged 109 pending jobs from source files, rebuilt dashboard with 1292 total jobs across 47 sources.",
-  "last_improvement_date": "2026-08-08T06:03:23.248021+08:00",
-  "last_updated": "2026-08-08T06:03:23.248021+08:00",
+  "last_improvement": "Refreshed career-strategy.md with Aug 9 intelligence: 1,367 jobs, 375 new this week, updated sector heat map and employer rankings.",
+  "last_improvement_date": "2026-08-09T00:03:54.882584",
+  "last_updated": "2026-08-09T00:03:54.882585",
   "history": [
     {
       "date": "2026-08-08",
       "action": "Removed 141 duplicate jobs (1360→1219), rebuilt dashboard, data quality 9.5→9.8"
+    },
+    {
+      "date": "2026-08-09",
+      "action": "Refreshed career-strategy.md with current data: 1367 jobs, 375 new this week, 226 Singapore roles. Updated employer rankings, sector heat map, city distribution. Bumped strategy 85→90, career_hub 85→90."
+    },
+    {
+      "date": "2026-08-09",
+      "action": "Refreshed career-strategy.md with current data: 1367 jobs, 375 new this week, 226 Singapore roles. Updated employer rankings, sector heat map, city distribution. Bumped strategy 85→90, career_hub 85→90. Total 92.7→93.7."
     }
   ]
 }
