@@ -499,6 +499,21 @@
       "overall": 95.3,
       "improvement": "Added grade distribution + city distribution bar charts to dashboard (88→92). Lightweight SVG-free CSS bars, no dependencies.",
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-08-10T03:02:58.440905+08:00",
+      "scores": {
+        "data_quality": 10,
+        "dashboard": 9.2,
+        "career_strategy": 9.0,
+        "python_scripts": 10,
+        "crm": 8,
+        "automation": 8,
+        "coverage": 10
+      },
+      "overall": 9.17,
+      "improvement": "CRM quality: 206 contacts mostly company placeholders, 10 emails, 0 LinkedIn. Spawning sub-agent to classify real vs placeholder, enrich company entries with open_roles_count/top_grades/target_market, regenerate outreach-priorities.md. Expected CRM boost 8→9.",
+      "subagent": "builder-crm-quality"
     }
   ],
   "log": [
@@ -604,23 +619,23 @@
     }
   ],
   "scores": {
-    "data_quality": 10.0,
+    "data_quality": 80.0,
     "coverage": 100,
     "scripts": 100,
     "dashboard": 92,
     "career_hub": 90,
     "strategy": 90,
-    "total_jobs": 1426,
+    "total_jobs": 1378,
     "sources": 47,
-    "with_salary": 923,
+    "with_salary": 904,
     "with_url": 1367,
-    "last_updated": "2026-08-09T06:00:00",
+    "last_updated": "2026-08-10T03:00:00",
     "crm": 8,
-    "total": 94.7
+    "total": 92.0
   },
   "last_improvement": "Refreshed career-strategy.md with Aug 9 intelligence: 1,367 jobs, 375 new this week, updated sector heat map and employer rankings.",
   "last_improvement_date": "2026-08-09T00:03:54.882584",
-  "last_updated": "2026-08-09T03:01:57.357546",
+  "last_updated": "2026-08-10T03:02:58.440905+08:00",
   "history": [
     {
       "date": "2026-08-08",
