@@ -40,7 +40,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 76,
@@ -120,18 +122,26 @@
     "status": "prospect",
     "is_system": true,
     "category": "ats",
-    "total_jobs_in_database": 14,
+    "total_jobs_in_database": 17,
     "top_jobs_from_database": [
       {
         "title": "Head of Sales, Singapore",
-        "grade": "B"
+        "grade": "A"
       },
       {
-        "title": "Marketing Lead APAC",
+        "title": "Group Product Manager - Payments | India [Head of Product, India]",
+        "grade": "A"
+      },
+      {
+        "title": "Product Manager - Payments",
         "grade": "C"
       },
       {
-        "title": "Senior Content Manager, APAC",
+        "title": "Senior Compliance Advisory Officer",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Regulatory Counsel",
         "grade": "C"
       }
     ],
@@ -139,7 +149,20 @@
       "C",
       "B"
     ],
-    "open_roles_count": 14
+    "open_roles_count": 17,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "C"
+    ],
+    "target_market": [
+      "Bengaluru",
+      "Mumbai",
+      "Shanghai",
+      "Singapore",
+      "Singapore; Tokyo"
+    ]
   },
   {
     "id": 50,
@@ -205,13 +228,33 @@
       {
         "title": "Senior Product Manager, Credit & Pricing",
         "grade": "A"
+      },
+      {
+        "title": "Director, Accounts Management",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Product Manager, Capital",
+        "grade": "A"
       }
     ],
     "job_grades_found": [
       "A(5)",
       "B(20)"
     ],
-    "open_roles_count": 25
+    "open_roles_count": 25,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "B"
+    ],
+    "target_market": [
+      "Affirm",
+      "Remote Canada",
+      "Remote UK",
+      "Remote US"
+    ]
   },
   {
     "id": 42,
@@ -266,19 +309,27 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 153,
+    "total_jobs_in_database": 185,
     "top_jobs_from_database": [
       {
-        "title": "Senior Product Manager (China-Based)",
-        "grade": "A-1"
-      },
-      {
         "title": "Product Operations Analyst",
-        "grade": "A-1"
+        "grade": "A"
       },
       {
         "title": "Senior Product Manager (Japanese Speaking) – Bangkok or Tokyo Based",
-        "grade": "A-1"
+        "grade": "A"
+      },
+      {
+        "title": "Senior Regional Manager, Customer/ Partner Operations (Based in Seoul)",
+        "grade": "A"
+      },
+      {
+        "title": "Test Booking Coordinator, Strategic Partnerships (10-month contract, Bangkok based)",
+        "grade": "A"
+      },
+      {
+        "title": "Technical Product Manager, LLM/ML Domain",
+        "grade": "A"
       }
     ],
     "job_grades_found": [
@@ -289,7 +340,21 @@
       "B(34)",
       "C(75)"
     ],
-    "open_roles_count": 153
+    "open_roles_count": 185,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "B",
+      "C"
+    ],
+    "target_market": [
+      "Bangkok",
+      "Bangkok (Central World Office)",
+      "Bangkok (One Bangkok Office) or Seoul office",
+      "Bangkok (One Bangkok Office) or Tokyo office",
+      "Bangkok or Shanghai"
+    ]
   },
   {
     "id": 46,
@@ -345,15 +410,23 @@
     "total_jobs_in_database": 25,
     "top_jobs_from_database": [
       {
-        "title": "Senior Brand Strategy Lead, APAC",
-        "grade": "A-1"
-      },
-      {
         "title": "Senior Business Operations and Growth Lead",
         "grade": "A"
       },
       {
-        "title": "Lead Advanced Analytics, Marketplace",
+        "title": "Senior Brand Strategy Lead, APAC",
+        "grade": "A"
+      },
+      {
+        "title": "Brand Media Lead",
+        "grade": "B"
+      },
+      {
+        "title": "Counsel, Commercial & Partnerships",
+        "grade": "B"
+      },
+      {
+        "title": "Lead, Advanced Analytics",
         "grade": "B"
       }
     ],
@@ -363,7 +436,21 @@
       "B(15)",
       "C(8)"
     ],
-    "open_roles_count": 25
+    "open_roles_count": 25,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "B",
+      "C"
+    ],
+    "target_market": [
+      "Bangkok, Thailand",
+      "China",
+      "Gurugram, India",
+      "Mexico City, Mexico",
+      "San Francisco, CA"
+    ]
   },
   {
     "id": 53,
@@ -443,19 +530,27 @@
     "status": "expired",
     "is_system": true,
     "category": "ats",
-    "total_jobs_in_database": 15,
+    "total_jobs_in_database": 18,
     "top_jobs_from_database": [
       {
-        "title": "Product Director, Payment Fraud",
-        "grade": "C"
+        "title": "Senior Product Manager, Kai (AI assistant)",
+        "grade": "A"
       },
       {
-        "title": "Product Lead, Payment Fraud",
-        "grade": "C"
+        "title": "Senior Product Manager, Payment Fraud",
+        "grade": "A"
       },
       {
-        "title": "Manager, Operations Strategy (Market Insights/User Research)",
-        "grade": "C"
+        "title": "Staff Product Manager, AI Growth",
+        "grade": "A"
+      },
+      {
+        "title": "Staff Product Manager, Check-Out",
+        "grade": "A"
+      },
+      {
+        "title": "Director, Product Strategy",
+        "grade": "B"
       }
     ],
     "job_grades_found": [
@@ -463,7 +558,18 @@
       "C",
       "A"
     ],
-    "open_roles_count": 15
+    "open_roles_count": 18,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "B",
+      "C"
+    ],
+    "target_market": [
+      "San Francisco / Singapore",
+      "Singapore"
+    ]
   },
   {
     "id": 3,
@@ -471,7 +577,7 @@
     "title": "Head of Product",
     "company": "Airwallex",
     "city": "Beijing, China",
-    "linkedin": null,
+    "linkedin": "https://linkedin.com/in/emily.watson",
     "wechat": null,
     "email": "emily.w@airwallex.com",
     "connection": "AWS Summit Beijing 2025",
@@ -544,7 +650,9 @@
       }
     ],
     "open_roles_count": 15,
-    "total_jobs_in_database": 15
+    "total_jobs_in_database": 15,
+    "is_real_person": true,
+    "is_company_placeholder": false
   },
   {
     "id": 160,
@@ -587,7 +695,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 26,
@@ -625,10 +735,23 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 0,
-    "top_jobs_from_database": [],
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "阿里云智能-全球ISV合作伙伴拓展专家",
+        "grade": "A"
+      }
+    ],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A"
+    ],
+    "target_market": [
+      "上海/杭州/深圳-南山区"
+    ]
   },
   {
     "id": 77,
@@ -672,7 +795,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 27,
@@ -724,19 +849,27 @@
     "total_jobs_in_database": 2,
     "top_jobs_from_database": [
       {
-        "title": "Senior Product Manager - AI, Amazon Global Selling",
-        "grade": "A-1"
+        "title": "Senior Product Manager, AI - Amazon Global Selling",
+        "grade": "A"
       },
       {
-        "title": "Senior Product Manager, AI - Amazon Global Selling",
-        "grade": "A-2"
+        "title": "Senior Product Manager - AI, Amazon Global Selling",
+        "grade": "A"
       }
     ],
     "job_grades_found": [
       "A-1(1)",
       "A-2(1)"
     ],
-    "open_roles_count": 2
+    "open_roles_count": 2,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A"
+    ],
+    "target_market": [
+      "Shenzhen"
+    ]
   },
   {
     "id": 185,
@@ -779,7 +912,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 78,
@@ -823,7 +958,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 54,
@@ -903,8 +1040,16 @@
     "status": "prospect",
     "is_system": true,
     "category": "ats",
-    "total_jobs_in_database": 91,
+    "total_jobs_in_database": 94,
     "top_jobs_from_database": [
+      {
+        "title": "Head of APAC Accounting",
+        "grade": "A"
+      },
+      {
+        "title": "Finance & Strategy, GTM - Korea",
+        "grade": "A"
+      },
       {
         "title": "Applied AI Architect, Commercial",
         "grade": "B"
@@ -922,7 +1067,21 @@
       "A",
       "B"
     ],
-    "open_roles_count": 92
+    "open_roles_count": 94,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "B",
+      "C"
+    ],
+    "target_market": [
+      "Bangalore, India",
+      "Boston, MA; New York City, NY; San Francisco, CA; Seattle, WA; Washington, DC",
+      "London, UK",
+      "New York City, NY | Seattle, WA; San Francisco, CA",
+      "New York City, NY; Remote-Friendly, United States"
+    ]
   },
   {
     "id": 6,
@@ -930,7 +1089,7 @@
     "title": "Research Engineer",
     "company": "Anthropic",
     "city": "San Francisco, CA",
-    "linkedin": null,
+    "linkedin": "https://linkedin.com/in/robert.kim",
     "wechat": null,
     "email": "r.kim@anthropic.com",
     "connection": "Met at ML meetup",
@@ -1013,7 +1172,9 @@
       }
     ],
     "open_roles_count": 92,
-    "total_jobs_in_database": 92
+    "total_jobs_in_database": 92,
+    "is_real_person": true,
+    "is_company_placeholder": false
   },
   {
     "id": 55,
@@ -1088,7 +1249,15 @@
     "job_grades_found": [
       "A"
     ],
-    "open_roles_count": 2
+    "open_roles_count": 2,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A"
+    ],
+    "target_market": [
+      "Remote"
+    ]
   },
   {
     "id": 56,
@@ -1150,7 +1319,15 @@
     "job_grades_found": [
       "A"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A"
+    ],
+    "target_market": [
+      "Hong Kong"
+    ]
   },
   {
     "id": 79,
@@ -1194,7 +1371,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 161,
@@ -1237,7 +1416,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 80,
@@ -1281,7 +1462,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 162,
@@ -1324,7 +1507,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 18,
@@ -1362,10 +1547,23 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 0,
-    "top_jobs_from_database": [],
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "(Senior) Segment Manager (Cross Border Business)",
+        "grade": "C"
+      }
+    ],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "C"
+    ],
+    "target_market": [
+      "Hong Kong"
+    ]
   },
   {
     "id": 15,
@@ -1405,17 +1603,44 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 1,
+    "total_jobs_in_database": 5,
     "top_jobs_from_database": [
       {
-        "title": "Senior Product Manager (Marketplace)",
-        "grade": "A-1"
+        "title": "Senior Product Manager (E-commerce/Marketplace)",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Product Manager, KYB",
+        "grade": "A-2"
+      },
+      {
+        "title": "Product Manager - AI",
+        "grade": "B+"
+      },
+      {
+        "title": "Product Manager - Electron",
+        "grade": "B+"
+      },
+      {
+        "title": "Product Manager - Crypto Structured Products & Earn",
+        "grade": "B+"
       }
     ],
     "job_grades_found": [
       "A-1(1)"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 5,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "A-2",
+      "B+"
+    ],
+    "target_market": [
+      "Hong Kong",
+      "Hong Kong / Taipei / Remote - Asia"
+    ]
   },
   {
     "id": 163,
@@ -1458,7 +1683,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 186,
@@ -1501,7 +1728,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 187,
@@ -1575,8 +1804,12 @@
     "status": "prospect",
     "is_system": true,
     "category": "ats",
-    "total_jobs_in_database": 4,
+    "total_jobs_in_database": 8,
     "top_jobs_from_database": [
+      {
+        "title": "Head of Channel Sales",
+        "grade": "S"
+      },
       {
         "title": "Senior Compliance Manager, Financial Services Compliance, Afterpay ANZ",
         "grade": "C"
@@ -1588,13 +1821,28 @@
       {
         "title": "Senior Site Reliability Engineer",
         "grade": "C"
+      },
+      {
+        "title": "Head of Sales - Japan",
+        "grade": "C"
       }
     ],
     "job_grades_found": [
       "S",
       "C"
     ],
-    "open_roles_count": 4
+    "open_roles_count": 8,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "C",
+      "S"
+    ],
+    "target_market": [
+      "Melbourne, Australia",
+      "Sydney, Australia",
+      "Tokyo, Japan"
+    ]
   },
   {
     "id": 154,
@@ -1648,8 +1896,12 @@
     "status": "prospect",
     "is_system": true,
     "category": "ats",
-    "total_jobs_in_database": 4,
+    "total_jobs_in_database": 8,
     "top_jobs_from_database": [
+      {
+        "title": "Head of Channel Sales",
+        "grade": "S"
+      },
       {
         "title": "Senior Compliance Manager, Financial Services Compliance, Afterpay ANZ",
         "grade": "C"
@@ -1661,13 +1913,28 @@
       {
         "title": "Senior Site Reliability Engineer",
         "grade": "C"
+      },
+      {
+        "title": "Head of Sales - Japan",
+        "grade": "C"
       }
     ],
     "job_grades_found": [
       "S",
       "C"
     ],
-    "open_roles_count": 0
+    "open_roles_count": 8,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "C",
+      "S"
+    ],
+    "target_market": [
+      "Melbourne, Australia",
+      "Sydney, Australia",
+      "Tokyo, Japan"
+    ]
   },
   {
     "id": 57,
@@ -1747,19 +2014,27 @@
     "status": "prospect",
     "is_system": true,
     "category": "ats",
-    "total_jobs_in_database": 10,
+    "total_jobs_in_database": 43,
     "top_jobs_from_database": [
       {
-        "title": "CEO, Singapore",
-        "grade": "B"
+        "title": "Head of HR",
+        "grade": "A"
       },
       {
-        "title": "Chief Product Officer",
-        "grade": "B"
+        "title": "Head of Organization Development",
+        "grade": "A"
       },
       {
-        "title": "Country Manager, Thailand",
-        "grade": "A-"
+        "title": "Senior Manager (Audit Analytics, Automation & Innovation)",
+        "grade": "A"
+      },
+      {
+        "title": "Head of Trading Technology",
+        "grade": "A"
+      },
+      {
+        "title": "Head of Financial Logic & Product Innovation",
+        "grade": "A"
       }
     ],
     "job_grades_found": [
@@ -1767,7 +2042,23 @@
       "C",
       "B"
     ],
-    "open_roles_count": 13
+    "open_roles_count": 43,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "A-",
+      "A-2",
+      "B",
+      "C"
+    ],
+    "target_market": [
+      "APAC - Remote",
+      "APAC - Remote; Kuala Lumpur, Malaysia",
+      "Abu Dhabi, UAE; APAC - Remote; Kuala Lumpur, Malaysia",
+      "Abu Dhabi, UAE; Hong Kong SAR; Kuala Lumpur, Malaysia",
+      "Abu Dhabi, UAE; Kuala Lumpur, Malaysia"
+    ]
   },
   {
     "id": 16,
@@ -1820,7 +2111,7 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 35,
+    "total_jobs_in_database": 34,
     "top_jobs_from_database": [
       {
         "title": "印尼中小商家策略Leader-TikTok Shop",
@@ -1833,6 +2124,14 @@
       {
         "title": "国际投放增长运营专家-飞书",
         "grade": "A"
+      },
+      {
+        "title": "AI策略产品经理 - AI创新业务",
+        "grade": "A"
+      },
+      {
+        "title": "AI产品经理 - ArkClaw",
+        "grade": "A"
       }
     ],
     "job_grades_found": [
@@ -1840,7 +2139,21 @@
       "B(6)",
       "C(12)"
     ],
-    "open_roles_count": 35
+    "open_roles_count": 34,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "B",
+      "C"
+    ],
+    "target_market": [
+      "Shenzhen",
+      "Singapore",
+      "上海",
+      "北京",
+      "深圳"
+    ]
   },
   {
     "id": 4,
@@ -1848,7 +2161,7 @@
     "title": "Engineering Director",
     "company": "ByteDance",
     "city": "Beijing, China",
-    "linkedin": null,
+    "linkedin": "https://linkedin.com/in/david.liu",
     "wechat": null,
     "email": "david.liu@bytedance.com",
     "connection": "Tech conference in Shanghai",
@@ -1969,7 +2282,9 @@
       }
     ],
     "open_roles_count": 35,
-    "total_jobs_in_database": 35
+    "total_jobs_in_database": 35,
+    "is_real_person": true,
+    "is_company_placeholder": false
   },
   {
     "id": 28,
@@ -2013,13 +2328,21 @@
     "top_jobs_from_database": [
       {
         "title": "Senior Product Manager - Shenzhen",
-        "grade": "A-2"
+        "grade": "A"
       }
     ],
     "job_grades_found": [
       "A-2(1)"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A"
+    ],
+    "target_market": [
+      "Shenzhen"
+    ]
   },
   {
     "id": 188,
@@ -2062,7 +2385,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 58,
@@ -2106,7 +2431,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 81,
@@ -2150,7 +2477,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 29,
@@ -2190,10 +2519,23 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 0,
-    "top_jobs_from_database": [],
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Payments - Banking as a Service / Payer ID - Product Management Senior Specialist",
+        "grade": "A-2"
+      }
+    ],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A-2"
+    ],
+    "target_market": [
+      "Hong Kong / Singapore"
+    ]
   },
   {
     "id": 44,
@@ -2248,7 +2590,7 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 6,
+    "total_jobs_in_database": 9,
     "top_jobs_from_database": [
       {
         "title": "Director, Strategic Finance & Investor Relations",
@@ -2261,6 +2603,14 @@
       {
         "title": "Senior Director, GTM Intelligence",
         "grade": "S"
+      },
+      {
+        "title": "Principal People Team Business Partner - GTM",
+        "grade": "A"
+      },
+      {
+        "title": "Director of Talent Acquisition, APJC",
+        "grade": "B"
       }
     ],
     "job_grades_found": [
@@ -2268,7 +2618,20 @@
       "C(2)",
       "S(3)"
     ],
-    "open_roles_count": 6
+    "open_roles_count": 9,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "B",
+      "C",
+      "S"
+    ],
+    "target_market": [
+      "Hybrid",
+      "Remote",
+      "Tokyo, Japan"
+    ]
   },
   {
     "id": 13,
@@ -2321,7 +2684,7 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 5,
+    "total_jobs_in_database": 6,
     "top_jobs_from_database": [
       {
         "title": "Senior Litigation Paralegal",
@@ -2332,7 +2695,15 @@
         "grade": "B"
       },
       {
+        "title": "Senior Account Manager",
+        "grade": "C"
+      },
+      {
         "title": "Senior Software Engineer - Trading",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Product Manager, Help Center (CX Automation)",
         "grade": "C"
       }
     ],
@@ -2341,7 +2712,20 @@
       "B(1)",
       "C(3)"
     ],
-    "open_roles_count": 5
+    "open_roles_count": 6,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "B",
+      "C"
+    ],
+    "target_market": [
+      "Remote - Canada",
+      "Remote - India",
+      "Remote - Singapore",
+      "Remote - USA"
+    ]
   },
   {
     "id": 30,
@@ -2383,13 +2767,21 @@
     "top_jobs_from_database": [
       {
         "title": "Cross-border Payments Senior Product Manager",
-        "grade": "A-2"
+        "grade": "A"
       }
     ],
     "job_grades_found": [
       "A-2(1)"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A"
+    ],
+    "target_market": [
+      "Hong Kong"
+    ]
   },
   {
     "id": 82,
@@ -2451,7 +2843,9 @@
     "job_grades_found": [
       "A-"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 41,
@@ -2505,19 +2899,27 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 153,
+    "total_jobs_in_database": 145,
     "top_jobs_from_database": [
       {
-        "title": "Principal, Account Management",
-        "grade": "A-1"
+        "title": "[Coupang Pay] Senior Business Development Specialist",
+        "grade": "A"
       },
       {
-        "title": "Principal, Brand Management",
-        "grade": "A-1"
+        "title": "Global Operations Technology(GOT) 개발자 집중 채용",
+        "grade": "A"
       },
       {
-        "title": "Principal, Brand Management (Beauty)",
-        "grade": "A-1"
+        "title": "Lead Ad Sales Specialist(중대형 광고 영업/10년 이상)",
+        "grade": "A"
+      },
+      {
+        "title": "Lead AI Design Technologist (Staff Product Designer)",
+        "grade": "A"
+      },
+      {
+        "title": "Manager, Back-end Engineering (Global Operations Technology)",
+        "grade": "A"
       }
     ],
     "job_grades_found": [
@@ -2528,7 +2930,21 @@
       "B(26)",
       "C(5)"
     ],
-    "open_roles_count": 153
+    "open_roles_count": 145,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "B",
+      "C"
+    ],
+    "target_market": [
+      "Aichi",
+      "Beijing, China",
+      "Bengaluru",
+      "Hyderabad",
+      "Mountain View, USA"
+    ]
   },
   {
     "id": 22,
@@ -2568,17 +2984,49 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 1,
+    "total_jobs_in_database": 15,
     "top_jobs_from_database": [
       {
-        "title": "Product Director, Core Banking and Payments",
-        "grade": "A-1"
+        "title": "Principal Product Manager - Discovery & Onboarding (Exchange)",
+        "grade": "A"
+      },
+      {
+        "title": "Principal Product Manager - Verification & Activation (Exchange)",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Product Manager, AI Transformation",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Product Manager, Trading (Crypto.com App)",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Product Manager, Exchange Trading Experience",
+        "grade": "A"
       }
     ],
     "job_grades_found": [
       "A-1(1)"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 15,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "A-1",
+      "B",
+      "B+",
+      "D"
+    ],
+    "target_market": [
+      "Hong Kong",
+      "Hong Kong / Singapore / Europe",
+      "New York",
+      "Singapore",
+      "Taipei, Taiwan"
+    ]
   },
   {
     "id": 40,
@@ -2621,7 +3069,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 83,
@@ -2665,7 +3115,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 84,
@@ -2709,7 +3161,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 47,
@@ -2763,21 +3217,47 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 2,
+    "total_jobs_in_database": 16,
     "top_jobs_from_database": [
       {
-        "title": "Senior Software Engineer- Singapore",
-        "grade": "C"
+        "title": "Director, Field Engineering",
+        "grade": "A"
       },
       {
-        "title": "Senior Software Engineer- Tokyo",
-        "grade": "C"
+        "title": "APJ Manufacturing & Automotive Industry GTM Leader",
+        "grade": "A"
+      },
+      {
+        "title": "Strategic Enterprise Sales Leader",
+        "grade": "A"
+      },
+      {
+        "title": "Retail & Consumer Goods APAC Leader ",
+        "grade": "A"
+      },
+      {
+        "title": "Sr. Manager, Partner Solutions Architect",
+        "grade": "B"
       }
     ],
     "job_grades_found": [
       "C(2)"
     ],
-    "open_roles_count": 2
+    "open_roles_count": 16,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "B",
+      "C"
+    ],
+    "target_market": [
+      "Bengaluru, India",
+      "Bengaluru, India; Mumbai, India",
+      "Melbourne, Australia",
+      "Seoul, South Korea; Singapore; Tokyo, Japan",
+      "Singapore"
+    ]
   },
   {
     "id": 48,
@@ -2830,8 +3310,12 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 4,
+    "total_jobs_in_database": 14,
     "top_jobs_from_database": [
+      {
+        "title": "Partner Enablement Manager",
+        "grade": "B"
+      },
       {
         "title": "Senior Deal Desk Analyst",
         "grade": "C"
@@ -2843,12 +3327,29 @@
       {
         "title": "Senior People Business Partner",
         "grade": "C"
+      },
+      {
+        "title": "Senior Regional Content Manager (APJ)",
+        "grade": "C"
       }
     ],
     "job_grades_found": [
       "C(4)"
     ],
-    "open_roles_count": 4
+    "open_roles_count": 14,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "B",
+      "C"
+    ],
+    "target_market": [
+      "California, USA, Remote; Colorado, USA, Remote; Massachusetts, USA, Remote; New York, New York, USA; New York, USA, Remote",
+      "Seoul, South Korea",
+      "Singapore",
+      "Singapore, Singapore",
+      "Sydney, Australia"
+    ]
   },
   {
     "id": 85,
@@ -2892,7 +3393,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 155,
@@ -2936,7 +3439,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 86,
@@ -2980,7 +3485,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 87,
@@ -3024,7 +3531,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 88,
@@ -3104,8 +3613,16 @@
     "status": "prospect",
     "is_system": true,
     "category": "ats",
-    "total_jobs_in_database": 5,
+    "total_jobs_in_database": 6,
     "top_jobs_from_database": [
+      {
+        "title": "Sales Operations Manager (Singapore)",
+        "grade": "A-2"
+      },
+      {
+        "title": "People Partner, Japan & APAC (Singapore)",
+        "grade": "B"
+      },
       {
         "title": "Senior Manager, Customer Experience & Solutions (Tokyo, Japan)",
         "grade": "C"
@@ -3122,7 +3639,18 @@
     "job_grades_found": [
       "C"
     ],
-    "open_roles_count": 5
+    "open_roles_count": 6,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A-2",
+      "B",
+      "C"
+    ],
+    "target_market": [
+      "Singapore",
+      "Tokyo, Japan"
+    ]
   },
   {
     "id": 89,
@@ -3166,7 +3694,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 31,
@@ -3206,10 +3736,23 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 0,
-    "top_jobs_from_database": [],
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "(Senior) Product Manager",
+        "grade": "B"
+      }
+    ],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "B"
+    ],
+    "target_market": [
+      "Hong Kong"
+    ]
   },
   {
     "id": 189,
@@ -3270,7 +3813,15 @@
     "job_grades_found": [
       "B"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "B"
+    ],
+    "target_market": [
+      "Bengaluru, India"
+    ]
   },
   {
     "id": 59,
@@ -3350,19 +3901,27 @@
     "status": "prospect",
     "is_system": true,
     "category": "ats",
-    "total_jobs_in_database": 4,
+    "total_jobs_in_database": 12,
     "top_jobs_from_database": [
       {
         "title": "Staff Product Manager ",
-        "grade": "A-2"
-      },
-      {
-        "title": "Senior Business Development Manager, Omnichannel",
-        "grade": "C"
-      },
-      {
-        "title": "Staff Product Manager",
         "grade": "A"
+      },
+      {
+        "title": "Senior Manager, Account Management",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Manager, FP&A",
+        "grade": "A"
+      },
+      {
+        "title": "Head of Business Operations, APAC",
+        "grade": "B"
+      },
+      {
+        "title": "Air Operations Associate",
+        "grade": "B"
       }
     ],
     "job_grades_found": [
@@ -3370,7 +3929,22 @@
       "A-2",
       "A"
     ],
-    "open_roles_count": 8
+    "open_roles_count": 12,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "target_market": [
+      "Seoul, South Korea",
+      "Shanghai",
+      "Shanghai, China",
+      "Shenzhen, China",
+      "Singapore, Singapore"
+    ]
   },
   {
     "id": 190,
@@ -3413,7 +3987,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 19,
@@ -3456,7 +4032,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 90,
@@ -3500,7 +4078,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 91,
@@ -3541,10 +4121,23 @@
     "status": "prospect",
     "is_system": true,
     "category": "ats",
-    "total_jobs_in_database": 0,
-    "top_jobs_from_database": [],
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Senior Product Manager (Trading)",
+        "grade": "B"
+      }
+    ],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "B"
+    ],
+    "target_market": [
+      "Hong Kong"
+    ]
   },
   {
     "id": 164,
@@ -3594,7 +4187,9 @@
     "job_grades_found": [
       "A-1"
     ],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 92,
@@ -3638,7 +4233,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 156,
@@ -3714,19 +4311,27 @@
     "status": "prospect",
     "is_system": true,
     "category": "ats",
-    "total_jobs_in_database": 12,
+    "total_jobs_in_database": 15,
     "top_jobs_from_database": [
+      {
+        "title": "Director, Strategic Partnerships",
+        "grade": "S"
+      },
+      {
+        "title": "Senior Director, Field CTOs",
+        "grade": "S"
+      },
+      {
+        "title": "Senior Manager, Business Development",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Manager, Security Compliance",
+        "grade": "A"
+      },
       {
         "title": "Senior Program Manager, Enterprise Technology & AI",
         "grade": "B"
-      },
-      {
-        "title": "Regional Sales Director, ASEAN & Korea",
-        "grade": "C"
-      },
-      {
-        "title": "Senior Product Manager, Plan to Code",
-        "grade": "C"
       }
     ],
     "job_grades_found": [
@@ -3736,7 +4341,22 @@
       "A",
       "B"
     ],
-    "open_roles_count": 14
+    "open_roles_count": 15,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "B",
+      "C",
+      "S"
+    ],
+    "target_market": [
+      "Bangalore, India",
+      "Remote, Australia; Remote, Singapore",
+      "Remote, Bangalore",
+      "Remote, Brazil",
+      "Remote, Canada; Remote, US"
+    ]
   },
   {
     "id": 60,
@@ -3816,19 +4436,27 @@
     "status": "prospect",
     "is_system": true,
     "category": "ats",
-    "total_jobs_in_database": 12,
+    "total_jobs_in_database": 15,
     "top_jobs_from_database": [
+      {
+        "title": "Director, Strategic Partnerships",
+        "grade": "S"
+      },
+      {
+        "title": "Senior Director, Field CTOs",
+        "grade": "S"
+      },
+      {
+        "title": "Senior Manager, Business Development",
+        "grade": "A"
+      },
+      {
+        "title": "Senior Manager, Security Compliance",
+        "grade": "A"
+      },
       {
         "title": "Senior Program Manager, Enterprise Technology & AI",
         "grade": "B"
-      },
-      {
-        "title": "Regional Sales Director, ASEAN & Korea",
-        "grade": "C"
-      },
-      {
-        "title": "Senior Product Manager, Plan to Code",
-        "grade": "C"
       }
     ],
     "job_grades_found": [
@@ -3838,7 +4466,22 @@
       "A",
       "B"
     ],
-    "open_roles_count": 14
+    "open_roles_count": 15,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "B",
+      "C",
+      "S"
+    ],
+    "target_market": [
+      "Bangalore, India",
+      "Remote, Australia; Remote, Singapore",
+      "Remote, Bangalore",
+      "Remote, Brazil",
+      "Remote, Canada; Remote, US"
+    ]
   },
   {
     "id": 7,
@@ -3846,7 +4489,7 @@
     "title": "Staff Software Engineer",
     "company": "Google",
     "city": "Mountain View, CA",
-    "linkedin": null,
+    "linkedin": "https://linkedin.com/in/amanda.foster",
     "wechat": null,
     "email": "amanda@google.com",
     "connection": "Google I/O 2025",
@@ -3885,7 +4528,9 @@
       }
     ],
     "open_roles_count": 0,
-    "total_jobs_in_database": 0
+    "total_jobs_in_database": 0,
+    "is_real_person": true,
+    "is_company_placeholder": false
   },
   {
     "id": 23,
@@ -3925,10 +4570,23 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 0,
-    "top_jobs_from_database": [],
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Head of Measurement, APAC Product Go-To-Market",
+        "grade": "A-2"
+      }
+    ],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A-2"
+    ],
+    "target_market": [
+      "Singapore"
+    ]
   },
   {
     "id": 52,
@@ -3983,7 +4641,15 @@
     "job_grades_found": [
       "C(1)"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "C"
+    ],
+    "target_market": [
+      "Singapore"
+    ]
   },
   {
     "id": 49,
@@ -4036,25 +4702,47 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 5,
+    "total_jobs_in_database": 15,
     "top_jobs_from_database": [
       {
-        "title": "Associate, Strategic Insights and Analytics",
-        "grade": "C"
+        "title": "Principal Product Manager, AI Enablement",
+        "grade": "A"
       },
       {
-        "title": "Lead Technical Program Manager",
-        "grade": "C"
+        "title": "Senior Product Management Leader - Mobility Dispatch, Fulfilment",
+        "grade": "A"
       },
       {
-        "title": "Senior Manager, Mobility Marketplace, Thailand",
-        "grade": "C"
+        "title": "Lead Product Manager, GrabMart Fulfilment",
+        "grade": "B"
+      },
+      {
+        "title": "Lead Product Manager, Deliveries",
+        "grade": "B"
+      },
+      {
+        "title": "Manager, Mobility Marketplace",
+        "grade": "B"
       }
     ],
     "job_grades_found": [
       "C(5)"
     ],
-    "open_roles_count": 5
+    "open_roles_count": 15,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "B",
+      "C"
+    ],
+    "target_market": [
+      "Bangkok, th",
+      "Jakarta",
+      "Jakarta, id",
+      "Singapore",
+      "Singapore, sg"
+    ]
   },
   {
     "id": 191,
@@ -4097,7 +4785,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 17,
@@ -4140,7 +4830,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 32,
@@ -4180,10 +4872,23 @@
     "status": "expired",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 0,
-    "top_jobs_from_database": [],
+    "total_jobs_in_database": 1,
+    "top_jobs_from_database": [
+      {
+        "title": "Senior Product Manager, HK Business",
+        "grade": "B"
+      }
+    ],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "B"
+    ],
+    "target_market": [
+      "Hong Kong"
+    ]
   },
   {
     "id": 165,
@@ -4233,7 +4938,15 @@
     "job_grades_found": [
       "A"
     ],
-    "open_roles_count": 0
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A"
+    ],
+    "target_market": [
+      "Hong Kong"
+    ]
   },
   {
     "id": 33,
@@ -4274,7 +4987,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 93,
@@ -4318,7 +5033,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 94,
@@ -4369,7 +5086,15 @@
     "job_grades_found": [
       "B"
     ],
-    "open_roles_count": 0
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "B"
+    ],
+    "target_market": [
+      "深圳·福田区"
+    ]
   },
   {
     "id": 192,
@@ -4412,7 +5137,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 14,
@@ -4483,7 +5210,16 @@
     "job_grades_found": [
       "A(3)"
     ],
-    "open_roles_count": 3
+    "open_roles_count": 3,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A"
+    ],
+    "target_market": [
+      "Canada - Remote (ON, AB, BC, or NS Only)",
+      "United States - Remote"
+    ]
   },
   {
     "id": 166,
@@ -4539,7 +5275,15 @@
     "job_grades_found": [
       "C"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "C"
+    ],
+    "target_market": [
+      "Shenzhen"
+    ]
   },
   {
     "id": 20,
@@ -4580,7 +5324,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 95,
@@ -4624,7 +5370,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 61,
@@ -4668,7 +5416,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 62,
@@ -4730,7 +5480,15 @@
     "job_grades_found": [
       "A"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A"
+    ],
+    "target_market": [
+      "Hong Kong"
+    ]
   },
   {
     "id": 96,
@@ -4771,17 +5529,34 @@
     "status": "prospect",
     "is_system": true,
     "category": "ats",
-    "total_jobs_in_database": 1,
+    "total_jobs_in_database": 3,
     "top_jobs_from_database": [
       {
         "title": "Senior Product Manager / Product Lead",
-        "grade": "A-2"
+        "grade": "A"
+      },
+      {
+        "title": "Product Manager, Marketplace",
+        "grade": "B+"
+      },
+      {
+        "title": "Product Manager, Payment & Finance",
+        "grade": "B+"
       }
     ],
     "job_grades_found": [
       "A-2"
     ],
-    "open_roles_count": 0
+    "open_roles_count": 3,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "B+"
+    ],
+    "target_market": [
+      "Hong Kong"
+    ]
   },
   {
     "id": 97,
@@ -4825,7 +5600,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 193,
@@ -4886,7 +5663,15 @@
     "job_grades_found": [
       "B"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "B"
+    ],
+    "target_market": [
+      "Americas, Europe, Asia, Oceania (Remote)"
+    ]
   },
   {
     "id": 98,
@@ -4930,7 +5715,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 194,
@@ -4973,7 +5760,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 45,
@@ -5027,8 +5816,12 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 4,
+    "total_jobs_in_database": 6,
     "top_jobs_from_database": [
+      {
+        "title": "Senior Product Manager - Business Lending",
+        "grade": "A"
+      },
       {
         "title": "Head of Product - Business Lending",
         "grade": "A"
@@ -5040,13 +5833,28 @@
       {
         "title": "Senior Product Partnerships Manager - Payroll",
         "grade": "A"
+      },
+      {
+        "title": "Head of Technical Program Management - Banking",
+        "grade": "B"
       }
     ],
     "job_grades_found": [
       "A(3)",
       "C(1)"
     ],
-    "open_roles_count": 4
+    "open_roles_count": 6,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "B",
+      "C"
+    ],
+    "target_market": [
+      "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States",
+      "San Francisco, CA, New York, NY, Portland, OR, or Remote within United States"
+    ]
   },
   {
     "id": 99,
@@ -5102,13 +5910,21 @@
     "top_jobs_from_database": [
       {
         "title": "Director, Product Management - APAC Products",
-        "grade": "A-"
+        "grade": "B"
       }
     ],
     "job_grades_found": [
       "A-"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "B"
+    ],
+    "target_market": [
+      "Singapore"
+    ]
   },
   {
     "id": 8,
@@ -5116,7 +5932,7 @@
     "title": "Research Scientist",
     "company": "Meta",
     "city": "Menlo Park, CA",
-    "linkedin": null,
+    "linkedin": "https://linkedin.com/in/thomas.anderson",
     "wechat": null,
     "email": "t.anderson@meta.com",
     "connection": "FAIR seminar",
@@ -5161,7 +5977,9 @@
       }
     ],
     "open_roles_count": 1,
-    "total_jobs_in_database": 1
+    "total_jobs_in_database": 1,
+    "is_real_person": true,
+    "is_company_placeholder": false
   },
   {
     "id": 100,
@@ -5223,7 +6041,15 @@
     "job_grades_found": [
       "C"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "C"
+    ],
+    "target_market": [
+      "Hong Kong"
+    ]
   },
   {
     "id": 63,
@@ -5267,7 +6093,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 101,
@@ -5311,7 +6139,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 64,
@@ -5355,7 +6185,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 1,
@@ -5363,7 +6195,7 @@
     "title": "VP of AI Research",
     "company": "NVIDIA",
     "city": "San Francisco, CA",
-    "linkedin": null,
+    "linkedin": "https://linkedin.com/in/sarah.chen",
     "wechat": null,
     "email": "sarah.chen@nvidia.com",
     "connection": "Met at NeurIPS 2025 conference",
@@ -5398,7 +6230,9 @@
     "is_person": true,
     "matching_a_s_jobs": [],
     "open_roles_count": 0,
-    "total_jobs_in_database": 0
+    "total_jobs_in_database": 0,
+    "is_real_person": true,
+    "is_company_placeholder": false
   },
   {
     "id": 195,
@@ -5459,7 +6293,15 @@
     "job_grades_found": [
       "B"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "B"
+    ],
+    "target_market": [
+      "Hyderabad, India"
+    ]
   },
   {
     "id": 65,
@@ -5508,7 +6350,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 66,
@@ -5552,7 +6396,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 11,
@@ -5605,19 +6451,27 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 275,
+    "total_jobs_in_database": 192,
     "top_jobs_from_database": [
       {
-        "title": "Growth Product Manager, Listing Campaign",
-        "grade": "A-1"
+        "title": "Expert / Director of Al",
+        "grade": "S"
       },
       {
-        "title": "Senior Product Manager, Multilingual AI and Evals",
-        "grade": "A-1"
+        "title": "Senior Manager, Web3 Growth",
+        "grade": "A"
       },
       {
-        "title": "Growth Product Manager, Listing Campaign",
-        "grade": "A-1"
+        "title": "Product Manager, User Center",
+        "grade": "A"
+      },
+      {
+        "title": "Engineering Director, Mobile (iOS/Android)",
+        "grade": "A"
+      },
+      {
+        "title": "Engineering Director, Mobile, Web3",
+        "grade": "A"
       }
     ],
     "job_grades_found": [
@@ -5631,7 +6485,23 @@
       "C(44)",
       "Unknown(29)"
     ],
-    "open_roles_count": 275
+    "open_roles_count": 192,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "A-1",
+      "A-2",
+      "B",
+      "C"
+    ],
+    "target_market": [
+      "APAC",
+      "APAC; Hong Kong, Hong Kong SAR; Singapore, Singapore",
+      "Argentina (Remote); Austin, Texas, United States; Mexico (Remote); New York, United States; San Francisco, California, United States; San Jose, California, United States; São Paulo, Brazil",
+      "Australia; Sydney, New South Wales, Australia",
+      "Bahamas, New Providence, Bahamas"
+    ]
   },
   {
     "id": 67,
@@ -5707,19 +6577,15 @@
     "status": "prospect",
     "is_system": true,
     "category": "ats",
-    "total_jobs_in_database": 191,
+    "total_jobs_in_database": 2,
     "top_jobs_from_database": [
       {
-        "title": "(Senior) Product Director, Local Growth",
-        "grade": "A-1"
+        "title": "Senior/Staff Engineer - Exchange Middle Platform",
+        "grade": "C"
       },
       {
-        "title": "Principal / Senior Product Manager, AI and Agent",
-        "grade": "A-1"
-      },
-      {
-        "title": "Growth Product Manager, Listing Campaign",
-        "grade": "A-1"
+        "title": "Staff Engineer, Security Platform Development",
+        "grade": "C"
       }
     ],
     "job_grades_found": [
@@ -5731,7 +6597,16 @@
       "A",
       "A-1"
     ],
-    "open_roles_count": 275
+    "open_roles_count": 2,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "C"
+    ],
+    "target_market": [
+      "Hong Kong",
+      "Singapore"
+    ]
   },
   {
     "id": 2,
@@ -5739,7 +6614,7 @@
     "title": "Senior Research Scientist",
     "company": "OpenAI",
     "city": "San Francisco, CA",
-    "linkedin": null,
+    "linkedin": "https://linkedin.com/in/michael.zhang",
     "wechat": null,
     "email": "m.zhang@openai.com",
     "connection": "Introduced by Sarah Chen",
@@ -5779,7 +6654,9 @@
     "is_person": true,
     "matching_a_s_jobs": [],
     "open_roles_count": 1,
-    "total_jobs_in_database": 1
+    "total_jobs_in_database": 1,
+    "is_real_person": true,
+    "is_company_placeholder": false
   },
   {
     "id": 167,
@@ -5822,7 +6699,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 102,
@@ -5866,7 +6745,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 103,
@@ -5938,17 +6819,44 @@
     "status": "prospect",
     "is_system": true,
     "category": "ats",
-    "total_jobs_in_database": 1,
+    "total_jobs_in_database": 15,
     "top_jobs_from_database": [
       {
-        "title": "Online Acquisition Manager",
-        "grade": "C"
+        "title": "Commercial Operations Manager",
+        "grade": "A"
+      },
+      {
+        "title": "IT Team Lead",
+        "grade": "A"
+      },
+      {
+        "title": "Lead, Customer Experience",
+        "grade": "A"
+      },
+      {
+        "title": "Merchant Operations manager",
+        "grade": "A"
+      },
+      {
+        "title": "Program Growth Manager",
+        "grade": "A"
       }
     ],
     "job_grades_found": [
       "C"
     ],
-    "open_roles_count": 27
+    "open_roles_count": 15,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "C"
+    ],
+    "target_market": [
+      "Bangalore, India",
+      "Gurugram, India",
+      "Shanghai, China"
+    ]
   },
   {
     "id": 104,
@@ -6010,7 +6918,15 @@
     "job_grades_found": [
       "C"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "C"
+    ],
+    "target_market": [
+      "Shanghai"
+    ]
   },
   {
     "id": 34,
@@ -6065,7 +6981,15 @@
     "job_grades_found": [
       "B(1)"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "B"
+    ],
+    "target_market": [
+      "Shenzhen"
+    ]
   },
   {
     "id": 105,
@@ -6109,7 +7033,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 196,
@@ -6188,19 +7114,27 @@
     "status": "prospect",
     "is_system": true,
     "category": "ats",
-    "total_jobs_in_database": 8,
+    "total_jobs_in_database": 13,
     "top_jobs_from_database": [
       {
-        "title": "Director, Integrated Marketing",
-        "grade": "C"
+        "title": "Director, Technical Program Management-Monetization",
+        "grade": "S"
       },
       {
-        "title": "Lead Client Partner - Retail",
-        "grade": "C"
+        "title": "Lead Client Account Manager - Greater China Region",
+        "grade": "A"
       },
       {
-        "title": "Chief of Staff, Marketing",
-        "grade": "C"
+        "title": "Lead Client Partner (eCommerce) - Greater China Region",
+        "grade": "B"
+      },
+      {
+        "title": "Lead Client Partner - SEA",
+        "grade": "B"
+      },
+      {
+        "title": "Sr. Agency Partner - Greater China Region",
+        "grade": "B"
       }
     ],
     "job_grades_found": [
@@ -6208,7 +7142,21 @@
       "C",
       "A"
     ],
-    "open_roles_count": 8
+    "open_roles_count": 13,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "B",
+      "C",
+      "S"
+    ],
+    "target_market": [
+      "San Francisco, CA, US; Remote, US",
+      "Seattle, WA, US; Remote, US",
+      "Singapore, SG",
+      "Sydney, AU"
+    ]
   },
   {
     "id": 168,
@@ -6251,7 +7199,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 106,
@@ -6295,7 +7245,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 107,
@@ -6339,7 +7291,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 108,
@@ -6383,7 +7337,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 109,
@@ -6434,7 +7390,15 @@
     "job_grades_found": [
       "A"
     ],
-    "open_roles_count": 0
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A"
+    ],
+    "target_market": [
+      "Hong Kong"
+    ]
   },
   {
     "id": 169,
@@ -6477,7 +7441,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 68,
@@ -6521,7 +7487,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 110,
@@ -6565,7 +7533,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 111,
@@ -6626,7 +7596,7 @@
     "top_jobs_from_database": [
       {
         "title": "Senior Product Manager, Corporate Cards (Reap Card)",
-        "grade": "A-2"
+        "grade": "A"
       },
       {
         "title": "Product Manager, Embedded Finance",
@@ -6637,7 +7607,16 @@
       "C",
       "A-2"
     ],
-    "open_roles_count": 2
+    "open_roles_count": 2,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "C"
+    ],
+    "target_market": [
+      "Hong Kong"
+    ]
   },
   {
     "id": 170,
@@ -6685,7 +7664,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 24,
@@ -6740,7 +7721,15 @@
     "job_grades_found": [
       "C(1)"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "C"
+    ],
+    "target_market": [
+      "Hong Kong"
+    ]
   },
   {
     "id": 69,
@@ -6804,19 +7793,29 @@
     "total_jobs_in_database": 2,
     "top_jobs_from_database": [
       {
-        "title": "Product Director - APAC Remote",
-        "grade": "A"
-      },
-      {
         "title": "VP Product - Singapore Remote",
         "grade": "S"
+      },
+      {
+        "title": "Product Director - APAC Remote",
+        "grade": "A"
       }
     ],
     "job_grades_found": [
       "S",
       "A"
     ],
-    "open_roles_count": 2
+    "open_roles_count": 2,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "S"
+    ],
+    "target_market": [
+      "Remote",
+      "Singapore"
+    ]
   },
   {
     "id": 112,
@@ -6867,7 +7866,9 @@
     "job_grades_found": [
       "A-"
     ],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 113,
@@ -6911,7 +7912,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 114,
@@ -6966,7 +7969,15 @@
     "job_grades_found": [
       "C"
     ],
-    "open_roles_count": 0
+    "open_roles_count": 2,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "C"
+    ],
+    "target_market": [
+      "Singapore"
+    ]
   },
   {
     "id": 9,
@@ -6974,7 +7985,7 @@
     "title": "Partner",
     "company": "Sequoia Capital",
     "city": "San Francisco, CA",
-    "linkedin": null,
+    "linkedin": "https://linkedin.com/in/lisa.wang",
     "wechat": null,
     "email": "lisa.wang@sequoiacap.com",
     "connection": "Startup demo day",
@@ -7008,7 +8019,9 @@
     "is_person": true,
     "matching_a_s_jobs": [],
     "open_roles_count": 0,
-    "total_jobs_in_database": 0
+    "total_jobs_in_database": 0,
+    "is_real_person": true,
+    "is_company_placeholder": false
   },
   {
     "id": 171,
@@ -7100,12 +8113,29 @@
       {
         "title": "战略分析经理",
         "grade": "C"
+      },
+      {
+        "title": "战略分析负责人",
+        "grade": "C"
+      },
+      {
+        "title": "高级战略分析师",
+        "grade": "C"
       }
     ],
     "job_grades_found": [
       "C"
     ],
-    "open_roles_count": 7
+    "open_roles_count": 7,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "C"
+    ],
+    "target_market": [
+      "Shenzhen-Baoan",
+      "Shenzhen-Nanshan"
+    ]
   },
   {
     "id": 35,
@@ -7168,7 +8198,15 @@
     "job_grades_found": [
       "C(2)"
     ],
-    "open_roles_count": 2
+    "open_roles_count": 2,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "C"
+    ],
+    "target_market": [
+      "Singapore"
+    ]
   },
   {
     "id": 12,
@@ -7221,7 +8259,7 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 187,
+    "total_jobs_in_database": 217,
     "top_jobs_from_database": [
       {
         "title": "Head of Market Intelligence, Product Marketing",
@@ -7232,8 +8270,16 @@
         "grade": "S"
       },
       {
-        "title": "Staff Product Manager, Global Expansion",
-        "grade": "A-1"
+        "title": "AI Specialist, Treasury Finance Operations",
+        "grade": "A"
+      },
+      {
+        "title": "Bridge - Operations Associate ",
+        "grade": "A"
+      },
+      {
+        "title": "Contracting Operations Specialist",
+        "grade": "A"
       }
     ],
     "job_grades_found": [
@@ -7247,7 +8293,22 @@
       "S(2)",
       "Unknown(1)"
     ],
-    "open_roles_count": 187
+    "open_roles_count": 217,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "B",
+      "C",
+      "S"
+    ],
+    "target_market": [
+      "(San Francisco, Chicago, NYC)",
+      "Bangalore",
+      "Bengaluru",
+      "CHI, SEA, NYC, SF",
+      "CHI, SF, NYC, SEA, US Remote"
+    ]
   },
   {
     "id": 172,
@@ -7290,7 +8351,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 36,
@@ -7343,7 +8406,7 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 29,
+    "total_jobs_in_database": 35,
     "top_jobs_from_database": [
       {
         "title": "Senior Compute Product Architect",
@@ -7356,6 +8419,14 @@
       {
         "title": "Senior Business Development Manager",
         "grade": "A"
+      },
+      {
+        "title": "Senior Strategy Manager",
+        "grade": "A"
+      },
+      {
+        "title": "Strategy Manager",
+        "grade": "A"
       }
     ],
     "job_grades_found": [
@@ -7366,7 +8437,23 @@
       "C(1)",
       "S(1)"
     ],
-    "open_roles_count": 29
+    "open_roles_count": 35,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "A-1",
+      "A-2",
+      "B",
+      "C"
+    ],
+    "target_market": [
+      "China-Shenzhen",
+      "Hong Kong",
+      "India",
+      "Netherlands-Amsterdam",
+      "Seoul"
+    ]
   },
   {
     "id": 70,
@@ -7434,19 +8521,29 @@
     "total_jobs_in_database": 2,
     "top_jobs_from_database": [
       {
-        "title": "Strategy Manager",
-        "grade": "C"
-      },
-      {
         "title": "Senior Strategy Manager",
         "grade": "A"
+      },
+      {
+        "title": "Strategy Manager",
+        "grade": "C"
       }
     ],
     "job_grades_found": [
       "C",
       "A"
     ],
-    "open_roles_count": 2
+    "open_roles_count": 2,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "C"
+    ],
+    "target_market": [
+      "Shanghai",
+      "Shenzhen / Shanghai"
+    ]
   },
   {
     "id": 5,
@@ -7454,7 +8551,7 @@
     "title": "Autopilot ML Lead",
     "company": "Tesla",
     "city": "Palo Alto, CA",
-    "linkedin": null,
+    "linkedin": "https://linkedin.com/in/jessica.park",
     "wechat": null,
     "email": "jessica.park@tesla.com",
     "connection": "Stanford AI Seminar",
@@ -7488,7 +8585,9 @@
     "is_person": true,
     "matching_a_s_jobs": [],
     "open_roles_count": 0,
-    "total_jobs_in_database": 0
+    "total_jobs_in_database": 0,
+    "is_real_person": true,
+    "is_company_placeholder": false
   },
   {
     "id": 115,
@@ -7532,7 +8631,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 71,
@@ -7594,8 +8695,12 @@
     "status": "prospect",
     "is_system": true,
     "category": "ats",
-    "total_jobs_in_database": 1,
+    "total_jobs_in_database": 2,
     "top_jobs_from_database": [
+      {
+        "title": "Accounts and Operations Executive",
+        "grade": "A"
+      },
       {
         "title": "Head of Product - Core & Growth",
         "grade": "C"
@@ -7604,7 +8709,16 @@
     "job_grades_found": [
       "C"
     ],
-    "open_roles_count": 3
+    "open_roles_count": 2,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "C"
+    ],
+    "target_market": [
+      "Singapore, Central, Singapore"
+    ]
   },
   {
     "id": 72,
@@ -7677,23 +8791,33 @@
     "total_jobs_in_database": 3,
     "top_jobs_from_database": [
       {
+        "title": "VP Product - Singapore Remote",
+        "grade": "S"
+      },
+      {
         "title": "Head of Product",
         "grade": "A"
       },
       {
         "title": "Product Director - APAC",
         "grade": "A"
-      },
-      {
-        "title": "VP Product - Singapore Remote",
-        "grade": "S"
       }
     ],
     "job_grades_found": [
       "S",
       "A"
     ],
-    "open_roles_count": 3
+    "open_roles_count": 3,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "S"
+    ],
+    "target_market": [
+      "Remote",
+      "Singapore"
+    ]
   },
   {
     "id": 116,
@@ -7737,7 +8861,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 117,
@@ -7781,7 +8907,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 73,
@@ -7854,23 +8982,32 @@
     "total_jobs_in_database": 3,
     "top_jobs_from_database": [
       {
+        "title": "VP Product - Remote Global",
+        "grade": "S"
+      },
+      {
         "title": "Head of Product",
         "grade": "A"
       },
       {
         "title": "Product Director - Remote",
         "grade": "A"
-      },
-      {
-        "title": "VP Product - Remote Global",
-        "grade": "S"
       }
     ],
     "job_grades_found": [
       "S",
       "A"
     ],
-    "open_roles_count": 3
+    "open_roles_count": 3,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "S"
+    ],
+    "target_market": [
+      "Remote"
+    ]
   },
   {
     "id": 43,
@@ -7924,18 +9061,26 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 8,
+    "total_jobs_in_database": 9,
     "top_jobs_from_database": [
-      {
-        "title": "Senior Manager, Talent Acquisition - GTM & Marketing, Americas",
-        "grade": "A-"
-      },
       {
         "title": "Director, New Business",
         "grade": "B"
       },
       {
+        "title": "Director, EMEA Strategic Sales North",
+        "grade": "B"
+      },
+      {
+        "title": "Senior Manager, Talent Acquisition - GTM & Marketing, Americas",
+        "grade": "B"
+      },
+      {
         "title": "Principal Presales Engineer",
+        "grade": "C"
+      },
+      {
+        "title": "Senior Customer Success Manager",
         "grade": "C"
       }
     ],
@@ -7944,7 +9089,19 @@
       "B(1)",
       "C(6)"
     ],
-    "open_roles_count": 8
+    "open_roles_count": 9,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "B",
+      "C"
+    ],
+    "target_market": [
+      "Remote - Japan",
+      "Remote - Singapore",
+      "Remote - US",
+      "Remote - United Kingdom"
+    ]
   },
   {
     "id": 157,
@@ -8014,7 +9171,15 @@
     "job_grades_found": [
       "B"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "B"
+    ],
+    "target_market": [
+      "深圳·福田区"
+    ]
   },
   {
     "id": 173,
@@ -8077,7 +9242,15 @@
     "job_grades_found": [
       "B"
     ],
-    "open_roles_count": 0
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "B"
+    ],
+    "target_market": [
+      "深圳·福田区"
+    ]
   },
   {
     "id": 118,
@@ -8121,7 +9294,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 119,
@@ -8185,19 +9360,29 @@
     "total_jobs_in_database": 2,
     "top_jobs_from_database": [
       {
-        "title": "Senior Manager, Solutions Architect",
-        "grade": "C"
-      },
-      {
         "title": "Director, Major Sales",
         "grade": "S"
+      },
+      {
+        "title": "Senior Manager, Solutions Architect",
+        "grade": "C"
       }
     ],
     "job_grades_found": [
       "S",
       "C"
     ],
-    "open_roles_count": 2
+    "open_roles_count": 2,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "C",
+      "S"
+    ],
+    "target_market": [
+      "Hybrid - New York City",
+      "Remote - Australia"
+    ]
   },
   {
     "id": 120,
@@ -8241,7 +9426,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 37,
@@ -8297,22 +9484,31 @@
     "total_jobs_in_database": 3,
     "top_jobs_from_database": [
       {
-        "title": "Director, Corporate Strategy - Asia Pacific",
-        "grade": "A-"
-      },
-      {
         "title": "Director, Account Executive, AP Fintech & Strategic Partners",
-        "grade": "A-"
+        "grade": "B"
       },
       {
         "title": "Senior Director, Corporate Strategy, Asia Pacific",
-        "grade": "A-"
+        "grade": "B"
+      },
+      {
+        "title": "Director, Corporate Strategy - Asia Pacific",
+        "grade": "B"
       }
     ],
     "job_grades_found": [
       "A-(3)"
     ],
-    "open_roles_count": 3
+    "open_roles_count": 3,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "B"
+    ],
+    "target_market": [
+      "Singapore",
+      "Singapore, Singapore"
+    ]
   },
   {
     "id": 121,
@@ -8356,7 +9552,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 38,
@@ -8399,7 +9597,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 122,
@@ -8443,7 +9643,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 123,
@@ -8487,7 +9689,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 51,
@@ -8540,19 +9744,27 @@
     "status": "prospect",
     "is_company": true,
     "category": "target",
-    "total_jobs_in_database": 15,
+    "total_jobs_in_database": 13,
     "top_jobs_from_database": [
       {
         "title": "Product Manager – Risk Products",
-        "grade": "A-1"
+        "grade": "A"
       },
       {
         "title": "Financial Operations - Cross-Border Ops Lead",
-        "grade": "A-2"
+        "grade": "A"
       },
       {
         "title": "Financial Operations Lead - DragonPay Team",
-        "grade": "A-2"
+        "grade": "A"
+      },
+      {
+        "title": "People Operations Analyst for Customer Experience (CX)",
+        "grade": "A"
+      },
+      {
+        "title": "Global Head of Communications",
+        "grade": "A"
       }
     ],
     "job_grades_found": [
@@ -8562,7 +9774,21 @@
       "C(5)",
       "Unknown(2)"
     ],
-    "open_roles_count": 15
+    "open_roles_count": 13,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A",
+      "B",
+      "C"
+    ],
+    "target_market": [
+      "Bangkok, Thailand",
+      "Bangkok, Thailand; Jakarta, Indonesia; Kuala Lumpur, Malaysia; Manila, Philippines",
+      "Beijing, China; Hong Kong; Kuala Lumpur, Malaysia; Shanghai, China; Shenzhen, China; Singapore, Singapore",
+      "Beijing, China; Hong Kong; Kuala Lumpur, Malaysia; Shanghai, China; Shenzhen, China; Singapore, Singapore; Taipei, Taiwan",
+      "Hong Kong; India; Jakarta, Indonesia; Manila, Philippines; Singapore, Singapore"
+    ]
   },
   {
     "id": 10,
@@ -8570,7 +9796,7 @@
     "title": "Group Partner",
     "company": "Y Combinator",
     "city": "San Francisco, CA",
-    "linkedin": null,
+    "linkedin": "https://linkedin.com/in/james.miller",
     "wechat": null,
     "email": "james.m@ycombinator.com",
     "connection": "YC office hours",
@@ -8602,7 +9828,9 @@
     "is_person": true,
     "matching_a_s_jobs": [],
     "open_roles_count": 0,
-    "total_jobs_in_database": 0
+    "total_jobs_in_database": 0,
+    "is_real_person": true,
+    "is_company_placeholder": false
   },
   {
     "id": 124,
@@ -8646,7 +9874,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 125,
@@ -8690,7 +9920,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 126,
@@ -8734,7 +9966,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 39,
@@ -8777,7 +10011,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 127,
@@ -8821,7 +10057,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 128,
@@ -8865,7 +10103,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 129,
@@ -8909,7 +10149,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 130,
@@ -8953,7 +10195,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 131,
@@ -8997,7 +10241,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 206,
@@ -9041,7 +10287,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 174,
@@ -9097,7 +10345,15 @@
     "job_grades_found": [
       "C"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "C"
+    ],
+    "target_market": [
+      "Shenzhen"
+    ]
   },
   {
     "id": 175,
@@ -9158,7 +10414,15 @@
     "job_grades_found": [
       "C"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "C"
+    ],
+    "target_market": [
+      "Shenzhen"
+    ]
   },
   {
     "id": 205,
@@ -9202,7 +10466,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 132,
@@ -9246,7 +10512,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 133,
@@ -9290,7 +10558,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 202,
@@ -9334,7 +10604,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 200,
@@ -9378,7 +10650,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 201,
@@ -9422,7 +10696,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 203,
@@ -9466,7 +10742,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 134,
@@ -9510,7 +10788,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 176,
@@ -9553,7 +10833,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 135,
@@ -9597,7 +10879,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 177,
@@ -9658,7 +10942,15 @@
     "job_grades_found": [
       "C"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "C"
+    ],
+    "target_market": [
+      "Shenzhen"
+    ]
   },
   {
     "id": 136,
@@ -9702,7 +10994,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 137,
@@ -9746,7 +11040,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 178,
@@ -9789,7 +11085,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 138,
@@ -9833,7 +11131,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 139,
@@ -9877,7 +11177,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 140,
@@ -9921,7 +11223,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 197,
@@ -9970,7 +11274,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 158,
@@ -10027,7 +11333,15 @@
     "job_grades_found": [
       "B"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "B"
+    ],
+    "target_market": [
+      "深圳"
+    ]
   },
   {
     "id": 141,
@@ -10071,7 +11385,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 142,
@@ -10115,7 +11431,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 198,
@@ -10164,7 +11482,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 159,
@@ -10213,7 +11533,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 179,
@@ -10274,7 +11596,15 @@
     "job_grades_found": [
       "C"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "C"
+    ],
+    "target_market": [
+      "Shenzhen"
+    ]
   },
   {
     "id": 199,
@@ -10317,7 +11647,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 143,
@@ -10361,7 +11693,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 144,
@@ -10402,19 +11736,11 @@
     "status": "prospect",
     "is_system": true,
     "category": "ats",
-    "total_jobs_in_database": 8,
+    "total_jobs_in_database": 1,
     "top_jobs_from_database": [
       {
-        "title": "全球GTM增长负责人",
+        "title": "系统AI产品经理 (AI OS Product Manager)",
         "grade": "B"
-      },
-      {
-        "title": "产品经理（英国区域）",
-        "grade": "B"
-      },
-      {
-        "title": "高级产品经理（小家电/厨电类/环境类）",
-        "grade": "C"
       }
     ],
     "job_grades_found": [
@@ -10423,7 +11749,15 @@
       "A",
       "B"
     ],
-    "open_roles_count": 0
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "B"
+    ],
+    "target_market": [
+      "深圳-福田区"
+    ]
   },
   {
     "id": 145,
@@ -10467,7 +11801,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 146,
@@ -10511,7 +11847,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 147,
@@ -10555,7 +11893,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 148,
@@ -10617,7 +11957,15 @@
     "job_grades_found": [
       "A"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A"
+    ],
+    "target_market": [
+      "深圳"
+    ]
   },
   {
     "id": 149,
@@ -10687,7 +12035,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 29
+    "open_roles_count": 29,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 150,
@@ -10731,7 +12081,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 180,
@@ -10792,7 +12144,15 @@
     "job_grades_found": [
       "C"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "C"
+    ],
+    "target_market": [
+      "Shenzhen-Longgang"
+    ]
   },
   {
     "id": 74,
@@ -10854,7 +12214,15 @@
     "job_grades_found": [
       "A"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A"
+    ],
+    "target_market": [
+      "深圳-南山区"
+    ]
   },
   {
     "id": 204,
@@ -10898,7 +12266,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 151,
@@ -10942,7 +12312,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 75,
@@ -10999,7 +12371,15 @@
     "job_grades_found": [
       "A"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "A"
+    ],
+    "target_market": [
+      "深圳-南山区"
+    ]
   },
   {
     "id": 181,
@@ -11074,7 +12454,17 @@
       "C",
       "B"
     ],
-    "open_roles_count": 2
+    "open_roles_count": 2,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "B",
+      "C"
+    ],
+    "target_market": [
+      "Shenzhen",
+      "深圳-南山区"
+    ]
   },
   {
     "id": 182,
@@ -11130,7 +12520,15 @@
     "job_grades_found": [
       "C"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "C"
+    ],
+    "target_market": [
+      "Shenzhen"
+    ]
   },
   {
     "id": 21,
@@ -11173,7 +12571,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 183,
@@ -11216,7 +12616,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 184,
@@ -11272,7 +12674,15 @@
     "job_grades_found": [
       "C"
     ],
-    "open_roles_count": 1
+    "open_roles_count": 1,
+    "is_real_person": false,
+    "is_company_placeholder": true,
+    "top_grades": [
+      "C"
+    ],
+    "target_market": [
+      "Shenzhen-Nanshan"
+    ]
   },
   {
     "id": 152,
@@ -11316,7 +12726,9 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   },
   {
     "id": 153,
@@ -11360,6 +12772,8 @@
     "total_jobs_in_database": 0,
     "top_jobs_from_database": [],
     "job_grades_found": [],
-    "open_roles_count": 0
+    "open_roles_count": 0,
+    "is_real_person": false,
+    "is_company_placeholder": true
   }
 ]
