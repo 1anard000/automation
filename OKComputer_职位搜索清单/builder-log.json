@@ -623,7 +623,7 @@
     "coverage": 100,
     "scripts": 100,
     "dashboard": 92,
-    "career_hub": 90,
+    "career_hub": 93,
     "strategy": 90,
     "total_jobs": 1378,
     "sources": 47,
@@ -631,7 +631,7 @@
     "with_url": 1378,
     "last_updated": "2026-08-10T03:05:00",
     "crm": 8,
-    "total": 94.1
+    "total": 94.6
   },
   "last_improvement": "Refreshed career-strategy.md with Aug 9 intelligence: 1,367 jobs, 375 new this week, updated sector heat map and employer rankings.",
   "last_improvement_date": "2026-08-09T00:03:54.882584",
