@@ -303,7 +303,7 @@
     "python_scripts": 7,
     "strategy": 7
   },
-  "last_improvement": "Normalized grade schema: unified 1283 inconsistent grades to S/A/A-/B/B+/C (was ?/empty/A-1/A-2/Senior/etc)",
+  "last_improvement": "2026-08-10T00:03:10.867750",
   "log": [
     {
       "date": "2026-06-20",
@@ -326,5 +326,6 @@
       "date": "2026-06-28T06:00:00+08:00",
       "action": "Removed 32 stale jobs (>30 days old), rebuilt dashboard. Score: data_quality 8\u21929, python_scripts 6\u21927."
     }
-  ]
+  ],
+  "last_improvement_note": "Career Hub cleanup: synced stats to 1499 jobs/427 A-1/49 sources, fixed broken job-database-senior.html link, removed past AIoTC event"
 }
