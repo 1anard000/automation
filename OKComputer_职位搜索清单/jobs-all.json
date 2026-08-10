@@ -25868,5 +25868,65 @@
     "is_director": false,
     "category": "product",
     "company_type": "ecommerce"
+  },
+  {
+    "title": "Head of APAC Accounting",
+    "company": "Anthropic",
+    "location": "Singapore",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/7817957003",
+    "source": "greenhouse_api",
+    "scanned_date": "2026-08-10",
+    "english_friendly": true,
+    "quality_score": 80
+  },
+  {
+    "title": "Head of Business Operations, APAC",
+    "company": "Flexport",
+    "location": "Singapore, Singapore",
+    "url": "https://job-boards.greenhouse.io/flexport/jobs/7824206003",
+    "source": "greenhouse_api",
+    "scanned_date": "2026-08-10",
+    "english_friendly": true,
+    "quality_score": 85
+  },
+  {
+    "title": "Senior Manager, Account Management",
+    "company": "Flexport",
+    "location": "Shanghai, China",
+    "url": "https://job-boards.greenhouse.io/flexport/jobs/7824171003",
+    "source": "greenhouse_api",
+    "scanned_date": "2026-08-10",
+    "english_friendly": true,
+    "quality_score": 75
+  },
+  {
+    "title": "Senior Manager, FP&A",
+    "company": "Flexport",
+    "location": "Singapore, Singapore",
+    "url": "https://job-boards.greenhouse.io/flexport/jobs/7824181003",
+    "source": "greenhouse_api",
+    "scanned_date": "2026-08-10",
+    "english_friendly": true,
+    "quality_score": 70
+  },
+  {
+    "title": "Staff Product Manager",
+    "company": "Flexport",
+    "location": "Hong Kong; Shanghai, China; Shenzhen, China",
+    "url": "https://job-boards.greenhouse.io/flexport/jobs/7824163003",
+    "source": "greenhouse_api",
+    "scanned_date": "2026-08-10",
+    "english_friendly": true,
+    "quality_score": 90
+  },
+  {
+    "title": "Staff Product Manager",
+    "company": "Flexport",
+    "location": "Shenzhen, China",
+    "url": "https://job-boards.greenhouse.io/flexport/jobs/7824165003",
+    "source": "greenhouse_api",
+    "scanned_date": "2026-08-10",
+    "english_friendly": true,
+    "quality_score": 85
   }
 ]
