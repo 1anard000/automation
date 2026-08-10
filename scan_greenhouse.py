@@ -1,94 +1,92 @@
 #!/usr/bin/env python3
-"""Scan Greenhouse API boards for new jobs."""
-import json, urllib.request, sys
+"""Scan Greenhouse APIs for new jobs."""
+import json
+import urllib.request
+import sys
+from datetime import datetime
 
-# Companies with Greenhouse boards to scan
-COMPANIES = {
-    'okx': 'https://boards-api.greenhouse.io/v1/jobs/okx?content=false',
-    'stripe': 'https://boards-api.greenhouse.io/v1/jobs/stripe?content=false',
-    'airwallex': 'https://boards-api.greenhouse.io/v1/jobs/airwallex?content=false',
-    'coupang': 'https://boards-api.greenhouse.io/v1/jobs/coupang?content=false',
-    'agoda': 'https://boards-api.greenhouse.io/v1/jobs/agoda?content=false',
-}
-
-# Target keywords for role matching
-TITLE_KEYWORDS = [
-    'product manager', 'strategy', 'growth', 'general manager', 'gm ',
-    'head of', 'bizops', 'business operations', 'business development',
-    'cross-border', 'marketplace', 'fintech', 'payments', 'platform',
-    'director', 'lead', 'chief of staff', 'go-to-market', 'gtm',
-    'commercial', 'expansion', 'partnerships'
-]
-
-# Target locations
-LOC_KEYWORDS = [
-    'shenzhen', 'hong kong', 'singapore', 'shanghai', 'guangzhou',
-    'asia', 'apac', 'greater china', 'china', 'sea', 'southeast'
-]
-
-# Title keywords to SKIP
-SKIP_KEYWORDS = [
-    'intern', 'internship', 'staff engineer', 'software engineer',
-    'data scientist', 'devops', 'sre', 'ux designer', 'designer',
-    'recruiter', 'recruiting', 'talent acquisition', 'accountant',
-    'legal counsel', 'paralegal', 'receptionist', 'admin assistant'
-]
-
-# Seniority filters - skip very senior
-SKIP_SENIORITY = ['vice president', 'svp', 'evp', 'chief ', 'cfo', 'cto', 'ceo', 'coo']
-
-all_new = []
-
-for company, api_url in COMPANIES.items():
+def fetch_greenhouse_jobs(board_token):
+    """Fetch all jobs from a Greenhouse board."""
+    url = f"https://boards-api.greenhouse.io/v1/{board_token}/jobs?content=true"
     try:
-        req = urllib.request.Request(api_url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read())
+        req = urllib.request.Request(url)
+        with urllib.request.urlopen(req, timeout=30) as response:
+            data = json.loads(response.read().decode())
+            return data.get('jobs', [])
+    except Exception as e:
+        print(f"Error fetching {board_token}: {e}")
+        return []
+
+def filter_relevant_jobs(jobs, board_token):
+    """Filter for relevant PM/Strategy/Growth roles in target locations."""
+    relevant = []
+    target_locations = ['shenzhen', 'hong kong', 'singapore', 'shanghai', 'guangzhou', 'remote']
+    target_keywords = ['product manager', 'strategy', 'growth', 'bizops', 'gm', 'general manager',
+                      'head of', 'principal product', 'senior manager', 'program manager']
+    
+    for j in jobs:
+        title = j.get('title', '')
+        loc = j.get('location', {}).get('name', '')
+        lower_t = title.lower()
         
-        jobs = data.get('jobs', [])
-        print(f'\n=== {company.upper()} === ({len(jobs)} total jobs)')
-        
-        matches = 0
-        for j in jobs:
-            title = j.get('title', '')
-            loc = j.get('location', {}).get('name', '')
-            tl = title.lower()
-            ll = loc.lower()
-            posted = j.get('updated_at', j.get('created_at', ''))
-            
-            # Skip unwanted roles
-            if any(k in tl for k in SKIP_KEYWORDS):
-                continue
-            if any(k in tl for k in SKIP_SENIORITY):
-                continue
-            
-            # Check title relevance
-            title_match = any(k in tl for k in TITLE_KEYWORDS)
-            # Check location relevance
-            loc_match = any(k in ll for k in LOC_KEYWORDS)
-            
-            if title_match and loc_match:
-                # Get URL
-                url = j.get('absolute_url', '')
-                
-                all_new.append({
-                    'company': company.title() if company != 'okx' else 'OKX',
+        # Check if title matches target keywords
+        if any(k in lower_t for k in target_keywords):
+            # Check if location matches
+            if any(l in loc.lower() for l in target_locations):
+                relevant.append({
+                    'id': j['id'],
                     'title': title,
                     'location': loc,
-                    'url': url,
-                    'posted': posted,
+                    'url': j.get('absolute_url', ''),
+                    'company': board_token.upper(),
                     'source': 'greenhouse_api'
                 })
-                matches += 1
-                print(f'  ✅ {title} | {loc}')
-        
-        print(f'  Matches: {matches}/{len(jobs)}')
-        
-    except Exception as e:
-        print(f'Error scanning {company}: {e}')
+    
+    return relevant
 
-print(f'\n=== SUMMARY: {len(all_new)} potential new jobs from Greenhouse ===')
-# Save results
-with open('/tmp/greenhouse_results.json', 'w') as f:
-    json.dump(all_new, f, ensure_ascii=False, indent=2)
-print('Saved to /tmp/greenhouse_results.json')
+def main():
+    # Load existing jobs
+    jobs_file = '/Users/iancolrick/.openclaw/workspace/OKComputer_职位搜索清单/jobs-all.json'
+    try:
+        with open(jobs_file) as f:
+            existing_jobs = json.load(f)
+        existing_urls = {j.get('url') for j in existing_jobs}
+        print(f"Existing jobs: {len(existing_jobs)}")
+        print(f"Existing URLs count: {len(existing_urls)}")
+    except Exception as e:
+        print(f"Error loading existing jobs: {e}")
+        existing_urls = set()
+    
+    # Companies to scan
+    companies = ['okx', 'stripe', 'airwallex', 'coupang']
+    new_jobs = []
+    
+    for company in companies:
+        print(f"\nScanning {company}...")
+        jobs = fetch_greenhouse_jobs(company)
+        print(f"  Total jobs: {len(jobs)}")
+        
+        relevant = filter_relevant_jobs(jobs, company)
+        print(f"  Relevant: {len(relevant)}")
+        
+        for j in relevant:
+            if j['url'] not in existing_urls:
+                new_jobs.append(j)
+                print(f"    NEW: {j['title']} | {j['location']} | {j['url']}")
+            else:
+                print(f"    EXISTS: {j['title']}")
+    
+    print(f"\nTotal new jobs found: {len(new_jobs)}")
+    
+    # Save new jobs to a temporary file for review
+    if new_jobs:
+        output_file = '/Users/iancolrick/.openclaw/workspace/new_greenhouse_jobs.json'
+        with open(output_file, 'w') as f:
+            json.dump(new_jobs, f, indent=2)
+        print(f"New jobs saved to: {output_file}")
+    
+    return new_jobs
+
+if __name__ == "__main__":
+    new_jobs = main()
+    sys.exit(0 if new_jobs else 1)
