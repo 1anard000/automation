@@ -36,7 +36,7 @@ def main():
 
     # First pass: collect all known dates
     for j in jobs:
-        d = parse_date(j.get('posted_date') or j.get('date') or j.get('created_at') or j.get('fetched_at'))
+        d = parse_date(j.get('posted') or j.get('posted_date') or j.get('date') or j.get('created_at') or j.get('fetched_at') or j.get('scanned_date'))
         if d:
             dates.append(d)
 
@@ -52,7 +52,7 @@ def main():
 
     # Second pass: backfill
     for i, j in enumerate(jobs):
-        existing = j.get('posted_date') or j.get('date')
+        existing = j.get('posted') or j.get('posted_date') or j.get('date')
         if existing and parse_date(existing):
             already_had += 1
             continue
@@ -61,7 +61,7 @@ def main():
         for field in ('created_at', 'fetched_at', 'scraped_at', 'scanned_date'):
             alt = j.get(field)
             if alt and parse_date(alt):
-                j['posted_date'] = alt
+                j['posted'] = alt
                 filled += 1
                 break
         else:
@@ -76,11 +76,11 @@ def main():
                     estimated_date = earliest + timedelta(seconds=span * fraction)
                 else:
                     estimated_date = mid
-                j['posted_date'] = estimated_date.strftime('%Y-%m-%dT%H:%M:%S')
+                j['posted'] = estimated_date.strftime('%Y-%m-%d')
                 j['date_source'] = 'estimated'
                 estimated += 1
             else:
-                j['posted_date'] = mid.strftime('%Y-%m-%dT%H:%M:%S')
+                j['posted'] = mid.strftime('%Y-%m-%d')
                 j['date_source'] = 'estimated'
                 estimated += 1
 
