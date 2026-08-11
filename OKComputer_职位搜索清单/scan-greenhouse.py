@@ -5,19 +5,22 @@ from datetime import datetime
 
 # Target companies with APAC presence
 BOARDS = [
-    "adyen", "stripe", "agoda", "airtable", "rippling", "brex",
-    "ramp", "plaid", "checkout", "checkoutdotcom", "dLocal",
-    "nuvei", "marqeta", "synapse", "galileo", "dianrong",
-    "simplify", "lever", "ashbyhq", "rappi", "grab",
-    "sea", "shopee", "bytedance", "bytedanc", "meituan",
-    "pinduoduo", "alibaba", "tencent", "jd", "baidu",
-    "didi", "xiaomi", "huawei", "temu", "shein",
-    "xai", "anthropic", "openai", "deepmind", "moonshot",
-    "minimax", "zhipu", "baichuan", "01.ai", "stepfun",
-    "sensetime", "megvii", "cambricon",
-    "revolut", "nubank", "wise", "monzo", "starling",
-    "coinbase", "binance", "okx", "huobi", "bybit",
-    "okx", "kraken", "bitstamp",
+    # Proven working boards (verified returning jobs)
+    "adyen", "stripe", "agoda", "okx", "anthropic",
+    "affirm", "airbnb", "gitlab", "bybit", "twilio",
+    "pinterest", "cloudflare", "coinbase", "figma", "block",
+    "datadog", "elastic", "mercury", "flexport", "xendit",
+    "instacart", "databricks", "vercel", "chime", "reddit",
+    # Newly verified working boards
+    "brex", "airtable", "n26", "mixpanel", "amplitude",
+    "calendly", "remote",
+    # Chinese/Asian companies (may use Greenhouse)
+    "bytedance", "tencent", "xiaomi", "huawei",
+    "meituan", "pinduoduo", "alibaba", "jd", "baidu",
+    # Fintech/crypto
+    "revolut", "wise", "nubank", "kraken",
+    # AI companies
+    "openai", "deepmind", "xai",
 ]
 
 # APAC cities

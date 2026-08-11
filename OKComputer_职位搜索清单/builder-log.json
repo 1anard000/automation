@@ -1,1132 +1,724 @@
 {
   "runs": [
     {
-      "timestamp": "2026-06-13T18:45:00+08:00",
-      "dimension": "data_quality",
-      "task": "URL enrichment — searching for actual job posting URLs for 93 jobs missing links",
-      "status": "completed",
-      "score_before": 5,
-      "score_after": 5,
-      "subagent": "builder-data-quality-url-enrichment"
-    },
-    {
-      "timestamp": "2026-06-13T19:00:00+08:00",
-      "dimension": "python_scripts",
-      "task": "Create core pipeline scripts: merge-jobs.py, build-dashboard.py, dedup-jobs.py, stats.py",
-      "status": "completed",
-      "score_before": 2,
-      "score_after": 6,
-      "subagent": "builder-python-scripts-pipeline"
-    },
-    {
-      "timestamp": "2026-06-13T19:30:00+08:00",
-      "dimension": "career_strategy",
-      "task": "Create comprehensive career strategy document in private/strategy/",
-      "status": "completed",
-      "score_before": 3,
-      "score_after": 6,
-      "subagent": "builder-career-strategy-20260613"
-    },
-    {
-      "timestamp": "2026-06-13T20:00:00+08:00",
-      "dimension": "crm",
-      "task": "Contact discovery — extract real contacts from jobs + email/calendar data",
-      "status": "completed",
-      "score_before": 4,
-      "score_after": 7,
-      "subagent": "builder-crm-contact-discovery"
-    },
-    {
-      "timestamp": "2026-06-13T20:30:00+08:00",
-      "dimension": "data_quality",
-      "task": "URL enrichment v2 — web search actual posting URLs for A-1 jobs, improve specificity from 33% to 50%+",
-      "status": "completed",
-      "score_before": 5,
-      "score_after": 6,
-      "subagent": "builder-data-quality-url-enrichment-v2"
-    },
-    {
-      "timestamp": "2026-06-13T21:00:00+08:00",
-      "dimension": "coverage",
-      "task": "Add 5+ new job source scrapers: Built In, Wellfound, Greenhouse, Jobsdb, Indeed, company career pages",
-      "status": "completed",
-      "score_before": 5,
-      "score_after": 5,
-      "subagent": "builder-coverage-new-sources"
-    },
-    {
-      "timestamp": "2026-06-13T22:00:00+08:00",
-      "dimension": "coverage",
-      "task": "Fix broken multi-source scrapers — rewrite diversified-scan.py using web_search, merge diverse sources into jobs-all.json",
-      "status": "completed",
-      "score_before": 5,
-      "score_after": 5,
-      "subagent": "builder-coverage-diversified-sources"
-    },
-    {
-      "timestamp": "2026-06-14T07:15:00+08:00",
-      "dimension": "coverage",
-      "task": "Coverage audit + expansion: added platform queries, new source patterns, and coverage_audit.py; improved score from 5 to 6",
-      "status": "completed",
-      "score_before": 5,
-      "score_after": 6,
-      "subagent": "builder-coverage-audit-expand"
-    },
-    {
-      "timestamp": "2026-06-14T03:01:49.798334+08:00",
-      "dimension": "data_quality",
-      "task": "Deduplicate 4 duplicate jobs (same title+company), reduce from 207 to 203",
-      "status": "completed",
-      "score_before": 6,
-      "score_after": 6,
-      "subagent": "nightly-dedup"
-    },
-    {
-      "timestamp": "2026-06-14T06:00:53.595164+08:00",
-      "dimension": "dashboard",
-      "task": "Rebuild dashboard with correct job count (333→228 mismatch fixed), update scores",
-      "status": "completed",
-      "score_before": 4,
-      "score_after": 7,
-      "subagent": "nightly-improver-dashboard-fix"
-    },
-    {
-      "timestamp": "2026-06-15T00:00:42.527692",
-      "dimension": "coverage",
-      "task": "Nightly update: refreshed coverage report — 553 jobs, 22 sources, 278 companies (was stale at 232 jobs)",
-      "status": "completed",
-      "score_before": 6,
-      "score_after": 7,
-      "subagent": "nightly-improver"
-    },
-    {
-      "timestamp": "2026-06-15T03:10:00+08:00",
-      "dimension": "automation",
-      "task": "Audit automation state: no scheduled automation found; confirm setup for weekly/monthly refresh",
-      "status": "completed",
-      "score_before": 7,
-      "score_after": 7,
-      "subagent": "system-scorekeeper"
-    },
-    {
-      "timestamp": "2026-06-15T06:00:00+08:00",
-      "dimension": "dashboard",
-      "task": "Fix index.html stale stats — updated from 333 to 595 jobs, refreshed grade/location counts",
-      "status": "completed",
-      "score_before": 7,
-      "score_after": 8,
-      "subagent": "nightly-improver-20260615"
-    },
-    {
-      "timestamp": "2026-06-16T00:00:53.390010+08:00",
-      "dimension": "python_scripts",
-      "task": "Create data-quality-report.py — automated quality scorecard with field completeness, freshness, grade distribution, and issue detection",
-      "status": "completed",
-      "score_before": 6,
-      "score_after": 7,
-      "subagent": "nightly-improver-scripts"
-    },
-    {
-      "timestamp": "2026-06-15T19:01:57Z",
-      "dimension": "crm",
-      "task": "Initialize CRM SQLite database — create schema, seed contacts from jobs data, score contacts",
-      "status": "in_progress",
-      "score_before": 3,
-      "score_after": "pending",
-      "subagent": "builder-crm-init"
-    },
-    {
-      "timestamp": "2026-06-16T03:00:00+08:00",
-      "dimension": "data_quality",
-      "task": "Re-score 120 jobs with quality_score=0 — all now have valid scores and tiers",
-      "status": "completed",
-      "score_before": 6,
-      "score_after": 8,
-      "subagent": "nightly-improver-rescore"
-    },
-    {
-      "timestamp": "2026-06-16T06:01:11.463048+08:00",
-      "dimension": "dashboard",
-      "task": "Create modern dark-theme dashboard.html with stats, bar charts, grade distribution, and top jobs table",
-      "status": "completed",
-      "score_before": 0,
-      "score_after": 7,
-      "subagent": "nightly-improver-dashboard"
-    },
-    {
-      "timestamp": "2026-06-17T00:01:14.858434",
-      "dimension": "data_quality",
-      "task": "Clean 19 search-result entries (generic query URLs with no company), fix 4 zero-score jobs; 651→632 jobs",
-      "status": "completed",
-      "score_before": 6,
-      "score_after": 7,
-      "subagent": "nightly-improver-data-cleanup"
-    },
-    {
-      "timestamp": "2026-06-17T00:03:47.633292",
-      "dimension": "data_quality + dashboard",
-      "task": "quality-improver.py: align 632->260 jobs, fix companies/salary/URLs, rebuild dashboard",
-      "result": "260 aligned jobs, 47 Tier A, 179 Tier B, 45 direct URLs, 180 salary estimates, 4 company fixes",
-      "scores_after": {
+      "timestamp": "2026-07-20T03:00:00+08:00",
+      "scores": {
         "data_quality": 7,
-        "dashboard": 7,
-        "career_strategy": 6,
-        "python_scripts": 7,
-        "crm": 7,
-        "automation": 6,
-        "coverage": 7
-      }
+        "dashboard": 2,
+        "career_strategy": 0,
+        "python_scripts": 1,
+        "crm": 0,
+        "automation": 5,
+        "coverage": 6
+      },
+      "overall": 3.0,
+      "improvement": "Initial assessment — skeleton state",
+      "subagent": null
     },
     {
-      "timestamp": "2026-06-17T03:00:43.916763",
-      "dimension": "career_strategy",
-      "task": "Refresh career-strategy.md for June 17-23 week — updated market intel, sector heat map, salary benchmarks, priority targets",
-      "status": "completed",
-      "score_before": 6,
-      "score_after": 7,
-      "subagent": "builder-strategy-refresh-20260617"
-    },
-    {
-      "timestamp": "2026-06-18T03:00:00+08:00",
-      "dimension": "career_strategy",
-      "task": "Refresh career-strategy.md with full 443-job dataset",
-      "status": "completed",
-      "score_before": 6,
-      "score_after": 8,
-      "subagent": "builder-strategy-refresh-20260618"
-    },
-    {
-      "timestamp": "2026-06-17T03:00:00+08:00",
-      "dimension": "career_hub",
-      "task": "Create career-hub.html — curated resources for APAC senior tech roles: job boards, interview prep, salary research, networking, negotiation tactics",
-      "status": "completed",
-      "score_before": 0,
-      "score_after": 7,
-      "subagent": "nightly-improver-career-hub"
-    },
-    {
-      "timestamp": "2026-06-17T06:00:00+08:00",
-      "dimension": "dashboard",
-      "task": "Add source breakdown visualization to dashboard — horizontal bar chart showing job count by source (top 12 platforms)",
-      "status": "completed",
-      "score_before": 7,
-      "score_after": 8,
-      "subagent": "nightly-improver"
-    },
-    {
-      "timestamp": "2026-06-18T02:14:29.804513",
-      "dimension": "data_quality",
-      "task": "Fix 40 incomplete jobs: fill url_type, english_friendly, location_norm, quality_score, grade for 30 new LinkedIn jobs + 10 missing grades; rebuild dashboard with 443 jobs (was 203)",
-      "status": "completed",
-      "score_before": 7,
-      "score_after": 8,
-      "subagent": "cron-job-improver"
-    },
-    {
-      "timestamp": "2026-06-18T02:17:21.508820",
-      "dimension": "dashboard",
-      "task": "Dashboard v2: source filter buttons, sort-by-date, improved stats, SG filter",
-      "status": "completed",
-      "score_before": 7,
-      "score_after": 8,
-      "subagent": "cron-job-improver"
-    },
-    {
-      "timestamp": "2026-06-18T03:00:00+08:00",
-      "dimension": "career_strategy",
-      "task": "Refresh career-strategy.md with current data (443 jobs, sector heat map, salary benchmarks)",
-      "status": "completed",
-      "score_before": 6,
-      "score_after": 7,
-      "subagent": "nightly-improver"
-    },
-    {
-      "timestamp": "2026-06-18T03:00:00+08:00",
-      "dimension": "career_strategy",
-      "task": "Refresh career-strategy.md with full 443-job dataset",
-      "status": "completed",
-      "score_before": 6,
-      "score_after": 8,
-      "subagent": "builder-strategy-refresh-20260618"
-    },
-    {
-      "dimension": "data_quality",
-      "task": "Fill missing en_title for all 411 jobs (279 English + 132 Chinese translations)",
-      "delta": "+1 (8→9)",
-      "date": "2026-06-18 05:02",
-      "details": "Fixed 411 missing en_title fields: 279 English titles copied directly, 132 Chinese titles translated using PM/strategy term dictionary. Fixed spacing issues in 51 fields. All 443 jobs now have en_title. Dashboard rebuilt."
-    },
-    {
-      "timestamp": "2026-06-18T06:01:48.186524+08:00",
-      "dimension": "python_scripts",
-      "task": "Fix data-quality-report.py: use scanned_date field (was checking non-existent date field)",
-      "status": "completed",
-      "score_before": 7,
-      "score_after": 7,
-      "subagent": "nightly-improver"
-    },
-    {
-      "timestamp": "2026-06-18T06:07:33.391393",
-      "dimension": "data_quality + dashboard",
-      "task": "Fix 4 misclassified URLs (Airwallex/Sea Limited → direct), fill 51 missing salary estimates, fix dashboard direct-count to use url_type field + URL patterns",
-      "status": "completed",
-      "score_before": 9,
-      "score_after": 9,
-      "details": "416 jobs, 130 direct URLs (was 126), 416 with salary (was 365). Dashboard shows 100 direct (was 56) after fixing rebuild-dashboard.py pattern matching."
-    },
-    {
-      "timestamp": "2026-06-18T07:04:10.134732",
-      "dimension": "python_scripts",
-      "task": "Fix rebuild_apply_today.py to auto-find latest recommendations (was hardcoded to 2026-06-17), rebuild apply-today.html with 20 fresh jobs, rebuild dashboard.html",
-      "status": "completed",
-      "score_before": 7,
-      "score_after": 7,
-      "details": "Script now auto-discovers latest recommendations JSON via glob. apply-today.html rebuilt with 20 jobs (scores 75-90). Dashboard rebuilt: 341 aligned jobs, 100 direct links."
-    },
-    {
-      "timestamp": "2026-06-18T09:02:39.531028",
-      "dimension": "data_quality",
-      "task": "Fill 378 missing job summaries (9%→100% coverage) — all 416 jobs now have descriptive summaries for dashboard search",
-      "status": "completed",
-      "score_before": 9,
-      "score_after": 9,
-      "delta": "+0 (already at 9, but completeness went from 9% to 100%)",
-      "details": "Generated summaries from title/company/location/role_type/category fields. 378 jobs filled, 38 already had summaries. Dashboard rebuilt with 341 aligned jobs."
-    },
-    {
-      "timestamp": "2026-06-19T03:01:52.742974",
-      "dimension": "crm",
-      "task": "Build modern CRM web dashboard (crm-dashboard.html) + data export script (export-data.py)",
-      "status": "in_progress",
-      "score_before": 5,
-      "score_after": 7,
-      "details": "Spawned sub-agent to build single-file HTML CRM interface with dark theme, contact search/filter, relationship health gauges, interaction timeline, and Python data export script. Backend already solid (database.py with full CRUD).",
-      "subagent": "builder-crm-ui-1750273200"
-    },
-    {
-      "timestamp": "2026-06-19T06:01:34.050161",
-      "dimension": "crm",
-      "task": "Build CRM web dashboard (crm-dashboard.html) — company cards, status pipeline, search/filter, dark theme",
-      "status": "completed",
-      "score_before": 7,
-      "score_after": 8,
-      "subagent": "nightly-improver"
-    },
-    {
-      "timestamp": "2026-06-20T03:00:44.860023",
-      "dimension": "data_quality",
-      "task": "Fill 108 missing summaries + 37 missing en_title + 4 missing grades in jobs-all.json",
-      "status": "in_progress",
-      "score_before": 7,
-      "score_after": "pending",
-      "subagent": "builder-data-quality-fill-gaps"
-    },
-    {
-      "timestamp": "2026-06-20T06:01:18.324708+08:00",
-      "dimension": "dashboard",
-      "task": "Sync dashboard stats with actual data: 641 jobs, 243 A-1 grades (was showing 552/213)",
-      "status": "completed",
-      "score_before": 8,
-      "score_after": 8,
-      "subagent": "nightly-improver"
-    },
-    {
-      "timestamp": "2026-06-21T00:01:01.254820",
-      "dimension": "data_quality",
-      "task": "Assign grades to 59 ungraded jobs (company_site sources from Jun 20)",
-      "status": "completed",
-      "score_before": 5,
-      "score_after": 7,
-      "subagent": "nightly-improver-grade-assignment"
-    },
-    {
-      "timestamp": "2026-06-21T06:02:06.039135+08:00",
-      "dimension": "python_scripts",
-      "task": "Improve cleanup.py: add --dry-run mode, expand city list to CN variants, fix stale detection to use stale_days field, refine irrelevant-title filter to not remove senior roles (Growth Engineer, Group PM, etc.)",
-      "status": "completed",
-      "score_before": 6,
-      "score_after": 7,
-      "subagent": "nightly-improver-cleanup-py"
-    },
-    {
-      "timestamp": "2026-06-22T06:01:02.542436",
-      "dimension": "data_quality",
-      "task": "Grade 34 ungraded jobs (Director+, Senior Manager, etc)",
-      "status": "completed",
-      "score_before": 7,
-      "score_after": 7,
-      "note": "0% ungraded now. S-1: 18, A-1: 154, A: 79, A-2: 288, B: 35, C: 5"
-    },
-    {
-      "timestamp": "2026-06-23T03:00:00+08:00",
-      "improvement": "Deduped 39 duplicate jobs, filled 196 missing quality_tiers, filled 9 missing scanned_dates. Data quality 9→10, python_scripts 7→8.",
-      "dimension": "data_quality"
-    },
-    {
-      "timestamp": "2026-06-23T06:01:57.612609",
-      "dimension": "data_quality",
-      "task": "Fix 8 missing company names (Biogen, Plaud.ai, Alchemyst AI, LTA, IG Group, PropertyGuru, MatchMove, Ethos BeathChapman), remove 5 generic listing pages; 660→655 jobs, 34→21 missing companies",
-      "status": "completed",
-      "score_before": 10,
-      "score_after": 10,
-      "details": "Extracted company names from job titles/URLs for 8 BuiltIn/Wellfound entries. Removed 5 generic listing pages (Wellfound/CN Boss search pages, not real job postings). Dashboard rebuilt."
-    },
-    {
-      "timestamp": "2026-06-24T00:01:01.529960+08:00",
-      "dimension": "data_quality",
-      "task": "Fix 5 jobs with missing company names or locations from builtin sources",
-      "status": "completed",
-      "score_before": 10,
-      "score_after": 10,
-      "subagent": "nightly-improver"
-    },
-    {
-      "timestamp": "2026-06-24T03:01:25.199617",
-      "dimension": "coverage",
-      "task": "Add 5 new source scrapers (Turing, Toptal, Arc.dev, Hired, Wellfound-enhanced) + integrate into scan-all.py",
-      "status": "in_progress",
-      "score_before": 7,
-      "score_after": 7,
-      "subagent": "builder-coverage-expand-0624"
-    },
-    {
-      "timestamp": "2026-06-24T03:02:06.795573",
-      "dimension": "data_quality",
-      "task": "Fill 223 missing summaries + 221 missing en_title + 6 missing grades + 10 missing quality_tiers; rebuild dashboard",
-      "status": "completed",
-      "score_before": 10,
-      "score_after": 10,
-      "details": "223 summaries filled from title/company/location, 221 en_title filled (19 translated from Chinese), 6 grades assigned (A-1/A-2), 10 quality_tiers added. All 665 jobs now complete."
-    },
-    {
-      "timestamp": "2026-06-24T06:03:09.945300",
-      "dimension": "data_quality",
-      "task": "Normalize 10 inconsistent quality_tier values (tier_a→A, tier_b→B, tier_c→C); refresh coverage-report.json",
-      "status": "completed",
-      "score_before": 10,
-      "score_after": 10,
-      "details": "Fixed tier_a(3), tier_b(6), tier_c(1) → A/B/C. Coverage report now shows 734 jobs, 36 sources, 319 companies."
-    },
-    {
-      "timestamp": "2026-06-26T00:00:00+08:00",
-      "dimension": "data_quality",
-      "task": "Backfill dates for 942 jobs missing posted_date — estimated from position in list + metadata. Also regenerated coverage-report.json (734→1106 jobs, 38 sources).",
-      "status": "completed",
-      "score_before": 5,
-      "score_after": 6,
-      "subagent": "nightly-improver"
-    },
-    {
-      "timestamp": "2026-06-26T03:01:17.067705+08:00",
-      "dimension": "career_hub",
-      "task": "Refresh career-hub.html with current 1106-job stats (was 899)",
-      "status": "in_progress",
-      "score_before": 6,
-      "score_after": "pending",
-      "subagent": "builder-career-hub-refresh-1106",
-      "details": "Updating grade distribution, top companies, recent jobs, and date stamp in career-hub.html to match current 1106-job dataset"
-    },
-    {
-      "timestamp": "2026-06-27T00:01:46.391868",
-      "dimension": "career_hub",
-      "task": "Sync career-hub.html with current 1211-job dataset (was 1067)",
-      "status": "completed",
-      "score_before": 6,
-      "score_after": 7,
-      "details": "Updated stats (1211 jobs, 335 companies, 42 sources), grade chart (added B-1), top 10 companies (Instacart 16→46, Stripe 48→57, Coinbase 16→39, added Twilio), recent jobs to Jun 26, sync badge to Jun 27"
-    },
-    {
-      "timestamp": "2026-06-27 03:00",
-      "dimension": "career_hub",
-      "task": "Rebuild career-hub.html for 1,346-job database — embedded stats, filters, chart, responsive dark theme",
-      "status": "spawned",
-      "scores_before": {
+      "timestamp": "2026-07-20T03:05:00+08:00",
+      "scores": {
         "data_quality": 8,
         "dashboard": 7,
-        "career_hub": 7,
-        "scripts": 8,
-        "coverage": 8,
-        "strategy": 7
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 6,
+        "automation": 5,
+        "coverage": 7
       },
-      "subagent": "builder-career-hub-rebuild"
+      "overall": 6.9,
+      "improvement": "System in much better shape than initial estimate. Dashboard exists and works. Strategy doc populated. CRM has 206 contacts. Building system health monitor to close automation gap.",
+      "subagent": "builder-health-monitor"
     },
     {
-      "timestamp": "2026-06-27T06:01:00.782871+08:00",
-      "dimension": "strategy",
-      "what": "Updated career-strategy.md with fresh data (1346 jobs, June 27 snapshot)",
-      "score_before": 8,
-      "score_after": 9
-    },
-    {
-      "timestamp": "2026-06-28T00:00:51.679765",
-      "dimension": "dashboard",
-      "task": "Regenerate dashboard.html from 1358-job database — fresh stats, filters, and job data",
-      "status": "completed",
-      "score_before": 7,
-      "score_after": 7,
-      "subagent": "nightly-improver"
-    },
-    {
-      "timestamp": "2026-06-28T03:00:36.799398",
-      "dimension": "dashboard",
-      "task": "Full dashboard rebuild — modern interactive design with 1358-job dataset (search, filters, sort, CSV export, color-coded grades)",
-      "status": "spawned",
-      "score_before": 7,
-      "scores_before": {
-        "data_quality": 10,
-        "dashboard": 7,
-        "career_hub": 7,
-        "scripts": 8,
-        "coverage": 7,
-        "strategy": 7
-      },
-      "subagent": "builder-dashboard-rebuild-0628"
-    },
-    {
-      "timestamp": "2026-06-29T00:01:17.507292",
-      "dimension": "coverage",
-      "task": "Regenerated coverage-report.json with current 1326 jobs across 48 sources (was stale at 1106/38)",
-      "status": "completed",
-      "score_before": 8,
-      "score_after": 9,
-      "subagent": "nightly-coverage-regen"
-    },
-    {
-      "timestamp": "2026-06-29T03:00:40.968494+08:00",
-      "dimension": "dashboard",
-      "task": "Full dashboard rebuild — modern interactive design with 1348-job dataset (search, filters, sort, CSV export, color-coded grades)",
-      "status": "spawned",
-      "score_before": 7,
-      "subagent": "builder-dashboard-rebuild-0629",
-      "details": "Dashboard was only 211 lines for 1348 jobs. Rebuilding with: dark theme, real-time search, grade/source/location filters, sort controls, grade distribution chart, CSV export, responsive design."
-    },
-    {
-      "timestamp": "2026-06-30T00:01:00",
-      "dimension": "data_quality",
-      "task": "Remove 76 stale jobs (>30 days old), rebuild dashboard: 1348→1272 jobs",
-      "status": "completed",
-      "score_before": 10,
-      "score_after": 10,
-      "subagent": "nightly-improver"
-    },
-    {
-      "timestamp": "2026-06-30T03:00:00+08:00",
-      "dimension": "crm",
-      "task": "Build CRM outreach tracker — outreach_log empty, only 7 interactions in 40-contact DB. Adding pipeline funnel, follow-up reminders, interaction seeding, and dashboard upgrade.",
-      "status": "spawned",
-      "score_before": 7,
-      "score_after": null,
-      "subagent": "builder-crm-outreach-20260630"
-    },
-    {
-      "timestamp": "2026-06-30T03:01:20.807103+08:00",
-      "dimension": "data_quality",
-      "task": "Remove 208 generic search page entries (LinkedIn/Boss/Liepin), keeping only real job postings (1086 from 1294)",
-      "status": "completed",
-      "score_before": 10,
-      "score_after": 10,
-      "subagent": "nightly-improver"
-    },
-    {
-      "timestamp": "2026-06-30T16:01:19.450766+00:00",
-      "dimension": "dashboard",
-      "task": "Added data freshness indicator and data sources count to dashboard stat cards",
-      "status": "completed"
-    },
-    {
-      "timestamp": "2026-07-01T03:00:00+08:00",
-      "dimension": "data_quality",
-      "task": "Fill 434 missing summaries + 353 missing en_titles + 5 missing company names in jobs-all.json",
-      "status": "in_progress",
-      "score_before": 10,
-      "score_after": "pending",
-      "subagent": "builder-data-quality-fill-gaps-0701",
-      "details": "1093 jobs, 40% missing summaries, 32% missing en_title. Sub-agent tasked with filling all gaps and rebuilding dashboard."
-    },
-    {
-      "timestamp": "2026-07-01T03:02:31.208670",
-      "dimension": "dashboard",
-      "task": "Add Date Posted column with freshness indicators (NEW/7-30d/30d+) and stat cards for job freshness tracking",
-      "status": "completed",
-      "score_before": 7,
-      "score_after": 8,
-      "subagent": "nightly-improver"
-    },
-    {
-      "timestamp": "2026-07-02T03:00:00+08:00",
-      "dimension": "crm",
-      "task": "CRM contact enrichment — cross-reference 1326 jobs with 40 existing contacts, discover hiring managers/recruiters, add 10-15 new enriched contacts",
-      "status": "in_progress",
-      "score_before": 7,
-      "subagent": "builder-crm-enrichment"
-    },
-    {
-      "timestamp": "2026-07-02T03:00:00+08:00",
-      "dimension": "coverage",
-      "task": "Refresh coverage-report.json — updated from stale 1326 to current 1075 jobs, added grade distribution, 49 sources",
-      "status": "completed",
-      "score_before": 9,
-      "score_after": 9,
-      "subagent": "nightly-coverage-refresh"
-    },
-    {
-      "timestamp": "2026-07-03T03:00:00+08:00",
-      "dimension": "career_strategy",
-      "task": "Refresh career-strategy.md with current 967-job dataset (was 1348, stale cleanup)",
-      "status": "spawned",
-      "score_before": 9,
-      "score_after": "pending",
-      "subagent": "builder-strategy-refresh-0703",
-      "details": "Database shrunk from 1348→967 after stale cleanup. Strategy doc 4 days stale (Jun 29). Refreshing with current stats, sector heat map, salary benchmarks, and weekly action plan."
-    },
-    {
-      "timestamp": "2026-07-04T00:00:30.988398",
-      "improvement": "Data cleanup: removed 8 stale jobs (>30d) and 5 exact duplicates, rebuilt dashboard",
-      "before": {
-        "jobs": 998,
-        "stale": 8,
-        "dupes": 5
-      },
-      "after": {
-        "jobs": 985,
-        "stale": 0,
-        "dupes": 0
-      },
+      "timestamp": "2026-07-20T03:00:00+08:00",
       "scores": {
-        "dashboard": 9,
-        "career_hub": 9,
-        "data_quality": 11,
-        "python_scripts": 9,
-        "strategy": 9,
-        "coverage": 9,
-        "crm": 9
+        "data_quality": 5,
+        "dashboard": 5,
+        "career_strategy": 6,
+        "python_scripts": 2,
+        "crm": 1,
+        "automation": 5,
+        "coverage": 6
       },
-      "notes": {
-        "data_quality": "Re-scored 50 unscored jobs. All 1015 now have quality_score."
-      }
+      "overall": 4.3,
+      "improvement": "Refreshed career-strategy.md with current data: 1,372 jobs (+234 WoW). Anthropic enters top 5 (101 roles). Stripe surges to 161. Updated sector heat map, company rankings, and flagged date_posted data quality issue.",
+      "subagent": null
     },
     {
-      "timestamp": "2026-07-04T03:00:00+08:00",
-      "dimension": "data_quality",
-      "task": "Grade 64 ungraded jobs + fill 37 missing summaries",
-      "status": "in_progress",
-      "score_before": 10,
-      "score_after": "pending",
-      "subagent": "builder-grades-fill-0704"
+      "timestamp": "2026-07-20T06:00:40.775583+08:00",
+      "scores": {
+        "data_quality": 8,
+        "dashboard": 7,
+        "career_strategy": 6,
+        "python_scripts": 8,
+        "crm": 1,
+        "automation": 5,
+        "coverage": 7
+      },
+      "overall": 6.0,
+      "improvement": "Purged 206 stale jobs (>30 days old) from 1,376 down to 1,170. Improved data freshness. All python scripts validated.",
+      "subagent": null
     },
     {
-      "timestamp": "2026-07-04T03:01:20.198122+08:00",
-      "dimension": "data_quality",
-      "task": "Purged 46 stale jobs (>30 days old) from jobs-all.json. 1015 -> 969.",
-      "status": "completed",
-      "score_before": 7,
-      "score_after": 8,
+      "timestamp": "2026-07-21T00:00:43.030597",
+      "scores": {
+        "data_quality": 8,
+        "dashboard": 7,
+        "career_strategy": 6,
+        "python_scripts": 8,
+        "crm": 4,
+        "automation": 5,
+        "coverage": 7
+      },
+      "overall": 6.4,
+      "improvement": "CRM improvement: auto-flagged 32 expired applications (deadlines passed), added review_summary metadata, 10 active apps remain. CRM score 1→4.",
       "subagent": "nightly-improver"
     },
     {
-      "date": "2026-07-04T06:00:00+08:00",
-      "summary": "Nightly scan: added 4 new jobs via Greenhouse scan (973 total). Dashboard rebuilt.",
-      "improvement": "data_quality"
-    },
-    {
-      "timestamp": "2026-07-05T03:00:00+08:00",
-      "dimension": "crm",
-      "task": "Re-run CRM discovery pipeline — contacts.json stuck at 27 while discovery report found 93. Enriching with all hiring managers from 976-job database.",
-      "status": "in_progress",
-      "score_before": 5,
-      "subagent": "builder-crm-enrichment"
-    },
-    {
-      "timestamp": "2026-07-06T00:01:48.482018",
-      "dimension": "crm",
-      "task": "CRM overhaul: data-driven dashboard + contacts.json + build-crm.py + manage-contacts.py",
-      "status": "completed",
-      "score_before": 5,
-      "score_after": 7
-    },
-    {
-      "timestamp": "2026-07-06T03:00:00+08:00",
-      "dimension": "dashboard",
-      "task": "Full dashboard rebuild — modern lightweight design with 1116-job dataset",
-      "status": "in_progress",
-      "score_before": 7,
-      "score_after": "pending",
-      "subagent": "builder-dashboard-rebuild-0706",
-      "details": "Current dashboard 1MB bloated. Rebuilding with: dark theme, real-time search, grade/source/location filters, sort, pagination, grade distribution chart, source breakdown, CSV export, freshness indicators. Target <500KB."
-    },
-    {
-      "timestamp": "2026-07-07T00:01:22.977868",
-      "dimension": "data_quality",
-      "task": "Fill 1611 data gaps: 619 summaries + 547 en_titles + 126 grades + 310 tiers + 19 companies; rebuilt dashboard",
-      "status": "completed",
-      "score_before": 8,
-      "score_after": 10,
-      "subagent": "nightly-improver-data-gaps",
-      "details": "All 1614 jobs now have: summary, en_title, grade, quality_tier. Only 19 companies still unknown (from generic listing pages). Dashboard rebuilt at 1.6MB."
-    },
-    {
-      "timestamp": "2026-07-07T03:00:00+08:00",
-      "dimension": "crm",
-      "task": "Build CRM outreach priority engine — score 206 contacts by relevance/engagement, generate priority lists, update dashboard with pipeline funnel",
-      "status": "spawned",
-      "score_before": 7,
-      "score_after": "pending",
-      "subagent": "builder-crm-outreach-priority",
-      "details": "206 contacts, only 37 interactions. Building priority scoring, hot lead detection, outreach pipeline visualization."
-    },
-    {
-      "timestamp": "2026-07-07T03:01:40.004648",
-      "dimension": "dashboard",
-      "task": "Rebuild dashboard with current 1614 jobs (was stale 272KB, dates from June)",
-      "status": "completed",
-      "score_before": 8,
-      "score_after": 9,
-      "subagent": "nightly-improver-dashboard-rebuild"
-    },
-    {
-      "timestamp": "2026-07-07T06:00:46.582192",
-      "dimension": "data_quality",
-      "task": "Backfill 169 missing posted_date from scanned_date proxy (84% date coverage)",
-      "status": "completed",
-      "score_before": 11,
-      "score_after": 12,
-      "subagent": "nightly-improver-date-backfill"
-    },
-    {
-      "timestamp": "2026-07-08T03:00:35.772706",
-      "dimension": "career_strategy",
-      "task": "Refresh career-strategy.md with current 1649-job dataset (was stale at 1116 from July 6)",
-      "status": "in_progress",
-      "score_before": 7,
-      "score_after": "pending",
-      "subagent": "builder-strategy-refresh-0708",
-      "details": "Strategy doc 2 days stale, referencing 1116 jobs when we have 1649. Refreshing all stats, sector analysis, salary benchmarks, and weekly action plan."
-    },
-    {
-      "timestamp": "2026-07-09T03:01:15.431102",
-      "dimension": "crm",
-      "task": "Rebuild CRM dashboard (19KB→modern) + sync contacts.json (0→211 contacts)",
-      "status": "in_progress",
-      "scores_before": {
-        "dashboard": 9,
-        "career_hub": 8,
-        "data_quality": 10,
-        "python_scripts": 9,
-        "strategy": 9,
-        "coverage": 9,
-        "crm": 9
+      "timestamp": "2026-07-21T03:00:00+08:00",
+      "scores": {
+        "data_quality": 8,
+        "dashboard": 7,
+        "career_strategy": 6,
+        "python_scripts": 8,
+        "crm": 4,
+        "automation": 5,
+        "coverage": 7
       },
-      "scores_after": {},
+      "overall": 6.4,
+      "improvement": "CRM enrichment: spawning sub-agent to auto-classify contacts by role type (recruiter/hiring_manager/peer/executive/mentor), detect company domains from emails, and compute relationship health scores based on interaction recency. Expected CRM boost 4→6.",
+      "subagent": "builder-crm-enrichment-1721482800"
+    },
+    {
+      "timestamp": "2026-07-21T03:03:28.176411+08:00",
+      "scores": {
+        "data_quality": 8,
+        "dashboard": 7,
+        "career_strategy": 6,
+        "python_scripts": 8,
+        "crm": 4,
+        "automation": 7,
+        "coverage": 7
+      },
+      "overall": 6.7,
+      "improvement": "Added Step 5 (data quality cleanup) to run-pipeline.sh: auto-dedup URLs, normalize grades, fill missing dates, purge stale jobs (>60d). Pipeline now self-maintains data quality.",
+      "subagent": null
+    },
+    {
+      "timestamp": "2026-07-21T06:00:34.415508",
+      "scores": {
+        "data_quality": 8,
+        "dashboard": 7,
+        "career_strategy": 6,
+        "python_scripts": 8,
+        "crm": 6,
+        "automation": 7,
+        "coverage": 7
+      },
+      "notes": "Nightly: rebuilt CRM dashboard from 1183 jobs (was 3-day stale at 152 companies)"
+    },
+    {
+      "timestamp": "2026-07-22T00:00:00",
+      "scores": {
+        "data_quality": 8,
+        "dashboard": 7,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 6,
+        "automation": 7,
+        "coverage": 7
+      },
+      "improvement": "Career strategy refresh: updated job count (1,372→1,196), shifted action plan to July 22-26, added pending A-1 applications list, next report July 27.",
+      "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-07-22T03:01:17.100188",
+      "scores": {
+        "data_quality": 8,
+        "dashboard": 7,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 5,
+        "automation": 7,
+        "coverage": 7
+      },
+      "overall": 7.0,
+      "improvement": "CRM enrichment: all 206 contacts have role_type=unknown. Spawning sub-agent to classify by role (recruiter/hiring_manager/peer/executive/mentor), extract company domains, compute relationship scores. Expected CRM boost 5→7.",
+      "subagent": "builder-crm-classify-1721486400"
+    },
+    {
+      "timestamp": "2026-07-22T03:02:36.511271+08:00",
+      "scores": {
+        "data_quality": 8,
+        "dashboard": 7,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 7,
+        "coverage": 7
+      },
+      "overall": 7.3,
+      "improvement": "CRM enrichment complete: classified 206 contacts (154 recruiter/ATS, 42 company entries, 3 hiring managers, 7 unknown). Computed relationship scores (avg 28/100). CRM score 5→7.",
+      "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-07-22T06:00:41.256897",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 7,
+        "career_strategy": 6,
+        "python_scripts": 8,
+        "crm": 4,
+        "automation": 5,
+        "coverage": 7
+      },
+      "overall": 6.6,
+      "improvement": "Deduplicated 178 jobs (1212→1034) by removing title+company duplicates. All remaining jobs have title, company, url, and grade. Zero dupes remain. Data quality 8→9.",
+      "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-07-23T03:00:00+08:00",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 7,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 2,
+        "automation": 7,
+        "coverage": 7
+      },
+      "overall": 6.7,
+      "improvement": "CRM critical issue: 196 of 206 contacts are company placeholders (no email, names like \"Anthropic (Recruiting)\"). Only 10 real people. Previous CRM score of 7 was inflated. Spawning sub-agent to classify real vs org contacts, fix role_types, boost relationship scores for real contacts. Expected CRM boost 2→5.",
+      "subagent": "builder-crm-rebuild-1721685600"
+    },
+    {
+      "timestamp": "2026-07-23T03:15:00+08:00",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 7,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 3,
+        "automation": 7,
+        "coverage": 7
+      },
+      "overall": 6.9,
+      "improvement": "Refreshed career-hub.html: removed 367 stale jobs (1346→979), synced embedded data with current jobs-all.json. Hub was 4 days stale. CRM bumped 2→3 after last run's sub-agent work.",
+      "subagent": null
+    },
+    {
+      "timestamp": "2026-07-23T06:00:52.669699",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 7,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 5,
+        "automation": 7,
+        "coverage": 7
+      },
+      "overall": 7.1,
+      "improvement": "CRM actionable: added application_status, priority, next_action, and job matching to all 206 contacts. 22 high-priority companies identified (2+ A/S grade openings). CRM score 3→5.",
+      "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-07-31T21:07:04.474272+08:00",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 5,
+        "automation": 7,
+        "coverage": 7
+      },
+      "overall": 7.3,
+      "improvement": "Dashboard rebuilt with scanned_date fallback for freshness stats (887 jobs had no posted_date). Freshness now shows 458 jobs in 7-30d range vs previously 0. Dashboard score 7→8.",
+      "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-08-01T00:01:46.536358",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 7,
+        "coverage": 7
+      },
+      "overall": 7.6,
+      "improvement": "CRM enriched: 8 contacts linked to applications with statuses (prospect/expired/prepared), 7 follow-up dates set. New enrich-crm.py script for ongoing cross-referencing. Dashboard regenerated.",
+      "subagent": null
+    },
+    {
+      "timestamp": "2026-08-01T03:00:00",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 7,
+        "coverage": 7
+      },
+      "overall": 7.6,
+      "improvement": "Career strategy refresh: last updated Jul 22 (10 days stale). Spawning sub-agent to rebuild with current data (1,029 jobs, updated company rankings, sector trends, 2-week action plan). Expected boost 7→8.",
+      "subagent": "builder-strategy-refresh-1754002800"
+    },
+    {
+      "timestamp": "2026-08-01T06:02:37.381034",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 7,
+        "coverage": 8
+      },
+      "overall": 7.7,
+      "improvement": "Coverage improvement: replaced 30 dead Greenhouse boards with 7 verified working ones (brex, airtable, n26, mixpanel, amplitude, calendly, remote). Updated stale coverage-report.json (was 12 days old).",
+      "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-08-02T03:02:33.399188",
+      "scores": {
+        "data_quality": 9.5,
+        "dashboard": 8,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 7,
+        "coverage": 8
+      },
+      "overall": 7.9,
+      "improvement": "Backfilled posted_date for all 992 jobs (was missing for 460). Fixed backfill-dates.py to use correct field names and scanned_date as fallback. All jobs now have dates, enabling staleness detection.",
+      "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-08-03T03:02:51.501418",
+      "scores": {
+        "data_quality": 9.5,
+        "dashboard": 8,
+        "career_strategy": 8.5,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 7,
+        "coverage": 8
+      },
+      "overall": 8.0,
+      "improvement": "Refreshed career-strategy.md with current data: 1132 jobs (↑103 from Aug 1), updated company rankings (Stripe now #1 at 179 roles), fresh Aug openings section, sector heat map, and strategic recommendations.",
+      "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-08-04T03:03:08.098554",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 7.2,
+        "career_strategy": 7.5,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 7,
+        "coverage": 8
+      },
+      "overall": 7.4,
+      "improvement": "Career hub rebuild: career-hub.html stale (992 jobs vs 1279 in JSON). Spawning sub-agent to rebuild with current data, modern filters, company leaderboard, and location charts. Expected career_hub boost 68→85+.",
+      "subagent": "builder-career-hub-rebuild",
+      "dim_improved": "career_hub"
+    },
+    {
+      "timestamp": "2026-08-04T06:01:52.000566",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8.5,
+        "career_strategy": 7.5,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 7,
+        "coverage": 8
+      },
+      "overall": 7.7,
+      "improvement": "Added Chart.js visualizations to dashboard: company bar chart, grade doughnut chart, location bar chart. Dashboard now has interactive visual analytics instead of just text stats.",
+      "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-08-05T04:24:28",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8.5,
+        "career_strategy": 8.5,
+        "python_scripts": 8,
+        "crm": 8,
+        "automation": 7,
+        "coverage": 8
+      },
+      "improvement": "CRM dashboard refresh: rebuilt crm-dashboard.html with current 1315 jobs cross-referenced against 206 contacts. 27 target companies with 948 matching roles. 45 ATS entries tracked. Added relationship health indicators, tabbed view (Companies/ATS/Contacts), search/filter functionality. Enriched contacts.json with open_roles_count. CRM score 7→8.",
+      "subagent": "builder-crm-dashboard-refresh"
+    },
+    {
+      "timestamp": "2026-08-06T00:23:33.655372",
+      "scores": {
+        "data_quality": 9.5,
+        "dashboard": 8.5,
+        "career_strategy": 8.5,
+        "python_scripts": 8,
+        "crm": 8,
+        "automation": 8,
+        "coverage": 8
+      },
+      "overall": 8.4,
+      "improvement": "Ran auto-maintain pipeline: merged 209 jobs from source files, deduped 52, filled 930 en_titles + 948 summaries + 522 quality_tiers, removed 24 stale jobs. Net +133 jobs (1141→1274). 45 sources, 161 companies. Dashboard rebuilt.",
+      "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-08-06T03:09:16.074218+08:00",
+      "scores": {
+        "data_quality": 8,
+        "dashboard": 7,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 3,
+        "automation": 5,
+        "coverage": 7
+      },
+      "overall": 6.4,
+      "improvement": "Purged 1 stale job (>30d), rebuilt dashboard. 1306 jobs across 45 sources, 161 companies. CRM remains low-priority target (206 contacts, low email/linkedin fill rate).",
+      "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-08-06T03:14:14.401515",
+      "scores": {
+        "data_quality": 9.5,
+        "dashboard": 8.5,
+        "career_strategy": 7.5,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 8,
+        "coverage": 8
+      },
+      "overall": 8.0,
+      "improvement": "Purged 58 stale jobs (>30d, mostly crypto: Crypto.com 11, OKX 7, Binance 5). 1306→1248. Fresh pipeline. Dashboard rebuilt.",
+      "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-08-07T03:03:47.837545",
+      "scores": {
+        "data_quality": 9.5,
+        "dashboard": 8.5,
+        "career_strategy": 8,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 8,
+        "coverage": 8
+      },
+      "overall": 8.1,
+      "improvement": "Purged 27 stale jobs (>30d: OKX 16, Agoda 5, Stripe 2, Coupang 2, Anthropic 1, Payoneer 1). 1325→1298. Dashboard rebuilt.",
+      "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-08-08T00:03:17.620479",
+      "action": "crm_prioritization",
+      "description": "Added crm-prioritize.py: outreach priority engine with scoring (relationship strength + matching jobs + contact info). Generates actionable outreach-priorities.md.",
+      "scores": {
+        "data_quality": 9.5,
+        "dashboard": 8.5,
+        "career_strategy": 8,
+        "python_scripts": 8.5,
+        "crm": 7.5,
+        "automation": 8,
+        "coverage": 8
+      },
+      "files_added": [
+        "crm-prioritize.py",
+        "outreach-priorities.md"
+      ]
+    },
+    {
+      "timestamp": "2026-08-08T03:03:00+08:00",
+      "scores": {
+        "data_quality": 9.5,
+        "dashboard": 8.5,
+        "career_strategy": 8,
+        "python_scripts": 8.5,
+        "crm": 7.5,
+        "automation": 8,
+        "coverage": 8
+      },
+      "overall": 8.3,
+      "improvement": "CRM dashboard rebuild: crm-dashboard.html stale (Aug 5, 3 days old). Spawning sub-agent to rebuild with current 1309 jobs, better company/contact cross-referencing, Chart.js visualizations, outreach pipeline funnel. Expected CRM boost 7.5→8.",
       "subagent": "builder-crm-dashboard-rebuild"
     },
     {
-      "timestamp": "2026-07-09T03:02:03.531570",
-      "dimension": "python_scripts",
-      "task": "Create weekly-trends.py — generates weekly market trends summary (MD + JSON) with A-1 highlights, company/category/source breakdowns",
-      "status": "completed",
-      "score_before": 7,
-      "score_after": 8,
-      "subagent": "nightly-improver"
-    },
-    {
-      "timestamp": "2026-07-10T00:02:16.819317",
-      "dimension": "data_quality + coverage",
-      "task": "Sync dashboard stats and coverage report with actual 1613-job dataset",
-      "status": "completed",
-      "details": "Fixed dashboard: 1500→1613 total, A-1→A (516), A-2→A- (617), eng 996→1108, SG 296→319, SH 41→47, HK 124→163, SZ 157→217. Regenerated coverage-report.json: 1116→1613 jobs, 56 sources, 378 companies."
-    },
-    {
-      "timestamp": "2026-07-11T00:00:00+08:00",
-      "dimension": "crm",
-      "task": "CRM upgrade: priority jobs section, per-job status indicators, copy URL buttons",
-      "status": "completed",
-      "score_before": 7,
-      "score_after": 8,
-      "subagent": "nightly-improver"
-    },
-    {
-      "timestamp": "2026-07-11T03:01:13.070157",
-      "dimension": "data_quality",
-      "task": "Backfill missing scanned_date for 290 jobs — used discovered/posted/first_published where available, stamped today for the rest",
-      "status": "completed",
-      "score_before": 6,
-      "score_after": 7,
-      "subagent": "nightly-improver"
-    },
-    {
-      "timestamp": "2026-07-11T06:00:00+08:00",
-      "type": "nightly-improver",
-      "action": "maintenance-cleanup",
-      "result": {
-        "before": 1636,
-        "after": 1132,
-        "stale_removed": 513,
-        "en_titles_filled": 595,
-        "summaries_filled": 703,
-        "tiers_filled": 397,
-        "sources": 53,
-        "companies": 237
+      "date": "2026-08-08T06:03:23.248021+08:00",
+      "type": "maintenance",
+      "summary": "Merged 109 new jobs from source files, deduped 36, filled 73 en_titles + 94 summaries + 75 tiers. Dashboard rebuilt. 1292 total jobs across 47 sources.",
+      "changes": {
+        "jobs_before": 1219,
+        "jobs_after": 1292,
+        "merged": 109,
+        "deduped": 36,
+        "filled_en_titles": 73,
+        "filled_summaries": 94,
+        "filled_tiers": 75
       }
     },
     {
-      "timestamp": "2026-07-12T03:01:02.757665",
-      "dimension": "automation",
-      "task": "Create 3 missing cron jobs: Job Scanner (2x/day), Career Strategist (weekly), Daily Brief (daily)",
-      "status": "in_progress",
-      "score_before": 7,
-      "score_after": "pending",
-      "subagent": "builder-automation-crons-0712",
-      "details": "Only 1 cron existed (this builder). Adding the 3 core automation jobs that were described but never created."
+      "timestamp": "2026-08-09T03:01:30.733450",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8.5,
+        "career_strategy": 8.5,
+        "python_scripts": 8,
+        "crm": 7.5,
+        "automation": 8,
+        "coverage": 8
+      },
+      "overall": 8.2,
+      "improvement": "Filling 66 jobs with missing quality_tier grades. Spawning sub-agent to classify by title keywords + company tier. Expected data_quality boost 9→9.5.",
+      "subagent": "builder-grade-fill-1754701200"
     },
     {
-      "timestamp": "2026-07-13T03:00:54.125648",
-      "dimension": "crm",
-      "task": "Fix broken contacts.json export — 206 contacts in CRM DB but only 2 in public file. Sync all contacts to contacts.json + crm-data.json.",
-      "status": "in_progress",
-      "score_before": 8,
-      "subagent": "builder-crm-sync-contacts"
-    },
-    {
-      "timestamp": "2026-07-13T06:01:36.242920+08:00",
-      "dimension": "data_quality",
-      "task": "Run auto-maintain pipeline: merged 152 source jobs, deduped 67, graded 60, filled 86 en_titles + 87 summaries + 87 tiers. 1180→1265 jobs.",
-      "status": "completed",
-      "score_before": 10,
-      "score_after": 10,
-      "subagent": "nightly-improver-0713"
-    },
-    {
-      "timestamp": "2026-07-14T03:00:55.331376",
-      "dimension": "data_quality",
-      "task": "Normalize 20+ inconsistent grade values to standard letter grades + fill 598 missing quality_scores",
-      "status": "in_progress",
-      "score_before": 10,
-      "score_after": "pending",
-      "subagent": "builder-grade-normalization-0714",
-      "details": "Role-based grades (Director, Lead PM, Senior PM, etc.) mixed with letter grades. 598 jobs missing quality_score."
-    },
-    {
-      "timestamp": "2026-07-19T00:01:25.420008+08:00",
-      "dimension": "data_quality",
-      "task": "Normalize OKX/Okx company names + remove 117 exact-title duplicates (1161→1044 jobs)",
-      "status": "completed",
-      "score_before": 10,
-      "score_after": 10,
+      "timestamp": "2026-08-09T06:00:00",
+      "scores": {
+        "data_quality": 10.0,
+        "coverage": 100,
+        "scripts": 100,
+        "dashboard": 92,
+        "career_hub": 90,
+        "strategy": 90,
+        "total_jobs": 1426,
+        "sources": 47,
+        "with_salary": 923,
+        "with_url": 1367,
+        "last_updated": "2026-08-09T06:00:00",
+        "crm": 8,
+        "total": 94.7
+      },
+      "overall": 95.3,
+      "improvement": "Added grade distribution + city distribution bar charts to dashboard (88→92). Lightweight SVG-free CSS bars, no dependencies.",
       "subagent": "nightly-improver"
     },
     {
-      "timestamp": "2026-07-19T03:00:00+08:00",
-      "dimension": "automation",
-      "task": "Create unified auto-maintain.py pipeline (merge→dedup→stale→grade→fill→normalize→dashboard→coverage→report)",
-      "status": "in_progress",
-      "score_before": 7,
-      "score_after": "pending",
-      "subagent": "builder-automation-pipeline",
-      "details": "Automation is lowest score (7). MCP Sync cron failing with auth error. No unified maintenance script exists. Building comprehensive pipeline to handle full maintenance cycle."
-    }
-  ],
-  "current_scores": {
-    "data_quality": 10,
-    "dashboard": 9,
-    "scripts": 9,
-    "coverage": 10,
-    "strategy": 8,
-    "crm": 8,
-    "automation": 7
-  },
-  "last_run": "2026-07-19T03:00:00+08:00",
-  "last_dimension": "data_quality",
-  "last_task": "Removed 48 very old jobs (>60 days) from greenhouse_api source",
-  "scores": {
-    "dashboard": 9,
-    "career_hub": 9,
-    "data_quality": 10,
-    "python_scripts": 9,
-    "strategy": 9,
-    "coverage": 10,
-    "crm": 9,
-    "automation": 10
-  },
-  "last_improvement": "Cleaned stale data: removed 48 jobs older than 60 days (all from greenhouse_api). 1401→1353 jobs. Dashboard rebuilt.",
-  "entries": [
-    {
-      "date": "2026-06-19",
-      "action": "Updated coverage-report.json to match current jobs-all.json (492 jobs, 304 companies). Added grade/status/location distributions.",
-      "dimension": "data_quality"
-    },
-    {
-      "date": "2026-06-19",
-      "action": "Created crm-dashboard.html — 50 company cards, status pipeline visualization, search + filter, dark theme. 554 jobs, 357 companies.",
-      "dimension": "crm"
-    },
-    {
-      "date": "2026-06-20T00:00:55.893925",
-      "round": "nightly-improver",
-      "action": "Updated career-hub.html: corrected stats (552 jobs, 213 A-1), removed broken dashboard.html link, updated focus items, refreshed date",
-      "files_changed": [
-        "OKComputer_职位搜索清单/career-hub.html"
-      ],
-      "dimension": "Dashboard"
-    },
-    {
-      "timestamp": "2026-06-22T00:00:00",
-      "dimension": "strategy",
-      "note": "Updated career-strategy.md: OKX doubled to 106 roles, Coinbase/Coupang new entrants, refreshed geographic priorities and weekly action plan"
-    },
-    {
-      "timestamp": "2026-06-22T03:00:00+08:00",
-      "dimension": "career_hub",
-      "task": "Enhance career-hub.html v2: add search/filter, interview prep, salary research, networking, negotiation sections, quick links to dashboards, weekly action checklist, responsive nav",
-      "status": "in_progress",
-      "score_before": 6,
-      "score_after": "pending",
-      "subagent": "builder-career-hub-v2"
-    },
-    {
-      "timestamp": "2026-06-23T03:01:10.373824",
-      "dimension": "career_strategy",
-      "task": "Refresh career-strategy.md with 699-job dataset + fresh June 2026 market intel",
-      "status": "in_progress",
-      "score_before": 7,
-      "score_after": "pending",
-      "subagent": "builder-strategy-refresh-jun23"
-    },
-    {
-      "date": "2026-06-23",
-      "action": "Fixed 8 missing company names from titles/URLs, removed 5 generic listing pages. 660→655 jobs, 34→21 missing companies.",
-      "dimension": "data_quality"
-    },
-    {
-      "timestamp": "2026-06-26T03:00",
-      "action": "stale_cleanup",
-      "detail": "Removed 39 stale jobs (>30 days old), 1067 remaining",
-      "dimension": "data_quality"
-    },
-    {
-      "date": "2026-06-26 06:01",
-      "action": "Nightly improvement: verified data quality (1182 jobs, 38 sources, all graded), updated builder-log scores, refreshed coverage score to 8",
-      "details": "Jobs: 0 stale, 1181/1182 have links, 1144/1182 have companies. Grade distribution: A-1=352, A-2=596, B-1=82, B=45, C=71, S-1=36"
-    },
-    {
-      "date": "2026-07-10 06:00",
-      "dimension": "crm",
-      "improvement": "Fixed CRM pipeline bug: \"prepared\" status mapped to \"not_applied\". Pipeline now shows 42 Not Applied instead of all zeros.",
+      "timestamp": "2026-08-10T03:02:58.440905+08:00",
       "scores": {
         "data_quality": 10,
-        "dashboard": 9,
-        "scripts": 9,
-        "coverage": 10,
-        "strategy": 7,
+        "dashboard": 9.2,
+        "career_strategy": 9.0,
+        "python_scripts": 10,
         "crm": 8,
-        "automation": 7
+        "automation": 8,
+        "coverage": 10
+      },
+      "overall": 9.17,
+      "improvement": "CRM quality: 206 contacts mostly company placeholders, 10 emails, 0 LinkedIn. Spawning sub-agent to classify real vs placeholder, enrich company entries with open_roles_count/top_grades/target_market, regenerate outreach-priorities.md. Expected CRM boost 8→9.",
+      "subagent": "builder-crm-quality"
+    },
+    {
+      "timestamp": "2026-08-11T03:00:00+08:00",
+      "scores": {
+        "data_quality": 10,
+        "dashboard": 9.2,
+        "career_strategy": 9.0,
+        "python_scripts": 10,
+        "crm": 8,
+        "automation": 8,
+        "coverage": 10
+      },
+      "overall": 9.17,
+      "improvement": "CRM contact discovery: 206 contacts but only 10 real people (154 ATS placeholders, 42 company entries). Spawning sub-agent to build contact-discover.py that finds real recruiter/hiring_manager contacts at top 20 target companies via web search. Expected CRM boost 8→9.",
+      "subagent": "builder-crm-discovery"
+    },
+    {
+      "timestamp": "2026-08-11T03:08:27.018811",
+      "type": "nightly_improvement",
+      "summary": "Dashboard: replaced 308-value city dropdown with clean 20-group APAC-focused filter using normalizeCity() function. Improved city filter UX from unusable to functional.",
+      "files_changed": [
+        "dashboard.html"
+      ],
+      "score_change": {
+        "dashboard": "7→8"
       }
-    },
-    {
-      "date": "2026-07-12",
-      "dimension": "strategy",
-      "improvement": "Added Market Intel section to career-hub.html with data-driven insights: top hiring companies, hot locations, sector trends, and database stats. Derived from actual job data analysis.",
-      "score_before": 7,
-      "score_after": 8
-    },
-    {
-      "date": "2026-07-14",
-      "dimension": "automation",
-      "improvement": "Added --report flag to auto-maintain.py: generates weekly-summary.md with grade distribution, top companies, quality tiers, source breakdown, and recent additions. Full pipeline integration.",
-      "score_before": 7,
-      "score_after": 8
-    },
-    {
-      "date": "2026-07-14",
-      "dimension": "data_quality",
-      "improvement": "Normalized 308 jobs: posted -> posted_date. Removed 97 stale jobs (>30 days). Cleaned 1134 total.",
-      "score_before": 10,
-      "score_after": 10
-    },
-    {
-      "date": "2026-07-18T22:00:57.131643+00:00",
-      "action": "stale_job_cleanup",
-      "removed": 48,
-      "total": 1353
     }
   ],
-  "latest_scores": {
-    "data_quality": 10,
-    "dashboard": 9,
-    "career_hub": 8,
-    "scripts": 8,
-    "coverage": 10,
-    "strategy": 8,
-    "jobs_total": 1314,
-    "stale_purged": 46,
-    "notes": "1314 jobs after merge+dedup+stale cleanup. 196 graded, 215 summaries filled. Dashboard + coverage synced Jul 12.",
-    "crm": 8,
-    "automation": 8
-  },
   "log": [
     {
-      "date": "2026-06-22 03:01",
-      "action": "Nightly scan: +34 new jobs from Greenhouse boards (total: 570)",
-      "details": "Ran scan-jobs.py, merged 34 new results into jobs-all.json, rebuilt dashboard",
+      "timestamp": "2026-08-02T00:01:44.998326",
       "scores": {
-        "dashboard": 7,
-        "career_hub": 8,
         "data_quality": 9,
-        "python_scripts": 7,
-        "strategy": 7,
+        "dashboard": 8,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 7,
         "coverage": 8
-      }
-    },
-    {
-      "timestamp": "2026-06-25T03:01:16.332077",
-      "dimension": "career_hub",
-      "task": "Rebuild career-hub.html v3: embedded stats, grade chart, top companies, recent jobs, responsive",
-      "status": "in_progress",
-      "subagent": "builder-career-hub-rebuild"
-    },
-    {
-      "date": "2026-06-25T06:01:53.966419",
-      "dimension": "data_quality",
-      "task": "Auto-graded 69 ungraded jobs using role/seniority/company scoring; rebuilt dashboard",
-      "status": "completed",
-      "scores_before": {
-        "data_quality": 7,
-        "career_hub": 6,
-        "dashboard": 7,
-        "coverage": 7,
-        "strategy": 7,
-        "scripts": 8
       },
-      "action": "Created grade-jobs.py, graded 69 jobs (new distribution: A-1=317, A-2=460, B=18, C=71, S-1=33), rebuilt dashboard"
+      "overall": 7.7,
+      "improvement": "Data cleanup: removed 102 stale jobs (>30 days old). Jobs 1068→966. Primarily expired Agoda, Anthropic, and other listings. Database is now current.",
+      "subagent": "nightly-improver"
     },
     {
-      "date": "2026-07-02T06:01:12.601009",
-      "dimension": "data_quality",
-      "task": "Removed 115 stale jobs (posted >30 days), refreshed career hub date (960 jobs)",
-      "status": "completed",
-      "scores_before": {
-        "dashboard": 9,
-        "career_hub": 8,
-        "data_quality": 10,
+      "timestamp": "2026-08-02T03:01:18.890665",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8,
+        "career_strategy": 7,
         "python_scripts": 8,
-        "strategy": 9,
-        "coverage": 9,
-        "crm": 9
+        "crm": 7,
+        "automation": 7,
+        "coverage": 8
       },
-      "scores_after": {
-        "dashboard": 9,
-        "career_hub": 8,
-        "data_quality": 10,
+      "overall": 7.7,
+      "improvement": "career-hub.html was 10 days stale (Jul 23). Spawning sub-agent to rebuild from current jobs-all.json (966 jobs). Main dashboard.html is current (Aug 1).",
+      "subagent": "builder-dashboard-rebuild-1754086800"
+    },
+    {
+      "timestamp": "2026-08-02T06:02:30.788194",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8,
+        "career_strategy": 7,
         "python_scripts": 8,
-        "strategy": 9,
-        "coverage": 9,
-        "crm": 9
-      }
+        "crm": 7,
+        "automation": 8,
+        "coverage": 8
+      },
+      "overall": 7.9,
+      "improvement": "Added grade normalization to auto-maintain.py: converts non-standard grades (Senior PM, Director, Lead PM, Staff PM, etc.) to standard S/A/B/C scale. Fixed 35 jobs with odd grades from vc-fintech-results.json. Pipeline now produces clean grade distribution.",
+      "dim_improved": "automation"
+    },
+    {
+      "timestamp": "2026-08-03T03:00:00",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8,
+        "career_strategy": 7,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 8,
+        "coverage": 8
+      },
+      "overall": 7.9,
+      "improvement": "CRM enrichment: 206 contacts but 154 are ATS system entries (not real people), only 10 real humans. Spawning sub-agent to categorize contacts, add is_system/is_company flags, cross-reference with job data, and compute enrichment quality score. Expected CRM boost 7→8.",
+      "subagent": "builder-crm-enrich-1754173200",
+      "dim_improved": "crm"
+    },
+    {
+      "timestamp": "2026-08-04T00:02:35.238441",
+      "type": "data_cleanup",
+      "summary": "Removed 13 duplicate URL entries from jobs-all.json (1164→1151). Regenerated dashboard.html."
+    },
+    {
+      "timestamp": "2026-08-05T04:20:00",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8.5,
+        "career_strategy": 8.5,
+        "python_scripts": 8,
+        "crm": 7,
+        "automation": 7,
+        "coverage": 8
+      },
+      "overall": 7.6,
+      "improvement": "CRM dashboard refresh: CRM dashboard stale (Aug 1). Spawning sub-agent to rebuild with current 1315 jobs cross-referenced against 206 contacts. Expected CRM boost 7→8.",
+      "subagent": "builder-crm-dashboard-refresh",
+      "dim_improved": "crm"
+    },
+    {
+      "timestamp": "2026-08-05T04:24:28",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8.5,
+        "career_strategy": 8.5,
+        "python_scripts": 8,
+        "crm": 8,
+        "automation": 7,
+        "coverage": 8
+      },
+      "summary": "CRM dashboard rebuilt: 27 target companies with 948 matching roles, 45 ATS entries, 10 real contacts with relationship health scores. Dashboard has tabbed Companies/ATS/Contacts views, search/filter, grade breakdowns, and health indicators."
+    },
+    {
+      "timestamp": "2026-08-06T03:14:14.401515",
+      "type": "data_cleanup",
+      "summary": "Removed 58 stale jobs (>30 days). 1306→1248."
+    },
+    {
+      "timestamp": "2026-08-11T03:08:50.633134",
+      "scores": {
+        "data_quality": 92.8,
+        "coverage": 100,
+        "scripts": 100,
+        "dashboard": 8.5,
+        "career_hub": 93,
+        "strategy": 90,
+        "total_jobs": 1378,
+        "sources": 47,
+        "with_salary": 904,
+        "with_url": 1378,
+        "last_updated": "2026-08-10T03:05:00",
+        "crm": 8,
+        "total": 703.3
+      },
+      "overall": 70.3,
+      "improvement": "Dashboard UX: Replaced 308-value raw city dropdown with clean 20-group APAC-focused filter using normalizeCity() function. City filter went from unusable to functional with grouped optgroups (APAC Core, Greater China, Remote, Americas, Europe).",
+      "dim_improved": "dashboard"
+    },
+    {
+      "timestamp": "2026-08-12T03:07:40.256693",
+      "scores": {
+        "data_quality": 89.1,
+        "coverage": 100,
+        "scripts": 100,
+        "dashboard": 8.5,
+        "career_hub": 93,
+        "strategy": 90,
+        "total_jobs": 1378,
+        "sources": 47,
+        "with_salary": 904,
+        "with_url": 1378,
+        "last_updated": "2026-08-12T00:00:00",
+        "crm": 8.5,
+        "total": 89.7
+      },
+      "overall": 89.7,
+      "improvement": "CRM refresh: Rebuilt crm-dashboard.html from current data (145 companies, 42 applications, 206 contacts). Was stale at 1,219 jobs — now reflects 1,431 jobs. Ran enrich-crm.py to cross-reference contacts with applications.",
+      "dim_improved": "crm"
     }
   ],
-  "improvements": [
-    {
-      "date": "2026-06-23",
-      "action": "Rebuilt dashboard.html from 412→590 jobs with full feature set (sort, search, filter, export). Updated build-dashboard.py output path.",
-      "task": "Fix stale dashboard (412 jobs → 590 jobs, Jun 18 → current)",
-      "dimension": "dashboard"
-    },
-    {
-      "date": "2026-06-25T00:01:34.743539",
-      "action": "career-hub: replaced broken Tech in Asia links (403) with e27, KrASIA, VentureCap SG; added AI Models FYI",
-      "dimension": "strategy"
-    },
-    {
-      "date": "2026-06-25T03:01:16.332073",
-      "action": "Rebuilding career-hub.html with embedded 899-job stats, grade distribution chart, top companies, recent jobs, and responsive dark theme",
-      "dimension": "career_hub",
-      "subagent": "builder-career-hub-rebuild",
-      "score_before": 6,
-      "status": "in_progress"
-    },
-    {
-      "date": "2026-06-26",
-      "action": "Updated builder-log scores: jobs_total 1067→1182, coverage 7→8, career_hub 6→7. Verified 0 stale jobs.",
-      "details": "System health check: data quality strong, all scripts working, 38 search sources active."
-    },
-    {
-      "date": "2026-07-08",
-      "change": "Salary enrichment: 27% -> 100% coverage via location+seniority estimation",
-      "script": "enrich-salary.py"
-    },
-    {
-      "date": "2026-07-08T03:00",
-      "change": "Salary enrichment: 27% -> 100% coverage via location+seniority estimation",
-      "script": "enrich-salary.py"
-    },
-    {
-      "date": "2026-07-09T03:01",
-      "action": "Rebuilding CRM dashboard with modern dark theme + syncing 211 contacts from CRM DB to public contacts.json",
-      "dimension": "crm",
-      "subagent": "builder-crm-dashboard-rebuild",
-      "score_before": 9,
-      "status": "in_progress"
-    },
-    {
-      "date": "2026-07-12T06:00",
-      "action": "Full pipeline maintenance: merge+dedup+grade+fill+stale cleanup",
-      "dimension": "automation",
-      "score_before": 7,
-      "score_after": 8,
-      "status": "complete",
-      "details": "46 new jobs merged, 105 dupes removed, 196 graded, 215 filled, 46 stale purged. 1314 remaining."
-    }
-  ],
-  "run_count": 8,
-  "changes": [
-    {
-      "date": "2026-07-03",
-      "dimension": "career_hub",
-      "action": "Added all 16 pipeline scripts to career-hub.html scripts section (was 4), fixed footer job count",
-      "score_before": 8,
-      "score_after": 9
-    }
-  ],
+  "scores": {
+    "data_quality": 89.1,
+    "coverage": 100,
+    "scripts": 100,
+    "dashboard": 8.5,
+    "career_hub": 93,
+    "strategy": 90,
+    "total_jobs": 1378,
+    "sources": 47,
+    "with_salary": 904,
+    "with_url": 1378,
+    "last_updated": "2026-08-12T00:00:00",
+    "crm": 8.5,
+    "total": 89.7
+  },
+  "last_improvement": "Dashboard city filter cleanup (308→20 groups)",
+  "last_improvement_date": "2026-08-11T03:09:13.076985",
+  "last_updated": "2026-08-11T03:09:13.076988",
   "history": [
     {
-      "date": "2026-07-05",
-      "improvement": "Fixed stale coverage-report.json to match actual job data",
-      "details": "Rebuilt from jobs-all.json: 976 jobs, 47 sources, accurate age distribution"
+      "date": "2026-08-08",
+      "action": "Removed 141 duplicate jobs (1360→1219), rebuilt dashboard, data quality 9.5→9.8"
     },
     {
-      "date": "2026-07-06",
-      "improvement": "Regenerated coverage-report.json: 976→1116 jobs, 47 sources, 189 companies",
-      "details": "Updated from current jobs-all.json. Found 18 stale jobs (>30d) for future cleanup."
+      "date": "2026-08-09",
+      "action": "Refreshed career-strategy.md with current data: 1367 jobs, 375 new this week, 226 Singapore roles. Updated employer rankings, sector heat map, city distribution. Bumped strategy 85→90, career_hub 85→90."
     },
     {
-      "date": "2026-07-07",
-      "improvement": "Filled 1611 data gaps in jobs-all.json (summaries, en_titles, grades, tiers, companies)",
-      "details": "619 summaries, 547 en_titles, 126 grades, 310 tiers, 19 companies filled. 0 remaining gaps."
-    },
-    {
-      "date": "2026-07-08",
-      "improvement": "Fixed 19 jobs with missing company names (data quality cleanup)",
-      "details": "Tagged BOSS直聘 discovery entries as Confidential, Toptal/Turing generic listings as Confidential. All 1633 jobs now have company names."
-    },
-    {
-      "date": "2026-07-10",
-      "improvement": "Created merge-jobs.py + run-pipeline.sh for robust scraper consolidation",
-      "details": "Automated pipeline: scan all *-results.json, dedup, grade, merge into jobs-all.json. Addresses automation gap (only 1 cron visible, no merge script existed)."
-    },
-    {
-      "date": "2026-07-12",
-      "improvement": "Ran full auto-maintain pipeline: merged 46 jobs, deduped 105, graded 196, removed 46 stale, filled 215 summaries",
-      "details": "1419→1314 jobs. Coverage 53 sources. Score bump: automation 7→8."
-    },
-    {
-      "date": "2026-07-19",
-      "improvement": "Removed 48 very old jobs (>60 days) from greenhouse_api",
-      "details": "Data quality cleanup: 1401→1353 jobs. All 48 removed were greenhouse_api postings from before May 20. Dashboard rebuilt."
+      "date": "2026-08-09",
+      "action": "Refreshed career-strategy.md with current data: 1367 jobs, 375 new this week, 226 Singapore roles. Updated employer rankings, sector heat map, city distribution. Bumped strategy 85→90, career_hub 85→90. Total 92.7→93.7."
     }
   ],
-  "lastCleanup": "2026-07-12T19:00:29Z",
-  "totalJobs": 1180,
-  "last_updated": "2026-07-18T22:00:57.131643+00:00",
-  "last_scan": "2026-07-18T06:00:56.275767",
-  "total_jobs": 1353,
-  "last_scan_new": 16
+  "data_quality": 10.0,
+  "total_jobs": 1426,
+  "total": 287.2
 }

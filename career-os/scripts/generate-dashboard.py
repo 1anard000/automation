@@ -1,151 +1,101 @@
 #!/usr/bin/env python3
-"""
-Generate dashboard.json from the real jobs database.
-Reads jobs-all.json, computes stats, and writes docs/data/dashboard.json.
-"""
-import json, os, re
-from datetime import datetime, timedelta
+"""Generate docs/data/dashboard.json from jobs-all.json."""
 
-WORKSPACE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-JOBS_FILE = os.path.join(WORKSPACE, "OKComputer_职位搜索清单", "jobs-all.json")
-DASHBOARD_FILE = os.path.join(WORKSPACE, "docs", "data", "dashboard.json")
+import json
+from pathlib import Path
+from datetime import datetime, timezone
+from collections import Counter
 
-# Blocked sources (inaccessible from China)
-BLOCKED_SOURCES = {"linkedin", "glassdoor", "google_careers", "meta_careers"}
-
-# Location normalization
-LOC_MAP = {
-    "hong kong": "Hong Kong", "hong kong sar": "Hong Kong", "hk": "Hong Kong",
-    "shenzhen": "Shenzhen", "sz": "Shenzhen", "深圳": "Shenzhen",
-    "guangzhou": "Guangzhou", "gz": "Guangzhou", "广州": "Guangzhou",
-    "shanghai": "Shanghai", "sh": "Shanghai", "上海": "Shanghai",
-    "singapore": "Singapore", "sg": "Singapore",
-    "beijing": "Beijing", "bj": "Beijing", "北京": "Beijing",
-}
-
-# Category classification
-def classify(title):
-    t = title.lower()
-    if any(k in t for k in ["product manager", "product director", "head of product",
-                             "principal product", "senior product", "staff product"]):
-        return "PM"
-    if any(k in t for k in ["strategy", "strategic", "business operations", "bizops",
-                             "chief of staff", "corporate strategy"]):
-        return "Strategy"
-    if any(k in t for k in ["growth", "expansion", "general manager", "country manager",
-                             "regional manager", "head of growth"]):
-        return "Growth"
-    if any(k in t for k in ["program manager", "project manager"]):
-        return "Program"
-    return "Other"
+BASE = Path(__file__).resolve().parents[1]
+JOBS_FILE = BASE / "OKComputer_职位搜索清单" / "jobs-all.json"
+OUT_FILE = BASE / "docs" / "data" / "dashboard.json"
 
 
 def normalize_location(loc):
-    if not loc:
-        return ""
-    l = loc.lower().strip()
-    for pattern, city in LOC_MAP.items():
-        if pattern in l:
-            return city
-    return ""
+    loc = (loc or "").lower()
+    if "shenzhen" in loc or "深圳" in loc or "sz" in loc:
+        return "SZ"
+    if "hong kong" in loc or "hk" in loc or "香港" in loc:
+        return "HK"
+    if "guangzhou" in loc or "广州" in loc or "gz" in loc:
+        return "GZ"
+    if "shanghai" in loc or "上海" in loc or "sh" in loc:
+        return "SH"
+    if "singapore" in loc or "sg" in loc or "新加坡" in loc:
+        return "SG"
+    return "Other"
 
 
-def is_accessible(job):
-    """Check if job is accessible from China."""
-    source = job.get("source", "").lower()
-    if source in BLOCKED_SOURCES:
-        return False
-    url = job.get("url", "").lower()
-    if "linkedin.com" in url:
-        return False
-    return True
+def categorize(job):
+    title = (job.get("title") or "").lower()
+    role = (job.get("role_type") or "").lower()
+    text = f"{title} {role}"
+    if "product" in text or "产品" in text or "pm" in text:
+        return "PM"
+    if "strategy" in text or "战略" in text or "strategic" in text:
+        return "Strategy"
+    if "growth" in text or "增长" in text:
+        return "Growth"
+    return "Other"
 
 
 def main():
-    if not os.path.exists(JOBS_FILE):
-        print(f"ERROR: {JOBS_FILE} not found")
-        return
+    with open(JOBS_FILE, "r", encoding="utf-8") as f:
+        jobs = json.load(f)
 
-    with open(JOBS_FILE) as f:
-        all_jobs = json.load(f)
+    total = len(jobs)
+    locations = Counter(normalize_location(j.get("location_norm") or j.get("location", "")) for j in jobs)
+    categories = Counter(categorize(j) for j in jobs)
 
-    # Filter to accessible jobs only
-    jobs = [j for j in all_jobs if is_accessible(j)]
-    print(f"Total jobs: {len(all_jobs)}, Accessible from China: {len(jobs)}")
+    def _score(j):
+        s = j.get("quality_score")
+        return s if isinstance(s, (int, float)) else 0
 
-    # Compute stats
-    now = datetime.now()
-    week_ago = (now - timedelta(days=7)).strftime("%Y-%m-%d")
-    day_ago = (now - timedelta(days=1)).strftime("%Y-%m-%d")
+    top_jobs = sorted(jobs, key=_score, reverse=True)[:5]
 
-    by_city = {}
-    by_category = {}
-    jobs_7d = 0
-    jobs_24h = 0
-
-    for j in jobs:
-        # Location
-        loc = normalize_location(j.get("location", ""))
-        if loc:
-            by_city[loc] = by_city.get(loc, 0) + 1
-
-        # Category
-        cat = classify(j.get("title", ""))
-        by_category[cat] = by_category.get(cat, 0) + 1
-
-        # Recency
-        scanned = j.get("scanned_date", "")
-        if scanned >= week_ago:
-            jobs_7d += 1
-        if scanned >= day_ago:
-            jobs_24h += 1
-
-    # Top 5 highest-scored jobs (by quality_score descending)
-    def sort_key(j):
-        score = j.get("quality_score") or 0
-        return -score  # descending
-
-    top_jobs = sorted(jobs, key=sort_key)[:5]
-    top_5 = []
-    for j in top_jobs:
-        top_5.append({
-            "title": j.get("title", ""),
-            "company": j.get("company", ""),
-            "location": normalize_location(j.get("location", "")),
-            "grade": j.get("grade", ""),
+    top5 = [
+        {
+            "job_id": j.get("job_id"),
+            "title": j.get("title"),
+            "company": j.get("company"),
+            "location": j.get("location_norm") or j.get("location"),
+            "category": categorize(j),
             "quality_score": j.get("quality_score"),
-            "url": j.get("url", ""),
-            "source": j.get("source", ""),
-        })
-
-    # Count with direct apply links
-    direct_links = sum(1 for j in jobs if j.get("url") and "linkedin.com" not in j.get("url", "").lower())
+            "quality_tier": j.get("quality_tier"),
+            "url": j.get("url"),
+            "status": j.get("status"),
+        }
+        for j in top_jobs
+    ]
 
     dashboard = {
-        "generated_at": now.strftime("%Y-%m-%dT%H:%M:%S+08:00"),
+        "generated_at": datetime.now(timezone.utc).isoformat(),
         "stats": {
-            "total": len(jobs),
-            "total_all": len(all_jobs),
-            "jobs_last_7d": jobs_7d,
-            "jobs_last_24h": jobs_24h,
-            "direct_links": direct_links,
+            "total_jobs": total,
+            "by_location": {
+                "SZ": locations.get("SZ", 0),
+                "HK": locations.get("HK", 0),
+                "GZ": locations.get("GZ", 0),
+                "SH": locations.get("SH", 0),
+                "SG": locations.get("SG", 0),
+                "Other": locations.get("Other", 0),
+            },
+            "by_category": {
+                "PM": categories.get("PM", 0),
+                "Strategy": categories.get("Strategy", 0),
+                "Growth": categories.get("Growth", 0),
+                "Other": categories.get("Other", 0),
+            },
         },
-        "by_city": dict(sorted(by_city.items(), key=lambda x: -x[1])),
-        "by_category": dict(sorted(by_category.items(), key=lambda x: -x[1])),
-        "top_5": top_5,
-        "category_counts": dict(sorted(by_category.items(), key=lambda x: -x[1])),
-        "error": None,
+        "category_counts": dict(categories),
+        "top_jobs": top5,
     }
 
-    os.makedirs(os.path.dirname(DASHBOARD_FILE), exist_ok=True)
-    with open(DASHBOARD_FILE, "w") as f:
-        json.dump(dashboard, f, indent=2, ensure_ascii=False)
+    OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(dashboard, f, ensure_ascii=False, indent=2)
 
-    print(f"Dashboard generated: {DASHBOARD_FILE}")
-    print(f"  Total: {len(jobs)} accessible jobs (of {len(all_jobs)} total)")
-    print(f"  By city: {by_city}")
-    print(f"  By category: {by_category}")
-    print(f"  Direct links: {direct_links}")
+    print(f"Wrote {OUT_FILE} with {total} jobs")
 
 
 if __name__ == "__main__":
