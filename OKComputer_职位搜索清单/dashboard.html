@@ -67,6 +67,13 @@ a:hover{text-decoration:underline}
 .stat-card.fresh7 .num{color:#34d399}
 .stat-card.fresh30 .num{color:#fbbf24}
 .stat-card.stale .num{color:#f87171;font-size:1rem}
+.chart-row{display:flex;gap:16px;margin:20px 0;flex-wrap:wrap;justify-content:center}
+.chart-card{background:#1e293b;border-radius:12px;padding:20px;border:1px solid #334155;flex:1;min-width:280px;max-width:400px}
+.chart-card h3{color:#94a3b8;font-size:0.8rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;text-align:center}
+.donut-wrap{display:flex;align-items:center;justify-content:center;gap:20px}
+.donut-legend{display:flex;flex-direction:column;gap:6px}
+.donut-legend .item{display:flex;align-items:center;gap:8px;font-size:0.78rem;color:#e2e8f0}
+.donut-legend .dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
 .url-quality{margin:12px 0;padding:10px 16px;background:#1e293b;border-radius:8px;border:1px solid #334155;font-size:0.8rem;color:#94a3b8}
 .url-quality .good{color:#4ade80}
 .url-quality .bad{color:#f87171}
@@ -98,6 +105,23 @@ a:hover{text-decoration:underline}
 <div class="stat-card"><div class="num" id="szCount">49</div><div class="label">Shenzhen</div></div>
 <div class="stat-card"><div class="num" id="cbCount">11</div><div class="label">Cross Border</div></div>
 <div class="stat-card"><div class="num" id="stratCount">26</div><div class="label">Strategy</div></div>
+</div>
+
+<div class="chart-row">
+<div class="chart-card">
+  <h3>Grade Distribution</h3>
+  <div class="donut-wrap">
+    <canvas id="gradeDonut" width="160" height="160"></canvas>
+    <div class="donut-legend" id="gradeLegend"></div>
+  </div>
+</div>
+<div class="chart-card">
+  <h3>Top Cities</h3>
+  <div class="donut-wrap">
+    <canvas id="cityDonut" width="160" height="160"></canvas>
+    <div class="donut-legend" id="cityLegend"></div>
+  </div>
+</div>
 </div>
 
 <div class="filters">
@@ -338,6 +362,65 @@ function exportCSV() {
 }
 ['search','filterGrade','filterCity','filterCategory','filterDifficulty','filterEnglish'].forEach(id => document.getElementById(id).addEventListener('input', filterData));
 renderTable(jobs);
+
+// Donut chart helper
+function drawDonut(canvasId, legendId, data, colors) {
+  const canvas = document.getElementById(canvasId);
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  const total = data.reduce((s, d) => s + d.value, 0);
+  const cx = 80, cy = 80, r = 60, inner = 35;
+  let start = -Math.PI / 2;
+  data.forEach((d, i) => {
+    const angle = (d.value / total) * Math.PI * 2;
+    ctx.beginPath();
+    ctx.arc(cx, cy, r, start, start + angle);
+    ctx.arc(cx, cy, inner, start + angle, start, true);
+    ctx.closePath();
+    ctx.fillStyle = colors[i % colors.length];
+    ctx.fill();
+    start += angle;
+  });
+  // center text
+  ctx.fillStyle = '#e2e8f0';
+  ctx.font = 'bold 18px -apple-system, sans-serif';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillText(total, cx, cy - 6);
+  ctx.font = '10px -apple-system, sans-serif';
+  ctx.fillStyle = '#94a3b8';
+  ctx.fillText('jobs', cx, cy + 10);
+  // legend
+  const legend = document.getElementById(legendId);
+  if (legend) {
+    legend.innerHTML = data.map((d, i) =>
+      `<div class="item"><span class="dot" style="background:${colors[i % colors.length]}"></span>${d.label}: ${d.value} (${Math.round(d.value/total*100)}%)</div>`
+    ).join('');
+  }
+}
+
+// Grade data
+const gradeData = [
+  {label:'S', value:jobs.filter(j=>j.grade==='S').length},
+  {label:'A', value:jobs.filter(j=>j.grade==='A').length},
+  {label:'A-1', value:jobs.filter(j=>j.grade==='A-1').length},
+  {label:'A-2', value:jobs.filter(j=>j.grade==='A-2').length},
+  {label:'B', value:jobs.filter(j=>j.grade==='B').length},
+  {label:'C', value:jobs.filter(j=>j.grade==='C').length},
+  {label:'D', value:jobs.filter(j=>j.grade==='D').length}
+].filter(d=>d.value>0);
+const gradeColors = ['#f472b6','#38bdf8','#4ade80','#2dd4bf','#818cf8','#fb923c','#f87171'];
+drawDonut('gradeDonut','gradeLegend',gradeData,gradeColors);
+
+// City data
+const cityMap = {};
+jobs.forEach(j => {
+  const c = (j.city_normalized||'').trim();
+  if (c && c !== 'Remote' && c !== 'N/A') cityMap[c] = (cityMap[c]||0) + 1;
+});
+const cityData = Object.entries(cityMap).sort((a,b)=>b[1]-a[1]).slice(0,7).map(([label,value])=>({label,value}));
+const cityColors = ['#38bdf8','#4ade80','#fb923c','#a78bfa','#f472b6','#2dd4bf','#fbbf24'];
+drawDonut('cityDonut','cityLegend',cityData,cityColors);
 </script>
 </body>
 </html>
