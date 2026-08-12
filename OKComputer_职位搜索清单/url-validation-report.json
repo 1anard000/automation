@@ -1,0 +1,745 @@
+{
+  "timestamp": "2026-08-12T16:02:58.719965+00:00",
+  "total_jobs": 1464,
+  "jobs_checked": 1464,
+  "ok": 1408,
+  "broken": 56,
+  "unreachable": 0,
+  "invalid": 0,
+  "errors": [
+    {
+      "index": 160,
+      "title": "Lead Advanced Analytics, Marketplace",
+      "company": "Airbnb",
+      "url": "https://careers.airbnb.com/positions/8023118?gh_jid=8023118",
+      "status": "error",
+      "code": 404,
+      "detail": "404"
+    },
+    {
+      "index": 282,
+      "title": "Director, Product Strategy & Growth",
+      "company": "Confidential",
+      "url": "https://www.linkedin.com/company/confidential-company-page12",
+      "status": "error",
+      "code": 404,
+      "detail": "404"
+    },
+    {
+      "index": 334,
+      "title": "Partner Enablement Manager",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7991863/?gh_jid=7991863",
+      "status": "error",
+      "code": 404,
+      "detail": "404"
+    },
+    {
+      "index": 354,
+      "title": "Senior Product Manager",
+      "company": "Lemon.io",
+      "url": "https://remotive.com/remote-jobs/product/senior-product-manager-2090984",
+      "status": "error",
+      "code": 403,
+      "detail": "403"
+    },
+    {
+      "index": 363,
+      "title": "Head of Communications and PR, APAC",
+      "company": "OKX",
+      "url": "https://boards.greenhouse.io/okx/jobs/7741363003",
+      "status": "error",
+      "code": 0,
+      "detail": "The read operation timed out"
+    },
+    {
+      "index": 370,
+      "title": "Senior Data Engineer, Compliance Data Platform",
+      "company": "OKX",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7765814003",
+      "status": "error",
+      "code": 0,
+      "detail": "The read operation timed out"
+    },
+    {
+      "index": 372,
+      "title": "Senior Staff Engineer, AI Platform and Infrastructure",
+      "company": "OKX",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7477322003",
+      "status": "error",
+      "code": 0,
+      "detail": "The read operation timed out"
+    },
+    {
+      "index": 421,
+      "title": "Fraud Risk Strategy Expert",
+      "company": "OKX",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/6270708003",
+      "status": "error",
+      "code": 0,
+      "detail": "The read operation timed out"
+    },
+    {
+      "index": 467,
+      "title": "Sales Director - Institutional OTC",
+      "company": "Ripple",
+      "url": "https://ripple.com/careers/all-jobs/job/7972077?gh_jid=7972077",
+      "status": "error",
+      "code": 404,
+      "detail": "404"
+    },
+    {
+      "index": 482,
+      "title": " AI Product Manager, Professional Services ",
+      "company": "Stripe",
+      "url": "https://boards.greenhouse.io/stripe/jobs/8064526#app",
+      "status": "error",
+      "code": 0,
+      "detail": "The read operation timed out"
+    },
+    {
+      "index": 494,
+      "title": "Engineering Manager, Developer Productivity AI",
+      "company": "Stripe",
+      "url": "https://boards.greenhouse.io/stripe/jobs/7736943#app",
+      "status": "error",
+      "code": 0,
+      "detail": "The read operation timed out"
+    },
+    {
+      "index": 495,
+      "title": "Engineering Manager, Product (Privy)",
+      "company": "Stripe",
+      "url": "https://boards.greenhouse.io/stripe/jobs/7913545#app",
+      "status": "error",
+      "code": 0,
+      "detail": "The read operation timed out"
+    },
+    {
+      "index": 684,
+      "title": "产品经理",
+      "company": "unknown",
+      "url": "https://we.51job.com/pc/search?keyword=产品经理+策略&searchType=2&jobArea=040090",
+      "status": "error",
+      "code": 0,
+      "detail": "'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)"
+    },
+    {
+      "index": 686,
+      "title": "定价策略经理",
+      "company": "万睿智能科技",
+      "url": "https://we.51job.com/pc/search?keyword=定价策略经理+万睿&searchType=2&jobArea=040090",
+      "status": "error",
+      "code": 0,
+      "detail": "'ascii' codec can't encode characters in position 24-29: ordinal not in range(128)"
+    },
+    {
+      "index": 687,
+      "title": "全球GTM增长负责人",
+      "company": "某深圳仪器仪表公司 (via Liepin)",
+      "url": "https://www.liepin.com/zhaopin/?key=商业策略&dqs=050090",
+      "status": "error",
+      "code": 0,
+      "detail": "'ascii' codec can't encode characters in position 19-22: ordinal not in range(128)"
+    },
+    {
+      "index": 690,
+      "title": "产品经理（英国区域）",
+      "company": "深圳易佳特科技有限公司",
+      "url": "https://we.51job.com/pc/search?keyword=产品经理&searchType=2&jobArea=040090",
+      "status": "error",
+      "code": 0,
+      "detail": "'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)"
+    },
+    {
+      "index": 737,
+      "title": "Senior Lead, Flights Supply (Greater China)",
+      "company": "Agoda",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/7864667",
+      "status": "error",
+      "code": 0,
+      "detail": "The read operation timed out"
+    },
+    {
+      "index": 769,
+      "title": "Operational Excellence Coordinator, Strategic Partnerships (10-month contract) (Bangkok-Based)",
+      "company": "Agoda",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8042965",
+      "status": "error",
+      "code": 0,
+      "detail": "The read operation timed out"
+    },
+    {
+      "index": 783,
+      "title": "Principal, APAC Tax",
+      "company": "Airbnb",
+      "url": "https://careers.airbnb.com/positions/8025692?gh_jid=8025692",
+      "status": "error",
+      "code": 404,
+      "detail": "404"
+    },
+    {
+      "index": 784,
+      "title": "Senior Connectivity Partner Manager - Seoul, South Korea",
+      "company": "Airbnb",
+      "url": "https://careers.airbnb.com/positions/7945815?gh_jid=7945815",
+      "status": "error",
+      "code": 404,
+      "detail": "404"
+    },
+    {
+      "index": 785,
+      "title": "Senior Full-Stack Engineer, App Experience and Frameworks (Frontend-Heavy)",
+      "company": "Airbnb",
+      "url": "https://careers.airbnb.com/positions/7551863?gh_jid=7551863",
+      "status": "error",
+      "code": 404,
+      "detail": "404"
+    },
+    {
+      "index": 788,
+      "title": "Senior Market Manager, Luxe - Thailand",
+      "company": "Airbnb",
+      "url": "https://careers.airbnb.com/positions/7920440?gh_jid=7920440",
+      "status": "error",
+      "code": 404,
+      "detail": "404"
+    },
+    {
+      "index": 789,
+      "title": "Senior Software Engineer, Global Markets (Backend)",
+      "company": "Airbnb",
+      "url": "https://careers.airbnb.com/positions/7768472?gh_jid=7768472",
+      "status": "error",
+      "code": 404,
+      "detail": "404"
+    },
+    {
+      "index": 793,
+      "title": "Growth Manager",
+      "company": "Airwallex",
+      "url": "https://careers.airwallex.com/job/f22a8795-d79c-4b80-8e92-92f724d3d23f/growth-manager/",
+      "status": "error",
+      "code": 302,
+      "detail": "302"
+    },
+    {
+      "index": 795,
+      "title": "Manager, Revenue Strategy",
+      "company": "Airwallex",
+      "url": "https://careers.airwallex.com/job/6d593547-7ca0-4a7f-9338-617867eb8ed1/manager-revenue-strategy/",
+      "status": "error",
+      "code": 302,
+      "detail": "302"
+    },
+    {
+      "index": 796,
+      "title": "Manager, Growth Innovation",
+      "company": "Airwallex",
+      "url": "https://careers.airwallex.com/job/0a2a43a7-28a1-44fa-beeb-0211882b417c/manager-growth-innovation/",
+      "status": "error",
+      "code": 302,
+      "detail": "302"
+    },
+    {
+      "index": 878,
+      "title": "Head of Channels & Alliances",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7687552/?gh_jid=7687552",
+      "status": "error",
+      "code": 404,
+      "detail": "404"
+    },
+    {
+      "index": 879,
+      "title": "Head of Enterprise Sales, Japan",
+      "company": "Datadog",
+      "url": "https://careers.datadoghq.com/detail/7730200/?gh_jid=7730200",
+      "status": "error",
+      "code": 404,
+      "detail": "404"
+    },
+    {
+      "index": 885,
+      "title": "Senior Partner Manager ANZ",
+      "company": "Elastic",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7732514&gh_jid=7732514",
+      "status": "error",
+      "code": 302,
+      "detail": "302"
+    },
+    {
+      "index": 887,
+      "title": "Senior Sales Development Representative",
+      "company": "Elastic",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=7957853&gh_jid=7957853",
+      "status": "error",
+      "code": 302,
+      "detail": "302"
+    },
+    {
+      "index": 908,
+      "title": "Associate, Strategic Insights and Analytics",
+      "company": "Grab",
+      "url": "https://grab.careers/en/jobs/744000133828829/",
+      "status": "error",
+      "code": 404,
+      "detail": "404"
+    },
+    {
+      "index": 979,
+      "title": "Head of Product - Core & Growth",
+      "company": "Thunes",
+      "url": "https://www.thunes.com/jobs/7697868003?gh_jid=7697868003",
+      "status": "error",
+      "code": 403,
+      "detail": "403"
+    },
+    {
+      "index": 982,
+      "title": "Senior Customer Success Manager",
+      "company": "Twilio",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7903877",
+      "status": "error",
+      "code": 0,
+      "detail": "The read operation timed out"
+    },
+    {
+      "index": 1004,
+      "title": "高级产品经理-AI芯片",
+      "company": "芯天下技术",
+      "url": "https://we.51job.com/pc/search?keyword=产品经理&searchType=2&jobArea=040000",
+      "status": "error",
+      "code": 0,
+      "detail": "'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)"
+    },
+    {
+      "index": 1007,
+      "title": "商业分析负责人",
+      "company": "顺丰同城物流 (SF Express)",
+      "url": "https://we.51job.com/pc/search?keyword=商业策略&searchType=2&jobArea=040000",
+      "status": "error",
+      "code": 0,
+      "detail": "'ascii' codec can't encode characters in position 24-27: ordinal not in range(128)"
+    },
+    {
+      "index": 1063,
+      "title": "Senior Business Operations and Growth Lead",
+      "company": "Airbnb",
+      "url": "https://careers.airbnb.com/positions/7916146?gh_jid=7916146",
+      "status": "error",
+      "code": 404,
+      "detail": "404"
+    },
+    {
+      "index": 1065,
+      "title": "Senior Product Manager, Kai (AI assistant)",
+      "company": "Airwallex",
+      "url": "https://careers.airwallex.com/job/d1ed1a19-4e79-4dc1-843f-949da9a95cca/senior-product-manager-kai-ai-assistant/",
+      "status": "error",
+      "code": 302,
+      "detail": "302"
+    },
+    {
+      "index": 1076,
+      "title": "Head of Product at AsiaCloud",
+      "company": "Asiacloud",
+      "url": "https://wellfound.com/company/asiacloud/jobs/head-of-product",
+      "status": "error",
+      "code": 404,
+      "detail": "404"
+    },
+    {
+      "index": 1093,
+      "title": "Card Growth & Loyalty Product Manager - Global Payment",
+      "company": "ByteDance",
+      "url": "https://jobs.bytedance.com/en-us/position/7649027923437078789",
+      "status": "error",
+      "code": 404,
+      "detail": "404"
+    },
+    {
+      "index": 1094,
+      "title": "TikTok LIVE - Product Manager - Revenue Product",
+      "company": "ByteDance",
+      "url": "https://jobs.bytedance.com/en-us/position/6982089818411108621",
+      "status": "error",
+      "code": 404,
+      "detail": "404"
+    },
+    {
+      "index": 1095,
+      "title": "Payment Solution Product Manager - Global Payment",
+      "company": "ByteDance",
+      "url": "https://jobs.bytedance.com/en-us/position/7658118846353721605",
+      "status": "error",
+      "code": 404,
+      "detail": "404"
+    },
+    {
+      "index": 1096,
+      "title": "Product Manager, Risk Strategy and Operation, BRIC",
+      "company": "ByteDance",
+      "url": "https://jobs.bytedance.com/en-us/position/7056993801428142343",
+      "status": "error",
+      "code": 404,
+      "detail": "404"
+    },
+    {
+      "index": 1097,
+      "title": "Product Policy Manager, GenAI and Emerging Products",
+      "company": "ByteDance",
+      "url": "https://jobs.bytedance.com/en-us/position/7651932175990262069",
+      "status": "error",
+      "code": 404,
+      "detail": "404"
+    },
+    {
+      "index": 1103,
+      "title": "Solutions Expert - Video Cloud",
+      "company": "ByteDance",
+      "url": "https://jobs.bytedance.com/en/position?keywords=产品经理&location=",
+      "status": "error",
+      "code": 0,
+      "detail": "'ascii' codec can't encode characters in position 27-30: ordinal not in range(128)"
+    },
+    {
+      "index": 1113,
+      "title": "Global Operations Technology(GOT) 개발자 집중 채용",
+      "company": "Coupang",
+      "url": "https://job-boards.greenhouse.io/coupang/jobs/6810667",
+      "status": "error",
+      "code": 0,
+      "detail": "The read operation timed out"
+    },
+    {
+      "index": 1120,
+      "title": "Senior Staff, Back-end Engineer (Global Operations Technology)",
+      "company": "Coupang",
+      "url": "https://job-boards.greenhouse.io/coupang/jobs/5848138",
+      "status": "error",
+      "code": 0,
+      "detail": "The read operation timed out"
+    },
+    {
+      "index": 1225,
+      "title": "Senior Manager, Security Compliance",
+      "company": "Gitlab",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8612148002",
+      "status": "error",
+      "code": 0,
+      "detail": "The read operation timed out"
+    },
+    {
+      "index": 1276,
+      "title": "Product & Strategy Lead",
+      "company": "OKX",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7812475003",
+      "status": "error",
+      "code": 0,
+      "detail": "The read operation timed out"
+    },
+    {
+      "index": 1289,
+      "title": "Senior Manager, Web3 Partnerships",
+      "company": "OKX",
+      "url": "https://boards.greenhouse.io/okx/jobs/7764410003#app",
+      "status": "error",
+      "code": 0,
+      "detail": "The read operation timed out"
+    },
+    {
+      "index": 1325,
+      "title": "(Senior) Data Infra Product Manager, On Chain (Web3)",
+      "company": "OKX",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7671639003",
+      "status": "error",
+      "code": 0,
+      "detail": "The read operation timed out"
+    },
+    {
+      "index": 1375,
+      "title": "Full Stack Engineer, Growth",
+      "company": "Stripe",
+      "url": "https://boards.greenhouse.io/stripe/jobs/7964956#app",
+      "status": "error",
+      "code": 0,
+      "detail": "The read operation timed out"
+    },
+    {
+      "index": 1408,
+      "title": "Accounts and Operations Executive",
+      "company": "Thunes",
+      "url": "https://job-boards.greenhouse.io/thunes/jobs/7780947003",
+      "status": "error",
+      "code": 403,
+      "detail": "403"
+    },
+    {
+      "index": 1409,
+      "title": "Head of Product",
+      "company": "Toptal",
+      "url": "https://www.toptal.com/careers/head-of-product-remote",
+      "status": "error",
+      "code": 403,
+      "detail": "403"
+    },
+    {
+      "index": 1410,
+      "title": "Product Director - APAC",
+      "company": "Toptal",
+      "url": "https://www.toptal.com/talent/product-director-apac",
+      "status": "error",
+      "code": 403,
+      "detail": "403"
+    },
+    {
+      "index": 1411,
+      "title": "VP Product - Singapore Remote",
+      "company": "Toptal",
+      "url": "https://www.toptal.com/careers/vp-product-singapore",
+      "status": "error",
+      "code": 403,
+      "detail": "403"
+    },
+    {
+      "index": 1425,
+      "title": "配送策略产品经理",
+      "company": "美团",
+      "url": "https://we.51job.com/pc/search?keyword=配送策略产品经理+美团&searchType=2&jobArea=040090",
+      "status": "error",
+      "code": 0,
+      "detail": "'ascii' codec can't encode characters in position 24-31: ordinal not in range(128)"
+    }
+  ],
+  "by_source": {
+    "linkedin": {
+      "ok": 59,
+      "broken": 1,
+      "unreachable": 0,
+      "total": 60
+    },
+    "greenhouse": {
+      "ok": 358,
+      "broken": 16,
+      "unreachable": 0,
+      "total": 374
+    },
+    "tencent_careers": {
+      "ok": 30,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 30
+    },
+    "greenhouse_api": {
+      "ok": 712,
+      "broken": 12,
+      "unreachable": 0,
+      "total": 724
+    },
+    "greenhouse_agoda": {
+      "ok": 22,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 22
+    },
+    "greenhouse_bybit": {
+      "ok": 5,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 5
+    },
+    "bytedance": {
+      "ok": 17,
+      "broken": 6,
+      "unreachable": 0,
+      "total": 23
+    },
+    "bytedance_careers": {
+      "ok": 7,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 7
+    },
+    "greenhouse_coupang": {
+      "ok": 39,
+      "broken": 2,
+      "unreachable": 0,
+      "total": 41
+    },
+    "lever_crypto": {
+      "ok": 4,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 4
+    },
+    "jobicy": {
+      "ok": 1,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 1
+    },
+    "smartrecruiters": {
+      "ok": 10,
+      "broken": 1,
+      "unreachable": 0,
+      "total": 11
+    },
+    "remotive_api": {
+      "ok": 0,
+      "broken": 1,
+      "unreachable": 0,
+      "total": 1
+    },
+    "greenhouse_okx": {
+      "ok": 8,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 8
+    },
+    "greenhouse_stripe": {
+      "ok": 23,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 23
+    },
+    "stripe-careers": {
+      "ok": 1,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 1
+    },
+    "direct": {
+      "ok": 1,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 1
+    },
+    "tencent_api": {
+      "ok": 10,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 10
+    },
+    "tencent-careers": {
+      "ok": 1,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 1
+    },
+    "greenhouse_xendit": {
+      "ok": 1,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 1
+    },
+    "51job": {
+      "ok": 0,
+      "broken": 6,
+      "unreachable": 0,
+      "total": 6
+    },
+    "liepin": {
+      "ok": 37,
+      "broken": 1,
+      "unreachable": 0,
+      "total": 38
+    },
+    "greenhouse_adyen": {
+      "ok": 1,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 1
+    },
+    "company_site": {
+      "ok": 10,
+      "broken": 3,
+      "unreachable": 0,
+      "total": 13
+    },
+    "bing_jobs": {
+      "ok": 14,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 14
+    },
+    "smartrecruiters_grab": {
+      "ok": 4,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 4
+    },
+    "microsoft_careers": {
+      "ok": 1,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 1
+    },
+    "ashby": {
+      "ok": 1,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 1
+    },
+    "greenhouse_payoneer": {
+      "ok": 15,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 15
+    },
+    "greenhouse_thunes": {
+      "ok": 0,
+      "broken": 2,
+      "unreachable": 0,
+      "total": 2
+    },
+    "remoteok": {
+      "ok": 7,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 7
+    },
+    "careers.airwallex.com": {
+      "ok": 0,
+      "broken": 1,
+      "unreachable": 0,
+      "total": 1
+    },
+    "arc": {
+      "ok": 2,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 2
+    },
+    "wellfound-enhanced": {
+      "ok": 0,
+      "broken": 1,
+      "unreachable": 0,
+      "total": 1
+    },
+    "hired": {
+      "ok": 3,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 3
+    },
+    "toptal": {
+      "ok": 0,
+      "broken": 3,
+      "unreachable": 0,
+      "total": 3
+    },
+    "turing": {
+      "ok": 3,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 3
+    },
+    "greenhouse_figma": {
+      "ok": 1,
+      "broken": 0,
+      "unreachable": 0,
+      "total": 1
+    }
+  }
+}
