@@ -1,400 +1,165 @@
 {
-  "generated_at": "2026-07-09T03:02:00.029951",
+  "generated_at": "2026-08-13T05:06:00",
   "period_days": 7,
-  "total_jobs": 1500,
-  "recent_count": 17,
-  "a1_total": 397,
-  "a1_recent": 10,
+  "total_jobs": 1469,
+  "recent_count": 434,
+  "prev_week_count": 207,
+  "wow_change": 227,
+  "wow_pct": 109.7,
+  "a1_total": 12,
+  "a1_recent": 7,
   "top_companies_recent": [
-    [
-      "Okx",
-      5
-    ],
-    [
-      "Coupang",
-      3
-    ],
-    [
-      "Tencent",
-      2
-    ],
-    [
-      "Agoda",
-      2
-    ],
-    [
-      "ByteDance",
-      2
-    ],
-    [
-      "Airwallex",
-      1
-    ],
-    [
-      "芯智控股",
-      1
-    ],
-    [
-      "赞德科技(深圳)有限公司",
-      1
-    ]
+    ["OKX", 102],
+    ["Coupang", 68],
+    ["Stripe", 45],
+    ["Bybit", 41],
+    ["Agoda", 36],
+    ["Flexport", 12],
+    ["Databricks", 11],
+    ["Tencent", 10],
+    ["Datadog", 10],
+    ["Grab", 10]
   ],
   "top_companies_all": [
-    [
-      "Agoda",
-      167
-    ],
-    [
-      "Coupang",
-      144
-    ],
-    [
-      "OKX",
-      108
-    ],
-    [
-      "Stripe",
-      67
-    ],
-    [
-      "ByteDance",
-      52
-    ],
-    [
-      "Coinbase",
-      43
-    ],
-    [
-      "",
-      35
-    ],
-    [
-      "Shopee",
-      32
-    ],
-    [
-      "Instacart",
-      28
-    ],
-    [
-      "Databricks",
-      27
-    ],
-    [
-      "Twilio",
-      23
-    ],
-    [
-      "Mercury",
-      20
-    ],
-    [
-      "Airwallex",
-      19
-    ],
-    [
-      "Datadog",
-      19
-    ],
-    [
-      "Airbnb",
-      16
-    ]
+    ["Stripe", 227],
+    ["OKX", 226],
+    ["Coupang", 198],
+    ["Agoda", 186],
+    ["Anthropic", 96],
+    ["Bybit", 50],
+    ["Tencent", 38],
+    ["ByteDance", 34],
+    ["Affirm", 25],
+    ["Airbnb", 25],
+    ["Flexport", 17],
+    ["Adyen", 17],
+    ["Databricks", 16],
+    ["Airwallex", 15],
+    ["Grab", 15]
   ],
   "grades_recent": [
-    [
-      "A",
-      1
-    ],
-    [
-      "A-1",
-      10
-    ],
-    [
-      "A-2",
-      4
-    ],
-    [
-      "B+",
-      2
-    ]
+    ["B", 175],
+    ["C", 104],
+    ["A", 93],
+    ["A-2", 54],
+    ["A-1", 7],
+    ["D", 1]
   ],
   "grades_all": [
-    [
-      "",
-      26
-    ],
-    [
-      "?",
-      109
-    ],
-    [
-      "A",
-      8
-    ],
-    [
-      "A-1",
-      397
-    ],
-    [
-      "A-2",
-      617
-    ],
-    [
-      "B",
-      93
-    ],
-    [
-      "B+",
-      4
-    ],
-    [
-      "B-1",
-      75
-    ],
-    [
-      "C",
-      117
-    ],
-    [
-      "S-1",
-      51
-    ],
-    [
-      "Senior",
-      3
-    ]
+    ["B", 650],
+    ["A", 388],
+    ["C", 345],
+    ["A-2", 57],
+    ["S", 15],
+    ["A-1", 12],
+    ["D", 2]
   ],
   "categories_recent": [
-    [
-      "unknown",
-      12
-    ],
-    [
-      "growth",
-      2
-    ],
-    [
-      "product",
-      1
-    ],
-    [
-      "strategy",
-      1
-    ],
-    [
-      "AI",
-      1
-    ]
+    ["(uncategorized)", 259],
+    ["product_management", 50],
+    ["fintech_payments", 32],
+    ["ecommerce", 23],
+    ["product", 20],
+    ["crypto_exchange", 14],
+    ["cross_border", 9],
+    ["senior_pm", 7],
+    ["tech_giant", 6],
+    ["strategy", 6]
   ],
   "categories_all": [
-    [
-      "general_pm",
-      437
-    ],
-    [
-      "unknown",
-      280
-    ],
-    [
-      "strategy",
-      130
-    ],
-    [
-      "other",
-      107
-    ],
-    [
-      "product management",
-      83
-    ],
-    [
-      "ops",
-      66
-    ],
-    [
-      "product",
-      64
-    ],
-    [
-      "growth",
-      58
-    ],
-    [
-      "cross_border",
-      56
-    ],
-    [
-      "ai_product",
-      47
-    ],
-    [
-      "fintech",
-      32
-    ],
-    [
-      "strategy_ops",
-      32
-    ],
-    [
-      "operations",
-      16
-    ],
-    [
-      "business operations",
-      15
-    ],
-    [
-      "growth_expansion",
-      14
-    ]
+    ["(uncategorized)", 1221],
+    ["product_management", 50],
+    ["fintech_payments", 32],
+    ["strategy", 26],
+    ["ecommerce", 23],
+    ["product", 22],
+    ["general_pm", 20],
+    ["ops", 15],
+    ["crypto_exchange", 14],
+    ["cross_border", 11]
   ],
   "sources_recent": [
-    [
-      "greenhouse_api",
-      10
-    ],
-    [
-      "tencent_careers",
-      2
-    ],
-    [
-      "liepin",
-      2
-    ],
-    [
-      "bytedance",
-      2
-    ],
-    [
-      "careers.airwallex.com",
-      1
-    ]
+    ["greenhouse_api", 172],
+    ["greenhouse", 171],
+    ["greenhouse_coupang", 21],
+    ["linkedin", 19],
+    ["tencent_careers", 11],
+    ["smartrecruiters", 10],
+    ["remoteok", 7],
+    ["greenhouse_agoda", 5],
+    ["greenhouse_bybit", 5],
+    ["lever_crypto", 4]
   ],
   "locations_recent": [
-    [
-      "Singapore",
-      4
-    ],
-    [
-      "Seoul",
-      2
-    ],
-    [
-      "Hong Kong",
-      2
-    ],
-    [
-      "深圳-南山区",
-      2
-    ],
-    [
-      "Bangkok",
-      2
-    ],
-    [
-      "深圳",
-      2
-    ],
-    [
-      "Shanghai",
-      1
-    ],
-    [
-      "Shenzhen",
-      1
-    ],
-    [
-      "Taipei",
-      1
-    ]
+    ["Singapore, Singapore", 50],
+    ["Taipei, Taiwan", 47],
+    ["Singapore", 43],
+    ["Hong Kong, Hong Kong SAR", 29],
+    ["Tokyo, Japan", 25],
+    ["Bangkok, Thailand", 15],
+    ["Kuala Lumpur", 12],
+    ["Hong Kong", 11],
+    ["Shenzhen", 11],
+    ["Kuala Lumpur, Malaysia", 7]
   ],
   "a1_recent_companies": [
-    [
-      "Okx",
-      3
-    ],
-    [
-      "Coupang",
-      2
-    ],
-    [
-      "Tencent",
-      2
-    ],
-    [
-      "Airwallex",
-      1
-    ],
-    [
-      "芯智控股",
-      1
-    ],
-    [
-      "赞德科技(深圳)有限公司",
-      1
-    ]
+    ["Stripe", 2],
+    ["Tencent", 2],
+    ["Cover Genius", 1],
+    ["OKX", 1]
   ],
   "a1_recent_jobs": [
     {
-      "title": "Senior Product Manager, Kai (AI assistant)",
-      "company": "Airwallex",
+      "title": "Senior Director, Partnerships — China Platforms",
+      "company": "Cover Genius",
+      "location": "Hong Kong",
+      "url": "https://hk.linkedin.com/jobs/view/senior-director-partnerships-china-platforms-at-cover-genius-4450207401"
+    },
+    {
+      "title": "Growth Product Manager, Listing Campaign",
+      "company": "OKX",
+      "location": "Hong Kong",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7821266003"
+    },
+    {
+      "title": "Product Strategy & Operations APAC",
+      "company": "Stripe",
       "location": "Singapore",
-      "url": "https://careers.airwallex.com/job/d1ed1a19-4e79-4dc1-843f-949da9a95cca/senior-product-manager-kai-ai-assistant/"
+      "url": "https://job-boards.greenhouse.io/stripe/jobs/8081423"
     },
     {
-      "title": "Principal, FP&A (Rocket Growth)",
-      "company": "Coupang",
-      "location": "Seoul, South Korea",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8037268"
+      "title": "Growth Marketing Manager, Greater China",
+      "company": "Stripe",
+      "location": "Singapore",
+      "url": "https://job-boards.greenhouse.io/stripe/jobs/8078168"
     },
     {
-      "title": "Principal Product Manager (SCM Autonomation)",
-      "company": "Coupang",
-      "location": "Seoul, South Korea",
-      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8037587"
-    },
-    {
-      "title": "Principal / Senior Product Manager, Institution Onboarding Experience (KYB)",
-      "company": "Okx",
-      "location": "Singapore, Singapore",
-      "url": "https://job-boards.greenhouse.io/okx/jobs/6584033003"
-    },
-    {
-      "title": "Principal / Senior Product Manager, Local Market & Growth (Latin America)",
-      "company": "Okx",
-      "location": "Singapore, Singapore",
-      "url": "https://job-boards.greenhouse.io/okx/jobs/7655609003"
-    },
-    {
-      "title": "Product Manager / Director, Structured Products",
-      "company": "Okx",
-      "location": "Hong Kong, Hong Kong SAR",
-      "url": "https://job-boards.greenhouse.io/okx/jobs/7792230003"
-    },
-    {
-      "title": "Senior Strategy Manager",
+      "title": "Expert Community Product Manager",
       "company": "Tencent",
-      "location": "Shanghai, China",
-      "url": "https://careers.tencent.com/en-us/search.html?keyword=strategy&location=Shanghai"
+      "location": "Singapore",
+      "url": "https://careers.tencent.com/en-us/search.html?keyword=Expert+Community+Product+Manager&location=Singapore"
     },
     {
-      "title": "腾讯云音视频产品经理（海外增长策略）",
+      "title": "Senior Manager, Business Strategy & Operations",
       "company": "Tencent",
-      "location": "Shenzhen, China",
-      "url": "https://careers.tencent.com/en-us/jobdesc.html?postId=2061700924304437248"
+      "location": "Shenzhen",
+      "url": "https://careers.tencent.com/en-us/post/2084494611845394432"
     },
     {
-      "title": "产品经理PM（展锐）",
-      "company": "芯智控股",
-      "location": "深圳-南山区",
-      "url": "https://www.liepin.com/job/1971178371.shtml"
-    },
-    {
-      "title": "高级产品经理 Product Manager (Banking)",
-      "company": "赞德科技(深圳)有限公司",
-      "location": "深圳-南山区",
-      "url": "https://www.liepin.com/job/1981270935.shtml"
+      "title": "Senior Strategy Manager (Level Infinite)",
+      "company": "Tencent",
+      "location": "Shanghai",
+      "url": "https://careers.tencent.com/en-us/post/2036281880088838144"
     }
-  ]
+  ],
+  "english_friendly_recent": 255,
+  "director_level_recent": 3,
+  "quality_score_avg": 62.4,
+  "wow_highlights": {
+    "biggest_gainer": "OKX (+75 jobs WoW, 102 total)",
+    "new_entrant": "Bybit (+41 from 0 last week), Flexport (+12), Databricks (+11)",
+    "declining": "Agoda (-18), Stripe (-10)",
+    "grade_shift": "A-2 jobs surged from 0→54, A-1 from 0→7",
+    "location_shift": "Taipei surged to #2 (47 jobs), Tokyo strong at #5 (25 jobs)"
+  }
 }
