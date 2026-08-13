@@ -27728,5 +27728,37 @@
     "posted_date": "2026-07-22",
     "posted": "2026-07-22",
     "date_source": "from_scanned_date"
+  },
+  {
+    "title": "Data Analyst, Payments",
+    "company": "Stripe",
+    "location": "Singapore",
+    "salary": "Not listed",
+    "url": "https://stripe.com/jobs/search?gh_jid=8044924",
+    "source": "greenhouse_stripe",
+    "role_type": "target_profile",
+    "description": "Greenhouse listing for Stripe in Singapore",
+    "scanned_date": "2026-08-13",
+    "posted_date": "2026-08-07T12:28:28-04:00",
+    "english_friendly": true,
+    "quality_tier": "B",
+    "grade": "B-1",
+    "quality_score": 65
+  },
+  {
+    "title": "Principal II, Data Analysis & Staff Data Analyst",
+    "company": "Coupang",
+    "location": "Taipei, Taiwan",
+    "salary": "Not listed",
+    "url": "https://www.coupang.jobs/en/jobs/?gh_jid=7882918",
+    "source": "greenhouse_coupang",
+    "role_type": "target_profile",
+    "description": "Greenhouse listing for Coupang in Taipei, Taiwan",
+    "scanned_date": "2026-08-13",
+    "posted_date": "2026-07-31T05:19:12-04:00",
+    "english_friendly": true,
+    "quality_tier": "B",
+    "grade": "B-1",
+    "quality_score": 65
   }
 ]
