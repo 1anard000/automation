@@ -49,7 +49,8 @@
     "date_source": "from_scanned_date",
     "grade": "A-1",
     "english_friendly": true,
-    "category": "product"
+    "category": "product",
+    "description": "Drive token listing campaigns and go-to-market strategies for new crypto assets on OKX. Coordinate cross-functional launches including marketing, compliance, and trading operations."
   },
   {
     "company": "OKX",
@@ -62,7 +63,8 @@
     "date_source": "from_scanned_date",
     "grade": "A-1",
     "english_friendly": true,
-    "category": "product"
+    "category": "product",
+    "description": "Define product strategy for OKX's AI agent platform, building intelligent trading assistants and automated workflow tools. Lead cross-functional teams to ship AI-powered features for the crypto exchange."
   },
   {
     "company": "OKX",
@@ -75,7 +77,8 @@
     "date_source": "from_scanned_date",
     "grade": "A-1",
     "english_friendly": true,
-    "category": "product"
+    "category": "product",
+    "description": "Own product strategy for OKX's AI-powered Web3 wallet, integrating intelligent features like token swaps, DeFi discovery, and on-chain analytics. Bridge AI capabilities with decentralized finance UX."
   },
   {
     "company": "OKX",
@@ -88,7 +91,8 @@
     "date_source": "from_scanned_date",
     "grade": "A-1",
     "english_friendly": true,
-    "category": "product"
+    "category": "product",
+    "description": "Lead the institutional onboarding experience (KYB) at OKX, streamlining Know Your Business verification and compliance workflows for institutional clients."
   },
   {
     "company": "OKX",
@@ -101,7 +105,8 @@
     "date_source": "from_scanned_date",
     "grade": "A-1",
     "english_friendly": true,
-    "category": "product"
+    "category": "product",
+    "description": "Own the payment product roadmap at OKX, covering fiat on/off-ramps, merchant payments, and crypto-to-fiat settlement across global markets."
   },
   {
     "company": "OKX",
@@ -114,7 +119,8 @@
     "date_source": "from_scanned_date",
     "grade": "A-1",
     "english_friendly": true,
-    "category": "strategy"
+    "category": "strategy",
+    "description": "Lead business intelligence initiatives focused on user growth analytics at OKX. Build data-driven strategies to optimize acquisition, activation, and retention across the platform."
   },
   {
     "company": "OKX",
@@ -127,7 +133,8 @@
     "date_source": "from_scanned_date",
     "grade": "A-1",
     "english_friendly": true,
-    "category": "product"
+    "category": "product",
+    "description": "Own data infrastructure product for on-chain algorithm and search capabilities at OKX. Drive the roadmap for indexing, querying, and analyzing blockchain data at scale."
   },
   {
     "company": "OKX",
@@ -140,7 +147,8 @@
     "date_source": "from_scanned_date",
     "grade": "A-1",
     "english_friendly": true,
-    "category": "product"
+    "category": "product",
+    "description": "Lead data infrastructure product for on-chain Web3 analytics at OKX. Build tools and platforms for real-time blockchain data processing, indexing, and developer APIs."
   },
   {
     "company": "OKX",
@@ -153,7 +161,8 @@
     "date_source": "from_scanned_date",
     "grade": "A-1",
     "english_friendly": true,
-    "category": "product"
+    "category": "product",
+    "description": "Own the DEX trading product at OKX, building the decentralized exchange interface, liquidity aggregation, and cross-chain swap experience for retail and advanced traders."
   },
   {
     "company": "OKX",
@@ -166,7 +175,8 @@
     "date_source": "from_scanned_date",
     "grade": "A-1",
     "english_friendly": true,
-    "category": "product"
+    "category": "product",
+    "description": "Lead the institutional DEX trading product at OKX, designing solutions for market makers, large-volume traders, and institutional DeFi participants."
   },
   {
     "company": "OKX",
@@ -179,7 +189,8 @@
     "date_source": "from_scanned_date",
     "grade": "A-1",
     "english_friendly": true,
-    "category": "strategy"
+    "category": "strategy",
+    "description": "Drive VIP and institutional strategy at OKX, designing loyalty programs, fee structures, and dedicated services to maximize institutional client retention and trading volume."
   },
   {
     "title": "Product Strategy & Operations APAC",
@@ -236,7 +247,8 @@
     "date_source": "from_scanned_date",
     "grade": "A-1",
     "english_friendly": true,
-    "category": "strategy"
+    "category": "strategy",
+    "description": "Build and manage strategic alliances with emerging Global System Integrators at Stripe. Develop partnership programs that expand Stripe's enterprise reach through systems integrator channels."
   },
   {
     "company": "Stripe",
@@ -249,7 +261,8 @@
     "date_source": "from_scanned_date",
     "grade": "A-1",
     "english_friendly": true,
-    "category": "strategy"
+    "category": "strategy",
+    "description": "Lead strategic risk programs for new market expansion at Stripe. Design risk frameworks, fraud prevention strategies, and compliance programs to safely enter new geographies."
   },
   {
     "company": "Stripe",
@@ -262,7 +275,8 @@
     "date_source": "from_scanned_date",
     "grade": "A-1",
     "english_friendly": true,
-    "category": "strategy"
+    "category": "strategy",
+    "description": "Lead strategic programs for new market entry at Stripe. Coordinate cross-functional initiatives to launch payment infrastructure in emerging markets across APAC and beyond."
   },
   {
     "title": "Expert Community Product Manager",
@@ -351,7 +365,8 @@
     "grade": "A-2",
     "date": "2026-08-09",
     "date_source": "from_scanned_date",
-    "posted": "2026-08-09"
+    "posted": "2026-08-09",
+    "description": "Own the data product roadmap at Bybit, building analytics platforms, dashboards, and data tools that enable data-driven decision-making across the crypto exchange."
   },
   {
     "company": "Bybit",
@@ -369,7 +384,8 @@
     "grade": "A-2",
     "date": "2026-08-09",
     "date_source": "from_scanned_date",
-    "posted": "2026-08-09"
+    "posted": "2026-08-09",
+    "description": "Lead platform product development at Bybit, building core infrastructure and shared services that power the exchange's trading, wallet, and Web3 products."
   },
   {
     "title": "Business Development Specialist",
@@ -387,7 +403,8 @@
     "quality_score": 75,
     "date": "2026-08-11",
     "date_source": "from_scanned_date",
-    "posted": "2026-08-11"
+    "posted": "2026-08-11",
+    "description": "Drive business development initiatives at Bybit across APAC, Europe, LATAM, and Middle East. Identify partnership opportunities and grow the exchange's global presence."
   },
   {
     "title": "Fraud Prevention Investigation Lead",
@@ -405,7 +422,8 @@
     "quality_score": 75,
     "date": "2026-08-11",
     "date_source": "from_scanned_date",
-    "posted": "2026-08-11"
+    "posted": "2026-08-11",
+    "description": "Lead fraud prevention investigations at Bybit, managing cross-functional teams to detect and mitigate fraudulent activities across the exchange's global operations."
   },
   {
     "title": "Senior Data Analyst - Growth/Marketing",
@@ -423,7 +441,8 @@
     "quality_score": 75,
     "date": "2026-08-11",
     "date_source": "from_scanned_date",
-    "posted": "2026-08-11"
+    "posted": "2026-08-11",
+    "description": "Drive growth and marketing analytics at Bybit, building data models and dashboards to optimize user acquisition, campaign performance, and marketing spend across channels."
   },
   {
     "company": "Coupang",
@@ -437,7 +456,8 @@
     "category": "ecommerce",
     "date": "2026-08-11",
     "date_source": "from_scanned_date",
-    "posted": "2026-08-11"
+    "posted": "2026-08-11",
+    "description": "Drive product strategy and execution for Coupang's e-commerce platform in Taiwan. Own product roadmap for key shopping features, working closely with engineering and design teams."
   },
   {
     "title": "Accounting Manager (Retail)",
@@ -455,7 +475,8 @@
     "quality_score": 75,
     "date": "2026-08-11",
     "date_source": "from_scanned_date",
-    "posted": "2026-08-11"
+    "posted": "2026-08-11",
+    "description": "Manage retail accounting operations for Coupang Taiwan, overseeing financial reporting, reconciliations, and compliance. Partner with business teams to ensure accurate financial data."
   },
   {
     "title": "Assistant Manager, Catalog Operation Management  商品資訊營運助理經理",
@@ -473,7 +494,8 @@
     "quality_score": 75,
     "date": "2026-08-11",
     "date_source": "from_scanned_date",
-    "posted": "2026-08-11"
+    "posted": "2026-08-11",
+    "description": "Manage catalog operations for Coupang Taiwan, ensuring product data quality, category management, and seller catalog standards across the e-commerce marketplace."
   },
   {
     "title": "CXE(Customer eXperience Escalations) Manager",
@@ -491,7 +513,8 @@
     "quality_score": 75,
     "date": "2026-08-11",
     "date_source": "from_scanned_date",
-    "posted": "2026-08-11"
+    "posted": "2026-08-11",
+    "description": "Lead customer experience escalation management at Coupang Taiwan, resolving complex customer issues and improving service quality processes across the retail operation."
   },
   {
     "title": "Manager, General Administration, Taiwan HQ",
@@ -509,7 +532,8 @@
     "quality_score": 75,
     "date": "2026-08-11",
     "date_source": "from_scanned_date",
-    "posted": "2026-08-11"
+    "posted": "2026-08-11",
+    "description": "Oversee general administration operations at Coupang Taiwan HQ, managing office operations, facilities, and administrative services to support the growing Taiwan team."
   },
   {
     "title": "Manager, Inventory Planning and Management",
@@ -527,7 +551,8 @@
     "quality_score": 75,
     "date": "2026-08-11",
     "date_source": "from_scanned_date",
-    "posted": "2026-08-11"
+    "posted": "2026-08-11",
+    "description": "Lead inventory planning and management for Coupang Taiwan, optimizing stock levels, demand forecasting, and supply chain efficiency across retail categories."
   },
   {
     "title": "Manager, Quality Assurance (IPO)",
@@ -545,7 +570,8 @@
     "quality_score": 75,
     "date": "2026-08-11",
     "date_source": "from_scanned_date",
-    "posted": "2026-08-11"
+    "posted": "2026-08-11",
+    "description": "Manage quality assurance programs at Coupang Taiwan, driving IPO-ready compliance processes, operational audits, and quality standards across the retail business."
   },
   {
     "title": "Manager, Seller Service (Training Manager)",
@@ -27231,7 +27257,8 @@
     "salary_source": "estimation",
     "posted_date": "2026-07-22",
     "posted": "2026-07-22",
-    "date_source": "from_scanned_date"
+    "date_source": "from_scanned_date",
+    "description": "Lead vp product - singapore remote at Remote, driving strategy and execution."
   },
   {
     "title": "Senior / Product Manager - Deal Discovery & Checkout",
@@ -27910,7 +27937,8 @@
     "quality_tier": "B",
     "posted_date": "2026-07-22",
     "posted": "2026-07-22",
-    "date_source": "from_scanned_date"
+    "date_source": "from_scanned_date",
+    "description": "Lead senior compute product architect at Tencent, contributing to one of the world's largest technology companies."
   },
   {
     "title": "Strategy Manager",
@@ -28073,7 +28101,8 @@
     "salary_source": "estimation",
     "posted_date": "2026-07-22",
     "posted": "2026-07-22",
-    "date_source": "from_scanned_date"
+    "date_source": "from_scanned_date",
+    "description": "Lead vp product - singapore remote at Toptal, driving strategy and execution."
   },
   {
     "title": "Head of Product",
@@ -28139,7 +28168,8 @@
     "salary_source": "estimation",
     "posted_date": "2026-07-22",
     "posted": "2026-07-22",
-    "date_source": "from_scanned_date"
+    "date_source": "from_scanned_date",
+    "description": "Lead vp product - remote global at Turing, driving strategy and execution."
   },
   {
     "title": "Head of Expansion (APAC)",

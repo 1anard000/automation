@@ -571,6 +571,22 @@
       "overall": 1.5,
       "improvement": "Added grade distribution + city donut charts to dashboard. Visual analytics upgrade.",
       "subagent": "nightly-improver"
+    },
+    {
+      "timestamp": "2026-08-14T03:00:00+08:00",
+      "scores": {
+        "data_quality": 88.5,
+        "dashboard": 9.2,
+        "career_strategy": 90,
+        "python_scripts": 100,
+        "crm": 8.5,
+        "automation": 8,
+        "coverage": 100
+      },
+      "overall": 94.3,
+      "improvement": "Data quality enrichment: 974 jobs (66%) have empty/short descriptions. Spawning sub-agent to generate brief descriptions for top 30 A/S-grade jobs. Expected data_quality boost 88.5→92+.",
+      "subagent": "builder-desc-enrichment",
+      "dim_improved": "data_quality"
     }
   ],
   "log": [
@@ -732,9 +748,9 @@
     "crm": 8.5,
     "total": 94.3
   },
-  "last_improvement": "Added grade distribution + city donut charts to dashboard",
-  "last_improvement_date": "2026-08-13T06:04:44.988789",
-  "last_updated": "2026-08-13T06:04:44.988786",
+  "last_improvement": "Enriching descriptions for top 30 A/S-grade jobs with empty summaries",
+  "last_improvement_date": "2026-08-14T03:00:00+08:00",
+  "last_updated": "2026-08-14T03:00:00+08:00",
   "history": [
     {
       "date": "2026-08-08",

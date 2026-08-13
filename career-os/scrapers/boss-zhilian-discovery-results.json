@@ -658,5 +658,159 @@
     "salary": "",
     "scanned_date": "2026-08-14",
     "source": "boss-zhilian-websearch"
+  },
+  {
+    "title": "Growth Product Manager, Listing Campaign - OKX",
+    "company": "OKX",
+    "location": "Singapore",
+    "grade": "A-1",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7821265003",
+    "role_type": "Growth/Expansion",
+    "salary": "",
+    "scanned_date": "2026-08-14",
+    "source": "greenhouse-api-okx"
+  },
+  {
+    "title": "Senior Business Intelligence Project Manager (User Growth) - OKX",
+    "company": "OKX",
+    "location": "Singapore",
+    "grade": "A-1",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7762033003",
+    "role_type": "Program/Project Management",
+    "salary": "",
+    "scanned_date": "2026-08-14",
+    "source": "greenhouse-api-okx"
+  },
+  {
+    "title": "(Senior) Data Infra Product Manager, On Chain (Web3) - OKX",
+    "company": "OKX",
+    "location": "Singapore",
+    "grade": "A-1",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7671639003",
+    "role_type": "Product Management",
+    "salary": "",
+    "scanned_date": "2026-08-14",
+    "source": "greenhouse-api-okx"
+  },
+  {
+    "title": "(Senior) Data Infra Product Manager, On Chain (Web3) - OKX",
+    "company": "OKX",
+    "location": "Hong Kong",
+    "grade": "A-1",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7671640003",
+    "role_type": "Product Management",
+    "salary": "",
+    "scanned_date": "2026-08-14",
+    "source": "greenhouse-api-okx"
+  },
+  {
+    "title": "Technical Program Manager - Stripe",
+    "company": "Stripe",
+    "location": "Singapore",
+    "grade": "A-1",
+    "url": "https://stripe.com/jobs/search?gh_jid=8054121",
+    "role_type": "Program/Project Management",
+    "salary": "",
+    "scanned_date": "2026-08-14",
+    "source": "greenhouse-api-stripe"
+  },
+  {
+    "title": "Senior Manager, Strategic Partnerships - Centre of Excellence - Agoda",
+    "company": "Agoda",
+    "location": "Bangkok",
+    "grade": "A-1",
+    "url": "https://job-boards.greenhouse.io/agoda/jobs/8127294",
+    "role_type": "Strategy/Ops",
+    "salary": "",
+    "scanned_date": "2026-08-14",
+    "source": "greenhouse-api-agoda"
+  },
+  {
+    "title": "Technical Program Manager - Databricks",
+    "company": "Databricks",
+    "location": "Singapore",
+    "grade": "A-1",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8654620002",
+    "role_type": "Program/Project Management",
+    "salary": "",
+    "scanned_date": "2026-08-14",
+    "source": "greenhouse-api-databricks"
+  },
+  {
+    "title": "Staff Product Manager - Flexport",
+    "company": "Flexport",
+    "location": "Hong Kong; Shanghai; Shenzhen",
+    "grade": "A-1",
+    "url": "https://job-boards.greenhouse.io/flexport/jobs/8022960",
+    "role_type": "Product Management",
+    "salary": "",
+    "scanned_date": "2026-08-14",
+    "source": "greenhouse-api-flexport"
+  },
+  {
+    "title": "Staff Product Manager - Flexport",
+    "company": "Flexport",
+    "location": "Shenzhen",
+    "grade": "A-1",
+    "url": "https://job-boards.greenhouse.io/flexport/jobs/8011493",
+    "role_type": "Product Management",
+    "salary": "",
+    "scanned_date": "2026-08-14",
+    "source": "greenhouse-api-flexport"
+  },
+  {
+    "title": "Data Product Manager - Bybit",
+    "company": "Bybit",
+    "location": "Singapore",
+    "grade": "A-1",
+    "url": "https://job-boards.greenhouse.io/bybit/jobs/7702485003",
+    "role_type": "Product Management",
+    "salary": "",
+    "scanned_date": "2026-08-14",
+    "source": "greenhouse-api-bybit"
+  },
+  {
+    "title": "Staff Product Manager (Risk & Compliance) - Bybit",
+    "company": "Bybit",
+    "location": "Singapore",
+    "grade": "A-1",
+    "url": "https://job-boards.greenhouse.io/bybit/jobs/7681201003",
+    "role_type": "Product Management",
+    "salary": "",
+    "scanned_date": "2026-08-14",
+    "source": "greenhouse-api-bybit"
+  },
+  {
+    "title": "Operations Strategy Manager - Bybit",
+    "company": "Bybit",
+    "location": "Singapore",
+    "grade": "A-1",
+    "url": "https://job-boards.greenhouse.io/bybit/jobs/7557050003",
+    "role_type": "Strategy/Ops",
+    "salary": "",
+    "scanned_date": "2026-08-14",
+    "source": "greenhouse-api-bybit"
+  },
+  {
+    "title": "Strategy & Operations Manager - Block",
+    "company": "Block",
+    "location": "Singapore",
+    "grade": "A-1",
+    "url": "https://job-boards.greenhouse.io/block/jobs/11652782",
+    "role_type": "Strategy/Ops",
+    "salary": "",
+    "scanned_date": "2026-08-14",
+    "source": "greenhouse-api-block"
+  },
+  {
+    "title": "Product Manager, Adyen for Platforms - Adyen",
+    "company": "Adyen",
+    "location": "Hong Kong",
+    "grade": "A-1",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/7979100",
+    "role_type": "Product Management",
+    "salary": "",
+    "scanned_date": "2026-08-14",
+    "source": "greenhouse-api-adyen"
   }
 ]

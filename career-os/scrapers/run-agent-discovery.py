@@ -65,7 +65,23 @@ BOARDS = [
     "okx", "stripe", "coinbase", "twilio", "coupang", "agoda", "databricks", "anthropic",
     # Tier 2 — moderate
     "flexport", "postman", "figma", "cloudflare", "bitmex", "xendit", "bybit", "airbnb",
-    "payoneer", "braze", "gemini", "sendbird", "vercel"
+    "payoneer", "braze", "gemini", "sendbird", "vercel",
+    # Tier 3 — additional APAC/geo roles
+    "nium", "tron", "canva", "atlassian", "grab", "gojek", "sea-limited", "shopee",
+    "tiktok", "bytedance", "xiaohongshu", "lalamove", "goaffpro", "worq", "pomelo",
+    " Aspire", " Aspireapp", " Aspire-app", "endorse", "moladin", "advance-ai",
+    "advance", "finaccel", "kredivo", "akulaku", "opentrons", "ourea", "pernod-ricard",
+    "axa", "hsbc", "standardchartered", "jpmorgan", "goldmansachs", "morganstanley",
+    "dbsbank", "ocbc", "uob", "icbc", "bankofchina", "citi", "deutschebank",
+    "dell", "hp", "cisco", "oracle", "sap", "salesforce", "servicenow", "workday",
+    "adobe", "autodesk", "intuit", "square", "block", "plaid", "wise", "remitly",
+    "airwallex", "rapyd", "checkout", "marqeta", "adyen", "fiserv", "worldpay",
+    "booking", "expedia", "trip-com", "trip", "kkday", "klook", "getyourguide",
+    "lazada", "zalora", "qoo10", "tokopedia", "bukalapak", "jd-central", "central-group",
+    "miniso", "popmart", "skechers", "lululemon", "nike", "adidas", "puma",
+    "siemens", "bosch", "philips", "ge", "honeywell", "johnson-controls",
+    " nestle", "pepsico", "cocacola", "unilever", "procter-gamble", "pg-careers",
+    "gsk", "pfizer", "roche", "novartis", "sanofi", "astrazeneca", "merck",
 ]
 
 # --- Helpers ---
