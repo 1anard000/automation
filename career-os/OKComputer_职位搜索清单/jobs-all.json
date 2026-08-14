@@ -21179,5 +21179,29 @@
     "scanned_date": "2026-08-14",
     "source": "greenhouse",
     "yoe_note": "yoe-unspecified"
+  },
+  {
+    "title": "Senior Talent Program Manager",
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "grade": "A-2",
+    "url": "https://www.coinbase.com/careers/positions/8126484?gh_jid=8126484",
+    "role_type": "Program Management",
+    "salary": "",
+    "scanned_date": "2026-08-15",
+    "source": "greenhouse",
+    "yoe_note": "yoe-soft:5-12"
+  },
+  {
+    "title": "Sr. Strategy & Operations Analyst, Deal Desk",
+    "company": "Twilio",
+    "location": "Remote - US",
+    "grade": "A-2",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8128863",
+    "role_type": "Strategy/Ops",
+    "salary": "",
+    "scanned_date": "2026-08-15",
+    "source": "greenhouse",
+    "yoe_note": "yoe-soft:5-12"
   }
 ]
