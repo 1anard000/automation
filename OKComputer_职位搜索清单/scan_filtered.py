@@ -1,35 +1,56 @@
 #!/usr/bin/env python3
-"""Scan Greenhouse job boards for new positions."""
+"""
+Greenhouse scanner - filtered for Senior PM / Strategy / BizOps / Growth / GM roles.
+Only outputs jobs that match the target profile.
+"""
 import json
 import urllib.request
 import sys
+import os
+import re
 
 COMPANIES = {
     "okx": "https://boards-api.greenhouse.io/v1/boards/okx/jobs",
     "stripe": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs",
-    "airwallex": "https://boards-api.greenhouse.io/v1/boards/airwallex/jobs",
     "coupang": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs",
     "bybit": "https://boards-api.greenhouse.io/v1/boards/bybit/jobs",
 }
 
-KEYWORDS_PM = [
-    "product manager", "product management", "senior product",
-    "principal product", "growth product", "strategy", "operations",
-    "business development", "bizops", "business strategy",
-    "growth", "lead", "head of", "gm", "general manager",
-    "program manager", "project manager", "data product",
+# Strong match: these titles ARE the target
+STRONG_KEYWORDS = [
+    "product manager",
+    "product management",
+    "business strategy",
+    "business development manager",
+    "growth product",
+    "growth manager",
+    "strategy project manager",
+    "strategy manager",
+    "business operations",
+    "bizops",
+    "general manager",
 ]
 
-SKIP_KEYWORDS = ["intern", "internship", "director", "vp ", "vice president", "managing director", "chief", "c-level"]
-
-# Locations of interest
+# Location keywords
 LOCATION_KEYWORDS = [
     "singapore", "hong kong", "shenzhen", "guangzhou", "shanghai",
     "taipei", "malaysia", "kuala lumpur", "apac", "asia",
+    "southeast asia", "remote",
 ]
 
-def fetch_jobs(company, base_url, max_pages=5):
-    """Fetch jobs from a Greenhouse board (max pages to avoid timeout)."""
+# Exclude these roles
+EXCLUDE_KEYWORDS = [
+    "designer", "engineer", "developer", "sre", "devops", "hrbp",
+    "compliance", "aml", "legal", "recruiter", "talent", "head of hr",
+    "head of organization", "test development", "techops", "security",
+    "data scientist", "data analyst", "backend", "frontend", "blockchain",
+    "infrastructure", "finance manager", "accounting", "catalog",
+    "audit", "wholesale", "communications", "pr ", "total rewards",
+    "custody operations", "card operations", "b2b payment risk",
+]
+
+def fetch_jobs(company, base_url, max_pages=3):
+    """Fetch jobs from a Greenhouse board."""
     jobs = []
     for page in range(max_pages):
         url = f"{base_url}?page={page}"
@@ -38,44 +59,43 @@ def fetch_jobs(company, base_url, max_pages=5):
             with urllib.request.urlopen(req, timeout=15) as resp:
                 data = json.loads(resp.read())
         except Exception as e:
-            print(f"  Error fetching {company} page {page}: {e}", file=sys.stderr)
+            print(f"  Error {company} p{page}: {e}", file=sys.stderr)
             break
-        
         batch = data.get("jobs", [])
         if not batch:
             break
         jobs.extend(batch)
         if len(batch) < 50:
             break
-    
     return jobs
 
 def is_relevant(job):
-    """Check if job matches our target profile."""
+    """Strict filter for target profile."""
     title = job.get("title", "").lower()
     location = job.get("location", {}).get("name", "").lower()
     
-    # Skip interns and director/VP
-    for skip in SKIP_KEYWORDS:
-        if skip in title:
+    # Exclude unwanted roles
+    for ex in EXCLUDE_KEYWORDS:
+        if ex in title:
             return False
     
-    # Must match at least one keyword
-    matches_keyword = any(kw in title for kw in KEYWORDS_PM)
-    if not matches_keyword:
+    # Must match strong keyword
+    matches = any(kw in title for kw in STRONG_KEYWORDS)
+    if not matches:
         return False
     
-    # Must be in a relevant location
-    matches_location = any(loc in location for loc in LOCATION_KEYWORDS)
-    if not matches_location:
+    # Must be in target location
+    loc_match = any(loc in location for loc in LOCATION_KEYWORDS)
+    if not loc_match:
         return False
     
     return True
 
 def main():
     # Load existing jobs
+    db_path = "/Users/iancolrick/.openclaw/workspace/OKComputer_职位搜索清单/jobs-all.json"
     try:
-        with open("/Users/iancolrick/.openclaw/workspace/OKComputer_职位搜索清单/jobs-all.json") as f:
+        with open(db_path) as f:
             existing = json.load(f)
     except:
         existing = []
@@ -92,12 +112,13 @@ def main():
     for company, base_url in COMPANIES.items():
         print(f"Scanning {company}...", file=sys.stderr)
         jobs = fetch_jobs(company, base_url)
-        print(f"  Found {len(jobs)} total jobs", file=sys.stderr)
+        print(f"  Total: {len(jobs)}, matching...", file=sys.stderr)
         
-        relevant = [j for j in jobs if is_relevant(j)]
-        print(f"  Relevant: {len(relevant)}", file=sys.stderr)
-        
-        for job in relevant:
+        count = 0
+        for job in jobs:
+            if not is_relevant(job):
+                continue
+            
             gid = job.get("id")
             if gid in existing_ids:
                 continue
@@ -108,8 +129,10 @@ def main():
             if url in existing_urls:
                 continue
             
+            company_name = company.upper() if company in ("okx",) else company.title()
+            
             entry = {
-                "company": company.title() if company != "okx" else "OKX",
+                "company": company_name,
                 "title": job.get("title", ""),
                 "location": location,
                 "url": url,
@@ -121,14 +144,25 @@ def main():
                 "english_friendly": True,
                 "category": "product",
                 "grade": "A-1",
-                "description": job.get("content", "")[:500] if job.get("content") else "",
+                "description": "",
             }
             new_jobs.append(entry)
+            count += 1
+            print(f"  NEW: {company_name} - {job.get('title','')} @ {location}", file=sys.stderr)
+        
+        print(f"  New relevant: {count}", file=sys.stderr)
     
-    print(f"\nNew jobs found: {len(new_jobs)}", file=sys.stderr)
+    # Deduplicate by greenhouse_id
+    seen = set()
+    deduped = []
+    for j in new_jobs:
+        gid = j.get("greenhouse_id")
+        if gid not in seen:
+            seen.add(gid)
+            deduped.append(j)
     
-    # Output as JSON to stdout
-    print(json.dumps(new_jobs, indent=2, ensure_ascii=False))
+    print(f"\nTotal new (deduplicated): {len(deduped)}", file=sys.stderr)
+    print(json.dumps(deduped, indent=2, ensure_ascii=False))
 
 if __name__ == "__main__":
     main()
