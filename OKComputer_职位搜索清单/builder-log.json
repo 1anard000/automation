@@ -3,7 +3,7 @@
     {
       "date": "2026-08-15",
       "action": "normalize-cities",
-      "detail": "93\u21921444 jobs with city_normalized (97% coverage). Added normalize-cities-v2.py script. Rebuilt dashboard + CRM dashboard.",
+      "detail": "93→1444 jobs with city_normalized (97% coverage). Added normalize-cities-v2.py script. Rebuilt dashboard + CRM dashboard.",
       "scores": {
         "data_quality": 8,
         "dashboard": 7,
@@ -19,6 +19,19 @@
       "detail": "Sub-agent spawned to refresh career-strategy.md with current data (1,491 jobs vs stale 1,378). Strategy was lowest score (5).",
       "scores": {
         "data_quality": 8,
+        "dashboard": 7,
+        "career_hub": 6,
+        "scripts": 7,
+        "coverage": 7,
+        "strategy": 5
+      }
+    },
+    {
+      "date": "2026-08-15",
+      "action": "grade-and-rescore",
+      "detail": "Graded 8 ungraded jobs + rescored 560 jobs with missing quality_score. 1491 jobs fully scored. Avg score 71.4, 619 A-tier, 688 B-tier.",
+      "scores": {
+        "data_quality": 9,
         "dashboard": 7,
         "career_hub": 6,
         "scripts": 7,
