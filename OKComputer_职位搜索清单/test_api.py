@@ -1,20 +1,28 @@
 #!/usr/bin/env python3
-import json
+"""Debug: test Greenhouse API endpoints."""
 import urllib.request
-import urllib.error
-import ssl
+import json
 import sys
 
-def fetch_jobs(company):
-    url = f"https://boards-api.greenhouse.io/v1/jobs/{company}"
-    try:
-        ctx = ssl.create_default_context()
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req, timeout=10, context=ctx) as resp:
-            return json.loads(resp.read().decode('utf-8'))
-    except Exception as e:
-        return {"error": str(e)}
+urls = [
+    "https://boards-api.greenhouse.io/v1/jobs/okx",
+    "https://boards-api.greenhouse.io/v1/boards/okx/jobs",
+    "https://boards-api.greenhouse.io/v1/boards/okx",
+]
 
-# Test with just one company
-result = fetch_jobs('okx')
-print(json.dumps(result, indent=2)[:2000])
+for url in urls:
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = resp.read()
+            parsed = json.loads(data)
+            if isinstance(parsed, dict):
+                print(f"OK: {url} -> keys: {list(parsed.keys())[:10]}")
+                if "jobs" in parsed:
+                    print(f"  Jobs count: {len(parsed['jobs'])}")
+            elif isinstance(parsed, list):
+                print(f"OK: {url} -> list of {len(parsed)} items")
+            else:
+                print(f"OK: {url} -> type: {type(parsed)}")
+    except Exception as e:
+        print(f"ERR: {url} -> {e}")
