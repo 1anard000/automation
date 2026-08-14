@@ -1,29 +1,33 @@
-# 📊 Career Strategy Report — Week of August 10, 2026
+# 📊 Career Strategy Report — Week of August 15, 2026
 
-Generated: Monday, August 10, 2026 4:00 AM (Asia/Shanghai)
+Generated: Saturday, August 15, 2026 3:00 AM (Asia/Shanghai)
 
 ---
 
 ## 📊 Market Pulse
 
 ### Database Overview
-- **Total jobs tracked:** 1,378
-- **A-tier (high quality):** 313 (22.7%)
-- **A-1 (perfect fit):** 9 roles
-- **English-friendly:** 686 (49.8%)
-- **Recently scanned (August):** 506
+- **Total jobs tracked:** 1,491
+- **A-tier (high quality):** 377 (25.3%)
+- **A-1 (perfect fit):** 34 roles
+- **S-tier (exceptional):** 15 roles
+- **English-friendly:** 802 (53.8%)
+- **Recently scanned (August):** 663
 
 ### Sector Heat Map
 
-| Sector | Heat | Companies Actively Hiring |
-|--------|------|--------------------------|
-| **Crypto/Fintech** | 🔥🔥🔥 | OKX (192), Bybit (43), Crypto.com (15), BitGo, Fireblocks, OSL |
-| **Cross-border E-commerce** | 🔥🔥🔥 | Coupang (145), ShopBack, Xendit, Flexport |
-| **AI/ML Products** | 🔥🔥🔥 | Anthropic (94), ByteDance (34), OKX (AI roles), Agoda (AI) |
-| **Global Payments** | 🔥🔥 | Stripe (217), Airwallex (18), Adyen (17), Payoneer (15) |
-| **Travel/Hospitality** | 🔥🔥 | Agoda (185), Airbnb (25) |
-| **Developer Tools/SaaS** | 🔥 | Gitlab (15), Databricks (16), Datadog (14) |
-| **Tencent Ecosystem** | 🔥 | Tencent (35), with multiple Shenzhen roles |
+| Sector | Heat | Jobs | English-Friendly | A-1 Roles | Key Companies |
+|--------|------|------|------------------|-----------|---------------|
+| **Crypto/Fintech** | 🔥🔥🔥 | 288 | 147 (51%) | 18 | OKX (219), Bybit (51), Crypto.com (7), Binance, Coinbase |
+| **Global Payments** | 🔥🔥🔥 | 282 | 192 (68%) | 7 | Stripe (227), Airwallex (15), Adyen (17), Payoneer (15) |
+| **Cross-border E-commerce** | 🔥🔥🔥 | 240 | 158 (66%) | 1 | Coupang (209), Flexport (13), Xendit (13) |
+| **Travel/Hospitality** | 🔥🔥🔥 | 212 | 73 (34%) | 1 | Agoda (186), Airbnb (26) |
+| **AI/ML Products** | 🔥🔥🔥 | 115 | 92 (80%) | 0 | Anthropic (94), Databricks (16), Mixpanel (5) |
+| **Big Tech Ecosystem** | 🔥🔥 | 93 | 45 (48%) | 2 | Tencent (37), ByteDance (34), Amazon (4) |
+| **Developer Tools/SaaS** | 🔥🔥 | 59 | 8 (14%) | 0 | Gitlab (15), Cloudflare (9), Figma (9) |
+| **Fintech/Banking** | 🔥 | 32 | 19 (59%) | 0 | Affirm (25), Mercury (6) |
+| **Super-app** | 🔥 | 27 | 19 (70%) | 0 | Grab (27) |
+| **Social/Creative** | · | 16 | 4 (25%) | 2 | Pinterest (16) |
 
 ### Salary Benchmarks (Senior/Director, 2026 est.)
 
@@ -36,11 +40,11 @@ Generated: Monday, August 10, 2026 4:00 AM (Asia/Shanghai)
 | **Remote (US)** | $150-200K/yr | $200-300K/yr | $300-450K/yr |
 
 ### Key Trends This Week
-1. **Crypto bull cycle hiring surge** — OKX alone has 192 open roles, aggressively hiring product directors and growth leads in HK/SG
-2. **AI integration into every product** — "AI" appears in 30%+ of senior product roles; companies want PMs who can ship AI features, not just "AI PMs"
-3. **Cross-border payments/commerce is THE hot combo** — Stripe, Airwallex, Adyen, Xendit all hiring APAC expansion roles
-4. **Coupang expanding beyond Korea** — 145 roles across Seoul, Taipei, Tokyo, Shanghai, Bengaluru — strong cross-border DNA
-5. **Agoda relocating aggressively to Bangkok** — 185 roles, many with relocation packages, English-friendly
+1. **OKX dominates A-1 count** — 15 A-1 roles (44% of all A-1), concentrated in HK and SG. AI + DEX + Payments are the hottest product lines.
+2. **Crypto hiring accelerating** — 288 crypto/fintech jobs, 18 A-1 roles. Bybit growing fast (51 roles, 2 A-1 in KL).
+3. **Stripe expanding APAC aggressively** — 227 total roles, 7 A-1, new markets focus (Singapore, Greater China). Product Strategy & Operations APAC is a fresh A-1.
+4. **AI integration is table stakes** — 115 pure AI/ML jobs, but AI appears in 30%+ of senior PM roles across all sectors. "AI Agent" is the new hot keyword (OKX, Binance, Grab, Airwallex).
+5. **Coupang scale** — 209 roles with 135 A-tier, but mostly Seoul-based (Korean language barrier). Taipei and Shanghai roles more accessible.
 
 ---
 
@@ -48,78 +52,86 @@ Generated: Monday, August 10, 2026 4:00 AM (Asia/Shanghai)
 
 ### Tier 1: Apply Immediately (perfect alignment)
 
-#### 1. **OKX** 🏆 (192 roles — largest employer in database)
-- **Why:** Massive hiring push across HK and SG, English-friendly, crypto+AI+product
-- **Top roles to apply:**
-  - Product Manager / Director, Event Contracts (Singapore)
-  - Product Manager / Director, Financial Products (Hong Kong)
-  - Product Manager / Director, Trading Products (Hong Kong)
-  - Principal / Senior Product Manager, APAC Growth (Hong Kong)
-  - Senior/Principal Product Manager, DEX Trading (Hong Kong)
-  - Growth Product Manager, Listing Campaign (Hong Kong)
-  - AI Enablement PMO Director (Singapore)
-- **Recent signals:** Multiple Director-level product roles open simultaneously = building new product lines. AI & Web3 wallet role is fresh (Aug 8).
-- **Connection strategy:** Search for OKX product leaders on LinkedIn — look for "Product Director" or "Head of Product" in HK/SG. They're growing fast so hiring managers likely responsive.
+#### 1. **OKX** 🏆 (219 roles — largest A-1 employer)
+- **Why:** 15 A-1 roles, 103 A-tier total. Massive hiring push in HK and SG, English-friendly, crypto+AI+product intersection.
+- **Top A-1 roles to apply:**
+  - Principal/Senior Product Manager, AI and Agent (HK)
+  - Principal/Senior Product Manager, AI & Web3 Wallet (HK)
+  - Principal / Senior Product Manager, Payment (SG)
+  - Senior/Principal Product Manager, DEX Trading (HK)
+  - Growth Product Manager, Listing Campaign (HK)
+  - Principal / Senior Product Manager, Institution Onboarding KYB (HK)
+  - (Senior) Data Infra Product Manager, On Chain (Web3) (HK)
+  - Senior Strategy Project Manager, VIP/Institutions (HK)
+  - Senior Growth Manager, SEA (Remote)
+- **Recent signals:** Multiple Director-level product roles open simultaneously = building new product lines. AI & Agent roles are fresh (Aug 8).
+- **Connection strategy:** Search for OKX product leaders on LinkedIn — "Product Director" or "Head of Product" in HK/SG. They're growing fast so hiring managers likely responsive.
 
-#### 2. **ByteDance/TikTok** (34 roles — strategic hires in SG)
-- **Why:** Global Payment team in Singapore is actively hiring PMs. Cross-border e-commerce DNA.
-- **Top roles:**
-  - Card Growth & Loyalty Product Manager - Global Payment (Singapore)
-  - Growth Strategy Product Manager - Global Payment (Singapore)
-  - Financial Services Strategy Lead (SG) - Global Payment (Singapore)
-  - Strategy Manager - BytePlus (Singapore)
-  - Card Issuance Product Manager Lead - Global Payment (Singapore)
-- **Why for you:** Your cross-border e-commerce + AI product experience maps directly to Global Payment roles.
-
-#### 3. **Stripe** (217 roles — largest total, selective APAC)
-- **Why:** Global payments infrastructure, APAC expansion happening
-- **Top roles:**
+#### 2. **Stripe** (227 roles — largest total, 7 A-1)
+- **Why:** Global payments infrastructure, 7 A-1 roles focused on APAC expansion.
+- **Top A-1 roles:**
+  - Product Strategy & Operations APAC (Singapore) — fresh A-1
+  - Head of Strategic Risk Programs, New Markets (Singapore)
   - Strategic Programs Lead, New Markets (Singapore)
-  - Head of Marketing, Southeast Asia (Singapore)
-  - Head of Sales, Stripe Billing - APAC (Sydney/Singapore)
-  - Staff Product Manager, Global Expansion (Bengaluru)
-  - Full Stack Engineer, Growth (Singapore)
+  - Global Strategic Alliances Lead, Emerging GSIs (Remote US)
+  - Growth Marketing Manager, Greater China (Singapore)
+  - Sales Strategy & Operations Business Partner (Sydney)
+  - Fraud Operations Manager, Mandarin-speaking (Singapore)
 - **Connection strategy:** Stripe Singapore office is growing. Look for "Head of APAC" or regional GM on LinkedIn.
+
+#### 3. **ByteDance** (34 roles — Global Payment team in SG)
+- **Why:** Global Payment team actively hiring PMs with cross-border DNA.
+- **Top A-tier roles:**
+  - Card Growth & Loyalty Product Manager - Global Payment (Singapore)
+  - Payment Solution Product Manager - Global Payment (Singapore)
+  - Product Manager, Risk Strategy and Operation, BRIC (Singapore)
+  - Product Policy Manager, GenAI and Emerging Products (Singapore)
+  - AI策略产品经理 - AI创新业务 (Shanghai)
+  - AI产品经理 - ArkClaw (Shanghai)
+- **Why for you:** Cross-border e-commerce + AI product experience maps directly to Global Payment roles.
 
 ### Tier 2: High-Value Targets
 
-#### 4. **Coupang** (145 roles — cross-border e-commerce leader)
-- **Why:** Expanding aggressively across Asia. Taipei, Shanghai, Tokyo, Seoul all hiring.
-- **Top roles:**
-  - Director, Product Management (Seoul)
-  - Director of Product Management - Partners Programmatic (Seoul)
-  - Senior Director, Sales Strategy & Operations (Seoul)
-  - Principal Product Manager - Discovery & Onboarding (Taipei)
-  - Lead Product Manager (Taipei)
-  - Senior Strategy and Performance Lead (Tokyo)
-- **Note:** Many roles in Seoul require Korean. But Shanghai and Taipei roles may be more English-accessible.
+#### 4. **Bybit** (51 roles — 2 A-1, crypto growth)
+- **Why:** Fast-growing crypto exchange, 2 A-1 roles in KL, English-friendly.
+- **Top A-1 roles:**
+  - Data Product Manager (Kuala Lumpur)
+  - Platform Product Manager (Kuala Lumpur)
+- **Note:** KL location = lower cost of living, but may limit networking vs HK/SG.
 
-#### 5. **Airwallex** (18 roles — cross-border payments fintech)
-- **Why:** APAC-native fintech, strong Shenzhen/Singapore presence
-- **Top roles:**
-  - Senior Product Manager, Kai (AI assistant) (Singapore)
-  - Staff Product Manager, AI Growth (SF/Singapore)
-  - Staff Product Manager, Check-Out (SF/Singapore)
-  - Senior Product Manager, Payment Fraud (Singapore)
+#### 5. **Tencent** (37 roles — 2 A-1, Shenzhen + SG)
+- **Why:** 2 A-1 roles: Expert Community PM (Singapore), Senior Manager Business Strategy (Shenzhen).
+- **Top A-tier roles:**
+  - Senior Business Development Manager (Shenzhen)
+  - Senior Strategy Manager (Shanghai)
+  - Strategy Manager (Shenzhen)
+  - Tencent Cloud - Senior Strategic Sales Executive, GenAI (Singapore)
+- **Note:** Strong Shenzhen presence, English-friendly roles in SG.
+
+#### 6. **Airwallex** (15 roles — cross-border payments fintech)
+- **Why:** 1 A-1: Senior Product Manager, Kai (AI assistant) in Singapore. AI + payments intersection.
+- **Also notable:** Director, Product Strategy (SG), Associate Director Product Strategy Payments (SG).
 - **Why for you:** "AI assistant" PM role is perfect intersection of AI + product. APAC-focused.
 
-#### 6. **Grab** (15 roles — Southeast Asia super-app)
-- **Why:** Principal PM, AI role in Singapore. Super-app ecosystem = cross-border commerce exposure.
+#### 7. **Grab** (27 roles — Southeast Asia super-app)
+- **Why:** 2 A-tier roles in Singapore, including Principal PM, AI Enablement.
 - **Top role:** Principal Product Manager, AI Enablement (Singapore)
+- **Also:** Senior Product Management Leader - Mobility Dispatch, Fulfilment (Singapore)
 
-#### 7. **Adyen** (17 roles — global payments)
-- **Why:** Head of Sales, Singapore. Cross-border payment infrastructure.
-- **Top role:** Head of Sales, Singapore
+#### 8. **Coupang** (209 roles — cross-border e-commerce leader, 135 A-tier)
+- **Why:** Massive scale but mostly Seoul-based. Taipei and Shanghai roles more English-accessible.
+- **Note:** Strong A-tier count (135) suggests quality roles, but Korean language requirement limits many positions.
 
 ### Tier 3: Strategic Long-Shots
 
-#### 8. **Tencent** (35 roles — multiple Shenzhen + Shanghai)
-- **Why:** Multiple senior strategy roles in Shenzhen and Shanghai. "Expert Community Product Manager" (Singapore). Strong cross-border play.
+#### 9. **Pinterest** (16 roles — 2 A-1)
+- **Why:** 2 A-1 roles focused on Greater China growth from Singapore.
 - **Top roles:**
-  - Senior Business Development Manager (Shenzhen)
-  - Senior Strategy Manager (Shanghai)
-  - Senior Manager, Business Strategy & Operations (Shenzhen)
-  - Expert Community Product Manager (Singapore)
+  - Senior Industry Manager (Growth) - Greater China Region (Singapore)
+  - Sr. Client Account Manager (Growth) - Greater China Region (Singapore)
+
+#### 10. **Binance** (Singapore AI Agent role)
+- **Why:** 1 A-1: Product Manager, AI Agent & Harness (Singapore). AI + Web3 intersection.
 
 ---
 
@@ -127,13 +139,13 @@ Generated: Monday, August 10, 2026 4:00 AM (Asia/Shanghai)
 
 ### Top Skills Demanded in A-1 Roles
 
-1. **AI/ML Product Integration** — Not "AI PM" but "PM who ships AI-powered features" (OKX, ByteDance, Agoda, Airwallex)
+1. **AI/ML Product Integration** — Not "AI PM" but "PM who ships AI-powered features" (OKX AI Agent, Binance AI Agent, Grab AI Enablement, Airwallex Kai)
 2. **Cross-border/Payments** — Regulatory knowledge, multi-market product launches (Stripe, Airwallex, Adyen, Xendit)
-3. **Growth/Product-Led Growth** — User acquisition, retention, monetization (OKX, Coupang, Grab)
-4. **Crypto/Web3 Literacy** — Even non-crypto companies expect blockchain awareness (OKX, Bybit, Crypto.com)
-5. **APAC Market Entry** — Market expansion strategy, localization, partnership development (Unlimit, Stripe, Adyen)
-6. **Data-Driven Strategy** — Analytics, experimentation, metrics ownership (Coupang, Agoda, ByteDance)
-7. **English-First Communication** — 50% of roles explicitly English-friendly
+3. **Growth/Product-Led Growth** — User acquisition, retention, monetization (OKX Growth PM, Pinterest Growth)
+4. **Crypto/Web3 Literacy** — Even non-crypto companies expect blockchain awareness (OKX, Bybit, Binance, Ceffu, Triple-A)
+5. **APAC Market Entry** — Market expansion strategy, localization, partnership development (Stripe New Markets, Cover Genius China Platforms)
+6. **Data-Driven Strategy** — Analytics, experimentation, metrics ownership (Bybit Data PM, OKX Data Infra PM)
+7. **English-First Communication** — 54% of roles explicitly English-friendly; 80% of AI/ML roles are English-friendly
 
 ### How to Position: Cross-Border + AI Combo
 
@@ -142,71 +154,78 @@ Generated: Monday, August 10, 2026 4:00 AM (Asia/Shanghai)
 
 **Resume/LinkedIn optimization:**
 - **Headline:** "Cross-Border Commerce × AI Product Leader | APAC Expansion | 9 Years at Global Tech"
-- **Keywords to include:** cross-border payments, marketplace strategy, AI product, GTM, APAC expansion, international growth, product-led growth, data-driven
+- **Keywords to include:** cross-border payments, marketplace strategy, AI product, GTM, APAC expansion, international growth, product-led growth, data-driven, Web3, AI Agent
 - **Frame China experience as asset:** "Deep understanding of China's tech ecosystem + ability to operate in English-first global companies"
 - **Quantify cross-border impact:** Revenue per market, expansion timelines, partnership revenue
 
 ### Specific Positioning Angles by Company:
 - **OKX:** "AI-powered crypto product experience + APAC growth expertise"
-- **ByteDance Global Payment:** "Cross-border commerce + payment product strategy at scale"
 - **Stripe:** "International expansion + fintech infrastructure experience"
+- **ByteDance Global Payment:** "Cross-border commerce + payment product strategy at scale"
 - **Airwallex:** "Cross-border payments + AI product intersection"
-- **Coupang:** "E-commerce marketplace strategy + regional expansion"
+- **Tencent:** "China ecosystem + international product strategy"
+- **Grab:** "Super-app ecosystem + AI enablement at scale"
 
 ---
 
 ## ⚠️ Market Signals
 
 ### Watch Closely
-- **OKX hiring surge** — 192 roles suggests either massive expansion or backfilling. Check Glassdoor for recent layoff news before applying.
+- **OKX hiring surge** — 219 roles with 15 A-1 suggests either massive expansion or backfilling. Check Glassdoor for recent layoff news before applying.
 - **Crypto regulation shifts** — HK tightening, SG updating MAS frameworks. Could slow hiring in Q3.
 - **ByteDance restructuring** — TikTok global strategy still in flux. Global Payment team seems stable though.
+- **Coupang scale vs accessibility** — 209 roles sound impressive but Korean-language barrier limits most to Seoul-based candidates.
 
 ### Emerging Sectors Gaining Momentum
-1. **AI Agents / Agentic AI** — OKX "AI Agent Products," Airwallex "Kai (AI assistant)," Agoda "AI & Automation"
+1. **AI Agents / Agentic AI** — OKX "AI and Agent," Binance "AI Agent & Harness," Grab "AI Enablement," Airwallex "Kai (AI assistant)"
 2. **Tokenized Assets / RWA** — OKX "Tokenized Stocks/Equity Trading," "RWA Partnerships"
 3. **Cross-border Crypto Payments** — OSL/OKX "B2B Cross-Border Crypto Payments" (Shenzhen!)
 4. **Embedded Finance** — Fintech APIs, BaaS, card issuing (Citi, Stripe, Airwallex)
 
 ### Geographic Shifts
-- **Singapore** remains #1 for English-friendly senior roles (275 in database)
-- **Hong Kong** strong for crypto/fintech (103 roles), especially OKX and Bybit
-- **Shenzhen** growing — Amazon AI PM, Tencent strategy roles, ShopBack, Lalamove
-- **Bangkok** emerging as APAC operations hub (Agoda relocating many roles there)
-- **Seoul** strong for Coupang but Korean-language barrier
+- **Singapore** remains #1 for English-friendly senior roles (267 in database)
+- **Hong Kong** strong for crypto/fintech (116 roles), especially OKX and Bybit
+- **Shenzhen** growing — Amazon AI PM, Tencent strategy roles, ShopBack, Lalamove (96 roles)
+- **Bangkok** emerging as APAC operations hub (148 roles, mostly Agoda)
+- **Remote** expanding — 190 remote-friendly roles (128 generic Remote + 62 Remote US)
+- **Seoul** strong for Coupang but Korean-language barrier (96 roles)
+- **Taipei** solid cross-border hub (81 roles)
 
 ---
 
 ## 🗓️ Action Items This Week
 
-### 1. 🔥 Apply to 3-5 OKX Roles (Mon-Tue)
-OKX is the single biggest opportunity in the database with 192 roles. Prioritize:
-- Product Manager / Director, Event Contracts (SG)
-- Product Manager / Director, Financial Products (HK)
-- Principal / Senior Product Manager, APAC Growth (HK)
-- AI Enablement PMO Director (SG)
-- Growth Product Manager, Listing Campaign (HK)
+### 1. 🔥 Apply to 5-8 OKX Roles (Mon-Tue)
+OKX is the single biggest opportunity in the database with 219 roles and 15 A-1 positions. Prioritize:
+- Principal/Senior PM, AI and Agent (HK)
+- Principal/Senior PM, AI & Web3 Wallet (HK)
+- Principal/Senior PM, Payment (SG)
+- Senior/Principal PM, DEX Trading (HK)
+- Growth PM, Listing Campaign (HK)
+- Principal/Senior PM, Institution Onboarding KYB (HK)
+- Senior Strategy Project Manager, VIP/Institutions (HK)
 
-### 2. 🤝 LinkedIn Outreach to 5 Hiring Managers (Mon-Wed)
+### 2. 🤝 LinkedIn Outreach to 5-8 Hiring Managers (Mon-Wed)
 Target:
 - OKX Product Directors in HK/SG (search "OKX Product Director Hong Kong")
+- Stripe APAC leadership — especially Product Strategy & Operations team
 - ByteDance Global Payment PMs in Singapore
-- Stripe APAC leadership
-- Airwallex product team
+- Airwallex product team (Kai AI assistant lead)
 - Grab AI product team
+- Bybit product leads in KL
 
 **Template:** "Hi [Name], I've been following [Company]'s expansion in APAC with great interest. My background in cross-border commerce and AI product development at [Companies] aligns well with [specific role]. Would love to connect and learn more about the team's priorities."
 
 ### 3. 📝 Update Resume for 3 Target Companies (Tue-Wed)
 Create tailored versions:
-- **Version A (Crypto/Fintech):** Emphasize payments, platform, growth metrics
-- **Version B (Cross-border Commerce):** Emphasize marketplace strategy, international expansion
-- **Version C (AI Products):** Emphasize AI feature shipping, data-driven decisions
+- **Version A (Crypto/Fintech):** Emphasize payments, platform, growth metrics — for OKX, Bybit, Binance
+- **Version B (Cross-border Commerce):** Emphasize marketplace strategy, international expansion — for Stripe, ByteDance
+- **Version C (AI Products):** Emphasize AI feature shipping, data-driven decisions — for Airwallex, Grab, OKX AI roles
 
 ### 4. 📊 Deep Research on 2 Companies (Wed-Thu)
 Pick 2 from Tier 2 and do deep dives:
-- **Airwallex:** Recent funding, product roadmap, team structure
-- **Grab:** AI strategy, competitive position vs GoTo, expansion plans
+- **Airwallex:** Recent funding, product roadmap, Kai AI assistant strategy
+- **Tencent:** International strategy, Shenzhen vs SG team dynamics, Cloud AI push
 
 ### 5. 🌐 Attend 1 Virtual Event/Webinar (Thu-Fri)
 Search for:
@@ -218,30 +237,30 @@ Search for:
 
 ## 📌 Quick Reference: Top 20 Companies by Role Count
 
-| Company | Total Roles | Top Cities | Sector |
-|---------|------------|------------|--------|
-| Stripe | 217 | SG, US-Remote, IN | Payments |
-| OKX | 192 | HK, SG, MY | Crypto/Fintech |
-| Agoda | 185 | Bangkok, SG, Tokyo | Travel |
-| Coupang | 145 | Seoul, Taipei, Tokyo | E-commerce |
-| Anthropic | 94 | US-Remote | AI |
-| Bybit | 43 | HK, KL | Crypto |
-| Tencent | 35 | Shenzhen, Shanghai, SG | Tech |
-| ByteDance | 34 | SG, Beijing, Shenzhen | Tech |
-| Affirm | 25 | US-Remote | Fintech |
-| Airbnb | 25 | US, Tokyo, SG | Travel |
-| Airwallex | 18 | SG, SF | Fintech |
-| Adyen | 17 | SG | Payments |
-| Databricks | 16 | SG, Seoul, Tokyo | Data/AI |
-| Gitlab | 15 | Remote | Dev Tools |
-| Grab | 15 | SG | Super-app |
-| Payoneer | 15 | IN, Shanghai | Payments |
-| Crypto.com | 15 | HK, SG | Crypto |
-| Datadog | 14 | US-Remote | Dev Tools |
-| Xendit | 13 | SG, Jakarta, Manila | Fintech |
-| Pinterest | 13 | US, SG | Social |
+| Company | Total Roles | A-Tier | A-1 | Top Cities | Sector |
+|---------|------------|--------|-----|------------|--------|
+| Stripe | 227 | 36 | 7 | SG, US-Remote, IN | Payments |
+| OKX | 219 | 103 | 15 | HK, SG, MY | Crypto/Fintech |
+| Coupang | 209 | 135 | 0 | Seoul, Taipei, Tokyo | E-commerce |
+| Agoda | 186 | 48 | 0 | Bangkok, SG, Tokyo | Travel |
+| Anthropic | 94 | — | 0 | US-Remote | AI |
+| Bybit | 51 | 13 | 2 | HK, KL | Crypto |
+| Tencent | 37 | 10 | 2 | Shenzhen, Shanghai, SG | Tech |
+| ByteDance | 34 | 16 | 0 | SG, Beijing, Shenzhen | Tech |
+| Grab | 27 | 2 | 0 | SG | Super-app |
+| Airbnb | 26 | 3 | 1 | US, Tokyo, SG | Travel |
+| Affirm | 25 | 5 | 0 | US-Remote | Fintech |
+| Adyen | 17 | — | 0 | SG | Payments |
+| Pinterest | 16 | 3 | 2 | US, SG | Social |
+| Databricks | 16 | 4 | 0 | SG, Seoul, Tokyo | Data/AI |
+| Gitlab | 15 | — | 0 | Remote | Dev Tools |
+| Airwallex | 15 | — | 0 | SG | Fintech |
+| Datadog | 15 | — | 0 | US-Remote | Dev Tools |
+| Payoneer | 15 | 14 | 0 | IN, Shanghai | Payments |
+| Flexport | 13 | 4 | 1 | HK, SG | Logistics |
+| Xendit | 13 | 7 | 0 | SG, Jakarta | Fintech |
 
 ---
 
 *Next report: Monday, August 17, 2026*
-*Job database: 1,378 jobs | 313 A-tier | 686 English-friendly*
+*Job database: 1,491 jobs | 377 A-tier | 34 A-1 | 802 English-friendly*
