@@ -3,7 +3,7 @@
     {
       "date": "2026-08-15",
       "action": "normalize-cities",
-      "detail": "93→1444 jobs with city_normalized (97% coverage). Added normalize-cities-v2.py script. Rebuilt dashboard + CRM dashboard.",
+      "detail": "93\u21921444 jobs with city_normalized (97% coverage). Added normalize-cities-v2.py script. Rebuilt dashboard + CRM dashboard.",
       "scores": {
         "data_quality": 8,
         "dashboard": 7,
@@ -55,7 +55,7 @@
     {
       "date": "2026-08-16",
       "action": "career-hub-links",
-      "detail": "Added actionable Job Board Links card to career-hub.html: 11 curated links across SG, HK, CN, US/remote, and Web3. Career hub score 6→7.",
+      "detail": "Added actionable Job Board Links card to career-hub.html: 11 curated links across SG, HK, CN, US/remote, and Web3. Career hub score 6\u21927.",
       "scores": {
         "data_quality": 9,
         "dashboard": 7,
@@ -83,7 +83,7 @@
     {
       "date": "2026-08-16",
       "action": "market-pulse-integration",
-      "detail": "Added 4-card Market Pulse section to career-hub.html with Hottest Sectors, Key Trends, Salary Benchmarks, and Priority Targets from career-strategy.md. Fixed stale footer (1462→1619 jobs, Aug 06→16). Strategy surface area improved.",
+      "detail": "Added 4-card Market Pulse section to career-hub.html with Hottest Sectors, Key Trends, Salary Benchmarks, and Priority Targets from career-strategy.md. Fixed stale footer (1462\u21921619 jobs, Aug 06\u219216). Strategy surface area improved.",
       "scores": {
         "data_quality": 9,
         "dashboard": 7,
@@ -131,6 +131,20 @@
         "career_hub": 8,
         "scripts": 8,
         "coverage": 7,
+        "strategy": 7
+      }
+    },
+    {
+      "date": "2026-08-17",
+      "run_time": "06:00",
+      "action": "city-normalization-164",
+      "detail": "Normalized city for 164 more jobs (1629/1676 now have city data, 97%). Remaining 47 unmatched are vague regions (APAC, EMEA) or non-standard formats. Rebuilt dashboard.",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8,
+        "career_hub": 8,
+        "scripts": 8,
+        "coverage": 8,
         "strategy": 7
       }
     }
