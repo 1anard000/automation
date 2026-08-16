@@ -32666,5 +32666,44 @@
     "city_normalized": "Seoul",
     "quality_score": 30,
     "quality_tier": "B"
+  },
+  {
+    "company": "Tencent",
+    "title": "Senior Manager, Business Strategy & Operations",
+    "location": "China-Shenzhen",
+    "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/China-Shenzhen/Senior-Manager--Business-Strategy---Operations_R107895-2",
+    "source": "tencent_careers",
+    "scanned_date": "2026-08-16",
+    "grade": "B",
+    "quality_score": 75,
+    "english_friendly": true,
+    "category": "strategy",
+    "city_normalized": "Shenzhen"
+  },
+  {
+    "company": "Tencent",
+    "title": "Senior Business Operation Lead",
+    "location": "China-Shenzhen",
+    "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/China-Shenzhen/Senior-Business-Operation-Lead_R107874",
+    "source": "tencent_careers",
+    "scanned_date": "2026-08-16",
+    "grade": "B",
+    "quality_score": 70,
+    "english_friendly": true,
+    "category": "ops",
+    "city_normalized": "Shenzhen"
+  },
+  {
+    "company": "Tencent",
+    "title": "Senior User Acquisition Manager",
+    "location": "China-Shenzhen",
+    "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/China-Shenzhen/UA_R107741-1",
+    "source": "tencent_careers",
+    "scanned_date": "2026-08-16",
+    "grade": "B",
+    "quality_score": 65,
+    "english_friendly": true,
+    "category": "growth",
+    "city_normalized": "Shenzhen"
   }
 ]
