@@ -105,6 +105,34 @@
         "coverage": 7,
         "strategy": 7
       }
+    },
+    {
+      "date": "2026-08-17",
+      "run_time": "03:00",
+      "action": "crm-real-contacts",
+      "detail": "CRM still lowest (score 5) after previous enrichment. 226 contacts, 10 emails, 0 LinkedIn, 0 phone. Spawned builder-crm-real-contacts to add 15-20 verified hiring manager/recruiter contacts for top 10 companies (Agoda, Coupang, Grab, Tencent, ByteDance, Bybit, OKX, Stripe, Airwallex, Anthropic).",
+      "scores": {
+        "data_quality": 9,
+        "dashboard": 8,
+        "career_hub": 8,
+        "scripts": 7,
+        "coverage": 7,
+        "strategy": 7,
+        "crm": 5
+      }
+    },
+    {
+      "date": "2026-08-17",
+      "action": "backfill-167-grades",
+      "detail": "Backfilled quality_score for 167 ungraded jobs (all had grade but no numeric score). Ran rescore-jobs.py. 1676/1676 jobs now fully scored. Avg score 69.9, 743 A-tier, 790 B-tier. Scripts score improved.",
+      "scores": {
+        "data_quality": 10,
+        "dashboard": 8,
+        "career_hub": 8,
+        "scripts": 8,
+        "coverage": 7,
+        "strategy": 7
+      }
     }
   ]
 }
