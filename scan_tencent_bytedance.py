@@ -1,100 +1,139 @@
 #!/usr/bin/env python3
-"""Scan Tencent careers API."""
-import json
-import urllib.request
+"""Scan Tencent and ByteDance career sites."""
+import json, urllib.request
 from datetime import datetime
 
-with open('/Users/iancolrick/.openclaw/workspace/existing_urls.json') as f:
-    existing_urls = set(json.load(f))
+TODAY = datetime.now().strftime('%Y-%m-%d')
 
-keywords = ['product manager', 'strategy', 'bizops', 'business operations', 'growth', 'general manager', 'senior manager', 'head of', 'lead', 'commercial']
-skip_words = ['director', 'vp ', 'intern', 'internship', 'legal', 'counsel', 'recruiter']
+# Load existing
+with open('/Users/iancolrick/.openclaw/workspace/OKComputer_职位搜索清单/jobs-all.json') as f:
+    existing = json.load(f)
+existing_urls = {j.get('url', '') for j in existing}
 
 new_jobs = []
 
-for keyword in ['strategy', 'product manager', 'growth']:
-    try:
-        url = f"https://careers.tencent.com/tencentcareer/api/post/Query?timestamp=1721311200&countryId=&cityId=&bgIds=&parentId=&瓜Id=&keyword={keyword}&language=0&area=cn"
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read().decode())
-        jobs = data.get('Data', {}).get('Posts', [])
-        print(f"Tencent '{keyword}': {len(jobs)} jobs", flush=True)
+# Tencent API - search for strategy/PM roles
+print("=== Tencent Careers ===")
+try:
+    tencent_url = 'https://careers.tencent.com/tencentcareer/api/post/Query?keyword=strategy&cityId=&categoryId=&industryId=&language=&area=Chn&subArea=&page=1&pageSize=20&language=en'
+    req = urllib.request.Request(tencent_url, headers={
+        'User-Agent': 'Mozilla/5.0',
+        'Accept': 'application/json',
+        'Referer': 'https://careers.tencent.com/'
+    })
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        data = json.loads(resp.read())
+    
+    jobs = data.get('Data', {}).get('Posts', [])
+    total = data.get('Data', {}).get('Count', 0)
+    print(f'Tencent strategy: {len(jobs)} results (total: {total})')
+    
+    for j in jobs:
+        title = j.get('RecruitPostName', '')
+        loc = j.get('LocationName', '')
+        job_id = j.get('PostId', '')
+        job_url = f'https://careers.tencent.com/en-us/position/{job_id}.html'
         
-        for j in jobs:
-            title = j.get('RecruitPostName', '')
-            title_lower = title.lower()
-            loc = j.get('LocationName', '').lower()
-            post_url = j.get('PostURL', '')
-            
-            if not post_url:
-                continue
-            if post_url in existing_urls:
-                continue
-            
-            title_match = any(k in title_lower for k in keywords)
-            loc_match = any(l in loc for l in ['shenzhen', 'hong kong', 'shanghai', 'guangzhou', 'singapore', 'tianjin', '成都'])
-            
-            if title_match and loc_match:
-                if any(s in title_lower for s in skip_words):
-                    continue
-                new_jobs.append({
-                    'title': title,
-                    'company': 'Tencent',
-                    'location': j.get('LocationName', ''),
-                    'url': post_url,
-                    'source': 'tencent_api',
-                    'posted': j.get('CreateTime', ''),
-                    'scanned_date': datetime.now().strftime('%Y-%m-%d'),
-                })
-    except Exception as e:
-        print(f"Tencent '{keyword}' error: {e}", flush=True)
-
-# Also scan ByteDance
-for keyword in ['产品经理', 'strategy', 'growth']:
-    try:
-        url = f"https://jobs.bytedance.com/api/v1/search/position?keyword={keyword}&limit=20&offset=0&job_category=1&recruit_type=4&city_code=7611"
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0', 'Content-Type': 'application/json'})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read().decode())
-        jobs = data.get('data', {}).get('job_post_list', [])
-        print(f"ByteDance '{keyword}': {len(jobs)} jobs", flush=True)
+        title_lower = title.lower()
+        if any(s in title_lower for s in ['intern', '实习', 'junior', '助理']):
+            continue
         
-        for j in jobs:
-            title = j.get('job_post_info', {}).get('name', '')
-            title_lower = title.lower()
-            desc = j.get('job_post_info', {}).get('description', '').lower()
-            loc = j.get('job_post_info', {}).get('city', {}).get('name', '')
-            post_id = j.get('job_post_info', {}).get('id', '')
-            post_url = f"https://jobs.bytedance.com/experienced/position/{post_id}/detail"
-            
-            if not post_id:
-                continue
-            
-            # Check title/desc for keywords
-            combined = title_lower + ' ' + desc
-            title_match = any(k in combined for k in ['产品经理', 'product manager', 'strategy', 'bizops', 'growth', '商业化'])
-            loc_match = any(l in (loc or '').lower() for l in ['深圳', '上海', '广州', '新加坡', 'shenzhen', 'hong kong'])
-            
-            if title_match and loc_match:
-                new_jobs.append({
-                    'title': title,
-                    'company': 'ByteDance',
-                    'location': loc,
-                    'url': post_url,
-                    'source': 'bytedance_api',
-                    'posted': '',
-                    'scanned_date': datetime.now().strftime('%Y-%m-%d'),
-                })
-    except Exception as e:
-        print(f"ByteDance '{keyword}' error: {e}", flush=True)
+        is_new = job_url not in existing_urls
+        new_jobs.append({
+            'company': 'Tencent',
+            'title': title,
+            'location': loc,
+            'url': job_url,
+            'source': 'tencent_careers',
+            'scanned_date': TODAY,
+            'is_new': is_new
+        })
+except Exception as e:
+    print(f'Tencent: ERROR - {e}')
 
-print(f"\n=== Tencent+ByteDance RESULTS ===")
-print(f"New jobs found: {len(new_jobs)}")
-for j in new_jobs:
-    print(f"📌 {j['title']} @ {j['company']}")
-    print(f"   📍 {j['location']}")
-    print(f"   🔗 {j['url']}")
+# Try product manager
+try:
+    tencent_pm_url = 'https://careers.tencent.com/tencentcareer/api/post/Query?keyword=product+manager&cityId=&categoryId=&industryId=&language=&area=Chn&subArea=&page=1&pageSize=20&language=en'
+    req = urllib.request.Request(tencent_pm_url, headers={
+        'User-Agent': 'Mozilla/5.0',
+        'Accept': 'application/json',
+        'Referer': 'https://careers.tencent.com/'
+    })
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        data = json.loads(resp.read())
+    
+    jobs = data.get('Data', {}).get('Posts', [])
+    total = data.get('Data', {}).get('Count', 0)
+    print(f'Tencent PM: {len(jobs)} results (total: {total})')
+    
+    for j in jobs:
+        title = j.get('RecruitPostName', '')
+        loc = j.get('LocationName', '')
+        job_id = j.get('PostId', '')
+        job_url = f'https://careers.tencent.com/en-us/position/{job_id}.html'
+        
+        title_lower = title.lower()
+        if any(s in title_lower for s in ['intern', '实习', 'junior', '助理']):
+            continue
+        
+        is_new = job_url not in existing_urls
+        new_jobs.append({
+            'company': 'Tencent',
+            'title': title,
+            'location': loc,
+            'url': job_url,
+            'source': 'tencent_careers',
+            'scanned_date': TODAY,
+            'is_new': is_new
+        })
+except Exception as e:
+    print(f'Tencent PM: ERROR - {e}')
 
-with open('/Users/iancolrick/.openclaw/workspace/new_tencent_bytedance_jobs.json', 'w') as f:
-    json.dump(new_jobs, f, indent=2)
+# ByteDance API
+print("\n=== ByteDance Careers ===")
+try:
+    bytedance_url = 'https://jobs.bytedance.com/api/v1/search/job/posts?keyword=产品经理&location=&limit=20&offset=0&job_category_id=&recruit_type=4'
+    req = urllib.request.Request(bytedance_url, headers={
+        'User-Agent': 'Mozilla/5.0',
+        'Accept': 'application/json',
+        'Referer': 'https://jobs.bytedance.com/'
+    })
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        data = json.loads(resp.read())
+    
+    jobs = data.get('data', {}).get('job_post_list', [])
+    total = data.get('data', {}).get('count', 0)
+    print(f'ByteDance PM: {len(jobs)} results (total: {total})')
+    
+    for j in jobs:
+        title = j.get('title', '')
+        loc = j.get('location', {}).get('name', '')
+        job_id = j.get('id', '')
+        job_url = f'https://jobs.bytedance.com/experienced/position/{job_id}/detail'
+        
+        title_lower = title.lower()
+        if any(s in title_lower for s in ['intern', '实习', 'junior', '助理']):
+            continue
+        
+        is_new = job_url not in existing_urls
+        new_jobs.append({
+            'company': 'ByteDance',
+            'title': title,
+            'location': loc,
+            'url': job_url,
+            'source': 'bytedance_careers',
+            'scanned_date': TODAY,
+            'is_new': is_new
+        })
+except Exception as e:
+    print(f'ByteDance: ERROR - {e}')
+
+print(f'\n--- Summary ---')
+actual_new = [j for j in new_jobs if j['is_new']]
+print(f'Total results: {len(new_jobs)}')
+print(f'NEW (not in DB): {len(actual_new)}')
+for j in actual_new[:20]:
+    print(f'  NEW: {j["company"]} | {j["title"]} | {j["location"]} | {j["url"][:80]}')
+
+with open('/tmp/new_tencent_bytedance_jobs.json', 'w') as f:
+    json.dump(new_jobs, f, ensure_ascii=False, indent=2)
