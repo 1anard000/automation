@@ -32705,5 +32705,44 @@
     "english_friendly": true,
     "category": "growth",
     "city_normalized": "Shenzhen"
+  },
+  {
+    "company": "OKX",
+    "title": "AI Enablement PMO Director ",
+    "location": "Hong Kong, Hong Kong SAR; Singapore, Singapore",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7814862003",
+    "greenhouse_id": 7814862003,
+    "posted": "2026-08-07",
+    "source": "greenhouse_api",
+    "scanned_date": "2026-08-16",
+    "description": "&lt;div class=&quot;ace-line ace-line old-record-id-doxuseysYUio6Qia64JLLAwE7dh&quot;&gt; &lt;div data-page-id=&quot;doxusokjWsaOkSCIjzixAfRM3sd&quot; data-docx-has-block-data=&quot;false&quot;&gt; &lt;div class=&quot;ace-line ace-line old-record-id-doxusaUYeCmu82WSkkm5KDd00db&quot;&gt; &lt;div data",
+    "grade": "A-1",
+    "english_friendly": true,
+    "category": "product",
+    "city_normalized": "Hong Kong"
+  },
+  {
+    "company": "Tencent",
+    "title": "Growth Operations Manager, Utility Apps",
+    "location": "Singapore-CapitaSky",
+    "url": "https://careers.tencent.com/en-us/position/2088058052203950080.html",
+    "source": "tencent_careers",
+    "scanned_date": "2026-08-16",
+    "category": "Product",
+    "grade": "A-1",
+    "english_friendly": true,
+    "city_normalized": "Singapore"
+  },
+  {
+    "company": "Tencent",
+    "title": "腾讯云音视频产品经理（海外增长策略）",
+    "location": "深圳",
+    "url": "https://careers.tencent.com/en-us/position/2061700924304437248.html",
+    "source": "tencent_careers",
+    "scanned_date": "2026-08-16",
+    "category": "产品",
+    "grade": "A-1",
+    "english_friendly": true,
+    "city_normalized": "深圳"
   }
 ]
