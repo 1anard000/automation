@@ -72,8 +72,8 @@ dashboard = {
     'generated_at': datetime.now(timezone.utc).isoformat(),
     'stats': {
         'total_jobs': total,
-        'by_location': loc_counts,
-        'by_category': cat_counts
+        'jobs_by_location': loc_counts,
+        'jobs_by_category': cat_counts
     },
     'top_5_jobs': top5,
     'category_counts': cat_counts
