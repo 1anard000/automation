@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-17T22:00:29.263939+00:00",
+  "generated_at": "2026-08-18T22:00:33.496834+00:00",
   "stats": {
-    "total_jobs": 735,
+    "total_jobs": 714,
     "jobs_by_location": {
-      "SZ": 89,
-      "HK": 116,
-      "GZ": 4,
-      "SH": 20,
-      "SG": 185,
-      "Other": 321
+      "SZ": 85,
+      "HK": 114,
+      "GZ": 8,
+      "SH": 13,
+      "SG": 188,
+      "Other": 306
     },
     "jobs_by_category": {
-      "PM": 402,
+      "PM": 338,
       "Strategy": 67,
       "Growth": 27,
-      "Other": 239
+      "Other": 282
     }
   },
   "top_5_jobs": [
@@ -55,19 +55,19 @@
       "url": "https://careers.datadoghq.com/detail/7975747/?gh_jid=7975747"
     },
     {
-      "title": "Senior Business Development Manager (AI/Gaming)",
-      "company": "Tencent (IEG)",
-      "location": "Shenzhen",
+      "title": "Senior Strategy Project Manager, VIP/Institutions",
+      "company": "OKX",
+      "location": "Hong Kong, Hong Kong SAR",
       "quality_score": 90.0,
       "quality_tier": "A",
-      "role_type": "",
-      "url": "https://careers.tencent.com/en-us/search.html?keyword=product+manager&location=Shenzhen"
+      "role_type": "Strategy/Ops",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7739163003"
     }
   ],
   "category_counts": {
-    "PM": 402,
+    "PM": 338,
     "Strategy": 67,
     "Growth": 27,
-    "Other": 239
+    "Other": 282
   }
 }
