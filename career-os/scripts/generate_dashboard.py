@@ -74,9 +74,7 @@ def main():
                 "GZ": loc_counts.get("GZ", 0),
                 "SH": loc_counts.get("SH", 0),
                 "SG": loc_counts.get("SG", 0),
-                "Remote": loc_counts.get("Remote", 0),
-                "Other": loc_counts.get("Other", 0),
-                "Unknown": loc_counts.get("Unknown", 0),
+                "Other": loc_counts.get("Other", 0) + loc_counts.get("Remote", 0) + loc_counts.get("Unknown", 0),
             },
             "jobs_by_category": {
                 "PM": cat_counts.get("PM", 0),
