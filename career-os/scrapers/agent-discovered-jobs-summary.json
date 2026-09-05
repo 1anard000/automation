@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-02",
+  "new_jobs": 200,
+  "by_source": {
+    "okx": 29,
+    "stripe": 15,
+    "coinbase": 6,
+    "twilio": 14,
+    "coupang": 43,
+    "agoda": 24,
+    "databricks": 8,
+    "anthropic": 7,
+    "flexport": 1,
+    "postman": 1,
+    "figma": 1,
+    "cloudflare": 1,
+    "bybit": 2,
+    "airbnb": 1,
+    "payoneer": 3,
+    "braze": 1,
+    "block": 2,
+    "adyen": 1,
+    "gitlab": 29,
+    "mongodb": 7,
+    "elastic": 1,
+    "asana": 1,
+    "gusto": 2
+  },
+  "by_role_type": {
+    "Growth/Expansion": 41,
+    "Other": 2,
+    "Product Management": 37,
+    "Strategy/Ops": 79,
+    "Program/Project Management": 41
+  },
+  "by_location": {
+    "APAC": 1,
+    "Singapore": 24,
+    "Hong Kong": 12,
+    "Remote": 82,
+    "Australia; Sydney, New South Wales, Australia": 1,
+    "Sydney": 1,
+    "Tokyo, Japan": 5,
+    "Seoul, South Korea": 24,
+    "Taipei, Taiwan": 19,
+    "Bangkok": 13,
+    "Bangkok, Thailand": 5,
+    "Shanghai": 3,
+    "Tokyo / Osaka": 2,
+    "Sydney, Australia • Melbourne, Australia": 1,
+    "Kuala Lumpur, Malaysia": 1,
+    "Shenzhen": 1,
+    "Melbourne, Australia": 1,
+    "Sydney, Australia": 1,
+    "Melbourne": 1,
+    "Seoul": 1,
+    "Auckland; Melbourne": 1
+  },
+  "skipped": {
+    "duplicate_url": 191,
+    "overly senior title": 8
+  }
+}
