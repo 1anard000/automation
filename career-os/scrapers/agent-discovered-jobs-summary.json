@@ -1,26 +1,29 @@
 {
-  "date": "2026-09-09",
-  "new_jobs": 6,
+  "date": "2026-09-11",
+  "new_jobs": 8,
   "by_source": {
-    "coupang": 3,
-    "agoda": 2,
-    "adyen": 1
+    "stripe": 2,
+    "coupang": 2,
+    "agoda": 3,
+    "mongodb": 1
   },
   "by_role_type": {
-    "Growth/Expansion": 2,
+    "Program/Project Management": 3,
+    "Growth/Expansion": 1,
     "Product Management": 1,
-    "Program/Project Management": 2,
-    "Strategy/Ops": 1
+    "Strategy/Ops": 3
   },
   "by_location": {
-    "Seoul, South Korea": 3,
+    "Remote": 1,
+    "Singapore": 2,
+    "Seoul, South Korea": 2,
     "Bangkok": 1,
-    "Kuala Lumpur, Malaysia": 1,
-    "Singapore": 1
+    "Bangkok, Thailand": 1,
+    "Tokyo": 1
   },
   "skipped": {
-    "duplicate_url": 348,
-    "non-target functional role": 68,
+    "duplicate_url": 347,
+    "non-target functional role": 75,
     "overly senior title": 3
   }
 }
