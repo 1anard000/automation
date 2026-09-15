@@ -1,29 +1,32 @@
 {
-  "date": "2026-09-11",
-  "new_jobs": 8,
+  "date": "2026-09-16",
+  "new_jobs": 12,
   "by_source": {
-    "stripe": 2,
-    "coupang": 2,
-    "agoda": 3,
-    "mongodb": 1
+    "okx": 1,
+    "twilio": 1,
+    "coupang": 6,
+    "agoda": 2,
+    "xendit": 1,
+    "gitlab": 1
   },
   "by_role_type": {
-    "Program/Project Management": 3,
-    "Growth/Expansion": 1,
-    "Product Management": 1,
-    "Strategy/Ops": 3
+    "Strategy/Ops": 5,
+    "Program/Project Management": 2,
+    "Product Management": 4,
+    "Growth/Expansion": 1
   },
   "by_location": {
-    "Remote": 1,
-    "Singapore": 2,
+    "APAC": 1,
+    "Remote": 2,
     "Seoul, South Korea": 2,
-    "Bangkok": 1,
-    "Bangkok, Thailand": 1,
-    "Tokyo": 1
+    "Taipei, Taiwan": 4,
+    "Bangkok (One Bangkok)": 1,
+    "Hong Kong": 1,
+    "Singapore": 1
   },
   "skipped": {
-    "duplicate_url": 347,
-    "non-target functional role": 75,
+    "duplicate_url": 345,
+    "non-target functional role": 77,
     "overly senior title": 3
   }
 }
