@@ -1,32 +1,32 @@
 {
-  "date": "2026-09-16",
-  "new_jobs": 12,
+  "date": "2026-09-18",
+  "new_jobs": 48,
   "by_source": {
-    "okx": 1,
-    "twilio": 1,
-    "coupang": 6,
-    "agoda": 2,
-    "xendit": 1,
-    "gitlab": 1
+    "okx": 3,
+    "stripe": 6,
+    "coinbase": 6,
+    "twilio": 5,
+    "databricks": 4,
+    "anthropic": 6,
+    "cloudflare": 1,
+    "payoneer": 1,
+    "gitlab": 13,
+    "datadog": 1,
+    "gusto": 2
   },
   "by_role_type": {
-    "Strategy/Ops": 5,
-    "Program/Project Management": 2,
-    "Product Management": 4,
-    "Growth/Expansion": 1
+    "Growth/Expansion": 5,
+    "Strategy/Ops": 23,
+    "Program/Project Management": 9,
+    "Product Management": 10,
+    "Other": 1
   },
   "by_location": {
-    "APAC": 1,
-    "Remote": 2,
-    "Seoul, South Korea": 2,
-    "Taipei, Taiwan": 4,
-    "Bangkok (One Bangkok)": 1,
-    "Hong Kong": 1,
-    "Singapore": 1
+    "Remote": 48
   },
   "skipped": {
-    "duplicate_url": 345,
+    "duplicate_url": 304,
     "non-target functional role": 77,
-    "overly senior title": 3
+    "overly senior title": 4
   }
 }
