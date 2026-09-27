@@ -21425,6 +21425,102 @@
     "yoe_note": "yoe-unspecified"
   },
   {
+    "title": "Growth Manager (Taiwan)",
+    "company": "OKX",
+    "location": "Taiwan (Remote)",
+    "grade": "A-2",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/8002094003",
+    "role_type": "Growth",
+    "salary": "",
+    "scanned_date": "2026-09-23",
+    "source": "greenhouse",
+    "yoe_note": "yoe-unspecified"
+  },
+  {
+    "title": "Staff Product Manager, Payments Intelligence",
+    "company": "Stripe",
+    "location": "NYC, SF, Seattle, US - Remote",
+    "grade": "A-2",
+    "url": "https://stripe.com/jobs/search?gh_jid=8209996",
+    "role_type": "Product Management",
+    "salary": "",
+    "scanned_date": "2026-09-23",
+    "source": "greenhouse",
+    "yoe_note": "yoe-soft:8-15"
+  },
+  {
+    "title": "Senior Product Manager, Token Listing",
+    "company": "OKX",
+    "location": "Hong Kong, Hong Kong SAR; Singapore, Singapore",
+    "grade": "A-2",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/8001671003",
+    "role_type": "Product Management",
+    "salary": "",
+    "scanned_date": "2026-09-24",
+    "source": "greenhouse",
+    "yoe_note": "yoe-soft:5-12"
+  },
+  {
+    "title": "Senior Product Manager, Data",
+    "company": "OKX",
+    "location": "Singapore, Singapore",
+    "grade": "A-2",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/8004107003",
+    "role_type": "Product Management",
+    "salary": "",
+    "scanned_date": "2026-09-25",
+    "source": "greenhouse",
+    "yoe_note": "yoe-soft:5-12"
+  },
+  {
+    "title": "Staff Product Manager, US Public Sector",
+    "company": "Databricks",
+    "location": "Remote - California; Remote - Virginia; Remote - Washington D.C.",
+    "grade": "A-2",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8831555002",
+    "role_type": "Product Management",
+    "salary": "",
+    "scanned_date": "2026-09-25",
+    "source": "greenhouse",
+    "yoe_note": "yoe-soft:8-15"
+  },
+  {
+    "title": "Data Analyst, Global Growth",
+    "company": "Stripe",
+    "location": "Singapore",
+    "grade": "A-2",
+    "url": "https://stripe.com/jobs/search?gh_jid=8230296",
+    "role_type": "Growth",
+    "salary": "",
+    "scanned_date": "2026-09-26",
+    "source": "greenhouse",
+    "yoe_note": "yoe-unspecified"
+  },
+  {
+    "title": "Product Manager, Dashboard",
+    "company": "Vercel",
+    "location": "Remote - United States",
+    "grade": "A-2",
+    "url": "https://job-boards.greenhouse.io/vercel/jobs/6205772004",
+    "role_type": "Product Management",
+    "salary": "",
+    "scanned_date": "2026-09-26",
+    "source": "greenhouse",
+    "yoe_note": "yoe-unspecified"
+  },
+  {
+    "title": "Group Product Manager, Money Movement",
+    "company": "Coinbase",
+    "location": "Remote - USA",
+    "grade": "A-2",
+    "url": "https://www.coinbase.com/careers/positions/8234060?gh_jid=8234060",
+    "role_type": "Product Management",
+    "salary": "",
+    "scanned_date": "2026-09-27",
+    "source": "greenhouse",
+    "yoe_note": "yoe-unspecified"
+  },
+  {
     "title": "海外产品总监招聘",
     "company": "",
     "location": "Shenzhen",
@@ -21432,7 +21528,7 @@
     "url": "https://www.zhipin.com/zhaopin/9cdede60377cba100Xd_0tm1/",
     "role_type": "Product Management",
     "salary": "100-200K·16薪",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21443,7 +21539,7 @@
     "url": "https://www.zhipin.com/zhaopin/9ace3613dde98d7f03Jz39-4Fg~~/",
     "role_type": "Product Management",
     "salary": "11-22K",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21454,7 +21550,7 @@
     "url": "https://www.zhipin.com/zhaopin/61b62bedfdbfd9e03nx739k~/",
     "role_type": "Product Management",
     "salary": "30-55K·15薪",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21465,7 +21561,7 @@
     "url": "https://www.zhipin.com/zhaopin/38bfbdfb2e4d63170Xxy29S0/",
     "role_type": "Product Management",
     "salary": "35-60K·14薪",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21476,7 +21572,7 @@
     "url": "https://www.zhipin.com/zhaopin/ceaec9afaebf12ca0nB909W5/",
     "role_type": "Product Management",
     "salary": "35-40K·14薪",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21487,7 +21583,7 @@
     "url": "https://www.zhipin.com/zhaopin/d7e21dd9ddf7606603x_0tu_/",
     "role_type": "Product Management",
     "salary": "30-50K·13薪",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21498,7 +21594,7 @@
     "url": "https://www.zhipin.com/zhaopin/7499fb0dd9e529a60nV52tu8Fw~~/",
     "role_type": "Product Management",
     "salary": "30-60K·15薪",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21509,7 +21605,7 @@
     "url": "https://www.zhipin.com/zhaopin/4ae12d13d49c60510nZ73N21GQ~~/",
     "role_type": "Product Management",
     "salary": "25-50K·15薪",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21520,7 +21616,7 @@
     "url": "https://www.zhipin.com/zhaopin/77e91979ca5c865f1HJ63ti9/",
     "role_type": "Product Management",
     "salary": "30-50K·15薪",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21531,7 +21627,7 @@
     "url": "https://www.zhipin.com/zhaopin/17a009436a99293b03Ny29i1FA~~/",
     "role_type": "Product Management",
     "salary": "45-75K·15薪",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21542,7 +21638,7 @@
     "url": "https://www.zhipin.com/zhaopin/2c781dbe237d76690ndz2925FA~~/",
     "role_type": "Product Management",
     "salary": "30-50K·16薪",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21553,7 +21649,7 @@
     "url": "https://m.zhipin.com/zhaopin/99f1939718b0e60e03160921GA~~/",
     "role_type": "Product Management",
     "salary": "40-50K·15薪",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21564,7 +21660,7 @@
     "url": "https://www.zhipin.com/zhaopin/904d936bb2f094f90XB62d26/",
     "role_type": "Product Management",
     "salary": "12-24K",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21575,7 +21671,7 @@
     "url": "https://m.zhipin.com/zhaopin/885477597706d67f0HV83du7/",
     "role_type": "Product Management",
     "salary": "15-30K",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21586,7 +21682,7 @@
     "url": "https://www.zhipin.com/zhaopin/34a953986480921303V43t2-FA~~/",
     "role_type": "Product Management",
     "salary": "14-28K·14薪",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21597,7 +21693,7 @@
     "url": "https://m.zhipin.com/zhaopin/92f29b3a4aabed7c1HJy0tm6Fg~~/",
     "role_type": "Product Management",
     "salary": "25-50K·15薪",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21608,7 +21704,7 @@
     "url": "https://www.zhipin.com/zhaopin/2ab2d9e3137e45ff1nN42dW4GA~~/",
     "role_type": "Product Management",
     "salary": "15-16K",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21619,7 +21715,7 @@
     "url": "https://www.zhipin.com/zhaopin/9e2304017b44c2df0HFz2g~~/",
     "role_type": "Product Management",
     "salary": "25-45K·13薪",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21630,7 +21726,7 @@
     "url": "https://www.zhipin.com/zhaopin/557be08402ce4e4c0nV939u-FA~~/",
     "role_type": "Product Management",
     "salary": "30-50K",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21641,7 +21737,7 @@
     "url": "https://www.zhipin.com/zhaopin/128c0bca69f82d570nRy09m9Eg~~/",
     "role_type": "Product Management",
     "salary": "20-25K·13薪",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21652,7 +21748,7 @@
     "url": "https://www.zhipin.com/zhaopin/29cb89de37b6e0361n140ty_Fw~~/",
     "role_type": "Product Management",
     "salary": "50-70K",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21663,7 +21759,7 @@
     "url": "https://www.zhipin.com/zhaopin/bf27f8b5a2d228403nRz3924/",
     "role_type": "Product Management",
     "salary": "50-70K·15薪",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21674,7 +21770,7 @@
     "url": "https://www.zhipin.com/zhaopin/bcdae826b6f56f930nVz096-/",
     "role_type": "Product Management",
     "salary": "50-70K·16薪",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   },
   {
@@ -21685,7 +21781,7 @@
     "url": "https://www.zhipin.com/job_detail/8b381209a92177b81nN90t-_/",
     "role_type": "Product Management",
     "salary": "50-70K·15薪",
-    "scanned_date": "2026-09-20",
+    "scanned_date": "2026-09-27",
     "source": "boss-zhilian-websearch"
   }
 ]
