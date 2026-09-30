@@ -27,7 +27,13 @@ ROLE_KEYWORDS = [
 ]
 
 EXCLUDE_TITLE_RE = re.compile(
-    r"\b(vp|vice president|svp|evp|chief|cto|cfo|ceo|coo|cmo|president)\b",
+    r"\b(vp|vice president|svp|evp|chief|cto|cfo|ceo|coo|cmo|president|head of)\b",
+    re.IGNORECASE
+)
+
+# Exclude non-PM directors (e.g., "Director, Rocket Growth FP&A")
+EXCLUDE_NON_PM_DIRECTOR_RE = re.compile(
+    r"\bdirector\b(?![^|]*\b(product|pm|programme?|project)\b)",
     re.IGNORECASE
 )
 
@@ -43,32 +49,18 @@ BOARD_SLUGS = [
     # Tier 1
     "okx", "stripe", "coinbase", "twilio", "coupang", "agoda", "databricks", "anthropic",
     # Tier 2
-    "flexport", "postman", "figma", "cloudflare", "bitmex", "xendit", "bybit",
-    "airbnb", "payoneer", "braze", "gemini", "sendbird", "vercel",
+    "flexport", "postman", "figma", "cloudflare", "bybit",
+    "airbnb", "payoneer", "braze", "vercel",
     # APAC / China
-    "nium", "tron", "canva", "atlassian", "grab", "gojek", "sea-limited", "shopee",
-    "tiktok", "bytedance", "xiaohongshu", "lalamove",
+    "grab", "gojek", "shopee", "tiktok", "bytedance", "xiaohongshu", "lalamove",
     # Finance / Fintech
-    "axa", "hsbc", "standardchartered", "jpmorgan", "goldmansachs", "morganstanley",
-    "dbsbank", "ocbc", "uob", "salesforce", "servicenow", "workday", "adobe",
-    "autodesk", "intuit", "square", "block", "plaid", "wise", "remitly",
-    "airwallex", "rapyd", "checkout", "marqeta", "adyen",
+    "wise", "airwallex", "rapyd", "checkout", "adyen", "dbsbank", "ocbc", "uob",
     # Travel / E-commerce
-    "booking", "expedia", "trip-com", "trip", "kkday", "klook", "lazada", "zalora",
-    "tokopedia", "miniso", "popmart", "skechers", "lululemon", "nike", "adidas", "puma",
-    # Legacy industrial / healthcare
-    "siemens", "bosch", "philips", "ge", "honeywell", "johnson-controls", "nestle",
-    "pepsico", "cocacola", "unilever", "gsk", "pfizer", "roche", "novartis",
-    "sanofi", "astrazeneca", "merck",
+    "booking", "expedia", "trip-com", "klook", "lazada",
     # Additional tech
-    "gitlab", "github", "shopify", "snowflake", "datadog", "mongodb", "confluent",
-    "elastic", "hashicorp", "newrelic", "pagerduty", "sumologic", "splunk",
-    "zoom", "slack", "asana", "notion", "linear", "miro", "mural", "lucid",
-    "rippling", "gusto", "lever", "greenhouse", "workday", "oracle", "sap",
-    "dell", "hp", "cisco", "ibm", "intel", "amd", "nvidia", "qualcomm",
-    "mediaTek", "tencent", "alibaba", "antgroup", "meituan", "pinduoduo", "jd",
-    "netease", "bilibili", "kuaishou", "oppo", "vivo", "xiaomi", "huawei", "byd",
-    "djI", "senseTime", "megvii", "yitu", "cloudwalk"
+    "gitlab", "github", "shopify", "snowflake", "datadog", "mongodb",
+    "zoom", "slack", "asana", "notion", "linear",
+    "rippling", "gusto",
 ]
 
 
@@ -164,6 +156,11 @@ def matches_role(title):
 def should_exclude(job_title, company_name):
     if EXCLUDE_TITLE_RE.search(job_title):
         return True, "overly senior title"
+    # Exclude non-PM directors (e.g., "Director, Sales" but keep "Product Director")
+    if "director" in job_title.lower() and EXCLUDE_NON_PM_DIRECTOR_RE.search(job_title):
+        # Double-check: if title contains product/program/project keywords, it's a PM-function director → keep
+        if not re.search(r"\b(product|programme?|project)\b", job_title, re.IGNORECASE):
+            return True, "non-PM director"
     if EXCLUDE_FUNCTIONAL_RE.search(job_title):
         return True, "non-target functional role"
     text_to_check = f"{job_title} {company_name}"

@@ -112,8 +112,9 @@ for j in agent:
         continue
     loc = (j.get('location_norm') or j.get('location') or '').lower()
     raw_loc = (j.get('location') or '').lower()
+    combined = raw_loc + ' ' + loc
     # Handle Remote jobs
-    if 'remote' in loc or 'remote' in raw_loc:
+    if 'remote' in combined:
         if is_apac_remote(raw_loc) or is_apac_remote(loc):
             kept_remote += 1
             cleaned.append(j)
@@ -121,7 +122,7 @@ for j in agent:
         # Default: drop all remote jobs that are not clearly APAC
         dropped_remote_us += 1
         continue
-    if not any(t in loc for t in TARGET_LOCS):
+    if not any(t in combined for t in TARGET_LOCS):
         dropped_loc += 1
         continue
     cleaned.append(j)

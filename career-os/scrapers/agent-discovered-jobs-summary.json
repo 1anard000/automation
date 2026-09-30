@@ -1,32 +1,37 @@
 {
-  "date": "2026-09-18",
-  "new_jobs": 48,
+  "date": "2026-09-30",
+  "total_new_jobs": 20,
   "by_source": {
-    "okx": 3,
-    "stripe": 6,
-    "coinbase": 6,
-    "twilio": 5,
-    "databricks": 4,
-    "anthropic": 6,
-    "cloudflare": 1,
-    "payoneer": 1,
-    "gitlab": 13,
-    "datadog": 1,
-    "gusto": 2
-  },
-  "by_role_type": {
-    "Growth/Expansion": 5,
-    "Strategy/Ops": 23,
-    "Program/Project Management": 9,
-    "Product Management": 10,
-    "Other": 1
+    "greenhouse-api-coupang": 17,
+    "greenhouse-api-agoda": 3
   },
   "by_location": {
-    "Remote": 48
+    "Tokyo, Japan": 3,
+    "Seoul, South Korea": 10,
+    "Taipei, Taiwan": 5,
+    "Bangkok, Thailand": 1,
+    "Tokyo": 1
   },
-  "skipped": {
-    "duplicate_url": 304,
-    "non-target functional role": 77,
-    "overly senior title": 4
+  "by_role_type": {
+    "Strategy/Ops": 9,
+    "Growth/Expansion": 3,
+    "Program/Project Management": 3,
+    "Product Management": 5
+  },
+  "notes": {
+    "pre_cleanup_count": 59,
+    "post_cleanup_count": 20,
+    "dropped": {
+      "us_non_apac_remote": 39,
+      "cross_file_duplicates": 0,
+      "salary_floor": 0,
+      "non_target_location": 0
+    },
+    "boss_zhilian_prefetch": "0 candidates passed salary floor + location + dedup filters; import skipped",
+    "liepin_prefetch": "skipped - live scraping unreliable from China, pre-fetched results contain junk aggregator rows",
+    "indeed_jobsdb": "skipped - low yield from China network per skill notes",
+    "quality_flags": [],
+    "amazon_leaks": 0,
+    "seniority_leaks": 0
   }
 }
