@@ -1,37 +1,30 @@
 {
-  "date": "2026-09-30",
-  "total_new_jobs": 20,
+  "date": "2026-10-02",
+  "total_new_jobs": 16,
   "by_source": {
-    "greenhouse-api-coupang": 17,
-    "greenhouse-api-agoda": 3
-  },
-  "by_location": {
-    "Tokyo, Japan": 3,
-    "Seoul, South Korea": 10,
-    "Taipei, Taiwan": 5,
-    "Bangkok, Thailand": 1,
-    "Tokyo": 1
+    "greenhouse-api-okx": 4,
+    "greenhouse-api-coupang": 7,
+    "greenhouse-api-anthropic": 1,
+    "greenhouse-api-bybit": 1,
+    "greenhouse-api-payoneer": 1,
+    "greenhouse": 1,
+    "boss-zhipin": 1
   },
   "by_role_type": {
-    "Strategy/Ops": 9,
+    "Product Management": 5,
     "Growth/Expansion": 3,
-    "Program/Project Management": 3,
-    "Product Management": 5
+    "Strategy/Ops": 3,
+    "Program/Project Management": 5
   },
-  "notes": {
-    "pre_cleanup_count": 59,
-    "post_cleanup_count": 20,
-    "dropped": {
-      "us_non_apac_remote": 39,
-      "cross_file_duplicates": 0,
-      "salary_floor": 0,
-      "non_target_location": 0
-    },
-    "boss_zhilian_prefetch": "0 candidates passed salary floor + location + dedup filters; import skipped",
-    "liepin_prefetch": "skipped - live scraping unreliable from China, pre-fetched results contain junk aggregator rows",
-    "indeed_jobsdb": "skipped - low yield from China network per skill notes",
-    "quality_flags": [],
-    "amazon_leaks": 0,
-    "seniority_leaks": 0
-  }
+  "by_location": {
+    "Singapore, Singapore": 2,
+    "Hong Kong, Hong Kong SAR": 3,
+    "Seoul, South Korea": 5,
+    "Taipei, Taiwan": 2,
+    "Singapore": 1,
+    "Kuala Lumpur, Malaysia": 1,
+    "Shanghai, China": 1,
+    "Shenzhen": 1
+  },
+  "notes": "Post-cleanup summary. Dropped 2 non-target-location records (EMEA remote, US remote). Dropped 41 US/non-APAC remote from agent file during cleanup. Greenhouse API contributed 14 jobs, Boss直聘 contributed 1 job. Pre-fetched Indeed/JobsDB and Liepin yielded 0 actionable jobs."
 }
