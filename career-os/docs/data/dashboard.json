@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-04T22:00:44.886544+00:00",
+  "generated_at": "2026-10-05T22:00:12.559351+00:00",
   "stats": {
-    "total_jobs": 776,
+    "total_jobs": 753,
     "jobs_by_location": {
-      "SZ": 98,
-      "HK": 125,
-      "GZ": 9,
-      "SH": 23,
-      "SG": 191,
+      "SZ": 84,
+      "HK": 124,
+      "GZ": 8,
+      "SH": 15,
+      "SG": 192,
       "Other": 330
     },
     "jobs_by_category": {
       "PM": 335,
       "Strategy": 67,
       "Growth": 27,
-      "Other": 347
+      "Other": 324
     }
   },
   "top_5_jobs": [
@@ -68,6 +68,6 @@
     "PM": 335,
     "Strategy": 67,
     "Growth": 27,
-    "Other": 347
+    "Other": 324
   }
 }
