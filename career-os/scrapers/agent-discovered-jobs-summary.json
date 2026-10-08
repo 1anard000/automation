@@ -1,30 +1,46 @@
 {
-  "date": "2026-10-02",
-  "total_new_jobs": 16,
+  "date": "2026-10-09",
+  "total_new_jobs": 33,
+  "agent_discovered": 14,
+  "master_imported": 19,
   "by_source": {
-    "greenhouse-api-okx": 4,
-    "greenhouse-api-coupang": 7,
-    "greenhouse-api-anthropic": 1,
-    "greenhouse-api-bybit": 1,
-    "greenhouse-api-payoneer": 1,
-    "greenhouse": 1,
-    "boss-zhipin": 1
-  },
-  "by_role_type": {
-    "Product Management": 5,
-    "Growth/Expansion": 3,
-    "Strategy/Ops": 3,
-    "Program/Project Management": 5
+    "greenhouse-api-okx": 2,
+    "greenhouse-api-coupang": 1,
+    "greenhouse-api-agoda": 9,
+    "greenhouse-api-airbnb": 1,
+    "greenhouse-api-adyen": 1,
+    "boss-zhilian-websearch": 19
   },
   "by_location": {
-    "Singapore, Singapore": 2,
-    "Hong Kong, Hong Kong SAR": 3,
-    "Seoul, South Korea": 5,
-    "Taipei, Taiwan": 2,
-    "Singapore": 1,
-    "Kuala Lumpur, Malaysia": 1,
-    "Shanghai, China": 1,
-    "Shenzhen": 1
+    "Hong Kong, Hong Kong SAR": 1,
+    "Singapore, Singapore": 1,
+    "Taipei, Taiwan": 1,
+    "Bangkok": 7,
+    "Tokyo, Japan": 1,
+    "Japan or Bangkok (One Bangkok)": 1,
+    "Singapore": 2,
+    "Shenzhen": 10,
+    "Guangzhou": 1,
+    "Shanghai": 7,
+    "Hong Kong": 1
   },
-  "notes": "Post-cleanup summary. Dropped 2 non-target-location records (EMEA remote, US remote). Dropped 41 US/non-APAC remote from agent file during cleanup. Greenhouse API contributed 14 jobs, Boss直聘 contributed 1 job. Pre-fetched Indeed/JobsDB and Liepin yielded 0 actionable jobs."
+  "by_role_type": {
+    "Product Management": 21,
+    "Other": 1,
+    "Program/Project Management": 1,
+    "Strategy/Ops": 9,
+    "Growth/Expansion": 1
+  },
+  "cleanup_notes": {
+    "us_remote_dropped_from_master": 3,
+    "salary_floor_dropped_from_master": 5,
+    "us_remote_dropped_from_agent": 44,
+    "agent_cross_file_dups": 0,
+    "junior_title_flags": [],
+    "skipped_sources": [
+      "liepin (0 actionable - junk aggregator rows only)",
+      "indeed-jobsdb (0 actionable - listing pages only, no individual jobs)",
+      "websearch (0 results)"
+    ]
+  }
 }
