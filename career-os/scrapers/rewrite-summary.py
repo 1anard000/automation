@@ -31,12 +31,13 @@ def main():
         "by_location": dict(Counter(j.get("location", "unknown") for j in all_new)),
         "by_role_type": dict(Counter(j.get("role_type", "unknown") for j in all_new)),
         "cleanup_notes": {
-            "us_remote_dropped_from_master": 3,
-            "salary_floor_dropped_from_master": 5,
-            "us_remote_dropped_from_agent": 44,
-            "agent_cross_file_dups": 0,
+            "us_remote_dropped_from_agent": 40,
+            "agent_cross_file_dups": 1,
+            "us_remote_dropped_from_master": 0,
+            "salary_floor_dropped_from_master": 0,
             "junior_title_flags": [],
             "skipped_sources": [
+                "boss-zhilian (0 survivors after dedup + salary floor + job_detail filter)",
                 "liepin (0 actionable - junk aggregator rows only)",
                 "indeed-jobsdb (0 actionable - listing pages only, no individual jobs)",
                 "websearch (0 results)"

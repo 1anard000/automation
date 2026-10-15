@@ -1,14 +1,13 @@
-#!/usr/bin/env python3
 """Pre-import gate for Boss直聘 pre-fetched results.
 Dedup against master + agent, apply salary floor, filter to /job_detail/ URLs.
 Exit 0 = zero survivors (skip import). Exit 1 = survivors exist.
 """
+from __future__ import annotations
 import json
 import re
 import sys
 from pathlib import Path
 
-TODAY = "2026-10-07"
 MASTER = Path("/Users/iancolrick/.openclaw/workspace/career-os/OKComputer_职位搜索清单/jobs-all.json")
 AGENT = Path("/Users/iancolrick/.openclaw/workspace/career-os/scrapers/agent-discovered-jobs.json")
 PREFETCH = Path("/Users/iancolrick/.openclaw/workspace/career-os/scrapers/boss-zhilian-discovery-results.json")
@@ -17,7 +16,9 @@ PREFETCH = Path("/Users/iancolrick/.openclaw/workspace/career-os/scrapers/boss-z
 # For zhipin/zhaopin we only have RMB ranges; HK jobs on zhipin still quote RMB sometimes
 FLOOR_RMB_K = 30
 
-def parse_salary_high(salary: str) -> float | None:
+
+def parse_salary_high(salary):
+    # type: (str) -> float | None
     """Extract top of K-range from strings like '30-55K·15薪' or '50-70K' or '80-110K·15薪'."""
     if not salary:
         return None
@@ -33,7 +34,9 @@ def parse_salary_high(salary: str) -> float | None:
         return float(m.group(1))
     return None
 
-def normalize_url(url: str) -> str:
+
+def normalize_url(url):
+    # type: (str) -> str
     """Strip mobile prefix and trailing slash variations."""
     if not url:
         return ""
@@ -42,6 +45,7 @@ def normalize_url(url: str) -> str:
     u = u.replace("m.zhaopin.com", "www.zhaopin.com")
     u = u.rstrip("/")
     return u
+
 
 def main():
     with open(MASTER) as f:
@@ -98,10 +102,8 @@ def main():
         for s in survivors:
             sal = s.get('salary', '')
             print(f"  - [{s.get('location','?')}] {s.get('title','?')[:60]} | {s.get('company','?')} | {sal} | {s.get('url','')[:80]}")
-        sys.exit(1)
-    else:
-        print("Zero survivors — skipping import.")
-        sys.exit(0)
+    sys.exit(1 if survivors else 0)
+
 
 if __name__ == "__main__":
     main()
