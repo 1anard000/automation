@@ -1,24 +1,26 @@
 {
-  "date": "2026-10-19",
-  "total_new_jobs": 22,
-  "agent_discovered": 3,
-  "master_imported": 19,
+  "date": "2026-10-21",
+  "total_new_jobs": 7,
+  "agent_discovered": 6,
+  "master_imported": 1,
   "by_source": {
-    "greenhouse-api-coupang": 1,
+    "greenhouse-api-coupang": 2,
     "greenhouse-api-agoda": 2,
-    "boss-zhilian-websearch": 19
+    "boss-zhilian-websearch": 2,
+    "greenhouse": 1
   },
   "by_location": {
-    "Taipei, Taiwan": 1,
-    "Bangkok": 2,
-    "Shenzhen": 10,
-    "Guangzhou": 1,
-    "Shanghai": 7,
-    "Hong Kong": 1
+    "Seoul, South Korea": 2,
+    "Tokyo": 1,
+    "Bangkok": 1,
+    "Shenzhen": 1,
+    "Hong Kong": 1,
+    "Singapore, Singapore": 1
   },
   "by_role_type": {
-    "Program/Project Management": 2,
-    "Product Management": 20
+    "Product Management": 5,
+    "Strategy/Ops": 1,
+    "Program/Project Management": 1
   },
   "cleanup_notes": {
     "us_remote_dropped_from_agent": 40,
@@ -28,9 +30,7 @@
     "junior_title_flags": [],
     "skipped_sources": [
       "liepin (0 actionable - junk aggregator rows only)",
-      "indeed-jobsdb (0 actionable - listing pages only)",
       "websearch (0 results)"
-    ],
-    "note": "boss-zhilian import ran earlier today via boss-zhilian-import.py; 5 sub-floor records removed by post-discovery-cleanup"
+    ]
   }
 }

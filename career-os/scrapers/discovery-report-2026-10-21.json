@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-21",
+  "steps": [
+    {
+      "step": "load_context",
+      "master_total": 776,
+      "agent_total": 335,
+      "master_today": 3,
+      "agent_today": 0
+    },
+    {
+      "step": "boss_prefetch_check",
+      "raw": 60,
+      "survivors": 0,
+      "action": "skip"
+    },
+    {
+      "step": "greenhouse_api",
+      "returncode": 0,
+      "stdout_tail": " 'cloudflare': 1, 'gitlab': 14}\nSkipped reasons: {'duplicate_url': 289, 'non-PM director': 16, 'non-target functional role': 83, 'overly senior title': 8}\nRole type distribution: Counter({'Strategy/Ops': 20, 'Product Management': 16, 'Program/Project Management': 8, 'Growth/Expansion': 3})\nLocation distribution: Counter({'Remote': 43, 'Seoul, South Korea': 2, 'Tokyo': 1, 'Bangkok': 1})\nSummary written to /Users/iancolrick/.openclaw/workspace/career-os/scrapers/agent-discovered-jobs-summary.json\n",
+      "stderr_tail": ""
+    },
+    {
+      "step": "post_cleanup",
+      "returncode": 0,
+      "stdout_tail": "okyo': 1, 'Bangkok': 1})\nAmazon leaks: 0\nJunior-title flags: []\n\n--- Sample of today's jobs ---\n  [Product Management] Director of Product Management | Coupang | Seoul, South Korea\n  [Product Management] Senior Product Manager (Finance Platform & Accounting Engine | Coupang | Seoul, South Korea\n  [Strategy/Ops] Analyst/Senior Analyst/Associate Manager, Corporate Strategy | Agoda | Tokyo\n  [Program/Project Management] Project Management Associate - Rocket Travel By Agoda (1 yea | Agoda | Bangkok\n",
+      "stderr_tail": ""
+    },
+    {
+      "step": "backfill_schema",
+      "returncode": 0,
+      "stdout_tail": "Master: dropped 2 US-remote, backfilled 1 records\nAgent: backfilled 0 records\n",
+      "stderr_tail": ""
+    },
+    {
+      "step": "rewrite_summary",
+      "returncode": 0,
+      "stdout_tail": "\n  },\n  \"cleanup_notes\": {\n    \"us_remote_dropped_from_agent\": 40,\n    \"agent_cross_file_dups\": 1,\n    \"us_remote_dropped_from_master\": 0,\n    \"salary_floor_dropped_from_master\": 0,\n    \"junior_title_flags\": [],\n    \"skipped_sources\": [\n      \"boss-zhilian (0 survivors after dedup + salary floor + job_detail filter)\",\n      \"liepin (0 actionable - junk aggregator rows only)\",\n      \"indeed-jobsdb (0 actionable - listing pages only, no individual jobs)\",\n      \"websearch (0 results)\"\n    ]\n  }\n}\n",
+      "stderr_tail": ""
+    }
+  ],
+  "final": {
+    "master_today": 1,
+    "agent_today": 4,
+    "total_today": 5,
+    "unique_urls_today": 5,
+    "dup_urls_today": [],
+    "quality_issues": [],
+    "loc_ok": 5,
+    "loc_bad": 0,
+    "by_source": {
+      "greenhouse": 1,
+      "greenhouse-api-coupang": 2,
+      "greenhouse-api-agoda": 2
+    },
+    "by_role_type": {
+      "Product Management": 3,
+      "Strategy/Ops": 1,
+      "Program/Project Management": 1
+    },
+    "by_location": {
+      "Singapore": 1,
+      "Seoul, South Korea": 2,
+      "Tokyo": 1,
+      "Bangkok": 1
+    }
+  }
+}
