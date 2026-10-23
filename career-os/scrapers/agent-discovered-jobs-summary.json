@@ -1,26 +1,23 @@
 {
-  "date": "2026-10-21",
-  "total_new_jobs": 7,
-  "agent_discovered": 6,
-  "master_imported": 1,
+  "date": "2026-10-23",
+  "total_new_jobs": 21,
+  "agent_discovered": 2,
+  "master_imported": 19,
   "by_source": {
     "greenhouse-api-coupang": 2,
-    "greenhouse-api-agoda": 2,
-    "boss-zhilian-websearch": 2,
-    "greenhouse": 1
+    "boss-zhilian-websearch": 19
   },
   "by_location": {
-    "Seoul, South Korea": 2,
-    "Tokyo": 1,
-    "Bangkok": 1,
-    "Shenzhen": 1,
-    "Hong Kong": 1,
-    "Singapore, Singapore": 1
+    "Taipei, Taiwan": 1,
+    "Seoul, South Korea": 1,
+    "Shenzhen": 10,
+    "Guangzhou": 1,
+    "Shanghai": 7,
+    "Hong Kong": 1
   },
   "by_role_type": {
-    "Product Management": 5,
-    "Strategy/Ops": 1,
-    "Program/Project Management": 1
+    "Growth/Expansion": 1,
+    "Product Management": 20
   },
   "cleanup_notes": {
     "us_remote_dropped_from_agent": 40,
@@ -30,7 +27,9 @@
     "junior_title_flags": [],
     "skipped_sources": [
       "liepin (0 actionable - junk aggregator rows only)",
+      "indeed-jobsdb (0 actionable - listing pages only, no individual jobs)",
       "websearch (0 results)"
-    ]
+    ],
+    "notes": "Boss直聘 gate reported 0 survivors (Pitfall #29/34) but zhaopin records yielded 19 jobs after import + cleanup."
   }
 }
