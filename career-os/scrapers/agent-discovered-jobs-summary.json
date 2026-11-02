@@ -1,35 +1,23 @@
 {
-  "date": "2026-10-23",
-  "total_new_jobs": 21,
-  "agent_discovered": 2,
-  "master_imported": 19,
+  "date": "2026-11-02",
+  "total_new_jobs": 22,
   "by_source": {
-    "greenhouse-api-coupang": 2,
-    "boss-zhilian-websearch": 19
+    "greenhouse": 13,
+    "builtin": 6,
+    "ashby": 2,
+    "jobsdb": 1
   },
   "by_location": {
-    "Taipei, Taiwan": 1,
-    "Seoul, South Korea": 1,
-    "Shenzhen": 10,
-    "Guangzhou": 1,
-    "Shanghai": 7,
-    "Hong Kong": 1
+    "Singapore": 13,
+    "Hong Kong": 7,
+    "Tokyo": 2
   },
   "by_role_type": {
-    "Growth/Expansion": 1,
-    "Product Management": 20
+    "Product Management": 12,
+    "Strategy/Ops": 4,
+    "Growth": 3,
+    "Program Management": 2,
+    "Other": 1
   },
-  "cleanup_notes": {
-    "us_remote_dropped_from_agent": 40,
-    "agent_cross_file_dups": 1,
-    "us_remote_dropped_from_master": 0,
-    "salary_floor_dropped_from_master": 0,
-    "junior_title_flags": [],
-    "skipped_sources": [
-      "liepin (0 actionable - junk aggregator rows only)",
-      "indeed-jobsdb (0 actionable - listing pages only, no individual jobs)",
-      "websearch (0 results)"
-    ],
-    "notes": "Boss直聘 gate reported 0 survivors (Pitfall #29/34) but zhaopin records yielded 19 jobs after import + cleanup."
-  }
+  "notes": "Filtered out 5 US/Canada-remote records, 1 Head of Product seniority leak, engineering/design/marketing functional roles, and pure-crypto OKX roles. Boss直聘 pre-fetched results yielded 0 new jobs after dedup (all duplicates or sub-floor salaries). Liepin/Indeed/Wellfound yielded 0 actionable jobs."
 }
