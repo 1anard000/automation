@@ -1,136 +1,172 @@
 #!/usr/bin/env python3
-"""Backfill missing schema fields on master + agent records scanned today.
-Idempotent. Also drops US-remote records from master that leaked through scan-all.
 """
-import json
+Backfill missing schema fields on jobs-all.json records.
+
+scan-all.py appends new records with a minimal schema (title, company, location,
+grade, url, role_type, salary, scanned_date, source, yoe_note). This script
+backfills the standard schema fields that older pipeline scripts produce:
+status, status_date, last_touch_date, location_norm, quality_score, quality_tier,
+low_quality, category, english_friendly, has_direct_link, url_type, job_id.
+
+Usage:
+    python3 backfill-schema.py                # backfill records missing 'status'
+    python3 backfill-schema.py --today-only   # only records with scanned_date == today
+    python3 backfill-schema.py --dry-run      # print what would change, don't write
+
+Idempotent: safe to run multiple times. Only fills fields that are missing
+or empty; never overwrites existing non-empty values.
+"""
+
+import argparse
 import hashlib
-from pathlib import Path
+import json
+import re
+import sys
 from datetime import date
+from pathlib import Path
 
-TODAY = date.today().isoformat()
-MASTER = Path("/Users/iancolrick/.openclaw/workspace/career-os/OKComputer_职位搜索清单/jobs-all.json")
-AGENT = Path("/Users/iancolrick/.openclaw/workspace/career-os/scrapers/agent-discovered-jobs.json")
+DEFAULT_DB = Path(__file__).resolve().parent.parent / "OKComputer_职位搜索清单" / "jobs-all.json"
 
-def normalize_location(loc: str) -> str:
-    if not loc:
+APAC_CITY_MAP = {
+    "shenzhen": "Shenzhen",
+    "hong kong": "Hong Kong",
+    "hongkong": "Hong Kong",
+    "guangzhou": "Guangzhou",
+    "shanghai": "Shanghai",
+    "singapore": "Singapore",
+    "beijing": "Beijing",
+    "hangzhou": "Hangzhou",
+    "taipei": "Taipei",
+    "taiwan": "Taiwan",
+    "tokyo": "Tokyo",
+    "seoul": "Seoul",
+    "bangkok": "Bangkok",
+    "kuala lumpur": "Kuala Lumpur",
+    "jakarta": "Jakarta",
+    "manila": "Manila",
+    "sydney": "Sydney",
+    "melbourne": "Melbourne",
+}
+
+
+def normalize_location(raw: str) -> str:
+    """Map a raw Greenhouse/Ashby location string to a canonical city name.
+
+    Handles:
+      - "Hong Kong, Hong Kong SAR"         → "Hong Kong"
+      - "Singapore, Singapore"             → "Singapore"
+      - "Beijing, China; Shanghai, China"  → "Beijing"  (first APAC match wins)
+      - "Taiwan (Remote)"                  → "Taiwan"
+      - "Shenzhen"                         → "Shenzhen"
+      - "US-Remote" / "Remote - US"        → ""        (non-APAC → empty)
+    """
+    if not raw:
         return ""
-    loc_l = loc.lower().strip()
-    mapping = {
-        "shenzhen": "Shenzhen",
-        "hong kong": "Hong Kong",
-        "guangzhou": "Guangzhou",
-        "shanghai": "Shanghai",
-        "singapore": "Singapore",
-        "beijing": "Beijing",
-        "hangzhou": "Hangzhou",
-        "bangkok": "Bangkok",
-        "tokyo": "Tokyo",
-        "seoul": "Seoul",
-        "taipei": "Taipei",
-        "jakarta": "Jakarta",
-        "manila": "Manila",
-        "kuala lumpur": "Kuala Lumpur",
-        "sydney": "Sydney",
-        "melbourne": "Melbourne",
-    }
-    for key, val in mapping.items():
-        if key in loc_l:
-            return val
-    if "remote" in loc_l:
-        return "Remote"
-    return loc.strip()
+    # Split multi-location strings on ';' or '/'
+    segments = re.split(r"[;/]", raw)
+    for seg in segments:
+        seg_l = seg.strip().lower()
+        # Try to match APAC city names as substrings
+        for kw, canonical in APAC_CITY_MAP.items():
+            if kw in seg_l:
+                return canonical
+    return ""
 
-def is_us_remote(loc: str) -> bool:
-    if not loc:
-        return False
-    loc_l = loc.lower()
-    us_signals = [
-        "remote - us", "remote - usa", "remote, us", "remote, united states",
-        "san francisco", "new york", "seattle", "los angeles", "chicago",
-        "boston", "austin", "denver", "atlanta", "miami", "portland",
-        "california", "washington", "texas", "new york", "florida",
-        "colorado", "oregon", "massachusetts", "georgia", "illinois",
-        "united states", "usa", "u.s.", "us-remote", "us remote"
-    ]
-    return any(s in loc_l for s in us_signals)
 
-def backfill_record(j: dict) -> bool:
-    """Backfill a single record. Returns True if any field was changed."""
-    changed = False
-    if not j.get("status"):
-        j["status"] = "not_applied"
-        changed = True
-    if not j.get("status_date"):
-        j["status_date"] = j.get("scanned_date", TODAY)
-        changed = True
-    if not j.get("last_touch_date"):
-        j["last_touch_date"] = j.get("scanned_date", TODAY)
-        changed = True
-    if not j.get("location_norm"):
-        j["location_norm"] = normalize_location(j.get("location", ""))
-        changed = True
-    if "quality_score" not in j:
-        j["quality_score"] = None
-        changed = True
-    if "quality_tier" not in j:
-        j["quality_tier"] = ""
-        changed = True
-    if "low_quality" not in j:
-        j["low_quality"] = False
-        changed = True
-    if "category" not in j:
-        j["category"] = "other"
-        changed = True
-    if not j.get("job_id"):
-        key = (j.get("url", "") + j.get("title", "")).encode("utf-8")
-        j["job_id"] = hashlib.sha1(key).hexdigest()[:12]
-        changed = True
-    if "english_friendly" not in j:
-        j["english_friendly"] = True
-        changed = True
-    if "has_direct_link" not in j:
-        url = j.get("url", "")
-        j["has_direct_link"] = bool(url and "zhaopin" not in url and "zhipin.com/zhaopin" not in url)
-        changed = True
-    if "url_type" not in j:
-        url = j.get("url", "")
-        if "job_detail" in url or "jobdetail" in url or "greenhouse" in url or "ashby" in url:
-            j["url_type"] = "direct"
-        else:
-            j["url_type"] = "search"
-        changed = True
-    return changed
+def make_job_id(url: str, title: str) -> str:
+    return hashlib.sha1((url + title).encode()).hexdigest()[:12]
+
+
+def backfill(jobs: list, today_only: bool = False, today: str = None) -> tuple:
+    """Return (modified_count, total_missing_status)."""
+    today = today or date.today().isoformat()
+    modified = 0
+    missing_status = 0
+
+    for j in jobs:
+        if today_only and j.get("scanned_date") != today:
+            continue
+        if "status" not in j:
+            missing_status += 1
+
+        changed = False
+
+        # Status fields
+        for field, default in [
+            ("status", "not_applied"),
+            ("status_date", j.get("scanned_date", today)),
+            ("last_touch_date", j.get("scanned_date", today)),
+        ]:
+            if not j.get(field):
+                j[field] = default
+                changed = True
+
+        # location_norm
+        if not j.get("location_norm"):
+            norm = normalize_location(j.get("location", ""))
+            if norm:
+                j["location_norm"] = norm
+                changed = True
+
+        # Quality fields
+        for field, default in [
+            ("quality_score", None),
+            ("quality_tier", ""),
+            ("low_quality", False),
+            ("category", "other"),
+            ("english_friendly", True),
+            ("has_direct_link", True),
+            ("url_type", "direct"),
+        ]:
+            if field not in j:
+                j[field] = default
+                changed = True
+
+        # job_id
+        if not j.get("job_id"):
+            url = j.get("url", "")
+            title = j.get("title", "")
+            if url or title:
+                j["job_id"] = make_job_id(url, title)
+                changed = True
+
+        if changed:
+            modified += 1
+
+    return modified, missing_status
+
 
 def main():
-    with open(MASTER) as f:
-        master = json.load(f)
-    with open(AGENT) as f:
-        agent = json.load(f)
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--db", default=str(DEFAULT_DB), help="Path to jobs-all.json")
+    ap.add_argument("--today-only", action="store_true",
+                    help="Only backfill records with scanned_date == today")
+    ap.add_argument("--dry-run", action="store_true",
+                    help="Print stats without writing")
+    args = ap.parse_args()
 
-    # Drop US-remote from master today
-    before = len(master)
-    master = [j for j in master if not (j.get("scanned_date") == TODAY and is_us_remote(j.get("location", "")))]
-    dropped_us = before - len(master)
+    db_path = Path(args.db)
+    if not db_path.exists():
+        print(f"ERROR: {db_path} not found", file=sys.stderr)
+        sys.exit(1)
 
-    changed_master = 0
-    for j in master:
-        if j.get("scanned_date") == TODAY:
-            if backfill_record(j):
-                changed_master += 1
+    with open(db_path) as f:
+        jobs = json.load(f)
 
-    changed_agent = 0
-    for j in agent:
-        if j.get("scanned_date") == TODAY:
-            if backfill_record(j):
-                changed_agent += 1
+    modified, missing_status = backfill(jobs, today_only=args.today_only)
 
-    with open(MASTER, "w") as f:
-        json.dump(master, f, indent=2, ensure_ascii=False)
-    with open(AGENT, "w") as f:
-        json.dump(agent, f, indent=2, ensure_ascii=False)
+    print(f"Total records:     {len(jobs)}")
+    print(f"Modified records:  {modified}")
+    print(f"Missing status:    {missing_status}")
 
-    print(f"Master: dropped {dropped_us} US-remote, backfilled {changed_master} records")
-    print(f"Agent: backfilled {changed_agent} records")
+    if args.dry_run:
+        print("DRY RUN — no changes written.")
+        return
+
+    with open(db_path, "w") as f:
+        json.dump(jobs, f, ensure_ascii=False, indent=2)
+    print(f"Wrote {db_path}")
+
 
 if __name__ == "__main__":
     main()

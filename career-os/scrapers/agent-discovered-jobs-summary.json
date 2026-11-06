@@ -1,23 +1,43 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-06",
   "total_new_jobs": 22,
+  "agent_discovered": 3,
+  "master_imported": 19,
   "by_source": {
-    "greenhouse": 13,
-    "builtin": 6,
-    "ashby": 2,
-    "jobsdb": 1
+    "greenhouse-api-coupang": 1,
+    "greenhouse-api-agoda": 1,
+    "greenhouse-api-bybit": 1,
+    "boss-zhilian-websearch": 19
   },
   "by_location": {
-    "Singapore": 13,
-    "Hong Kong": 7,
-    "Tokyo": 2
+    "Taipei, Taiwan": 1,
+    "Bangkok": 1,
+    "Abu Dhabi, UAE; Kuala Lumpur, Malaysia": 1,
+    "Shenzhen": 10,
+    "Guangzhou": 1,
+    "Shanghai": 7,
+    "Hong Kong": 1
   },
   "by_role_type": {
-    "Product Management": 12,
-    "Strategy/Ops": 4,
-    "Growth": 3,
-    "Program Management": 2,
-    "Other": 1
+    "Program/Project Management": 1,
+    "Strategy/Ops": 1,
+    "Product Management": 20
   },
-  "notes": "Filtered out 5 US/Canada-remote records, 1 Head of Product seniority leak, engineering/design/marketing functional roles, and pure-crypto OKX roles. Boss直聘 pre-fetched results yielded 0 new jobs after dedup (all duplicates or sub-floor salaries). Liepin/Indeed/Wellfound yielded 0 actionable jobs."
+  "cleanup_notes": {
+    "us_remote_dropped_from_master": 0,
+    "salary_floor_dropped_from_master": 0,
+    "us_remote_dropped_from_agent": 0,
+    "agent_cross_file_dups": 0,
+    "junior_title_flags": [
+      "深圳GTM助理招聘 @  | 25-50K·15薪"
+    ],
+    "skipped_sources": [
+      "liepin (0 records today)",
+      "indeed-jobsdb (0 records today)",
+      "websearch (0 records today)",
+      "builtin (0 records today)",
+      "wellfound (0 records today)",
+      "ashby (0 records today)"
+    ]
+  }
 }
