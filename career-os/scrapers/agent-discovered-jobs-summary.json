@@ -1,43 +1,27 @@
 {
-  "date": "2026-11-06",
-  "total_new_jobs": 22,
-  "agent_discovered": 3,
-  "master_imported": 19,
+  "scanned_date": "2026-11-09",
+  "total_new": 24,
   "by_source": {
-    "greenhouse-api-coupang": 1,
-    "greenhouse-api-agoda": 1,
-    "greenhouse-api-bybit": 1,
-    "boss-zhilian-websearch": 19
+    "greenhouse": 3,
+    "boss-zhilian-websearch": 19,
+    "jobsdb": 1,
+    "ashby": 1
   },
   "by_location": {
-    "Taipei, Taiwan": 1,
-    "Bangkok": 1,
-    "Abu Dhabi, UAE; Kuala Lumpur, Malaysia": 1,
+    "Hong Kong": 2,
+    "Singapore": 3,
     "Shenzhen": 10,
     "Guangzhou": 1,
     "Shanghai": 7,
-    "Hong Kong": 1
+    "Tokyo": 1
   },
   "by_role_type": {
-    "Program/Project Management": 1,
-    "Strategy/Ops": 1,
-    "Product Management": 20
+    "Strategy/Ops": 2,
+    "Product Management": 21,
+    "Growth": 1
   },
-  "cleanup_notes": {
-    "us_remote_dropped_from_master": 0,
-    "salary_floor_dropped_from_master": 0,
-    "us_remote_dropped_from_agent": 0,
-    "agent_cross_file_dups": 0,
-    "junior_title_flags": [
-      "深圳GTM助理招聘 @  | 25-50K·15薪"
-    ],
-    "skipped_sources": [
-      "liepin (0 records today)",
-      "indeed-jobsdb (0 records today)",
-      "websearch (0 records today)",
-      "builtin (0 records today)",
-      "wellfound (0 records today)",
-      "ashby (0 records today)"
-    ]
-  }
+  "notes": "Post-cleanup summary. Master DB already contained 12 OKX re-posts from morning scan-all (all near-dupes of existing OKX roles, not counted as new). 1 junior flag: 深圳GTM助理招聘 (25-50K). 1 low-quality jobsdb listing page (Product Director Payments, no company/salary). BuiltIn source skipped: all 10 records were listing pages or non-APAC, and BuiltIn source is blocked by scan-all quality gate (Pitfall #16).",
+  "quality_flags": [
+    "深圳GTM助理招聘 | 25-50K·15薪 | junior title (助理)"
+  ]
 }

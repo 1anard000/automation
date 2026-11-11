@@ -25,12 +25,13 @@ from datetime import date
 MASTER_PATH = "/Users/iancolrick/.openclaw/workspace/career-os/OKComputer_职位搜索清单/jobs-all.json"
 
 # (city_substring_in_location, min_top_of_range_K, currency_label)
+# User floor: >=90k RMB/mo mainland, >=60k HKD/mo HK, >=10k SGD/mo SG
 FLOORS = [
-    ("shenzhen", 30, "RMB"),
-    ("shanghai", 30, "RMB"),
-    ("guangzhou", 30, "RMB"),
-    ("beijing", 30, "RMB"),
-    ("hangzhou", 30, "RMB"),
+    ("shenzhen", 90, "RMB"),
+    ("shanghai", 90, "RMB"),
+    ("guangzhou", 90, "RMB"),
+    ("beijing", 90, "RMB"),
+    ("hangzhou", 90, "RMB"),
     ("hong kong", 60, "HKD"),
     ("singapore", 10, "SGD"),
 ]

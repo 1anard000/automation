@@ -67,13 +67,19 @@ def load_scraper_results(scraper_name):
         return json.load(f)
 
 def dedup_key(job):
-    """Generate dedup key from title + company (normalized)."""
+    """Generate dedup key from title + company + location (normalized).
+
+    Location matters: same title+company at different locations (e.g. OKX PM
+    role posted in both HK and SG with different URLs) are DISTINCT jobs.
+    """
     title = job.get("title", "").strip().lower()
     company = job.get("company", "").strip().lower()
+    location = (job.get("location") or job.get("location_norm") or "").strip().lower()
     # Normalize
     title = " ".join(title.split())
     company = " ".join(company.split())
-    return f"{title}||{company}"
+    location = " ".join(location.split())
+    return f"{title}||{company}||{location}"
 
 
 def url_key(job):
