@@ -1,27 +1,21 @@
 {
-  "scanned_date": "2026-11-09",
-  "total_new": 24,
+  "date": "2026-11-13",
+  "total_new_jobs": 18,
   "by_source": {
-    "greenhouse": 3,
-    "boss-zhilian-websearch": 19,
-    "jobsdb": 1,
+    "boss-zhilian-websearch": 17,
     "ashby": 1
   },
   "by_location": {
-    "Hong Kong": 2,
-    "Singapore": 3,
-    "Shenzhen": 10,
+    "Shenzhen": 8,
     "Guangzhou": 1,
     "Shanghai": 7,
-    "Tokyo": 1
+    "Hong Kong": 1,
+    "Tokyo, Japan ": 1
   },
   "by_role_type": {
-    "Strategy/Ops": 2,
-    "Product Management": 21,
-    "Growth": 1
+    "product_director": 4,
+    "product_manager": 12,
+    "strategy": 2
   },
-  "notes": "Post-cleanup summary. Master DB already contained 12 OKX re-posts from morning scan-all (all near-dupes of existing OKX roles, not counted as new). 1 junior flag: 深圳GTM助理招聘 (25-50K). 1 low-quality jobsdb listing page (Product Director Payments, no company/salary). BuiltIn source skipped: all 10 records were listing pages or non-APAC, and BuiltIn source is blocked by scan-all quality gate (Pitfall #16).",
-  "quality_flags": [
-    "深圳GTM助理招聘 | 25-50K·15薪 | junior title (助理)"
-  ]
+  "notes": "Dropped 1 non-APAC Stripe US-remote from master. Dropped 3 low-quality agent records (Liepin junk, junior GTM assistant, low-quality intl biz dev). Morning scan-all already ran; agent-file-only pipeline used."
 }
