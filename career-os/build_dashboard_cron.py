@@ -88,13 +88,11 @@ def main():
                 "GZ": loc_counter.get("GZ", 0),
                 "SH": loc_counter.get("SH", 0),
                 "SG": loc_counter.get("SG", 0),
-                "Other": loc_counter.get("Other", 0),
             },
             "jobs_by_category": {
                 "PM": cat_counter.get("PM", 0),
                 "Strategy": cat_counter.get("Strategy", 0),
                 "Growth": cat_counter.get("Growth", 0),
-                "Other": cat_counter.get("Other", 0),
             },
         },
         "top_5_jobs": top5_out,
