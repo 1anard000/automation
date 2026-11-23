@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-22T22:04:04.559161+00:00",
+  "generated_at": "2026-11-23T22:04:10.696699+00:00",
   "stats": {
-    "total_jobs": 850,
+    "total_jobs": 852,
     "jobs_by_location": {
-      "SZ": 95,
-      "HK": 137,
-      "GZ": 9,
-      "SH": 23,
-      "SG": 216
+      "SZ": 98,
+      "HK": 136,
+      "GZ": 17,
+      "SH": 25,
+      "SG": 215
     },
     "jobs_by_category": {
-      "PM": 335,
-      "Strategy": 88,
-      "Growth": 34
+      "PM": 528,
+      "Strategy": 103,
+      "Growth": 97
     }
   },
   "top_5_jobs": [
@@ -20,50 +20,52 @@
       "title": "Principal Product Manager (Singapore Based)",
       "company": "Agoda",
       "location": "Hong Kong",
-      "category": "general_pm",
       "quality_score": 100,
+      "quality_tier": "A",
+      "role_type": "Product Management",
       "url": "https://hk.linkedin.com/jobs/view/principal-product-manager-singapore-based-at-agoda-4429535801"
     },
     {
       "title": "Head of Communications, APAC",
       "company": "Stripe",
       "location": "Singapore",
-      "category": "general_pm",
       "quality_score": 93,
+      "quality_tier": "A",
+      "role_type": "Other",
       "url": "https://stripe.com/jobs/search?gh_jid=7893199"
     },
     {
       "title": "Senior Integration Reliability Engineer, Technical Operations",
       "company": "Stripe",
       "location": "Singapore",
-      "category": "ops",
       "quality_score": 91,
+      "quality_tier": "A",
+      "role_type": "",
       "url": "https://stripe.com/jobs/search?gh_jid=7457268"
     },
     {
       "title": "Country Manager",
       "company": "Datadog",
       "location": "Tokyo",
-      "category": "gm",
       "quality_score": 90,
+      "quality_tier": "A",
+      "role_type": "General Manager",
       "url": "https://careers.datadoghq.com/detail/7975747/?gh_jid=7975747"
     },
     {
       "title": "Senior Strategy Project Manager, VIP/Institutions",
       "company": "OKX",
-      "location": "Hong Kong",
-      "category": "strategy",
+      "location": "Hong Kong, Hong Kong SAR",
       "quality_score": 90,
+      "quality_tier": "A",
+      "role_type": "Strategy/Ops",
       "url": "https://job-boards.greenhouse.io/okx/jobs/7739163003"
     }
   ],
   "category_counts": {
-    "PM": 335,
-    "Other": 324,
-    "Strategy": 88,
-    "Ops": 56,
-    "Growth": 34,
-    "Fintech": 12,
-    "VC/PE": 1
+    "PM": 528,
+    "Strategy": 103,
+    "Growth": 97,
+    "Other": 124
   }
 }
