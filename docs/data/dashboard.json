@@ -1,82 +1,71 @@
 {
-  "generated_at": "2026-07-17T19:02:11.286981+00:00",
+  "generated_at": "2026-11-23T22:12:23.434175+00:00",
   "stats": {
-    "total_jobs": 1054,
+    "total_jobs": 852,
     "jobs_by_location": {
-      "Other": 325,
-      "SG": 258,
-      "HK": 124,
-      "BKK": 120,
-      "Remote": 117,
-      "SZ": 75,
-      "SH": 31,
-      "GZ": 4
+      "SZ": 98,
+      "HK": 136,
+      "GZ": 17,
+      "SH": 25,
+      "SG": 215
     },
     "jobs_by_category": {
-      "Other": 450,
-      "PM": 383,
-      "Strategy": 147,
-      "Growth": 67,
-      "Fintech": 7
+      "PM": 528,
+      "Strategy": 103,
+      "Growth": 97
     }
   },
-  "top_5_scored_jobs": [
+  "top_5_jobs": [
     {
       "title": "Principal Product Manager (Singapore Based)",
       "company": "Agoda",
       "location": "Hong Kong",
-      "score": 100,
+      "quality_score": 100,
       "quality_tier": "A",
-      "category": "PM",
-      "job_id": "59084d5f315e",
+      "role_type": "Product Management",
       "url": "https://hk.linkedin.com/jobs/view/principal-product-manager-singapore-based-at-agoda-4429535801"
     },
     {
-      "title": "Senior Wealth Management Product Manager (Insurance)",
-      "company": "Bank of China (Hong Kong)",
-      "location": "Hong Kong",
-      "score": 100,
+      "title": "Head of Communications, APAC",
+      "company": "Stripe",
+      "location": "Singapore",
+      "quality_score": 93,
       "quality_tier": "A",
-      "category": "PM",
-      "job_id": "7a29931d08e9",
-      "url": "https://hk.linkedin.com/jobs/view/senior-wealth-management-product-manager-insurance-at-bank-of-china-hong-kong-4427700410"
+      "role_type": "Other",
+      "url": "https://stripe.com/jobs/search?gh_jid=7893199"
     },
     {
-      "title": "Senior Payment Product Manager - LATAM",
-      "company": "Binance",
-      "location": "Hong Kong",
-      "score": 100,
+      "title": "Senior Integration Reliability Engineer, Technical Operations",
+      "company": "Stripe",
+      "location": "Singapore",
+      "quality_score": 91,
       "quality_tier": "A",
-      "category": "Fintech",
-      "job_id": "e77723e3d38e",
-      "url": "https://hk.linkedin.com/jobs/view/senior-payment-product-manager-latam-at-binance-4416774768"
+      "role_type": "",
+      "url": "https://stripe.com/jobs/search?gh_jid=7457268"
     },
     {
-      "title": "Senior Product Manager(Card Issuing)",
-      "company": "Coins.ph",
-      "location": "Hong Kong",
-      "score": 100,
+      "title": "Country Manager",
+      "company": "Datadog",
+      "location": "Tokyo",
+      "quality_score": 90,
       "quality_tier": "A",
-      "category": "Fintech",
-      "job_id": "eb5aa9343b95",
-      "url": "https://hk.linkedin.com/jobs/view/senior-product-manager-card-issuing-at-coins-ph-4428395652"
+      "role_type": "General Manager",
+      "url": "https://careers.datadoghq.com/detail/7975747/?gh_jid=7975747"
     },
     {
-      "title": "Senior Product Manager - Derivatives Risk",
-      "company": "Futu Holdings Limited",
-      "location": "Hong Kong",
-      "score": 100,
+      "title": "Senior Strategy Project Manager, VIP/Institutions",
+      "company": "OKX",
+      "location": "Hong Kong, Hong Kong SAR",
+      "quality_score": 90,
       "quality_tier": "A",
-      "category": "PM",
-      "job_id": "1e02dbf6e553",
-      "url": "https://hk.linkedin.com/jobs/view/senior-product-manager-derivatives-risk-at-futu-holdings-limited-4426473257"
+      "role_type": "Strategy/Ops",
+      "url": "https://job-boards.greenhouse.io/okx/jobs/7739163003"
     }
   ],
   "category_counts": {
-    "Other": 450,
-    "PM": 383,
-    "Strategy": 147,
-    "Growth": 67,
-    "Fintech": 7
+    "PM": 528,
+    "Strategy": 103,
+    "Growth": 97,
+    "Other": 124
   }
 }
