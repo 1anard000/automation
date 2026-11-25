@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-24T22:03:15.450353+00:00",
+  "generated_at": "2026-11-25T22:02:23.467311+00:00",
   "stats": {
-    "total_jobs": 829,
+    "total_jobs": 831,
     "jobs_by_location": {
       "SZ": 84,
       "HK": 135,
@@ -10,7 +10,7 @@
       "SG": 215
     },
     "jobs_by_category": {
-      "PM": 560,
+      "PM": 562,
       "Strategy": 93,
       "Growth": 48
     }
@@ -78,7 +78,7 @@
     }
   ],
   "category_counts": {
-    "PM": 560,
+    "PM": 562,
     "Strategy": 93,
     "Growth": 48,
     "Other": 128
